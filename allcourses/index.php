@@ -55,7 +55,7 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-      <a href="../../../index.php" class="navbar-brand d-flex align-items-center">
+      <a href="https://eduqii.github.io/allcourses/" class="navbar-brand d-flex align-items-center">
         <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>--> 
         <strong><i class="fas fa-home"></i> Edu<span style="color: red;">qii</span></strong>
       </a>
@@ -68,7 +68,7 @@
 
 <main>
 
-  <section class="py-5 text-center container" >
+  <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">All Courses</h1>
@@ -81,13 +81,14 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light" id="#top">
+  <div class="album py-5 bg-light">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
+       <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="images/english.jpg">
+            <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
 
             <div class="card-body">
               <h5 class="card-title">ENGLISH LANGUAGE</h5>
@@ -159,7 +160,8 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="images/creativeArt.jpg">
+            <!--<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
 
             <div class="card-body">
               <h5 class="card-title">CREATIVE ART AND DESIGN</h5>
@@ -328,7 +330,7 @@ var today = new Date();
   var daylist = ["Sunday &#x1F31E;","Monday &#9997; ","Tuesday &#128525;","Wednesday &#8986;","Thursday &#9889;","Friday &#128151;","Saturday &#10167;"];
   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  var dateTime = date+' | '+time;
+  var dateTime = date+' '+time;
    
   document.getElementById("displayDateTime").innerHTML = dateTime + ' <br> Day :- ' + daylist[day];
 </script></small>
@@ -345,7 +347,7 @@ var today = new Date();
 <footer class="text-muted py-5">
   <div class="container">
     <p class="float-end mb-1">
-      <a href="#top">Back to top</a>
+      <a href="#">Back to top</a>
     </p>
     <p class="mb-1"><span class="text-muted">&copy;copyright 2020 Eduqii. Developed with &#128151; by the eduqii group.  Powered by Ben IT Solutions. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate">Donate</button></span></p>
     <p class="mb-0">New to Eduqii? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>

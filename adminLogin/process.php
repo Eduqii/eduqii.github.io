@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
 		$result=mysqli_query($con,$query);
 		if (mysqli_fetch_assoc($result)) {
 			$_SESSION['admin']=$_POST['username'];
-			header("location:https://eduqii.github.io/eduqiiAdmin/dashboard/index.html");
+			header("location: https://eduqii.github.io/eduqiiAdmin/dashboard/index.html");
 		}
 		else {
 			header("location:index.php?Invalid= Please enter correct username and password");

@@ -1,6 +1,4 @@
 
-
-
 quizTwentyTwnty = e => {
         return window.location.assign('2020/index.php');
       }

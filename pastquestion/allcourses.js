@@ -3,7 +3,7 @@
 
 // Mathematics
  openWindowMaths = e => {
-        return window.location.assign('https://eduqii.org/courses/maths/mathscalculator/index.php')
+        return window.location.assign('https://eduqii.org/pastquestion/courses/maths/mathscalculator/index.php')
       }
  openWindowMathspastquestions = e => {
         return window.open('https://eduqii.org/pastquestion/courses/maths/mathspastquestions/years/index.php', '_blank')
@@ -15,7 +15,7 @@ openWindowSciencepastquestions = e => {
         return window.open('https://eduqii.org/pastquestion/courses/science/sciencepastquestions/years/index.php','_blank')
       }
 openWindowScientificCalc = e => {
-        return window.location.assign('https://eduqii.org/courses/science/scientificcalculator/index.php')
+        return window.location.assign('https://eduqii.org/pastquestion/courses/science/scientificcalculator/index.php')
       }
 
 

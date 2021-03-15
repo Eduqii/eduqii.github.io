@@ -3,77 +3,71 @@
 
 // Mathematics
  openWindowMaths = e => {
-        return window.location.assign('courses/maths/mathscalculator/index.php')
+        return window.location.assign('https://eduqii.org/pastquestion/courses/maths/mathscalculator/index.php')
       }
- openWindowMathsTextBook = e => {
-        return window.open('courses/maths/mathstextbook/index.php', '_blank')
+ openWindowMathspastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/maths/mathspastquestions/years/index.php', '_blank')
       }
 
 
    //Science
-openWindowScienceTextBook = e => {
-        return window.open('courses/science/sciencetextbook/index.php','_blank')
+openWindowSciencepastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/science/sciencepastquestions/years/index.php','_blank')
       }
 openWindowScientificCalc = e => {
-        return window.location.assign('courses/science/scientificcalculator/index.php')
+        return window.location.assign('https://eduqii.org/pastquestion/courses/science/scientificcalculator/index.php')
       }
 
 
 //Computing
-openWindowComTextBook = e => {
-        return window.open('courses/computing/comtextbook/index.php','_blank')
+openWindowCompastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/computing/compastquestions/years/index.php','_blank')
       }
-// openWindowIctTextBook = e => {
-   //     return window.location.assign('courses/maths/mathstextbook/index.php')
+// openWindowIctpastquestions = e => {
+   //     return window.location.assign('https://eduqii.org/courses/maths/mathspastquestions/years/index.php')
    //   }
 
 
  // English Language
- openWindowEnglishTextBook = e => {
-        return window.open('courses/english/englishtextbook/index.php','_blank')
+ openWindowEnglishpastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/english/englishpastquestions/years/index.php','_blank')
       }     
- openWindowEnglishTextBook = e => {
-        return window.open('courses/english/englishtextbook/index.php','_blank')
-      } 
 
       // Creative Art and Design
- openWindowCadTextBook = e => {
-        return window.open('courses/cad/cadtextbook/index.php','_blank')
+ openWindowCadpastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/cad/cadpastquestions/years/index.php','_blank')
       }     
- openWindowEnglishTextBook = e => {
-        return window.open('courses/english/englishtextbook/index.php','_blank')
-      } 
 
 //French
-openWindowFrenchTextBook = e => {
-        return window.open('courses/french/frenchtextbook/index.php','_blank')
+openWindowFrenchpastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/french/frenchpastquestions/years/index.php','_blank')
       }
 
       //Religious & Moral Education
-openWindowRmeTextBook = e => {
-        return window.open('courses/rme/rmetextbook/index.php','_blank')  
+openWindowRmepastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/rme/rmepastquestions/years/index.php','_blank')  
       }
 
 //Physical and Health Education
-openWindowPheTextBook = e => {
-        return window.open('courses/phe/phetextbook/index.php','_blank')  
+openWindowPhepastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/phe/phepastquestions/years/index.php','_blank')  
       }
 
 //Arabic
-openWindowArabicTextBook = e => {
-        return window.open('courses/Arabic/Arabictextbook/index.php','_blank')  
+openWindowArabicpastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/Arabic/Arabicpastquestions/years/index.php','_blank')  
       }
 
 //Our World Our People
-openWindowOpTextBook = e => {
-        return window.open('courses/ourWorldOurPeople/ourWorldOurPeopletextbook/index.php','_blank') 
+openWindowOppastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/ourWorldOurPeople/ourWorldOurPeoplepastquestions/years/index.php','_blank') 
       }
 
       //Social Studies
-openWindowsocialTextBook = e => {
-        return window.open('courses/socialstudies/sstextbook/index.php','_blank') 
+openWindowsocialpastquestions = e => {
+        return window.open('https://eduqii.org/pastquestion/courses/socialstudies/sspastquestions/years/index.php','_blank') 
       }
 
-// openWindowIctTextBook = e => {
-   //     return window.location.assign('courses/maths/mathstextbook/index.php')
+// openWindowIctpastquestions = e => {
+   //     return window.location.assign('https://eduqii.org/courses/maths/mathspastquestions/years/index.php')
    //   }

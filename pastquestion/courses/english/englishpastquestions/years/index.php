@@ -31,7 +31,9 @@
       }
     </style>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    
+    <script type="text/javascript">
+      alert("the e-textbook is still under construction ")
+    </script>
   </head>
 
   <body>
@@ -57,7 +59,7 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-      <a href="../../englishtextbook/index.php" class="navbar-brand d-flex align-items-center">
+      <a href="#" onclick="eEnglishTextbook(event)" class="navbar-brand d-flex align-items-center">
         <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>-->
         <strong><i class="fas fa-home"></i> Edu<span style="color: red;">qii</span></strong>
       </a>
@@ -315,8 +317,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -333,8 +335,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandSeven(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandSeven(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandSeven(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandSeven(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -351,8 +353,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandSix(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandSix(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandSix(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandSix(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -369,8 +371,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandFive(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandFive(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandFive(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandFive(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -387,8 +389,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandFour(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandFour(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -405,8 +407,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandThree(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandThree(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -423,8 +425,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandTwo(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandTwo(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -441,8 +443,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandOne(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandOne(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -459,8 +461,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousand(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousand(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -477,8 +479,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyNine(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyNine(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -495,8 +497,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyEight(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyEight(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -513,8 +515,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetySeven(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetySeven(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -531,8 +533,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetySix(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetySix(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -549,8 +551,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyFive(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyFive(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -567,8 +569,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyFour(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyFour(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -585,8 +587,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyThree(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyThree(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -603,8 +605,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyTwo(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyTwo(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -621,8 +623,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyOne(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyOne(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>
@@ -639,8 +641,8 @@
               <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizNinetyNinety(event)">Objectives</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectNinetyNinety(event)">Section B</button>
+                  <!--<button type="button" class="btn btn-sm btn-outline-secondary" onclick="quizTwoThousandEight(event)">Objectives</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="sectTwoThousandEight(event)">Section B</button>-->
                 </div>
                 <small class="text-muted">2 hrs</small>
               </div>

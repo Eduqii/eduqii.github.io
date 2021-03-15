@@ -2,127 +2,127 @@
 
 //objectives 
 quizTwentyTwnty = e => {
-        return window.location.assign('2020/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyNineteen = e => {
-        return window.location.assign('2019/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyEighteen = e => {
-        return window.location.assign('2018/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentySeventeen = e => {
-        return window.location.assign('2017/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentySixteen = e => {
-        return window.location.assign('2016/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyFifteen = e => {
-        return window.location.assign('2015/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyFourteen = e => {
-        return window.location.assign('2014/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyThirteen = e => {
-        return window.location.assign('2013/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyTwelve = e => {
-        return window.location.assign('2012/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyEleven = e => {
-        return window.location.assign('2011/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwentyTen = e => {
-        return window.location.assign('2010/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandNine = e => {
-        return window.location.assign('2009/index.php');
+        alert("This quiz is still under construction");
       }
      
 quizTwoThousandEight = e => {
-        return window.location.assign('2008/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandSeven = e => {
-        return window.location.assign('2007/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandSix = e => {
-        return window.location.assign('2006/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandFive = e => {
-        return window.location.assign('2005/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandFour = e => {
-        return window.location.assign('2004/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandThree = e => {
-        return window.location.assign('2003/index.php');
+        alert("This quiz is still under construction");
       }
       
 quizTwoThousandTwo = e => {
-        return window.location.assign('2002/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousandOne = e => {
-        return window.location.assign('2001/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizTwoThousand = e => {
-        return window.location.assign('2000/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyNine = e => {
-        return window.location.assign('1999/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyEight = e => {
-        return window.location.assign('1998/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetySeven = e => {
-        return window.location.assign('1997/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetySix = e => {
-        return window.location.assign('1996/index.php');
+        alert("This quiz is still under construction");
       }
       
 quizNinetyFive = e => {
-        return window.location.assign('1995/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyFour = e => {
-        return window.location.assign('1994/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyThree = e => {
-        return window.location.assign('1993/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyTwo = e => {
-        return window.location.assign('1992/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyOne = e => {
-        return window.location.assign('1991/index.php');
+        alert("This quiz is still under construction");
       }
 
 quizNinetyNinety = e => {
-        return window.location.assign('1990/index.php');
+        alert("This quiz is still under construction");
       }
 
 //section b

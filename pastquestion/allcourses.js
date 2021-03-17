@@ -15,7 +15,7 @@ openWindowSciencepastquestions = e => {
         return window.open('https://eduqii.org/pastquestion/courses/science/sciencepastquestions/years/index.php','_blank')
       }
 openWindowScientificCalc = e => {
-        return window.location.assign('https://eduqii.org/pastquestion/courses/science/scientificcalculator/index.php')
+        return window.location.assign('https://eduqii.org/pastquestion/courses/science/scientificcalculator/index.php','_blank')
       }
 
 

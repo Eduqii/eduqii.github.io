@@ -7,7 +7,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
     <link rel="shortcut icon" href="../../../../../../images/favicon.ico">
-    <title>Quiz | B.E.C.E 2016 v2.0</title>
+    <title>Quiz | B.E.C.E 1990 v2.0</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/grid/">
 
@@ -204,9 +204,15 @@
 -->
   <div class="container" id="containers">
 
-    <center><h2 class="mt-4">2016 BECE English Language Past Questions – Paper Two</h2></center>
-    <center><h4>PART A <br />
-    ESSAY WRITING</h4></center>
+    <center><h2 class="mt-4">2019 Social Studies Past Questions – Paper Two</h2></center>
+    <center><h4><i>Answer three questions only, choosing one question from each section.
+Credit will be given for clarity of expression and orderly presentation of material
+All questions carry equal marks</i>
+<center>PART I <br />
+   MAP SKILLS AND ENVIRONMENT <br />
+                                Answer one question only from this part.
+</h4></center>
+
     <p>1. Write a letter to your friend describing how you saved a child who was in danger.<br /><br />
 
       2. Write an article for publication in your school magazine on the topic:<br />

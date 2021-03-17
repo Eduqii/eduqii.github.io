@@ -3,7 +3,7 @@
 
 // Mathematics
  openWindowMaths = e => {
-        return window.location.assign('https://eduqii.org/allcourses/courses/maths/mathscalculator/index.php')
+        return window.open('https://eduqii.org/allcourses/courses/maths/mathscalculator/index.php','_blank')
       }
  openWindowMathspastquestions = e => {
         return window.open('https://eduqii.org/allcourses/courses/maths/mathspastquestions/index.php', '_blank')

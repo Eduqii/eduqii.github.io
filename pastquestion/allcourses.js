@@ -30,7 +30,7 @@ openWindowCompastquestions = e => {
 
  // English Language
  openWindowEnglishpastquestions = e => {
-        return window.open('https://eduqii.org/pastquestion/courses/english/englishpastquestions/years/index.php','_blank')
+        return window.open('https://eduqii.org/pastquestion/courses/english/englishpastquestions/years/index.html','_blank')
       }     
 
       // Creative Art and Design

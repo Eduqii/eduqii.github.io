@@ -3,10 +3,10 @@
 
 // Mathematics
  openWindowMaths = e => {
-        return window.open('https://eduqii.org/pastquestion/courses/maths/mathscalculator/index.php','_blank')
+        return window.open('courses/maths/mathscalculator/index.php','_blank')
       }
  openWindowMathspastquestions = e => {
-        return window.open('https://eduqii.org/pastquestion/courses/maths/mathspastquestions/years/index.php', '_blank')
+        return window.open('courses/maths/mathspastquestions/years/index.php', '_blank')
       }
 
 
@@ -30,7 +30,7 @@ openWindowCompastquestions = e => {
 
  // English Language
  openWindowEnglishpastquestions = e => {
-        return window.open('https://eduqii.org/pastquestion/courses/english/englishpastquestions/years/index.php','_blank')
+        return window.open('courses/english/englishpastquestions/years/index.php','_blank')
       }     
 
       // Creative Art and Design

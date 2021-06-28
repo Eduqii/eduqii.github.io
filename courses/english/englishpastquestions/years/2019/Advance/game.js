@@ -150,7 +150,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence. It is i͟m͟p͟o͟l͟i͟t͟e͟ to talk loudly in the presence of the elderly.',		
+  	question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n It is i͟m͟p͟o͟l͟i͟t͟e͟ to talk loudly in the presence of the elderly.',		
   	choice1:'incorrect',
 	choice2:  'improper',
 	choice3:  'unwise',

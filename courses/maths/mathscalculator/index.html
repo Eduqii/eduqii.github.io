@@ -58,30 +58,30 @@
   	<!-- start of rectangle -->
      <h1>Rectangle</h1>      
     <div ng-app ng-init="rlength=0">
- <p>Length: <input type="text" ng-model="rlength"></p>
+ <p>Length: <input type="number" ng-model="rlength"></p>
  <div ng-app ng-init="width=0">
- <p>Width: <input type="text" ng-model="width"></p>
- <!-- <p>Area of rectangle: {{ rlength * width }}</p> -->
+ <p>Width: <input type="number" ng-model="width"></p>
+ <p>Area of rectangle: {{ rlength * width }}</p>
  <p>Perimeter of a rectangle: {{ 2 * (rlength + width) }}</p>
 
 <!--start of square -->
  <h1>Square</h1>      
     <div ng-app ng-init="slength=0">
- <p>Length: <input type="text" ng-model="slength"></p>
+ <p>Length: <input type="number" ng-model="slength"></p>
  <p>Area of a square: {{ slength * slength }}</p>
  <p>Perimeter of a square: {{ 2(slength + slength) }}</p>
 
 <!-- start of a circle -->
  <h1>Circle</h1>      
     <div ng-app ng-init="radius=0">
- <p>Radius: <input type="text" ng-model="radius"></p>
+ <p>Radius: <input type="number" ng-model="radius"></p>
  <p>Area of a circle: {{ (22/7) * radius * radius }}</p>
  <p>Circumference of a cirle: {{ 2 * (22/7) * radius }}</p>
 
  <!-- start of triangle -->
  <h1>Triangle</h1>      
     <div ng-app ng-init="tLength=0">
- <p>Length: <input type="text" ng-model="tLength"></p>
+ <p>Length: <input type="number" ng-model="tLength"></p>
  <p>Area of a triangle: {{ tLength * tLength * tLength }}</p>
 
 </div>

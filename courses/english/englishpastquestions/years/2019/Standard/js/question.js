@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-  	question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'One of the bulls _____ from the herd.',
+  	question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '<b>' + '<br />' + '<br />' + 'One of the bulls _____ from the herd.',
   	options:['have been strayed',
 			 'has been strayed',
 			 'have strayed',

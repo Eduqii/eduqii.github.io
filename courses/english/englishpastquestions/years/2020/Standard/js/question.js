@@ -4,13 +4,9 @@
 const quiz = [
   {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence. ' + '</b>' + '<br />' + '<br />' + ' He is _____poor that he cannot pay his bills.',
-
 options: ['so',
-
  'too',
-
  'very',
-
  'rather'],
 answer: 0
 },

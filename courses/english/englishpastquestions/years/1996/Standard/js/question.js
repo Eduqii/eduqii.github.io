@@ -3,355 +3,393 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'According to the passage, Mr Mensah was determined to ………..',
+options: ['find the trouble makers. ',
+'write on the board.',
+ 'insult the class.',
+ 'talk to the three big boys.'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'The children giggled and murmured because ………….',
+options: ['Mr Mensah turned to write on the board.',
+'they thought Mr Mensah was funny.',
+ 'of what they saw in the magazine.',
+ 'the boy near the window threw the magazine away.'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'The boys threw the magazine away because ………..',
+options: ['they were murmuring and giggling',
+'the window was open',
+ 'the teacher turned quickly',
+ 'they did not want the teacher to see it.'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'The teacher found the magazine because …………',
+options: ['it was thrown onto the veranda',
+'of his many years of teaching experience ',
+ 'he walked quickly to the back of the class ',
+ 'the children gave it to him'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'The expression have reared their ugly heads in the passage means have become unpleasantly ………..',
+options: ['common',
+'funny',
+ 'troublesome',
+ 'ugly'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'The class was very quiet when suddenly Mr Mensah heard a giggle from the back of the classroom. Of late he has observed that giggling and murmuring have reared their ugly heads in the class. This time he was determined to find the cause of this naughty behaviour and discipline the culprits.' +
+'Pretending not to have heard the noise, he moved to the blackboard as if to write something on it but in reality to set a trap. Immediately the giggling and murmuring resumed, he turned and spotted three big boys at the back of the class chattering. His turning was so quick that he caught them right in the act. He also saw one of the boys passing on a magazine to the boy next to him.' +
+'With the speed of lightning, Mr Mensah got there, asked the three boys to stand up and then searched them in order to seize the magazine. Smart though he was, the boys were even smarter, for the boy sitting next to the window had thrown the magazine onto the veranda. After a thorough search Mr Mensah nearly gave up. It was, perhaps, an exercise book he had seen and not a magazine. However, his long years of teaching' +
+'experience suggested to him that the boys could have thrown the magazine outside. When he looked through the window, lo and behold, there lay the magazine! He retrieved it, flipped through it and saw that it was full of obscenities. Mr Mensah fumed.' + '</i>' + '<br />' + '<br />' + 
+'The word fumed in the passage means ……….',
+options: ['exclaimed',
+'left the room',
+ 'smoked',
+ 'became very angry'],
+answer: 3
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Kwadwo‟s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.' + 
+'“The ceremony will start at 5:30 a.m.”, Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 a.m., when the ceremony was about to begin, there were about seventy people already in the house.' +
+'“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.' +
+'The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some of the gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong, alias Koo Kra” .' + '</i>' + '<br />' + '<br />' + 'The people gathered in order to ……',
+options: ['settle a serious case',
+'drink gin',
+ 'witness a ceremony',
+ 'hear Mr Aboagye'],
+answer: 2
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Kwadwo‟s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.' + 
+'“The ceremony will start at 5:30 a.m.”, Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 a.m., when the ceremony was about to begin, there were about seventy people already in the house.' +
+'“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.' +
+'The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some of the gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong, alias Koo Kra” .' + '</i>' + '<br />' + '<br />' + 'The expression of all shapes and sizes tells us the pieces of furniture were …………..',
+options: ['big',
+'long',
+ 'measured differently',
+ 'of different types'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Kwadwo‟s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.' + 
+'“The ceremony will start at 5:30 a.m.”, Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 a.m., when the ceremony was about to begin, there were about seventy people already in the house.' +
+'“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.' +
+'The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some of the gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong, alias Koo Kra” .' + '</i>' + '<br />' + '<br />' + 'Aboagye was a ………………',
+options: ['teacher',
+'lawyer',
+ 'counsellor',
+ 'trader'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Kwadwo‟s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.' + 
+'“The ceremony will start at 5:30 a.m.”, Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 a.m., when the ceremony was about to begin, there were about seventy people already in the house.' +
+'“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.' +
+'The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some of the gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong, alias Koo Kra” .' + '</i>' + '<br />' + '<br />' + 'The word ' + '<i>' + 'grand' + '</i>' + ' means….',
+options: ['smooth ',
+'solemn ',
+ 'happy ',
+ 'noisy'],
+answer: 2
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Kwadwo‟s naming ceremony on the fifteenth day was a grand occasion to which everyone at Elmina had come. Aboagye had specifically invited only the three elders but over three hundred people had come to the ceremony without any invitation.' + 
+'“The ceremony will start at 5:30 a.m.”, Aboagye told everyone who passed his shop the previous day. They in turn went and told others and at 5 a.m., when the ceremony was about to begin, there were about seventy people already in the house.' +
+'“Will you bring chairs from the rooms?” Aboagye requested the young ones among the guests. They entered every room in the house and brought out chairs and benches of all shapes and sizes. They were placed in a circle with the three elders sitting in the centre. “Where is the child? The ceremony should be completed before the sun rises”. One of them said.' +
+'The mother soon brought the two-week old baby. Twelve calabashes scrubbed the previous day were brought. They looked white and dry. The old man took one and poured some of the gin into it. He raised the head of the child and dipped his finger into the gin. He turned and asked the second elder sitting next to him, “Have you got the name?” “Agyepong, alias Koo Kra” .' + '</i>' + '<br />' + '<br />' + 'Which of the following is not true according to the passage?',
+options: ['The ceremony must be performed before sunrise',
+'The elder dipped the head of the child into the calabash',
+ 'The first elder did not know the name of the child',
+ 'The ceremony was well attended.'],
+answer: 1
+},
+{
+
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The thieves who raided the house last night have been ' + '<u>' + 'rounded up.' + '</u>',
+options: ['killed ',
+'beaten ',
+ 'arrested',
+ 'wounded'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'When you come across a new word ' + '<u>' + 'look it up' + '</u>' + ' in a dictionary.',
+options: ['examine it',
+'observe it',
+ 'find the meaning',
+ 'record the meaning'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The radio won‟t talk because it is ' + '<u>' + 'defective.' + '</u>',
+options: ['dirty',
+'broken ',
+ 'faulty ',
+ 'tuned'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Our team was ' + '<u>' + 'eliminated' + '</u>' + ' at the semi-final stage.',
+options: ['forgotten ',
+'kicked out ',
+ 'wiped off ',
+ 'promoted'],
+answer: 2
+},
+{
+
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'Tony ' + '<u>' + 'held his tongue' + '</u>' + ' for an hour before speaking.' + '<br />' + ' This means that Tony',
+options: ['was angry.',
+'was happy',
+ 'smiled for a while',
+ 'kept quiet'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'The boy, reluctant to go on the errand, walked ' + '<u>' + 'at a snail‟s pace.' + '</u>' + ' This means that the boy walked ……….',
+options: ['carefully',
+'slowly',
+ 'noisily',
+ 'carelessly'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'It was a ' + '<u>' + 'red-letter' + '</u>' + ' day. This means it was a ……………',
+options: ['day I got a red letter',
+'day I was sad',
+ 'memorable day',
+ 'real day'],
+answer: 2
+},
+{
+
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'I have ' + '<u>' + 'a bone to pick' + '</u>' + ' with my prefect for reporting me. This means …………',
+options: ['the prefect and I are going to chat',
+'I have to report the prefect',
+ 'I have to take the bone to the prefect',
+ 'I have a quarrel with the prefect.'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'His failure in the examination came ' + '<u>' + 'out of the blue.' + '</u>' + ' This means his failure was',
+options: ['destined',
+'obvious',
+ 'surprising',
+ 'sent from the blue'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words ' + '</b>' + '<br />' + '<br />' + 'Efua behaves like ' + '<u>' + 'a fish out of water' + '</u>' + ' among boys. This means Efua …………….among boys.',
+options: ['breathes heavily',
+'feels uncomfortable',
+ 'swims better',
+ 'looks quite happy'],
+answer: 1
+},
+{ 
+
+
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'These fruits are ' + '<u>' + 'stale' + '</u>' + '; please take them away.',
+options: ['juicy ',
+'sour ',
+ 'fresh ',
+ 'nice'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Moses is on a ' + '<u>' + 'temporary' + '</u>' + ' appointment.',
+options: ['daily',
+'permanent',
+ 'probationary',
+ 'weekly'],
+answer: 1
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The beggar ' + '<u>' + 'vanished' + '</u>' + ' when he saw the policeman.',
+options: ['showed ',
+'defected ',
+ 'jumped',
+ 'appeared'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The taxi driver drove ' + '<u>' + 'recklessly' + '</u>' + ' throughout the journey.',
+options: ['speedily',
+'carefully',
+ 'noisily',
+ 'leisurely'],
+answer: 1
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Those machines are not ' + '<u>' + 'genuine' + '</u>' + ' brands.',
+options: ['fine',
+'tested',
+ 'fake',
+ 'new'],
+answer: 2
+},
+{
+
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I am free to sleep now, I ……..my work.',
+options: ['completed',
+'do complete',
+ 'have completed',
+ 'complete'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'After Roderick ……….the dress, he looked round for a pair of shoes that would match it.',
+options: ['has bought',
+'is buying',
+ 'had bought',
+ 'was buying'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I saw him while he …………the cloth.',
+options: ['is folding',
+'has been folding',
+ 'was folding',
+ 'had been folding'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You can‟t eat all, ………?',
+options: ['can‟t you',
+'do you ',
+ 'can you ',
+ 'don‟t you'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Not only was she pretty …………intelligent.',
+options: ['or',
+'nor',
+ 'but also',
+ 'and also'],
+answer: 2
+},
+{
+
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Neither the headmaster nor his assistant ……….today.',
+options: ['is working',
+'do work',
+ 'have worked',
+ 'are working'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The antelope ……..when the hunter fired.',
+options: ['is eating ',
+'is eaten ',
+ 'was ate',
+ 'was eating'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'There were ………..cars at the beach.',
+options: ['plenty ',
+'most ',
+ 'much ',
+ 'many'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Lucy is the ……….beautiful girl in her class.',
+options: ['much',
+'very much ',
+ 'very more ',
+ 'most'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He is …………….to fight with a fool.',
+options: ['too wise a man ',
+'too a wise man ',
+ 'a too wise man ',
+ 'a man wise too'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Mantey and Kofi shook hands with ………….',
+options: ['each other',
+'each one',
+ 'one another',
+ 'themselves'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The school organised a …………..art exhibition.',
+options: ['two days ',
+'two day ',
+ 'two-day ',
+ 'two-days'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We told the stranger we would put him …………if he wanted.',
+options: ['down',
+'up ',
+ 'on ',
+ 'over'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br/ >' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'In wrestling, it is not wise to take ……..someone twice your size.',
+options: ['off ',
+'in ',
+ 'on',
+ 'over'],
+answer: 2
+}
 ]

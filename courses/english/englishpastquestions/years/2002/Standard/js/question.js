@@ -3,355 +3,381 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam got up early that morning because he …..',
+options: ['was very happy',
+ 'was anxious to go to his new school',
+ 'would never forget that day',
+ 'was woken up by his father'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + '  Antobam arrived at his new school at half past ……….',
+options: ['ten',
+ 'eleven',
+ 'twelve',
+ 'two'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' The senior boys made Antobam carry his boxes because they …………',
+options: ['welcomed his father',
+ 'were following tradition',
+ 'thought he was strong',
+ 'tried to seize his provisions'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Arduous in the passage means',
+options: ['strange',
+ 'new',
+ 'additional',
+ 'difficult'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam‟s father left the school ……',
+options: ['a happy man',
+ 'crying for his son',
+ 'a worried man',
+ 'promising to come back'],
+answer: 2
+},
+{
+
+
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'School leavers migrate to the cities and towns to …….',
+options: ['seek enjoyment',
+ 'look for work',
+ 'look for amenities',
+ 'continue their education'],
+answer: 1
+},
+{
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'One of the results of the movement of the youth in the rural areas is that the',
+options: ['towns are overcrowded',
+ 'rural areas lack money',
+ 'youth are greatly disappointed',
+ 'rural areas lose their people'],
+answer: 3
+},
+{
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'White-collar jobs as used in the passage means ………',
+options: ['working in the cities',
+ 'working in offices',
+ 'wearing white-collar shirts',
+ 'working for white men'],
+answer: 1
+},
+{
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'The word snatch means ……….',
+options: ['carry ',
+ 'steal ',
+ 'push',
+ 'damage'],
+answer: 1
+},
+{
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'When the youth come into the cities ………',
+options: ['there is over population ',
+ 'amenities are provided ',
+ 'jobs are created',
+ 'they become very happy'],
+answer: 0
+},
+{
+
+question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
+'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
+'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
+'When the youth remain in the rural areas they can help produce ………',
+options: ['electricity',
+ 'food',
+ 'libraries',
+ 'water'],
+answer: 1
+},
+{
+//SECTION B
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'James was so wicked that all his mates ' + '<u>' + 'abhorred' + '</u>' + ' him.',
+options: ['dismissed',
+ 'beat',
+ 'hated',
+ 'ignored'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The students listened to the headmaster with ' + '<u>' + 'rapt' + '</u>' + ' attention.',
+options: ['true',
+ 'equal',
+ 'undivided',
+ 'single'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Sam was appointed the office boy because of his ' + '<u>' + 'faithfulness.' + '</u>',
+options: ['honesty',
+ 'cleverness ',
+ 'punctuality ',
+ 'neatness'],
+answer: 0
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'We were taught that banks give ' + '<u>' + 'credit' + '</u>' + '  to needy businessmen.',
+options: ['instalments',
+ 'debits',
+ 'transfers',
+ 'loans'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Most men normally do not wear ' + '<u>' + 'costly' + '</u>' + ' jewellery.',
+options: ['good',
+ 'expensive',
+ 'shiny',
+ 'new'],
+answer: 1
+},
+{
+//SECTION C
+
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'The wall clock in the assembly hall is a ' + '<u>' + 'white elephant.' + '</u>' + '\n This means that the clock',
+options: ['does not work accurately',
+ 'is very big',
+ 'does not work any longer',
+ 'is very strong'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His clothes are always ' + '<u>' + 'out of date. ' + '</u>' + ' This means that his clothes are …………',
+options: ['torn',
+ 'too tight',
+ 'faded',
+ 'old-fashioned'],
+answer: 3
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'When it comes to honesty, Kweku is the odd one out. This means that Kweku',
+options: ['is always absent',
+ 'does not tell the truth',
+ 'does not behave normally',
+ 'is very tricky'],
+answer: 1
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'I stopped going out with Joe because he is ' + '<u>' + 'light-fingered.' + '</u>' + '\n This means that Joe is a',
+options: ['lazy person',
+ 'liar',
+ 'thief',
+ 'dishonest friend'],
+answer: 2
+},
+{
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'The manager‟s strange behaviour made the workers ' + '<u>' + 'smell a rat.' + '</u>' + ' This means that the workers became..…',
+options: ['rude',
+ 'discouraged',
+ 'disappointed',
+ 'suspicious'],
+answer: 3
+},
+{
+//SECTION D
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'My former headmaster has ' + '<u>' + 'consented' + '</u>' + ' to be my referee.',
+options: ['promised ',
+ 'planned ',
+ 'decided',
+ 'refused'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The suspect was ' + '<u>' + 'guilty.' + '</u>',
+options: ['free',
+ 'innocent',
+ 'discharged',
+ 'imprisoned'],
+answer: 1
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'When school starts the national flag is ' + '<u>' + 'hoisted.' + '</u>',
+options: ['lowered ',
+ 'dropped ',
+ 'saluted ',
+ 'hung'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'We could see that mother was very proud of her ' + '<u>' + 'dark' + '</u>' + ' complexion.',
+options: ['natural',
+ 'clean',
+ 'fair',
+ 'attractive'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The car needs a hard ' + '<u>' + 'push' + '</u>' + ' in order to start.',
+options: ['drag ',
+ 'tow ',
+ 'force',
+ 'pull'],
+answer: 3
+},
+{
+//SECTION E
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The doctor advised the patient to stay away ……..alcohol.',
+options: ['for',
+ 'on',
+ 'from',
+ 'with'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have not paid your fees, ……..?',
+options: ['will you',
+ 'won‟t you ',
+ 'hadn‟t you ',
+ 'have you'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'His pair of trousers ……..torn.',
+options: ['is ',
+ 'are ',
+ 'have ',
+ 'has'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I prefer honey ………sugar.',
+options: ['to ',
+ 'are ',
+ 'from ',
+ 'for'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If it rains I …………..my crops.',
+options: ['have planted',
+ 'had planted',
+ 'will have planted',
+ 'shall plant'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I can …………time for my homework.',
+options: ['find enough easily ',
+ 'find easily enough ',
+ 'easily enough find ',
+ 'easily find enough'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Have you heard the national anthem ………..in your language?',
+options: ['sing ',
+ 'sung ',
+ 'sang ',
+ 'sings'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This bag is ……….heavy for a child to carry.',
+options: ['so',
+ 'very',
+ 'too',
+ 'much'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '………..you dislike the girl, you shouldn‟t beat her.',
+options: ['Even if ',
+ 'Since ',
+ 'As',
+ 'Of course'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Ghana is over forty years, therefore she …………of age.',
+options: ['came',
+ 'come',
+ 'has come',
+ 'is coming'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'To be a teenager is indeed great ………..?',
+options: ['isn‟t it',
+ 'aren‟t you',
+ 'it is',
+ 'does it'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Alf and Pat look so identical that it is difficult to pick the ………of the two.',
+options: ['oldest',
+ 'old ',
+ 'elder ',
+ 'eldest'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Uncle Ebo brought a carpenter who easily climbed ………..the roof to repair the leakage.',
+options: ['into',
+ 'on',
+ 'at',
+ 'onto'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Bola is the …………beautiful of the three girls.',
+options: ['more ',
+ 'most ',
+ 'much ',
+ 'better'],
+answer: 1
+}
 ]

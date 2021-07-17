@@ -2,356 +2,363 @@
 
 //Array of Objects
 const quiz = [
-  {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
+'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
+'Mr. Kobi was sorry about the headmaster‟s early retirement because',
+options: ['it was necessary to do so',
+ 'he would deny the pupils of his help',
+ 'he had done a lot',
+ 'the pupils were well prepared for life'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
+'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
+'Which of the following is not true of the headmaster?',
+options: ['He was hated by the people',
+ 'He had worked hard',
+ 'He was happy',
+ 'He had worked for a long time'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
+'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
+'Brief in the passage means',
+options: ['necessary',
+ 'good ',
+ 'true ',
+ 'short'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
+'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
+'According to the passage, Mr. Smith was',
+options: ['liked by many people',
+ 'liked by the headmaster only',
+ 'a disciplinarian',
+ 'a gentleman'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
+'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
+'The retiring headmaster said he would continue …………….. the school.',
+options: ['praising',
+ 'to teach in',
+ 'visiting',
+ 'to do his best for'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'People like to watch television because it',
+options: ['is very beautiful',
+ 'solves serious problems',
+ 'is available',
+ 'provides relaxation'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'The writer feels that children should',
+options: ['watch television with their parents',
+ 'do nothing while watching television',
+ 'not watch all programmes',
+ 'learn about adult life'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'Poses in the passage means',
+options: ['solves',
+ 'increases',
+ 'presents',
+ 'determines'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'According to the passage, which of the following is not true about television?',
+options: ['It is a source of entertainment.',
+ 'It helps us to see unknown places and people ',
+ 'People with little education can also watch it. ',
+ 'Everybody has one'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'From the passage, we realise that the writer',
+options: ['dislikes adult programmes',
+ 'is not happy about the present situation',
+ 'produces television programmes',
+ 'wants television to be banned'],
+answer: 1
+},
+{
+//SECTION B
+
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The Headmaster asked the school prefect to ' + '<u>' + 'summon' + '</u>' + ' a meeting of the Student‟s Council.',
+options: ['chair',
+ 'call',
+ 'cancel',
+ 'postpone'],
+answer: 1
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The attitude of the security officer was very ' + '<u>' + 'hostile.' + '</u>',
+options: ['strange',
+ 'disturbing ',
+ 'unfriendly ',
+ 'interesting'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'After the hard day‟s work he returned home completely ' + '<u>' + 'exhausted.' + '</u>',
+options: ['disturbed',
+ 'worn out',
+ 'unhappy',
+ 'broken down'],
+answer: 1
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The auditor‟s job was to ' + '<u>' + 'go over' + '</u>' + ' the accounts carefully.',
+options: ['present ',
+ 'calculate ',
+ 'settle',
+ 'inspect'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The paint used for the outside of the building was ' + '<u>' + 'durable.' + '</u>',
+options: ['lasting',
+ 'expensive ',
+ 'attractive ',
+ 'decorative'],
+answer: 0
+},
+{
+//SECTION C
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Musa told his friend to ' + '<u>' + 'mind his own business.' + '</u>' + ' This means that Musa‟s friend should',
+options: ['worry about his own work',
+ 'do his own buying and selling',
+ 'not interfere in other people‟s affairs',
+ 'not help other people'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Mother buys the best clothes for Patrick because he is the ' + '<u>' + 'apple of her eye.' + '</u>' + ' This means that Patrick is',
+options: ['the one she loves most',
+ 'the most hardworking son ',
+ 'her most respectable son ',
+ 'her last child'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'It is difficult for most people to ' + '<u>' + 'make ends meet' + '</u>' + ' these days. This means most people',
+options: ['live very comfortably.',
+ 'are unable to eat delicious meals.',
+ 'are unable to live within their income',
+ 'buy expensive clothes'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Esi was so good a leader that we were all encouraged ' + '<u>' + 'to take a leaf out of her book.' + '</u>' + ' This means we were all encouraged to .................',
+options: ['try and beat her record',
+ 'take her advice',
+ 'follow her example',
+ 'treat her with respect'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Before I left for the market, I asked my neighbour ' + '<u>' + 'to keep an eye on' + '</u>' + ' my children. This means my neighbour should',
+options: ['play with the children',
+ 'look after the children',
+ 'follow the children around',
+ 'look at the children'],
+answer: 1
+},
+{
+//SECTION D
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' My friend did everything to ' + '<u>' + 'hinder' + '</u>' + ' my work.',
+options: ['reduce',
+ 'do',
+ 'understand',
+ 'assist'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' It is wise to ' + '<u>' + 'preserve' + '</u>' + ' works of art for the future.',
+options: ['reduce ',
+ 'destroy ',
+ 'condemn ',
+ 'abolish'],
+answer: 1
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' The director ' + '<u>' + 'engaged' + '</u>' + ' Mary as a saleswoman.',
+options: ['disqualified',
+ 'exempted ',
+ 'dismissed ',
+ 'excused'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' This soil is very ' + '<u>' + 'fertile' + '</u>' + ' for the growing of vegetables.',
+options: ['poor',
+ 'shallow ',
+ 'porous ',
+ 'hard'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' ' + '<u>' + 'Formerly' + '</u>' + ', we walked a very long distance to attend school.',
+options: ['sometimes',
+ 'now',
+ 'recently',
+ 'usually'],
+answer: 2
+},
+{
+//SECTION E
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When the lights went off, I ……………..my supper.',
+options: ['have eaten',
+ 'am eating',
+ 'have been eating',
+ 'was eating'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The factory had to ……………………many workers because of the fall in production.',
+options: ['lay down',
+ 'put off',
+ 'put away',
+ 'lay off'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We ………………to play a return match last Friday.',
+options: ['have ',
+ 'were ',
+ 'ought ',
+ 'are'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It was not obvious ……………….he was pointing to.',
+options: ['the one to which',
+ 'which one ',
+ 'one which ',
+ 'as to that'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I have forgotten all ………………..you told me.',
+options: ['that',
+ 'which ',
+ 'what ',
+ 'those'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Selfish people always consider ………………first.',
+options: ['oneself',
+ 'yourselves ',
+ 'themselves ',
+ 'himself'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '………………….the watch is old, it is still working.',
+options: ['Although',
+ 'Despite',
+ 'Since',
+ 'Because'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Teye asked me how ………………….French I knew.',
+options: ['many ',
+ 'few ',
+ 'little ',
+ 'much'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwaku‟s evidence …………………. to be checked.',
+options: ['needing',
+ 'needs',
+ 'is needing',
+ 'will have need'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The headmistress said they could not postpone ………….. the school any longer.',
+options: ['re-opening',
+ 're-open',
+ 'to have re-opened',
+ 'having re-opened'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You know very well that it was no fault of …………….',
+options: ['my',
+ 'I',
+ 'me',
+ 'mine'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You are not hurt, ……………..?',
+options: ['were you ',
+ 'did you ',
+ 'are you ',
+ 'do you'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I don‟t mind ……………..home early.',
+options: ['you go ',
+ 'your go ',
+ 'you to go',
+ 'your going'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' All ……………..is good health.',
+options: ['what I need',
+ 'to need',
+ 'that I need',
+ 'to be needed'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If anyone greets you, it is polite to return ………….greeting.',
+options: ['your',
+ 'its',
+ 'their',
+ 'anyone'],
+answer:  3,
+}
 ]

@@ -3,355 +3,436 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.' + 
+'Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.' + 
+'As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.' + 
+'He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.' + '</i>' + '<br />' + '<br/ >' + 
+'Why did men not complain about their condition? Because they …………',
+options: ['thought fire was too hot',
+ 'were afraid of Eagle',
+ 'were satisfied with what they had',
+ 'enjoyed darkness',
+ 'did not like water'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.' + 
+'Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.' + 
+'As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.' + 
+'He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.' + '</i>' + '<br />' + '<br/ >' + 
+'Crow released the stolen treasure to the world in the following order: ',
+options: ['sun, moon, water, fire',
+ 'sun, fire, water, moon ',
+ 'moon, water, fire, sun ',
+ 'sun, water, moon, fire ',
+ 'sun, moon, fire, water'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.' + 
+'Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.' + 
+'As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.' + 
+'He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.' + '</i>' + '<br />' + '<br/ >' + 
+'Which of the following actions was a deliberate one by Crow? The …………',
+options: ['dropping of water to the ground',
+ 'appearance of violent winds',
+ 'burning of his beak',
+ 'hanging of the sun in the sky',
+ 'blowing of smoke over his feathers'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.' + 
+'Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.' + 
+'As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.' + 
+'He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.' + '</i>' + '<br />' + '<br/ >' + 
+'Thrilled in the passage means',
+options: ['afraid',
+ 'excited',
+ 'surprised ',
+ 'thankful ',
+ 'popular'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.' + 
+'Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.' + 
+'As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.' + 
+'He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.' + '</i>' + '<br />' + '<br/ >' + 
+'Eagle‟s action can best be described as',
+options: ['clever',
+ 'dangerous',
+ 'famous ',
+ 'kindly ',
+ 'selfish'],
+answer: 5,
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'The writer‟s family were preparing for ………………',
+options: ['a birthday party',
+ 'an extraordinary supper',
+ 'a celebration',
+ 'their usual supper',
+ 'a family'],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'The handsome stranger stopped at the writer‟s house because…………',
+options: ['he did not know the way to his village',
+ 'he was hungry',
+ 'it was very late in the night',
+ 'there was no transport',
+ 'he wanted to meet her family'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'Their customary generosity in the passage tell us that the parents were usually ………..',
+options: ['proud',
+ 'strict',
+ 'attentive',
+ 'kind',
+ 'inquisitive'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'How many people had their meal in the dining room?',
+options: ['four ',
+ 'five ',
+ 'six',
+ 'seven',
+ 'eight'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'Which of the following is true according to the order in which the roasted chicken was shared in the passage?',
+options: ['head, feet, wings, body, neck',
+ 'head, wings, neck, body, feet ',
+ 'head, neck, wings, feet, body ',
+ 'head, neck, feet, wings, body ',
+ 'head, feet, wings, neck, body'],
+answer: 2
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'Mr Anang‟s behaviour can best be described as ……………',
+options: ['mean and clever',
+ 'talkative but generous',
+ 'honest and generous',
+ 'jovial but proud',
+ 'interesting but fooling'],
+answer: 0
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'As we were eagerly preparing for our special supper of roasted chicken, pepper sauce and fried yam, we heard another loud knock at the door. Papa opened the door to let in a fast-talking handsome stranger.' + 
+'According to him he was passing to the next village but there were no vehicles. Therefore he was' + 
+'stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.' + 
+'From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,' + 
+'Aba had wings because they were of age and would need wings to fly away from the family nest. The other two' + 
+'guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.' + '</i>' + '<br />' + '<br />' + 
+'How did the writer‟s family respond to the way the roasted chicken was shared? They ………',
+options: ['were annoyed',
+ 'wept over it ',
+ 'were shocked ',
+ 'disagreed',
+ 'wanted to ask questions'],
+answer: 2
+},
+{
+
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'It is always good to be ' + '<u>' + 'modest' + '</u>' + ' in your demands',
+options: ['cheerful ',
+ 'humble ',
+ 'pleasant ',
+ 'smart',
+ 'truthful'],
+answer: 1
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'There is no need to do ' + '<u>' + 'rash' + '</u>' + ' work.',
+options: ['speedy',
+ 'lazy ',
+ 'busy ',
+ 'hasty ',
+ 'funny'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Kofi spent all his time ' + '<u>' + 'staring' + '</u>' + ' at the madman',
+options: ['smiling ',
+ 'shouting ',
+ 'laughing ',
+ 'hooting ',
+ 'gazing'],
+answer: 5,
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'This mountain is rather too ' + '<u>' + 'risky' + '</u>' + ' to climb',
+options: ['rough',
+ 'steep',
+ 'difficult',
+ 'dangerous',
+ 'broad'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'This thief will have to ' + '<u>' + 'plead' + '</u>' + ' for mercy',
+options: ['beg',
+ 'speak ',
+ 'apply ',
+ 'stand',
+ 'whisper'],
+answer: 0
+},
+{
+
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'The students were advised ' + '<u>' + 'to stop building castles in the air.' + '</u>' + ' This means that the students should……..',
+options: ['not build any more castles',
+ 'be serious and realistic',
+ 'not worry about castles',
+ 'be serious and hardworking',
+ 'not think about building now'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'Even though I don‟t talk to her, ' + '<u>' + 'I give the devil his due.' + '</u>' + ' This means I will ………. her',
+options: ['agree with', 
+ 'confess to ',
+ 'reward',
+ 'be kind to',
+ 'forgive'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'Kwasi is ' + '<u>' + 'head over heels' + '</u>' + ' in love with Ama. This means…………',
+options: ['Kwasi looks at his heels when he sees Ama',
+ 'Kwasi‟s love for Ama is abnormal',
+ 'Kwasi can‟t control himself when he sees Ama',
+ 'Kwasi is deeply in love with Ama.',
+ 'Kwasi has hurt his head and heel by following Ama'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'The chief told his linguist not to ' + '<u>' + 'beat about the bush.' + '</u>' + ' This means the linguist must ………',
+options: ['not stammer',
+ 'go straight to the point',
+ 'not enter the bush ',
+ 'conclude the case ',
+ 'clear the bush'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'When mother returned, Kwame ' + '<u>' + 'let the cat out of the bag' + '</u>' + '. This means that Kwame ………..',
+options: ['told mother to go out',
+ 'took the cat from the bag',
+ 'told mother what had happened',
+ 'removed the cat from the bag',
+ 'told mother he had a cat in his bag'],
+answer: 2
+},
+{
+
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'This room is too ' + '<u>' + 'dim.' + '</u>',
+options: ['lit',
+ 'shining ',
+ 'bright ',
+ 'light'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'This baby is very ' + '<u>' + 'energetic' + '</u>' + ' for his age.',
+options: ['dull',
+ 'simple ',
+ 'bulky ',
+ 'tall'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The flower is made from ' + '<u>' + 'artificial' + '</u>' + ' materials',
+options: ['natural',
+ 'preserved ',
+ 'wonderful ',
+ 'new'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'All the accused persons were ' + '<u>' + 'convicted.' + '</u>',
+options: ['executed ',
+ 'identified ',
+ 'addressed ',
+ 'freed'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'There are guards on our border because the government wants to ' + '<u>' + 'eliminate' + '</u>' + ' smuggling',
+options: ['notice',
+ 'encourage',
+ 'manage with',
+ 'investigate'],
+answer: 1
+},
+{
+
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It all depends …………..your being hardworking',
+options: ['by',
+ 'with',
+ 'in',
+ 'upon'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We should always be proud ………….our motherland.',
+options: ['in ',
+ 'of ',
+ 'for ',
+ 'by'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '…………..hearing the news, he jumped high for joy.',
+options: ['Over',
+ 'On',
+ 'With',
+ 'In'],
+answer: 1
+},
+{
+
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'A thief was caught …………the house yesterday',
+options: ['through',
+ 'up',
+ 'outside',
+ 'over'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I object ………..your joining our school team.',
+options: ['to ',
+ 'by ',
+ 'at ',
+ 'on'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The lady did not see ………….in the house.',
+options: ['somebody',
+ 'no one',
+ 'anybody',
+ 'someone'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This is the book ……..I picked from the floor.',
+options: ['whom ',
+ 'whose ',
+ 'what ',
+ 'which'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The man ……….house was burnt down is in hospital.',
+options: ['who‟s ',
+ 'whom ',
+ 'whose ',
+ 'which'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '…………boys are very happy with the toys',
+options: ['They ',
+ 'These ',
+ 'That ',
+ 'This'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Have a bottle of coke, will you? No, ………',
+options: ['I don‟t',
+ 'please',
+ 'thank you',
+ 'I won‟t'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Let‟s go out and play ………….?',
+options: ['shall we',
+ 'do we',
+ 'will we',
+ 'would we'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kofi will not meet his father at home if he ………….. not here by 5:00 p.m.',
+options: ['was ',
+ 'were ',
+ 'isn‟t ',
+ 'is'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The baby needs a bath, doesn‟t it? …………..',
+options: ['no, it needs',
+ 'no, it does',
+ 'yes, it doesn‟t',
+ 'yes, it does'],
+answer: 3
+}
 ]

@@ -3,355 +3,426 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+'Mr Appiah was hot, tired and dusty because ………..',
+options: ['he had gone to bring his nephews from the village.',
+'he had taken his nephews to the high buildings',
+'he had shown the boys around the city of Accra.',
+'he had helped them to demolish the buildings',
+'he had been satisfied that the boys were happy'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' Where were the boys living before visiting Accra?',
+options: ['In the high buildings',
+'In the village',
+'In the big houses',
+'In the public gardens',
+'In the building falling apart.'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' Everything is so splendid means everything is …………..',
+options: ['satisfactory ',
+'magnificent ',
+'important',
+'brilliant',
+'special'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' According to the passage many successful men are used to ………..',
+options: ['walking around Accra',
+'bringing their nephews from the village to Accra',
+'going on sight-seeing in the city of Accra',
+'talking with boys in the public gardens',
+'riding in cars wherever they go'],
+answer: 4
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' Which of the following statements is not true according to the passage?',
+options: ['Every part of the city is wonderful and splendid',
+'Mr Appiah normally rides in his car',
+'Asare and Attah are in Accra for the first time',
+'The boys rested in the public gardens',
+'The boys as well as Mr Appiah must have been hot, tired and dusty'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' Insanitary conditions in the last paragraph means ………….',
+options: ['some people in Accra are insane',
+'some places in Accra are dirty and unclean ',
+'insanitary is seen in all conditions in the city ',
+'unsatisfactory reports about the city',
+'there are many sanitary inspectors in Accra'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'When Mr Appiah looked at the two happy faces of his nephews, he forgot about his aching feet and smiled. He had spent the whole day showing Asare and Attah, who came from the village, around Accra. He was satisfied that they were happy. It was not until they were seated on a bench in the public garden that he realized how hot, tired and dusty he was.' +
+'It was a long time since he had walked so much. Like many other successful men, Mr Appiah had acquired the habit of going everywhere in his car, so that day‟s sight-seeing expedition had worn him out.' +
+'„Well, what do you think of Accra?‟ He asked the boys.' +
+'„Oh!‟ exclaimed Attah. „it‟s a wonderful place!‟' + 
+'„I didn‟t imagine any place could be like this, Uncle‟ said Asare, „Everything is so splendid. The roads are very wide and the buildings magnificent‟.' + 
+'„Boys, don‟t get the wrong impression. Today you‟ve seen the best parts of our city, but there are bad areas with buildings falling apart, narrow streets and insanitary conditions. However, these buildings are being demolished, said Mr. Appiah.' + '</i>' + '<br />' + '<br />' + 
+' Demolished as used in the passage means',
+options: ['replaced ',
+'repaired ',
+'painted',
+'pulled down',
+'hire out'],
+answer: 3
+},
+{
+
+
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' The main reasons why Akosombo Dam was built were ……….',
+options: ['to produce electricity to manufacture aluminium',
+'to produce electricity from aluminium and bauxite',
+'to find the mineral called bauxite and use it',
+'to use aluminium and electricity',
+'to make aluminium, bauxite and electricity'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' Aluminium is produced from …………',
+options: ['dams',
+'electricity',
+'bauxite ',
+'machine ',
+'tunnels'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' From the passage, dams are built all over the world mainly to ……….',
+options: ['produce aluminium from bauxite',
+'provide water for the generation of electricity',
+'extract bauxite from lakes ',
+'provide water for drinking ',
+'make electricity cheap'],
+answer: 1
+},
+{
+
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' Which of the following statements is not true according to the passage?',
+options: ['The Akosombo Dam is the biggest in the world',
+'The production of both electricity and aluminium is of great value to Ghana',
+'Water from the lake runs fiercely through tunnels',
+'The Akosombo dam is valuable to Ghana',
+'A great collection of water running through tunnels can produce electricity anywhere in the world.'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' According to the passage which of the following statements is true?',
+options: ['In building dams rivers are blocked at their broadcast points',
+'Water is used to produce electricity',
+'Building the dam and fixing machines to produce electricity cost nothing at all',
+'In producing electricity engineers need a lot of petrol to drive the machines',
+'Turbines are used in the production of electricity'],
+answer: 4
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'The Akosombo Dam and the great Volta Lake are famous over the world. The two main reasons for building the dam were, to generate electricity and to use the electricity for the production of aluminium from bauxite.' + 
+'Aluminium is used throughout the world; so both the production of electricity and the production of aluminium are of great value to Ghana.' + 
+'It may seem strange to talk about producing electricity by building a dam, but in fact a lot of dams have been built all over the world for this purpose. What happens is that a concrete wall, called a dam, is constructed across a river at a narrow point. A large lake then develops behind the wall. Tunnels are made in the dam so that water from the lake can rush fiercely through them. This powerful flow of water is used to drive huge machines called turbines, to generate electricity. All that the engineers need is the water rushing down from the lake, and all this costs them nothing! But of course the building of the dam and the fixing of the machines cost a great deal of money.' + 
+'Big dams have been built in many parts of the world. The Akosombo Dam is one of the biggest. However, the lake, which has been formed, is in fact the biggest man-made lake in the world.' + '</i>' + '<br />' + '<br />' + 
+' The most suitable title for the passage is',
+options: ['Akosombo and Bauxite',
+'Electricity from water',
+'Dams of the world',
+'Electricity and power',
+'Aluminium from electricity'],
+answer: 1
+},
+{
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Your dress material is ' + '<u>' + 'inferior' + '</u>' + ' to what I bought from the shop. This means that your dress material is ……',
+options: ['of poor quality',
+'very beautiful',
+'brightly coloured',
+'expensive'],
+answer: 0
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The girl is a ' + '<u>' + 'spendthrift' + '</u>' + ': she used all her pocket money to buy a pair of shoes. This means ………',
+options: ['careless',
+'bold',
+'extravagant',
+'kind'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The pupils in the town often help in ' + '<u>' + 'communal' + '</u>' + ' activities. This means that they help in ………',
+options: ['all activities',
+'interesting activities',
+'public activities',
+'usual activities'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The ' + '<u>' + 'aroma' + '</u>' + ' of Kate‟s food made everyone hungry. This means the food …………..',
+options: ['smells good',
+'is tasty',
+'is spicy',
+'is valuable'],
+answer: 0
+},
+{
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' He wasn‟t at the scene of the accident, ………..?',
+options: ['wasn‟t he',
+'isn‟t it ',
+'did he ',
+'was he'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You don‟t speak Chinese, ……….?',
+options: ['do you ',
+'can you ',
+'don‟t you',
+'won‟t you'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' We worked hard in our final year, ……….?',
+options: ['did we',
+'isn‟t it',
+'aren‟t we',
+'didn‟t we'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' They have lost the match, ……..?',
+options: ['didn‟t they',
+'isn‟t it',
+'haven‟t they',
+'is it'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' He has stolen the box …………..',
+options: ['in which we kept the gold chain ',
+'which we kept in the gold chain ',
+'we kept the gold chain',
+'where we kept the gold chain'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' ………hard he tried, Adansi came last in the test.',
+options: ['Whatever',
+'How',
+'Whenever',
+'However'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Akwetey did the exercise …………',
+options: ['even though he was sick ',
+'during which he was sick ',
+'but he was sick',
+'for which he was sick'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' We are not allowed …………..',
+options: ['to walk at the lawn',
+'to be walking across the lawn',
+'walking across the lawn',
+'to walk across the lawn'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Everybody was pleased ……..the pastor‟s sermon.',
+options: ['for',
+'in',
+'with',
+'at'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' John‟s father congratulated him ………his success in the examination',
+options: ['on',
+'during',
+'at',
+'to'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The patient is generally recovering ………..his illness',
+options: ['from ',
+'with ',
+'for',
+'during'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' We have been in this school ……….three years',
+options: ['since',
+'in ',
+'by ',
+'for'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' It would be unwise to ………the chance of making extra money.',
+options: ['throw away',
+'throw in',
+'throw over',
+'throw by'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Koku was sad when he lost his mother but he will soon ……….it',
+options: ['get along',
+'get on',
+'get by',
+'get over'],
+answer: 3
+},
+{ 
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' ………….these words in your dictionary.',
+options: ['Look around',
+'Look on',
+'Look up',
+'Look about'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If he …………the elections he would have become an assemblyman.',
+options: ['won',
+'has won',
+'had won',
+'should win'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If he continues to work hard, he ……..his examination with ease.',
+options: ['will pass ',
+'is passing ',
+'has passed ',
+'would pass'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The news he brought ……….bad',
+options: ['are',
+'were',
+'has been',
+'was'],
+answer: 3
+},
+{
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The headmaster thanked his teachers for a ' + '<u>' + 'wonderful' + '</u>' + ' job done.',
+options: ['quick',
+'difficult',
+'big ',
+'bad ',
+'odd'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The present day youth still ' + '<u>' + 'indulge' + '</u>' + ' in all forms of drug abuse.',
+options: ['avoid',
+'increase',
+'discourage',
+'disallow',
+'discontinue'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Some people prefer to eat ' + '<u>' + 'lean' + '</u>' + ' meat.',
+options: ['uncooked',
+'fatty ',
+'spoilt ',
+'bloody ',
+'tasty'],
+answer: 1
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Kojo‟s teacher was ' + '<u>' + 'reluctant' + '</u>' + ' to accept his explanation for being late to school.',
+options: ['willing ',
+'afraid ',
+'unable',
+'planning',
+'likely'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The workers wanted their director to ' + '<u>' + 'hold' + '</u>' + ' the meeting.',
+options: ['continue',
+'delay ',
+'cancel ',
+'support',
+'interrupt'],
+answer: 2
+}
 ]

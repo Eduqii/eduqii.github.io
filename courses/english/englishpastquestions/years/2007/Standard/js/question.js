@@ -1,357 +1,440 @@
 
-
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+		
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
+'Barimah asked Fosua to stay indoors because ',
+options: ['people were running helter-skelter. ',
+ 'there was a terrible noise.',
+ 'he suspected danger outside. ',
+ 'the place was very dark.'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
+'What did Barimah find immediately he went out?',
+options: ['Araba fighting the flames',
+ 'People packing things',
+ 'People shouting',
+ 'Agya Atta‟s house burning'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
+'<i>' + '… put out' + '</i>' + ' in the passage means',
+options: ['control',
+ 'extinguish',
+ 'reduce',
+ 'destroy'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
+'From the passage we can infer that the Barimahs and the Agya Attas are',
+options: ['classmates',
+ 'good neighbours',
+ 'in-laws',
+ 'age mates'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
+'People sympathized with Araba because she',
+options: ['had been left by her husband.',  'toiled with her husband.',
+ 'was a good woman.',
+ 'was sad.'],
+answer: 2
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.' + 
+'The story is told of a young man who became addicted to smoking. In no time, he developed smoking- related diseases and died miserably, leaving behind his wife and children in poverty.' + 
+'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
+'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
+'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
+'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'What has society done about smoking? It has',
+options: ['sent smokers to court.',
+ 'given medical treatment to smokers.',
+ 'ignored it.',
+ 'opposed it.'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.' + 
+'The story is told of a young man who became addicted to smoking. In no time, he developed smoking- related diseases and died miserably, leaving behind his wife and children in poverty.' + 
+'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
+'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
+'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
+'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'According to the passage, which of the following is caused by smoking?',
+options: ['Malaria',
+ 'Measles',
+ 'Cancer of the lungs',
+ 'Tuberculosis'],
+answer: 2
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.' + 
+'The story is told of a young man who became addicted to smoking. In no time, he developed smoking- related diseases and died miserably, leaving behind his wife and children in poverty.' + 
+'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
+'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
+'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
+'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'Which of the following is true about pregnant women who smoke? They',
+options: ['are likely to give birth to dead babies',
+ 'are not able to breastfeed ',
+ 'are likely to have twins ',
+ 'lose weight'],
+answer: 0
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.' + 
+'The story is told of a young man who became addicted to smoking. In no time, he developed smoking- related diseases and died miserably, leaving behind his wife and children in poverty.' + 
+'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
+'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
+'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
+'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'Passive smokers are those who',
+options: ['befriend smokers',
+ 'are addicted to smoking',
+ 'do not smoke at all',
+ 'inhale smoke from smokers‟ cigarettes'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'Many smokers ignore the warning about the dangers of smoking although there is a national campaign against the habit. The United Nations has set aside a day to be observed against the killer habit.' + 
+'The story is told of a young man who became addicted to smoking. In no time, he developed smoking- related diseases and died miserably, leaving behind his wife and children in poverty.' + 
+'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
+'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
+'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
+'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'According to the passage, smokers are',
+options: ['fearless ',
+ 'selfish ',
+ 'proud',
+ 'disrespectful'],
+answer: 1
+},
+{
+
+
+question: 'SECTION B' + '<br/ >' + '<br />' +
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'Senyo tried ' + '<u>' + 'in vain' + '</u>' + ' to stop his friend from stealing the kitten.',
+options: ['hard',
+ 'timidly',
+ 'angrily',
+ 'unsuccessfully'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br/ >' + '<br />' +
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'With hard work we can ' + '<u>' + 'overcome' + '</u>' + ' any problem.',
+options: ['get',
+ 'avoid ',
+ 'stop ',
+ 'solve'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br/ >' + '<br />' +
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'The meal is ' + '<u>' + 'delicious.' + '</u>',
+options: ['fine',
+ 'tasty',
+ 'sweet',
+ 'nutritious'],
+answer: 1
+},
+{
+question: 'SECTION B' + '<br/ >' + '<br />' +
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'The audience ' + '<u>' + 'applauded' + '</u>' + ' the actors at the end of the play.',
+options: ['booed',
+ 'invited',
+ 'rewarded',
+ 'cheered'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br/ >' + '<br />' +
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'Jasper ' + '<u>' + 'lamented' + '</u>' + ' the loss of his pet.',
+options: ['regretted',
+ 'mourned',
+ 'remembered',
+ 'discovered'],
+answer: 1
+},
+{
+
+question: 'SECTION C' + '<br />' + '<br />' + 
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'John is always ' + '<u>' + 'light-hearted' + '</u>' + ' in spite of his problems. This means that in spite of his problems John is always',
+options: ['careless',
+ 'cheerful',
+ 'cool',
+ 'proud'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + 
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'After that accident Ayorkor has really ' + '<u>' + 'gone through the mill.' + '</u>' + ' This means Ayorkor has',
+options: ['changed her lifestyle',
+ 'become wiser',
+ 'suffered a lot',
+ 'received some money'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + 
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'Moro ' + '<u>' + 'felt' + '</u>' + ' very much ' + '<u>' + 'at home' + '</u>' + ' at his friends‟s house. This means that Moro',
+options: ['knew his friend‟s house',
+ 'was comfortable and relaxed',
+ 'was disappointed',
+ 'lived with his friend.'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + 
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'The students ' + '<u>' + 'were all ears' + '</u>' + ' during the programme. This means that the students',
+options: ['answered questions. ',
+ 'looked closely.',
+ 'closed their ears. ',
+ 'listened intently'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + 
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'It took our new prefect two months before he ' + '<u>' + 'could find his feet.' + '</u>' + ' This means that it took the prefect two months before he',
+options: ['knew everybody ',
+ 'became confident ',
+ 'won a prize',
+ 'became popular'],
+answer: 1
+},
+{
+
+question: 'SECTION D' + '<br />' + '<br />' +
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +'The Member of Parliament is very ' + '<u>' + 'generous' + '</u>' + '; he has done much for his people.',
+options: ['honourable',
+ 'proud',
+ 'talkative',
+ 'unkind'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +'If you are ' + '<u>' + 'indolent' + '</u>' + ', you will not pass the examination.',
+options: ['hardworking',
+ 'rude',
+ 'careless',
+ 'honest'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +'When asked about the theft, Kwame said he was ' + '<u>' + 'guilty.' + '</u>',
+options: ['surprised',
+ 'afraid',
+ 'absent',
+ 'innocent'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +'Handle the glass with care; it is ' + '<u>' + 'fragile.' + '</u>',
+options: ['rigid',
+ 'beautiful',
+ 'unbreakable',
+ 'new'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +'Some of our customs are ' + '<u>' + 'old-fashioned.' + '</u>',
+options: ['modern',
+ 'attractive ',
+ 'interesting ',
+ 'funny'],
+answer: 0
+},
+{
+
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of all the Brown children, Ato is ……….',
+options: ['the short',
+ 'the shorter ',
+ 'the shortest ',
+ 'short'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Amma was so frightened ………….she fainted.',
+options: ['so',
+ 'as',
+ 'then',
+ 'that'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aberewa has ………friends who often visit her.',
+options: ['few ',
+ 'much ',
+ 'a little ',
+ 'a few'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kofi is the boy to …………..I gave the pen.',
+options: ['whose ',
+ 'which ',
+ 'whom ',
+ 'who'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You are tired, ………….?',
+options: ['aren‟t you ',
+ 'don‟t you ',
+ 'isn‟t it',
+ 'not so'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He said that he …………come.',
+options: ['will',
+ 'would',
+ 'has',
+ 'have'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When Daddy arrived, Mummy ………..finished cooking.',
+options: ['has ',
+ 'had ',
+ 'have',
+ 'having'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was …………tired that he couldn‟t finish the race.',
+options: ['much',
+ 'too',
+ 'so',
+ 'very'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The farmer was ………by a poisonous snake.',
+options: ['bitten ',
+ 'beaten ',
+ 'bit',
+ 'beat'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have put too ………sugar in the porridge.',
+options: ['many ',
+ 'much ',
+ 'few ',
+ 'small'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Yaw is a ………………..',
+options: ['handsome, tall man ',
+ 'handsome man tall ',
+ 'tall, handsome man ',
+ 'man, tall, handsome'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I am …………to walking to school everyday.',
+options: ['using ',
+ 'uses ',
+ 'use',
+ 'used'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The mechanic succeeded ……………the generator.',
+options: ['at repairing ',
+ 'in repairing ',
+ 'to repair',
+ 'with repairing'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If I ………………with my grandmother, I would have enjoyed village life.',
+options: ['had lived',
+ 'have lived',
+ 'have been living',
+ 'am living'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' +
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Atia has given ………….smoking.',
+options: ['off ',
+ 'out ',
+ 'up ',
+ 'in'],
+answer: 2
+}
 ]

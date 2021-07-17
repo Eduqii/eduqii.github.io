@@ -76,6 +76,9 @@ body{
 	cursor: pointer;
 	display: inline-block;
 }
+.exit{
+	background: linear-gradient(90deg, rgb(255, 247, 9)0%, rgb(240, 221, 6)100%);
+}
 .quiz-box .question-number,
 .quiz-box .question-text,
 .quiz-box .option-container,
@@ -233,3 +236,4 @@ body{
 		padding: 15px;
 	}
 }
+

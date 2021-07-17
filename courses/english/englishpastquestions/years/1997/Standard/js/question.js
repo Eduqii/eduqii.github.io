@@ -2,356 +2,428 @@
 
 //Array of Objects
 const quiz = [
-  {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+{
+  question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'The children ran helter-skelter because ………….',
+options: ['they were expecting a car',
+ 'of the sudden screeching of the car',
+ 'they hadn‟t seen a car before',
+ 'the car was marvellous'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'The villagers got to know that Akwasi Seth was arriving on that day because ………',
+options: ['the car stopped in front of Mr Opiah‟s house',
+ 'the gong-gong beater had announced it',
+ 'Mr Opiah had told them about it',
+ 'The children ran to Mr Opiah‟s house'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'Mr Opiah‟s family members were anxious because they ……..',
+options: ['were afraid he might not come',
+ 'were planning what to do for him',
+ 'thought Akwasi Seth would not recognize them',
+ 'were surprised at how greatly Akwasi Seth had changed'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'According to the passage, Akwasi Seth',
+options: ['was a truant',
+ 'was immaculately dressed',
+ 'shed tears of joy',
+ 'was loved very much'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'Marvelled in the passage means',
+options: ['laughed',
+ 'surrounded', 
+ 'wondered', 
+ 'entered'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read Passage I carefully and answer this question' +'</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.' +
+'Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.' +
+'Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man' +
+'had brought and listen to what he had to say. ' +
+'Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at' +
+'7 a.m. but by 1 p.m. there was still no sign of him. So when they heard the screeching of the car, they all heaved' + 
+'sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.' + 
+'Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his' +
+'father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.' + '</i>' + '<br />' + '<br />' + 'Akwasi‟s mother shed tears of joy because …………',
+options: ['Akwasi looked strange',
+ 'she was ill',
+ 'she was very happy',
+ 'Akwasi remembered his culture'],
+answer: 2
+},
+{
+
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.' +
+'Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.' +
+'The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.' +
+'Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.' + '</i>' + '<br />' + '<br />' + 
+'The school was to be found ………..',
+options: ['on the outskirts of the village',
+ 'in the centre of the village',
+ 'near Mr Kodwo Twum',
+ 'with the houses.'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.' +
+'Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.' +
+'The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.' +
+'Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.' + '</i>' + '<br />' + '<br />' + 
+'According to the passage the school was surrounded by ……..',
+options: ['shady trees',
+ 'the games field ',
+ 'the best schools ',
+ 'the village'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.' +
+'Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.' +
+'The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.' +
+'Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.' + '</i>' + '<br />' + '<br />' + 
+'Which of the following is not true of Mr Twum?',
+options: ['He was respected',
+ 'He was a disciplinarian',
+ 'He was hated by many people',
+ 'He was liked by all his people'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.' +
+'Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.' +
+'The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.' +
+'Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.' + '</i>' + '<br />' + '<br />' + 
+'Insolent in the passage means',
+options: ['ruffian',
+ 'difficult',
+ 'disrespectful',
+ 'lazy'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.' +
+'Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.' +
+'The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.' +
+'Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.' + '</i>' + '<br />' + '<br />' + 
+'Mr Twum and the catechist were able to gossip most of the time because they were ……….',
+options: ['adults',
+ 'free',
+ 'very good neighbours',
+ 'members of the church'],
+answer: 2
+},
+{
+
+
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'She is very ' + '<u>' + 'sincere' + '</u>' + ' with the people she works with.',
+options: ['free',
+ 'careful ',
+ 'good ',
+ 'honest'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'We could not stand the ' + '<u>' + 'scent' + '</u>' + ' in the market.',
+options: ['rush ',
+ 'sight ',
+ 'smell ',
+ 'noise'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'My brother needs somebody to ' + '<u>' + 'assist' + '</u>' + ' him complete the work.',
+options: ['help',
+ 'encourage',
+ 'join',
+ 'guide'],
+answer: 0
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The chief‟s palace was ' + '<u>' + 'demolished' + '</u>' + ' by the rainstorm.',
+options: ['opened',
+ 'built',
+ 'destroyed',
+ 'painted'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The visitors were happy about the ' + '<u>' + 'calm' + '</u>' + ' nature of the village.',
+options: ['neat ',
+ 'good ',
+ 'lovely',
+ 'peaceful'],
+answer: 3
+},
+{
+
+
+question: 'SECTION C' + '<br />' + 'br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'Ekua visits her grandmother ' + '<u>' + 'once in a blue moon.' + '</u>' + ' This means Ekua visits her grandmother ……',
+options: ['every month ',
+ 'once a week ',
+ 'occasionally ',
+ 'often'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + 'br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'Joana is a clever girl and will come out of her examination with ' + '<u>' + 'flying colours.' + '</u>' + ' This means ………',
+options: ['she will pass in her favourite subjects',
+ 'she will excel in some subjects',
+ 'her results will be very good',
+ 'she will work hard'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + 'br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'The Manager ' + '<u>' + 'hit the nail on the head' + '</u>' + ' in his speech to his workers. This means the manager ……..',
+options: ['spoke the truth',
+ 'was not straight forward',
+ 'spoke harshly',
+ 'was not happy with his workers'],
+answer: 0
+},
+{
+question: 'SECTION C' + '<br />' + 'br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'Akosua will go to the cinema if Adjei will ' + '<u>' + 'foot the bill.' + '</u>' + ' This means Akosua will go to the film show',
+options: ['Adjei will take her there on foot ',
+ 'The two of them will go together ',
+ 'Adjei will pay for her',
+ 'She will walk there with others'],
+answer: 2
+},
+{
+question: 'SECTION C' + '<br />' + 'br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'The Pastor advised Yaw and Mensah to ' + '<u>' + 'bury the hatchet.' + '</u>' + ' This means Yaw and Mensah are to ……..',
+options: ['keep their cutlass in a safe place',
+ 'work together on their farm',
+ 'forget about their quarrel',
+ 'bury their old cutlass'],
+answer: 2
+},
+{
+
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'This room is too ' + '<u>' + 'dim.' + '</u>',
+options: ['bright ',
+ 'shining ',
+ 'clear',
+ 'lit'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'That box contains very ' + '<u>' + 'expensive' + '</u>' + ' jewellery.',
+options: ['beautiful',
+ 'cheap ',
+ 'better ',
+ 'fine'],
+answer: 1
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'They are waiting in the ' + '<u>' + 'arrival' + '</u>' + ' hall.',
+options: ['departure',
+ 'return',
+ 'acceptance',
+ 'common'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'It is very ' + '<u>' + 'unlikely' + '</u>' + ' that he will report before Saturday.',
+options: ['similar ',
+ 'credible ',
+ 'close',
+ 'possible'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'This is made from ' + '<u>' + 'artificial' + '</u>' + ' materials.',
+options: ['new',
+ 'preserved',
+ 'wonderful',
+ 'natural'],
+answer: 3
+},
+{
+
+
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I object …………your joining our school team.',
+options: ['on ',
+ 'by ',
+ 'at ',
+ 'to'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This secret should remain ………you and me.',
+options: ['for ',
+ 'with ',
+ 'in',
+ 'between'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The kind woman gave ………a box of sweets.',
+options: ['all and each one ',
+ 'all and everyone ',
+ 'each and all',
+ 'each and everyone'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Tokyo is the ………….expensive city in the world.',
+options: ['most',
+ 'much',
+ 'more',
+ 'very'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have to help your parents …………….?',
+options: ['have you',
+ 'you do',
+ 'isn‟t it',
+ 'don‟t you'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The car my uncle bought was the …………..',
+options: ['model latest of the Benz ',
+ 'Benz latest of the model ',
+ 'latest model of the Benz ',
+ 'latest Benz of the model'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I will wash my clothes when I ………….home.',
+options: ['went',
+ 'have gone ',
+ 'could go ',
+ 'go'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'She is very jovial ………….she is an orphan.',
+options: ['since',
+ 'as',
+ 'though',
+ 'even'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If you ………more attentive you wouldn‟t have been in such a bad situation.',
+options: ['are',
+ 'were',
+ 'had been',
+ 'could'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwabena often …………his grandfather after school.',
+options: ['had visited',
+ 'visited',
+ 'has visited',
+ 'visit'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The farmer had saved …………money for his son‟s education.',
+options: ['few',
+ 'enough',
+ 'most',
+ 'plenty'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This is my book; that one is…….',
+options: ['your‟s ',
+ 'your ',
+ 'yours ',
+ 'yours‟'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Birds fly, don‟t they?',
+options: ['Yes, they don‟t',
+ 'No, they do',
+ 'Yes, they do',
+ 'Yes, they can‟t'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The rains had ……….stopped when we set off.',
+options: ['yet',
+ 'either ',
+ 'already ',
+ 'now'],
+answer: 2
+}
 ]

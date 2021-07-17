@@ -12,325 +12,376 @@ let availableQuestions = []
 
 let questions = [
 	{
-		question: 'The most common means by which data are input into the computer is through the',
-		choice1: 'mouse',
-		choice2: 'keyboard',
-		choice3: 'microphone',
-		choice4: 'joystick',
-		answer: 2,
-	},
-	{
-		question: 'Computer devices such as mouse, trackpad and joystick are referred to as',
-		choice1: 'Output devices',
-		choice2: 'Pointing devices',
-		choice3: 'Standard devices',
-		choice4: 'Internal devices',
-		answer: 2,
-	},
-	{
-		question: 'The flat panel screen is also known as?',
-		choice1: 'LCD',
-		choice2: 'VCD',
-		choice3: 'CRT',
-		choice4: 'OCR',
-		answer: 1,
-	},
-	{
-		question: 'Which of the following is a storage medium?',
-		choice1: 'Mouse',
-		choice3: 'Printer',
-		choice2: 'Keyboard',
-		choice4: 'Flash memory',
-		answer: 4,
-	},
-	{
-		question: 'The two components of the personal computer main memory are',
-		choice1: 'RAM and CU',
-		choice2: 'RAM and ROM',
-		choice3: 'ROM and CU',
-		choice4: 'ALU and CU',
-		answer: 2,
-	},
-	{
-		question: 'Which of the following devices has the largest storage capacity?',
-		choice1: 'Digital versatile disc',
-		choice2: 'Compact disc',
-		choice3: 'Floppy disk',
-		choice4: 'Hard disk',
-		answer: 4,
-	},
-	{
-		question: 'The process that starts an operating system when a computer system is turned on is referred to as',
-		choice1: 'loading',
-		choice2: 'start up',
-		choice3: 'booting',
-		choice4: 'shut down',
-		answer: 3,
-	},
-	{
-		question: 'Which of the following statements is not true?',
-		choice1: 'Remove all removable storage media or device from the system unit when switching on a computer.',
-		choice2: 'Shut down a computer system before removing the electric power supply',
-		choice3: 'Random access memory is part of main memory',
-		choice4: 'The application software must be loaded before an operating system can be loaded when a computer system is switched on.',
-		answer: 4,
-	},
-	{
-		question: 'GUI stands for',
-		choice1: 'Grand User Interface',
-		choice2: 'General User Interface',
-		choice3: 'Graphic User Interface',
-		choice4: 'Graphical User Interrupt',
-		answer: 3,
-	},
-	{
-		question: 'The software that manages the communication between the hardware and the application software of a computer system is called',
-		choice1: 'open office',
-		choice2: 'Microsoft office',
-		choice3: 'operating system',
-		choice4: 'internet',
-		answer: 3,
-	},
-	{
-		question: 'Windows organizes information on computers using a',
-		choice1: 'directory',
-		choice2: 'folder',
-		choice3: 'subdirectory',
-		choice4: 'disk',
-		answer: 1,
-	},
-	{
-		question: 'Which of the following are valid folder names: \n I. Black/Stars II. Black : Stars III. Black_Stars IV. Black Stars',
-		choice1: 'I and II only',
-		choice2: 'II and III only',
-		choice3: 'III and IV only',
-		choice4: 'II and IV only',
-		answer: 3,
-	},
-	{
-		question: 'Use the following information to answer this question: \n I. Processing  II. Data III. information.  The sequence of the stages in the information processing cycle is',
-		choice1: 'I, II and III',
-		choice2: 'II, III and I',
-		choice3: 'II, I and III',
-		choice4: 'III, I and II',
-		answer: 3,
-	},
-	{
-		question: 'Which of the following is not a safety measure to consider in the ICT environment?',
-		choice1: 'Not overloading a socket',
-		choice2: 'Sitting in a correct posture behind the computer',
-		choice3: 'Allowing the battery of a laptop to run-down before charging',
-		choice4: 'Avoid plugging computers in damaged sockets',
-		answer: 3,
-	},
-	{
-		question: 'The legal right to control the production and selling of a book, play, film and software is known as',
-		choice1: 'production right',
-		choice2: 'copyright',
-		choice3: 'trade mark',
-		choice4: 'patent',
-		answer: 2,
-	},
-	{
-		question: 'Which of the following can bring enhanced learning experience to the classroom through the use of pictures, videos and sound?',
-		choice1: 'Software application',
-		choice2: 'Multimedia software',
-		choice3: 'Learning software',
-		choice4: 'Teaching and learning software',
-		answer: 2,
-	},
-	{
-		question: 'Which of the following is an effect of a loud ringing tone of a mobile phone?',
-		choice1: 'Wrist pain',
-		choice2: 'Neck pain',
-		choice3: 'Headache',
-		choice4: 'Hearing impairment',
-		answer: 4,
-	},
-	{
-		question: 'To which of the following activities is ICT useful? I. Education II. Farming III. Medicine',
-		choice1: 'I and II only',
-		choice2: 'I and III only',
-		choice3: 'II and III only',
-		choice4: 'I, II and III',
-		answer: 4,
-	},
-	{
-		question: 'Which of the following keys are frequently used in our daily typing work on a computer system? I. Enter key II.Space Bar III. Print Screen IV. Delete Key',
-		choice1: 'I, II, III and IV',
-		choice2: 'I, II and III only',
-		choice3: 'I, II and IV only',
-		choice4: 'II, III and IV only',
-		answer: 3,
-	},
-	{
-		question: 'During typing lessons, computer users are supposed to use',
-		choice1: '5 fingers',
-		choice2: '6 fingers',
-		choice3: '8 fingers',
-		choice4: '10 fingers',
-		answer: 4,
-	},
-	{
-		question: 'The most appropriate finger required to type the letter F on a standard QWERTY computer keyboard is the',
-		choice1: 'left middle finger',
-		choice2: 'right middle finger',
-		choice3: 'left index finger',
-		choice4: 'right index finger',
-		answer: 3,
-	},
-	{
-		question: ' In the absence of a mouse, which of the following devices could be used to perform its functions?',
-		choice1: 'Scanner',
-		choice2: 'Webcam',
-		choice3: 'Keyboard',
-		choice4: 'Microphone',
-		answer: 3,
-	},
-	{
-		question: 'In typing a class assignment given by a Ghanaian Language teacher using the computer, which of the following application programs will be appropriate to use by the student?',
-		choice1: 'Spread sheet program',
-		choice2: 'Word processing program',
-		choice3: 'Database program',
-		choice4: 'Graphical program',
-		answer: 2,
-	},
-	{
-		question: 'A key on a keyboard of a computer has two symbols on it, top and down. Which of the following procedures will be appropriate to use to get the top key?',
-		choice1: 'Hold down the Shift key and press the identified key',
-		choice2: 'Hold down the Alt key and press the identified key',
-		choice3: 'Hold down the Ctrl key and press the identified key',
-		choice4: 'Hold down the Del key and press the identified key',
-		answer: 1,
-	},
-	{
-		question: 'To save a previously saved document under a new name, use the',
-		choice1: 'save command',
-		choice2: 'rename command',
-		choice3: 'resave command',
-		choice4: 'save as command',
-		answer: 4,
-	},
-	{
-		question: 'To bold a text in a word processing environment, first select the text, then use the shortcut keys',
-		choice1: 'Ctrl + B',
-		choice2: 'Shift + B',
-		choice3: 'Alt + B',
-		choice4: 'Insert + B',
-		answer: 1,
-	},
-	{
-		question: 'The symbols B, I, U are commonly used buttons found on the',
-		choice1: 'standard toolbar',
-		choice2: 'menu bar',
-		choice3: 'formatting toolbar',
-		choice4: 'drawing toolbar',
-		answer: 3,
-	},
-	{
-		question: 'Which of the following is not a tool on the drawing toolbar?',
-		choice1: 'Arc',
-		choice2: 'Oval',
-		choice3: 'Drop cap',
-		choice4: 'Lines',
-		answer: 3,
-	},
-	{
-		question: 'Which of the following is not a toolbar?',
-		choice1: 'Drawing toolbar',
-		choice2: 'Picture toolbar',
-		choice3: 'Word Art toolbar',
-		choice4: 'Word Wrap toolbar',
-		answer: 4,
-	},
-	{
-		question: 'Lines, block arrows and flowcharts are located on the',
-		choice1: 'drawing toolbar',
-		choice2: 'standard toolbar',
-		choice3: 'formatting toolbar',
-		choice4: 'menu bar',
-		answer: 1,
-	},
-	{
-		question: 'The default orientation for a word processing document is',
-		choice1: 'landscape',
-		choice2: 'portrait',
-		choice3: 'legal',
-		choice4: 'A4',
-		answer: 2,
-	},
-	{
-		question: 'To preview a document before printing is necessary because',
-		choice1: 'it displays the name of the document',
-		choice2: 'it displays how the document will look like after printing',
-		choice3: 'it displays copy and paste of the document',
-		choice4: 'it formats the document',
-		answer: 2,
-	},
-	{
-		question: 'A computer program that enables users to surf the internet is known as',
-		choice1: 'internet surfer',
-		choice2: 'internet browser',
-		choice3: 'web surfer',
-		choice4: 'web navigator',
-		answer: 2,
-	},
-	{
-		question: ' A teacher using the internet decided to send an electronic mail to Junior High School Students in Ghana. Which of the following will the teacher use to accomplish his/her mission?',
-		choice1: 'Website address',
-		choice2: 'Data file address',
-		choice3: 'E-mail address',
-		choice4: 'Modern address',
-		answer: 3,
-	},
-	{
-		question: 'In e-mail context, what does bcc stand for?',
-		choice1: 'Blank carbon copy',
-		choice2: 'Bulk carbon copy',
-		choice3: 'Blind carbon copy',
-		choice4: 'Backup carbon copy',
-		answer: 3,
-	},
-	{
-		question: 'The world wide network that makes electronic information available to users is also known as',
-		choice1: 'site',
-		choice2: 'web',
-		choice3: 'browser',
-		choice4: 'map',
-		answer: 2,
-	},
-	{
-		question: 'Transferring data from a remote computer to a local computer is referred to as',
-		choice1: 'downloading',
-		choice2: 'downlinking',
-		choice3: 'uploading',
-		choice4: 'uplinking',
-		answer: 1,
-	},
-	{
-		question: 'A tool for locating information on the internet is the',
-		choice1: 'universal engine',
-		choice2: 'database engine',
-		choice3: 'search engine',
-		choice4: 'deep web',
-		answer: 3,
-	},
-	{
-		question: 'A mathematical calculation in a spreadsheet is called',
-		choice1: 'label',
-		choice2: 'formula',
-		choice3: 'number',
-		choice4: 'value',
-		answer: 2,
-	},
-	{
-		question: 'Which of the following features in a browser enables users to fetch the latest copy of a web page?',
-		choice1: 'Refresh',
-		choice2: 'Forward',
-		choice3: 'Backward',
-		choice4: 'Stop',
-		answer: 1,
-	}
+/*
+Que 1 - 5
+SECTION A COMPREHENSION
+
+Read the following passages carefully and answer the questions which follow
+
+PASSAGE I
+Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.
+
+He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.
+
+How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.
+
+When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.
+
+Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.
+
+Que 6 - 10 
+
+PASSAGE II
+
+In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.
+
+Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.
+
+„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.
+
+Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from
+Fosa with a bag of plantain and cassava.
+But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.
+
+*/		
+
+question: 'Read Passage I carefully and answer the question which follow\nThere was famine means that ',
+choice1: 'all the animals died ',
+choice2: 'food was scarce',
+choice3: 'there were no farmers',
+choice4: 'food was not cold',
+answer: 2,
+},
+{
+question: 'Read Passage I carefully and answer the question which follow\nWhich of the following statements is true?',
+choice1: 'Tortoise had not eaten for three months',
+choice2: 'The villagers gave food to Tortoise ',
+choice3: 'Tortoise got food from his own farm ',
+choice4: 'Tortoise stole the villagers‟ food.',
+answer: 4,
+},
+{
+question: 'Read Passage I carefully and answer the question which follow\nTortoise arrived at the nearby village',
+choice1: 'at sunset',
+choice2: 'in the night',
+choice3: 'at dawn',
+choice4: 'in the afternoon',
+answer: 2,
+},
+{
+question: 'Read Passage I carefully and answer the question which follow\nThe villagers went to the playground because',
+choice1: 'they wanted to find out who made the noise',
+choice2: 'they wanted to hear an announcement',
+choice3: 'Tortoise had fallen',
+choice4: 'the drum had fallen',
+answer: 2,
+},
+{
+question: 'Read Passage I carefully and answer the question which follow\nThe villagers did not see Tortoise at the playground because he',
+choice1: 'ate fast',
+choice2: 'hid in the drum ',
+choice3: 'stole their food ',
+choice4: 'hid in the bush',
+answer: 4,
+},
+{
+
+question: 'Read Passage II carefully and answer the question which follow\nAbora‟s teeth chattered because',
+choice1: 'he had a toothache ',
+choice2: 'the night was cold ',
+choice3: 'he wore a cloak',
+choice4: 'the owl hooted',
+answer: 2,
+},
+{
+question: 'Read Passage II carefully and answer the question which follow\nFrom the beginning the police knew where the traveller was when',
+choice1: 'he made a noise ',
+choice2: 'the blood dripped ',
+choice3: 'he stammered',
+choice4: 'the torchlight flashed',
+answer: 1,
+},
+{
+question: 'Read Passage II carefully and answer the question which follow\nSergeant Abora and Corporal Abaidoo hid themselves in order to',
+choice1: 'keep warm',
+choice2: 'avoid being seen ',
+choice3: 'load their guns ',
+choice4: 'have some sleep',
+answer: 2,
+},
+{
+question: 'Read Passage II carefully and answer the question which follow\nSergeant Abora and Corporal Abaidoo hid themselves in order to',
+question: 'The police arrested the late traveller',
+choice1: 'behind the trees',
+choice2: 'near the police station',
+choice3: 'in the centre of the town',
+choice4: 'near the town',
+answer: 4,
+},
+{
+question: 'Read Passage II carefully and answer the question which follow\nSergeant Abora and Corporal Abaidoo hid themselves in order to',
+question: '„… gave him away‟ in the passage means',
+choice1: 'frightened him',
+choice2: 'warned him ',
+choice3: 'exposed him ',
+choice4: 'disgraced him',
+answer: 3,
+},
+{
+//SECTION B
+
+
+
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nMary‟s mother is c͟o͟n͟f͟i͟d͟e͟n͟t͟ that her daughter will win a prize.',
+choice1: 'anxious',
+choice2: 'proud',
+choice3: 'certain',
+choice4: 'determined',
+answer: 3,
+},
+{
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nThe troops r͟e͟t͟r͟e͟a͟t͟e͟d͟ when they were attacked.',
+choice1: 'escaped ',
+choice2: 'scattered ',
+choice3: 'fought',
+choice4: 'withdrew',
+answer: 4,
+},
+{
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nOur teacher advised us to be c͟o͟u͟r͟t͟e͟o͟u͟s͟ always.',
+choice1: 'punctual',
+choice2: 'mannerly',
+choice3: 'hard-working',
+choice4: 'kind',
+answer: 2,
+},
+{
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nAll latecomers were p͟r͟o͟m͟p͟t͟l͟y͟ punished.',
+choice1: 'immediately ',
+choice2: 'mercilessly ',
+choice3: 'roughly',
+choice4: 'severely',
+answer: 1,
+},
+{
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\n We should all learn to r͟e͟s͟t͟r͟a͟i͟n͟ our anger.',
+choice1: 'avoid ',
+choice2: 'control ',
+choice3: 'apply',
+choice4: 'delay',
+answer: 2,
+},
+{
+//SECTION C
+
+
+
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n The two brothers are always quarrelling; they never s̲e̲e̲ ̲e̲y̲e̲ ̲t̲o̲ ̲e̲y̲e̲.\n This means they do not ……….each',
+choice1: 'agree with',
+choice2: 'admire ',
+choice3: 'respect ',
+choice4: 'trust',
+answer: 1,
+},
+{
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nYou must be o̲f̲f̲ ̲y̲o̲u̲r̲ ̲h̲e̲a̲d̲ if you really believe that the moon is a huge cake. This means that you must be',
+choice1: 'crazy',
+choice2: 'joking',
+choice3: 'unintelligent',
+choice4: 'dreaming',
+answer: 1,
+},
+{
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nAmale does not earn much, but she has some money p̲u̲t̲ ̲b̲y̲.̲ This means Amale has some money',
+choice1: 'to live on',
+choice2: 'for charity',
+choice3: 'saved for the future',
+choice4: 'to pay her children‟s fees',
+answer: 3,
+},
+{
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nSeveral passengers were killed in the accident, but the driver escaped by the s̲k̲i̲n̲ ̲o̲f̲ ̲h̲i̲s̲ ̲t̲e̲e̲t̲h̲.̲ This means that the driver',
+choice1: 'missed death narrowly',
+choice2: 'lost all his teeth',
+choice3: 'ran into the bush',
+choice4: 'had only a scratch on his skin',
+answer: 1,
+},
+{
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nWhen the armed robbers could no longer fight the police, they g̲a̲v̲e̲ ̲i̲n̲.̲ This means the armed robbers',
+choice1: 'fled',
+choice2: 'surrendered',
+choice3: 'shot themselves',
+choice4: 'cried for help',
+answer: 2,
+},
+{
+//SECTION D
+
+
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nThe prefect was c͟o͟m͟m͟e͟n͟d͟e͟d͟ for his good work.',
+choice1: 'admired ',
+choice2: 'promoted ',
+choice3: 'rejected ',
+choice4: 'rebuked',
+answer: 4,
+},
+{
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nThe teacher‟s s͟t͟e͟r͟n͟ looks helped maintain discipline in the class.',
+choice1: 'proud',
+choice2: 'indifferent',
+choice3: 'friendly',
+choice4: 'concerned',
+answer: 3,
+},
+{
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nOur Assemblyman has d͟e͟c͟l͟i͟n͟e͟d͟ our invitation to talk to us.',
+choice1: 'regretted',
+choice2: 'denied ',
+choice3: 'rejected ',
+choice4: 'accepted',
+answer: 4,
+},
+{
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nThough her friend asked for some water, Divine c͟a͟l͟l͟o͟u͟s͟l͟y͟ drank all of it.',
+choice1: 'mercifully',
+choice2: 'greedily',
+choice3: 'playfully',
+choice4: 'intentionally',
+answer: 1,
+},
+{
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nRain makes the soil m͟o͟i͟s͟t͟ for planting',
+choice1: 'fertile ',
+choice2: 'loose ',
+choice3: 'solid',
+choice4: 'dry',
+answer: 4,
+},
+{
+//SECTION E
+
+
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe students can go home when they ……………..the work',
+choice1: 'had finished',
+choice2: 'finished',
+choice3: 'finish',
+choice4: 'will finish',
+answer: 3,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMost people are not kind to animals, ……………?',
+choice1: 'weren‟t they',
+choice2: 'isn‟t it',
+choice3: 'wasn‟t it',
+choice4: 'are they',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAfua ………….her clothes on the line to dry.',
+choice1: 'hung ',
+choice2: 'folded ',
+choice3: 'hang',
+choice4: 'stretched',
+answer: 1,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKwesi went to school after he …………his teeth.',
+choice1: 'had brushed ',
+choice2: 'has brushed ',
+choice3: 'brushing',
+choice4: 'brushed',
+answer: 1,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKate is the …………..pupil in her class.',
+choice1: 'well-behaved',
+choice2: 'more well-behaved ',
+choice3: 'very well-behaved ',
+choice4: 'most well-behaved',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nA bag of money, with some documents, …………stolen from the car.',
+choice1: 'were ',
+choice2: 'are ',
+choice3: 'was',
+choice4: 'have been',
+answer: 3,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nIt is necessary sometimes to resort ………..violence.',
+choice1: 'through',
+choice2: 'to',
+choice3: 'into',
+choice4: 'with',
+answer: 2,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nClara understood all ……………her teacher taught.',
+choice1: 'what ',
+choice2: 'which ',
+choice3: 'that',
+choice4: 'this',
+answer: 3,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAli agrees that the rice project is …………..good',
+choice1: 'so',
+choice2: 'much',
+choice3: 'too',
+choice4: 'very',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nCharles does not expect ………….his teacher today.',
+choice1: 'seeing',
+choice2: 'having seen ',
+choice3: 'being seen ',
+choice4: 'to see',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKweku thinks that life is difficult ………….you are old.',
+choice1: 'if',
+choice2: 'while ',
+choice3: 'when ',
+choice4: 'as',
+answer: 3,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMany countries ………….the world use English',
+choice1: 'across',
+choice2: 'inside',
+choice3: 'by',
+choice4: 'on',
+answer: 1,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nDo you like this dress? I made …………….myself.',
+choice1: 'for',
+choice2: 'that',
+choice3: 'which',
+choice4: 'it',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAshanti Goldfields is the ………………of gold',
+choice1: 'nation‟s producer largest ',
+choice2: 'largest nation‟s producer ',
+choice3: 'producer nation‟s largest ',
+choice4: 'nation‟s largest producer',
+answer: 4,
+},
+{
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nNeither Kwesi nor Yaw …………….. there when I got to the house.',
+choice1: 'are',
+choice2: 'is',
+choice3: 'was',
+choice4: 'were',
+answer: 3,
+}
+
 ]
 
 const SCORE_POINTS = 100
@@ -347,7 +398,7 @@ getNewQuestion = () => {
 	if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
 		localStorage.setItem('mostRecentScore', score)
 
-		return window.location.assign('end.php') 
+		return window.location.assign('end.html') 
 	}
 
 	questionCounter++

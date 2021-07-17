@@ -3,355 +3,392 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'The persistent sound of the big bell at that time of the day surprised everybody. What could the matter be? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr Amoh, the' +
+'headmaster, stood with a grim face before them. He raised his hand and everybody was quiet.' + 
+'“Children,” he began. “The reason why I have summoned you here is to tell you that, at long last, we have' +
+'found the students who stole the school‟s microphones. Bring them here!” he commanded.' +
+'Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. “Shiee!” exclaimed the students, completely surprised. Next was Akwesi Ameko. “What…!” blurted out someone from the back. “Is he not the Form Two Class Prefect?” As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a crutch. The students exploded into uncontrollable laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.' + 
+'In a clear voice, the headmaster handed down the punishment – two weeks‟ suspension.' + '</i>' + '<br />' + '<br />' + 
+' Why was everybody surprised when the bell rang?',
+options: ['the students bumped into each other',
+ 'they ran to the assembly hall',
+ 'the students saw the headmaster standing before them',
+ 'they did not expect the bell to ring at that time'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'The persistent sound of the big bell at that time of the day surprised everybody. What could the matter be? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr Amoh, the' +
+'headmaster, stood with a grim face before them. He raised his hand and everybody was quiet.' + 
+'“Children,” he began. “The reason why I have summoned you here is to tell you that, at long last, we have' +
+'found the students who stole the school‟s microphones. Bring them here!” he commanded.' +
+'Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. “Shiee!” exclaimed the students, completely surprised. Next was Akwesi Ameko. “What…!” blurted out someone from the back. “Is he not the Form Two Class Prefect?” As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a crutch. The students exploded into uncontrollable laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.' + 
+'In a clear voice, the headmaster handed down the punishment – two weeks‟ suspension.' + '</i>' + '<br />' + '<br />' + 
+' The students raced to the assembly hall because the',
+options: ['headmaster was annoyed',
+ 'headmaster asked them to come',
+ 'bell rang many times',
+ 'bell rang at the normal time'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'The persistent sound of the big bell at that time of the day surprised everybody. What could the matter be? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr Amoh, the' +
+'headmaster, stood with a grim face before them. He raised his hand and everybody was quiet.' + 
+'“Children,” he began. “The reason why I have summoned you here is to tell you that, at long last, we have' +
+'found the students who stole the school‟s microphones. Bring them here!” he commanded.' +
+'Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. “Shiee!” exclaimed the students, completely surprised. Next was Akwesi Ameko. “What…!” blurted out someone from the back. “Is he not the Form Two Class Prefect?” As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a crutch. The students exploded into uncontrollable laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.' + 
+'In a clear voice, the headmaster handed down the punishment – two weeks‟ suspension.' + '</i>' + '<br />' + '<br />' + 
+' There was laughter in the assembly hall because',
+options: ['Mr Amoh stood before them with a grim face',
+ 'Kofi Smith the footballer was involved',
+ 'Akwesi Ameko surprised them',
+ 'Akwasi Osei the cripple was also involved'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'The persistent sound of the big bell at that time of the day surprised everybody. What could the matter be? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr Amoh, the' +
+'headmaster, stood with a grim face before them. He raised his hand and everybody was quiet.' + 
+'“Children,” he began. “The reason why I have summoned you here is to tell you that, at long last, we have' +
+'found the students who stole the school‟s microphones. Bring them here!” he commanded.' +
+'Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. “Shiee!” exclaimed the students, completely surprised. Next was Akwesi Ameko. “What…!” blurted out someone from the back. “Is he not the Form Two Class Prefect?” As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a crutch. The students exploded into uncontrollable laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.' + 
+'In a clear voice, the headmaster handed down the punishment – two weeks‟ suspension.' + '</i>' + '<br />' + '<br />' + 
+' The expression at a loss means',
+options: ['dissatisfied',
+ 'angry',
+ 'confused',
+ 'surprised'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'The persistent sound of the big bell at that time of the day surprised everybody. What could the matter be? The pupils, bumping into each other, raced to the assembly hall. In less than a minute, Mr Amoh, the' +
+'headmaster, stood with a grim face before them. He raised his hand and everybody was quiet.' + 
+'“Children,” he began. “The reason why I have summoned you here is to tell you that, at long last, we have' +
+'found the students who stole the school‟s microphones. Bring them here!” he commanded.' +
+'Necks craned to catch a glimpse of the thieves. There was Kofi Smith, the best footballer in the school. Eyes popped out. “Shiee!” exclaimed the students, completely surprised. Next was Akwesi Ameko. “What…!” blurted out someone from the back. “Is he not the Form Two Class Prefect?” As if that was not enough, Akwasi Osei appeared last, his withered leg dangling on a crutch. The students exploded into uncontrollable laughter. The Senior Prefect had to shout his head off before silence was restored. Everybody was at a loss as to what came over the trio to commit such a crime.' + 
+'In a clear voice, the headmaster handed down the punishment – two weeks‟ suspension.' + '</i>' + '<br />' + '<br />' + 
+' What did the headmaster do to the thieves? He ',
+options: ['warned them not to repeat the offence ',
+ 'asked a teacher to cane them',
+ 'sent them home to call their parents',
+ 'asked them to stay away from school'],
+answer: 3
+},
+{
+
+
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' Obu was inattentive in church because of………….',
+options: ['the Christmas',
+ 'the harmattan',
+ 'his new dress',
+ 'his embroidery'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' Obu‟s shoes were special to him because they…………',
+options: ['were called “stand by”',
+ 'were his first',
+ 'made noise',
+ 'looked very beautiful'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' According to the passage the choristers………..',
+options: ['disliked their robes',
+ 'did not like singing',
+ 'wanted to display their dresses',
+ 'preferred sitting to standing'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' Obu went outside the church……….',
+options: ['since it was so warm inside',
+ 'because he did not like the catechist',
+ 'in order to relieve himself',
+ 'so that he could wear his cap'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' He was not alone tells us that Obu was not the only one who was……..',
+options: ['in church that day',
+ 'happy',
+ 'wearing new clothes',
+ 'celebrating'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />'  + 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + 'Before Obu left the house that morning for the Christmas service, he tried on his brand new clothes together with a cap which was beautifully embroidered with yellow thread. He wore the cap at various angles, using a hand mirror to choose the most suitable.' + 
+'During the service, Obu caught himself several times admiring his clothes. Whenever the congregation sat down, he switched his attention from the clothes to his shoes, nicknamed “stand by”, his first pair ever. He was not alone. Even the choristers who should have joined the procession preferred to sit with the rest of the congregation in order to show off their new clothes. The church itself was in a festive mood, beautifully decorated with palm fronds and flowers.' + 
+'Obu‟s only problem was that he could not wear his cap inside the church. Outside, the harmattan wind was dry and dusty, making one thirsty. One could not even smile without bleeding since one‟s lips were so dry. Despite this, Obu preferred staying outside to being inside the church where he could not display his cap. Therefore, when the catechist was on his way to the pulpit for the sermon, Obu lied to the Warden that he wanted to relieve himself outside.' + '</i>' + '<br / >' + '<br />' +
+' The word relieve in the passage means…….',
+options: ['lessen his suffering',
+ 'show his new clothes',
+ 'play happily',
+ 'sing melodiously'],
+answer: 0
+},
+{
+//SECTION B
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The team‟s performance made the coach very ' + '<u>' + 'anxious.' + '</u>',
+options: ['hopeful',
+ 'angry ',
+ 'jealous ',
+ 'worried'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The Disciplinary Committee was asked to ' + '<u>' + 'investigate' + '</u>' + ' the theft.',
+options: ['condemn',
+ 'go into',
+ 'determine',
+ 'look for'],
+answer: 1
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The class teacher could not ' + '<u>' + 'bear' + '</u>' + ' the noise.',
+options: ['tolerate',
+ 'understand',
+ 'take in',
+ 'make out'],
+answer: 0
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Due to anger the pupil spoke to the teacher in an ' + '<u>' + 'impolite' + '</u>' + ' way.',
+options: ['foolish',
+ 'loud ',
+ 'brave ',
+ 'rude'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Florence Nightingale was a ' + '<u>' + 'renowned' + '</u>' + ' nurse.',
+options: ['strict',
+ 'humble ',
+ 'brave ',
+ 'famous'],
+answer: 3
+},
+{
+//SECTION C
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' The news of the inspector‟s visit ' + '<u>' + 'kept the pupils on their toes.' + '</u>' + '<br />' + 'This means the pupils',
+options: ['stood up ',
+ 'ran away ',
+ 'were alert',
+ 'were fatigued'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' During my preparation for the examination, ' + '<u>' + 'I left no stone unturned.' + '</u>' + '<br />' + 'This means that I',
+options: ['found it difficult to study',
+ 'studied thoroughly',
+ 'was sure to pass',
+ 'took all the stones away.'],
+answer: 1
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' For the sake of peace Kofi ' + '<u>' + 'gave in to' + '</u>' + ' his friend after their bitter quarrel.' + '<br />' + ' This means that Kofi',
+options: ['Kofi accepted defeat',
+ 'Kofi avoided his friend',
+ 'Kofi‟s friend abandoned him',
+ 'Kofi‟s friend was defeated.'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' John was far ahead of our class but we soon ' + '<u>' + 'caught up with him.' + '</u>' + '<br />' + 'This means that',
+options: ['John was the tallest in the class',
+ 'John kept himself away from the class',
+ 'we soon found John in front of us.',
+ 'we reached the same level with John'],
+answer: 3
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' Kwadwo ' + '<u>' + 'turned a deaf ear' + '</u>' + ' to his mother‟s advice. ' + '<br />' + 'This means that Kwadwo',
+options: ['turned his deaf ear to his mother',
+ 'refused to listen',
+ 'stopped his ear',
+ 'could not hear well.'],
+answer: 1
+},
+{
+//SECTION D
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'She is ' + '<u>' + 'hopeful' + '</u>' + ' of passing the English Language test.',
+options: ['mindful',
+ 'afraid ',
+ 'careful ',
+ 'doubtful'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The Headmaster ' + '<u>' + 'condemned' + '</u>' + ' the Prefect‟s behaviour.',
+options: ['reported ',
+ 'pardoned ',
+ 'confirmed ',
+ 'praised'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Mary looked very ' + '<u>' + 'attractive' + '</u>' + ' in her new dress.',
+options: ['comfortable',
+ 'clumsy ',
+ 'happy ',
+ 'proud'],
+answer: 1
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' The ' + '<u>' + 'melodious' + '</u>' + ' song put the baby to sleep.',
+options: ['triumphant',
+ 'old',
+ 'strange',
+ 'discordant'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'My father was ' + '<u>' + 'indifferent' + '</u>' + ' to my brother‟s suffering.',
+options: ['similar',
+ 'concerned',
+ 'stern',
+ 'kind'],
+answer: 1
+},
+{
+//SECTION E
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' We always look ………our parents for help.',
+options: ['about ',
+ 'up to ',
+ 'at',
+ 'up for'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Finish the work quickly and ………your exercise books.',
+options: ['hand up',
+ 'hand out',
+ 'hand down',
+ 'hand over'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You don‟t believe that, ………?',
+options: ['isn‟t it',
+ 'do you',
+ 'won‟t you',
+ 'don‟t you'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Amina is a good girl, …………….?',
+options: ['isn‟t it',
+ 'doesn‟t she',
+ 'does she',
+ 'isn‟t she'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Don‟t pay him …………..he finishes the work.',
+options: ['since ',
+ 'until ',
+ 'as',
+ 'yet'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' This is the boy …………book I took.',
+options: ['whom ',
+ 'which ',
+ 'who',
+ 'whose'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' She ………when her father called her.',
+options: ['swept',
+ 'is sweeping',
+ 'has swept',
+ 'was sweeping'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' After the fight, the two boxers congratulated ………….',
+options: ['one another ',
+ 'each other ',
+ 'one other',
+ 'each another'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Everybody said my father was the ………..hardworking man in the village.',
+options: ['very most ',
+ 'very more ',
+ 'most',
+ 'more'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The chief went to the durbar grounds …………horseback.',
+options: ['on',
+ 'by',
+ 'from',
+ 'above'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Nii isn‟t in his office; he is………… near this place.',
+options: ['thereby',
+ 'sometimes ',
+ 'somewhat ',
+ 'nowhere'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Kweku discovered later that …………….has many advantages.',
+options: ['to be telling the truth',
+ 'tell the truth',
+ 'having told the truth',
+ 'telling the truth'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The Oseis are our neighbours; they ……..near us for twenty years now.',
+options: ['stay',
+ 'were stayed',
+ 'stayed',
+ 'have stayed'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' He was sure he gave the pan to ………….else.',
+options: ['anyone ',
+ 'someone ',
+ 'somebody ',
+ 'everybody'],
+answer: 1
+}
 ]

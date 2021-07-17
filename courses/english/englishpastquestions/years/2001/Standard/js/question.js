@@ -1,357 +1,379 @@
 
 
-//Array of Objects
+//A'<b>' + rray of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooked the road entering the town. From there they could see the market, the lorry park and the main street.' + 
+'As they watched, a large green bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to get into the bus, whilst those who had reached their destination tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.' + '</i>' + '<br />' + '<br />' +
+'According to the passage the elders sit under the tree to',
+options: ['travel outside',
+ 'buy and sell',
+ 'discuss matters',
+ 'drink palmwine'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooked the road entering the town. From there they could see the market, the lorry park and the main street.' + 
+'As they watched, a large green bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to get into the bus, whilst those who had reached their destination tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.' + '</i>' + '<br />' + '<br />' +
+'Which of the following could the old men not see from where they sat?',
+options: ['The benches',
+ 'The market',
+ 'The lorry park',
+ 'The main street'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooked the road entering the town. From there they could see the market, the lorry park and the main street.' + 
+'As they watched, a large green bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to get into the bus, whilst those who had reached their destination tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.' + '</i>' + '<br />' + '<br />' +
+'Uproar in the passage means',
+options: ['fight',
+ 'movement',
+ 'selling',
+ 'confusion'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooked the road entering the town. From there they could see the market, the lorry park and the main street.' + 
+'As they watched, a large green bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to get into the bus, whilst those who had reached their destination tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.' + '</i>' + '<br />' + '<br />' +
+'Some people on the bus tried to alight because they wanted to',
+options: ['buy things',
+ 'gossip',
+ 'rest',
+ 'go home'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
+'<i>' + 'There stood an enormous tree in the centre of the town. Its big branches and dense foliage gave shelter in all weathers and so it had become a natural meeting place. Benches had been placed round the base of its huge trunk so that the elders of the town might sit in comfort and gossip or talk about serious affairs of the town. This particular morning, three old men were resting on one of the benches. They had chosen the side which overlooked the road entering the town. From there they could see the market, the lorry park and the main street.' + 
+'As they watched, a large green bus drove into the lorry park. It was surrounded immediately by a jostling crowd. Those who wished to travel hurried forward and food sellers rushed from all sides struggling to sell their wares. In the general uproar which followed, new passengers tried to get into the bus, whilst those who had reached their destination tried to alight. Others who were not willing to risk losing their seats stood blocking the doorway or leaned out of the bus windows as they bargained with the food sellers.' + '</i>' + '<br />' + '<br />' +
+'Some of the passengers blocked the way because they',
+options: ['did not like the food sellers',
+ 'did not want to lose their seats',
+ 'wanted to stop the new passengers',
+ 'wanted to see the old men'],
+answer: 1
+},
+{
+
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'The writer thought he was safe in Accra because ',
+options: ['he saw people rushing home from work ',
+ 'he had just arrived from his village',
+ 'Ghanaians would welcome him',
+ 'Ghanaians are famous for their kindness.'],
+answer: 3
+},
+{
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Spotted in the passage means',
+options: ['looked at',
+ 'recognized',
+ 'marked',
+ 'pointed at'],
+answer: 1
+},
+{
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'The writer turned to his left because he wanted to',
+options: ['see the person behind him. ',
+ 'keep his wrist watch safe. ',
+ 'welcome his old friend.',
+ 'play with his schoolmate.'],
+answer: 0
+},
+{
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'According to the passage, the fellow grabbed Cudjoe‟s arm because',
+options: ['he wanted to embrace him',
+ 'they were mates',
+ 'he wanted to steal the watch',
+ 'they stood together'],
+answer: 2
+},
+{
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Rogue in the passage refers to',
+options: ['a worker',
+ 'the schoolmate',
+ 'the thief',
+ 'a citizen'],
+answer: 2
+},
+{
+question: 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
+'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
+'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
+'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Which of the following is not true according to the passage?',
+options: ['People in Accra are strange',
+ 'People in Accra are classmates. ',
+ 'There are thieves in Accra.',
+ 'Workers in Accra return home in the evening.'],
+answer: 1
+},
+{
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The director was ' + '<u>' + 'humiliated' + '</u>' + ' when the theft was detected in his ministry.',
+options: ['angered',
+ 'cautioned',
+ 'discouraged',
+ 'disgraced'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Nortey was ' + '<u>' + 'industrious' + '</u>' + ' so he was duly rewarded.',
+options: ['intelligent',
+ 'hardworking',
+ 'careful',
+ 'courageous'],
+answer: 1
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Born and bred in an ' + '<u>' + 'affluent' + '</u>' + ' home, he never experienced any hardships in life.',
+options: ['respectable',
+ 'religious',
+ 'happy',
+ 'rich'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + '' + '<u>' + 'Dazzled' + '</u>' + ' by the bright headlights of the approaching vehicle, our driver drove into the bush.',
+options: ['Disturbed ',
+ 'Worried ',
+ 'Blinded',
+ 'Discouraged'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'He gave a ' + '<u>' + 'precise' + '</u>' + ' definition of the word.',
+options: ['learned',
+ 'hasty',
+ 'accurate',
+ 'short'],
+answer: 2
+},
+{
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' After serving ten years in prison he returned home ' + '<u>' + 'under a cloud.' + '</u>',
+options: ['in dull weather ',
+ 'very depressed ',
+ 'in disgrace',
+ 'very secretly'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His father‟s death, which was ' + '<u>' + 'a bolt from the blue' + '</u>' + ', greatly affected his education.',
+options: ['a disastrous event ',
+ 'a complete surprise ',
+ 'a mournful affair',
+ 'a blessing in disguise'],
+answer: 1
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' Kofi Mensah found it difficult to ' + '<u>' + 'do away with his bad habits.' + '</u>' + ' This means that Kofi Mensah could not ………….his habits.',
+options: ['continue',
+ 'hide',
+ 'stop',
+ 'talk about'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' Many people dislike Abugri because he enjoys ' + '<u>' + 'blowing his own trumpet.' + '</u>' + ' This means that Abugri is',
+options: ['boastful',
+ 'greedy',
+ 'disrespectful',
+ 'shameless'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' When Susan was caught stealing money, she ' + '<u>' + 'shed crocodile tears.' + '</u>' + ' This means that Susan',
+options: ['pretended she was sorry. ',
+ 'was annoyed.',
+ 'was embarrassed.',
+ 'cried like a crocodile'],
+answer: 0
+},
+{
+
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' The health officer advised the people not to ' + '<u>' + 'contaminate' + '</u>' + ' the water any further',
+options: ['fetch ',
+ 'store ',
+ 'purify ',
+ 'use'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Theresa wanted to know the time of ' + '<u>' + 'arrival' + '</u>' + ' of the plane.',
+options: ['schedule',
+ 'routine',
+ 'departure',
+ 'boarding'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' I must ' + '<u>' + 'consent to' + '</u>' + ' this proposal.',
+options: ['ignore',
+ 'question',
+ 'disagree with',
+ 'react to'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Yesterday my cousin looked very ' + '<u>' + 'depressed.' + '</u>',
+options: ['contented',
+ 'active',
+ 'surprise',
+ 'cheerful'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' The level of the river ' + '<u>' + 'subsided' + '</u>' + ' after the floods.',
+options: ['outflowed ',
+ 'ascended ',
+ 'enlarged',
+ 'rose'],
+answer: 3
+},
+{
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I suggest that they ………….the piano instead.',
+options: ['are playing',
+ 'play',
+ 'playing',
+ 'will play'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' ……………..frankly, I hate the idea.',
+options: ['Speak ',
+ 'Spoken ',
+ 'To speak',
+ 'For speaking'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I think we …………….Kwesi‟s offer.',
+options: ['better taking',
+ 'had better take ',
+ 'had better taken ',
+ 'better to take'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '…………… the arable land was under cultivation.',
+options: ['Most',
+ 'Many of',
+ 'More',
+ 'Most of'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'In attempting to control us, the headmaster gave ………….a great deal of trouble.',
+options: ['themselves',
+ 'himself',
+ 'ourselves',
+ 'yourself'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Do you believe in witches? ……………………',
+options: ['Yes, I don‟t ',
+ 'No, I won‟t ',
+ 'Yes, I won‟t',
+ 'No, I don‟t'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aba insisted that Adjoa ………….to the party.',
+options: ['to have come',
+ 'has come ',
+ 'to come',
+ ' should come'],
+answer: 3
+},
+{ 
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Esi: „I felt rather tired yesterday.‟' + '</b>' + '<br />' + '<br />' + 
+'Efua: „Yes, …………….‟',
+options: ['I did too',
+ 'so I did',
+ 'so did I',
+ 'I didn‟t'],
+answer: 2
+},
+{
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The students complained that there was ……………sugar in their tea.',
+options: ['plenty',
+ 'few ',
+ 'little ',
+ 'small'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'One of the duties of the police is to …………….traffic.',
+options: ['lead',
+ 'regulate',
+ 'direct',
+ 'move'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He decided to …………….the entrance examination again.',
+options: ['have sat',
+ 'sit',
+ 'be sitting',
+ 'have been sitting'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We won the school debate, …………….?',
+options: ['hadn‟t we',
+ 'isn‟t it',
+ 'couldn‟t we',
+ 'didn‟t we'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The plumber turned the pipe so hard that it ………………',
+options: ['will break',
+ 'breaks',
+ 'had broken',
+ 'broke'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was introduced …………………..the directors by his co-worker.',
+options: ['by',
+ 'to',
+ 'through',
+ 'from'],
+answer: 1
+}
 ]

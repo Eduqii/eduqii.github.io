@@ -3,355 +3,419 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+
+		
+question: 'SECTION A COMPREHENSION' + '<br />' +
+
+'<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'PASSAGE I' + '<br />' + 
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟'  +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'Why is Ayele not talking today?',
+options: ['She does not like Esinam‟s new bag',
+ 'She wants to get to school early',
+ 'She is moody',
+ 'Esinam is making her angry'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+
+'<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'PASSAGE I' + '<br />' + 
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'For Esinam, It’s great to be young means',
+options: ['having everything one wants',
+ 'being able to go to school',
+ 'having a mum and dad',
+ 'being cheerful'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+
+'<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'PASSAGE I' + '<br />' + 
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'We learnt from the passage that Ayele‟s parents are ……',
+options: ['sort of poor',
+ 'rich but miserly',
+ 'hardworking',
+ 'honest and cheerful'],
+answer: 0
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+
+'<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'PASSAGE I' + '<br />' + 
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'In the passage, Ayele comes across as one who is …..',
+options: ['proud',
+ 'hard to please ',
+ 'hardworking ',
+ 'thoughtful'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+
+'<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'PASSAGE I' + '<br />' + 
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'The word tremble means',
+options: ['disturbance',
+ 'quiver',
+ 'drop',
+ 'loudness'],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+
+'<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
+'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
+
+'According to the passage, people laugh when they ………',
+options: ['wear new clothes',
+ 'see something funny',
+ 'are at a party',
+ 'are going to school'],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+
+'<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
+'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
+
+' From the passage we learn that laughter makes people look ….',
+options: ['strong', 
+ 'healthy', 
+ 'queer', 
+ 'ugly '],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+
+'<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
+'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
+
+'People who laugh a lot …..', 
+options: ['look strange',
+ 'blame others',
+ 'hurt their bodies',
+ 'make friends easily'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+
+'<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
+'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
+
+'Societies can use laughter to …………',
+options: ['create fun',
+ 'annoy people',
+ 'correct behaviour',
+ 'praise people'],
+answer: 2
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+
+'<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
+'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
+
+'The word awkwardly in the passage means',
+options: ['foolishly',
+ 'happily',
+ 'respectably',
+ 'eagerly'],
+answer: 0
+},
+{
+
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'Our ' + '<u>'  + 'dependable' + '</u>'  + ' goalkeeper saved us from disgrace.',
+options: ['reliable',
+ 'tall',
+ 'smart',
+ 'muscular'],
+answer: 0
+},
+{
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'A ' + '<u>'  +  'neutral' + '</u>' + ' referee handled the final match.',
+options: ['foreign',
+ 'local',
+ 'impartial',
+ 'athlete'],
+answer: 2
+},
+{
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'The pupils were '  + '<u>' +  'jubbilating' + '</u>'  + ' because they had passed their examinations.',
+options: ['singing',
+ 'shouting ',
+ 'dancing ',
+ 'rejoicing'],
+answer: 3
+},
+{
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'Kuuki‟s dream is to become a ' + '<u>' + 'celebrated' + '</u>' + 'musician.',
+options: ['gospel',
+ 'rich',
+ 'famous',
+ 'reggae'],
+answer: 2
+},
+{
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'Appiah is a ' +  '<u>' + 'talented'  + '<u>' + ' football player.',
+options: ['strong ',
+ 'gifted ',
+ 'dull',
+ 'lucky'],
+answer: 1
+},
+{
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
+'Andy returned to school after ' + '<u>' + 'playing truant' + '</u>' + ' for three days. This means that Andy was………',
+options: ['expelled',
+ 'kidnapped',
+ 'deliberately absent',
+ 'very sick'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
+'Ama was the only one who was ' + '<u>' + 'close-lipped' + '</u>' + ' about the theft. This means that Ama……….',
+options: ['did not cry ',
+ 'was serious ',
+ 'did not talk ',
+ 'was relaxed'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
+'Issah was asked to ' + '<u>' + 'toe the line' + '</u>' + ' or quit the team. This means that Issah was asked to………..',
+options: ['apologize',
+ 'resign ',
+ 'change ',
+ 'obey'],
+answer: 3
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
+'The students were advised to ' + '<u>' + 'give up smoking' + '</u>' + ' This means that the students were asked to ……..smoking',
+options: ['suspend',
+ 'stop',
+ 'prevent',
+ 'hate'],
+answer: 1
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
+'Mrs. Vesa has a ' + '<u>' + 'heart of gold' + '</u>' + 'This means that Mrs. Vesa is very ……….',
+options: ['bright ',
+ 'clever ',
+ 'kind ',
+ 'smart'],
+answer: 2
+},
+{
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
+'My grandfather is a ' + '<u>' + 'robust' + '</u>' + ' ninety-year-old.',
+options: ['troublesome ',
+ 'inquisitive ',
+ 'weak',
+ 'cheerful'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
+'I ' + '<u>'  + 'consented' + '</u>'  + ' to his suggestion because it was useful',
+options: ['disagreed ',
+ 'submitted ',
+ 'replied',
+ 'applied'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
+'A ' + '<u>' + 'sharp' + '</u>' + ' cutlass is one of the items on the prospectus',
+options: ['new ',
+ 'used ',
+ 'short ',
+ 'blunt'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
+'The JSS students are reading the ' + '<u>' + 'abridged' + '</u>'  + ' version of Shakespeare‟s Macbeth',
+options: ['old',
+ 'original',
+ 'cheap',
+ 'paperback'],
+answer: 1
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
+'The best pupil was ' + '<u>' + 'awarded' + '</u>' + ' a prize.',
+options: ['rewarded',
+ 'shown ',
+ 'denied ',
+ 'robbed'],
+answer: 2
+},
+{
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Ashia is used to ……….her parents every weekend.',
+options: ['visit',
+ 'have visited',
+ 'visited',
+ 'visiting'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'……………..students were present.',
+options: ['The whole ',
+ 'The several ',
+ 'Much of the ',
+ 'All the'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Jenny has ……………..on her head.',
+options: ['plenty hair ',
+ 'a lot of hair ',
+ 'many hairs ',
+ 'much hairs'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Korkoi is a ……………….of twelve.',
+options: ['tall, shapely, girl ',
+ 'shapely, tall, girl ',
+ 'girl, shapely, tall ',
+ 'tall, girl, shapely'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'The man of God preached that we should love…………',
+options: ['another',
+ 'each other ',
+ 'one another ',
+ 'one other'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Mansah is ………..beautiful than any of her three sisters',
+options: ['very ',
+ 'most ',
+ 'more ',
+ 'much'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Appiah was appointed prefect of his class,……………',
+options: ['wasn‟t it?',
+ 'didn‟t he?',
+ 'isn‟t it?',
+ 'wasn‟t he?'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Anytime Ataa went to school she………into trouble',
+options: ['got',
+ 'gets',
+ 'is getting',
+ 'has got'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'My dream school is for …………only',
+options: ['boy ',
+ 'boy‟s ',
+ 'boys ',
+ 'boys‟'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Sam, have you ever …………in this river?',
+options: ['swam ',
+ 'swum ',
+ 'swim ',
+ 'swims'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Susie and Tim are friends; they like………..',
+options: ['each other ',
+ 'themselves ',
+ 'the other',
+ 'one another'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'Aunt Ekua …………..be able to solve the problem.',
+options: ['can ',
+ 'has ',
+ 'will',
+ 'ought'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'For one week I went to school …………foot.',
+options: ['by ',
+ 'on ',
+ 'at ',
+ 'in'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'The committee has been meeting over the case …………2pm',
+options: ['over',
+ 'by',
+ 'since',
+ 'until'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
+'I hope you are not ……………tired to run an errand for me.',
+options: ['very',
+ 'so ',
+ 'as ',
+ 'too'],
+answer: 3
+}
 ]

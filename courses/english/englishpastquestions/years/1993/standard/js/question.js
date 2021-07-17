@@ -2,356 +2,428 @@
 
 //Array of Objects
 const quiz = [
-  {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+{
+  question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'According to the passage, Garba taught Bako to ……..',
+options: ['use a matchet',
+ 'fell trees',
+ 'read and write',
+ 'gossip and laugh',
+ 'read and fell trees'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'Bako got additional income by',
+options: ['cutting down trees',
+ 'going to the hospital',
+ 'meeting his friends on Monday',
+ 'working as a letter-writer and reader',
+ 'felling trees and reading letters'],
+answer: 3
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'The people trusted Bako because he ………… ',
+options: ['kept what he knew about them secretly ',
+ 'wrote and read their letters',
+ 'gossiped and laughed with them',
+ 'was hardworking and clever',
+ 'earned extra income'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'How did the accident affect Bako?',
+options: ['He lost his senses and job',
+ 'He could not read and write again',
+ 'He became weak and jobless',
+ 'His face was stitched',
+ 'His friends left him'],
+answer: 2
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'Bako liked Mondays because …………',
+options: ['Monday started the week',
+ 'He met all his friends again',
+ 'He received his pay',
+ 'He wrote and read letters',
+ 'He heard news from other villages'],
+answer: 4
+},
+{
+question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
+'<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
+'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'He fell unconscious means he',
+options: ['fell asleep',
+ 'became mad',
+ 'lost his confidence',
+ 'lost awareness of his surroundings',
+ 'fell down and died'],
+answer: 3
+},
+{
+
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
+'<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
+'once experienced, many problems may occur.' + '<br />' +
+'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
+'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
+'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
+'Many of my friends could not understand this. While some of them stopped coming to the games others were not talking to me at all.' +
+'I finally decided to have a talk with everyone. I frankly admitted that I did not like the job but since I had it, I was determined to do my best. I also told them to leave sports matters on the field because my friends were more important to me than the job. From that little talk, I had everything resolved.' + '</i>' + '<br />' + '<br />' +
+'Why did the writer think his job would be difficult?',
+options: ['The other members were final year students',
+ 'He had to control his closest friends',
+ 'He was inexperienced',
+ 'He had to work with new officers',
+ 'Some of his friends stopped talking to him'],
+answer: 1
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
+'<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
+'once experienced, many problems may occur.' + '<br />' +
+'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
+'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
+'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
+'Many of my friends could not understand this. While some of them stopped coming to the games others were not talking to me at all.' +
+'I finally decided to have a talk with everyone. I frankly admitted that I did not like the job but since I had it, I was determined to do my best. I also told them to leave sports matters on the field because my friends were more important to me than the job. From that little talk, I had everything resolved.' + '</i>' + '<br />' + '<br />' +
+'Which of the following words best describes the behaviour of the writer‟s friends?',
+options: ['Uncooperative',
+ 'Jealous ',
+ 'Insulting ',
+ 'Funny',
+ 'Talkative'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
+'<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
+'once experienced, many problems may occur.' + '<br />' +
+'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
+'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
+'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
+'Many of my friends could not understand this. While some of them stopped coming to the games others were not talking to me at all.' +
+'I finally decided to have a talk with everyone. I frankly admitted that I did not like the job but since I had it, I was determined to do my best. I also told them to leave sports matters on the field because my friends were more important to me than the job. From that little talk, I had everything resolved.' + '</i>' + '<br />' + '<br />' +
+'According to the passage which of the following statements is true? The writer',
+options: ['settled the misunderstanding between him and his friends',
+ 'stopped talking to his friends',
+ 'lost all his closest friends',
+ 'appointed only his friends as officers',
+ 'did not listen to the advice of his friends'],
+answer: 0
+},
+{
+question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
+'<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
+'once experienced, many problems may occur.' + '<br />' +
+'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
+'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
+'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
+'Many of my friends could not understand this. While some of them stopped coming to the games others were not talking to me at all.' +
+'I finally decided to have a talk with everyone. I frankly admitted that I did not like the job but since I had it, I was determined to do my best. I also told them to leave sports matters on the field because my friends were more important to me than the job. From that little talk, I had everything resolved.' + '</i>' + '<br />' + '<br />' +
+'The word disputes means',
+options: ['misgiving',
+ 'debates ',
+ 'insults ',
+ 'wars',
+ 'differences'],
+answer: 4
+},
+{
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The Manager was dismissed for gross ' + '<u>' + 'inefficiency' + '</u>',
+options: ['laziness',
+ 'dishonesty',
+ 'incompetence',
+ 'misconduct',
+ 'disrespect'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Prices of goods have been fairly ' + '<u>' + 'controlled' + '</u>',
+options: ['kept down ',
+ 'kept away ',
+ 'kept off',
+ 'kept out',
+ 'kept hanging'],
+answer: 0
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Remember to ' + '<u>' + 'look over' + '</u>' + '  your work when you finish.',
+options: ['watch',
+ 'look on',
+ 'oversee',
+ 'read through',
+ 'overlook'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Although the labourers agreed to do the work, they did it ' + '<u>' + 'reluctantly.' + '</u>',
+options: ['leisurely',
+ 'nervously',
+ 'unwillingly',
+ 'sparingly',
+ 'angrily'],
+answer: 2
+},
+{ 
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' The thief was ' + '<u>' + 'humiliated' + '</u>' + '  when he was caught.',
+options: ['sentenced',
+ 'cautioned',
+ 'beaten up',
+ 'discouraged',
+ 'mocked at'],
+answer: 4
+},
+{
+
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + ' I don‟t like Ben. He is always ' + '<u>' + 'pulling my legs' + '</u>' + ' This means Ben is always ………',
+options: ['pulling me down',
+ 'gossiping about me',
+ 'abusing me',
+ 'borrowing my shoes',
+ 'teasing me'],
+answer: 4
+},
+{
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'The judge ' + '<u>' + 'turned a deaf ear' + '</u>' + '  to what the murderer said' + 'This means the judge …………',
+options: ['was partially deaf',
+ 'ignored what the murderer said',
+ 'favoured the murderer when he heard his story',
+ 'pretended that he was listening to the murderer‟s story',
+ 'was asleep when the murderer gave his evidence'],
+answer: 1
+},
+{
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'If you don‟t want to regret, ' + '<u>' + 'cut your coat according to your cloth' + '</u>' + ' This means ………',
+options: ['live within your means',
+ 'use the coat cut from your cloth',
+ 'sew your own coat',
+ 'put on your cloth and coat',
+ 'do not worry about the problems of others'],
+answer: 0
+},
+{
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + '<u>' + 'Were it not for the policemen the workers would have gone on strike' + '</u>' + ' From this we know the policemen………',
+options: ['didn‟t go on strike',
+ 'saw the workers on strike',
+ 'forced the workers to go on strike',
+ 'and the workers were on strike',
+ 'prevented the workers from going on strike'],
+answer: 4 
+},
+{
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'Razak has ' + '<u>' + 'been in a bad way' + '</u>' + '  for several days. This means Razak has been …………',
+options: ['badly treated',
+ 'unable to eat for many days',
+ 'misbehaving',
+ 'quite ill',
+ 'very unfriendly towards everyone'],
+answer: 3
+},
+{
+
+question: '<b>' + ' From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Our school is now ' + '<u>' + 'famous' + '</u>' + '  throughout the district.',
+options: ['popular',
+ 'anonymous',
+ 'unknown ',
+ 'irrelevant ',
+ 'hidden'],
+answer: 2
+},
+{
+question: '<b>' + ' From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Our new pastor is very ' + '<u>' + 'modest' + '</u>' + '  in his ways.',
+options: ['friendly',
+ 'kind',
+ 'particular',
+ 'boastful',
+ 'fashionable'],
+answer: 3
+},
+{
+question: '<b>' + ' From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' Issa was very ' + '<u>' + 'rude' + '</u>' + '  to his teacher.',
+options: ['respectful',
+ 'polite',
+ 'obedient ',
+ 'truthful ',
+ 'gentle'],
+answer: 1
+},
+{
+question: '<b>' + ' From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' We walked on the ' + '<u>' + 'smooth' + '</u>' + '  side of the pavement.',
+options: ['hard ',
+ 'rough ',
+ 'coarse',
+ 'slippery',
+ 'narrow'],
+answer: 1
+},
+{
+question: '<b>' + ' From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + ' The president was ' + '<u>' + 'denounced' + '</u>' + '  by his subjects.',
+options: ['elected',
+ 'welcomed ',
+ 'supported ',
+ 'advised',
+ 'hailed'],
+answer: 4
+},
+{
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Our ancestors …………to us a lot of knowledge about our culture.',
+options: ['handed in',
+ 'passed out',
+ 'passed through',
+ 'handed down',
+ 'nothing'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The government has set ……a committee on education.',
+options: ['apart',
+ 'up ',
+ 'in ',
+ 'by',
+ 'nothing'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' None of the suspects………..his guilt.',
+options: ['admit',
+ 'admits',
+ 'are admitting',
+ 'have admitted',
+ 'nothing'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Amidu promised to be patient until his toy ………..repaired.',
+options: ['has been ',
+ 'will be ',
+ 'was',
+ 'can be',
+ 'nothing'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The Headmaster, with his assistant ……….inspecting the new school library.',
+options: ['will have been',
+ 'are',
+ 'have been',
+ 'is',
+ 'nothing'],
+answer: 3
+},
+{
+ question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I would have told you about the wedding if I ........',
+ options: [ 'have known',
+'know',
+'had known',
+'have been knowing'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' His writing is so bad that I can‟t make it …….',
+options: ['on',
+ 'out',
+ 'down',
+ 'in',
+ 'nothing'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You will be ill if you …………too much.',
+options: ['are eating',
+ 'eat',
+ 'had eaten',
+ 'ate',
+ 'nothing'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If it ………necessary, I shall see you again at six o‟clock.',
+options: ['is',
+ 'had been ',
+ 'is being ',
+ 'was',
+ 'nothing'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If we had not closed down the market, the traders ……..there.',
+options: ['shall still be',
+ 'will still be',
+ 'are still going',
+ 'would have still been',
+ 'nothing'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Mr Adu has never been pleased with his children‟s performance, ……..?',
+options: ['hasn‟t he ',
+ 'didn‟t he ',
+ 'has he',
+ 'did he',
+ 'nothing'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You prefer playing soccer to volley ball ……….?',
+options: ['do you',
+ 'will you',
+ 'won‟t you',
+ 'don‟t you?',
+ 'nothing'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The cashier was r͟u͟d͟e͟ to his boss, ………?',
+options: ['was he',
+ 'wasn‟t he',
+ 'did he',
+ 'didn‟t he',
+ 'nothing'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' These days students are not very interested ……….improving their English.',
+options: ['on',
+ 'about',
+ 'of',
+ 'in',
+ 'nothing'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Kofi ate …………food than anyone else.',
+options: ['more ',
+ 'most ',
+ 'much',
+ 'too much',
+ 'nothing'],
+answer: 0
+}
 ]

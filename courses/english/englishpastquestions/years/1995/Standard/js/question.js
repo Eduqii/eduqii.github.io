@@ -3,355 +3,393 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read PASSAGE I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that the little feathered creatures blend their voice in one of the most delightful songs in the world.' +
+'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
+'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
+'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage, members of the chorus can sing without any difficulty because they …….',
+options: ['have to sing',
+'easily learn to sing',
+ 'have good songs',
+ 'are born good singers'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read PASSAGE I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that the little feathered creatures blend their voice in one of the most delightful songs in the world.' +
+'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
+'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
+'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'The male songbirds sing to ……….',
+options: ['encourage others ',
+'attract the females ',
+ 'entertain others',
+ 'praise nature'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read PASSAGE I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that the little feathered creatures blend their voice in one of the most delightful songs in the world.' +
+'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
+'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
+'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'The most interesting songs are produced',
+options: ['during competitions',
+'in the morning',
+ 'during mating periods',
+ 'in the evening'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read PASSAGE I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that the little feathered creatures blend their voice in one of the most delightful songs in the world.' +
+'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
+'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
+'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'Unique in the passage means',
+options: ['suitable ',
+'similar ',
+ 'exciting ',
+ 'special'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' + 
+'<b>' + 'Read PASSAGE I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 
+'PASSAGE I' + '<br />' + '<br />' + 
+'<i>' + 'Where is the performance of songbirds held? It is not in any concert hall but rather on trees, fences and telephone wires. It is from these places that the little feathered creatures blend their voice in one of the most delightful songs in the world.' +
+'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
+'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
+'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage which of the following is true? Birds ………',
+options: ['are impressive',
+'are awesome',
+ 'make too much noise',
+ 'are ridiculous'],
+answer: 1
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'Most of the village people were excited about the coming of the locusts because they ………',
+options: ['were moving slowly ',
+'had come in a swarm ',
+ 'were not common',
+ 'had covered the sky'],
+answer: 2
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'Why was it easier to catch the locusts in the night? Because the locusts ………',
+options: ['could not fly',
+'were settling down ',
+ 'did not like darkness ',
+ 'were feeling sleepy'],
+answer: 0
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'According to the passage, the locust were',
+options: ['brown ',
+'black ',
+ 'blind ',
+ 'bold'],
+answer: 0
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'Turned out in the passage means',
+options: ['played outside',
+'slept out',
+ 'cried aloud',
+ 'came out'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'Which of the following expressions from the passage indicates that there were a lot of locusts?',
+options: ['amazing sight',
+'fairly small swarm',
+ 'unfamiliar sight',
+ 'slow-moving mass'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' + 
+'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
+'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
+'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
+'According to the passage, which of the following is not true?',
+options: ['Locusts are delicious',
+'Only the aged knew about the locusts',
+ 'The locusts come only in the dry season',
+ 'The locusts created a beautiful sight'],
+answer: 2
+},
+{
+
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br/ >' + '<br />' + 'The government has ' + '<u>' + 'banned' + '</u>' + ' the use of hard drugs in the country.',
+options: ['destroyed',
+'forbidden',
+ 'controlled',
+ 'reduced'],
+answer: 1
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br/ >' + '<br />' + 'Our Headmaster invited many ' + '<u>' + 'prominent' + '</u>' + ' citizens to our speech day.',
+options: ['known',
+'popular',
+ 'distinguished',
+ 'good'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br/ >' + '<br />' + 'The dry season is ' + '<u>' + 'imminent.' + '</u>',
+options: ['very close ',
+'partly over ',
+ 'severe',
+ 'gone'],
+answer: 0
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br/ >' + '<br />' + 'The meeting was ' + '<u>' + 'postponed' + '</u>' + ' to another date.',
+options: ['cancelled ',
+'removed ',
+ 'called',
+ 'shifted'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br/ >' + '<br />' + 'The man was ' + '<u>' + 'furious' + '</u>' + ' when his son failed the examination.',
+options: ['angry',
+'anxious',
+ 'shocked',
+ 'frightened'],
+answer: 0 
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'By the end of the lesson, we were ' + '<u>' + 'completely at sea.' + '</u>' + ' This means that we were …………..',
+options: ['fast asleep',
+'totally confused ',
+ 'quite disturbed ',
+ 'very inspired'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'She did her best to ' + '<u>' + 'keep on the right side' + '</u>' + ' of her teacher. This means she did her best not to ………….her teacher.',
+options: ['interrupt',
+'mislead',
+ 'misunderstand',
+ 'offend'],
+answer: 3
+},
+{
+question:'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  '<u>' + 'You shouldn‟t have hit Kuuku so hard ' + '</u>' + '; it was rather unkind of you. From this we know that Kuuku was',
+options: ['being naughty',
+'hurt ',
+ 'kind ',
+ 'hit'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + '<u>' + 'If we hadn‟t gone to t he beach so early, we would have met our visitor .' + '</u>' + ' This means that …………….',
+options: ['we went to the beach late', 
+'we did not meet our visitor', 
+ 'our visitor waited for us',
+ 'we met our visitor at the beach'],
+answer: 1
+},
+{
+
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'There are guards on our border because the government wants to ' + '<u>' + 'eliminate' + '</u>' + ' smuggling.',
+options: ['notice',
+'manage with',
+ 'encourage',
+ 'investigate'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The candidate worked the problem with a great deal of ' + '<u>' + 'precision.' + '</u>',
+options: ['sense',
+'energy',
+ 'inaccuracy',
+ 'detail'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'My grandmother likes ' + '<u>' + 'old fashioned' + '</u>' + ' clothes.',
+options: ['special',
+'decorated',
+ 'modern',
+ 'stylish'],
+answer: 2
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'I am going to ' + '<u>' + 'arrange' + '</u>' + ' the books in the cupboard.',
+options: ['display',
+'scatter',
+ 'list',
+ 'spill'],
+answer: 1
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' + '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Most of the men were ' + '<u>' + 'sacked' + '</u>' + ' by the company.',
+options: ['used',
+'punished',
+ 'warned employed',
+ 'employed'],
+answer: 3
+},
+{
+
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It‟s a pity I have hardly ………..food to give you.',
+options: ['a little',
+'too much',
+ 'some',
+ 'any'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I was given ………money than you were given.',
+options: ['much more',
+'many',
+ 'much',
+ 'many more'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The book you gave me was not …………..than the one I had before.',
+options: ['any better',
+'much better',
+ 'any good',
+ 'very better'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Are you sure ………….shirts on that table were the ones I gave you?',
+options: ['that ',
+'these ',
+ 'those ',
+ 'some'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Give me the book ………….I lent you yesterday.',
+options: ['whom',
+'what',
+ 'whose',
+ 'which'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of the three girls, Awo is the ……………..',
+options: ['shorter',
+'more shortest',
+ 'most short',
+ 'shortest'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The soldier was promoted because he was the …………..among the lot.',
+options: ['most courageous',
+'courageous',
+ 'more courageous',
+ 'much courageous'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Your nephew could not pass the interview because he was not ………..before the panel members.',
+options: ['confident much',
+'confident quite',
+ 'confident enough',
+ 'confident somehow'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Mr Amakye has been robbed …………his property',
+options: ['from',
+'for ',
+ 'by ',
+ 'of'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The patient went ………….a lot of body exercises',
+options: ['in out',
+'out',
+ 'through',
+ 'ahead'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I have a chat ………..you?',
+options: ['to',
+'with ',
+ 'by ',
+ 'on'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwesi learnt harder so he …………..the examination',
+options: ['passed',
+'would have passed',
+ 'can pass',
+ 'passes'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Let‟s go out and play…………….?',
+options: ['will we',
+'do we',
+ 'would we',
+ 'shall we'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I come to your house on Saturday,……………?',
+options: ['all right ',
+'of course ',
+ 'certainly ',
+ 'please'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You aren‟t hungry, are you?',
+options: ['No, you aren‟t',
+'Yes, I am not',
+ 'No, I am not',
+ 'No, I am'],
+answer: 2
+}
+
 ]

@@ -3,355 +3,507 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+
+		
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'<i>' + 'PASSAGE I' + '</i>' + '<br />' + '<br />' +
+'<i>' + 'Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be like one of those.' + 
+'When Mr Akpaloo thought he was ready to put up his own building, one of the things he did was to look for the plan of the house that he so admired.' +
+' He went to the office of Dr. Agbetor, the Hospital Administrator to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.' +
+'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
+'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' +
+
+'When were the residential structures built at Kpota?',
+options: ['When the hospital was begun.',
+'Long before the hospital was started. ',
+'After the hospital had been built.',
+'They were built together with the hospital.'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'<i>' + 'PASSAGE I' + '</i>' + '<br />' + '<br />' +
+'<i>' + 'Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be like one of those.' + 
+'When Mr Akpaloo thought he was ready to put up his own building, one of the things he did was to look for the plan of the house that he so admired.' +
+' He went to the office of Dr. Agbetor, the Hospital Administrator to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.' +
+'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
+'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' + 
+
+'Dr. Grant did not give the plan to Mr Akpaloo because',
+options: ['the houses belonged to him.',
+'Mr Akpaloo can make a design for himself. ',
+'it was not a wise thing to do.',
+'the caretaker had the plan.'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'<i>' + 'PASSAGE I' + '</i>' + '<br />' + '<br />' +
+'<i>' + 'Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be like one of those.' + 
+'When Mr Akpaloo thought he was ready to put up his own building, one of the things he did was to look for the plan of the house that he so admired.' +
+' He went to the office of Dr. Agbetor, the Hospital Administrator to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.' +
+'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
+'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' + 
+
+'What did Mr. Akpaloo do when he was ready to build a house? He',
+options: ['made a sketch of the building',
+'sent a plan to Dr. Grant',
+'looked for the plan of the house',
+'made sure he had enough money'],
+answer: 2
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'<i>' + 'PASSAGE I' + '</i>' + '<br />' + '<br />' +
+'<i>' + 'Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be like one of those.' + 
+'When Mr Akpaloo thought he was ready to put up his own building, one of the things he did was to look for the plan of the house that he so admired.' +
+' He went to the office of Dr. Agbetor, the Hospital Administrator to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.' +
+'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
+'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' + 
+
+'The word magnificent means',
+options: ['massive ',
+'beautiful ',
+'good',
+'expensive'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
+'<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
+
+'<i>' + 'PASSAGE I' + '</i>' + '<br />' + '<br />' +
+'<i>' + 'Since the building of the District Hospital at Kpota, there had sprung up some residential structures around the hospital. One particular cluster of houses took the fancy of Mr. Akpaloo, who told himself that if ever he wanted to build a house, it would be like one of those.' + 
+'When Mr Akpaloo thought he was ready to put up his own building, one of the things he did was to look for the plan of the house that he so admired.' +
+' He went to the office of Dr. Agbetor, the Hospital Administrator to ask for it. Dr. Agbetor explained that those houses in which Mr. Akpaloo was interested had actually been built by Dr. Grant who still had the blueprint of the structure. Obviously, the person to see was Dr. Grant.' +
+'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
+'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' + 
+
+'… One particular cluster of houses took the fancy of Mr. Akpaloo ….. This means Mr. Akpaloo',
+options: ['laughed at the houses',
+'was confused by the houses ',
+'found the house attractive ',
+'detested the houses'],
+answer: 2
+},
+{
+
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
+'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
+'„Bow down‟ said the genie „and let me kill you‟.' + 
+'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
+'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
+'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
+'„See then and believe‟ said the genie.' +
+'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'According to the passage, the fisherman caught',
+options: ['a pot of gold',
+'a lead pot ',
+'a big fish ',
+'no fish'],
+answer: 3
+},
+{
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
+'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
+'„Bow down‟ said the genie „and let me kill you‟.' + 
+'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
+'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
+'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
+'„See then and believe‟ said the genie.' +
+'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'What is the genie?',
+options: ['A big fish',
+'A copper pot',
+'Smoke',
+'A spirit'],
+answer: 3
+},
+{
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
+'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
+'„Bow down‟ said the genie „and let me kill you‟.' + 
+'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
+'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
+'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
+'„See then and believe‟ said the genie.' +
+'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'The word captivity in the passage, means',
+options: ['loss',
+'birth',
+'imprisonment',
+'defeat'],
+answer: 2
+},
+{
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
+'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
+'„Bow down‟ said the genie „and let me kill you‟.' + 
+'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
+'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
+'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
+'„See then and believe‟ said the genie.' +
+'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'How many times did the genie swear?',
+options: ['Once',
+'Twice',
+'Three times',
+'Four times'],
+answer: 2
+},
+{
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
+'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
+'„Bow down‟ said the genie „and let me kill you‟.' + 
+'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
+'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
+'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
+'„See then and believe‟ said the genie.' +
+'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'According to the passage, the',
+options: ['fisherman freed himself',
+'fisherman killed the genie',
+'genie made many people rich',
+'genie saved the fisherman from troubles'],
+answer: 0
+},
+{
+
+question: 'SECTION B' + '<br />' + '<br />' + 
+
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'Ama was ' + '<u>' +'persuaded' + '</u>' + ' by her brother to change her course.',
+options: ['convinced',
+'commanded',
+'tld',
+'advised'],
+answer: 0
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + 
+
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'The ' + '<u>' + 'talented' + '</u>' + ' footballer scored three goals.',
+options: ['trained ',
+'serious ',
+'gifted',
+'skilled'],
+answer: 2
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + 
+
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'Araba was ' + '<u>' + 'saddened' + '</u>' + ' because she failed to win the beauty contest.',
+options: ['furious ',
+'amazed ',
+'excited',
+'sorrowful'],
+answer: 3
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + 
+
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'Charles behaved in an ' + '<u>' + 'unruly' + '</u>' + ' manner towards his teacher.',
+options: ['impolite ',
+'strange ',
+'indecent ',
+'wicked'],
+answer: 0
+},
+{
+question: 'SECTION B' + '<br />' + '<br />' + 
+
+'<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +
+'My mother is very ' + '<u>' + 'enthusiastic' + '</u>' + ' about my success.',
+options: ['anxious',
+'frank ',
+'aware ',
+'hopeful'],
+answer: 3
+},
+{
+
+
+question: 'SECTION C' + '<br />' + '<br />' +
+
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'The accused died without ' + '<u>' + 'clearing his name.' + '</u>' + ' This means, the man did not',
+options: ['prove his innocence',
+'erase his name',
+'make a will',
+'prove his case'],
+answer: 0
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' +
+
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'The teacher advised us to ' + '<u>' + 'go over' + '</u>' + ' our work before submitting them. This means the teacher asked us to ……….our work.',
+options: ['rewrite',
+'remember',
+'repeat',
+'review'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' +
+
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'You don‟t have to be so ' + '<u>' + 'high and mighty' + '</u>' + ' about your own opinion. This means',
+options: ['positive ',
+'confused ',
+'strong',
+'arrogant'],
+answer: 3
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' +
+
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'Mr. Ala urged Peter and Paul to ' + '<u>' + 'mend their fences.' + '</u>' + ' This means Peter and Paul should',
+options: ['repair their broken fences',
+'make peace',
+'be careful',
+'defend themselves'],
+answer: 1
+},
+{
+question: 'SECTION C' + '<br />' + '<br />' +
+
+'<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
+'He was asked not to attend the party but he ' + '<u>' + 'turned a deaf ear' + '</u>' + ' to the advice. This means that he ……..the advice.',
+options: ['did not hear',
+'laugh at',
+'was angry at',
+'ignored'],
+answer: 3
+},
+{
+
+question: 'SECTION D' + '<br />' + '<br />' +
+
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +
+'Everyone knows Musa to be very ' + '<u>' + 'generous.' + '</u>',
+options: ['stingy ',
+'selfish ',
+'strict',
+'serious'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +
+'The headmaster ' + '<u>' + 'rebuked' + '</u>' + ' the students who came in late.',
+options: ['admitted ',
+'praised ',
+'admired',
+'embraced'],
+answer: 1
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +
+'Naa answered the questions with ' + '<u>' + 'confidence.' + '</u>',
+options: ['joy',
+'firmness',
+'timidity',
+'uncertainty'],
+answer: 3
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +
+'Judges are expected to be ' + '<u>' + 'impartial.' + '</u>',
+options: ['biased',
+'proud',
+'disrespectful',
+'bold'],
+answer: 0
+},
+{
+question: 'SECTION D' + '<br />' + '<br />' +
+
+'<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' +
+'Our father advised us not to ' + '<u>' + 'exalt' + '</u>' + ' ourselves.',
+options: ['humble',
+'raise',
+'decorative',
+'train'],
+answer: 0
+},
+{
+
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'I promised my parents that I ……..study very hard.',
+options: ['would ',
+'should ',
+'will',
+'can'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'If Kofi ………me, I would have helped him.',
+options: ['had asked',
+'asks',
+'has asked',
+'asked'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Let‟s leave now, Akosua, ………….?',
+options: ['may we ',
+'can we ',
+'must we ',
+'shall we'],
+answer: 3
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Adjo is …………young to marry.',
+options: ['so',
+'very',
+'too',
+'much'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Give that book of ………….to Mansah.',
+options: ['their ',
+'yours ',
+'my',
+'your‟s'],
+answer: 1
+},
+{
+
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'……………the warning of the weatherman, the fishermen went to sea.',
+options: ['In spite of',
+'Apart from ',
+'In case of ',
+'Instead of'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'We‟ve been living here …………2001.',
+options: ['since',
+'by ',
+'in ',
+'for'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Kofi told the court that he had met the suspect two days…………',
+options: ['before',
+'ago ',
+'now ',
+'then'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Kwame has been accused …………stealing the money.',
+options: ['with ',
+'for ',
+'of',
+'on'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'This is the man …………I met at the bus stop.',
+options: ['who',
+'whose ',
+'whom ',
+'which'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'My friend is good ………….English.',
+options: ['on ',
+'at ',
+'for',
+'with'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'I hear the programme was interesting; I wish I ……..there.',
+options: ['am ',
+'were ',
+'was',
+'have been'],
+answer: 1
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'Our pastor is now the ……….senior of the pastors in the church.',
+options: ['much ',
+'more ',
+'most ',
+'far'],
+answer: 2
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'I prefer oranges ………….mangoes.',
+options: ['to',
+'than',
+'against',
+'from'],
+answer: 0
+},
+{
+question: 'SECTION E' + '<br />' +
+
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
+'I hope the team ……………..perform better next year.',
+options: ['would',
+'will',
+'should',
+'shall'],
+answer: 1
+}
 ]

@@ -3,355 +3,415 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
-  },
-  {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
-  },
-  {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
-		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: 'SECTION A COMPREHENSION' + '<br />' +
+'Read PASSAGE I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' +
+'<i>' + 'Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.' +
+'He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.' +
+'How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.' +
+'When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.' +
+'Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.' + '</i>' + '<br />' + '<br />' +
+'There was famine means that ',
+options: ['all the animals died ',
+ 'food was scarce',
+ 'there were no farmers',
+ 'food was not cold'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+'Read PASSAGE I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' +
+'<i>' + 'Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.' +
+'He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.' +
+'How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.' +
+'When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.' +
+'Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.' + '</i>' + '<br />' + '<br />' +
+'Which of the following statements is true?',
+options: ['Tortoise had not eaten for three months',
+ 'The villagers gave food to Tortoise ',
+ 'Tortoise got food from his own farm ',
+ 'Tortoise stole the villagers‟ food.'],
+answer: 3
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+'Read PASSAGE I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' +
+'<i>' + 'Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.' +
+'He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.' +
+'How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.' +
+'When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.' +
+'Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.' + '</i>' + '<br />' + '<br />' +
+'Tortoise arrived at the nearby village',
+options: ['at sunset',
+ 'in the night',
+ 'at dawn',
+ 'in the afternoon'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+'Read PASSAGE I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' +
+'<i>' + 'Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.' +
+'He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.' +
+'How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.' +
+'When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.' +
+'Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.' + '</i>' + '<br />' + '<br />' +
+'The villagers went to the playground because',
+options: ['they wanted to find out who made the noise',
+ 'they wanted to hear an announcement',
+ 'Tortoise had fallen',
+ 'the drum had fallen'],
+answer: 1
+},
+{
+question: 'SECTION A COMPREHENSION' + '<br />' +
+'Read PASSAGE I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
+'PASSAGE I' + '<br />' +
+'<i>' + 'Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.' +
+'He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.' +
+'How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.' +
+'When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.' +
+'Very quickly Tortoise disappeared into a nearby bush and ran to the village. He filled his empty shell with as much of the food as he could carry and returned home.' + '</i>' + '<br />' + '<br />' +
+'The villagers did not see Tortoise at the playground because he',
+options: ['ate fast',
+ 'hid in the drum ',
+ 'stole their food ',
+ 'hid in the bush'],
+answer: 3
+},
+{
+
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + ' In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.' +
+'Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.' +
+'„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.' +
+'Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from' +
+'Fosa with a bag of plantain and cassava.' + 
+'But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.' + '</i>' + '<br />' + '<br />' +
+'Abora‟s teeth chattered because',
+options: ['he had a toothache ',
+ 'the night was cold ',
+ 'he wore a cloak',
+ 'the owl hooted'],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + ' In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.' +
+'Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.' +
+'„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.' +
+'Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from' +
+'Fosa with a bag of plantain and cassava.' + 
+'But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.' + '</i>' + '<br />' + '<br />' +
+'From the beginning the police knew where the traveller was when',
+options: ['he made a noise ',
+ 'the blood dripped ',
+ 'he stammered',
+ 'the torchlight flashed'],
+answer: 0
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + ' In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.' +
+'Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.' +
+'„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.' +
+'Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from' +
+'Fosa with a bag of plantain and cassava.' + 
+'But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.' + '</i>' + '<br />' + '<br />' +
+'Sergeant Abora and Corporal Abaidoo hid themselves in order to',
+options: ['keep warm',
+ 'avoid being seen ',
+ 'load their guns ',
+ 'have some sleep'],
+answer: 1
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + ' In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.' +
+'Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.' +
+'„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.' +
+'Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from' +
+'Fosa with a bag of plantain and cassava.' + 
+'But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.' + '</i>' + '<br />' + '<br />' +
+'Sergeant Abora and Corporal Abaidoo hid themselves in order to',
+question: 'The police arrested the late traveller',
+options: ['behind the trees',
+ 'near the police station',
+ 'in the centre of the town',
+ 'near the town'],
+answer: 3
+},
+{
+question: 'PASSAGE II' + '<br />' + '<br />' +
+'<i>' + ' In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.' +
+'Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.' +
+'„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.' +
+'Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from' +
+'Fosa with a bag of plantain and cassava.' + 
+'But his cutlass and bag, both dripping with blood, gave him away. After a search the police found a human head and triumphantly marched him to the police station.' + '</i>' + '<br />' + '<br />' +
+'Sergeant Abora and Corporal Abaidoo hid themselves in order to',
+question: '„… gave him away‟ in the passage means',
+options: ['frightened him',
+ 'warned him ',
+ 'exposed him ',
+ 'disgraced him'],
+answer: 2
+},
+{
+//SECTION B
+
+
+
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Mary‟s mother is ' + '<u>' + 'confident' + '</u>' + '  that her daughter will win a prize.',
+options: ['anxious',
+ 'proud',
+ 'certain',
+ 'determined'],
+answer: 2
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The troops ' + '<u>' + 'retreated' + '</u>' + '  when they were attacked.',
+options: ['escaped ',
+ 'scattered ',
+ 'fought',
+ 'withdrew'],
+answer: 3
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'Our teacher advised us to be ' + '<u>' + 'courteous' + '</u>' + '  always.',
+options: ['punctual',
+ 'mannerly',
+ 'hard-working',
+ 'kind'],
+answer: 1
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'All latecomers were ' + '<u>' + 'promptly' + '</u>' + '  punished.',
+options: ['immediately ',
+ 'mercilessly ',
+ 'roughly',
+ 'severely'],
+answer: 0
+},
+{
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' We should all learn to ' + '<u>' + 'restrain' + '</u>' + '  our anger.',
+options: ['avoid ',
+ 'control ',
+ 'apply',
+ 'delay'],
+answer: 1
+},
+{
+//SECTION C
+
+
+
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' The two brothers are always quarrelling; they never ' + '<u>' + 'see eye to eye' + '</u>' + ' <br />' + ' This means they do not ……….each',
+options: ['agree with',
+ 'admire ',
+ 'respect ',
+ 'trust'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'You must be ' + '<u>' + 'off your head' + '</u>' + '  if you really believe that the moon is a huge cake. This means that you must be',
+options: ['crazy',
+ 'joking',
+ 'unintelligent',
+ 'dreaming'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Amale does not earn much, but she has some money ' + '<u>' + 'put by' + '</u>' + ' This means Amale has some money',
+options: ['to live on',
+ 'for charity',
+ 'saved for the future',
+ 'to pay her children‟s fees'],
+answer: 2
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Several passengers were killed in the accident, but the driver escaped by the ' + '<u>' + 'skin of his teeth' + '</u>' + ' This means that the driver',
+options: ['missed death narrowly',
+ 'lost all his teeth',
+ 'ran into the bush',
+ 'had only a scratch on his skin'],
+answer: 0
+},
+{
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'When the armed robbers could no longer fight the police, they ' + '<u>' + 'gave in.' + '</u>' + ' This means the armed robbers',
+options: ['fled',
+ 'surrendered',
+ 'shot themselves',
+ 'cried for help'],
+answer: 1
+},
+{
+//SECTION D
+
+
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The prefect was ' + '<u>' + 'commended' + '</u>' + ' for his good work.',
+options: ['admired ',
+ 'promoted ',
+ 'rejected ',
+ 'rebuked'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The teacher‟s ' + '<u>' + 'stern' + '</u>' + ' looks helped maintain discipline in the class.',
+options: ['proud',
+ 'indifferent',
+ 'friendly',
+ 'concerned'],
+answer: 2
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Our Assemblyman has ' + '<u>' + 'declined' + '</u>' + ' our invitation to talk to us.',
+options: ['regretted',
+ 'denied ',
+ 'rejected ',
+ 'accepted'],
+answer: 3
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Though her friend asked for some water, Divine ' + '<u>' +  'callously' + '</u>' + ' drank all of it.',
+options: ['mercifully',
+ 'greedily',
+ 'playfully',
+ 'intentionally'],
+answer: 0
+},
+{
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'Rain makes the soil ' + '<u>' + 'moist' + '</u>' + ' for planting',
+options: ['fertile ',
+ 'loose ',
+ 'solid',
+ 'dry'],
+answer: 3
+},
+{
+//SECTION E
+
+
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The students can go home when they ……………..the work',
+options: ['had finished',
+ 'finished',
+ 'finish',
+ 'will finish'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Most people are not kind to animals, ……………?',
+options: ['weren‟t they',
+ 'isn‟t it',
+ 'wasn‟t it',
+ 'are they'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Afua ………….her clothes on the line to dry.',
+options: ['hung ',
+ 'folded ',
+ 'hang',
+ 'stretched'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwesi went to school after he …………his teeth.',
+options: ['had brushed ',
+ 'has brushed ',
+ 'brushing',
+ 'brushed'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kate is the …………..pupil in her class.',
+options: ['well-behaved',
+ 'more well-behaved ',
+ 'very well-behaved ',
+ 'most well-behaved'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'A bag of money, with some documents, …………stolen from the car.',
+options: ['were ',
+ 'are ',
+ 'was',
+ 'have been'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It is necessary sometimes to resort ………..violence.',
+options: ['through',
+ 'to',
+ 'into',
+ 'with'],
+answer: 1
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Clara understood all ……………her teacher taught.',
+options: ['what ',
+ 'which ',
+ 'that',
+ 'this'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Ali agrees that the rice project is …………..good',
+options: ['so',
+ 'much',
+ 'too',
+ 'very'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Charles does not expect ………….his teacher today.',
+options: ['seeing',
+ 'having seen ',
+ 'being seen ',
+ 'to see'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kweku thinks that life is difficult ………….you are old.',
+options: ['if',
+ 'while ',
+ 'when ',
+ 'as'],
+answer: 2
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Many countries ………….the world use English',
+options: ['across',
+ 'inside',
+ 'by',
+ 'on'],
+answer: 0
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Do you like this dress? I made …………….myself.',
+options: ['for',
+ 'that',
+ 'which',
+ 'it'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Ashanti Goldfields is the ………………of gold',
+options: ['nation‟s producer largest ',
+ 'largest nation‟s producer ',
+ 'producer nation‟s largest ',
+ 'nation‟s largest producer'],
+answer: 3
+},
+{
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Neither Kwesi nor Yaw …………….. there when I got to the house.',
+options: ['are',
+ 'is',
+ 'was',
+ 'were'],
+answer: 2
+}
 ]

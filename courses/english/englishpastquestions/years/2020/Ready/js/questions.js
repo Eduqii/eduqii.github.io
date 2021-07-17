@@ -2,7 +2,7 @@
 let questions = [
     {
     numb: 1,
-    question: "<i>" + "From the alternatives lettered A to D, choose the one which most suitably completes each sentence. " + "</i>" + "<br />" +  "<br/>" + " He is _____poor that he cannot pay his bills.",
+    question: "<i>" + "From the alternatives lettered A to D, choose the one which most suitably completes each sentence. " + "</i>" + "<br />" +  "<br/>" + " He is _______ poor that he cannot pay his bills.",
     answer: 'so',   
     options: ['so',
      'too',
@@ -12,7 +12,7 @@ let questions = [
     {
     numb: 2,
     answer: "unless",
-    question: '<i>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence. ' + '</i>' + '<br />' + '<br />' + ' You will be late _____you hurry.',
+    question: '<i>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence. ' + '</i>' + '<br />' + '<br />' + ' You will be late ______ you hurry.',
     options: ['if',
               'or',
               'unless',
@@ -20,7 +20,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: '<i>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence. ' + '</i>' + '<br />' + '<br />' + ' Aminu has been absent from class _____ one month.',
+    question: '<i>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence. ' + '</i>' + '<br />' + '<br />' + ' Aminu has been absent from class ______ one month.',
     options: ['in',
      'for',
      'from',
@@ -463,7 +463,7 @@ answer: "angry"
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '</i>' + '<br />' + ' \'Lightning flashed___light from___torch.\' is an example of _____',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' \'Lightning flashed_____light from______torch.\' is an example of _____',
 
 options: ['alliteration',
 
@@ -482,7 +482,7 @@ answer: "personification"
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '</i>' + '<br />' + ' What is being referred to by the question, \'How would she _____ happened?\'',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' What is being referred to by the question, \'How would she _______ happened?\'',
 
 options: ['Current calm',
 

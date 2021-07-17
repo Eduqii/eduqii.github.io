@@ -87,7 +87,7 @@ question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 'Mr. Akpaloo went and saw Dr. Grant in his magnificent house at Tokoe. The latter explained that it was not prudent to give out the plan that had been specifically designed for those projects. However, he advised Mr. Akpaloo to go to the site and see the caretaker who would show him the rooms. Mr Akpaloo could then make a sketch of the building.' + 
 'To the site Mr. Akpaloo went. When he arrived, the caretaker took him round. What had looked like a two- bedroom house from afar, was at close quarters, a four-bedroom affair. The difference that distance can make!' + '</i>' + '<br />' + '<br />' + 
 
-'… One particular cluster of houses took the fancy of Mr. Akpaloo ….. This means Mr. Akpaloo',
+'___ One particular cluster of houses took the fancy of Mr. Akpaloo ____. This means Mr. Akpaloo',
 options: ['laughed at the houses',
 'was confused by the houses ',
 'found the house attractive ',
@@ -96,13 +96,13 @@ answer: 2
 },
 {
 
-question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
-'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
-'„Bow down‟ said the genie „and let me kill you‟.' + 
-'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
-'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
-'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
-'„See then and believe‟ said the genie.' +
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + 
+'<br />' + '<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' + '<br />' + 
+'<b>' + ' \"Bow down\"' + '</b>' + ' said the genie, ' + '<b>' + '\"and let me kill you\".' + '</b>' + '<br />' +
+'<b>' + '\"Why?\"' + '</b>' + 'asked the fisherman. ' + '<b>' + '\"Have you forgotten that I set you free?\"' + '</b>' + '<br />' +
+'<b>' + '\"Yes, but I have sworn to kill you\"' + '</b>' + ', said the genie. ' + '<b>' + '\"I\'m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy\".' + '</b>' + '<br />' + 
+'<b>' + '\"Well, die I must\"' + '</b>' + ', said the fisherman, ' + '<b>' + '\"but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.\"' + '</b>' + '<br />' + 
+'<b>' + '\"See then and believe\"' + '</b>' + ' said the genie.' + '<br />' + 
 'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'According to the passage, the fisherman caught',
 options: ['a pot of gold',
 'a lead pot ',
@@ -111,13 +111,13 @@ options: ['a pot of gold',
 answer: 3
 },
 {
-question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
-'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
-'„Bow down‟ said the genie „and let me kill you‟.' + 
-'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
-'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
-'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
-'„See then and believe‟ said the genie.' +
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + 
+'<br />' + '<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' + '<br />' + 
+'<b>' + ' \"Bow down\"' + '</b>' + ' said the genie, ' + '<b>' + '\"and let me kill you\".' + '</b>' + '<br />' +
+'<b>' + '\"Why?\"' + '</b>' + 'asked the fisherman. ' + '<b>' + '\"Have you forgotten that I set you free?\"' + '</b>' + '<br />' +
+'<b>' + '\"Yes, but I have sworn to kill you\"' + '</b>' + ', said the genie. ' + '<b>' + '\"I\'m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy\".' + '</b>' + '<br />' + 
+'<b>' + '\"Well, die I must\"' + '</b>' + ', said the fisherman, ' + '<b>' + '\"but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.\"' + '</b>' + '<br />' + 
+'<b>' + '\"See then and believe\"' + '</b>' + ' said the genie.' + '<br />' + 
 'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'What is the genie?',
 options: ['A big fish',
 'A copper pot',
@@ -126,13 +126,13 @@ options: ['A big fish',
 answer: 3
 },
 {
-question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
-'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
-'„Bow down‟ said the genie „and let me kill you‟.' + 
-'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
-'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
-'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
-'„See then and believe‟ said the genie.' +
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + 
+'<br />' + '<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' + '<br />' + 
+'<b>' + ' \"Bow down\"' + '</b>' + ' said the genie, ' + '<b>' + '\"and let me kill you\".' + '</b>' + '<br />' +
+'<b>' + '\"Why?\"' + '</b>' + 'asked the fisherman. ' + '<b>' + '\"Have you forgotten that I set you free?\"' + '</b>' + '<br />' +
+'<b>' + '\"Yes, but I have sworn to kill you\"' + '</b>' + ', said the genie. ' + '<b>' + '\"I\'m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy\".' + '</b>' + '<br />' + 
+'<b>' + '\"Well, die I must\"' + '</b>' + ', said the fisherman, ' + '<b>' + '\"but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.\"' + '</b>' + '<br />' + 
+'<b>' + '\"See then and believe\"' + '</b>' + ' said the genie.' + '<br />' + 
 'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'The word captivity in the passage, means',
 options: ['loss',
 'birth',
@@ -141,13 +141,13 @@ options: ['loss',
 answer: 2
 },
 {
-question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
-'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
-'„Bow down‟ said the genie „and let me kill you‟.' + 
-'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
-'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
-'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
-'„See then and believe‟ said the genie.' +
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + 
+'<br />' + '<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' + '<br />' + 
+'<b>' + ' \"Bow down\"' + '</b>' + ' said the genie, ' + '<b>' + '\"and let me kill you\".' + '</b>' + '<br />' +
+'<b>' + '\"Why?\"' + '</b>' + 'asked the fisherman. ' + '<b>' + '\"Have you forgotten that I set you free?\"' + '</b>' + '<br />' +
+'<b>' + '\"Yes, but I have sworn to kill you\"' + '</b>' + ', said the genie. ' + '<b>' + '\"I\'m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy\".' + '</b>' + '<br />' + 
+'<b>' + '\"Well, die I must\"' + '</b>' + ', said the fisherman, ' + '<b>' + '\"but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.\"' + '</b>' + '<br />' + 
+'<b>' + '\"See then and believe\"' + '</b>' + ' said the genie.' + '<br />' + 
 'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'How many times did the genie swear?',
 options: ['Once',
 'Twice',
@@ -156,13 +156,13 @@ options: ['Once',
 answer: 2
 },
 {
-question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + '<br />' + 
-'<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' +
-'„Bow down‟ said the genie „and let me kill you‟.' + 
-'„Why?‟ asked the fisherman. „Have you forgotten that I set you free?‟' +
-'„Yes, but I have sworn to kill you‟, said the genie. „I‟m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy‟.' +
-'„Well, die I must‟, said the fisherman, „but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.‟' + 
-'„See then and believe‟ said the genie.' +
+question: '<i>' + 'PASSAGE II' + '</i>' + '<br />' + 
+'<br />' + '<i>' + 'One day a poor fishermen went fishing and caught nothing. He was just about to go home when he felt the net suddenly grow heavy. He thought he had caught a large fish. But when he dragged it ashore, he found only a heavy copper pot sealed with lead. He took it and feeling sure it contained something valuable, he took his knife, cut the lead top and turned it upside down. For a moment nothing came out; and then it started to smoke, and this smoke slowly rose right up to the sky like a thick fog. It suddenly turned into a huge genie.' + '<br />' + 
+'<b>' + ' \"Bow down\"' + '</b>' + ' said the genie, ' + '<b>' + '\"and let me kill you\".' + '</b>' + '<br />' +
+'<b>' + '\"Why?\"' + '</b>' + 'asked the fisherman. ' + '<b>' + '\"Have you forgotten that I set you free?\"' + '</b>' + '<br />' +
+'<b>' + '\"Yes, but I have sworn to kill you\"' + '</b>' + ', said the genie. ' + '<b>' + '\"I\'m a spirit that rebelled against the Creator, and to punish me he shut me up in this copper pot. During the first century of my captivity, I swore to make anyone who freed me rich. During my second century, I swore I would grant him any three things. But after these centuries, in anger I swore to kill my liberator without mercy\".' + '</b>' + '<br />' + 
+'<b>' + '\"Well, die I must\"' + '</b>' + ', said the fisherman, ' + '<b>' + '\"but swear that you really were in that pot. It is too small to hold even your little finger. Unless I see it, I shall not believe it.\"' + '</b>' + '<br />' + 
+'<b>' + '\"See then and believe\"' + '</b>' + ' said the genie.' + '<br />' + 
 'He slowly changed back into smoke and entered the pot. The fishermen immediately put back the lead cover and threw it into the sea.' + '</i>' + '<br />' + '<br />' + 'According to the passage, the',
 options: ['fisherman freed himself',
 'fisherman killed the genie',
@@ -243,7 +243,7 @@ answer: 0
 question: 'SECTION C' + '<br />' + '<br />' +
 
 '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
-'The teacher advised us to ' + '<u>' + 'go over' + '</u>' + ' our work before submitting them. This means the teacher asked us to ……….our work.',
+'The teacher advised us to ' + '<u>' + 'go over' + '</u>' + ' our work before submitting them. This means the teacher asked us to ______ our work.',
 options: ['rewrite',
 'remember',
 'repeat',
@@ -254,7 +254,7 @@ answer: 3
 question: 'SECTION C' + '<br />' + '<br />' +
 
 '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
-'You don‟t have to be so ' + '<u>' + 'high and mighty' + '</u>' + ' about your own opinion. This means',
+'You don\'t have to be so ' + '<u>' + 'high and mighty' + '</u>' + ' about your own opinion. This means',
 options: ['positive ',
 'confused ',
 'strong',
@@ -276,7 +276,7 @@ answer: 1
 question: 'SECTION C' + '<br />' + '<br />' +
 
 '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
-'He was asked not to attend the party but he ' + '<u>' + 'turned a deaf ear' + '</u>' + ' to the advice. This means that he ……..the advice.',
+'He was asked not to attend the party but he ' + '<u>' + 'turned a deaf ear' + '</u>' + ' to the advice.' + '<br />' + ' This means that he ______ the advice.',
 options: ['did not hear',
 'laugh at',
 'was angry at',
@@ -344,7 +344,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'I promised my parents that I ……..study very hard.',
+'I promised my parents that I _______ study very hard.',
 options: ['would ',
 'should ',
 'will',
@@ -355,7 +355,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'If Kofi ………me, I would have helped him.',
+'If Kofi _____ me, I would have helped him.',
 options: ['had asked',
 'asks',
 'has asked',
@@ -366,7 +366,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Let‟s leave now, Akosua, ………….?',
+'Let\'s leave now, Akosua, ______ ?',
 options: ['may we ',
 'can we ',
 'must we ',
@@ -377,7 +377,7 @@ answer: 3
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Adjo is …………young to marry.',
+'Adjo is ______ young to marry.',
 options: ['so',
 'very',
 'too',
@@ -388,7 +388,7 @@ answer: 2
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Give that book of ………….to Mansah.',
+'Give that book of ______ to Mansah.',
 options: ['their ',
 'yours ',
 'my',
@@ -400,7 +400,7 @@ answer: 1
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'……………the warning of the weatherman, the fishermen went to sea.',
+'_______ the warning of the weatherman, the fishermen went to sea.',
 options: ['In spite of',
 'Apart from ',
 'In case of ',
@@ -411,7 +411,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'We‟ve been living here …………2001.',
+'We\'ve been living here ______ 2001.',
 options: ['since',
 'by ',
 'in ',
@@ -422,7 +422,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Kofi told the court that he had met the suspect two days…………',
+'Kofi told the court that he had met the suspect two days ______',
 options: ['before',
 'ago ',
 'now ',
@@ -433,7 +433,7 @@ answer: 1
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Kwame has been accused …………stealing the money.',
+'Kwame has been accused _____ stealing the money.',
 options: ['with ',
 'for ',
 'of',
@@ -444,7 +444,7 @@ answer: 2
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'This is the man …………I met at the bus stop.',
+'This is the man ______ I met at the bus stop.',
 options: ['who',
 'whose ',
 'whom ',
@@ -455,7 +455,7 @@ answer: 2
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'My friend is good ………….English.',
+'My friend is good _______ English.',
 options: ['on ',
 'at ',
 'for',
@@ -466,7 +466,7 @@ answer: 1
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'I hear the programme was interesting; I wish I ……..there.',
+'I hear the programme was interesting, I wish I ______ there.',
 options: ['am ',
 'were ',
 'was',
@@ -477,7 +477,7 @@ answer: 1
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'Our pastor is now the ……….senior of the pastors in the church.',
+'Our pastor is now the ______ senior of the pastors in the church.',
 options: ['much ',
 'more ',
 'most ',
@@ -488,7 +488,7 @@ answer: 2
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'I prefer oranges ………….mangoes.',
+'I prefer oranges ______ mangoes.',
 options: ['to',
 'than',
 'against',
@@ -499,7 +499,7 @@ answer: 0
 question: 'SECTION E' + '<br />' +
 
 '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 
-'I hope the team ……………..perform better next year.',
+'I hope the team ________ perform better next year.',
 options: ['would',
 'will',
 'should',

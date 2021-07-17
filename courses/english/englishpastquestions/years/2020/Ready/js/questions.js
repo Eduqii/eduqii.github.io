@@ -419,13 +419,13 @@ answer: "sextet"
   },
   {
     numb: 34,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<i>' + 'Extract:' + '</i>' + '<br />' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
+    question: '<i>' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
  'The bright orange colour of the sunset sky had' + '<br />' +
 'quickly turned dull as the grey clouds gathered,' + '<br />' +
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '<br />' + '<br />' + ' How would she get home if the worst happened?' + '<br />' + ' The atmosphere is _____ ',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' How would she get home if the worst happened? The atmosphere is _____ ',
 
 options: ['cheerful',
 
@@ -438,13 +438,13 @@ answer: "frightening"
   },
   {
     numb: 35,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + '<i>' + 'Extract:' + '</i>' + '<br />' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
+    question: '<i>' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
  'The bright orange colour of the sunset sky had' + '<br />' +
 'quickly turned dull as the grey clouds gathered,' + '<br />' +
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '<br />' + '<br />' + ' The state of the weather is emphasized by the word _____.',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' The state of the weather is emphasized by the word _____.',
 
 options: ['angry',
 
@@ -457,13 +457,13 @@ answer: "angry"
   },
   {
     numb: 36,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + '<i>' + 'Extract:' + '</i>' + '<br />' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
+    question: '<i>' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
  'The bright orange colour of the sunset sky had' + '<br />' +
 'quickly turned dull as the grey clouds gathered,' + '<br />' +
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '<br />' + '<br />' + ' \'Lightning flashed___light from___torch.\' is an example of _____',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' \'Lightning flashed___light from___torch.\' is an example of _____',
 
 options: ['alliteration',
 
@@ -476,13 +476,13 @@ answer: "personification"
   },
   {
     numb: 37,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + '<i>' + 'Extract:' + '</i>' + '<br />' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
+    question: '<i>' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
  'The bright orange colour of the sunset sky had' + '<br />' +
 'quickly turned dull as the grey clouds gathered,' + '<br />' +
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '<br />' + '<br />' + ' What is being referred to by the question, \'How would she _____ happened?\'',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' What is being referred to by the question, \'How would she _____ happened?\'',
 
 options: ['Current calm',
 
@@ -495,13 +495,13 @@ answer: "Imminent rain"
   },
   {
     numb: 38,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + '<i>' + 'Extract:' + '</i>' + '<br />' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
+    question: '<i>' + 'The sudden change in the weather frightened Araba.' + '<br />' + 
  'The bright orange colour of the sunset sky had' + '<br />' +
 'quickly turned dull as the grey clouds gathered,' + '<br />' +
 'rumbling, dark and angry.' + '<br />' +
 'The booming voice of thunder was intimidating.' + '<br />' +
 'Lightning flashed shards of light from his formidable torch.' + '<br />' + 
-'Araba was a cornered rat.' + '<br />' + '<br />' + ' The extract is ',
+'Araba was a cornered rat.' + '</i>' + '<br />' + ' The extract is ',
 
 options: ['drama',
 
@@ -514,7 +514,7 @@ answer: "poetry"
   },
   {
     numb: 39,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + ' One special feature of prose is the _____.',
+    question: ' One special feature of prose is the _____.',
 
 options: ['paragraph',
 
@@ -527,7 +527,7 @@ answer: "paragraph"
   },
   {
     numb: 40,
-    question: '<i>' + 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.' + '</i>' + '<br />' + '<br />' + ' The work of the novelist is in _____.',
+    question: ' The work of the novelist is in _____.',
 
 options: ['drama',
 

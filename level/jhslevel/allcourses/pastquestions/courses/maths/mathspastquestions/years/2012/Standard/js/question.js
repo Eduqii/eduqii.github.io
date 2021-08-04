@@ -3,16 +3,16 @@
 //Array of Objects
 const quiz = [
   {
-		question: 'Indiscipline is a problem in the Ghanaian society because it',
-		options: ['  reduces productivity',
-		 '   reduces productivity',
-		 'leads to high birth rate',
-		 'encourages bribery and corruption'],
+		question: 'If P = {2, 3, 5, 7}and Q = {2, 4, 6, 8}, find P 	\u2229 Q',
+		options: ['{2}',
+		 '{3}',
+		 '{4}',
+		 '{5}'],
 		answer: 0
 	},
 	
 {
-		question: 'Which of the following is a primary activity?',
+		question: 'Which of the following numbers is an integer?',
 		options: [' Plywood processing',
 		 'Fruit canning',
 		 'Cocoa cultivation',

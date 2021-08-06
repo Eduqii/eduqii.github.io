@@ -13,348 +13,372 @@ const quiz = [
 	
 {
 		question: 'Which of the following numbers is an integer?',
-		options: [' Plywood processing',
-		 'Fruit canning',
-		 'Cocoa cultivation',
-		 'Textile production'],
-		answer: 2
-	},
-
-	{
-		question: ' The Akans are believed to have migrated from',
-		options: ['Old Ghana Empire',
-		 ' The Chad basin',
-		 'Benin Republic',
-		 'Ile Ife'],
-		answer: 0
-	},
-
-	{
-		question: 'The most important symbol which identifies Ghana as an independent state is the',
-		options: ['Speaker’s Mace',
-		 'National Flag',
-		 'State Sword',
-		 'Coat-of-arms'],
-		answer: 1
-	},
-
-	{
-		question: ' Which of the following diseases is caused by pollution of water bodies?',
-		options: ['River blindness',
-		 'Asthma',
-		 'Cholera',
-		 ' Hepatitis B'],
-		answer: 0
-	},
-
-	{
-		question: ' A day is either gained or lost when one moves across longitude',
-		options: ['180°',
-		 '24° E',
-		 '115° W',
-		 ' 0°'],
-		answer: 0
-	},
-
-	{
-		question: 'The most cherished value expected of an adolescent in the Ghanaian society is',
-		options: [' hospitality',
-		 ' patience',
-		 ' generosity',
-		 ' chastity'],
+		options: ['<sup>-5</sup>&frasl;<sub>4</sub>',
+		 '<sup>-2</sup>&frasl;<sub>3</sub>',
+		 '0.5',
+		 '1'],
 		answer: 3
 	},
 
 	{
-		question: 'Which of the following cultural practices is a drawback to development in the Ghanaian society?',
-		options: ['Celebration of festivals',
-		 'Naming and outdooring ceremonies',
-		 'iBelief in the activities of demons',
-		 'Belief in the activities of demons'],
-		answer: 2
-	},
-
-	{
-		question: 'The symbol on topographic maps represents',
-		options: [' settlements',
-		 ' farmlands',
-		 'marshy areas',
-		 'areas liable to flood'],
-		answer: 2
-	},
-
-	{
-		question: ' On a relief map, the colour brown usually represents',
-		options: [' plains',
-		 ' mountains',
-		 'water bodies',
-		 'lowlands'],
-		answer: 1
-	},
-
-	{
-		question: ' An extensive area of lowland is called a',
-		options: [' ridge',
-		 ' valley',
-		 ' plain',
-		 ' plateau'],
-		answer: 2
-	},
-
-	{
-		question: ' Which of the following vegetation types is not found in Ghana?',
-		options: ['Sahel woodland',
-		 'Guinea savanna',
-		 ' Mangrove forest',
-		 ' Tropical rain forest'],
-		answer: 0
-	},
-
-	{
-		question: 'The main type of vegetation found in the south-western part of Ghana is the',
-		options: [' rain forest',
-		 'coastal grassland',
-		 'guinea savanna',
-		 ' mangrove forest'],
-		answer: 0
-	},
-
-	{
-		question: ' Lunar eclipse occurs when the',
-		options: ['sun comes between the earth and the moon',
-		 'moon comes between the sun and the earth',
-		 'earth comes between the sun and the moon',
-		 'earth rotates on its axis from West to East.'],
-		answer: 2
-	},
-
-	{
-		question: ' The type of rainfall formed by the meeting of two air masses of different temperatures is',
-		options: ['relief',
-		 'frontal',
-		 ' convectional',
-		 'orographic'],
-		answer: 1
-	},
-
-	{
-		question: ' Which of the following continents is uninhabited?',
-		options: ['Asia',
-		 'Antarctica',
-		 ' Australia',
-		 'Europe'],
-		answer: 1
-	},
-
-	{
-		question: '  One problem created in the rural areas as a result of rural-urban drift is',
-		options: ['increase in streetism',
-		 'creation of slums',
-		 ' environmental degradation',
-		 'increased incidence of broken homes'],
+		question: 'Find the Lowest Common Multiple (LCM) of 2<sup>2</sup> \xD7 3 \xD7 5<sup>2</sup> and 2<sup>3</sup> \xD7 3<sup>2</sup> \xD7 5',
+		options: ['2<sup>2</sup> \xD7 3 \xD7 5',
+		 ' 2<sup>2</sup> \xD7 3<sup>3</sup> \xD7 5<sup>2</sup>',
+		 '2<sup>3</sup> \xD7 3 \xD7 5',
+		 '2<sup>3</sup> \xD7 3<sup>2</sup> \xD7 5<sup>2</sup>'],
 		answer: 3
 	},
 
 	{
-		question: ' Which of the following factors may cause rural-urban drift?',
-		options: [' Better employment opportunities in the urban areas',
-		 'Better health facilities in the rural areas',
-		 ' Even distribution of social amenities in the country',
-		 'Absence of recreational facilities in the urban areas'],
+		question: 'How many diagonals are in a rectangle?',
+		options: ['1',
+		 '2',
+		 '3',
+		 '4'],
+		answer: 1
+	},
+
+	{
+		question: 'Simplify – 4 (3 – 5) + 10 – 3 (7 + 4) + 30',
+		options: ['-1',
+		 '15',
+		 '56',
+		 '65'],
+		answer: 1
+	},
+
+	{
+		question: 'An iron rod 15 m long is divided into 12 equal parts. How long is each part?',
+		options: ['0.80 m',
+		 '1.25 m',
+		 '1.50 m',
+		 '3.00 m'],
+		answer: 1
+	},
+
+	{
+		question: 'Convert 42 to a base two numeral',
+		options: ['1001010<sub>2</sub>',
+		 '1010010<sub>2</sub>',
+		 '1010100<sub>2</sub>',
+		 '101010<sub>2</sub>'],
+		answer: 3
+	},
+
+	{
+		question: 'Simplify <sup>5<sup>7</sup> \xD7 5<sup>4</sup></sup>&frasl;<sub>5<sup>2</sup></sub>',
+		options: ['5<sup>7</sup>',
+		 '5<sup>8</sup>',
+		 '5<sup>9</sup>',
+		 '5<sup>13</sup>'],
+		answer: 2
+	},
+
+	{
+		question: 'A tank contains 400 litres of water. If 100 litres is used, what percentage is left?',
+		options: ['25%',
+		 '30%',
+		 '40%',
+		 '75%'],
+		answer: 3
+	},
+
+	{
+		question: ' Triangle ABC is a right-angled triangle. Find the length of AC.',
+		options: ['1 cm',
+		 '5 cm',
+		 '7 cm',
+		 '12 cm'],
+		answer: 1
+	},
+
+	{
+		question: 'Arrange the following fractions in descending order of magnitude: <sup>2</sup>&frasl;<sub>3</sub>, <sup>5</sup>&frasl;<sub>7</sub>, <sup>2</sup>&frasl;<sub>5</sub>, <sup>1</sup>&frasl;<sub>2</sub>',
+		options: ['<sup>5</sup>&frasl;<sub>7</sub>, <sup>2</sup>&frasl;<sub>5</sub>, <sup>2</sup>&frasl;<sub>3</sub>, <sup>1</sup>&frasl;<sub>2</sub>',
+		 '<sup>5</sup>&frasl;<sub>7</sub>, <sup>2</sup>&frasl;<sub>3</sub>, <sup>1</sup>&frasl;<sub>2</sub>, <sup>2</sup>&frasl;<sub>5</sub>',
+		 '<sup>1</sup>&frasl;<sub>2</sub>, <sup>2</sup>&frasl;<sub>5</sub>, <sup>5</sup>&frasl;<sub>7</sub>, <sup>2</sup>&frasl;<sub>3</sub>',
+		 '<sup>1</sup>&frasl;<sub>2</sub>, <sup>5</sup>&frasl;<sub>7</sub>, <sup>2</sup>&frasl;<sub>3</sub>, <sup>2</sup>&frasl;<sub>5</sub>'],
+		answer: 1
+	},
+
+	{
+		question: 'Find the image of 3 under the mapping, x \u2192 10 - 2x',
+		options: ['4',
+		 '5',
+		 '8',
+		 '16'],
 		answer: 0
 	},
 
 	{
-		question: ' Asante was colonized by the British through',
-		options: ['agreemente',
-		 'force',
-		 ' persuasion',
-		 'plebiscite'],
-		answer: 1
-	},
-
-	{
-		question: 'Right to life means',
-		options: ['living forever',
-		 'living without interference',
-		 'acquiring wealth',
-		 'sustaining the family line'],
-		answer: 1
-	},
-
-	{
-		question: ' Independence of the judiciary implies that judges',
-		options: ['should get everything free',
-		 ' should not pay taxes',
-		 'can do whatever they like',
-		 ' should be free from political interference'],
+		question: 'Simplify <sup>1</sup>&frasl;<sub>3</sub> + <sup>1</sup>&frasl;<sub>9</sub> + <sup>1</sup>&frasl;<sub>27</sub>',
+		options: ['<sup>5</sup>&frasl;<sub>27</sub>',
+		 '<sup>7</sup>&frasl;<sub>27</sub>',
+		 '<sup>11</sup>&frasl;<sub>27</sub>',
+		 '<sup>13</sup>&frasl;<sub>27</sub>'],
 		answer: 3
 	},
 
 	{
-		question: ' One major cause of conflicts in the Ghanaian society is',
-		options: ['the development of slums in the cities',
-		 'inadequate number of law enforcement agents',
-		 'the encouragement of inter-ethnic marriages',
-		 ' unacceptable way of choosing leaders'],
+		question: 'If 2x = 5(x – 2) + 7, find the value of x',
+		options: ['-5<sup>2</sup>&frasl;<sub>3</sub>',
+		 '-1',
+		 '1',
+		 '5<sup>2</sup>&frasl;<sub>3</sub>'],
+		answer: 2
+	},
+
+	{
+		question: 'The table below shows the day and night temperatures of a town during a week.' + '<br />' + 
+		'<table>' + '<tr>' + '<td rowspan="2">' + 'Week day' + '</td>' + '<td>' + 'Temperatures(\xBAC)' + '</td>' + '</tr>' +
+		'<tr>' + '<td>' + 'Day' + '</td>' + '<td>' + 'Night' + '</td>' + '</tr>' +
+		'<tr>' + '<td>' + 'Monday' + '</td>' + '<td>' + '33' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Tuesday' + '</td>' + '<td>' + '29' + '</td>' + '<td>' + '25' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Wednesday' + '</td>' + '<td>' + '32' + '</td>' + '<td>' + '23' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Thursday' + '</td>' + '<td>' + '34' + '</td>' + '<td>' + '26' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Friday' + '</td>' + '<td>' + '32' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Saturday' + '</td>' + '<td>' + '30' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Sunday' + '</td>' + '<td>' + '30' + '</td>' + '<td>' + '25' + '</td>' + '</tr>' + '<br />' + '<br />' +
+		'Find, correct to one decimal place, the average day temperature for the week',
+		options: [' 24.4 \xBAC',
+		 '30.2 \xBAC',
+		 '31.4 \xBAC',
+		 '32.2 \xBAC'],
+		answer: 2
+	},
+
+	{
+		question: 'The table below shows the day and night temperatures of a town during a week.' + '<br />' + 
+		'<table>' + '<tr>' + '<td rowspan="2">' + 'Week day' + '</td>' + '<td>' + 'Temperatures(\xBAC)' + '</td>' + '</tr>' +
+		'<tr>' + '<td>' + 'Day' + '</td>' + '<td>' + 'Night' + '</td>' + '</tr>' +
+		'<tr>' + '<td>' + 'Monday' + '</td>' + '<td>' + '33' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Tuesday' + '</td>' + '<td>' + '29' + '</td>' + '<td>' + '25' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Wednesday' + '</td>' + '<td>' + '32' + '</td>' + '<td>' + '23' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Thursday' + '</td>' + '<td>' + '34' + '</td>' + '<td>' + '26' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Friday' + '</td>' + '<td>' + '32' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Saturday' + '</td>' + '<td>' + '30' + '</td>' + '<td>' + '24' + '</td>' + '</tr>' + 
+		'<tr>' + '<td>' + 'Sunday' + '</td>' + '<td>' + '30' + '</td>' + '<td>' + '25' + '</td>' + '</tr>' + '<br />' + '<br />' +
+		'On which day was the change in temperature the least?',
+		options: ['Monday',
+		 'Saturday',
+		 'Sunday',
+		 'Tuesday'],
 		answer: 3
+	},
+
+	{
+		question: 'A box contains 30 identical balls of which 16 are white and the rest yellow. If a girl picks a ball at random from the box, what is the probability that it is a yellow ball?',
+		options: ['<sup>1</sup>&frasl;<sub>16</sub>',
+		 '<sup>7</sup>&frasl;<sub>15</sub>',
+		 '<sup>8</sup>&frasl;<sub>15</sub>',
+		 '<sup>7</sup>&frasl;<sub>8</sub>'],
+		answer: 1
+	},
+
+	{
+		question: 'Find the truth set of <sup>1</sup>&frasl;<sub>4</sub>(x + 3)\u2264 2x - 1',
+		options: ['{x:x\u2264-3}',
+		 '{x:x\u2264-1}',
+		 '{x:x\u22651}',
+		 '{x:x\u22653}'],
+		answer: 2
+	},
+
+	{
+		question: 'The perimeter of the figure below is 71 cm. Find the diameter of the semi-circular portion.[Take \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>]',
+		options: ['1.0 cm',
+		 ' 3.5 cm',
+		 '7.0 cm',
+		 '14.0 cm'],
+		answer: 3,
+		img:'img/2012-semicir.jpg'
+	},
+
+	{
+		question: 'Simplify <sup>3x</sup>&frasl;<sub>4</sub> - <sup>x - y</sup>&frasl;<sub>3</sub>',
+		options: ['<sup>5x - 4y</sup>&frasl;<sub>12</sub>',
+		 '<sup>13x - 4y</sup>&frasl;<sub>12</sub>',
+		 '<sup>5x + 4y</sup>&frasl;<sub>12</sub>',
+		 '<sup>13x + 4y</sup>&frasl;<sub>12</sub>'],
+		answer: 2
+	},
+
+	{
+		question: 'Kojo is 20% heavier than Afua. If Kojo weighs 6 kg, what is Afua’s weight?',
+		options: ['4.8 kg',
+		 '5.0 kg',
+		 '6.0 kg',
+		 '7.2 kg'],
+		answer: 1
+	},
+
+	{
+		question: 'Find the volume of a cylinder of height 3 cm and radius 2 cm.',
+		options: ['6\u03C0 cm<sup>3</sup>',
+		 '12\u03C0 cm<sup>3</sup>',
+		 '18\u03C0 cm<sup>3</sup>',
+		 '24\u03C0 cm<sup>3</sup>'],
+		answer: 1
 	},
 
 
 		{
-		question: ' The international organization formed to maintain world peace after the Second World War is known as',
-		options: ['The League of Nations',
-		 'United Nations Organisation',
-		 ' Commonwealth of Nations',
-		 ' Non-aligned Movement'],
-		answer: 1
-	},
-
-	{
-		question: ' After independence, Ghana automatically became a member of the',
-		options: ['African Union',
-		 ' League of Nations',
-		 ' Commonwealth of Nations',
-		 'Non-Aligned Movement'],
-		answer: 2
-	},
-
-	{
-		question: 'The executive arm of government comprises of the President, the Cabinet and',
-		options: ['Civil servants',
-		 'Lawyers',
-		 'the Speaker',
-		 'the Chief Justice'],
+		question: 'Given the points S(5, -2) and T(3, 2), calculate the gradient of the line ST.',
+		options: ['-2',
+		 '-<sup>3</sup>&frasl;<sub>5</sub>',
+		 '<sup>1</sup>&frasl;<sub>2</sub>',
+		 '2'],
 		answer: 0
 	},
 
 	{
-		question: ' One way of preventing ethnic conflict in Ghana is through',
-		options: ['payment of compensation',
-		 ' creation of jobs',
-		 ' celebration of festivals',
-		 'tolerance and dialogue'],
-		answer: 3
-	},
-
-	{
-		question: ' Family planning is beneficial to Ghanaians because it',
-		options: ['helps in giving respect and honour to fathers',
-		 ' increase life expectancy of children',
-		 ' helps restore the health of mothers',
-		 'brings about equitable distribution of income'],
-		answer: 3
-	},
-
-	{
-		question: 'Labour can be productively increased through',
-		options: ['moral education in society',
-		 ' training and retraining',
-		 'extension of working hours',
-		 'people doing sacrificial work'],
+		question: 'Kofi invested GH\xA2 150,000 at 2.5% per annum simple interest. How long will it take this amount to yield an interest of GHKofi invested GH¢ 150,000 at 2.5% per annum simple interest. How long will it take this amount to yield an interest of GHKofi invested GH¢ 150,000 at 2.5% per annum simple interest. How long will it take this amount to yield an interest of GH\xA211,250.00?11,250.00?11,250.00?',
+		options: ['2 years',
+		 '3 years',
+		 '4 years',
+		 ' 5 years'],
 		answer: 1
 	},
 
 	{
-		question: ' One traditional way of preserving fish in Ghana is',
-		options: ['canning',
-		 'freezing',
-		 'salting',
-		 ' boiling'],
-		answer: 2
-	},
-
-	{
-		question: 'One factor responsible for the low rate of economic development in Ghana is',
-		options: [' misappropriation of state resources',
-		 'misuse of individual resources',
-		 'increase of taxes on industries',
-		 ' slow rate of population growth'],
+		question: 'Express 3.75 as a mixed fraction.',
+		options: ['3<sup>1</sup>&frasl;<sub>5</sub>',
+		 '3<sup>1</sup>&frasl;<sub>4</sub>',
+		 '3<sup>1</sup>&frasl;<sub>3</sub>',
+		 '3<sup>3</sup>&frasl;<sub>4</sub>'],
 		answer: 0
 	},
 
 	{
-		question: 'Which of the following means of saving ensures continuity of firms after suffering losses?',
-		options: [' Treasury bill',
-		 'Insurance',
-		 'Company shares',
-		 ' Government bonds'],
+		question: 'A map is drawn to the scale 1:100,000. What distance in kilometres is represented by 5 cm on the map?',
+		options: ['0.5 km',
+		 '5.0 km',
+		 '50.0 km',
+		 '500.0 km'],
 		answer: 1
 	},
 
 	{
-		question: ' Travelling to see and enjoy facilities and sceneries in other places is referred to as',
-		options: ['leisure',
-		 'tourism',
-		 'pleasure',
-		 ' entertainment'],
+		question: 'Given that r = (<sup>\u2212 3</sup><sub>4</sub>) and (<sup>1</sup><sub>\u2212 3</sub>), find r \u2212 2s',
+		options: ['(<sup>\u2212 1 </sup><sub>1</sub>)',
+		 '(<sup>\u2212 5</sup><sub>10</sub>)',
+		 '<sup>\u2212 2</sup><sub>10</sub>',
+		 '<sup>\u2212 1</sup><sub>10</sub>'],
 		answer: 1
 	},
 
 	{
-		question: 'Workers in Ghana are required by law to contribute towards their future upkeep through',
-		options: ['Company shares',
-		 'Treasury bills',
-		 'Government bonds',
-		 'Social Security schemes'],
-		answer: 3
-	},
-
-	{
-		question: ' A constitution may be defined as the',
-		options: ['bye-laws of a country',
-		 'decrees of a country',
-		 'customary laws of a country',
-		 'highest law of a country'],
-		answer: 3
-	},
-
-	{
-		question: 'An advantage of a good layout for settlement is that',
-		options: ['it reduces overcrowding of families',
-		 'it promotes trading and church activities',
-		 ' it makes the inhabitants very rich',
-		 ' modern houses and schools are built'],
-		answer: 0
-	},
-	{
-		question: ' One responsibility of the Ghanaian citizen is to',
-		options: ['protect the police',
-		 ' pay taxes',
-		 'work and earn a living',
-		 ' worship freely'],
+		question: 'Esi went to the market and bought 500 g of meat, 850 g of fish and 900 g of eggs. What is the total weight of the items she bought in kilograms?',
+		options: [' 2.20 kg',
+		 ' 2.25 kg',
+		 '2.35 kg',
+		 '22.50 kg'],
 		answer: 1
 	},
+
 	{
-		question: ' In order to protect one’s rights, a citizen should be',
-		options: ['a law student',
-		 'a youth leader',
-		 'educated on them',
-		 'an observer at court sittings'],
+		question: 'A watch gains 1<sup>1</sup>&frasl;<sub>2</sub>  minutes  minutes per hour. What is the total time gained from 12 noon to 12 midnight in a day?',
+		options: ['9 minutes',
+		 '15 minutes',
+		 '18 minutes',
+		 '36 minutes'],
+		answer: 2
+	},
+
+	{
+		question: 'A printing machine prints 600 books in 3 hours. How many books will the machine print in 5 hours?',
+		options: ['360 books',
+		 '1000 books',
+		 '1800 books',
+		 '3000 books'],
+		answer: 1
+	},
+
+	{
+		question: 'The bearing of Atoru from Busase is 275\xBA. What is the bearing of Busase from Atoru?',
+		options: ['180\xBA',
+		 '175\xBA',
+		 '095\xBA',
+		 '075\xBA'],
+		answer: 2
+	},
+
+	{
+		question: 'In a class of 24 pupils, 10 study French only and 8 study English only. If each pupil studies at least one of the two subjects, how many study English?',
+		options: ['12',
+		 '14',
+		 '16',
+		 '18'],
+		answer: 1
+	},
+
+	{
+		question: 'Convert 84 to a base five numeral.',
+		options: ['4130<sub>5</sub>',
+		 '3014<sub>5</sub>',
+		 '314<sub>5</sub>',
+		 '114<sub>5</sub>'],
+		answer: 2
+	},
+
+	{
+		question: 'In the diagrams below, triangle A1B1C1 is an enlargement of triangle ABC. Determine the scale factor.',
+		options: ['0.50',
+		 '0.75',
+		 '2.00',
+		 '4.00'],
+		answer: 2,
+		img:'img/enlargement.jpg'
+	},
+
+	{
+		question: 'Find the least number that must be added to 308 to make it divisible by 19.',
+		options: ['4',
+		 '7',
+		 '15',
+		 '18'],
 		answer: 2
 	},
 	{
-		question: ' Which of the following personalities was a member of the United Gold Coast Convention?',
-		options: [' Kojo Botsio',
-		 ' J.B. Danquah',
-		 'Krobo Edusei',
-		 'K. A. Gbedemah'],
+		question: 'In a school of 940 pupils, the number of girls exceeds the number of boys by 150. How many girls are there in the school?',
+		options: ['620',
+		 '545',
+		 '470',
+		 '395'],
 		answer: 1
 	},
 	{
-		question: 'The primary function of the legislature is to',
-		options: ['administer justice',
-		 'make laws',
-		 'register citizens',
-		 'protect wrong doers'],
+		question: 'Which of the following fractions is equivalent to <sup>3</sup>&frasl;<sub>5</sub> ?',
+		options: ['<sup>21</sup>&frasl;<sub>30</sub>',
+		 '<sup>12</sup>&frasl;<sub>20</sub>',
+		 '<sup>15</sup>&frasl;<sub>45</sub>',
+		 '<sup>6</sup>&frasl;<sub>15</sub>'],
 		answer: 1
 	},
 	{
-		question: 'People who buy company shares receive',
-		options: ['profits',
-		 'dividends',
-		 'loans',
-		 'overdrafts'],
-		answer: 1
+		question: 'In the diagram below, line PQ is parallel to RS and UV is a line drawn through PQ and RS.' + '<br />' + 'Find angle a.',
+		options: ['35\xBA',
+		 '55\xBA',
+		 '135\xBA',
+		 '145\xBA'],
+		answer: 3,
+		img:'img/line.jpg'
+	},
+	{
+		question: 'In the diagram below, line PQ is parallel to RS and UV is a line drawn through PQ and RS.' + '<br />' + 'Angle b and angle c are',
+		options: ['alternate angles',
+		 'vertically opposite angles',
+		 'corresponding angles',
+		 'interior opposite angles'],
+		answer: 2,
+		img:'img/line.jpg'
+	},
+	{
+		question: 'Expand – x(3 – 2x)',
+		options: ['\u2212 2x<sup>2</sup> \u2212 3x',
+		 '2x<sup>2</sup> \u2212 3x',
+		 '\u2212 2x<sup>2</sup> + 3x',
+		 '2x<sup>2</sup> + 3x'],
+		answer: 0
 	}
 ]

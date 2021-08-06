@@ -430,62 +430,10 @@ answer: 3
 
 question: 'The point (4,5) is translated to the point (3,1). What is the translation vector?',
 
-options: [' coconut plantations',
- ' pineapple plantations',
- ' banana plantations',
- ' sugar-cane plantations'],
-
-answer: 4
-
-},
-
-{ 
-
-question: ' The practice of checks and balances prevents',
-
-options: [' dictatorship',
- ' favouritism',
- ' ethnicity',
- ' sectionalism'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' Motivation and supervision help in the efficient use of',
-
-options: [' human resources',
- ' national resources',
- ' mineral resources',
- ' capital resources'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' The basic way of promoting savings habit among children is by',
-
-options: [' adopting an insurance policy',
- ' joining a credit union',
- ' opening a current account',
- ' providing money boxes'],
-
-answer: 3
-
-},
-
-{ 
-
-question: ' A credit union is an example of a',
-
-options: [' joint stock company',
- ' co-operative society',
- ' partnership',
- ' public corporation'],
+options: ['(<sup>-1</sup><sub>4</sub>)',
+ '(<sup>1</sup><sub>4</sub>)',
+ '(<sup>1</sup><sub>-4</sub>)',
+ '(<sup>-1</sup><sub>-4</sub>)'],
 
 answer: 1
 
@@ -493,39 +441,97 @@ answer: 1
 
 { 
 
-question: ' The regular payments which individuals and organizations make to insurance companies are',
+question: 'n the diagram below, triangle QRT is the enlargement of QST.' + '<br />' +
+'Which side of triangle QRT corresponds to side QT of triangle QST?',
 
-options: [' premiums',
- ' salaries',
- ' taxes',
- ' wages'],
+options: ['TS',
+ 'TR',
+ 'QR',
+ 'SR'],
 
-answer: 0
-
-},
-
-{ 
-
-question: ' Indiscipline is a problem to the Ghanaian society because it',
-
-options: [' reduces productivity',
- ' destroys the educational system',
- ' encourages bribery and corruption',
- ' leads to high birth rate'],
-
-answer: 0
+answer: 1,
+img:'img/triangle3.png'
 
 },
 
 { 
 
-question: ' Tourism in Ghana promotes the growth of the',
+question: 'In the diagrams above Fig. I is an enlargement of Fig. II.' + '<br />' +
+'Find the side EF of Fig. II',
 
-options: [' film industry',
- ' hotel industry',
- ' textile industry',
- ' health industry'],
+options: ['20 cm',
+ '5 cm',
+ '4 cm',
+ '3 cm'],
 
-answer: 1  
+answer: 3,
+img:'img/enlargement.jpg'
+
+},
+
+{ 
+
+question: 'Express 4037 in standard form',
+
+options: ['4.03710<sup>-4</sup>',
+ '4.03710<sup>-3</sup>',
+ '4.03710<sup>3</sup>',
+ '4.03710<sup>4</sup>'],
+
+answer: 2
+
+},
+
+{ 
+
+question: 'Which of the following angles can be constructed by using the arcs at point C in the diagram below?',
+
+options: ['30\xBA',
+ '45\xBA',
+ '60\xBA',
+ '75\xBA'],
+
+answer: 1,
+img:'img/construction.jpg'
+
+},
+
+{ 
+
+question: ' Given that vector a = (<sup>-5</sup><sub>12</sub>) and b = (<sup>10x</sup><sub>12</sub>) find the value of x if a = b.',
+
+options: ['-2',
+ '-	\xBD',
+ '\xBD',
+ '2'],
+
+answer: 1
+
+},
+
+{ 
+
+question: 'In the diagram above, the bearing of point B from A is',
+
+options: ['340\xBA',
+ '220\xBA',
+ '140\xBA',
+ '50\xBA'],
+
+answer: 1,
+img:'img/bearing.jpg'
+
+},
+
+{ 
+
+question: 'Ama is 9 years older than Kwame. If Kwame is 18 years old, find the ratio of the age of Kwame to that of Ama.',
+
+options: ['3 : 2',
+ '1 : 3',
+ '2 : 3',
+ '2 : 1'],
+
+answer: 2  
 }
 ]

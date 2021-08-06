@@ -7,9 +7,6 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
-const time_line = document.querySelector("header .time_line");
-const timeText = document.querySelector(".timer .time_left_txt");
-const timeCount = document.querySelector(".timer .timer_sec");
 
 let questionCounter = 0;
 let currentQuestion;
@@ -24,19 +21,6 @@ function setAvailableQuestion(){
 	for(let i=0; i<totalQuestion; i++){
 		availableQuestions.push(quiz[i])
 	}
-	//function for timer
-	var count = 40;
-var interval = setInterval(function(){
-  document.getElementById('timer_sec').innerHTML=count;
-  count--;
-  if (count === 0){
-    clearInterval(interval);
-    document.getElementById('timer_sec').innerHTML='Time out';
-    // or...
-    //alert("You're out of time!");
-	quizOver();
-  }
-}, 10000);
 }
 function getNewQuestion(){
 	questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + quiz.length;
@@ -83,7 +67,7 @@ function getNewQuestion(){
 		optionContainer.appendChild(option)
 		option.setAttribute("onclick","getResult(this)");
 	}	
-	
+
 	questionCounter++
 }
 

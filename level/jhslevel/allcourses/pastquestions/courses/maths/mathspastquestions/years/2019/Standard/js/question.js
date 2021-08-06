@@ -20,10 +20,10 @@ const quiz = [
   },
   {
   	question: 'Which of the following numbers is the largest?',
-  	options:['–70',
-			 '–50',
-			 '–3',
-			 '– 2'],
+  	options:['\u2212 70',
+			 '\u2212 50',
+			 '\u2212 3',
+			 '\u2212 2'],
   	answer: 3
   },
   {
@@ -124,7 +124,7 @@ const quiz = [
 		answer: 1
   },
   {
-  	question: 'If the bearing of A from B is 240°, find the bearing of B from A.',
+  	question: 'If the bearing of A from B is 240\xB0, find the bearing of B from A.',
 		options: ['040\xBA',
 				  '060\xBA',
 				  '120\xBA',
@@ -173,7 +173,7 @@ const quiz = [
 		answer: 1
   },
   {
-  	question: ' A number is selected at random from: 25,26,27,28… 35. Find the probability that the number selected is a prime number.',
+  	question: ' A number is selected at random from: 25,26,27,28\u2026 35. Find the probability that the number selected is a prime number.',
 		options: ['<sup>6</sup>&frasl;<sub>11</sub>',
 				  '<sup>3</sup>&frasl;<sub>11</sub>',
 				  '<sup>2</sup>&frasl;<sub>11</sub>',
@@ -222,7 +222,7 @@ const quiz = [
 		answer: 2
   },
   {
-  	question: 'A trader sold 90 oranges at 3 for GH₵ 0.75. How much did she get from selling all the oranges?',		
+  	question: 'A trader sold 90 oranges at 3 for GH\xA2 0.75. How much did she get from selling all the oranges?',		
   	options: ['GH\xA222.50',
 			  'GH\xA267.50',
 			  'GH\xA275.00',
@@ -294,7 +294,7 @@ const quiz = [
 		answer: 3
    },
    {
-  	question: ' The simple interest on GH₵ 450.00 for 4 years is GH₵ 45.00, find the rate of interest.',
+  	question: ' The simple interest on GH\xA2 450.00 for 4 years is GH\xA2 45.00, find the rate of interest.',
 	       options:['2.5%',
 				 '10%',
 				 '25%',

@@ -25,7 +25,7 @@ function setAvailableQuestion(){
 		availableQuestions.push(quiz[i])
 	}
 	//function for timer
-	var count = 40;
+	var count = 60;
 var interval = setInterval(function(){
   document.getElementById('timer_sec').innerHTML=count;
   count--;

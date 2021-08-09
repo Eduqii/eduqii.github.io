@@ -4,105 +4,12 @@
 const quiz = [
  {
 
-question: ' During the Second World War, Ghanaian soldiers fought on the side of',
+question: 'Given that A = {1,2,3,4,5,6} and B = {3,6,9,12}, find A \u222A B',
 
-options: [' Germany and her allies',
- ' America and her allies',
- ' Britain and her allies',
- ' Japan and her allies'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' One of the measures the government of Ghana can use to reduce poverty is',
-
-options: [' paying higher interest on savings',
- ' obtaining World Bank loan',
- ' giving away public funds',
- ' equipping the unemployed with skills'],
-
-answer: 3
-
-},
-
-{
-
-question: ' Cape Town in South Africa falls within the',
-
-options: [' Warm Temperate Climate',
- ' Cool Temperate Climate',
- ' Tundra Climate',
- ' Tropical Climate'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' A president who performs judicial functions abuses the principle of',
-
-options: [' checks and balances',
- ' separation of powers',
- ' fundamental human rights',
- ' collective responsibility'],
-
-answer: 1
-
-
-},
-
-{ 
-
-question: ' Economic self-reliance is a necessary factor for maintaining',
-
-options: [' political independence',
- ' democratic rule',
- ' national unity',
- ' higher education'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' Which type of rain occurs when cold and warm air masses meet?',
-
-options: [' Orographic',
- ' Convectional',
- ' Cyclonic',
- ' Thunderstorm'],
-
-answer: 0
-
-
-},
-
-{ 
-
-question: ' Ghana co-operates with other nations mainly to',
-
-options: [' ensure her political stability',
- ' develop her national trade',
- ' maintain internal peace',
- ' maintain international peace'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' For a nation to be economically independent, she must',
-
-options: [' educate her citizens',
- ' produce her basic needs',
- ' rely on her colonial master for aid',
- ' co-operate with her neighbours'],
+options: ['{3,6}',
+ '{6,12}',
+ '{2,3,4,5,9,12}',
+ '{1,2,3,4,5,6,9,12}'],
 
 answer: 3
 
@@ -110,225 +17,12 @@ answer: 3
 
 { 
 
-question: ' The Arctic Circle is',
-
-options: [' 23 ½ ° north',
- ' 23 ½ ° south',
- ' 66 ½ ° north',
- ' 66 ½ ° south'],
-
-answer: 1
-
-
-},
-
-{ 
-
-question: ' The system by which a foreigner acquires citizenship of another country is',
-
-options: [' registration',
- ' nationalization',
- ' adoption',
- ' naturalization'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' Parents can reduce conflicts at home when they',
-
-options: [' use corporal punishment',
- ' increase children’s privileges',
- ' offer advice to children',
- ' detain children'],
-
-answer: 3
-
-
-},
-
-{ 
-
-question: ' When one moves eastwards and crosses the International Date line',
-
-options: [' a day is gained',
- ' a day is lost',
- ' shorter hours of day is experienced',
- ' longer hours of day is experienced'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' Which of the following industries is having negative influences on the Ghanaian culture?',
-
-options: [' Mining',
- ' Agriculture',
- ' Fishing',
- ' Tourism'],
-
-answer: 1
-
-},
-
-{ 
-
-question: ' Which of the following is not a social problem in Ghana?',
-
-options: [' Low standard of living',
- ' Low agricultural production',
- ' Low literacy rate',
- ' High birth rate'],
-
-answer: 3
-
-},
-
-{
-
-question: ' The highest points in Ghana are found on the',
-
-options: [' Gambaga Escarpment',
- ' Akwapim Ridge',
- ' Togo Range',
- ' Mampong Scarp'],
-
-answer: 1 
-
-},
-
-{ 
-
-question: ' One of the following was not a founding member of the United Gold Coast Convention (UGCC)',
-
-options: [' J.',  ' Danquah',
- ' Ako Adjei',
- ' Kwame Nkrumah',
- ' George Grant'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' The chief representative of the central government in the district is the',
-
-options: [' Parliamentarian of the District',
- ' District Co-ordinating Director',
- ' Presiding Member of the District Assembly',
- ' District Chief Executive'],
-
-answer: 2
-
-},
-
-{ 
-
-question: ' The Mediterranean lands are known for the production of',
-
-options: [' citrus',
- ' tea',
- ' grains',
- ' vegetables'],
-
-answer: 3
-
-},
-
-{ 
-
-question: ' A medical officer at a government hospital is a',
-
-options: [' director',
- ' civil servant',
- ' public servant',
- ' consultant'],
-
-answer: 0
-
-
-},
-
-{ 
-
-question: ' The conventional sign on a topographical sheet represents a',
-
-options: [' school',
- ' church',
- ' bridge',
- ' settlement'],
-
-answer: 2
-
-
-},
-
-{ 
-
-question: ' The development of communities in your area is the responsibility of the',
-
-options: [' Member of Parliament',
- ' Traditional Council',
- ' Unit Committee',
- ' District Assembly'],
-
-answer: 3
-
-},
-
-{
-
-question: ' When the time at Tema is 12 noon, the time at a place on longitude 30°w is',
-
-options: [' 9 am',
- ' 10 am',
- ' 11 am',
- ' 2 pm'],
-
-answer: 1
-
-},
-
-{ 
-
-question: ' One duty of a citizen is to',
-
-options: [' enjoy free education',
- ' join a religious group',
- ' assist the police in investigations',
- ' support a political party'],
-
-answer: 3
-
-},
-
-{
-
-question: ' The institution established under the 1992 Constitution to educate the public on their rights is the',
-
-options: [' National Commission for Civic Education',
- ' National Media Commission',
- ' Electoral Commission',
- ' Commission on Human Rights and Administrative Justice (CHRAJ)'],
-
-answer: 1
-
-
-},
-
-{ 
-
-question: ' Which of the following constitutes human rights abuse?',
-
-options: [' Being searched by a security agent',
- ' Interrogation by a security agent',
- ' Police detention beyond forty-eight hours',
- ' Lawful imprisonment beyond forty-eight hours'],
+question: 'Write 2340000 in standard form.',
+
+options: ['2.3410<sup>-6</sup>',
+ '2.3410<sup>-5</sup>',
+ '2.3410<sup>6</sup>',
+ '2.3410<sup>7</sup>'],
 
 answer: 2
 
@@ -336,116 +30,12 @@ answer: 2
 
 {
 
-question: ' When one faces the rising sun, the left hand',
+question: 'How many faces has a cuboid?',
 
-options: [' always points to the north',
- ' sometimes points to the north',
- ' sometimes points to the west',
- ' always points to the west'],
-
-answer: 0
-
-
-},
-
-{ 
-
-question: ' In order to fully develop our natural resources we must',
-
-options: [' bring in experts from abroad',
- ' train our human resource',
- ' go for loans from abroad for farming',
- ' compel the youth to undertake farming'],
-
-answer: 2
-
-},
-
-{
-
-question: ' The 1951 general election granted Ghana',
-
-options: [' political independence',
- ' republican status',
- ' membership of the Commonwealth',
- ' internal self-government'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' The construction industry is an example of',
-
-options: [' secondary production',
- ' tertiary production',
- ' primary production',
- ' subsistence production'],
-
-answer: 1
-
-},
-
-{
-
-question: ' Rocks that have their original features changed through very high temperature and pressure are called',
-
-options: [' metamorphic',
- ' sedimentary',
- ' volcanic',
- ' igneous'],
-
-answer: 3
-
-},
-
-{ 
-
-question: ' Which of these countries is in the Southern Hemisphere?',
-
-options: [' Japan',
- ' Malaysia',
- ' Brazil',
- ' North Korea'],
-
-answer: 0
-
-},
-
-{ 
-
-question: ' In the Ghanaian society, irresponsible parenting is one of the causes of',
-
-options: [' rural-urban migration',
- ' teenage pregnancy',
- ' late marriages',
- ' infant mortality'],
-
-answer: 1
-},
-
-{
-
-question: ' The major reason for establishing castle schools by the Europeans was to',
-
-options: [' educate the people on human rights',
- ' teach religious knowledge',
- ' educate their own children',
- ' introduce formal education'],
-
-answer: 1
-
-},
-
-{ 
-
-question: ' Which of the following cereals grows well in the Sudan Savana?',
-
-options: [' Wheat',
- ' Rice',
- ' Sorghum',
- ' Millet'],
+options: ['12',
+ '8',
+ '6',
+ '4'],
 
 answer: 2
 
@@ -453,12 +43,26 @@ answer: 2
 
 { 
 
-question: ' Another name for the North-East Trade Winds is',
+question: 'Subtract 125.47 from 203.90',
 
-options: [' Fohn',
- ' Harmattan',
- ' Monsoon',
- ' Westerlies'],
+options: ['78.57',
+ '78.43',
+ '-121.57',
+ '-122.38'],
+
+answer: 1
+
+
+},
+
+{ 
+
+question: 'Simplify (5m+3n) – (2m-n)',
+
+options: ['5m-4n',
+ '3m+4n',
+ '3m-2n',
+ '7m+4n'],
 
 answer: 1
 
@@ -466,12 +70,26 @@ answer: 1
 
 { 
 
-question: ' The organ of government that initiates policies to be passed into law is the',
+question: 'Which of the following sets is equal to {1,2,3,4} ?',
 
-options: [' Media',
- ' Judiciary',
- ' Parliament',
- ' Executive'],
+options: ['{2,4,1,5}',
+ '{2,1,4,3,}',
+ '{1,2,3,4,\u2026}',
+ '{2,3,4,5,\u2026}'],
+
+answer: 1
+
+
+},
+
+{ 
+
+question: 'In a town of 42,800 inhabitants, 48% are male. The rest are female. How many more females are there than males?',
+
+options: ['22,256',
+ '20,544',
+ '1,712',
+ '1,612'],
 
 answer: 2
 
@@ -479,25 +97,41 @@ answer: 2
 
 { 
 
-question: ' The breakdown of extended families in our communities is mainly caused by',
+question: 'What set does the following graph represent?',
 
-options: [' numerous family meetings',
- ' high increase in population',
- ' pressure of work',
- ' adoption of foreign culture'],
+options: ['{x: x<2}',
+ '{x: x = 2}',
+ '{x: x>2}',
+ '{x: x=2}'],
 
-answer: 3
+answer: 1,
+img:'img/numberLine.jpg'
 
 },
 
 { 
 
-question: ' The high dependency problem of some families can be solved by',
+question: 'The pie chart below shows the performance of Kate in her final examination.' + 'What is the angle for French?',
 
-options: [' practising family planning',
- ' sending children to school',
- ' sharing the responsibilities with relatives',
- ' encouraging parents to feed their children properly'],
+options: ['120\xBA',
+ '100\xBA',
+ '70\xBA',
+ '35\xBA'],
+
+answer: 2,
+img:'img/pieChart.png'
+
+
+},
+
+{ 
+
+question: 'If Kate scored 60% in Social Studies, what was her score in Economics?',
+
+options: ['45%',
+ '54%',
+ '72%',
+ '90%'],
 
 answer: 0
 
@@ -505,12 +139,26 @@ answer: 0
 
 { 
 
-question: ' A hill with a steep slope on one side and a gentle slope on the other side is a/an',
+question: 'A teacher is to be chosen at random from a group of 6 male and 2 female teachers for a patron of a Mathematics Club. What is the probability that a female teacher is chosen?',
 
-options: [' ridge',
- ' escarpment',
- ' knoll',
- ' plateau'],
+options: ['<sup>3</sup>&frasl;<sub>4</sub>',
+ '<sup>2</sup>&frasl;<sub>3</sub>',
+ '<sup>1</sup>&frasl;<sub>3</sub>',
+ '<sup>1</sup>&frasl;<sub>4</sub>'],
+
+answer: 3
+
+
+},
+
+{ 
+
+question: 'Solve the equation 2x – 3(x-1) = 6',
+
+options: ['3',
+ '-3',
+ '-7',
+ '-9'],
 
 answer: 1
 
@@ -518,13 +166,378 @@ answer: 1
 
 { 
 
-question: ' Democracy in our nation could be sustained by',
+question: 'If m = 3 and n = -3, evaluate <sup>1</sup>&frasl;<sub>2</sub>(3m-n)',
 
-options: [' teaching the people information technology',
- ' operating one party system of government',
- ' holding general elections every decade',
- ' giving the people political education'],
+options: ['6',
+ '3',
+ '0',
+ '-6'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'Which of the following sets of angles form the interior angles of a right angled triangle?',
+
+options: ['{20\xBA, 50\xBA, 90\xBA}',
+ '{80\xBA, 60\xBA, 90\xBA}',
+ '{45\xBA, 45\xBA, 90\xBA}',
+ '{65\xBA, 90\xBA, 35\xBA}'],
+
+answer: 2
+
+},
+
+{
+
+question: 'State the rule for the mapping',
+
+options: ['x \u2192 <sup>x</sup>&frasl;<sub>4</sub>',
+ 'x \u2192 <sup>x</sup>&frasl;<sub>2</sub>',
+ 'x \u2192 <sup>3x</sup>&frasl;<sub>4</sub>',
+ 'x \u2192 <sup>1</sup>&frasl;<sub>2x</sub>'],
+
+answer: 0,
+img:'img/mapping.png'
+
+},
+
+{ 
+
+question: 'A rectangle has an area of 36 cm<sup>2</sup> and a width of 3 cm. Find its perimeter.',
+
+options: ['12 cm',
+ '18 cm',
+ '24 cm',
+ '30 cm'],
 
 answer: 3
+
+},
+
+{ 
+
+question: '. Find the value of 4 + x<sup>0</sup>',
+
+options: ['3',
+ '4',
+ '5',
+ '6'],
+
+answer: 2
+
+},
+
+{ 
+
+question: 'A van travels 154km in 1<sup>3</sup>&frasl;<sub>4</sub> hours. Find its speed in km/h.',
+
+options: ['77km/h',
+ '88km/h',
+ '100km/h',
+ '269.5km'],
+
+answer: 1
+
+},
+
+{ 
+
+question: 'In the figure below, PQ and RS are straight lines. Find the value of the angle marked wo.',
+
+options: ['27\xBA',
+ '-2',
+ '53\xBA',
+ '127\xBA'],
+
+answer: 2,
+img:'img/construction.png'
+
+
+},
+
+{ 
+
+question: 'If x + 5 = -7, find the value of <sup>x</sup>&frasl;<sub>6</sub>',
+
+options: ['-5',
+ '-2',
+ '-<sup>1</sup>&frasl;<sub>3</sub>',
+ '2'],
+
+answer: 1
+
+
+},
+
+{ 
+
+question: 'In the diagram below, rectangle OABC is enlarged into rectangle OA1B1C1 from centre O.' + '<br />' + '|OC|=5cm, |OA|=2cm and |AA1| = 1cm' + '<br />' +
+'Find the scale factor of the enlargement.',
+
+options: ['1',
+ '1.5',
+ '2',
+ '2.5'],
+
+answer: 1,
+img:'img/diagram.png'
+
+},
+
+{
+
+question: 'In the diagram below, rectangle OABC is enlarged into rectangle OA1B1C1 from centre O.' + '<br />' + '|OC|=5cm, |OA|=2cm and |AA1| = 1cm' + '<br />' +
+'Calculate OC1',
+
+options: ['7.5cm',
+ '8cm',
+ '9cm',
+ '12cm'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'The height of a flag pole in a scale drawing is 5cm. If the scale is 1cm to 3m, what is the actual height of the pole?',
+
+options: ['10 m',
+ '15 m',
+ '8 m',
+ '5 m'],
+
+answer: 1
+
+},
+
+{
+
+question: 'Factorize: ax + 3x + a + 3',
+
+options: ['x(a+x)',
+ '(x-a)(x+3)',
+ 'x(a-x)',
+ '(a+3)(x+1)'],
+
+answer: 3
+
+
+},
+
+{ 
+
+question: 'If y = <sup>x + 8</sup>&frasl;<sub>x - 4</sub>, find the value of y when x = 2',
+
+options: ['5',
+ '-5',
+ '4',
+ '-4'],
+
+answer: 1
+
+},
+
+{
+
+question: 'Find the greatest common factor (GCF) of 90, 126 and 72.',
+
+options: ['6',
+ '9',
+ '18',
+ '24'],
+
+answer: 2
+
+
+},
+
+{ 
+
+question: 'Given that 1 : 3 = x : 21, find the value of x.',
+
+options: ['4',
+ '5',
+ '7',
+ '63'],
+
+answer: 2
+
+},
+
+{
+
+question: 'Find the difference between 432<sub>5</sub>  and 143<sub>5</sub> ',
+
+options: ['234<sub>5</sub>',
+ '334<sub>5</sub>',
+ '1130<sub>5</sub>',
+ '1310<sub>5</sub>'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'Simplify:  14<sup>1</sup>&frasl;<sub>3</sub> - 2<sup>2</sup>&frasl;<sub>8</sub> + 5<sup>7</sup>&frasl;<sub>12</sub> ',
+
+options: ['6<sup>3</sup>&frasl;<sub>8</sub>',
+ '7<sup>5</sup>&frasl;<sub>12</sub>',
+ '17<sup>5</sup>&frasl;<sub>12</sub>',
+ '17<sup>13</sup>&frasl;<sub>24</sub>'],
+
+answer: 3
+
+},
+
+{
+
+question: 'Nine bottles of equal capacity hold 4\xBD litres of water. How much do x bottles hold?',
+
+options: ['\xBD x litres',
+ '2x litres',
+ '20\xBD x litres',
+ '40\xBD x litres'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'A sales girl receives a 5% commission on all she sells. Find how much she has to sell to receive GH	\xA215.00',
+
+options: ['GH\xA2750.00',
+ 'GH\xA2300.00',
+ 'GH\xA275.00',
+ 'GH\xA230.00'],
+
+answer: 1
+},
+
+{
+
+question: 'Arrange the following fractions in ascending order: <sup>7</sup>&frasl;<sub>12</sub> , <sup>3</sup>&frasl;<sub>5</sub>, <sup>7</sup>&frasl;<sub>5</sub>, <sup>3</sup>&frasl;<sub>4</sub>',
+
+options: ['<sup>3</sup>&frasl;<sub>5</sub>, <sup>7</sup>&frasl;<sub>15</subb>, <sup>7</sup>&frasl;<sub>12</sub>, \xBE',
+ '<sup>7</sup>&frasl;<sub>12</subb>, <sup>7</sup>&frasl;<sub>15</sub>, <sup>3</sup>&frasl;<sub>5</sub>, \xBE',
+ '<sup>7</sup>&frasl;<sub>15</subb>, <sup>7</sup>&frasl;<sub>12</sub>, <sup>3</sup>&frasl;<sub>5</sub>, \xBE',
+ '<sup>3</sup>&frasl;<sub>5</sub>, \xBE, <sup>7</sup>&frasl;<sub>12</subb>, <sup>7</sup>&frasl;<sub>15</sub>'],
+
+answer: 2
+
+},
+
+{ 
+
+question: 'Add 2.5 to the product of 4.2 and 0.2',
+
+options: ['13.4',
+ '10.9',
+ '3.34',
+ '1.34'],
+
+answer: 2
+
+},
+
+{ 
+
+question: 'What is the value of four in the number 7073.48?',
+
+options: ['four tenth',
+ 'four',
+ 'forty',
+ 'four hundred'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'The table below shows the ages of children at a birthday party.' + '<br />' + 
+'<tabLe>' + '<tr>' + '<td>' + 'Ages (yrs)' + '</td>' + '<td>' + '1' + '</td>' + '<td>' + '2' + '</td>'  + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '7' + '</td>' + '<td>' + '8' + '</td>' + '<td>' + '9' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
+'<tr>' + '<td>' + 'No. of children' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '4' + '</td>'+ '<td>' + '4' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '1' + '</td>' + '</tr>' + '</tabLe>' + '<br />' + '<br />' + 
+'What is the modal age?',
+
+options: ['10',
+ '7',
+ '5',
+ '4'],
+
+answer: 1
+
+},
+
+{ 
+
+question: 'The table below shows the ages of children at a birthday party.' + '<br />' +
+'<tabLe>' + '<tr>' + '<td>' + 'Ages (yrs)' + '</td>' + '<td>' + '1' + '</td>' + '<td>' + '2' + '</td>'  + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '7' + '</td>' + '<td>' + '8' + '</td>' + '<td>' + '9' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
+'<tr>' + '<td>' + 'No. of children' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '4' + '</td>'+ '<td>' + '4' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '1' + '</td>' + '</tr>' + '</tabLe>' + '<br />' + '<br />' + 
+'A child is selected at random. What is the probability that he or she is 4 years old?',
+
+options: [' <sup>4</sup>&frasl;<sub>35</sub>',
+ ' <sup>1</sup>&frasl;<sub>7</sub>',
+ '<sup>2</sup>&frasl;<sub>5</sub>',
+ '<sup>4</sup>&frasl;<sub>5</sub>'],
+
+answer: 1
+
+},
+
+{ 
+
+question: 'The table below shows the ages of children at a birthday party.' + '<br />' +
+'<tabLe>' + '<tr>' + '<td>' + 'Ages (yrs)' + '</td>' + '<td>' + '1' + '</td>' + '<td>' + '2' + '</td>'  + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '7' + '</td>' + '<td>' + '8' + '</td>' + '<td>' + '9' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
+'<tr>' + '<td>' + 'No. of children' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '4' + '</td>'+ '<td>' + '4' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '1' + '</td>' + '</tr>' + '</tabLe>' + '<br />' + '<br />' + 
+'How many children are 7 or more years old?',
+
+options: ['28',
+ '22',
+ '13',
+ '6'],
+
+answer: 2
+
+},
+
+{ 
+
+question: 'Write the vector (<sup>6cm W</sup>&nbsp;<sub>4cm S</sub>&nbsp;) using Cartesian components.',
+
+options: ['(<sup>-6</sup><sub>-4</sub>)',
+ '(<sup>-4</sup><sub>-6</sub>)',
+ '(<sup>-6</sup><sub>4</sub>)',
+ '(<sup>6</sup><sub>-4</sub>)'],
+
+answer: 0
+
+},
+
+{ 
+
+question: 'Simplify: 5 - 7 + 2(3 - 8)',
+
+options: ['-12',
+ '-8',
+ '-5',
+ '-4'],
+
+answer: 0
+},
+{
+	question: 'If r = (<sup>-10</sup><sub>-9</sub>) and n = (<sup>8</sup><sub>-6</sub>) find n + r',
+	
+options: [ '(<sup>-2</sup><sub>-9</sub>)',
+'(<sup>2</sup><sub>-9</sub>)',
+'(<sup>18</sup><sub>9</sub>)',
+'(<sup>-2</sup><sub>-3</sub>)'],
+
+answer: 0
 }
 ]

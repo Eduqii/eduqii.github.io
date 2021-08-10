@@ -91,7 +91,7 @@ const quiz = [
 		answer: 0
   },
   {
-  	question: 'The mean of the numbers 5,2x,4 and 3 is 5. Find the value of x',
+  	question: 'The mean of the numbers 5, 2x, 4 and 3 is 5. Find the value of x',
 		options: ['3',
 				  '4',
 				  '5',
@@ -116,7 +116,7 @@ const quiz = [
 		answer: 2
   },
   {
-  	question: ' A tank in the form of a cuboid has length 6m and breadth 4m. If the volume of the tank is 36m2, find the height.',		
+  	question: ' A tank in the form of a cuboid has length 6m and breadth 4m. If the volume of the tank is 36m<sup>3</sup>, find the height.',		
   	options: ['0.67m',
 			  '1.5m',
 			  '1.8m',
@@ -189,7 +189,7 @@ const quiz = [
 		answer: 3
   },
   {
-  	question: 'Find the diameter of a circle whose circumference is 88cm.[take \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>',
+  	question: 'Find the diameter of a circle whose circumference is 88cm.[take \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>]',
 		options: ['14 cm',
 			  	  '22 cm',
 				  '28 cm',

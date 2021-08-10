@@ -62,7 +62,7 @@ const quiz = [
 		answer: 1
   },
   {
-  	question: 'What property of arithmetic operation is illustrated by\n\n a(b + c) = ab + ac',
+  	question: 'What property of arithmetic operation is illustrated by' + '<br />' + '<br />' + ' a(b + c) = ab + ac',
 		options: ['Addition',
 		 'Associative',
 		 ' Commutative',

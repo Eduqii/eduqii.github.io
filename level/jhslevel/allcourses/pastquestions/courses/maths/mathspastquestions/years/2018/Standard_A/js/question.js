@@ -322,7 +322,7 @@ const quiz = [
 		img:'img/mapping_.png'
 	},
 	{
-		question: 'Solve the inequality: <sup>1</sup>&frasl;<sub>2</sub>(3x -1) + 1 \u2264 7 + 2x'
+		question: 'Solve the inequality: <sup>1</sup>&frasl;<sub>2</sub>(3x -1) + 1 \u2264 7 + 2x',
 		options: ['x \u2265 -14',
 		 'x \u2264 -14',
 		 'x \u2265 -13',

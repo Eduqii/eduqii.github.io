@@ -203,7 +203,7 @@ const quiz = [
 
 
 		{
-		question: 'In the diagram, UVW is an isosceles triangle, |UV| = |UW| and angle VUW = 70\xBA. Find angle UVW',
+		question: 'In the diagram, UVW is an isosceles triangle, |UV| = |UW| and angle VUW = 70\xB0. Find angle UVW',
 		options: ['70\xB0',
 		 '60\xB0',
 		 '55\xB0',

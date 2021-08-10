@@ -213,20 +213,20 @@ const quiz = [
 	},
 
 	{
-		question: 'Arrange the following in descending order: <sup>7</sup>&frasl;<sub>20</sub>,<sup>7</sup>&frasl;<sub>25</sub>,<sup>37</sup>&frasl;<sub>100</sub>,<sup>1</sup>&frasl;<sub>4</sub>',
-		options: ['<sup>37</sup>&frasl;<sub>100</sub>,<sup>7</sup>&frasl;<sub>20</sub>,<sup>7</sup>&frasl;<sub>25</sub>,<sup>1</sup>&frasl;<sub>4</sub>',
-		 '<sup>1</sup>&frasl;<sub>4</sub>,<sup>7</sup>&frasl;<sub>25</sub>,<sup>7</sup>&frasl;<sub>20</sub>,<sup>37</sup>&frasl;<sub>100</sub>',
-		 '<sup>37</sup>&frasl;<sub>100</sub>,<sup>7</sup>&frasl;<sub>20</sub>,<sup>1</sup>&frasl;<sub>4</sub>,<sup>7</sup>&frasl;<sub>25</sub>',
-		 '<sup>7</sup>&frasl;<sub>25</sub>,<sup>1</sup>&frasl;<sub>4</sub>,<sup>7</sup>&frasl;<sub>20</sub>,<sup>37</sup>&frasl;<sub>100</sub>'],
+		question: 'Arrange the following in descending order: <sup>7</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>25</sub>, <sup>37</sup>&frasl;<sub>100</sub>, <sup>1</sup>&frasl;<sub>4</sub>',
+		options: ['<sup>37</sup>&frasl;<sub>100</sub>, <sup>7</sup>&frasl;<sub>20</sub>, <sup>7</sup>&frasl;<sub>25</sub>, <sup>1</sup>&frasl;<sub>4</sub>',
+		 '<sup>1</sup>&frasl;<sub>4</sub>, <sup>7</sup>&frasl;<sub>25</sub>, <sup>7</sup>&frasl;<sub>20</sub>, <sup>37</sup>&frasl;<sub>100</sub>',
+		 '<sup>37</sup>&frasl;<sub>100</sub>, <sup>7</sup>&frasl;<sub>20</sub>, <sup>1</sup>&frasl;<sub>4</sub>, <sup>7</sup>&frasl;<sub>25</sub>',
+		 '<sup>7</sup>&frasl;<sub>25</sub>, <sup>1</sup>&frasl;<sub>4</sub>, <sup>7</sup>&frasl;<sub>20</sub>, <sup>37</sup>&frasl;<sub>100</sub>'],
 		answer: 0
 	},
 
 	{
 		question: 'The point D(4, 3) is reflected in the y-axis. Find the coordinates of its image.',
-		options: ['(–4, –3)',
-		 '(–3, 4)',
-		 ' (–4, 3)',
-		 '(3, –4)'],
+		options: ['(-4, -3)',
+		 '(-3, 4)',
+		 ' (-4, 3)',
+		 '(3, -4)'],
 		answer: 2
 	},
 
@@ -249,10 +249,10 @@ const quiz = [
 	},
 
 	{
-		question: 'The point Q(–2, 3) is rotated anticlockwise about the origin through an angle of 90\xBA. Find the coordinates of its image.',
-		options: ['(–3, –2)',
-		 '(–3, 2)',
-		 '(3, –2)',
+		question: 'The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90\xBA. Find the coordinates of its image.',
+		options: ['(-3, -2)',
+		 '(-3, 2)',
+		 '(3, -2)',
 		 ' (3, 2)'],
 		answer: 0
 	},

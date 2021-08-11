@@ -24,19 +24,7 @@ function setAvailableQuestion(){
 	for(let i=0; i<totalQuestion; i++){
 		availableQuestions.push(quiz[i])
 	}
-	//function for timer
-	var count = 50;
-var interval = setInterval(function(){
-  document.getElementById('timer_sec').innerHTML=count;
-  count--;
-  if (count === 0){
-    clearInterval(interval);
-    document.getElementById('timer_sec').innerHTML='Time out';
-    // or...
-    //alert("You're out of time!");
-	quizOver();
-  }
-}, 60000);
+	
 }
 function getNewQuestion(){
 	questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + quiz.length;
@@ -205,6 +193,19 @@ function goToHome() {
    	getNewQuestion();
    	// to create indicators of answer
    	answersIndicator();
+	//function for timer
+	var count = 50;
+var interval = setInterval(function(){
+  document.getElementById('timer_sec').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('timer_sec').innerHTML='Time out';
+    // or...
+    //alert("You're out of time!");
+	quizOver();
+  }
+}, 1000);
    }
 
 window.onload = function () {

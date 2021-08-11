@@ -179,7 +179,7 @@ const quiz = [
 		options: ['(<sup>0</sup><sub>0</sub>)',
 		 '(<sup>-8</sup><sub>12</sub>)',
 		 '(<sup>8</sup><sub>-12</sub>)',
-		 '<sup>-8</sup><sub>0</sub>'],
+		 '(<sup>-8</sup><sub>0</sub>)'],
 		answer: 0
 	},
 

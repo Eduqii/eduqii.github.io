@@ -205,7 +205,7 @@ var interval = setInterval(function(){
     //alert("You're out of time!");
 	quizOver();
   }
-}, 1000);
+}, 60000);
    }
 
 window.onload = function () {

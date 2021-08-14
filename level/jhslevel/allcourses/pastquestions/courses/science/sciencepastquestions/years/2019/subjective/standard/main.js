@@ -153,27 +153,31 @@ if(question34 == '1. Eating Hot foods' + '<br />' + '2. Washing hands with soap 
 if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question36 == 'eating or drinking water in the laboratory – Accidental ingestion of poisonous susbstances.'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question37 == 'Walking barefooted – Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question38 == 'Skin irritation/corossion/burns'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question39 == 'Night Blindness'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question40 == 'Vitamin A'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question41 == 'Tomatoes / Egg / Liver / Green leafy vegetables / cod Liver oil / Carrot' || question41 == 'Tomatoes, Egg, Liver'){
 		correct++;
 }
-if(question7 == 'iv. Mode of heat transfer – Conduction'){
+if(question42 == 'Force is a push or pull.'){
 		correct++;
 }
+if(question43 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
+		correct++;
+}
+
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
 	var messages = ["Great job!", "That's just okay", "You really need to do better"];

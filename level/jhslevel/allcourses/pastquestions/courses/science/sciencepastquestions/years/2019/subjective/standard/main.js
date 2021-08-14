@@ -187,11 +187,11 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 		score = 2;
 	}
 
-	if (correct > 0 && correct < 6) {
+	if (correct > 0 && correct < 43) {
 		score = 1;
 	}
 
-	if (correct == 7) {
+	if (correct == 43) {
 		score = 0;
 	}
 

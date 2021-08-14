@@ -8,6 +8,27 @@ function check(){
 	var question5 = document.quiz.question1av.value;
 	var question6 = document.quiz.question1avi.value;
 	var question7 = document.quiz.question1avii.value;
+	var question8 = document.quiz.question1bi.value;
+	var question8 = document.quiz.question1bii.value;
+	var question8 = document.quiz.question1biii.value;
+	var question8 = document.quiz.question1biv.value;
+	var question8 = document.quiz.question1bv.value;
+	var question8 = document.quiz.question1bvi.value;
+	var question8 = document.quiz.question1c.value;
+	var question8 = document.quiz.question1di.value;
+	var question8 = document.quiz.question1dii.value;
+	var question8 = document.quiz.question1diii.value;
+	var question8 = document.quiz.question1div.value;
+	var question8 = document.quiz.question1dv.value;
+	var question8 = document.quiz.question2ai.value;
+	var question8 = document.quiz.question2aii.value;
+	var question8 = document.quiz.question2aiii.value;
+	var question8 = document.quiz.question2bi.value;
+	var question8 = document.quiz.question2bii.value;
+	var question8 = document.quiz.question2c.value;
+	var question8 = document.quiz.question2d.value;
+	
+	
 	var correct = 0;
 
 

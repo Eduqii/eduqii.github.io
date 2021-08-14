@@ -54,7 +54,7 @@ function check(){
 	if (question2 == 'To remove oxygen' ) {
 		correct++;
 }	
-	if (question3 == 'To prevent air from from entering the water / To seal out air' || question3 == 'To seal out air') {
+	if (question3 == 'To prevent air from from entering the water / To seal out air' || question3 == 'To seal out air' || question3 == 'To prevent air from from entering the water') {
 		correct++;
 }
 	if(question4 == 'To absorb moisture'){
@@ -63,7 +63,7 @@ function check(){
 	if(question5 == 'It rusted due to the presence of air and water'){
 		correct++;
 }
-	if(question6 == '(a) The nail in Test B did not rust because it was exposed to only water/moisture.' + '<br />' + '(b) The nail in Test C did not rust due to the absence of water/moisture'){
+	if(question6 == '(a) The nail in Test B did not rust because it was exposed to only water/moisture.\n(b) The nail in Test C did not rust due to the absence of water/moisture'){
 		correct++;
 }
 if(question7 == 'To Seal out air or to prevent air from getting into contact with the metal.'){
@@ -72,7 +72,7 @@ if(question7 == 'To Seal out air or to prevent air from getting into contact wit
 if(question8 == 'To demonstrate that sunglig is necessary for photosynthesis'){
 		correct++;
 }
-if(question9 == '(a)I – To kill living cells' + '<br />' + '(b)II – To remove chlorophyll' + '<br />' + '(c) III – To soften the leaf and wash off alcohol'){
+if(question9 == '(a)I – To kill living cells\n(b)II – To remove chlorophyll\n(c) III – To soften the leaf and wash off alcohol'){
 		correct++;
 }
 if(question10 == 'Leaf A turned turned blue-black'){
@@ -87,7 +87,7 @@ if(question12 == 'To remove any existing starch from the leaves.'){
 if(question13 == 'The experiment demonstrates that without sunlight, photosynthesis cannot occur.'){
 		correct++;
 }
-if(question14 == '(i)Equal quantities of soil samples of A and B are taken using the beam balance and then transferred into separate funnels each fitted with filter papers.' + '<br />' + '(ii) The funnels are mounted over a measuring cylinder and equal volumes of water is poured into each funnel.'+ '<br />' + '(iii) The setups are allowed to stand until water drains completely in each setup.' + '<br />' + '(iv) The soil sample within the setup where the least water was drained into the measuring cylinder is the soil which holds more water (Setup A).'){
+if(question14 == '(i)Equal quantities of soil samples of A and B are taken using the beam balance and then transferred into separate funnels each fitted with filter papers.\n(ii) The funnels are mounted over a measuring cylinder and equal volumes of water is poured into each funnel.\n(iii) The setups are allowed to stand until water drains completely in each setup.\n(iv) The soil sample within the setup where the least water was drained into the measuring cylinder is the soil which holds more water (Setup A).'){
 		correct++;
 }
 if(question15 == 'To show that heat is transferred through metals by conduction.'){
@@ -114,13 +114,13 @@ if(question21 == 'Plants are primary producers because they produce their own fo
 if(question22 == 'Consumers'){
 		correct++;
 }
-if(question23 == '(a)A – Umbra' + '<br />' + '(b)B – Penumbra'){
+if(question23 == '(a)A – Umbra\n(b)B – Penumbra'){
 		correct++;
 }
 if(question24 == 'It illustrates that light travel in a straight line'){
 		correct++;
 }
-if(question25 == '(i)Add water to the mixture of sand and sugar and stir vigorously.' + '<br />' + '(ii) Filter the mixture using a filter paper.' + '<br />' + '(iii) Heat the filtrate to evaporate the water.' + '<br />' + '(iv) Pure sugar is obtained after all the water evaporates.'){
+if(question25 == '(i)Add water to the mixture of sand and sugar and stir vigorously.\n(ii) Filter the mixture using a filter paper.\n(iii) Heat the filtrate to evaporate the water.\n(iv) Pure sugar is obtained after all the water evaporates.'){
 		correct++;
 }
 if(question26 == 'Afforestation, addition of manure,planting cover crops,crop rotation and mulching.'){
@@ -144,10 +144,10 @@ if(question31 == 'Loamy soil normally contains equal parts of clay, silt, and sa
 if(question32 == 'Nitrogen , potassium, Phosphorus,Calcium,Iron & Magnesium.'){
 		correct++;
 }
-if(question33 == '(a)cholera – Vibro Cholerae' + '<br />' + '(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
+if(question33 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
 		correct++;
 }
-if(question34 == '1. Eating Hot foods' + '<br />' + '2. Washing hands with soap and under running water.' + '<br />' + '3. Proper disposal of faecal matter' + '<br />' + '4. Keeping the environment clean'){
+if(question34 == ' Eating Hot foods' || question34 == ' Washing hands with soap and under running water.' || question34 == 'Proper disposal of faecal matter' || question34 == 'Keeping the environment clean'){
 		correct++;
 }
 if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
@@ -162,7 +162,7 @@ if(question37 == 'Walking barefooted – Injury by broken bottles or pins/ Slipp
 if(question38 == 'Skin irritation/corossion/burns'){
 		correct++;
 }
-if(question39 == 'Night Blindness'){
+if(question39 == 'Night Blindness\nRiver'){
 		correct++;
 }
 if(question40 == 'Vitamin A'){

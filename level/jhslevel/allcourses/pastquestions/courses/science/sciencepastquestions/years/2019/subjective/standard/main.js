@@ -48,22 +48,61 @@ function check(){
 	var correct = 0;
 
 
-	if (question1 == '100 degrees celcius or 212 degrees fahrenheit' || question1 == "100 degrees celcius") {
+	if (question1 == 'An experiment to determine the conditions necessary for rust.') {
 		correct++;
 }
-	if (question2 == 'Nails 1, 2, 3 and 4 will drop off one after the other. Nail 1 drops first, nail 2 second, nail 3 third and nail 4 fourth' ) {
+	if (question2 == 'To remove oxygen' ) {
 		correct++;
 }	
-	if (question3 == 'The readings of Thermometers A,B, C and D will increase progressively till they reach 100°C. – Thermometer A reaches 100°C first, B second,C third and D fourth') {
+	if (question3 == 'To prevent air from from entering the water / To seal out air' || question3 == 'To seal out air') {
 		correct++;
 }
-	if(question4 == 'iv. Mode of heat transfer – Conduction'){
+	if(question4 == 'To absorb moisture'){
 		correct++;
 }
-	if(question5 == 'iv. Mode of heat transfer – Conduction'){
+	if(question5 == 'It rusted due to the presence of air and water'){
 		correct++;
 }
-	if(question6 == 'iv. Mode of heat transfer – Conduction'){
+	if(question6 == '(a) The nail in Test B did not rust because it was exposed to only water/moisture.' + '<br />' + '(b) The nail in Test C did not rust due to the absence of water/moisture'){
+		correct++;
+}
+if(question7 == 'To Seal out air or to prevent air from getting into contact with the metal.'){
+		correct++;
+}
+if(question8 == 'To demonstrate that sunglig is necessary for photosynthesis'){
+		correct++;
+}
+if(question9 == '(a)I – To kill living cells' + '<br />' + '(b)II – To remove chlorophyll' + '<br />' + '(c) III – To soften the leaf and wash off alcohol'){
+		correct++;
+}
+if(question10 == 'Leaf A turned turned blue-black'){
+		correct++;
+}
+if(question11 == 'The color change exhibited was due to the presence of starch.'){
+		correct++;
+}
+if(question12 == 'To remove any existing starch from the leaves.'){
+		correct++;
+}
+if(question13 == 'The experiment demonstrates that without sunlight, photosynthesis cannot occur.'){
+		correct++;
+}
+if(question14 == '(i)Equal quantities of soil samples of A and B are taken using the beam balance and then transferred into separate funnels each fitted with filter papers.' + '<br />' + '(ii) The funnels are mounted over a measuring cylinder and equal volumes of water is poured into each funnel.'+ '<br />' + '(iii) The setups are allowed to stand until water drains completely in each setup.' + '<br />' + '(iv) The soil sample within the setup where the least water was drained into the measuring cylinder is the soil which holds more water (Setup A).'){
+		correct++;
+}
+if(question15 == 'To show that heat is transferred through metals by conduction.'){
+		correct++;
+}
+if(question16 == '100 degrees celsius.'){
+		correct++;
+}
+if(question17 == 'The pins eventually fall off as the wax melts.'){
+		correct++;
+}
+if(question18 == 'The temperature at A would be the highest, followed by B and then C.'){
+		correct++;
+}
+if(question19 == 'Heat is transmitted by the sun to the earth by radiation.'){
 		correct++;
 }
 if(question7 == 'iv. Mode of heat transfer – Conduction'){

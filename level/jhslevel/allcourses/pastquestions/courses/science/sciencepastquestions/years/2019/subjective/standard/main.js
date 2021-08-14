@@ -105,6 +105,72 @@ if(question18 == 'The temperature at A would be the highest, followed by B and t
 if(question19 == 'Heat is transmitted by the sun to the earth by radiation.'){
 		correct++;
 }
+if(question20 == 'A food chain is a linear sequence of organisms through which nutrients and energy pass as one organism eats another.'){
+		correct++;
+}
+if(question21 == 'Plants are primary producers because they produce their own food.'){
+		correct++;
+}
+if(question22 == 'Consumers'){
+		correct++;
+}
+if(question23 == '(a)A – Umbra' + '<br />' + '(b)B – Penumbra'){
+		correct++;
+}
+if(question24 == 'It illustrates that light travel in a straight line'){
+		correct++;
+}
+if(question25 == '(i)Add water to the mixture of sand and sugar and stir vigorously.' + '<br />' + '(ii) Filter the mixture using a filter paper.' + '<br />' + '(iii) Heat the filtrate to evaporate the water.' + '<br />' + '(iv) Pure sugar is obtained after all the water evaporates.'){
+		correct++;
+}
+if(question26 == 'Afforestation, addition of manure,planting cover crops,crop rotation and mulching.'){
+		correct++;
+}
+if(question27 == 'Potential energy'){
+		correct++;
+}
+if(question28 == 'Potential Energy (P.E) = mass x gravity x height = 100 x 10 x 2 = 2000 J'){
+		correct++;
+}
+if(question29 == 'Matter is anything that has weight and occupies space or matter is anything that has mass and takes up voulume.'){
+		correct++;
+}
+if(question30 == 'solid, gas and liquid.'){
+		correct++;
+}
+if(question31 == 'Loamy soil normally contains equal parts of clay, silt, and sand and large quantities of organic matter and nutrients.'){
+		correct++;
+}
+if(question32 == 'Nitrogen , potassium, Phosphorus,Calcium,Iron & Magnesium.'){
+		correct++;
+}
+if(question33 == '(a)cholera – Vibro Cholerae' + '<br />' + '(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
+		correct++;
+}
+if(question34 == '1. Eating Hot foods' + '<br />' + '2. Washing hands with soap and under running water.' + '<br />' + '3. Proper disposal of faecal matter' + '<br />' + '4. Keeping the environment clean'){
+		correct++;
+}
+if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
 if(question7 == 'iv. Mode of heat transfer – Conduction'){
 		correct++;
 }

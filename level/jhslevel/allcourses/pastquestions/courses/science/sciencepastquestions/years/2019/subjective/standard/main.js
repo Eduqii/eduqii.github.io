@@ -1,12 +1,13 @@
 
 function check(){
 
-	var question1 = document.quiz.question1.value;
-	var question2 = document.quiz.question2.value;
-	var question3 = document.quiz.question3.value;
-	var question4 = document.quiz.question4.value;
-	var question5 = document.quiz.question5.value;
-	var question6 = document.quiz.question6.value;
+	var question1 = document.quiz.question1ai.value;
+	var question2 = document.quiz.question1aii.value;
+	var question3 = document.quiz.question1aiii.value;
+	var question4 = document.quiz.question1aiv.value;
+	var question5 = document.quiz.question1av.value;
+	var question6 = document.quiz.question1avi.value;
+	var question7 = document.quiz.question1avii.value;
 	var correct = 0;
 
 
@@ -28,6 +29,9 @@ function check(){
 	if(question6 == 'iv. Mode of heat transfer – Conduction'){
 		correct++;
 }
+if(question7 == 'iv. Mode of heat transfer – Conduction'){
+		correct++;
+}
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
 	var messages = ["Great job!", "That's just okay", "You really need to do better"];
@@ -41,7 +45,7 @@ function check(){
 		score = 1;
 	}
 
-	if (correct == 6) {
+	if (correct == 7) {
 		score = 0;
 	}
 

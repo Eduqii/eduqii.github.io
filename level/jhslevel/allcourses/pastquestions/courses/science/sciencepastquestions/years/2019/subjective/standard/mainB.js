@@ -24,30 +24,28 @@ function results(){
 	var question17 = document.quiz.question1diii.value;
 	var question18 = document.quiz.question1div.value;
 	var question19 = document.quiz.question1dv.value;
-	var question20 = document.quiz.question2ai.value;
-	var question21 = document.quiz.question2aii.value;
-	var question22 = document.quiz.question2aiii.value;
-	var question23 = document.quiz.question2bi.value;
-	var question24 = document.quiz.question2bii.value;
-	var question25 = document.quiz.question2c.value;
-	var question26 = document.quiz.question2d.value;
-	var question27 = document.quiz.question3ai.value;
-	var question28 = document.quiz.question3aii.value;
-	var question29 = document.quiz.question3bi.value;
-	var question30 = document.quiz.question3bii.value;
-	var question31 = document.quiz.question3ci.value;
-	var question32 = document.quiz.question3cii.value;
-	var question33 = document.quiz.question3di.value;
-	var question34 = document.quiz.question3dii.value;
-	var question35 = document.quiz.question4a.value;
-	var question36 = document.quiz.question4bi.value;
-	var question37 = document.quiz.question4bii.value;
-	var question38 = document.quiz.question4biii.value;
-	var question39 = document.quiz.question4ci.value;
-	var question40 = document.quiz.question4cii.value;
-	var question41 = document.quiz.question4ciii.value;
-	var question42 = document.quiz.question4di.value;
-	var question43 = document.quiz.question4dii.value;
+	var question20 = document.quiz.question3ai.value;
+	var question21 = document.quiz.question3aii.value;
+	var question22 = document.quiz.question3bi.value;
+	var question23 = document.quiz.question3bii.value;
+	var question24 = document.quiz.question3ci.value;
+	var question25 = document.quiz.question3cii.value;
+	var question26 = document.quiz.question3di.value;
+	var question27 = document.quiz.question3dii.value;
+	var question28 = document.quiz.question4a.value;
+	var question29 = document.quiz.question4bi.value;
+	var question30 = document.quiz.question4bii.value;
+	var question31 = document.quiz.question4biii.value;
+	var question32 = document.quiz.question4ci.value;
+	var question33 = document.quiz.question4cii.value;
+	var question34 = document.quiz.question4ciii.value;
+	var question35 = document.quiz.question4di.value;
+	var question36 = document.quiz.question4dii.value;
+	var question37 = document.quiz.question5a.value;
+	var question38 = document.quiz.question5b.value;
+	var question39 = document.quiz.question5ci.value;
+	var question40 = document.quiz.question5cii.value;
+	var question41 = document.quiz.question5d.value;
 	
 	var correct = 0;
 
@@ -109,16 +107,16 @@ if(question18 == 'The temperature at A would be the highest, followed by B and t
 if(question19 == 'Heat is transmitted by the sun to the earth by radiation.'){
 		correct++;
 }
-if(question20 == 'A food chain is a linear sequence of organisms through which nutrients and energy pass as one organism eats another.'){
+if(question20 == 'Potential energy.'){
 		correct++;
 }
-if(question21 == 'Plants are primary producers because they produce their own food.'){
+if(question21 == 'Potential Energy (P.E) = mass x gravity x height \n Potential Energy (P.E) = 100 x 10 x 2 = 2000 J'){
 		correct++;
 }
-if(question22 == 'Consumers'){
+if(question22 == 'Matter is anything that has weight and occupies space or matter is anything that has mass and takes up voulume.'){
 		correct++;
 }
-if(question23 == '(a)A – Umbra\n(b)B – Penumbra'){
+if(question23 == 'solid and liquid.' || question23 == 'solid and Gas.' || question23 == 'Gas and liquid.' || question23 == 'Gas and Solid.' || question23 == 'Solid and Liquid.' || question23 == 'liquid and solid.' || question23 == 'Solid and Gas.' || question23 == 'Liquid and Gas.'){
 		correct++;
 }
 if(question24 == 'It illustrates that light travel in a straight line'){
@@ -187,11 +185,11 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 	var messages = ["Great job!", "That's just okay", "You really need to do better"];
 	var score;
 
-	if (correct == 0) {
+	if (correct >= 0 && correct < 23 ) {
 		score = 2;
 	}
 
-	if (correct > 0 && correct < 43) {
+	if (correct > 20 && correct < 40) {
 		score = 1;
 	}
 

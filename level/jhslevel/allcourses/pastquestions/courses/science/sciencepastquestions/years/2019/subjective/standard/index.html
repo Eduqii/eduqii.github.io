@@ -203,8 +203,6 @@ ii) What does the shadow of the object cast on the screen illustrate?</p><br />
             </div>
           </div>
         </div></div>
- <div class="container" id="containers">
-</div>
  
 		<center><p>SELECTION: &nbsp;<input type="radio" name="choice" id="mc" onclick="loadExamsA()">1,2,3,4 &nbsp;
 		<input type="radio" name="choice" id="mc" onclick="loadExamsB()">1,3,4,5 &nbsp;
@@ -225,31 +223,34 @@ function loadExamsA() {
   xhttp.open("GET", "selectionA.html#top");
   xhttp.send();
 }
+
 function loadExamsB() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("exams").innerHTML =
     this.responseText;
   }
-  xhttp.open("GET", "selection.html");
+  xhttp.open("GET", "selectionB.html");
   xhttp.send();
 }
+
 function loadExamsC() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("exams").innerHTML =
     this.responseText;
   }
-  xhttp.open("GET", "selection.html");
+  xhttp.open("GET", "selectionC.html");
   xhttp.send();
 }
+
 function loadExamsD() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
     document.getElementById("exams").innerHTML =
     this.responseText;
   }
-  xhttp.open("GET", "selection.html");
+  xhttp.open("GET", "selectionD.html");
   xhttp.send();
 }
 </script>

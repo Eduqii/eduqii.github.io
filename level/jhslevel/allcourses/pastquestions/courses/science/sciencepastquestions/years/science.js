@@ -128,7 +128,8 @@ quizNinetyNinety = e => {
 //subjectiveion b
 
 subjectiveTwentyTwnty = e => {
-        return window.open('2020/subjective/standard/index.html','_blank');
+        //return window.open('2020/subjective/standard/index.html','_blank');
+		alert("2020 examination is no longer available, please check out 2019 - ");
       }
 
 subjectiveTwentyNineteen = e => {

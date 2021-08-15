@@ -1,6 +1,10 @@
 
 function check(){
-
+	confirm("Are you sure you are through with your work;");
+	results();
+}
+function results(){
+	
 	var question1 = document.quiz.question1ai.value;
 	var question2 = document.quiz.question1aii.value;
 	var question3 = document.quiz.question1aiii.value;
@@ -197,8 +201,23 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("after_results").style.visibility = "visible";
+	document.getElementById("button").style.visibility = "hidden";
+	document.getElementById("restart").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
 	}
+var count = 60;
+var interval = setInterval(function(){
+  document.getElementById('timer_sec').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('timer_sec').innerHTML='Time out';
+	document.getElementById('mins').innerHTML='';
+    // or...
+    //alert("You're out of time!");
+	results();
+  }
+}, 1000);
 	

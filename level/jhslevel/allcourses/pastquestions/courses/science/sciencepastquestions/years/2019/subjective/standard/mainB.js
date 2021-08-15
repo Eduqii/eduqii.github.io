@@ -119,66 +119,61 @@ if(question22 == 'Matter is anything that has weight and occupies space or matte
 if(question23 == 'solid and liquid.' || question23 == 'solid and Gas.' || question23 == 'Gas and liquid.' || question23 == 'Gas and Solid.' || question23 == 'Solid and Liquid.' || question23 == 'liquid and solid.' || question23 == 'Solid and Gas.' || question23 == 'Liquid and Gas.'){
 		correct++;
 }
-if(question24 == 'It illustrates that light travel in a straight line'){
+if(question24 == 'Loamy soil normally contains equal parts of clay, silt, and sand and large quantities of organic matter and nutrients.'){
 		correct++;
 }
-if(question25 == '(i)Add water to the mixture of sand and sugar and stir vigorously.\n(ii) Filter the mixture using a filter paper.\n(iii) Heat the filtrate to evaporate the water.\n(iv) Pure sugar is obtained after all the water evaporates.'){
+if(question25 == 'Nitrogen and potassium' || question25 == 'Phosphorus and Calcium,' || question25 == 'Iron and Magnesium.' || question25 == 'Nitrogen and Calcium.' || question25 == 'Nitrogen and Magnesium.' || question25 == 'Phosphorus and Magnesium.' || question25 == 'Potassium and Iron' || question25 == 'Nitrogen and Phosphorus'){
 		correct++;
 }
-if(question26 == 'Afforestation, addition of manure,planting cover crops,crop rotation and mulching.'){
+if(question26 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
 		correct++;
 }
-if(question27 == 'Potential energy'){
+if(question27 == 'Eating Hot foods' || question27 == 'Washing hands with soap and under running water.' || question27 =='Proper disposal of faecal matter' || question27 == 'Keeping the environment clean'){
 		correct++;
 }
-if(question28 == 'Potential Energy (P.E) = mass x gravity x height = 100 x 10 x 2 = 2000 J'){
+if(question28 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
 		correct++;
 }
-if(question29 == 'Matter is anything that has weight and occupies space or matter is anything that has mass and takes up voulume.'){
+if(question29 == 'Accidental ingestion of poisonous susbstances.'){
 		correct++;
 }
-if(question30 == 'solid, gas and liquid.'){
+if(question30 == 'Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
 		correct++;
 }
-if(question31 == 'Loamy soil normally contains equal parts of clay, silt, and sand and large quantities of organic matter and nutrients.'){
+if(question31 == 'Skin irritation/corossion/burns'){
 		correct++;
 }
-if(question32 == 'Nitrogen , potassium, Phosphorus,Calcium,Iron & Magnesium.'){
+if(question32 == 'Night Blindness'){
 		correct++;
 }
-if(question33 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
+if(question33 == 'Vitamin A'){
 		correct++;
 }
-if(question34 == ' Eating Hot foods' || question34 == ' Washing hands with soap and under running water.' || question34 == 'Proper disposal of faecal matter' || question34 == 'Keeping the environment clean'){
+if(question34 == 'Tomatoes, Egg, Liver' || question34 == 'Green leafy vegetables, cod Liver oil, Carrot' || question34 == 'Tomatoes,Green leafy vegetables, Liver' || question34 == 'Carrot, cod Liver oil, Tomatoes'){
 		correct++;
 }
-if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
+if(question35 == 'Force is a push or pull.'){
 		correct++;
 }
-if(question36 == 'eating or drinking water in the laboratory – Accidental ingestion of poisonous susbstances.'){
+if(question36 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
 		correct++;
 }
-if(question37 == 'Walking barefooted – Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
+if(question37 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
 		correct++;
 }
-if(question38 == 'Skin irritation/corossion/burns'){
+if(question38 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
 		correct++;
 }
-if(question39 == 'Night Blindness\nRiver'){
+if(question39 == 'Pollution is the introduction of harmful substances into the environment.'){
 		correct++;
 }
-if(question40 == 'Vitamin A'){
+if(question40 == 'smoke' || question40 == 'dust' || question40 == 'fumes.'){
 		correct++;
 }
-if(question41 == 'Tomatoes / Egg / Liver / Green leafy vegetables / cod Liver oil / Carrot' || question41 == 'Tomatoes, Egg, Liver'){
+if(question41 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question41 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
 		correct++;
 }
-if(question42 == 'Force is a push or pull.'){
-		correct++;
-}
-if(question43 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
-		correct++;
-}
+
 
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
@@ -193,7 +188,7 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 		score = 1;
 	}
 
-	if (correct == 43) {
+	if (correct == 41) {
 		score = 0;
 	}
 

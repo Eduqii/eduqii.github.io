@@ -133,7 +133,7 @@ if(question26 == 'Afforestation, addition of manure,planting cover crops,crop ro
 if(question27 == 'Potential energy'){
 		correct++;
 }
-if(question28 == 'Potential Energy (P.E) = mass x gravity x height = 100 x 10 x 2 = 2000 J'){
+if(question28 == 'Potential Energy (P.E) = mass x gravity x height\n Potential Energy (P.E) = 100 x 10 x 2 = 2000 J'){
 		correct++;
 }
 if(question29 == 'Matter is anything that has weight and occupies space or matter is anything that has mass and takes up voulume.'){

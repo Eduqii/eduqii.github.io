@@ -222,5 +222,5 @@ var interval = setInterval(function(){
   if(count < 19){ //if timer is less than 19
             document.getElementById("timer_sec").style.color = "red";
         }
-}, 1000);
+}, 60000);
 	

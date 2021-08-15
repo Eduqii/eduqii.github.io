@@ -207,7 +207,7 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
 	}
-var count = 60;
+var count = 50;
 var interval = setInterval(function(){
   document.getElementById('timer_sec').innerHTML=count;
   count--;
@@ -219,5 +219,8 @@ var interval = setInterval(function(){
     //alert("You're out of time!");
 	results();
   }
+  if(count < 19){ //if timer is less than 19
+            document.getElementById("timer_sec").style.color = "red";
+        }
 }, 1000);
 	

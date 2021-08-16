@@ -57,6 +57,7 @@ input {
 	transition-duration: .5s;
 	margin-top: 15px;
 	display: inline;
+	transition-duration: 5s;
 	
 }
 
@@ -107,3 +108,8 @@ input {
 #mc {
 	display: inline;
 } 
+
+#selection{
+	visibility: visible;
+}
+

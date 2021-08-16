@@ -211,16 +211,20 @@ var count = 50;
 var interval = setInterval(function(){
   document.getElementById('timer_sec').innerHTML=count;
   count--;
+  if(count < 19){ //if timer is less than 19
+            document.getElementById("timer_sec").style.color = "red";
+        }
   if (count === 0){
     clearInterval(interval);
     document.getElementById('timer_sec').innerHTML='Time out';
 	document.getElementById('mins').innerHTML='';
+	document.getElementById('selection').style.visibility="hidden";
+	document.getElementById("restart").style.visibility = "visible";
+
     // or...
     //alert("You're out of time!");
 	results();
   }
-  if(count < 19){ //if timer is less than 19
-            document.getElementById("timer_sec").style.color = "red";
-        }
-}, 60000);
+
+}, 1000);
 	

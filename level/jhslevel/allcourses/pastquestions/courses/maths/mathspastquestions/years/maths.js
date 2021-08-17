@@ -125,129 +125,129 @@ quizNinetyNinety = e => {
         return window.location.assign('1990/objectives/index.html');
       }
 
-//subjectiveion b
+//subjective b
 
 subjectiveTwentyTwnty = e => {
         return window.open('2020/subjective/standard/index.html','_blank');
       }
 
 subjectiveTwentyNineteen = e => {
-        return window.open('2019/subjective/standard/index.html','_blank');
+        return window.open('2019/sect/index.html','_blank');
       }
 
 subjectiveTwentyEighteen = e => {
-        return window.open('2018/subjective/standard/index.html','_blank');
+        return window.open('2018/sect/index.html','_blank');
       }
 
 subjectiveTwentySeventeen = e => {
-        return window.open('2017/subjective/standard/index.html','_blank');
+        return window.open('2017/sect/index.html','_blank');
       }
 
 subjectiveTwentySixteen = e => {
-        return window.open('2016/subjective/standard/index.html','_blank');
+        return window.open('2016/sect/index.html','_blank');
       }
 
 subjectiveTwentyFifteen = e => {
-        return window.open('2015/subjective/standard/index.html','_blank');
+        return window.open('2015/sect/index.html','_blank');
       }
 
 subjectiveTwentyFourteen = e => {
-        return window.open('2014/subjective/standard/index.html','_blank');
+        return window.open('2014/sect/index.html','_blank');
       }
 
 subjectiveTwentyThirteen = e => {
-        return window.open('2013/subjective/standard/index.html','_blank');
+        return window.open('2013/sect/index.html','_blank');
       }
 
 subjectiveTwentyTwelve = e => {
-        return window.open('2012/subjective/standard/index.html','_blank');
+        return window.open('2012/sect/index.html','_blank');
       }
 
 subjectiveTwentyEleven = e => {
-        return window.open('2011/subjective/standard/index.html','_blank');
+        return window.open('2011/sect/index.html','_blank');
       }
 
 subjectiveTwentyTen = e => {
-        return window.open('2010/subjective/standard/index.html','_blank');
+        return window.open('2010/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandNine = e => {
-        return window.open('2009/subjective/standard/index.html','_blank');
+        return window.open('2009/sect/index.html','_blank');
       }
      
 subjectiveTwoThousandEight = e => {
-        return window.open('2008/subjective/standard/index.html','_blank');
+        return window.open('2008/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandSeven = e => {
-        return window.open('2007/subjective/standard/index.html','_blank');
+        return window.open('2007/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandSix = e => {
-        return window.open('2006/subjective/standard/index.html','_blank');
+        return window.open('2006/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandFive = e => {
-        return window.open('2005/subjective/standard/index.html','_blank');
+        return window.open('2005/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandFour = e => {
-        return window.open('2004/subjective/standard/index.html','_blank');
+        return window.open('2004/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandThree = e => {
-        return window.open('2003/subjective/standard/index.html','_blank');
+        return window.open('2003/sect/index.html','_blank');
       }
       
 subjectiveTwoThousandTwo = e => {
-        return window.open('2002/subjective/standard/index.html','_blank');
+        return window.open('2002/sect/index.html','_blank');
       }
 
 subjectiveTwoThousandOne = e => {
-        return window.open('2001/subjective/standard/index.html','_blank');
+        return window.open('2001/sect/index.html','_blank');
       }
 
 subjectiveTwoThousand = e => {
-        return window.open('2000/subjective/standard/index.html','_blank');
+        return window.open('2000/sect/index.html','_blank');
       }
 
 subjectiveNinetyNine = e => {
-        return window.open('1999/subjective/standard/index.html','_blank');
+        return window.open('1999/sect/index.html','_blank');
       }
 
 subjectiveNinetyEight = e => {
-        return window.open('1998/subjective/standard/index.html','_blank');
+        return window.open('1998/sect/index.html','_blank');
       }
 
 subjectiveNinetySeven = e => {
-        return window.open('1997/subjective/standard/index.html','_blank');
+        return window.open('1997/sect/index.html','_blank');
       }
 
 subjectiveNinetySix = e => {
-        return window.open('1996/subjective/standard/index.html','_blank');
+        return window.open('1996/sect/index.html','_blank');
       }
       
 subjectiveNinetyFive = e => {
-        return window.open('1995/subjective/standard/index.html','_blank');
+        return window.open('1995/sect/index.html','_blank');
       }
 
 subjectiveNinetyFour = e => {
-        return window.open('1994/subjective/standard/index.html','_blank');
+        return window.open('1994/sect/index.html','_blank');
       }
 
 subjectiveNinetyThree = e => {
-        return window.open('1993/subjective/standard/index.html','_blank');
+        return window.open('1993/sect/index.html','_blank');
       }
 
 subjectiveNinetyTwo = e => {
-        return window.open('1992/subjective/standard/index.html','_blank');
+        return window.open('1992/sect/index.html','_blank');
       }
 
 subjectiveNinetyOne = e => {
-        return window.open('1991/subjective/standard/index.html','_blank');
+        return window.open('1991/sect/index.html','_blank');
       }
 
 subjectiveNinetyNinety = e => {
-        return window.open('1990/subjective/standard/index.html','_blank');
+        return window.open('1990/sect/index.html','_blank');
       }
 

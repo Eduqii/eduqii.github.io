@@ -92,7 +92,7 @@ answer: 0
 
 { 
 
-question: 'How many integers are within the interval – 5 \x3C x \x3C 7?',
+question: 'How many integers are within the interval ' + '&minus;' + ' 5 \x3C x \x3C 7?',
 options: ['10',
  '11',
  '12',
@@ -116,7 +116,7 @@ answer: 1
 
 { 
 
-question: 'Arrange the following fractions in ascending order:' + 'br />' + '<sup>5</sup>&frasl;<sub>8</sub>,<sup>11</sup>&frasl;<sub>20</sub>,<sup>7</sup>&frasl;<sub>10</sub>',
+question: 'Arrange the following fractions in ascending order:' + '<br />' + '<sup>5</sup>&frasl;<sub>8</sub>,<sup>11</sup>&frasl;<sub>20</sub>,<sup>7</sup>&frasl;<sub>10</sub>',
 options: ['<sup>5</sup>&frasl;<sub>8</sub>,<sup>11</sup>&frasl;<sub>20</sub>,<sup>7</sup>&frasl;<sub>10</sub>',
  '<sup>7</sup>&frasl;<sub>10</sub>,<sup>5</sup>&frasl;<sub>8</sub>,<sup>11</sup>&frasl;<sub>20</sub>',
  '<sup>11</sup>&frasl;<sub>20</sub>,<sup>5</sup>&frasl;<sub>8</sub>,<sup>7</sup>&frasl;<sub>10</sub>',
@@ -366,7 +366,7 @@ answer: 2
 
 { 
 
-question: 'Which of the following best describes the statement: \u2018The locus of a point which moves so that its distance from two fixed points are always equal\u2019?',
+question: 'Which of the following best describes the statement:' + '<br />' + ' \u2018The locus of a point which moves so that its distance from two fixed points are always equal\u2019?',
 options: [' Bisector of an angle',
  'Perpendicular bisector',
  'Circle',
@@ -430,7 +430,7 @@ img: 'img/figureA.png'
 
 { 
 
-question: '<table border="1">' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
+question: '<table border="1" style="border-collapse: collapse; width: 100px; height: 100px;">' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
 		  '<tr>' + '<td>' + 'E' + '</td>' + '<td>' + 'F' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
 		  '<tr>' + '<td>' + '11' + '</td>' + '<td>' + '16' + '</td>' + '<td>' + 'G' + '</td>' + '</tr>' + '</table>' +
 		  'Use the magic square above to answer this question' + '<br />' + 'Find the value of F',
@@ -445,7 +445,7 @@ answer: 0
 
 {
 
-question: '<table>' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
+question: '<table border="1" style="border-collapse: collapse; width: 100px; height: 100px;">' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
 		  '<tr>' + '<td>' + 'E' + '</td>' + '<td>' + 'F' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
 		  '<tr>' + '<td>' + '11' + '</td>' + '<td>' + '16' + '</td>' + '<td>' + 'G' + '</td>' + '</tr>' + '</table>' +
 		  'Use the magic square above to answer this question' + '<br />' + 'Find the value of E.',
@@ -460,7 +460,7 @@ answer: 2
 
 { 
 
-question: '<table>' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
+question: '<table border="1" style="border-collapse: collapse; width: 100px; height: 100px;">' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
 		  '<tr>' + '<td>' + 'E' + '</td>' + '<td>' + 'F' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
 		  '<tr>' + '<td>' + '11' + '</td>' + '<td>' + '16' + '</td>' + '<td>' + 'G' + '</td>' + '</tr>' + '</table>' +
 		  'Use the magic square above to answer this question' + '<br />' + 'Evaluate E + G',

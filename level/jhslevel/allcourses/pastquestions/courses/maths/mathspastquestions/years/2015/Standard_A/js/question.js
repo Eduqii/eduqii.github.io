@@ -29,7 +29,7 @@ answer: 3
 
 {
 
-question: 'If M = {multiples of 4 between 10 and 25} and N = {even numbers between 11 and 23}, find M \u222A N',
+question: 'If M = {' + '<i>' + 'multiples of 4 between 10 and 25' + '</i>' + '} and N = {' + '<i>' + 'even numbers between 11 and 23' + '</i>' + '}, find M \u222A N',
 options: ['{12, 16, 20}',
  '{14, 18, 22}',
  '{12, 14, 16, 18, 22}',
@@ -229,7 +229,7 @@ answer: 1
 
 { 
 
-question: 'Expand (2x + y) (2x – y)',
+question: 'Expand (2x + y) (2x ' + '&minus;' + ' y)',
 options: ['2x<sup>2</sup> - y<sup>2</sup>',
  '4x<sup>2</sup> - y<sup>2</sup>',
  '2x<sup>2</sup> + 4xy - y<sup>2</sup>',
@@ -277,7 +277,7 @@ answer: 2
 
 { 
 
-question: 'Find the value of m, if 4(m + 4) = – 8.',
+question: 'Find the value of m, if 4(m + 4) = ' + '&minus;' + ' 8.',
 options: ['-6',
  '-2',
  '2',
@@ -315,7 +315,7 @@ answer: 2
 
 {
 
-question: 'The circumference of a circle is 440 m. Find the area of the circle.[Take \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>',
+question: 'The circumference of a circle is 440 m. Find the area of the circle.[Take \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>]',
 options: ['14,400 m<sup>2</sup>',
  '15,400 m<sup>2</sup>',
  '16,400 m<sup>2</sup>',
@@ -341,7 +341,7 @@ answer: 2
 
 { 
 
-question: 'At eight o’clock, which of the following is the angle between the hour and the minute hands of the clock?',
+question: 'At eight o\u2019clock, which of the following is the angle between the hour and the minute hands of the clock?',
 options: ['150\xB0',
  '120\xB0',
  '90\xB0',
@@ -430,7 +430,7 @@ img: 'img/figureA.png'
 
 { 
 
-question: '<table>' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
+question: '<table border="1">' + '<tr>' + '<td>' + '13' + '</td>' + '<td>' + '12' + '</td>' + '<td>' + '17' + '</td>' + '</tr>' +   
 		  '<tr>' + '<td>' + 'E' + '</td>' + '<td>' + 'F' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
 		  '<tr>' + '<td>' + '11' + '</td>' + '<td>' + '16' + '</td>' + '<td>' + 'G' + '</td>' + '</tr>' + '</table>' +
 		  'Use the magic square above to answer this question' + '<br />' + 'Find the value of F',

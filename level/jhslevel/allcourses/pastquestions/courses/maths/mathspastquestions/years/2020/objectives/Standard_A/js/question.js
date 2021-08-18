@@ -62,7 +62,7 @@ const quiz = [
 		answer: 1
   },
   {
-  	question: 'What property of arithmetic operation is illustrated by' + '<br />' + '<br />' + ' a(b + c) = ab + ac',
+  	question: 'What property of arithmetic operation is illustrated by' + '<br />' + ' a(b + c) = ab + ac',
 		options: ['Addition',
 		 'Associative',
 		 ' Commutative',
@@ -70,7 +70,7 @@ const quiz = [
 		answer: 3
   },
   {
-  	question: 'Simplify\n\n 15<sup>9</sup> \xF7 15<sup>7</sup>',
+  	question: 'Simplify' + '<br />' + ' 15<sup>9</sup> \xF7 15<sup>7</sup>',
 		options: ['30',
 		 '63',
 		 ' 225',
@@ -161,8 +161,8 @@ const quiz = [
   	question: 'Given that a = 2 and b = 3, evaluate (2a + b)(a-2b)',
 		options: ['28',
 		 '8',
-		 '-7',
-		 '-28'],
+		 '&minus;' + '7',
+		 '&minus;' + '28'],
 		answer: 3
   },
   {
@@ -251,7 +251,7 @@ const quiz = [
 		answer: 0
   },
   {
-  	question: 'Which of the following is a factor of the expression \n\n ac - 2bc + ad - 2bd ?',
+  	question: 'Which of the following is a factor of the expression ' + '<br />' + '<br />' + ' ac - 2bc + ad - 2bd ?',
 		options: ['c - d',
 		 'a - 2b',
 		 'a + b',

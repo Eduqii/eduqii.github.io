@@ -140,7 +140,7 @@ const quiz = [
 	{
 		question: 'The table shows the marks of some students in a test.' + '<br />' + '<br />' + 
 				  '<table border="1">' + '<tr>' + '<td>' + 'Marks' + '</td>' + '<td>' + '0' + '</td>' + '<td>' + '1' + '</td>' + '<td>' + '2' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4' + '</td>' + '<td>' + '5' + '</td>' + '<td>' + '6' + '</td>' + '<td>' + '7' + '</td>' + '<td>' + '8' + '</td>' + '<td>' + '9' + '</td>' + '<td>' + '10' + '</td>' + '</tr>' + 
-					'<tr>' + '<td>' + 'Number of Students' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4'+ '</td>' + '<td>' + '5' + '</td>' +'<td>' + '4' + '</td>' +'<td>' + '5' + '</td>' + '<td>' + '4' + '</td>' +'<td>' + '7' +'</td>' +'<td>' + '3' + '</td>' +'<td>' + '4' + '</td>' +'<td>' + '2' + '</td>' + '<td>' + '&nbsp;' + '2' + '</td>' + '</tr>' + '</table>' + '<br />' + '<br />' + 
+					'<tr>' + '<td>' + 'Number of Students' + '</td>' + '<td>' + '3' + '</td>' + '<td>' + '4'+ '</td>' + '<td>' + '5' + '</td>' +'<td>' + '4' + '</td>' +'<td>' + '5' + '</td>' + '<td>' + '4' + '</td>' +'<td>' + '7' +'</td>' +'<td>' + '3' + '</td>' +'<td>' + '4' + '</td>' +'<td>' + '2' + '</td>' + '<td>' + '2' + '</td>' + '</tr>' + '</table>' + '<br />' + '<br />' + 
 					'What is the modal mark?',
 		options: ['2',
 		 '5',

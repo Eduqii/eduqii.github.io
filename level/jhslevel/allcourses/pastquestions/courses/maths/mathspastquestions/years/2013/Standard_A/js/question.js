@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'If A = {5, 10, 15, 20, 25, 125}and B = {5, 10, 15, 20, 25, 625}, list the elements of A \u222A B',
+question: 'If A = {5, 10, 15, 20, 25, 125} and B = {5, 10, 15, 20, 25, 625}, list the elements of A \u222A B',
 
 options: ['{5, 25}',
  '{10, 20, 125, 625}',
@@ -51,7 +51,7 @@ options: ['0',
 answer: 0
 },
 { 
-question: 'Convert  2114<sub>5<sub> to a base ten numeral.',
+question: 'Convert  2114<sub>5</sub> to a base ten numeral.',
 
 options: ['194',
  '280',

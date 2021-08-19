@@ -28,7 +28,7 @@ const quiz = [
 
 		options: ['beam balance',
 		 'metre rule',
-		 'surveyor’s tape',
+		 'surveyor\u2019s tape',
 		 'vernier calipers'],
 		answer: 3
 	},
@@ -63,8 +63,8 @@ const quiz = [
 		answer: 2
 	},
 	{
-		question: 'Which of the following statements explain(s) why an object floats in water?' + '<br />' +
-'A floating object' + '<br />' +
+		question: 'Which of the following statements explain(s) why an object floats in water?' + '<br />' + 
+'A floating object' + '<br />' + 
 'I. is less dense than water' + '<br />' +
 'II. is denser than water'+ '<br />' +
 'III. has the same density as water',
@@ -131,10 +131,10 @@ const quiz = [
 	{
 		question: 'The chemical solution that can be used to test for the presence of protein in food substances is',
 
-		options: ['Benedict’s solution',
-		 'Fehling’s solution',
+		options: ['Benedict\u2019s solution',
+		 'Fehling\u2019s solution',
 		 'Iodine solution',
-		 'Million’s reagent'],
+		 'Million\u2019s reagent'],
 		answer: 3
 	},
 
@@ -296,15 +296,15 @@ const quiz = [
 {
 		question: 'The energy transformation that takes place in a car battery is',
 
-		options: ['electrical energy → chemical energy → light energy',
-		 'chemical energy → light energy → electrical energy',
-		 'chemical energy → electrical energy → light energy',
-		 'electrical energy → light energy → chemical energy'],
+		options: ['electrical energy \u2192 chemical energy \u2192 light energy',
+		 'chemical energy \u2192 light energy \u2192 electrical energy',
+		 'chemical energy \u2192 electrical energy \u2192 light energy',
+		 'electrical energy \u2192 light energy \u2192 chemical energy'],
 		answer: 2
 	},
 
 {
-		question: 'The type of liquid suitable to construct a thermometer to read temperatures of about 150°C is',
+		question: 'The type of liquid suitable to construct a thermometer to read temperatures of about 150\xBAC is',
 
 		options: ['alcohol',
 		 'mercury',

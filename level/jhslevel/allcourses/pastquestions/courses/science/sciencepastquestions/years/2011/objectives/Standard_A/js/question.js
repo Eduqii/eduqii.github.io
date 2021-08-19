@@ -55,9 +55,9 @@ const quiz = [
 {
 		question: 'Which of the following practices in the home can prevent disease infection?',
 
-		options: ['Covering one’s food',
+		options: ['Covering one\u2019s food',
 		 'Drinking unclean water',
-		 'Keeping one’s surroundings untidy',
+		 'Keeping one\u2019s surroundings untidy',
 		 'Sharing towels and sponges'],
 		answer: 0
 	},	
@@ -148,10 +148,10 @@ const quiz = [
 {
 		question: 'Which of the following crops is not correctly matched with its group?',
 
-		options: ['Cowpea – cereal crop',
-		 'Cocoa – beverage crop',
-		 'Coconut – oil crop',
-		 'Cocoyam – tuber crop'],
+		options: ['Cowpea \u2212 cereal crop',
+		 'Cocoa \u2212 beverage crop',
+		 'Coconut \u2212 oil crop',
+		 'Cocoyam \u2212 tuber crop'],
 		answer: 0  
 	},
 	{
@@ -182,7 +182,7 @@ const quiz = [
 		answer: 2  
 	},	
 {
-		question: 'Million’s reagent is used to test for',
+		question: 'Million\u2019s reagent is used to test for',
 
 		options: ['carbohydrates',
 		 'fats',
@@ -306,7 +306,7 @@ const quiz = [
 		answer: 3  
 	},
 	{
-		question: 'Which of the following modes of heat transfer is the thermos flask designed to minimize?Which of the following modes of heat transfer is the thermos flask designed to minimize?'+'<br />' +
+		question: 'Which of the following modes of heat transfer is the thermos flask designed to minimize?'+'<br />' +
          'I. Conduction'+'<br />' +
          'II. Convection'+'<br />' +
          'III. Radiation',
@@ -390,10 +390,10 @@ const quiz = [
 		{
 		question: 'Which of the following arrangements show the correct order of increasing complexity of structures in living organisms?',
 
-		options: ['cells ? organs ? tissues ? systems',
-		 'cells –> tissues –> organs –> systems',
-		 'cells –> systems –> tissues –> organsCultural method',
-		 'cells –> tissues –> systems –> organs'],
+		options: ['cells \u2192 organs \u2192 tissues \u2192 systems',
+		 'cells \u2192 tissues \u2192 organs \u2192 systems',
+		 'cells \u2192 systems \u2192 tissues \u2192 organs',
+		 'cells \u2192 tissues \u2192 systems \u2192 organs'],
 		answer: 1  
 	}
 ]

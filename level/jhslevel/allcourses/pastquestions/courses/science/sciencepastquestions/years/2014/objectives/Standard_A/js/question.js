@@ -332,7 +332,7 @@ options: ['I only',
 answer: 1
 },
 {
-question: 'An entrepreneur’s decision as to what to produce is a/ an',
+question: 'An entrepreneur\u2019s decision as to what to produce is a/ an',
 options: ['co-ordinating function',
  'organizing function',
  'planning function',

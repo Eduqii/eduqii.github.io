@@ -5,10 +5,10 @@ const quiz = [
   {
 		question: 'The S.I. unit for measuring the work done by a force is',
 
-		options: ['J.',
-		 'K.',
-		 'N.',
-		 'W.'],
+		options: ['J',
+		 'K',
+		 'N',
+		 'W'],
 		answer: 2  
 },
 
@@ -23,7 +23,7 @@ const quiz = [
 },
 
 {
-		question: 'Which of the following life processes is represented by the equation'+ '<br />'  + 'Glucose + oxygen → carbon dioxide + water + energy' +  '<br />'  ,
+		question: 'Which of the following life processes is represented by the equation'+ '<br />'  + 'Glucose + oxygen \u2192 carbon dioxide + water + energy' +  '<br />'  ,
 		options: ['Digestion',
 		 'Excretion', 
 		 'Photosynthesis',

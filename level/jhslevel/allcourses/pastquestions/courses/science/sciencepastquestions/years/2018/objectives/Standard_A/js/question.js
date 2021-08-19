@@ -236,7 +236,7 @@ answer: 2
 {
  
 
-question: 'The systematic name of NO2 is',
+question: 'The systematic name of NO<sub>2</sub> is',
 options: ['nitrogen oxide',
  'nitrogen (I) oxide',
  'nitrogen (II) oxide',
@@ -325,10 +325,10 @@ answer: 0
 {
 
 question: 'A metal displaces 5.0 cm' + '<sup>' + '3' + '</sup>' + ' of water when it is totally immersed. If the mass of the metal is 35.0 g, calculate its density',
-options: ['7.0 g cm' + '<sup>' + '–3' + '</sup>',
- '30.0 cm' + '<sup>' + '–3' + '</sup>',
- '40.0 cm' + '<sup>' + '–3' + '</sup>',
- '175.0 cm' + '<sup>' + '–3' + '</sup>'],
+options: ['7.0 g cm' + '<sup>' + '\u22123' + '</sup>',
+ '30.0 cm' + '<sup>' + '\u22123' + '</sup>',
+ '40.0 cm' + '<sup>' + '\u22123' + '</sup>',
+ '175.0 cm' + '<sup>' + '\u22123' + '</sup>'],
 answer: 0
 },
 {
@@ -336,8 +336,8 @@ answer: 0
 question: 'Which of the following physical properties of water are correct? Water' + '<br />' + '<br />' +
 'I. is a colourless liquid ' + '<br/ >' + 
 ' II. is a universal solvent ' + '<br />' + 
-' III. boils at 100°C at standard atmospheric pressure ' + '<br />' +
-' IV. has a density of 5 kg cm' + '<sup>' + '–3' + '</sup>' + ' at 4°C',
+' III. boils at 100\xBAC at standard atmospheric pressure ' + '<br />' +
+' IV. has a density of 5 kg cm' + '<sup>' + '\u22123' + '</sup>' + ' at 4\xBAC',
 options: ['I and II only',
  'II and III only',
  'I, II and III only',
@@ -357,10 +357,10 @@ answer: 1
  
 
 question: 'Which of the following chemical equations is balanced?',
-options: ['K + O' + '<sub>' + '2' + '</sub>' + ' → K' + '<sub>' + '2' + '<sub>' + 'O',
- 'Mg + O' + '<sub>' + '2' + '</sub>' + ' → MgO',
- 'Na + Cl' + '<sub>' + '2' + '</sub>' + ' → NaCl',
- 'H' + '<sub>' + '2' + '</sub>' + ' + Cl' + '<sub>' + '2' + '</sub>' + ' → 2HCl'],
+options: ['K + O' + '<sub>' + '2' + '</sub>' + ' \u2192 K' + '<sub>' + '2' + '</sub>' + 'O',
+ 'Mg + O' + '<sub>' + '2' + '</sub>' + ' \u2192 MgO',
+ 'Na + Cl' + '<sub>' + '2' + '</sub>' + ' \u2192 NaCl',
+ 'H' + '<sub>' + '2' + '</sub>' + ' + Cl' + '<sub>' + '2' + '</sub>' + ' \u2192 2HCl'],
 answer: 3
 },
 {

@@ -49,7 +49,7 @@ answer: 3
 
 {
 
-question: 'Simplify: 12 – 7 – (– 5)',
+question: 'Simplify: 12 - 7 - (- 5)',
 
 options: ['-10',
  '-2',
@@ -339,7 +339,7 @@ answer: 0
 
 {
 
-question: 'If w = 12, x = 5, y = 6 and z = 4, find the value of wx – yz.',
+question: 'If w = 12, x = 5, y = 6 and z = 4, find the value of wx - yz.',
 
 options: ['18',
  '27',
@@ -529,10 +529,10 @@ answer: 0
 
 question: 'The point P (5, 4) is reflected in the y-axis. Find its image.',
 
-options: ['(– 5, 4)',
- '(5, –4)',
- '(–4, 5)',
- '(4, –5)'],
+options: ['(\u2212 5, 4)',
+ '(5, \u22124)',
+ '(\u22124, 5)',
+ '(4, \u22125)'],
 
 answer: 0
  
@@ -544,7 +544,7 @@ answer: 0
 
 question: 'If (<sup>4</sup><sub>11</sub>) = (<sup>x - 3 </sup><sub>11</sub>), find the value of x.',
 
-options: ['-1',
+options: ['\u22121',
  '1',
  '7',
  '12'],
@@ -557,7 +557,7 @@ answer: 2
 
 {
 
-question: 'Find the gradient of the line which passes through the points M(–1, 2) and N(6, –3)',
+question: 'Find the gradient of the line which passes through the points M(-1, 2) and N(6, -3)',
 
 options: ['<sup>-5</sup>&frasl;<sub>7</sub>',
  '<sup>-7</sup>&frasl;<sub>5</sub>',
@@ -572,12 +572,12 @@ answer: 0
 
 {
 
-question: 'Find the next two terms in the sequence 11, 7, 3, –1, ___, ___.',
+question: 'Find the next two terms in the sequence 11, 7, 3, -1, ___, ___.',
 
 options: [' 5, 9',
  '3, 7',
- '–4, –9',
- ' –5, –9'],
+ '-4, -9',
+ ' -5, -9'],
 
 answer: 3
 }

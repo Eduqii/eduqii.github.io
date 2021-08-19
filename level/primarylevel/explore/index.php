@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.79.0">
-    <title>All Courses · Eduqii v2.0</title>
+    <title>Explorer · Eduqii v2.0</title>
     <link rel="shortcut icon" href="../allcourses/images/favicon.ico">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -40,7 +40,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../../index.php">Edu<span style="color: red;">qii</span></a>
+      <a class="navbar-brand" href="../index.html">Edu<span style="color: red;">qii</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,7 +56,7 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Game Loft</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://gamesnacks.com/embed/">Games</a>
+            <a class="nav-link" href="https://gamesnacks.com/embed/" target="_blank">Games</a>
           </li>
         </ul>
         <form class="d-flex">

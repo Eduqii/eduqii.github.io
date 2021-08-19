@@ -30,7 +30,7 @@ options: [' 0.03, 0.3, 0.301, 0.33',
 answer: 0
 },
 { 
-question: 'Evaluate 53 – (–7) + (–15)',
+question: 'Evaluate 53  \u2212 (\u22127) + (\u221215)',
 
 options: ['31',
  '45',
@@ -79,7 +79,7 @@ options: ['375 litres',
 answer: 3
 },
 { 
-question: 'Simplify <sup>36a<sup>3</sup>-b<sup>2</sup> - x</sup>&frasl;<sub>27ab<sup>3</sup>y</sub>',
+question: 'Simplify 36a<sup>3</sup>b<sup>2</sup>x&frasl;<sub>27ab<sup>3</sup>y</sub>',
 
 options: ['<sup>4a<sup>2</sup>x</sup>&frasl;<sub>3by</sub>',
  '<sup>4abx</sup>&frasl;<sub>3y</sub>',
@@ -101,7 +101,7 @@ img:'img/mapping.png'
 
  
 
-question: 'Given that – 1 = 2 – m, find m',
+question: 'Given that \u2212 1 = 2 \u2212 m, find m',
 
 options: ['-3',
  '-1',
@@ -125,7 +125,7 @@ answer: 2
 
  
 
-question: 'Make d the subject of the relation n=2d+3',
+question: 'Make d the subject of the relation n = 2d + 3',
 
 options: ['d = <sup>3n</sup>&frasl;<sub>2</sub>',
  'd = <sup>n + 3</sup>&frasl;<sub>2</sub>',
@@ -137,7 +137,7 @@ answer: 2
 
  
 
-question: 'Calculate the gradient of the straight line joining the points A(3, 5) and B(–2, 3)',
+question: 'Calculate the gradient of the straight line joining the points A(3, 5) and B(' + '&minus;' + '2, 3)',
 
 options: ['<sup>5</sup>&frasl;<sub>2</sub>',
  '<sup>2</sup>&frasl;<sub>5</sub>',
@@ -182,7 +182,7 @@ answer: 2
 { 
 
 
-question: 'Find the vector which translates the point (4, –5) to (3, –2)',
+question: 'Find the vector which translates the point (4, \u22125) to (3, \u2212 2)',
 options: ['(<sup>-1</sup><sub>-3</sub>)',
  '(<sup>-1</sup><sub>3</sub>)',
  '(<sup>-1</sup><sub>7</sub>)',
@@ -344,8 +344,8 @@ answer: 3
 },
 { 
 question: 'The table below shows the distribution of workers in some trades' + '<br />' + 
-'<table>' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
-'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '<br />' + '<br />' +
+'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
+'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '</table>' + '<br />' +
 'Which trade employed the most number of workers?',
 
 options: ['Agriculture',
@@ -356,8 +356,8 @@ answer: 2
 },
 { 
 question: 'The table below shows the distribution of workers in some trades' + '<br />' + 
-'<table>' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
-'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '<br />' + '<br />' +
+'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
+'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '</table>' + '<br />' +
 'How many people are employed under all the trades?',
 
 options: ['325,000',

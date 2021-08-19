@@ -11,7 +11,7 @@ options: ['have protoplasm ',
 answer: 1
 },
 {
-question: 'Which of the following conditions is not required fora current to flow through an electric circuit?',
+question: 'Which of the following conditions is not required for a current to flow through an electric circuit?',
 options: ['The circuit should be closed',
  'A battery must be present',
  'There must be connecting wires',
@@ -131,7 +131,7 @@ options: ['spinal cord and spine',
 answer: 2
 },
 {
-question: 'Which of the following life processes is not performed by all living things?',
+question: 'Which of the following life processes is not performed by all living things ?',
 options: ['Excretion ',
  'Photosynthesis ',
  'Reproduction ',
@@ -172,7 +172,7 @@ answer: 2
 },
 {
 question: 'A substance which is made up of the same kind of atoms is called',
-options: ['a compound ',
+options: ['a compound',
  'a mixture ',
  'an element ',
  'an ion'],
@@ -203,7 +203,7 @@ options: ['Fish ',
 answer: 3
 },
 {
-question: 'Which of the following parasites is a plant?',
+question: 'Which of the following parasites is a plant ?',
 options: ['Bilharzia ',
  'Dodder ',
  'Lice ',
@@ -243,7 +243,7 @@ options: ['Cerebro Spinal Meningitis(CSM)',
 answer: 0
 },
 {
-question: 'Day and night occur because the earth',
+question: 'Day and night occur because the earth ',
 options: ['moves round the sun',
  'moves from east to west ',
  'moves round the moon ',
@@ -283,11 +283,11 @@ options: ['adhesion ',
 answer: 0
 },
 {
-question: 'A metal block has a mass of 0.1kg. Calculate its volume if the density is 1.0 kgm-3.',
-options: ['0.01 m3 ',
- '0.10 m3 ',
- '1.00 m3 ',
- '10.00 m3'],
+question: 'A metal block has a mass of 0.1kg. Calculate its volume if the density is 1.0 kgm<sup>-3</sup>.',
+options: ['0.01 m<sup>3</sup> ',
+ '0.10 m<sup>3</sup> ',
+ '1.00 m<sup>3</sup> ',
+ '10.00 m<sup>3</sup>'],
 answer: 1
 },
 {

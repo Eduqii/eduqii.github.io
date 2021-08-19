@@ -105,10 +105,10 @@ answer: 0
  
 
 question: 'Which of the following chemical equations is balanced?',
-options: ['N' + '<sub>' +'2' + '</sub>' + 'H' + '<sub>' + '2' + '</sub>' + ' → ' + 'NH' + '<sub>' + '3' + '</sub>', 
- 'N' + '<sub>' + '2' + '</sub>' + '3H' + '<sub>' +'2' + '</sub>' + ' → ' + 'NH' + '<sub>' + '3' + '</sub>', 
- 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' → ' + '2NH' + '<sub>' + '3' + '</sub>', 
- 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' → ' + 'NH' + '<sub>' + '3' + '</sub>'], 
+options: ['N' + '<sub>' +'2' + '</sub>' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
+ 'N' + '<sub>' + '2' + '</sub>' + '3H' + '<sub>' +'2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
+ 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + '2NH' + '<sub>' + '3' + '</sub>', 
+ 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>'], 
 answer: 2
 },
 {
@@ -147,7 +147,7 @@ answer: 1
  
 
  
-question: 'Benedict’s solution was added to a mixture in a test tube and it turned brick red when heated. The mixture is likely to contain', 
+question: 'Benedict\u2019s solution was added to a mixture in a test tube and it turned brick red when heated. The mixture is likely to contain', 
 options: ['glucose',
  'vitamin',
  'can start a motion',
@@ -251,7 +251,7 @@ answer: 3
 question: 'Which of the following compounds is neutral to litmus paper?',
 
 options: ['HCL',
- 'H_2O ',
+ 'H<sub>2</sub>O ',
  'NaOH',
  'KOH'],
 answer: 1

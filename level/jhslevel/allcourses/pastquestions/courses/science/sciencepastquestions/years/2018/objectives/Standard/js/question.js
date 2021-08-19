@@ -198,7 +198,7 @@ answer: 3
 {
  
 
-question: 'A body has a density of 30 g cm–3 and volume of 6 cm3. Determine the mass of the body.',
+question: 'A body has a density of 30 g cm<sup>\u22123</sup> and volume of 6 cm<sup>3</sup>. Determine the mass of the body.',
 options: ['180.0 g',
  '24.0 g',
  '5.0 g',
@@ -254,7 +254,7 @@ answer: 0
 },
 {
 
-question: 'A cylindrical metal has radius 7 cm and height 2cm. Determine the volume of the cylinder. [Take π = 22/7]',
+question: 'A cylindrical metal has radius 7 cm and height 2cm. Determine the volume of the cylinder. [Take  \u03C0 = <sup>22</sup>&frasl;<sub>7</sub>]',
 options: ['44 cm' + '<sup>' + '3' + '</sup>',
  '107 cm' + '<sup>' + '3' + '</sup>',
  '308 cm' + '<sup>' + '3' + '</sup>',

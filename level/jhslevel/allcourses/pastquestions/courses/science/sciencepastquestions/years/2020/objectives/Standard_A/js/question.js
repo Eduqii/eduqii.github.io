@@ -4,6 +4,7 @@
 const quiz = [
  {
 question: 'Plants are different from animals because they',
+
 options: ['have protoplasm ',
  'have chlorophyll ',
  'are able to respire',
@@ -12,6 +13,7 @@ answer: 1
 },
 {
 question: 'Which of the following conditions is not required for a current to flow through an electric circuit?',
+
 options: ['The circuit should be closed',
  'A battery must be present',
  'There must be connecting wires',

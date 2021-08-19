@@ -13,10 +13,10 @@ answer: 1
 {
 
 question: 'The S.I. unit for density is',
-options: ['ms ' + '<sup>' + '–1' + '</sup>',
- 'ms ' + '<sup>' + '–2' + '</sup>',
- 'kg m ' + '<sup>' + '–3' + '</sup>',
- 'm3 kg ' + '<sup>' + '–1' + '</sup>'],
+options: ['ms ' + '<sup>' + '\u22121' + '</sup>',
+ 'ms ' + '<sup>' + '\u22122' + '</sup>',
+ 'kg m ' + '<sup>' + '\u22123' + '</sup>',
+ 'm3 kg ' + '<sup>' + '\u22121' + '</sup>'],
 answer: 2
 },
 {
@@ -107,10 +107,10 @@ answer: 1
  
 
 question: 'The number of oxygen atoms present in three molecules of carbon dioxide is',
-options: ['3.',
- '4.',
- '5.',
- '6.'],
+options: ['3',
+ '4',
+ '5',
+ '6'],
 answer: 3
 },
 {
@@ -331,10 +331,10 @@ answer: 2
 {
 
 question: 'The relative proportion of sand, silt and clay in a given sample of soil is soil',
-options: ['profile.',
- 'porosity.',
- 'structure.',
- 'texture.'],
+options: ['profile',
+ 'porosity',
+ 'structure',
+ 'texture'],
 answer: 3
 },
 {

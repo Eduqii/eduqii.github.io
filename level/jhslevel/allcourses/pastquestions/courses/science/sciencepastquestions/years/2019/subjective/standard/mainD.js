@@ -39,15 +39,11 @@ function results(){
 	var question32 = document.quiz.question3cii.value;
 	var question33 = document.quiz.question3di.value;
 	var question34 = document.quiz.question3dii.value;
-	var question35 = document.quiz.question4a.value;
-	var question36 = document.quiz.question4bi.value;
-	var question37 = document.quiz.question4bii.value;
-	var question38 = document.quiz.question4biii.value;
-	var question39 = document.quiz.question4ci.value;
-	var question40 = document.quiz.question4cii.value;
-	var question41 = document.quiz.question4ciii.value;
-	var question42 = document.quiz.question4di.value;
-	var question43 = document.quiz.question4dii.value;
+	var question35 = document.quiz.question5a.value;
+	var question36 = document.quiz.question5b.value;
+	var question37 = document.quiz.question5ci.value;
+	var question38 = document.quiz.question5cii.value;
+	var question39 = document.quiz.question5d.value;
 	
 	var correct = 0;
 
@@ -154,31 +150,19 @@ if(question33 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacteri
 if(question34 == ' Eating Hot foods' || question34 == ' Washing hands with soap and under running water.' || question34 == 'Proper disposal of faecal matter' || question34 == 'Keeping the environment clean'){
 		correct++;
 }
-if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
+if(question36 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
 		correct++;
 }
-if(question36 == 'eating or drinking water in the laboratory – Accidental ingestion of poisonous susbstances.'){
+if(question37 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
 		correct++;
 }
-if(question37 == 'Walking barefooted – Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
+if(question38 == 'Pollution is the introduction of harmful substances into the environment.'){
 		correct++;
 }
-if(question38 == 'Skin irritation/corossion/burns'){
+if(question39 == 'smoke' || question40 == 'dust' || question40 == 'fumes.'){
 		correct++;
 }
-if(question39 == 'Night Blindness\nRiver'){
-		correct++;
-}
-if(question40 == 'Vitamin A'){
-		correct++;
-}
-if(question41 == 'Tomatoes / Egg / Liver / Green leafy vegetables / cod Liver oil / Carrot' || question41 == 'Tomatoes, Egg, Liver'){
-		correct++;
-}
-if(question42 == 'Force is a push or pull.'){
-		correct++;
-}
-if(question43 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
+if(question40 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question41 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
 		correct++;
 }
 

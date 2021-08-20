@@ -1,6 +1,6 @@
 
 function check(){
-	confirm("Are you sure you are through with your work;");
+	confirm("Are you sure you are through with your work");
 	results();
 }
 function results(){
@@ -31,23 +31,20 @@ function results(){
 	var question24 = document.quiz.question2bii.value;
 	var question25 = document.quiz.question2c.value;
 	var question26 = document.quiz.question2d.value;
-	var question27 = document.quiz.question3ai.value;
-	var question28 = document.quiz.question3aii.value;
-	var question29 = document.quiz.question3bi.value;
-	var question30 = document.quiz.question3bii.value;
-	var question31 = document.quiz.question3ci.value;
-	var question32 = document.quiz.question3cii.value;
-	var question33 = document.quiz.question3di.value;
-	var question34 = document.quiz.question3dii.value;
-	var question35 = document.quiz.question4a.value;
-	var question36 = document.quiz.question4bi.value;
-	var question37 = document.quiz.question4bii.value;
-	var question38 = document.quiz.question4biii.value;
-	var question39 = document.quiz.question4ci.value;
-	var question40 = document.quiz.question4cii.value;
-	var question41 = document.quiz.question4ciii.value;
-	var question42 = document.quiz.question4di.value;
-	var question43 = document.quiz.question4dii.value;
+	var question27 = document.quiz.question4a.value;
+	var question28 = document.quiz.question4bi.value;
+	var question29 = document.quiz.question4bii.value;
+	var question30 = document.quiz.question4biii.value;
+	var question31 = document.quiz.question4ci.value;
+	var question32 = document.quiz.question4cii.value;
+	var question33 = document.quiz.question4ciii.value;
+	var question34 = document.quiz.question4di.value;
+	var question35 = document.quiz.question4dii.value;
+	var question36 = document.quiz.question5a.value;
+	var question37 = document.quiz.question5b.value;
+	var question38 = document.quiz.question5ci.value;
+	var question39 = document.quiz.question5cii.value;
+	var question40 = document.quiz.question5d.value;
 	
 	var correct = 0;
 
@@ -130,58 +127,48 @@ if(question25 == '(i)Add water to the mixture of sand and sugar and stir vigorou
 if(question26 == 'Afforestation, addition of manure,planting cover crops,crop rotation and mulching.'){
 		correct++;
 }
-if(question27 == 'Potential energy'){
+if(question27 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
 		correct++;
 }
-if(question28 == 'Potential Energy (P.E) = mass x gravity x height = 100 x 10 x 2 = 2000 J'){
+if(question28 == 'Accidental ingestion of poisonous susbstances.'){
 		correct++;
 }
-if(question29 == 'Matter is anything that has weight and occupies space or matter is anything that has mass and takes up voulume.'){
+if(question29 == 'Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
 		correct++;
 }
-if(question30 == 'solid, gas and liquid.'){
+if(question30 == 'Skin irritation/corossion/burns'){
 		correct++;
 }
-if(question31 == 'Loamy soil normally contains equal parts of clay, silt, and sand and large quantities of organic matter and nutrients.'){
+if(question31 == 'Night Blindness'){
 		correct++;
 }
-if(question32 == 'Nitrogen , potassium, Phosphorus,Calcium,Iron & Magnesium.'){
+if(question32 == 'Vitamin A'){
 		correct++;
 }
-if(question33 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){
+if(question33 == 'Tomatoes, Egg, Liver' || question34 == 'Green leafy vegetables, cod Liver oil, Carrot' || question34 == 'Tomatoes,Green leafy vegetables, Liver' || question34 == 'Carrot, cod Liver oil, Tomatoes'){
 		correct++;
 }
-if(question34 == ' Eating Hot foods' || question34 == ' Washing hands with soap and under running water.' || question34 == 'Proper disposal of faecal matter' || question34 == 'Keeping the environment clean'){
+if(question34 == 'Force is a push or pull.'){
 		correct++;
 }
-if(question35 == 'Tomato plant is likely to wilt if too much fertilizer is applied due to the high increment of soil concentration. This causes the loss of water by action of osmosis.'){
+if(question35 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
 		correct++;
 }
-if(question36 == 'eating or drinking water in the laboratory – Accidental ingestion of poisonous susbstances.'){
+if(question36 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
 		correct++;
 }
-if(question37 == 'Walking barefooted – Injury by broken bottles or pins/ Slipping / Injury by spilled acids.'){
+if(question37 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
 		correct++;
 }
-if(question38 == 'Skin irritation/corossion/burns'){
+if(question38 == 'Pollution is the introduction of harmful substances into the environment.'){
 		correct++;
 }
-if(question39 == 'Night Blindness\nRiver'){
+if(question39 == 'smoke' || question40 == 'dust' || question40 == 'fumes.'){
 		correct++;
 }
-if(question40 == 'Vitamin A'){
+if(question40 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question41 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
 		correct++;
 }
-if(question41 == 'Tomatoes / Egg / Liver / Green leafy vegetables / cod Liver oil / Carrot' || question41 == 'Tomatoes, Egg, Liver'){
-		correct++;
-}
-if(question42 == 'Force is a push or pull.'){
-		correct++;
-}
-if(question43 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
-		correct++;
-}
-
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
 	var messages = ["Great job!", "That's just okay", "You really need to do better"];

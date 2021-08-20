@@ -46,8 +46,8 @@ answer: 0
 },
 {
 question: 'Which of the following energy transformations takes place at a hydroelectric power station?',
-options: ['Potential energy→ kinetic energy→electrical energy',  'Potential energy→ sound energy→ electrical energy',  'Kinetic energy→electrical energy→ light energy',
- 'Electrical energy→ light energy→ heat energy'],
+options: ['Potential energy \u2192 kinetic energy→electrical energy',  'Potential energy \u2192 sound energy \u2192 electrical energy',  'Kinetic energy \u2192 electrical energy \u2192 light energy',
+ 'Electrical energy \u2192 light energy \u2192 heat energy'],
 answer: 0
 },
 {
@@ -67,11 +67,11 @@ options: ['bottle is porous',
 answer: 3
 },
 {
-question: 'The volume of a metal ball was determined by dropping it into a measuring cylinder containing20cm3of water and the water level rose to 35 cm3.If the mass of the ballis35 g, calculate its density.',
-options: ['1.0 gcm-3',
- '1.6 gcm-3',
- '1.8 gcm-3',
- '2.3 gcm-3'],
+question: 'The volume of a metal ball was determined by dropping it into a measuring cylinder containing 20cm<sup>3</sup> of water and the water level rose to 35cm<sup>3</sup>. If the mass of the ball is 35g, calculate its density.',
+options: ['1.0gcm<sup>-3</sup>',
+ '1.6gcm<sup>-3</sup>',
+ '1.8gcm<sup>-3</sup>',
+ '2.3gcm<sup>-3</sup>'],
 answer: 3
 },
 {
@@ -151,7 +151,7 @@ question: 'The insect responsible for the spread of malaria is the',
 options: ['female anopheles mosquito',
  'housefly',
  'male anopheles mosquito',
- 'tsetse fly'],
+ 'tsetsefly'],
 answer: 0
 },
 {
@@ -163,24 +163,23 @@ options: ['Charcoal ',
 answer: 2
 },
 {
-Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle.
-Use it to answer Questions21 and 22
-a1
 
-question: 'Which of the labeled layers contains organic matter?',
+question: 'Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle. Which of the labeled layers contains organic matter?',
 options: ['M ',
  'N ',
  'O ',
  'P'],
-answer: 0
+answer: 0,
+img: 'img/fig1.jpg'
 },
 {
-question: 'The layer which does not have the ability to retain much water is',
+question: 'Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle.The layer which does not have the ability to retain much water is',
 options: ['N ',
  'O ',
  'P ',
  'Q'],
-answer: 3
+answer: 3,
+img: 'img/fig1.jpg'
 },
 {
 question: 'Which of the following characteristics applies to only plants?',
@@ -207,7 +206,7 @@ options: ['maintain a constant amount of water in the body',
 answer: 2
 },
 {
-question: 'Which of the following plants reproduce(s) vegetatively?' +
+question: 'Which of the following plants reproduce(s) vegetatively?' + '<br />' +
 'I. Banana II. Mango III. Ginger',
 options: ['II only',
  'I and II only ',
@@ -277,7 +276,7 @@ answer: 0
 {
 question: 'A free movement of the bowels is aided by',
 options: ['sleeping at least 6 hours a day',
- 'washingone’s body at least once a day',
+ 'washing one\u2019s body at least once a day',
  'eating fatty foods',
  'eating foods containing fibre'],
 answer: 3
@@ -307,7 +306,7 @@ options: ['1 day ',
 answer: 3
 },
 {
-question: 'A smaller heavenly body,which orbits a bigger one could be described as a',
+question: 'A smaller heavenly body, which orbits a bigger one could be described as a',
 options: ['comet ',
  'meteor ',
  'moon ',

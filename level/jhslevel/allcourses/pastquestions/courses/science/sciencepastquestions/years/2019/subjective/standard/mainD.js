@@ -150,19 +150,19 @@ if(question33 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacteri
 if(question34 == ' Eating Hot foods' || question34 == ' Washing hands with soap and under running water.' || question34 == 'Proper disposal of faecal matter' || question34 == 'Keeping the environment clean'){
 		correct++;
 }
-if(question36 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
+if(question35 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
 		correct++;
 }
-if(question37 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
+if(question36 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
 		correct++;
 }
-if(question38 == 'Pollution is the introduction of harmful substances into the environment.'){
+if(question37 == 'Pollution is the introduction of harmful substances into the environment.'){
 		correct++;
 }
-if(question39 == 'smoke' || question40 == 'dust' || question40 == 'fumes.'){
+if(question38 == 'smoke' || question38 == 'dust' || question38 == 'fumes.'){
 		correct++;
 }
-if(question40 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question41 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
+if(question39 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question39 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
 		correct++;
 }
 

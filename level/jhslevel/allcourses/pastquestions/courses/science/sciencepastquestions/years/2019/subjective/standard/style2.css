@@ -57,7 +57,7 @@ input {
 	transition-duration: .5s;
 	margin-top: 15px;
 	display: inline;
-	transition-duration: 5s;
+	
 	
 }
 
@@ -112,4 +112,6 @@ input {
 #selection{
 	visibility: visible;
 }
-
+#notPart{
+	display:  none;
+}

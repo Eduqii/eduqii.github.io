@@ -145,7 +145,7 @@ if(question31 == 'Night Blindness'){
 if(question32 == 'Vitamin A'){
 		correct++;
 }
-if(question33 == 'Tomatoes, Egg, Liver' || question34 == 'Green leafy vegetables, cod Liver oil, Carrot' || question34 == 'Tomatoes,Green leafy vegetables, Liver' || question34 == 'Carrot, cod Liver oil, Tomatoes'){
+if(question33 == 'Tomatoes, Egg, Liver' || question33 == 'Green leafy vegetables, cod Liver oil, Carrot' || question33 == 'Tomatoes,Green leafy vegetables, Liver' || question33 == 'Carrot, cod Liver oil, Tomatoes'){
 		correct++;
 }
 if(question34 == 'Force is a push or pull.'){
@@ -157,16 +157,16 @@ if(question35 == 'This is due to the lack of friction between the car types and 
 if(question36 == '(i)Fill the measuring cylinder with ample water.\n(ii)Record the volume as V1\n(iii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.\n(iv) Record the new Volume (V2)\n(v) Calculate the difference in volumes (V2 – V1) as V3.\n(vi) V3, as calculated, is the volume of the irregular shape lead ball.'){
 		correct++;
 }
-if(question37 == '(1)Reproduction\n (2)growth\n (3)respiration' || question38 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
+if(question37 == '(1)Reproduction\n (2)growth\n (3)respiration' || question37 == '(1)Reproduction\n (2)growth\n (3)respiration(4)feeding.'){
 		correct++;
 }
 if(question38 == 'Pollution is the introduction of harmful substances into the environment.'){
 		correct++;
 }
-if(question39 == 'smoke' || question40 == 'dust' || question40 == 'fumes.'){
+if(question39 == 'smoke' || question39 == 'dust' || question39 == 'fumes.'){
 		correct++;
 }
-if(question40 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question41 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
+if(question40 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question40 == '(1)Soil pH\n (2)Soil Structure\n(3)Availability of Market'){
 		correct++;
 }
 	

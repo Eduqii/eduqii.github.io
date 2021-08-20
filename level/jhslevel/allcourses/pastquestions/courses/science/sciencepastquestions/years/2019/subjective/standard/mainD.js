@@ -1,7 +1,11 @@
-
 function check(){
-	confirm("Are you sure you are through with your work;");
-	results();
+	confirmAction = confirm("Are you sure you are through with your work");
+	if(!confirmAction){
+		alert("Nice! Always remember to go over your work before you submit");
+	}
+	else{
+		results();
+	}
 }
 function results(){
 	
@@ -187,6 +191,7 @@ if(question39 == '(1)Soil fertility\n (2)Rainfall\n (3)Sunlight' ||  question39 
 	document.getElementById("after_results").style.visibility = "visible";
 	document.getElementById("button").style.visibility = "hidden";
 	document.getElementById("restart").style.visibility = "visible";
+	document.getElementById("answer").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
@@ -204,6 +209,7 @@ var interval = setInterval(function(){
 	document.getElementById('mins').innerHTML='';
 	document.getElementById('selection').style.visibility="hidden";
 	document.getElementById("restart").style.visibility = "visible";
+	document.getElementById("answer").style.visibility = "visible";
 
     // or...
     //alert("You're out of time!");

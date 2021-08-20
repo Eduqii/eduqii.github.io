@@ -122,7 +122,7 @@ if(question23 == 'solid and liquid.' || question23 == 'solid and Gas.' || questi
 if(question24 == 'Loamy soil normally contains equal parts of clay, silt, and sand and large quantities of organic matter and nutrients.'){
 		correct++;
 }
-if(question25 == 'Nitrogen and potassium' || question25 == 'Phosphorus and Calcium,' || question25 == 'Iron and Magnesium.' || question25 == 'Nitrogen and Calcium.' || question25 == 'Nitrogen and Magnesium.' || question25 == 'Phosphorus and Magnesium.' || question25 == 'Potassium and Iron' || question25 == 'Nitrogen and Phosphorus'){
+if(question25 == 'Nitrogen and potassium' || question25 == '1. Nitrogen \n 2. potassium' || question25 == 'Phosphorus and Calcium' || question25 == '1. Phosphorus \n 2. Calcium' || question25 == 'Iron and Magnesium.' || question25 == '1. Iron \n 2. Magnesium.' || question25 == 'Nitrogen and Calcium.' || question25 == 'Nitrogen and Calcium' || question25 == '1. Nitrogen \n 2. Calcium' || question25 == 'Nitrogen and Magnesium.' || question25 == '1. Nitrogen \n 2. Magnesium' || question25 == 'Phosphorus and Magnesium.' || question25 == '1. Phosphorus \n 2. Magnesium' || question25 == 'Potassium and Iron' || question25 == '1. Potassium \n 2. Iron' || question25 == 'Nitrogen and Phosphorus' || question25 == '1. Nitrogen \n 2. Phosphorus'){
 		correct++;
 }
 if(question26 == '(a)cholera – Vibro Cholerae\n(b)tuberculosis – Mycobacterium tuberculosis or tubercle bacillus'){

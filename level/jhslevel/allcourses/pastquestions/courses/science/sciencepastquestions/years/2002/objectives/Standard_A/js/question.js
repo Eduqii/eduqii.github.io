@@ -44,7 +44,7 @@ options: ['friction ',
 answer: 0
 },
 {
-question: 'When the brakes of a bicycle in motion are applied for a long time the wheels become hot. This is because of a question: 'f energy from',
+question: 'When the brakes of a bicycle in motion are applied for a long time the wheels become hot.\nThis is because of a change of energy from',
 options: ['kinetic energy to potential energy ',
  'potential energy to kinetic energy ',
  'potential energy to heat energy',
@@ -84,32 +84,32 @@ options: ['100%',
 answer: 1
 },
 {
-The figure below shows a simple electric circuit.Use it to answer questions 11 to 13
 
-a2
-
-question: 'The switch is represented by',
+question: 'The figure below shows a simple electric circuit.\n The switch is represented by',
 options: ['IV ',
  'III ',
  'II ',
  'I'],
-answer: 2
+answer: 2,
+img: 'img/electric_circuit.jpg'
 },
 {
-question: 'The component labeled V is a/an',
+question: 'The figure below shows a simple electric circuit.\nThe component labeled V is a/an',
 options: ['ammeter ',
  'battery ',
  'lamp',
  'voltmeter'],
-answer: 2
+answer: 2,
+img: 'img/electric_circuit.jpg'
 },
 {
-question: 'The purpose of the component labeled IV is to',
+question: 'The figure below shows a simple electric circuit.\nThe purpose of the component labeled IV is to',
 options: ['supply energy to the circuit',
  'measure the voltage of the battery',
  'prevent too much current from flowing',
  'close the circuit'],
-answer: 2
+answer: 2,
+img: 'img/electric_circuit.jpg'
 },
 {
 question: 'Which of the following diseases is spread by a mosquito?',
@@ -128,31 +128,30 @@ options: ['man',
 answer: 3
 },
 {
-The figure below is a diagram of a fish. Use it answer questions 16 and 17
 
-a3
-
-question: 'The function of the part labeled IV is to enable the fish to',
+question: 'The figure below is a diagram of a fish.\nThe function of the part labeled IV is to enable the fish to',
 options: ['sink in water',
  'absorb oxygen from the water',
  'protect itself from attack',
  'detect smell in water'],
-answer: 1
+answer: 1,
+img: 'img/fish.jpg'
 },
 {
-question: 'The part labeled V is used for',
+question: 'The figure below is a diagram of a fish.\nThe part labeled V is used for',
 options: ['balancing ',
  'steering ',
  'surfacing ',
  'paddling'],
-answer: 1
+answer: 1,
+img: 'img/fish.jpg'
 },
 {
 question: 'Which of the following arrangements is a probable food chain?',
-options: ['Grass → Grasshopper → Toad → Snake → Crow',
- 'Grasshopper → Grass → Goat → Lion → Man',
- 'Crow → Snake → Toad → Grasshopper → Grass',
- 'Grass → Goat → Lion → Man → Snake'],
+options: ['Grass \u2192 Grasshopper \u2192 Toad \u2192 Snake \u2192 Crow',
+ 'Grasshopper \u2192 Grass \u2192 Goat \u2192 Lion \u2192 Man',
+ 'Crow \u2192 Snake \u2192 Toad \u2192 Grasshopper \u2192 Grass',
+ 'Grass \u2192 Goat \u2192 Lion \u2192 Man \u2192 Snake'],
 answer: 0 
 },
 {
@@ -164,10 +163,10 @@ options: ['guineaworm ',
 answer: 3
 },
 {
-question: 'Which of the following characteristics are common to all living things?\n '+
-'I. Response to stimuli' +
-'II. Respiration' +
-'III. Movement from place to place' +
+question: 'Which of the following characteristics are common to all living things? '+ '<br />' + '<br />' +
+'I. Response to stimuli' + '<br />' +
+'II. Respiration' + '<br />' +
+'III. Movement from place to place' + '<br />' +
 'IV. Growth',
 options: ['I and II only',
  'I and III only',
@@ -176,7 +175,7 @@ options: ['I and II only',
 answer: 3
 },
 {
-question: 'The part of sugar canethat is usually used for planting is the',
+question: 'The part of sugar cane that is usually used for planting is the',
 options: ['corm ',
  'leaf ',
  'stem',
@@ -296,11 +295,11 @@ options: ['bacteria',
 answer: 1
 },
 {
-question: 'Which of the following habits will help in the control of diseases contracted through air?\n' + 
+question: 'Which of the following habits will help in the control of diseases contracted through air?' + '<br />' + 
 'I. Not throwing humanwaste into rivers' + 
-'II. Washing of hands after visiting the toilet' +
-'III. Not spitting about in public places' +
-'IV. Keeping foods always covered',
+' II. Washing of hands after visiting the toilet' +
+' III. Not spitting about in public places' +
+' IV. Keeping foods always covered',
 options: ['I and II only ',
  'II and III only ',
  'III only',

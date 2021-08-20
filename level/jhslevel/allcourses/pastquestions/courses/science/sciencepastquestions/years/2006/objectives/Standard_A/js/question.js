@@ -51,11 +51,11 @@ options: ['measure theenergyusedup',
 answer: 1
 },
 {
-question: 'The angle between an incident ray and a reflecting surface is 20°. Determine the angle of reflection.',
-options: ['60° ',
- '70° ',
- '90° ',
- '110°'],
+question: 'The angle between an incident ray and a reflecting surface is 20\xBA. Determine the angle of reflection.',
+options: ['60\xBA ',
+ '70 \xBA ',
+ '90\xBA ',
+ '110\xBA'],
 answer: 1
 },
 {
@@ -214,8 +214,8 @@ answer: 1
 question: 'Vaccination is carried out to',
 options: ['enable sores to heal faster',
  'increase the red blood cells of a person',
- 'enable a person’s white blood cells to fight against diseases',
- 'kill germs in a person’s body'],
+ 'enable a person\u2019s white blood cells to fight against diseases',
+ 'kill germs in a person\u2019s body'],
 answer: 2
 },
 {
@@ -227,7 +227,7 @@ options: ['Adding chemical fertilizer during each planting season',
 answer: 3
 },
 {
-question: 'The type of cloud found closest to the earth’s surface is',
+question: 'The type of cloud found closest to the earth\u2019s surface is',
 options: ['cirrus',
  'cumulus',
  'stratus',

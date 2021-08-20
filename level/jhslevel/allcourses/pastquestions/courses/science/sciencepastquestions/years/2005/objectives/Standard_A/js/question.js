@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-		question: 'Hydrogen is represented by the chemical symbol H' + '<sub>' + '2' + '<sub>' + '. This symbol represents',
+		question: 'Hydrogen is represented by the chemical symbol H' + '<sub>' + '2' + '</sub>' + '. This symbol represents',
 options: ['two molecules of hydrogen',
  'two atoms of hydrogen',
  'two elements of hydrogen',
@@ -35,9 +35,15 @@ options: ['20 cm ',
 answer: 1
 },
 {
-question: 'In which of the following circuit diagrams below will the bulb light?'
-//answer 2
-
+question: 'In which of the following circuit diagrams below will the bulb light?',
+options: [ 'A',
+           'B',
+           'C',
+           'D'],
+answer: 1,
+img: 'img/circuit.jpg'
+},
+{
 question: 'The source of all forms of energy can be traced to',
 options: ['clouds',
  'earth quakes',
@@ -62,7 +68,7 @@ options: ['energy',
 answer: 0
 },
 {
-question: 'A force of 2Nmovesabodythroughadistanceof10 m. Calculate the work done.',
+question: 'A force of 2N moves a body through a distance of 10 m. Calculate the work done.',
 options: ['5 J ',
  '8 J ',
  '12 J ',
@@ -110,7 +116,7 @@ options: ['goiter',
 answer: 1
 },
 {
-question: 'When testing for proteins in a food substance using Fehling’s solution, the expected colour change is',
+question: 'When testing for proteins in a food substance using Fehling\u2019s solution, the expected colour change is',
 options: ['blue',
  'purple',
  'blue-black',
@@ -134,8 +140,8 @@ options: ['bladder',
 answer: 3
 },
 {
-question: 'Which of the following life processes is represented by the equation below?' + '<br />' +
-'Oxygen→ Water +Carbon dioxide + Energy',
+question: 'Which of the following life processes is represented by the equation below ?' + '<br />' +
+'Oxygen \u2192 Water + Carbon dioxide + Energy',
 options: ['Digestion',
  'Excretion',
  'Photosynthesis',
@@ -171,7 +177,7 @@ options: ['concentrated',
 answer: 3
 },
 {
-question: 'A clear solution of sugar was cooled from 100°C to 25°C. Some solid sugar was seen to have formed out of the solution after cooling. This shows that sugar',
+question: 'A clear solution of sugar was cooled from 100\xBAC to 25\xBAC. Some solid sugar was seen to have formed out of the solution after cooling. This shows that sugar',
 options: ['does not dissolve in cold water',
  'does not dissolve in hot water',
  'dissolves more in hot water than in cold water',
@@ -230,8 +236,8 @@ answer: 2
 question: 'Which of the following practices is a method of controlling guinea worm disease?',
 options: ['Clearing bushes around homes',
  'Ensuring that rivers flow rapidly',
- 'Protecting one’s feet before stepping into rivers',
- 'Protecting one’s self against mosquito bites.'],
+ 'Protecting one\u2019s feet before stepping into rivers',
+ 'Protecting one\u2019s self against mosquito bites.'],
 answer: 2
 },
 {
@@ -300,18 +306,18 @@ answer: 2
 },
 {
 question: 'When a person jumps up, he/she is able to comedown because of the',
-options: ['pull of the earth’s gravitational force',
- 'pull of the earth’s magnetic force',
- 'resistance of the earth’s atmosphere to the upward motion',
- 'pressure of the earth’s atmosphere on the person'],
+options: ['pull of the earth\u2019s gravitational force',
+ 'pull of the earth\u2019s magnetic force',
+ 'resistance of the earth\u2019s atmosphere to the upward motion',
+ 'pressure of the earth\u2019s atmosphere on the person'],
 answer: 0
 },
 {
-question: 'A metal displaces 5.0 cm' + '<sup>' + '3' + '</sup>' + 'of water when completely immersed in water. If the mass of the metal is 35.0 g, calculate its density.',
-options: ['7.0 gcm' + '<sup>' + '-3' + '</sup>',
- '30. 0 gcm' + '<sup>'  + '-3' + '</sup>',
- '40.0 gcm' + '<sup>' + '-3' + '</sup>',
- '175.0 gcm' + '<sup>' + '-3' + '</sup>'],
+question: 'A metal displaces 5.0 cm' + '<sup>' + '3' + '</sup>' + ' of water when completely immersed in water. If the mass of the metal is 35.0 g, calculate its density.',
+options: ['7.0gcm' + '<sup>' + '-3' + '</sup>',
+ '30.0gcm' + '<sup>'  + '-3' + '</sup>',
+ '40.0gcm' + '<sup>' + '-3' + '</sup>',
+ '175.0gcm' + '<sup>' + '-3' + '</sup>'],
 answer: 0
 },
 {

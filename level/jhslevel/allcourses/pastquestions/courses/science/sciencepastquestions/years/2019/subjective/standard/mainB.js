@@ -1,6 +1,6 @@
 
 function check(){
-	confirm("Are you sure you are through with your work;");
+	confirm("Are you sure you are through with your work");
 	results();
 }
 function results(){

@@ -4,10 +4,10 @@
 const quiz = [
  {
 		question: 'Which of the following processes of conversion of the states of matter is correct?',
-options: ['Solid (heat) → gas (heat) → liquid',
- 'Solid (cool) → liquid (cool) → gas',
- 'Gas (heat) → liquid (heat) → solid',
- 'Gas (cool) → liquid (cool) → solid'],
+options: ['Solid (heat) \u2192 gas (heat) \u2192 liquid',
+ 'Solid (cool) \u2192 liquid (cool) \u2192 gas',
+ 'Gas (heat) \u2192 liquid (heat) \u2192 solid',
+ 'Gas (cool) \u2192 liquid (cool) \u2192 solid'],
 answer: 3
 },
 {
@@ -84,7 +84,7 @@ options: ['right proportions of protein, carbohydrates and oil',
 answer: 0
 },
 {
-question: 'Benedict’s solution was added to a mixture in a test tube and it turned brick red when heated.The mixture is likely to contain',
+question: 'Benedict\u2019s solution was added to a mixture in a test tube and it turned brick red when heated.The mixture is likely to contain',
 options: ['glucose ',
  'oil ',
  'protein ',
@@ -196,7 +196,7 @@ options: ['sand particles are rougher',
 answer: 1
 },
 {
-question: 'Which of the following organisms is not an animal [parasite?',
+question: 'Which of the following organisms is not an animal parasite?',
 options: ['tick ',
  'tapeworm ',
  'plasmodium ',
@@ -252,7 +252,7 @@ options: ['adhesion ',
 answer: 2
 },
 {
-question: 'The work done when a force moves a body through a distance of12 m is 720J.The force applied is',
+question: 'The work done when a force moves a body through a distance of 12 m is 720J.The force applied is',
 options: ['8640 N ',
  '732 N ',
  '708 N ',

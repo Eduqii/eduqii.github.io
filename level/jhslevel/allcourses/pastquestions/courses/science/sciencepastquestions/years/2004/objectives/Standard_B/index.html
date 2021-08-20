@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="../../../../../../../images/favicon.ico">
+</head>
+<body>
+	<div class="home-box custom-box">
+		<h3>Instruction:</h3>
+		<p>1. This quiz is timed.<br />
+				2. You can't select any other option once you had already selected an option<br/>
+				3. You can skip question if you do not know an answer to the question<br />
+				4. You can exit the quiz while you're playing<br />
+				5. You will be graded on the basis of your correct answer</p>
+		<p>Total number of questions: <span class="total-question"></span></p>
+		<button type="button" class="btn" onclick="startQuiz()">Start Quiz</button>
+		<button type="button" class="btn exit" onclick="exitQuiz(event)">Exit Quiz</button>
+	</div>
+
+	<div class="quiz-box custom-box hide">
+            <header>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec" id="timer_sec">50</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+		<div class="question-number">
+			
+		</div>
+		<div class="question-text">
+			
+		</div>
+		<div class="option-container">
+			 
+		</div>
+		<div class="next-question-btn">
+			<button type="button" class="btn" onclick="next()">Next</button>
+		</div>
+		<div class="answers-indicator">
+			
+		</div>
+		<p>BECE 2004 | <a href="../index.html">Exit</a></p>
+	</div>
+
+	<div class="result-box custom-box hide">
+			<h1>Quiz Result</h1>
+			<table>
+				<tr>
+					<td>Total Question</td>
+					<td><span class="total-question"></span></td>
+				</tr>
+				<tr>
+					<td>Attempt</td>
+					<td><span class="total-attempt"></span></td>
+				</tr>
+				<tr>
+					<td>Correct</td>
+					<td><span class="total-correct"></span></td>
+				</tr>
+				<tr>
+					<td>Wrong</td>
+					<td><span class="total-wrong"></span></td>
+				</tr>
+				<tr>
+					<td>Percentage</td>
+					<td><span class="percentage"></span></td>
+				</tr>
+				<tr>
+					<td>Your Total Score</td>
+					<td><span class="total-score"></span></td>
+				</tr>
+			</table>
+			<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+			<button type="button" class="btn" onclick="goToHome()">Go To Home</button>
+	</div>
+<script src="js/question.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

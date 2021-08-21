@@ -125,7 +125,7 @@ quizNinetyNinety = e => {
         return window.location.assign('1990/objectives/index.html');
       }
 
-//subjectiveion b
+//subjective
 
 subjectiveTwentyTwnty = e => {
         //return window.open('2020/subjective/index.html','_blank');

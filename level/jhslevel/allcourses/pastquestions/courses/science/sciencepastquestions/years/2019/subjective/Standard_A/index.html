@@ -10,7 +10,7 @@
     <title>Quiz | B.E.C.E 2019 v2.0</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/grid/">
-	<link href ="style.css" rel ="stylesheet">
+	<!-- <link href ="style.css" rel ="stylesheet"> -->
     <!-- Bootstrap core CSS -->
 <link href="../../../../../../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,14 +29,11 @@
         }
       }
     </style>
-
+    
     
     <!-- Custom styles for this template -->
     <link href="grid.css" rel="stylesheet">
-   <script src = "mainA.js"></script>
-   <script src = "mainB.js"></script>
-   <script src = "mainC.js"></script>
-   <script src = "mainD.js"></script>
+   
   </head>
   <body class="py-4">
   
@@ -89,7 +86,70 @@ With the aid of a labelled diagram, describe an experiment to find out which of 
 (iv) State the observations that would be made about the temperatures<br />
 Recorded by the thermometers A, B and C.<br />
 (v) State how heat from the sun is transmitted to the earth.</p>
-<p></p>
+
+<div> 
+    <h3> Select Voices </h3> 
+    <select id="voices"> 
+      <option> option 1 </option> 
+    </select> 
+  </div> 
+   
+  <textarea rows="9" cols="60" name="description" id="lines" placeholder="Enter text here..." style="display: none;">
+     2019 BECE Science Past Questions – Paper Two.
+    Answer Question 1 in Section A and any other three questions in Section B. (Credit will be given for clarity of expression and orderly presentation of material).
+    Section A. 
+    Question 1a, In an experiment, the surfaces of three iron nails were cleaned dry and placed in three separate test tubes A, B and C as shown in the diagram.Study the diagram carefully and answer the questions that follow
+  the test tube image.
+  After three days the nail in test tube A was found to have rusted while the nail in test tubes B and C did not rust.
+
+    (i)Suggest and aim for the experiment.
+    (ii) Why was the water in test tube B boiled?
+    (iii) State the function of the oil on top of the water in test tube B.
+    (iv) What is the purpose of the calcium chloride in test tube C?
+   (v) Why did the nail in Test A rust?
+   (vi) Why did the nail in test tube
+  (alpha)B did not rust?
+  (beta)C did not rust?
+  (vii) From the experiment, explain why oil is applied on the surface of a metal to prevent rusting.
+  [This question is awarded with 10 marks].
+      (b) In an experiment, the following activities were carried out on two green leaves, A and B. Leaf A was taken from a plant placed in the sunlight for some time while leaf V was taken from a plant placed in a dark cupboard for 24 hours.
+  Activity.
+  I. Leaves dipped in boiling water for 1 minute.
+  II. Leaves dipped in warm alcohol.
+  III. Leaves washed in cold water.
+  IV. Leaves dipped in iodine solution.
+      After dipping in the iodine solution, it was observed that leaf A changed colour. Study the activities carefully and answer the questions that follow.
+    (i) Suggest an aim for the experiment.
+
+      (ii) Explain briefly why each of the following activities were carried out:
+    (alpha) I
+    (beta) II
+    (gamma) III
+
+      (iii) State the colour change of leaf A.
+    (iv) Explain why leaf A changed colour?
+    (v) Why is it necessary to de-starch the plant before starting the experiment?
+    (vi)From the above experiment, what conclusion or conclusions can be drawn.
+    (c) You are provided with two dry soil samples A and B, a measuring cylinder, beakers, funnels, filter paper, beam balance, stop watch and water.
+With the aid of a labelled diagram, describe an experiment to find out which of the two soil samples can hold more water.
+(d) The diagram below is an illustration of an experiment that was carried out. In the experiment three pins 1, 2 and 3 were fixed with candle wax onto a metal bar and one end of the bar was heated by means of boiling water. A, B and C are the thermometers inserted in holes along the bar to measure the temperatures at the various points.
+Study the diagram carefully and answer the questions that follow.
+boiling water image. 
+(i) Suggest an aim for the experiment? 
+(ii) What is the temperature of the boiling water?
+(iii) State the observations that would be made about the pins 1, 2 and 3.
+(iv) State the observations that would be made about the temperatures,
+Recorded by the thermometers A, B and C.
+(v) State how heat from the sun is transmitted to the earth.
+
+  </textarea><br> 
+   
+  <button class="buttons" style="background: green;" id="read"> Read </button> 
+  <button class="buttons" style="background: orange" id="pause"> Pause </button> 
+  <button class="buttons" style="background: lightgreen" id="resume"> Resume </button> 
+  <button class="buttons" style="background: red" id="cancel"> Cancel </button> 
+
+
   </div>
  <div class="container" id="containers">
  <h3>SECTION B </h3> <br />
@@ -221,10 +281,96 @@ function loadAnswer() {
   xhttp.send();
 }
 
+      // Reader
+// First we initialize new SpeechSynthesisUtterance object 
+let tts = new SpeechSynthesisUtterance(); 
+ 
+// Setting the Speech Language 
+tts.lang = "en"; 
 
+//Populating the select dropdown with the list of available voices on Web Speech API 
+let speechvoices = []; // global array of available voices 
+ 
+window.speechSynthesis.onvoiceschanged = () => { 
+  // To get the list of voices using getVoices() function 
+  speechvoices = window.speechSynthesis.getVoices(); 
+  // We need to populate the section and set the first voice 
+  tts.voice = speechvoices[0]; 
+ 
+  let select_voice = document.getElementById("voices"); 
+  speechvoices.forEach((voice, i) => (select_voice.options[i] = new Option(voice.name, i))); 
+
+}; 
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("voices").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts.voice = voices[document.getElementById("voices").value]; 
+});
+
+ 
+//SETTING THE CONTROLS - SPEAK, PLAY, PAUSE AND RESUME 
+//SPEAK 
+//first we get the value of the textarea or document 
+document.getElementById("read").addEventListener("click", () => { 
+  tts.text = document.getElementById("lines").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+}); 
+ 
+//PAUSE 
+document.getElementById("pause").addEventListener("click", () => { 
+  // Pause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+}); 
+ 
+//RESUME 
+document.getElementById("resume").addEventListener("click", () => { 
+  // Resume the paused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+}); 
+ 
+//CANCEL 
+document.querySelector("cancel").addEventListener("click", () => { 
+// Cancel the speechSynthesis instance 
+speechSynthesis.cancel();
+  // window.speechSynthesis.cancel(); 
+}); 
+
+//TO SET THE VOLUME, PITCH, AND RATE 
+//Volume  
+//We get the volume value from the input 
+document.getDocumentById("volume").addEventListener("input", () => { 
+  const vol = document.getDocumentById("volume").value; 
+  // Set volume property of the SpeechSynthesisUtterance instance 
+  tts.volume = vol; 
+  // Updating the volume label 
+  document.querySelector("#vol-label").innerHTML = vol; 
+}); 
+
+//RATE 
+// We get the rate Value from the input 
+document.getDocumentById("rate").addEventListener("input", () => { 
+  const rate = document.getDocumentById("rate").value; 
+  // Set rate property of the SpeechSynthesisUtterance instance 
+  tts.rate = rate; 
+  // Updating the rate label 
+  document.getDocumentById("rate-lab").innerHTML = rate; 
+}); 
+
+//PITCH 
+// We get the pitch Value from the input 
+document.getElementById("pitch").addEventListener("input", () => { 
+  const pitch = document.getElementById("pitch").value; 
+  // Setting thepitch property of the SpeechSynthesisUtterance instance 
+  tts.pitch = pitch; 
+  // Updating the pitch label 
+  document.getDocumentById("pitch-lab").innerHTML = pitch; 
+});
+    
 </script>
   </body>
   
    <script src="../../../../../../../assets/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="js/jquery.min.js"></script>
+   <script src="../../../js/jquery.min.js"></script>
 </html>

@@ -203,7 +203,7 @@ var count = 50;
 var interval = setInterval(function(){
   document.getElementById('timer_sec').innerHTML=count;
   count--;
-  if(count < 19){ //if timer is less than 19
+  if(count < 19 && count > 0){ //if timer is less than 19
             document.getElementById("timer_sec").style.color = "red";
         }
   if (count === 0){
@@ -220,5 +220,5 @@ var interval = setInterval(function(){
 	results();
   }
 
-}, 60000);
+}, 1000);
 	

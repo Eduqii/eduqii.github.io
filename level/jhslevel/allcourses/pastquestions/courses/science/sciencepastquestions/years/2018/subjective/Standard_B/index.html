@@ -34,9 +34,7 @@
     <!-- Custom styles for this template -->
     <link href="grid.css" rel="stylesheet">
    <script src = "mainA.js"></script>
-   <script src = "mainB.js"></script>
-   <script src = "mainC.js"></script>
-   <script src = "mainD.js"></script>
+   
   </head>
   <body class="py-4">
   <div id="time_context" style="margin-left:10px">&nbsp;Time Left:
@@ -256,35 +254,7 @@ function loadAnswer() {
   xhttp.send();
 }
 
-function loadExamsB() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("exams").innerHTML =
-    this.responseText;
-  }
-  xhttp.open("GET", "selectionB.html");
-  xhttp.send();
-}
-
-function loadExamsC() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("exams").innerHTML =
-    this.responseText;
-  }
-  xhttp.open("GET", "selectionC.html");
-  xhttp.send();
-}
-
-function loadExamsD() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("exams").innerHTML =
-    this.responseText;
-  }
-  xhttp.open("GET", "selectionD.html");
-  xhttp.send();
-}
++
 </script>
   </body>
   

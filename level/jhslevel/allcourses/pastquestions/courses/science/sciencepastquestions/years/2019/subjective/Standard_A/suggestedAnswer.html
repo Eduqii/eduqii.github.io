@@ -88,6 +88,51 @@
                 (iii) The pins eventually fall off as the wax melts.<br /><br />
                 (iv) The temperature at A would be the highest, followed by B and then C.<br /><br />
                 (v) Heat is transmitted by the sun to the earth by radiation.
+
+                <div> 
+    <h3> Select Voices </h3> 
+    <select id="suggestedVoices1"> 
+      <option> option 1 </option> 
+    </select> 
+  </div> 
+   
+  <textarea rows="9" cols="60" name="description" id="suggestedline1" placeholder="Enter text here..." style="display: none;">
+a.(i) An experiment to determine the conditions necessary for rust.
+                (ii) To remove oxygen
+                (iii) To prevent air from from entering the water / To seal out air
+                (iv) To absorb moisture
+                (v) It rusted due to the presence of air and water
+                (vi)
+                (alpha) The nail in Test B did not rust because it was exposed to only water/moisture.
+                (beta) The nail in Test C did not rust due to the absence of water/moisture
+
+                (vii) To Seal out air or to prevent air from getting into contact with the metal.
+
+                b.(i) To demonstrate that sunglight is necessary for photosynthesis
+                (ii) (alpha) Roman numeral I – To kill living cells
+                (beta)  Roman numeral II – To remove chlorophyll
+                (gamma) Roman numeral III – To soften the leaf and wash off alcohol
+                (iii) Leaf A turned turned blue-black
+                (iv) The color change exhibited was due to the presence of starch.
+                (v) To remove any existing starch from the leaves.
+                (vi) The experiment demonstrates that without sunlight, photosynthesis cannot occur.
+
+                C. Measuring Cylinder image.
+                (i) Equal quantities of soil samples of A and B are taken using the beam balance and then transferred into separate funnels each fitted with filter papers.
+                (ii) The funnels are mounted over a measuring cylinder and equal volumes of water is poured into each funnel.
+                (iii) The setups are allowed to stand until water drains completely in each setup.
+                (iv) The soil sample within the setup where the least water was drained into the measuring cylinder is the soil which holds more water (Setup A).
+                d.(i) To show that heat is transferred through metals by conduction.
+                (ii) 100 degrees celsius.
+                (iii) The pins eventually fall off as the wax melts.
+                (iv) The temperature at A would be the highest, followed by B and then C.
+                (v) Heat is transmitted by the sun to the earth by radiation.
+    </textarea><br> 
+   
+  <button class="buttons" style="background: green;" id="suggestedRead1"> Listen </button> 
+  <button class="buttons" style="background: orange" id="suggestedPause1"> Pause </button> 
+  <button class="buttons" style="background: lightgreen" id="suggestedResume1"> Resume </button> 
+  <button class="buttons" style="background: red" id="suggestedCancel1"> Cancel </button> 
               </div>
             </div>
           </div>
@@ -199,7 +244,7 @@
               <div class="accordion-body">
                 (i) Fill the measuring cylinder with ample water.<br />
                 (i) Record the volume as V1<br />
-                (ii) Tie a thread to the irregular shaped lead ball and gently dip into the cylinder with water.<br />
+                (ii) Tie a thsuggestedRead to the irregular shaped lead ball and gently dip into the cylinder with water.<br />
                 (iii) Record the new Volume (V2)<br />
                 (iv) Calculate the difference in volumes (V2 – V1) as V3.<br />
                 (v) V3, as calculated, is the volume of the irregular shape lead ball.<br /><br />
@@ -235,10 +280,234 @@ function loadAnswer() {
   xhttp.send();
 }
 
+ // suggestedReader
+// First we initialize new SpeechSynthesisUtterance object 
+let tts2 = new SpeechSynthesisUtterance(); 
+ 
+// Setting the Speech Language 
+tts2.lang = "en"; 
 
+//Populating the select dropdown with the list of available voices on Web Speech API 
+let speechvoices2 = []; // global array of available voices 
+ 
+window.speechSynthesis.onvoiceschanged = () => { 
+  // To get the list of voices using getVoices() function 
+  speechvoices2 = window.speechSynthesis.getVoices(); 
+  // We need to populate the section and set the first voice 
+  tts2.voice = speechvoices2[0]; 
+ 
+  let select_voice1 = document.getElementById("suggestedVoices1"); 
+   let select_voice2 = document.getElementById("voices2"); 
+    let select_voice3 = document.getElementById("voices3"); 
+     let select_voice4 = document.getElementById("voices4"); 
+      let select_voice5 = document.getElementById("voices5"); 
+  speechvoices2.forEach((voice, i) => (select_voice1.options[i] = new Option(voice.name, i))); 
+   speechvoices.forEach((voice, i) => (select_voice2.options[i] = new Option(voice.name, i))); 
+    speechvoices.forEach((voice, i) => (select_voice3.options[i] = new Option(voice.name, i))); 
+     speechvoices.forEach((voice, i) => (select_voice4.options[i] = new Option(voice.name, i))); 
+      speechvoices.forEach((voice, i) => (select_voice5.options[i] = new Option(voice.name, i))); 
+
+}; 
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("suggestedVoices1").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts2.voice = voices[document.getElementById("suggestedVoices1").value]; 
+});
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("voices2").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts.voice = voices[document.getElementById("voices2").value]; 
+});
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("voices3").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts.voice = voices[document.getElementById("voices3").value]; 
+});
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("voices4").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts.voice = voices[document.getElementById("voices4").value]; 
+});
+// This changes the voice of the speaker or utterance to the selected voice 
+document.getElementById("voices5").addEventListener("change", () => { 
+  var synth = window.speechSynthesis;
+  var voices = synth.getVoices();
+  tts.voice = voices[document.getElementById("voices5").value]; 
+});
+ 
+//SETTING THE CONTROLS - SPEAK, PLAY, suggestedPause AND suggestedRESUME 
+//SPEAK 1
+//first we get the value of the textarea or document 
+document.getElementById("suggestedRead1").addEventListener("click", () => { 
+  tts.text = document.getElementById("suggestedline1").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+}); 
+
+//SPEAK 2
+//first we get the value of the textarea or document 
+document.getElementById("suggestedRead2").addEventListener("click", () => { 
+  tts.text = document.getElementById("lines2").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+}); 
+
+//SPEAK 3
+//first we get the value of the textarea or document 
+document.getElementById("suggestedRead3").addEventListener("click", () => { 
+  tts.text = document.getElementById("lines3").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+});
+
+//SPEAK 4
+//first we get the value of the textarea or document 
+document.getElementById("suggestedRead4").addEventListener("click", () => { 
+  tts.text = document.getElementById("lines4").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+});  
+
+//SPEAK 5
+//first we get the value of the textarea or document 
+document.getElementById("suggestedRead5").addEventListener("click", () => { 
+  tts.text = document.getElementById("lines5").value; 
+  //then we implement the speechsynthesis instance 
+  window.speechSynthesis.speak(tts); 
+}); 
+ 
+//suggestedPause 1
+document.getElementById("suggestedPause1").addEventListener("click", () => { 
+  // suggestedPause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+});
+
+//suggestedPause 2
+document.getElementById("suggestedPause2").addEventListener("click", () => { 
+  // suggestedPause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+}); 
+
+//suggestedPause 3
+document.getElementById("suggestedPause3").addEventListener("click", () => { 
+  // suggestedPause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+});
+
+//suggestedPause 4
+document.getElementById("suggestedPause4").addEventListener("click", () => { 
+  // suggestedPause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+});
+ 
+//suggestedPause 5
+document.getElementById("suggestedPause5").addEventListener("click", () => { 
+  // suggestedPause the speechSynthesis instance 
+  window.speechSynthesis.pause(); 
+});
+
+//suggestedRESUME 1
+document.getElementById("suggestedResume1").addEventListener("click", () => { 
+  // suggestedResume the suggestedPaused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+});
+
+//suggestedRESUME 2
+document.getElementById("suggestedResume2").addEventListener("click", () => { 
+  // suggestedResume the suggestedPaused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+}); 
+
+//suggestedRESUME 3
+document.getElementById("suggestedResume3").addEventListener("click", () => { 
+  // suggestedResume the suggestedPaused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+});
+
+//suggestedRESUME 4
+document.getElementById("suggestedResume4").addEventListener("click", () => { 
+  // suggestedResume the suggestedPaused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+});
+
+//suggestedRESUME 5
+document.getElementById("suggestedResume5").addEventListener("click", () => { 
+  // suggestedResume the suggestedPaused speechSynthesis instance 
+  window.speechSynthesis.resume(); 
+});
+ 
+//suggestedCANCEL 1
+document.getElementById("suggestedCancel1").addEventListener("click", () => { 
+// suggestedCancel the speechSynthesis instance 
+// speechSynthesis.cancel();
+  window.speechSynthesis.cancel(); 
+}); 
+
+//suggestedCANCEL 2
+document.getElementById("suggestedCancel2").addEventListener("click", () => { 
+// suggestedCancel the speechSynthesis instance 
+// speechSynthesis.cancel();
+  window.speechSynthesis.cancel(); 
+}); 
+
+//suggestedCANCEL 3
+document.getElementById("suggestedCancel3").addEventListener("click", () => { 
+// suggestedCancel the speechSynthesis instance 
+// speechSynthesis.cancel();
+  window.speechSynthesis.cancel(); 
+}); 
+
+//suggestedCANCEL 4
+document.getElementById("suggestedCancel4").addEventListener("click", () => { 
+// suggestedCancel the speechSynthesis instance 
+// speechSynthesis.cancel();
+  window.speechSynthesis.cancel(); 
+}); 
+
+//suggestedCANCEL 5
+document.getElementById("suggestedCancel5").addEventListener("click", () => { 
+// suggestedCancel the speechSynthesis instance 
+// speechSynthesis.cancel();
+  window.speechSynthesis.cancel(); 
+}); 
+
+//TO SET THE VOLUME, PITCH, AND RATE 
+//Volume  
+//We get the volume value from the input 
+document.getElementById("volume").addEventListener("input", () => { 
+  const vol = document.getDocumentById("volume").value; 
+  // Set volume property of the SpeechSynthesisUtterance instance 
+  tts.volume = vol; 
+  // Updating the volume label 
+  document.querySelector("#vol-label").innerHTML = vol; 
+}); 
+
+//RATE 
+// We get the rate Value from the input 
+document.getElementById("rate").addEventListener("input", () => { 
+  const rate = document.getDocumentById("rate").value; 
+  // Set rate property of the SpeechSynthesisUtterance instance 
+  tts.rate = rate; 
+  // Updating the rate label 
+  document.getDocumentById("rate-lab").innerHTML = rate; 
+}); 
+
+//PITCH 
+// We get the pitch Value from the input 
+document.getElementById("pitch").addEventListener("input", () => { 
+  const pitch = document.getElementById("pitch").value; 
+  // Setting thepitch property of the SpeechSynthesisUtterance instance 
+  tts.pitch = pitch; 
+  // Updating the pitch label 
+  document.getElementById("pitch-lab").innerHTML = pitch; 
+});
 </script>
   </body>
   
    <script src="../../../../../../../assets/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="js/jquery.min.js"></script>
+   <script src="../../../js/jquery.min.js"></script>
 </html>

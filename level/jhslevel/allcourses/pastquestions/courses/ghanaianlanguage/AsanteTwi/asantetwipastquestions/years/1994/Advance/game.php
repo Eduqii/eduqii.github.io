@@ -52,7 +52,7 @@
 		 	<p class="choice-prefix">D</p>
 		 	<p class="choice-text" data-number="4">Choice 4</p>
 		 </div>
-		 <h3>BECE 1994 &nbsp; <span style="font-size: 2.5rem;"><a href="../index.php" class="Exit">Exit</a></span></h3>
+		 <h3>BECE 1994 &nbsp; <span style="font-size: 2.5rem;"><a href="../index.html" class="Exit">Exit</a></span></h3>
 	</div>
 </div>
 

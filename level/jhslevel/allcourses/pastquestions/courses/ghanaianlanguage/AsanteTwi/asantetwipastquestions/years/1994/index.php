@@ -12,9 +12,9 @@
 <div class="container"> 
 <div id="home" class="flex-column flex-center">
 	<!--<h1>Are you Ready?</h1>-->
-	<a href="Standard/index.php" class="btn">Standard</a>
-	<a href="Advance/index.php"  class="btn">Advance<i class="fas fa-crown"></i></a>
-	<a href="../index.php" id="exit-btn" class="btn">Exit <i class="fas fa-anchor"></i></a>
+	<a href="Standard/index.html" class="btn">Standard</a>
+	<a href="Advance/index.html"  class="btn">Advance<i class="fas fa-crown"></i></a>
+	<a href="../index.html" id="exit-btn" class="btn">Exit <i class="fas fa-anchor"></i></a>
 </div>
 </div>
 </body>

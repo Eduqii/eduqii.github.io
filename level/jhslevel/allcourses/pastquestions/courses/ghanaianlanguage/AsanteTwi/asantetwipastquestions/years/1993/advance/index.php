@@ -12,9 +12,9 @@
 <div class="container"> 
 <div id="home" class="flex-column flex-center">
 	<h1>Are you Ready?</h1>
-	<a href="game.php" class="btn">Play</a>
-	<a href="highscores.php" id="highscore-btn" class="btn">High Scores <i class="fas fa-crown"></i></a>
-	<a href="../index.php" id="exit-btn" class="btn">Exit <i class="fas fa-anchor"></i></a>
+	<a href="game.html" class="btn">Play</a>
+	<a href="highscores.html" id="highscore-btn" class="btn">High Scores <i class="fas fa-crown"></i></a>
+	<a href="../index.html" id="exit-btn" class="btn">Exit <i class="fas fa-anchor"></i></a>
 </div>
 </div>
 </body>

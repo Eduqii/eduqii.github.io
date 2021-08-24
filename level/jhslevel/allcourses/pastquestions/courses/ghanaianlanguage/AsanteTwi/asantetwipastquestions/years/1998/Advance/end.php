@@ -17,8 +17,8 @@
 			<input type="text" name="name" id="username" placeholder="Enter your name">
 			<button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled="disabled">Save</button>
 		</form>
-		<a href="game.php" class="btn">Play Again</a>
-		<a href="index.php" class="btn">Go Home <i class="fas fa-home"></i></a>
+		<a href="game.html" class="btn">Play Again</a>
+		<a href="index.html" class="btn">Go Home <i class="fas fa-home"></i></a>
 	</div>
 </div>
 

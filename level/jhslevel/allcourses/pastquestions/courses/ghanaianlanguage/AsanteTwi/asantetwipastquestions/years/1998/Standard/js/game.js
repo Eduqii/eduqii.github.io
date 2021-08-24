@@ -200,6 +200,6 @@ window.onload = function () {
    exitQuiz = e =>{
 
    	// this function exits the page
-	return window.location.assign('../index.php');
+	return window.location.assign('../index.html');
 	
 }

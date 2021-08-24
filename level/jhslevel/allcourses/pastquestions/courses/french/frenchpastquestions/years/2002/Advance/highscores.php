@@ -13,7 +13,7 @@
 	<div id="highscores" class="flex-center flex-column">
 		<h1 id="finalscore">Leaderboard</h1>
 		<ul id="highScoresList"></ul>
-		<a href="index.php" class="btn">Go Home<i class="fas fa-home"></i></a>
+		<a href="index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
 	</div>
 </div>
 

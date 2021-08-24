@@ -128,126 +128,157 @@ quizNinetyNinety = e => {
 //section b
 
 sectTwentyTwnty = e => {
-        return window.open('2020/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2020/sect/index.html','_blank');
       }
 
 sectTwentyNineteen = e => {
-        return window.open('2019/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2019/sect/index.html','_blank');
       }
 
 sectTwentyEighteen = e => {
-        return window.open('2018/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2018/sect/index.html','_blank');
       }
 
 sectTwentySeventeen = e => {
-        return window.open('2017/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2017/sect/index.html','_blank');
       }
 
 sectTwentySixteen = e => {
-        return window.open('2016/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2016/sect/index.html','_blank');
       }
 
 sectTwentyFifteen = e => {
-        return window.open('2015/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2015/sect/index.html','_blank');
       }
 
 sectTwentyFourteen = e => {
-        return window.open('2014/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2014/sect/index.html','_blank');
       }
 
 sectTwentyThirteen = e => {
-        return window.open('2013/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2013/sect/index.html','_blank');
       }
 
 sectTwentyTwelve = e => {
-        return window.open('2012/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2012/sect/index.html','_blank');
       }
 
 sectTwentyEleven = e => {
-        return window.open('2011/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2011/sect/index.html','_blank');
       }
 
 sectTwentyTen = e => {
-        return window.open('2010/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2010/sect/index.html','_blank');
       }
 
 sectTwoThousandNine = e => {
-        return window.open('2009/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2009/sect/index.html','_blank');
       }
      
 sectTwoThousandEight = e => {
-        return window.open('2008/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2008/sect/index.html','_blank');
       }
 
 sectTwoThousandSeven = e => {
-        return window.open('2007/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2007/sect/index.html','_blank');
       }
 
 sectTwoThousandSix = e => {
-        return window.open('2006/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2006/sect/index.html','_blank');
       }
 
 sectTwoThousandFive = e => {
-        return window.open('2005/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2005/sect/index.html','_blank');
       }
 
 sectTwoThousandFour = e => {
-        return window.open('2004/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2004/sect/index.html','_blank');
       }
 
 sectTwoThousandThree = e => {
-        return window.open('2003/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2003/sect/index.html','_blank');
       }
       
 sectTwoThousandTwo = e => {
-        return window.open('2002/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2002/sect/index.html','_blank');
       }
 
 sectTwoThousandOne = e => {
-        return window.open('2001/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2001/sect/index.html','_blank');
       }
 
 sectTwoThousand = e => {
-        return window.open('2000/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('2000/sect/index.html','_blank');
       }
 
 sectNinetyNine = e => {
-        return window.open('1999/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1999/sect/index.html','_blank');
       }
 
 sectNinetyEight = e => {
-        return window.open('1998/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1998/sect/index.html','_blank');
       }
 
 sectNinetySeven = e => {
-        return window.open('1997/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1997/sect/index.html','_blank');
       }
 
 sectNinetySix = e => {
-        return window.open('1996/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1996/sect/index.html','_blank');
       }
       
 sectNinetyFive = e => {
-        return window.open('1995/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1995/sect/index.html','_blank');
       }
 
 sectNinetyFour = e => {
-        return window.open('1994/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1994/sect/index.html','_blank');
       }
 
 sectNinetyThree = e => {
-        return window.open('1993/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1993/sect/index.html','_blank');
       }
 
 sectNinetyTwo = e => {
-        return window.open('1992/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1992/sect/index.html','_blank');
       }
 
 sectNinetyOne = e => {
-        return window.open('1991/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1991/sect/index.html','_blank');
       }
 
 sectNinetyNinety = e => {
-        return window.open('1990/sect/index.html','_blank');
+        alert("unavailable at the moment");
+        // return window.open('1990/sect/index.html','_blank');
       }
 

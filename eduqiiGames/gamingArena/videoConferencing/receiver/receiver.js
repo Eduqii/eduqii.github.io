@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("wss://192.30.252.0/22")
+const webSocket = new webSocket("wss://192.30.252.0/22")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))

@@ -1,8 +1,6 @@
-const WebSocket = require("ws");
-const ws = new WebSocket("wss://192.30.252.0/22");
-ws.on("error", () => {});
+const webSocket = new WebSocket("wss://192.30.252.0/22");
 
-ws.onmessage = (event) => {
+webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
 }
 

@@ -1,4 +1,4 @@
-const webSocket = new webSocket("wss://192.30.252.0/22")
+const webSocket = new WebSocket("wss://192.30.252.0/22")
 
 webSocket.onmessage = (event) => {
     handleSignallingData(JSON.parse(event.data))
@@ -44,7 +44,7 @@ function joinCall() {
     document.getElementById("video-call-div")
     .style.display = "inline"
 
-    navigator.mediaDevices.getUserMedia({
+    navigator.getUserMedia({
         video: {
             frameRate: 24,
             width: {

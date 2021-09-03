@@ -75,10 +75,10 @@ options: ['Solids have harder surfaces',
 answer: 3
 },
 {
-question: 'Which of the following statements about machines is / are true?\n' +
-'I. The commonest and simplest of allmachines is the lever' + 
-'II. The efficiencyof amachine is the ratio of work output to work input' +
-'III. The efficiencyof amachine is usually less than one' + 
+question: 'Which of the following statements about machines is / are true?' + '<br />' +
+'I. The commonest and simplest of allmachines is the lever' + '<br />' +
+'II. The efficiencyof amachine is the ratio of work output to work input' + '<br />' +
+'III. The efficiencyof amachine is usually less than one' + '<br />' +
 'IV. Machines make working much easier and convenient',
 options: ['I only',
  'I and II only',
@@ -88,7 +88,7 @@ options: ['I only',
 answer: 4
 },
 {
-question: 'Which ofthe following substances reacts with ammonium chloride to produce ammonia gas?',
+question: 'Which of the following substances reacts with ammonium chloride to produce ammonia gas?',
 options: ['Calcium hydroxide',
  'Calcium chloride ',
  'Calcium carbonate ',
@@ -133,12 +133,12 @@ options: ['Decomposition',
 answer: 0
 },
 {
-question: 'A ray of light is incident at an angle of 30° to the surface of a plane mirror. Calculate the angle of reflection.',
-options: ['30° ',
- '60° ',
- '90° ',
- '120° ',
- '180°'],
+question: 'A ray of light is incident at an angle of 30&deg; to the surface of a plane mirror. Calculate the angle of reflection.',
+options: ['30&deg; ',
+ '60&deg; ',
+ '90&deg; ',
+ '120&deg; ',
+ '180&deg;'],
 answer: 3
 },
 {
@@ -187,8 +187,10 @@ options: ['Chemical energy ',
 answer: 3
 },
 {
-question: 'Which ofthe following statements about bacteriais true?\n' +
-'I. All infections are causedbybacteria II. Mostbacteria areharmless to man III. Sterilisation does not killbacteria',
+question: 'Which of the following statements about bacteria is true?' + '<br />' +
+'I. All infections are caused by bacteria' + '<br />' + 
+' II. Most bacteria are harmless to man ' + '<br />' +
+'III. Sterilisation does not kill bacteria',
 options: ['I only ',
  'II only ',
  'III only',
@@ -224,7 +226,7 @@ options: ['Cholera and GuineaWorm',
 answer: 4
 },
 {
-question: 'Which ofthe following activities is a mode of transmission of AIDS?',
+question: 'Which of the following activities is a mode of transmission of AIDS?',
 options: ['Shaking hands with an infected person',
  'Eating with an infected person',
  'Having sex with an infected person',
@@ -287,7 +289,7 @@ options: ['atmosphere',
 answer: 4
 },
 {
-question: 'Which ofthe following practicesencourages soilerosion?',
+question: 'Which of the following practices encourages soil erosion?',
 options: ['Planting trees on baresoil',
  'Clearing trees and slopes',
  'Planting grasses along slopes',
@@ -305,7 +307,10 @@ options: ['Aluminium',
 answer: 3
 },
 {
-question: 'empty question',
+question: 'Which of the following statements about plants is true?' + '<br />' + 
+'I. Most plants show movement' + '<br />' + '<br />' +
+'II. Green plants manufacture their own food' + '<br />' + '<br />' +
+'III. All animals depend directly on plants for food',
 options: ['I only ',
  'II only ',
  'III only',
@@ -341,7 +346,7 @@ options: ['the lime water becomes warm',
 answer: 3
 },
 {
-question: 'Which ofthe following solids melts easilyonexposureto sunlight?',
+question: 'Which ofthe following solids melts easily on exposure to sunlight?',
 options: ['Animal fat ',
  'Candle wax ',
  'Plastics',
@@ -350,7 +355,7 @@ options: ['Animal fat ',
 answer: 4
 },
 {
-question: 'Which ofthe following structures regulatethe amountof light that entersthe eye?',
+question: 'Which of the following structures regulate the amount of light that enters the eye?',
 options: ['Choroid ',
  'Cornea ',
  'Iris',
@@ -359,12 +364,12 @@ options: ['Choroid ',
 answer: 2
 },
 {
-question: 'Leguminous crops suchas beans arecultivated to',
+question: 'Leguminous crops such as beans are cultivated to',
 options: ['add humus to thesoil',
- 'increasethe nitratecontents of soils',
- 'add nitrogen to thesoil',
- 'makethe soil loamy',
- 'add protein to thesoil'],
+ 'increase the nitrate contents of soils',
+ 'add nitrogen to the soil',
+ 'make the soil loamy',
+ 'add protein to the soil'],
 answer: 2
 }
 ]

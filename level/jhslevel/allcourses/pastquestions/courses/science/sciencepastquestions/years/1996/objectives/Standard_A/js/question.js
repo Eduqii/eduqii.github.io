@@ -35,7 +35,7 @@ options: ['Blinking of the eye',
  'Moving the hand from a hot object',
  'Jerking of the knee',
  'Talking while eating',
- 'Coughingto remove an object from the throat'],
+ 'Coughing to remove an object from the throat'],
 answer: 3
 },
 {
@@ -48,16 +48,16 @@ options: ['0.5 m ',
 answer: 1
 },
 {
-question: 'Which of the following arrangements is the correct order ofincreasing complexityof thestructure?',
-options: ['Cells → systems → tissues → organs ',
- 'Cells → tissues → systems → organs ',
- 'Cells → organs → tissues → systems ',
- 'Cells → systems → organs → tissues ',
- 'Cells → tissues → organs → systems'],
+question: 'Which of the following arrangements is the correct order of increasing complexity of the structure?',
+options: ['Cells \u2192 systems \u2192 tissues \u2192 organs ',
+ 'Cells \u2192 tissues \u2192 systems \u2192 organs ',
+ 'Cells \u2192 organs \u2192 tissues \u2192 systems ',
+ 'Cells \u2192 systems \u2192 organs \u2192 tissues ',
+ 'Cells \u2192 tissues \u2192 organs \u2192 systems'],
 answer: 4
 },
 {
-question: 'The law of conservation of energystates that energycan',
+question: 'The law of conservation of energy states that energy can',
 options: ['be created but not transformed',
  'be destroyed but not transformed',
  'neither be created nor transformed',
@@ -88,8 +88,8 @@ question: 'The main waste products formed in plants are',
 options: ['water, carbondioxide and urea',
  'water, carbondioxide and oxygen',
  'water, carbondioxide and mineral salts',
- 'water, ammoniumcompounds and oxygen',
- 'water, ammoniumcompounds and carbondioxide'],
+ 'water, ammonium compounds and oxygen',
+ 'water, ammonium compounds and carbon dioxide'],
 answer: 3
 },
 {
@@ -103,11 +103,11 @@ answer: 0
 },
 {
 question: 'Which of the following chemical equations is the correct representation of the preparation of carbon dioxide?',
-options: ['CaCO3+2HCl→ CaO +Cl2+H2+CO2',
- 'CaCO3+2HCl→ CaCl2+H2CO3',
- 'CaCO3+2HCl → CaO +Cl2+H2O +CO2',
- 'CaCO3+2HCl → CaCl2+H2+CO2',
- 'CaCO3+2HCl → CaCl2+H2O +CO2'],
+options: ['CaCO<sub>3</sub> + 2HCl \u2192 CaO + Cl<sub>2</sub> + H<sub>2</sub> + CO<sub>2</sub>',
+ 'CaCO<sub>3</sub> + 2HCl\u2192 CaCl<sub>2</sub> + H<sub>2</sub>CO<sub>3</sub>',
+ 'CaCO<sub>3</sub> + 2HCl \u2192 CaO + Cl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub>',
+ 'CaCO<sub>3</sub> + 2HCl \u2192 CaCl<sub>2</sub> + H<sub>2</sub> + CO<sub>2</sub>',
+ 'CaCO<sub>3</sub> + 2HCl \u2192 CaCl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub>'],
 answer: 4
 },
 {
@@ -174,7 +174,7 @@ options: ['Addingmineral to the soil',
 answer: 3
 },
 {
-question: 'Which of the following does not play any part indigestion?',
+question: 'Which of the following does not play any part in digestion?',
 options: ['Mouth',
  'duodenum',
  'rectum ',
@@ -282,7 +282,7 @@ options: ['Beans',
 answer: 3
 },
 {
-question: 'The black pod diseasewhich attacks cocoapods is causedby',
+question: 'The black pod disease which attacks cocoa pods is caused by',
 options: ['virus',
  'bacterium',
  'plasmodium',
@@ -309,7 +309,7 @@ options: ['Stamen ',
 answer: 1
 },
 {
-question: 'When the palms of thehand are rubbed together,kinetic energyis changedto',
+question: 'When the palms of the hand are rubbed together, kinetic energy is changed to',
 options: ['thermal energy ',
  'potential energy ',
  'solar energy',
@@ -318,19 +318,18 @@ options: ['thermal energy ',
 answer: 0
 },
 {
-question: 'Trees in desert regions havethick barkswhich enables themto',
+question: 'Trees in desert regions have thick barks which enables them to',
 options: ['prevent heat loss ',
- 'absorb morelight ',
+ 'absorb more light ',
  'prevent water loss ',
- 'absorb morewater',
- 'absorb moreoxygen'],
+ 'absorb more water',
+ 'absorb more oxygen'],
 answer: 2
 },
 {
-question: 'Which of the following is true about loamy soil?\n' +
-
-'I. Is formed from a mixture of sand and clay' +
-'II. It is good for plant cultivation' +
+question: 'Which of the following is true about loamy soil?' + '<br />' +
+'I. Is formed from a mixture of sand and clay' + '<br />' + '<br />' + 
+'II. It is good for plant cultivation' + '<br />' + '<br />' + 
 'III. Its water retention is poor',
 options: ['I only',
  'I and II only ',
@@ -340,7 +339,7 @@ options: ['I only',
 answer: 1
 },
 {
-question: 'In which part of the alimentarycanal is food finallychanged into a form that can be absorbed into the bloodstream?',
+question: 'In which part of the alimentary canal is food finally changed into a form that can be absorbed into the bloodstream?',
 options: ['small intestines',
  'oesophagus',
  'mouth',

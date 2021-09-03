@@ -114,10 +114,10 @@ answer: 1,
  
 
 question: 'hich of the following chemical equations is balanced?',
-choice1: '\ N_2 + H_2 \rightarrow NH_3\\ ', 
-choice2: '\ 	N_2 + 3H_2 \rightarrow NH_3\\ ', 
-choice3: '\ 	N_2 + 3H_2 \rightarrow 2NH_3\\ ', 
-choice4: '\  	N_2 + 3H_2 \rightarrow NH_3\\  ', 
+choice1: 'N' + '<sub>' +'2' + '</sub>' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
+choice2: 'N' + '<sub>' + '2' + '</sub>' + '3H' + '<sub>' +'2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
+choice3: 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + '2NH' + '<sub>' + '3' + '</sub>', 
+choice4: 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
 answer: 3,
 },
 {
@@ -223,8 +223,8 @@ question: 'Which of the following chemical compounds is used in removing hardnes
 
 choice1: 'NaCl',
 choice2: 'NaOH',
-choice3: 'Na_2CO_{3} ',
-choice4: 'NaHCO_{3}',
+choice3: 'Na<sub>2</sub>CO<sup>3</sup> ',
+choice4: 'NaHCO<sup>3</sup>',
 answer: 3,
 },
 {
@@ -501,6 +501,25 @@ startGame = () => {
 	questionCounter = 0
 	score = 0
 	availableQuestions = [...questions]
+
+	//function for timer
+	var count = 45;
+var interval = setInterval(function(){
+ document.getElementById('timer_sec').innerHTML=count;
+  count--;
+  if (count < 20) {
+  	document.getElementById('timer_sec').style.color="red";
+  }
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('time_remaining').innerHTML='Time out';
+	localStorage.setItem('mostRecentScore', score)
+
+		return window.location.assign('quiz_challege.html') 
+  }
+}, 60000);
+//end of function for timer
+
 	getNewQuestion()
 }
 
@@ -508,7 +527,7 @@ getNewQuestion = () => {
 	if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
 		localStorage.setItem('mostRecentScore', score)
 
-		return window.location.assign('end.html') 
+		return window.location.assign('quiz_challege.html') 
 	}
 
 	questionCounter++

@@ -206,6 +206,7 @@ var interval = setInterval(function(){
 	quizOver();
   }
 }, 60000);
+//end of function for timer
    }
 
 window.onload = function () {

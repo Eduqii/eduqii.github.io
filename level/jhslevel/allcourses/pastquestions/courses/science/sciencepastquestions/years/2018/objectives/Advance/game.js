@@ -409,6 +409,23 @@ startGame = () => {
 	questionCounter = 0
 	score = 0
 	availableQuestions = [...questions]
+	//function for timer
+	var count = 45;
+var interval = setInterval(function(){
+ document.getElementById('timer_sec').innerHTML=count;
+  count--;
+  if (count < 20) {
+  	document.getElementById('timer_sec').style.color="red";
+  }
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('time_remaining').innerHTML='Time out';
+	localStorage.setItem('mostRecentScore', score)
+
+		return window.location.assign('quiz_challege.html') 
+  }
+}, 60000);
+//end of function for timer
 	getNewQuestion()
 }
 

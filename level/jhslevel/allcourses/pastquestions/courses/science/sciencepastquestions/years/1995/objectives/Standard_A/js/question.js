@@ -12,16 +12,16 @@ options: ['Clearing of vegetation',
 answer: 4
 },
 {
-question: 'What is the differencebetween massand weight?The',
+question: 'What is the difference between mass and weight? The',
 options: ['mass of a body is twice the weight',
- 'weight of a body is constant butits mass varies',
+ 'weight of a body is constant but its mass varies',
  'mass of a body varies but its weight does not ',
  'weight of a body varies but its mass does not ',
  'mass of a body is half the weight'],
 answer: 3
 },
 {
-question: 'By what process is heat transferredfrom thebottom of abeaker containing waterto thetop?',
+question: 'By what process is heat transferred from the bottom of a beaker containing water to the top?',
 options: ['convection ',
  'conduction ',
  'radiation',
@@ -30,16 +30,16 @@ options: ['convection ',
 answer: 0
 },
 {
-question: 'Inwhat units arework and energymeasured?',
-options: ['work in joules, energyinwatts',
- 'work in joules, energyinjoules',
- 'work in newtons,energyin joules',
- 'energyin watts, work in watts',
- 'energyin newtons, workin joules'],
+question: 'In what units are work and energy measured?',
+options: ['work in joules, energy in watts',
+ 'work in joules, energy in joules',
+ 'work in newtons,energy in joules',
+ 'energy in watts, work in watts',
+ 'energy in newtons, work in joules'],
 answer: 1
 },
 {
-question: 'Which ofthe followingis the organic part ofthe soil?',
+question: 'Which of the following is the organic part of the soil?',
 options: ['Mineral salts',
  'Water',
  'Rock particles',
@@ -48,7 +48,7 @@ options: ['Mineral salts',
 answer: 4
 },
 {
-question: 'A mixtureof sugarandwatercan beseparated by',
+question: 'A mixture of sugar and water can be separated by',
 options: ['Filtration',
  'Evaporation ',
  'Decantation ',
@@ -57,7 +57,7 @@ options: ['Filtration',
 answer: 1
 },
 {
-question: 'The air pressureat greatheights can bemeasuredwith',
+question: 'The air pressure at great heights can be measured with',
 options: ['A thermometer ',
  'An anemometer ',
  'A barometer',
@@ -66,7 +66,7 @@ options: ['A thermometer ',
 answer: 2
 },
 {
-question: 'Which ofthe following animals reproduces without mating?',
+question: 'Which of the following animals reproduces without mating?',
 options: ['Toad ',
  'Lizard ',
  'Dog',
@@ -86,14 +86,14 @@ answer: 4
 {
 question: 'A fruit adapted for dispersal by wind is likely to be',
 options: ['succulent',
- 'brightlycoloured',
+ 'brightly coloured',
  'hooked ',
  'sticky ',
  'hairy'],
 answer: 4
 },
 {
-question: 'All the followingsubstances aremixtures except',
+question: 'All the following substances are mixtures except',
 options: ['ink',
  'blood',
  'air',
@@ -102,9 +102,9 @@ options: ['ink',
 answer: 4
 },
 {
-question: 'Ina first class lever, theload is placed',
+question: 'Ina first class lever, the load is placed',
 options: ['on the effort',
- 'between theeffort arm and the pivot',
+ 'between the effort arm and the pivot',
  'at one end of the load arm',
  'between the pivot and the load arm',
  'on the pivot'],
@@ -120,7 +120,7 @@ options: ['water from the body',
 answer: 3
 },
 {
-question: 'Which ofthe followingis an indirect sourceof light?',
+question: 'Which of the following is an indirect source of light?',
 options: ['Torch light',
  'Thesun',
  'Fire',
@@ -129,7 +129,7 @@ options: ['Torch light',
 answer: 3
 },
 {
-question: 'Which ofthe followingis the sense organforsight?',
+question: 'Which of the following is the sense organ for sight?',
 options: ['Skin ',
  'nose ',
  'eye ',
@@ -140,9 +140,9 @@ answer: 2
 {
 question: 'Liquids suitable for use in thermometers must not: ',
 options: ['wet glass',
- 'havealow boilingpoint',
- 'haveahigh meltingpoint',
- 'haveahigh density',
+ 'have a low boiling point',
+ 'have a high meltingpoint',
+ 'have a high density',
  'expand'],
 answer: 0
 },
@@ -156,7 +156,7 @@ options: ['evaporation',
 answer: 3
 },
 {
-question: 'Ice floats on waterbecause',
+question: 'Ice floats on water because',
 options: ['water is denser than ice',
  'ice is denser than water',
  'ice has the same temperature as water',
@@ -165,7 +165,7 @@ options: ['water is denser than ice',
 answer: 0
 },
 {
-question: 'The reason for chewing foodbeforeswallowingis to',
+question: 'The reason for chewing food before swallowing is to',
 options: ['soften the food',
  'make digestion faster',
  'cause saliva to flow out',
@@ -184,7 +184,7 @@ answer: 3
 },
 {
 question: 'The force which is able to hold light objects on the surface of liquids is called',
-options: ['surfacetension',
+options: ['surface tension',
  'friction',
  'capillarity ',
  'viscosity ',
@@ -192,7 +192,7 @@ options: ['surfacetension',
 answer: 0
 },
 {
-question: 'In the nucleus ofan atom, thereare',
+question: 'In the nucleus of an atom, there are',
 options: ['neutrons and shells',
  'protons and electrons ',
  'neutrons and protons ',
@@ -201,7 +201,7 @@ options: ['neutrons and shells',
 answer: 2
 },
 {
-question: 'Themalesperms fertilizethe femaleeggs to formthe',
+question: 'The male sperms fertilize the female eggs to form the',
 options: ['embryo ',
  'ovary ',
  'ovum',
@@ -210,7 +210,7 @@ options: ['embryo ',
 answer: 0
 },
 {
-question: 'Mostplants will notdowellin thedesert because',
+question: 'Most plants will not do well in the desert because',
 options: ['there is no top soil ',
  'it is too sunny there ',
  'rainfall is very poor',
@@ -237,7 +237,7 @@ options: ['break down food to obtain energy',
 answer: 1
 },
 {
-question: 'Theprocess used ingettingsalt from seawateris',
+question: 'The process used in getting salt from sea water is',
 options: ['boiling',
  'condensation',
  'decantation',
@@ -246,7 +246,7 @@ options: ['boiling',
 answer: 4
 },
 {
-question: 'Which ofthe following bodies is a satellite oftheearth?',
+question: 'Which of the following bodies is a satellite of the earth?',
 options: ['Mars',
  'Sun',
  'Venus',
@@ -255,7 +255,7 @@ options: ['Mars',
 answer: 3
 },
 {
-question: 'Which ofthe following aresoil micro-organisms?',
+question: 'Which of the following are soil micro-organisms?',
 options: ['Termites ',
  'Viruses ',
  'Ticks',
@@ -264,7 +264,7 @@ options: ['Termites ',
 answer: 3
 },
 {
-question: 'Thedarkest part of ashadow formed when alargesourceof light is used is the',
+question: 'The darkest part of a shadow formed when a large source of light is used is the',
 options: ['Partial eclipse ',
  'Lunar eclipse ',
  'night',
@@ -273,7 +273,7 @@ options: ['Partial eclipse ',
 answer: 4
 },
 {
-question: 'Thepart ofair which supports burningis',
+question: 'The part of air which supports burning is',
 options: ['nitrogen',
  'inert gas',
  'watervapour',
@@ -282,7 +282,7 @@ options: ['nitrogen',
 answer: 3
 },
 {
-question: 'What structurelinks themouth with thestomach?The',
+question: 'What structure links the mouth with the stomach? The',
 options: ['duodenum ',
  'oesophagus ',
  'Ileum',
@@ -291,7 +291,7 @@ options: ['duodenum ',
 answer: 1
 },
 {
-question: 'Which ofthe followinginstruments is used in measuring current in an electric circuit?',
+question: 'Which of the following instruments is used in measuring current in an electric circuit?',
 options: ['Voltmeter ',
  'Ammeter ',
  'Barometer',
@@ -300,7 +300,7 @@ options: ['Voltmeter ',
 answer: 1
 },
 {
-question: 'There arethickforestsin part ofthe world wherethe climateis',
+question: 'There are thick forests in part of the world where the climate is',
 options: ['Hot and wet ',
  'cool and wet ',
  'hot and dry ',
@@ -309,7 +309,7 @@ options: ['Hot and wet ',
 answer: 0
 },
 {
-question: 'Theouterear is also referred to as',
+question: 'The outer ear is also referred to as',
 options: ['cochlea',
  'tympanum',
  'pinna',
@@ -318,7 +318,7 @@ options: ['cochlea',
 answer: 2
 },
 {
-question: 'Gin can beobtained from palm wine by',
+question: 'Gin can be obtained from palm wine by',
 options: ['condensation',
  'freezing',
  'sedimentation',
@@ -327,11 +327,11 @@ options: ['condensation',
 answer: 3
 },
 {
-question: 'Which ofthe followingis likelyto happen when the relative humidityis high?',
-options: ['It is likelyto rain',
- 'It is likelyto be dry',
- 'It is likelyto be sunny',
- 'Thedaywillbehot',
+question: 'Which of the following is likely to happen when the relative humidity is high?',
+options: ['It is likely to rain',
+ 'It is likely to be dry',
+ 'It is likely to be sunny',
+ 'The day will be hot',
  'It will be windy'],
 answer: 0
 },
@@ -341,11 +341,11 @@ options: ['a sticky tongue',
  'a lateral line system',
  'dorsal fins',
  'clawed digits',
- 'scales on thebody'],
+ 'scales on the body'],
 answer: 4
 },
 {
-question: 'Which ofthe following statements about thesolar system is true?The',
+question: 'Which of the following statements about the solar system is true? The',
 options: ['sun moves round the earth',
  'planets move round the sun',
  'planets move round themoon',
@@ -354,7 +354,7 @@ options: ['sun moves round the earth',
 answer: 1
 },
 {
-question: 'What typeof fruit isamango?',
+question: 'What type of fruit is a mango?',
 options: ['Drupe ',
  'Pepo ',
  'Berry',

@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-		question: 'Which ofthe following processescould be used to preserve fish foralong time?',
+		question: 'Which of the following processes could be used to preserve fish for a long time?',
 options: ['Boiling only',
  'Salting only',
  'Sun drying only',
@@ -116,7 +116,7 @@ options: ['friction ',
  'greasing ',
  'heat',
  'the load used',
- 'the effortapplied'],
+ 'the effort applied'],
 answer: 0
 },
 {
@@ -177,7 +177,7 @@ answer: 1
 question: 'The dodderon milk bush is an example of',
 options: ['a plant parasite on animal host',
  'a plant parasite on plant host',
- 'an animal parasite and aplant parasite ',
+ 'an animal parasite and a plant parasite ',
  'an animal parasite on an animal host ',
  'an animal parasite on a plant host'],
 answer: 1
@@ -273,7 +273,7 @@ options: ['crystallization of the salt',
 answer: 1
 },
 {
-question: 'A temperature controlling device which works using the principles of expansion and contraction is called a……….',
+question: 'A temperature controlling device which works using the principles of expansion and contraction is called a\u2026.',
 options: ['conductor',
  'fuse',
  'manometer ',
@@ -282,7 +282,7 @@ options: ['conductor',
 answer: 4
 },
 {
-question: 'Kerosene and petrol are obtained from crudeoilby',
+question: 'Kerosene and petrol are obtained from crude oil by',
 options: ['condensation of thecrudeoil ',
  'decantation of thecrudeoil ',
  'distillation of the crudeoil',
@@ -300,7 +300,7 @@ options: ['copulation',
 answer: 2
 },
 {
-question: 'Calculate the voltage across a wire of resistance 4ohms if 3 amperes of current is passed through it.',
+question: 'Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.',
 options: ['0.75 V ',
  '1.00 V ',
  '1.33 V ',
@@ -345,7 +345,7 @@ options: ['Cholera ',
 answer: 3
 },
 {
-question: 'Gaseous exchangebetween airand blood in the lungs takes placein the',
+question: 'Gaseous exchange between air and blood in the lungs takes place in the',
 options: ['alveoli',
  'bronchi',
  'bronchioles',

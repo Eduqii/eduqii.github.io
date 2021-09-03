@@ -195,13 +195,14 @@ function goToHome() {
 	//function for timer
 	var count = 50;
 var interval = setInterval(function(){
-  document.getElementById('timer_sec').innerHTML=count;
+ document.getElementById('timer_sec').innerHTML=count;
   count--;
+  if (count < 20) {
+  	document.getElementById('timer_sec').style.color="red";
+  }
   if (count === 0){
     clearInterval(interval);
     document.getElementById('timer_sec').innerHTML='Time out';
-    // or...
-    //alert("You're out of time!");
 	quizOver();
   }
 }, 60000);

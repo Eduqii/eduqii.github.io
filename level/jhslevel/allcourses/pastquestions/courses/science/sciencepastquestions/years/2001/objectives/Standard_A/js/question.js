@@ -84,33 +84,29 @@ options: ['Chicken pox',
 answer: 3
 },
 {
-Use the figure below to answer Questions 10 and 11
-
-a1
-
-A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown
-
-question: 'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown\n Which of the parts labeled represents the pivot?',
+question: '<b>' + 'Use the figure below to answer this question' + '</b>' + '<br />' + '<br />'+'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown'+'<br />'+'Which of the parts labeled represents the pivot?',
 options: ['P ',
  'Q ',
  'R ',
  'X ',
  'Y'],
-answer: 1
+answer: 1,
+img: 'img/rigidBar.jpg'
 },
 {
-question: 'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown \n The effort is represented by',
+question: '<b>' + 'Use the figure below to answer this question' + '</b>' + '<br />' + '<br />' + 'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown '+'<br />'+'The effort is represented by',
 options: ['P ',
  'Q ',
  'R ',
  'X ',
  'Y'],
-answer: 0
+answer: 0,
+img: 'img/rigidBar.jpg'
 },
 {
-question: 'Which of the following parts of the human body are sense organs?\n' +
-'I. Tongue' +
-'II. Hair ' +
+question: 'Which of the following parts of the human body are sense organs?' + '<br />' +
+'I. Tongue' + '<br />' +
+'II. Hair ' + '<br />' + 
 'III. Nose IV. Skin',
 options: ['I and IV only',
  'II and III only',
@@ -138,9 +134,9 @@ options: ['Nitrogen and phosphorous',
 answer: 3
 },
 {
-question: ' Which of the following appliances transform(s) electrical energy to heat energy?\n' +
-'I. Swish oven' + 
-'II. Hair dryer'
+question: ' Which of the following appliances transform(s) electrical energy to heat energy?' + '<br />' +
+'I. Swish oven'  + '<br />' + 
+'II. Hair dryer' + '<br />' +
 'III. Refrigerator motor',
 options: ['I only',
  'I and II only ',
@@ -150,12 +146,12 @@ options: ['I only',
 answer: 1
 },
 {
-question: 'A ray of light makes an angle of 20° with the surface of a plane mirror. Determine the angle of reflection.',
-options: ['20° ',
- '50° ',
- '70° ',
- '90° ',
- '120°'],
+question: 'A ray of light makes an angle of 20'+'&deg;'+' with the surface of a plane mirror. Determine the angle of reflection.',
+options: ['20&deg; ',
+ '50&deg; ',
+ '70&deg;',
+ '90&deg;',
+ '120&deg;'],
 answer: 2
 },
 {
@@ -199,12 +195,12 @@ answer: 4
 	answer: 0
 },
 {
-question: 'The density of a substance is 2.5gcm-3. Calculate the volume of the substance if its mass is 25.0 g.',
-options: ['0.1 cm3',
- '10.0 cm3',
- '22.5 cm3',
- '27.5 cm3',
- '62.5 cm3'],
+question: 'The density of a substance is 2.5gcm<sup>3</sup>. Calculate the volume of the substance if its mass is 25.0 g.',
+options: ['0.1cm<sup>3</sup>',
+ '10.0cm<sup>3</sup>',
+ '22.5cm<sup>3</sup>',
+ '27.5cm<sup>3</sup>',
+ '62.5cm<sup>3</sup>'],
 answer: 1
 },
 {
@@ -235,11 +231,11 @@ options: ['Spinal cord and the eyes',
 answer: 1
 },
 {
-question: 'Plants manufacture their food using\n' +
-'I. carbon dioxide' +
-'II. oxygen' +
-'III. light' +
-'IV. chlorophyll',
+question: 'Plants manufacture their food using' + '<br />' +
+'I. carbon dioxide' + 
+' II. oxygen' + 
+' III. light' + 
+' IV. chlorophyll',
 options: ['I only',
  'II only',
  'I and II only',
@@ -266,12 +262,12 @@ options: ['the spread of tuberculosis',
 answer: 3
 },
 {
-question: 'The fraction of the earth’s surface that faces the sun at any particular time is',
-options: ['1/4',
- '1/3',
- '1/2',
- '2/3',
- '3/4'],
+question: 'The fraction of the earth\u2019s surface that faces the sun at any particular time is',
+options: ['<sup>1</sup>&frasl;<sub>4</sub>',
+ '<sup>1</sup>&frasl;<sub>3</sub>',
+ '<sup>1</sup>&frasl;<sub>2</sub>',
+ '<sup>2</sup>&frasl;<sub>3</sub>',
+ '<sup>3</sup>&frasl;<sub>4</sub>'],
 answer: 2
 },
 {
@@ -284,9 +280,9 @@ options: ['Bread mould',
 answer: 1
 },
 {
-question: 'Which of the following statements about machines is/are correct?\n'
-'I. Machines help us to do work more easily' +
-'II. A force applied at one point of the machine over comes a load at another point of the machine' +
+question: 'Which of the following statements about machines is/are correct?' + '<br />' +
+'I. Machines help us to do work more easily' + '<br />' + '<br />' + 
+'II. A force applied at one point of the machine over comes a load at another point of the machine' + '<br />' + '<br />' +
 'III. All machines have engines',
 options: ['I only ',
  'II only ',
@@ -323,8 +319,8 @@ options: ['concentrated',
 answer: 2
 },
 {
-question: 'The process of respiration could be represented by the following equation: ' + 
-'Glucose + oxygen → water + carbon dioxide + X\n' +
+question: 'The process of respiration could be represented by the following equation: ' + '<br />' +
+'Glucose + oxygen \u2192 water + carbon dioxide + X' + '<br />' +
 'What does X represent?',
 options: ['Alcohol',
  'Hydrogen',

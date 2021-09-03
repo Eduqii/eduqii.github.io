@@ -13,11 +13,11 @@ answer: 4
 },
 {
 question: 'One hectare is equivalent to',
-options: ['100 m2',
- '1,000 m2',
- '10,000 m2',
- '100,000 m2',
- '1,000,000 m2'],
+options: ['100m<sup>2</sup>',
+ '1,000m<sup>2</sup>',
+ '10,000m<sup>2</sup>',
+ '100,000m<sup>2</sup>',
+ '1,000,000m<sup>2</sup>'],
 answer: 2
 },
 {
@@ -30,7 +30,7 @@ options: ['Bacteria',
 answer: 1
 },
 {
-question: 'The central nervous system is madeup ofthe',
+question: 'The central nervous system is madeup of the',
 options: ['Brain only',
  'Spinal cord only',
  'Brain and sense organs',
@@ -39,7 +39,7 @@ options: ['Brain only',
 answer: 3
 },
 {
-question: 'An object weighing 60N is dragged through a distance of 2m. Calculatethe work done',
+question: 'An object weighing 60N is dragged through a distance of 2m. Calculate the work done',
 options: ['6 J ',
  '15 J',
  '30 J ',
@@ -75,7 +75,7 @@ options: ['Chalk',
 answer: 3
 },
 {
-question: 'A group ofstars form',
+question: 'A group of stars form',
 options: ['The universe',
  'The atmosphere',
  'The solar system',
@@ -93,7 +93,7 @@ options: ['Clay',
 answer: 3
 },
 {
-question: 'The equation Carbon(IV) oxide + water → Glucose + Oxygen , represents',
+question: 'The equation Carbon(IV) oxide + water \u2192 Glucose + Oxygen , represents',
 options: ['Breathing',
  'Diffusion',
  'Photosynthesis',
@@ -104,14 +104,14 @@ answer: 2
 {
 question: 'Which of the following pairs of diseases are both contracted through water?',
 options: ['Cholera and dysentery ',
- 'Smallpoxand dysentery ',
+ 'Smallpox and dysentery ',
  'Ringworm and smallpox ',
  'Tuberculosis and cholera',
  'Tuberculosis and dysentery'],
 answer: 0
 },
 {
-question: 'The efficiencyof amachine is usuallyless thanonedueto',
+question: 'The efficiency of a machine is usually less than one due to',
 options: ['friction ',
  'greasing ',
  'heat',
@@ -166,7 +166,7 @@ answer: 4
 },
 {
 question: 'Which of the following energy changes takes place when a church bell is tolled?',
-options: ['Chemical energy is changed to soundenergy',
+options: ['Chemical energy is changed to sound energy',
  'Kinetic energy is changed to sound energy ',
  'Potential energy is changed to sound energy ',
  'Potential energy is changed to kinetic energy ',

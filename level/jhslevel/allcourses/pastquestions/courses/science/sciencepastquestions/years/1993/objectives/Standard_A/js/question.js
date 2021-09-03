@@ -12,7 +12,7 @@ options: ['Water, liquid and gas ',
 answer: 4
 },
 {
-question: 'Soil erosion ….',
+question: 'Soil erosion &hellip;',
 options: ['washes away the water content of soil',
  'enables crops to grow better',
  'washes away the top soil',
@@ -22,11 +22,11 @@ answer: 2
 },
 {
 question: 'What is the average body temperature of a healthy person?',
-options: ['25°C ',
- '36°C ',
- '37°C ',
- '38°C ',
- '39°C'],
+options: ['25&deg;C ',
+ '36&deg;C ',
+ '37&deg;C ',
+ '38&deg;C ',
+ '39&deg;C'],
 answer: 2
 },
 {
@@ -139,15 +139,15 @@ answer: 2
 },
 {
 question: 'Which of the following types of soil allows the fastest rate of drainage?',
-options: ['Clayeysoil ',
- 'Loamysoil ',
+options: ['Clayey soil ',
+ 'Loamy soil ',
  'Black soil ',
  'Sandy soil ',
  'Humus'],
 answer: 3
 },
 {
-question: 'Which ofthe following is the percentage composition of oxygen in the air?',
+question: 'Which of the following is the percentage composition of oxygen in the air?',
 options: ['0.03',
  '1',
  '21',
@@ -192,7 +192,7 @@ options: ['distillation',
 answer: 0
 },
 {
-question: 'Which ofthe following encourages the spread ofvenereal diseases?',
+question: 'Which of the following encourages the spread of venereal diseases?',
 options: ['Poor family planning',
  'Drug Abuse',
  'Mental illhealth',
@@ -210,7 +210,7 @@ options: ['Chemical energy',
 answer: 3
 },
 {
-question: 'Which ofthe followingis not asoil nutrient?',
+question: 'Which of the followingis not a soil nutrient?',
 options: ['Hydrogen ',
  'Nitrogen ',
  'Potassium ',
@@ -219,7 +219,7 @@ options: ['Hydrogen ',
 answer: 0
 },
 {
-question: 'Which ofthe following organisms causes bilharziasis?',
+question: 'Which of the following organisms causes bilharziasis?',
 options: ['Tapeworm ',
  'Blood fluke ',
  'Blood worm ',
@@ -237,7 +237,7 @@ options: ['its density is the same as that of water',
 answer: 3
 },
 {
-question: 'Which ofthe followingis characteristic ofreflexaction',
+question: 'Which of the following is characteristic of reflex action',
 options: ['It happens slowly',
  'It happens consciously',
  'It takes a longpath ',
@@ -246,7 +246,7 @@ options: ['It happens slowly',
 answer: 4
 },
 {
-question: 'All the followingaresenseorgans except the',
+question: 'All the following are sense organs except the',
 options: ['eye ',
  'brain ',
  'ear',
@@ -264,7 +264,7 @@ options: ['boiling',
 answer: 2
 },
 {
-question: 'Which ofthe following is a horizontal underground stem?',
+question: 'Which of the following is a horizontal underground stem?',
 options: ['Cocoyam',
  'Onion ',
  'Carrot ',
@@ -291,7 +291,7 @@ options: ['Carbondioxide',
 answer: 2
 },
 {
-question: 'Friction is definedas a forcewhich',
+question: 'Friction is defined as a force which',
 options: ['accompanies motion ',
  'acts against motion ',
  'causes motion',
@@ -302,23 +302,23 @@ answer: 1
 {
 question: 'Which of the following is not a function of the lens in the human eye? It',
 options: ['allows light rays to pass through it',
- 'refracts thelight rays passing through it',
+ 'refracts the light rays passing through it',
  'helps to focus the image onto the retina',
  'becomes thinner when focusing a distant object',
  'reflects part of the light rays falling on it.'],
 answer: 4
 },
 {
-question: 'Which ofthe following practices ina communitywillincreaseits environmental pollution?',
-options: ['Buildingof schools with workshops',
- 'Plantingof trees on largeareas of land',
- 'Depositingof household rubbish near a sourceofdrinkingwater',
- 'Removal ofsand and refuse from chokedgutters',
+question: 'Which of the following practices in a community will increase its environmental pollution?',
+options: ['Building of schools with workshops',
+ 'Planting of trees on large areas of land',
+ 'Depositing of household rubbish near a source of drinking water',
+ 'Removal of sand and refuse from choked gutters',
  'building of an efficient underground sewage system'],
 answer: 2
 },
 {
-question: 'Smoke is an exampleof amixtureof',
+question: 'Smoke is an example of a mixture of',
 options: ['Gases',
  'Liquids in gases ',
  'Solids in liquids ',
@@ -327,16 +327,16 @@ options: ['Gases',
 answer: 3
 },
 {
-question: 'Which ofthe followingis the best method of preventingskin disease?',
-options: ['Theuse of perfume on theskin',
- 'Theuse of bleachingcream on theskin',
- 'Avoidingcontact with diseased person',
- 'keepingthe skin clean bywashingit regularly',
+question: 'Which of the following is the best method of preventing skin disease?',
+options: ['The use of perfume on the skin',
+ 'The use of bleaching cream on the skin',
+ 'Avoiding contact with diseased person',
+ 'keeping the skin clean by washing it regularly',
  'Changing of clothes regularly'],
 answer: 3
 },
 {
-question: 'Which ofthe following has a different physical state from the others underordinaryconditions?',
+question: 'Which of the following has a different physical state from the others under ordinary conditions?',
 options: ['Zinc ',
  'Lead ',
  'Iron',
@@ -354,7 +354,7 @@ options: ['conduction ',
 answer: 2
 },
 {
-question: 'During an eclipse of themoon, the',
+question: 'During an eclipse of the moon, the',
 options: ['Sun and the moon are on one side of the earth',
  'Earth and the sun are on one side of the moon',
  'Sun comes between earth and moon in a straight line ',

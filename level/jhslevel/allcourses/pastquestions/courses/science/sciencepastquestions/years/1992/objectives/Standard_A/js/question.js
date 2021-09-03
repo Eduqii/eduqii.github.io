@@ -219,12 +219,12 @@ options: ['gives rise to roots and leaves',
 answer: 0
 },
 {
-question: 'Which of the following methods is not away of preventing malaria parasites from person to person?',
+question: 'Which of the following methods is not a way of preventing malaria parasites from person to person?',
 options: ['Sleeping in mosquito nets',
  'Sleeping outside in the open',
  'Draining all stagnant pools of water around our homes',
  'Taking anti-malaria drugs weekly',
- 'Burying all emptycans that hold water in our surroundings'],
+ 'Burying all empty cans that hold water in our surroundings'],
 answer: 1
 },
 {
@@ -246,7 +246,7 @@ options: ['The rate of evaporation is very high during a dry day',
 answer: 0
 },
 {
-question: 'Urinating in rivers is a common manner of spreadingdiseases such as',
+question: 'Urinating in rivers is a common manner of spreading diseases such as',
 options: ['cholera',
  'bilharzia',
  'malaria',
@@ -255,8 +255,9 @@ options: ['cholera',
 answer: 1
 },
 {
-question: 'Which of the following is not away of preventing soil erosion?',
-options: ['Planting trees on bare soil.',  'Clearing trees along slopes',
+question: 'Which of the following is not a way of preventing soil erosion?',
+options: ['Planting trees on bare soil.',  
+'Clearing trees along slopes',
  'Planting grasses along slopes',
  'Ploughing across slopes',
  'Preventing bush fire'],
@@ -308,7 +309,7 @@ options: ['Electrostatic force',
 answer: 2
 },
 {
-question: ' Which of the following diseases will result from eating improperlycooked meat?',
+question: ' Which of the following diseases will result from eating improperly cooked meat?',
 options: ['Tapeworm infestation',
  'Guinea worm infestation',
  'Small pox',
@@ -317,12 +318,12 @@ options: ['Tapeworm infestation',
 answer: 0
 },
 {
-question: 'The angle between a ray of light and the surface it strikes is 30°. Calculate the angle of incidence.',
-options: ['210° ',
- '120° ',
- '90° ',
- '60° ',
- '30°'],
+question: 'The angle between a ray of light and the surface it strikes is 30&deg;. Calculate the angle of incidence.',
+options: ['210&deg; ',
+ '120&deg; ',
+ '90&deg; ',
+ '60&deg; ',
+ '30&deg;'],
 answer: 3
 },
 {
@@ -353,7 +354,7 @@ options: ['Partial eclipse',
 answer: 4
 },
 {
-question: 'Which of the following is evidence that particles in gases move faster than those in liquids and solids?' + '<br />' + 
+question: 'Which of the following is evidence that particles in gases move faster than those in liquids and solids?' + '<br />' + '<br />' +
 'I. The scent of a perfume fills a room when its container is opened ' + '<br />' +
 'II. Smoke spreads over a large area as burning takes place' + '<br />' + 
 'III. The wind blows fast when it is about to rain',

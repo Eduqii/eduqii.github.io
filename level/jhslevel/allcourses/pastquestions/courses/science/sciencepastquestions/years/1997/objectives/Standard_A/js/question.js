@@ -12,7 +12,7 @@ options: ['duodenum',
 answer: 3
 },
 {
-question: 'Which of the following is parasite?',
+question: 'Which of the following is a parasite?',
 options: ['Fruitfly ',
 'Housefly ',
  'Mosquito ',
@@ -30,7 +30,7 @@ options: ['acid solution',
 answer: 3
 },
 {
-question: 'The planet earth is located in agalaxyknownas',
+question: 'The planet earth is located in a galaxy known as',
 options: ['constellation',
 'meteorites ',
  'milkyway ',
@@ -49,15 +49,15 @@ answer: 1
 },
 {
 question: 'A chemical that can be used to test for the presence of protein in food substances is',
-options: ['Benedict’s solution ',
-'Fehling’s solution ',
+options: ['Benedict\u2019s solution ',
+'Fehling\u2019s solution ',
  'Eosin solution',
  'Iodine solution',
- 'Million’s reagent'],
+ 'Million\u2019s reagent'],
 answer: 4
 },
 {
-question: 'According to the principle of conservation of energy, ‘energy can',
+question: 'According to the principle of conservation of energy, \u2018energy can',
 options: ['be created and destroyed',
 'be created but not destroyed ',
  'be destroyed but not created ',
@@ -75,7 +75,7 @@ options: ['replace poisoned tissues',
 answer: 3
 },
 {
-question: 'Which of the following planets may be seen as a bright star in early mornings orevenings?',
+question: 'Which of the following planets may be seen as a bright star in early mornings or evenings?',
 options: ['Jupiter ',
 'Mars ',
  'Saturn',
@@ -85,15 +85,15 @@ answer: 4
 },
 {
 question: 'Which of the following gives the correct order by which blood circulates continuously through the circulatory system?',
-options: ['Heart → veins → organs→ arteries → heart ',
-'Heart → arteries → organs → veins → heart ',
- 'Heart → arteries → veins → organs → heart',
- 'Heart →organs → arteries → veins → heart',
- 'Heart → veins → arteries → organs → heart'],
+options: ['Heart \u2192 veins \u2192 organs \u2192 arteries \u2192 heart ',
+'Heart \u2192 arteries \u2192 organs \u2192 veins \u2192 heart ',
+ 'Heart \u2192 arteries \u2192 veins \u2192 organs \u2192 heart',
+ 'Heart \u2192 organs \u2192 arteries \u2192 veins \u2192 heart',
+ 'Heart \u2192 veins \u2192 arteries \u2192 organs \u2192 heart'],
 answer: 1
 },
 {
-question: 'The weight of an object isthe',
+question: 'The weight of an object is the',
 options: ['force with which the sun pulls it',
 'force with which the moon pulls it',
  'force of the object when gravity is not acting on it',
@@ -102,7 +102,7 @@ options: ['force with which the sun pulls it',
 answer: 3
 },
 {
-question: 'The process of fusion ofsperm and ovum is known as',
+question: 'The process of fusion of sperm and ovum is known as',
 options: ['fertilization ',
 'menstruation ',
  'pollination',
@@ -120,7 +120,7 @@ options: ['0.01 J ',
 answer: 4
 },
 {
-question: 'Which of the following form part of the alimentary canal?\n' +
+question: 'Which of the following form part of the alimentary canal?' + '<br />' +
 'I. Colon II. Gullet III. Liver IV. Pancreas',
 options: ['I and II only ',
 'I and IV only ',
@@ -130,8 +130,8 @@ options: ['I and II only ',
 answer: 0
 },
 {
-question: 'An exampleof asimple lever whoseeffort is at its centreis',
-options: ['abottle opener',
+question: 'An example of a simple lever whose effort is at its centre is',
+options: ['a bottle opener',
 'a pair of scissors ',
  'a pair of forceps ',
  'the beam balance',
@@ -194,7 +194,7 @@ answer: 3
 },
 {
 question: 'The darkest part of a shadow formed during an eclipse is called',
-options: ['annulareclipse',
+options: ['annular eclipse',
 'lunar eclipse',
  'penumbra',
  'solar eclipse',
@@ -202,7 +202,7 @@ options: ['annulareclipse',
 answer: 4
 },
 {
-question: 'Which of the following particles can be found inthe nucleus of anatom?',
+question: 'Which of the following particles can be found in the nucleus of an atom?',
 options: ['Electrons and protons',
 'Electrons and shells',
  'Neutrons and electrons ',
@@ -211,7 +211,7 @@ options: ['Electrons and protons',
 answer: 3
 },
 {
-question: 'Which of the following substances isusedto purifywaterfortown supply?',
+question: 'Which of the following substances is used to purify water for town supply?',
 options: ['Alcohol',
 'Carbondioxide',
  'Chlorine ',
@@ -229,7 +229,7 @@ options: ['bush fire',
 answer: 4
 },
 {
-question: 'The volume of water in a container rises when a piece of stone is put into the container. The changein the volumeof wateris equalto the',
+question: 'The volume of water in a container rises when a piece of stone is put into the container. The change in the volume of water is equal to the',
 options: ['mass of the container',
 'mass of the stone',
  'densityof the stone ',
@@ -238,7 +238,7 @@ options: ['mass of the container',
 answer: 4
 },
 {
-question: 'Which of the following carrydeoxygenated blood in thebody?',
+question: 'Which of the following carry deoxygenated blood in the body?',
 options: ['Arteries',
 'Red blood cells',
  'Valves',
@@ -247,7 +247,7 @@ options: ['Arteries',
 answer: 3
 },
 {
-question: 'Which of the following forces will cause an object to move in a circularpath?',
+question: 'Which of the following forces will cause an object to move in a circular path?',
 options: ['Centripetal force',
 'Gravitational force',
  'Inertial force ',
@@ -283,7 +283,7 @@ options: ['absorb water',
 answer: 3
 },
 {
-question: 'The food weeat undergoes slow oxidation in ourbodies to produceheat.In this process',
+question: 'The food we eat undergoes slow oxidation in our bodies to produce heat. In this process',
 options: ['chemical energy is converted to heat energy ',
 'electrical energy is converted to heat energy ',
  'kinetic energy is converted to heat energy',
@@ -292,7 +292,7 @@ options: ['chemical energy is converted to heat energy ',
 answer: 0
 },
 {
-question: 'Which ofthe following planets is nearest to theearth?',
+question: 'Which of the following planets is nearest to the earth?',
 options: ['Jupiter ',
 'Mercury ',
  'Pluto',
@@ -301,16 +301,16 @@ options: ['Jupiter ',
 answer: 4
 },
 {
-question: 'Which ofthe following organs help to improvesoilfertility?',
+question: 'Which of the following organs help to improve soil fertility?',
 options: ['Earthworms',
-'Guineaworms',
- 'Hookworms ',
+'Guinea worms',
+ 'Hook worms ',
  'Roundworms ',
  'Thread worms'],
 answer: 0
 },
 {
-question: 'A stone released from acatapult was able to kill a bird because',
+question: 'A stone released from a catapult was able to kill a bird because',
 options: ['the stone had a lot of energy',
 'the stone was sharp',
  'there was tension in thestone',
@@ -355,7 +355,7 @@ options: ['bulb',
 answer: 1
 },
 {
-question: 'Thelargest component of sweat is',
+question: 'The largest component of sweat is',
 options: ['glucose',
 'oil ',
  'salt ',

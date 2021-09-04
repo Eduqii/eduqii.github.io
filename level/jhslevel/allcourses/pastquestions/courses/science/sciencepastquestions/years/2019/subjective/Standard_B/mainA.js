@@ -1,11 +1,11 @@
 
 function check(){
+	document.getElementById("textarea").disabled = true;
 	confirmAction = confirm("Are you sure you are through with your work");
 	if(!confirmAction){
 		alert("Nice! Always remember to go over your work before you submit");
 	}
 	else{
-		document.getElementById("textarea").disabled = true;
 		results();
 	}
 }

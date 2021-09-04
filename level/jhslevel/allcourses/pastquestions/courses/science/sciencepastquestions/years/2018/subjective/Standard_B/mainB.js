@@ -225,5 +225,5 @@ var interval = setInterval(function(){
 	results();
   }
 
-}, 1000);
+}, 60000);
 	

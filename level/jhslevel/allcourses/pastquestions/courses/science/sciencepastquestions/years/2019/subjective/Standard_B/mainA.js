@@ -5,6 +5,7 @@ function check(){
 		alert("Nice! Always remember to go over your work before you submit");
 	}
 	else{
+		document.getElementById("textarea").disabled = true;
 		results();
 	}
 }
@@ -59,10 +60,10 @@ function results(){
 
 	if (question1 == 'An experiment to determine the conditions necessary for rust.') {
 		correct++;
-}
+  }
 	if (question2 == 'To remove oxygen' ) {
 		correct++;
-}	
+	}	
 	if (question3 == 'To prevent air from from entering the water / To seal out air' || question3 == 'To seal out air' || question3 == 'To prevent air from from entering the water') {
 		correct++;
 }
@@ -78,7 +79,7 @@ function results(){
 if(question7 == 'To Seal out air or to prevent air from getting into contact with the metal.'){
 		correct++;
 }
-if(question8 == 'To demonstrate that sunglig is necessary for photosynthesis'){
+if(question8 == 'To demonstrate that sunglight is necessary for photosynthesis'){
 		correct++;
 }
 if(question9 == '(a)I – To kill living cells\n(b)II – To remove chlorophyll\n(c) III – To soften the leaf and wash off alcohol'){
@@ -180,7 +181,7 @@ if(question40 == 'Vitamin A'){
 if(question41 == 'Tomatoes / Egg / Liver / Green leafy vegetables / cod Liver oil / Carrot' || question41 == 'Tomatoes, Egg, Liver'){
 		correct++;
 }
-if(question42 == 'Force is a push or pull.'){
+if(question42 == 'Force is a push or pull.' || question42 == 'Force is a pull or push.'){
 		correct++;
 }
 if(question43 == 'This is due to the lack of friction between the car types and the road which is caused by the presence of water on the road surface.'){
@@ -203,7 +204,6 @@ if(question43 == 'This is due to the lack of friction between the car types and 
 	if (correct == 43) {
 		score = 0;
 	}
-
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("after_results").style.visibility = "visible";
 	document.getElementById("button").style.visibility = "hidden";

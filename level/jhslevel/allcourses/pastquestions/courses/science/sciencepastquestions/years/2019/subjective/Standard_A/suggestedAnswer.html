@@ -89,12 +89,12 @@
                 (iv) The temperature at A would be the highest, followed by B and then C.<br /><br />
                 (v) Heat is transmitted by the sun to the earth by radiation.
 
-                <div> 
+                <!-- <div> 
     <h3> Select Voices </h3> 
     <select id="suggestedVoices1"> 
       <option> option 1 </option> 
     </select> 
-  </div> 
+  </div>  -->
    
   <textarea rows="9" cols="60" name="description" id="suggestedline1" placeholder="Enter text here..." style="display: none;">
 a.(i) An experiment to determine the conditions necessary for rust.
@@ -129,10 +129,10 @@ a.(i) An experiment to determine the conditions necessary for rust.
                 (v) Heat is transmitted by the sun to the earth by radiation.
     </textarea><br> 
    
-  <button class="buttons" style="background: green;" id="suggestedRead1"> Listen </button> 
+  <!-- <button class="buttons" style="background: green;" id="suggestedRead1"> Listen </button> 
   <button class="buttons" style="background: orange" id="suggestedPause1"> Pause </button> 
   <button class="buttons" style="background: lightgreen" id="suggestedResume1"> Resume </button> 
-  <button class="buttons" style="background: red" id="suggestedCancel1"> Cancel </button> 
+  <button class="buttons" style="background: red" id="suggestedCancel1"> Cancel </button>  -->
               </div>
             </div>
           </div>
@@ -279,7 +279,8 @@ function loadAnswer() {
   xhttp.open("GET", "selectionA.html#top");
   xhttp.send();
 }
-
+</script>
+<script>
  // suggestedReader
 // First we initialize new SpeechSynthesisUtterance object 
 let tts2 = new SpeechSynthesisUtterance(); 

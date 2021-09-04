@@ -113,7 +113,7 @@ answer: 1,
 
  
 
-question: 'hich of the following chemical equations is balanced?',
+question: 'Which of the following chemical equations is balanced?',
 choice1: 'N' + '<sub>' +'2' + '</sub>' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
 choice2: 'N' + '<sub>' + '2' + '</sub>' + '3H' + '<sub>' +'2' + '</sub>' + ' \u2192 ' + 'NH' + '<sub>' + '3' + '</sub>', 
 choice3: 'N' + '<sub>' + '2' + '</sub>' + '3' + 'H' + '<sub>' + '2' + '</sub>' + ' \u2192 ' + '2NH' + '<sub>' + '3' + '</sub>', 
@@ -223,7 +223,7 @@ question: 'Which of the following chemical compounds is used in removing hardnes
 
 choice1: 'NaCl',
 choice2: 'NaOH',
-choice3: 'Na<sub>2</sub>CO<sup>3</sup> ',
+choice3: 'Na' + '<sub>2</sub>CO<sup>3</sup> ',
 choice4: 'NaHCO<sup>3</sup>',
 answer: 3,
 },
@@ -515,7 +515,7 @@ var interval = setInterval(function(){
     document.getElementById('time_remaining').innerHTML='Time out';
 	localStorage.setItem('mostRecentScore', score)
 
-		return window.location.assign('quiz_challege.html') 
+		return window.location.assign('quiz_challenge.html') 
   }
 }, 60000);
 //end of function for timer
@@ -527,7 +527,7 @@ getNewQuestion = () => {
 	if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
 		localStorage.setItem('mostRecentScore', score)
 
-		return window.location.assign('quiz_challege.html') 
+		return window.location.assign('quiz_challenge.html') 
 	}
 
 	questionCounter++

@@ -44,9 +44,14 @@ choice4: '80 cm',
 answer: 2,
 },
 {
-question: 'In which of the following circuit diagrams below will the bulb light?'
-//answer 2
-
+question: 'In which of the following circuit diagrams below will the bulb light?',
+choice1: 'A',
+choice2: 'B',
+choice3: 'C',
+choice4: 'D',
+answer: 2,
+},
+{
 question: 'The source of all forms of energy can be traced to',
 choice1: 'clouds',
 choice2: 'earth quakes',
@@ -71,7 +76,7 @@ choice4: 'machine',
 answer: 1,
 },
 {
-question: 'A force of 2Nmovesabodythroughadistanceof10 m. Calculate the work done.',
+question: 'A force of 2N moves a body through a distance of 10 m. Calculate the work done.',
 choice1: '5 J ',
 choice2: '8 J ',
 choice3: '12 J ',
@@ -79,11 +84,8 @@ choice4: '20 J',
 answer: 4,
 },
 {
-The diagram below shows a lever system used to move a stone. Use it to answer Questions 10 and 11
 
-a2
-
-question: 'The distance X is the ',
+question: 'The diagram below shows a lever system used to move a stone. Use it to answer this question\nThe distance X is the ',
 choice1: 'effort distance ',
 choice2: 'load distance ',
 choice3: 'fulcrum',
@@ -91,7 +93,7 @@ choice4: 'lever arm',
 answer: 2,
 },
 {
-question: 'Less effort is required to move the stone when the',
+question: 'The diagram below shows a lever system used to move a stone. Use it to answer this question\nLess effort is required to move the stone when the',
 choice1: 'distance Y is equal to X',
 choice2: 'distance Y is greater than X ',
 choice3: 'distance Y is less than X',
@@ -147,8 +149,7 @@ choice4: 'liver',
 answer: 4,
 },
 {
-18. Which of the following life processes is represented by the equation below?
-question: 'Oxygen→ Water +Carbon dioxide + Energy',
+question: 'Which of the following life processes is represented by the equation below?\nOxygen → Water + Carbon dioxide + Energy',
 choice1: 'Digestion',
 choice2: 'Excretion',
 choice3: 'Photosynthesis',
@@ -164,11 +165,11 @@ choice4: 'give taste to the water',
 answer: 1,
 },
 {
-question: 'Arrange the following sources of water in the order of increasing contamination'
-I. Rain
-II. Stream
-III. Well
-IV. Borehole
+question: 'Arrange the following sources of water in the order of increasing contamination\n' +
+'I. Rain\n' +
+'II. Stream\n' +
+'III. Well\n' +
+'IV. Borehole',
 choice1: 'I,II,IV,III ',
 choice2: 'II,III,I,IV ',
 choice3: 'I,IV,III,II ',
@@ -200,7 +201,7 @@ choice4: 'dissolves most substances',
 answer: 4,
 },
 {
-question: 'The charge of sulphur in the compound SO2is',
+question: 'The charge of sulphur in the compound SO2 is',
 choice1: '-2',
 choice2: '+2',
 choice3: '-4',
@@ -216,7 +217,7 @@ choice4: 'is closer to the roots',
 answer: 3,
 },
 {
-question: 'Plants do not grow wellin gravel because the',
+question: 'Plants do not grow well in gravel because the',
 choice1: 'air spaces are too big to hold water ',
 choice2: 'air spaces are too small for the roots ',
 choice3: 'particles cannot absorb air',
@@ -320,7 +321,7 @@ choice4: 'pressure of the earth’s atmosphere on the person',
 answer: 1,
 },
 {
-question: 'A metal displaces 5.0 cm3ofwaterwhencompletelyimmersed in water.If the mass of the metal is 35.0 g, calculate its density.',
+question: 'A metal displaces 5.0 cm3 of water when completely immersed in water. If the mass of the metal is 35.0 g, calculate its density.',
 choice1: '7.0 gcm-3',
 choice2: '30. 0 gcm-3',
 choice3: '40.0 gcm-3',

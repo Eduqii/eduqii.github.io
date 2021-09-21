@@ -57,16 +57,6 @@ const quiz = [
 
 	{
 		question: 'Most aspects of Ghanaian culture are displayed during',
-		options: ['lo',
-		 'so',
-		 'go',
-		 'mo',
-		 'he'],
-		answer: 1
-	},
-
-	{
-		question: 'What percent of American adults believe that chocolate milk comes from brown cows?',
 		options: ['funeral rites',
 		 ' naming ceremonies',
 		 ' puberty rites',

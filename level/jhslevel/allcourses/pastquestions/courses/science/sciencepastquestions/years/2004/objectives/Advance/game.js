@@ -52,11 +52,7 @@ choice4: 'Microphone',
 answer: 1,
 },
 {
-Use the diagrams below to answer Questions6 and7
-
-a1
-
-question: 'Which of the following statements is correct about the circuit diagrams above? The cells in diagram',
+question: 'Use the diagrams below to answer this question.\nWhich of the following statements is correct about the circuit diagrams above? The cells in diagram',
 choice1: 'X are in series and the key is open ',
 choice2: 'X are in parallel and the key is open ',
 choice3: 'Y are in series and the key is closed ',
@@ -64,7 +60,7 @@ choice4: 'Y are in parallel and the key is closed',
 answer: 1,
 },
 {
-question: 'The total emf of the cells in diagram Y is',
+question: 'Use the diagrams below to answer this question.\nThe total emf of the cells in diagram Y is',
 choice1: '4.50 V ',
 choice2: '3.00 V ',
 choice3: '1.50 V ',

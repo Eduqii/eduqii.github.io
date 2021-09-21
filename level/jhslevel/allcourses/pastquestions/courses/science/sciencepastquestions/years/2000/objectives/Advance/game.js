@@ -274,7 +274,7 @@ choice5: 'tuberculosis',
 answer: 1,
 },
 {
-30. Which of the following conditions will cause the same quantity of sugar to dissolve faster in a given volume of question: '
+question: 'Which of the following conditions will cause the same quantity of sugar to dissolve faster in a given volume of solution',
 choice1: 'Stirring the solution ',
 choice2: 'Grinding the sugar',
 choice3: 'Heating the solution',
@@ -421,20 +421,7 @@ choices.forEach(choice => {
 		acceptingAnswers = false
 	    const selectedChoice = e.target
 	    const selectedAnswer = selectedChoice.dataset['number']
-	     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
-	     // if (selectedAnswer === currentQuestion.answer){
-	     //	 classToApply = parentElement.classList.add('correct')
-	    //}else {
-	    //	classToApply = parentElement.classList.add('correct')
-	    //}
-	    if(classToApply === 'incorrect'){
-	    	const choice = choices.parentElement.length;
-	    	for (let i = 0; i < choice;  i++) {
-	    		if (selectedAnswer != currentQuestion.answer) {
-	    			choices.parentElement.classList.add('correct');
-	    		}
-	   		}
-	    }
+	     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 	    if (classToApply === 'correct') {
 	    	incrementScore(SCORE_POINTS)
 	    }
@@ -445,7 +432,7 @@ choices.forEach(choice => {
 	    	selectedChoice.parentElement.classList.remove(classToApply)
 	    	getNewQuestion()
 
-	    }, 3000)
+	    }, 1000)
 	    })
 	})
 

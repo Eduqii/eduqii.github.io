@@ -173,7 +173,7 @@ const quiz = [
 	{
 		question: 'Make P the subject of the relation,R = <sup>P + Q </sup>&frasl;<sub>2</sub>',
 		options: [' P = Q - 2R',
-		 ' P = 2R – Q',
+		 ' P = 2R - Q',
 		 ' P = 2R + Q',
 		 'P = 2Q + R'],
 		answer: 1
@@ -208,7 +208,7 @@ const quiz = [
 
 
 		{
-		question: 'Solve the inequality 2x + 10\u2265 <sup>7</sup>&frasl;<sub>2</sub>x - 5</sub>',
+		question: 'Solve the inequality 2x + 10 \u2265 <sup>7</sup>&frasl;<sub>2</sub>x - 5</sub>',
 		options: ['x \u2265 10',
 		 ' x \u2264 10',
 		 'x \u2264 40',
@@ -217,7 +217,7 @@ const quiz = [
 	},
 
 	{
-		question: 'Find the image of 5, under the mapping x\u21924x - 7',
+		question: 'Find the image of 5, under the mapping x \u2192 4x - 7',
 		options: ['3',
 		 '13',
 		 '20',
@@ -280,7 +280,7 @@ const quiz = [
 	},
 
 	{
-		question: 'The figure QPR is an equilateral triangle. If angle PRS = (2x ' + '&minus;' + ' 10\xB0), find the value of x.',
+		question: 'The figure QPR is an equilateral triangle. ' + '<br/>' + 'If angle PRS = (2x ' + '&minus;' + ' 10\xB0), find the value of x.',
 		options: ['55\xB0',
 		 '65\xB0',
 		 ' 85\xB0',

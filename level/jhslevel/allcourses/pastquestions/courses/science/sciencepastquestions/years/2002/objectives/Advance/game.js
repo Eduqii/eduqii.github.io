@@ -53,7 +53,7 @@ choice4: 'weight',
 answer: 1,
 },
 {
-question: 'When the brakes of a bicycle in motion are applied for a long time the wheels become hot. This is because of a question: 'f energy from',
+question: 'When the brakes of a bicycle in motion are applied for a long time the wheels become hot. This is because of a change of energy from',
 choice1: 'kinetic energy to potential energy ',
 choice2: 'potential energy to kinetic energy ',
 choice3: 'potential energy to heat energy',
@@ -61,7 +61,7 @@ choice4: 'kinetic energy to heat energy',
 answer: 4,
 },
 {
-question: 'A man applied a forceof50 N to push a wheel barrow through adistanceof6 m. Calculate the work done.',
+question: 'A man applied a force of 50 N to push a wheel barrow through adistance of 6m. Calculate the work done.',
 choice1: '300 J ',
 choice2: '56 J ',
 choice3: '44 J ',
@@ -93,11 +93,7 @@ choice4: '10%',
 answer: 2,
 },
 {
-The figure below shows a simple electric circuit.Use it to answer questions 11 to 13
-
-a2
-
-question: 'The switch is represented by',
+question: 'The figure I below shows a simple electric circuit.\nThe switch is represented by',
 choice1: 'IV ',
 choice2: 'III ',
 choice3: 'II ',
@@ -105,7 +101,7 @@ choice4: 'I',
 answer: 3,
 },
 {
-question: 'The component labeled V is a/an',
+question: 'The figure I below shows a simple electric circuit.\nThe component labeled V is a/an',
 choice1: 'ammeter ',
 choice2: 'battery ',
 choice3: 'lamp',
@@ -113,7 +109,7 @@ choice4: 'voltmeter',
 answer: 3,
 },
 {
-question: 'The purpose of the component labeled IV is to',
+question: 'The figure I below shows a simple electric circuit.\nThe purpose of the component labeled IV is to',
 choice1: 'supply energy to the circuit',
 choice2: 'measure the voltage of the battery',
 choice3: 'prevent too much current from flowing',
@@ -137,11 +133,7 @@ choice4: 'waters nail',
 answer: 4,
 },
 {
-The figure below is a diagram of a fish. Use it answer questions 16 and 17
-
-a3
-
-question: 'The function of the part labeled IV is to enable the fish to',
+question: 'The figure II below is a diagram of a fish.\nThe function of the part labeled IV is to enable the fish to',
 choice1: 'sink in water',
 choice2: 'absorb oxygen from the water',
 choice3: 'protect itself from attack',
@@ -149,7 +141,7 @@ choice4: 'detect smell in water',
 answer: 2,
 },
 {
-question: 'The part labeled V is used for',
+question: 'The figure II below is a diagram of a fish.\nThe part labeled V is used for',
 choice1: 'balancing ',
 choice2: 'steering ',
 choice3: 'surfacing ',
@@ -175,9 +167,9 @@ answer: 4,
 {
 question: 'Which of the following characteristics are common to all living things?\n '+
 'I. Response to stimuli' +
-'II. Respiration' +
-'III. Movement from place to place' +
-'IV. Growth',
+' II. Respiration' +
+' III. Movement from place to place' +
+' IV. Growth',
 choice1: 'I and II only',
 choice2: 'I and III only',
 choice3: 'I,II and III only',

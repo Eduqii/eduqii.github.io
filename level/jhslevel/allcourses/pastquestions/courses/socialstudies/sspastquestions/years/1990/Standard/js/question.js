@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
  	{
-		question: 'he colour used on maps for vegetation is?',
+		question: 'The colour used on maps for vegetation is?',
 		options: ['brown',
 		 ' green',
 		 ' yellow',

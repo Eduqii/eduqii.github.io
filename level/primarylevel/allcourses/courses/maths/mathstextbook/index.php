@@ -46,7 +46,8 @@
       <img src="assets/brand/maths-logo.jpg" width="38" height="30" class="me-3" alt="Bootstrap">
       MATHEMATICS 
     </h1>
-    <a href="../mathspastquestions/years/index.php" class="ms-auto link-light" hreflang="ar">Past Questions</a>
+    <!-- <a href="../mathspastquestions/years/index.php" class="ms-auto link-light" hreflang="ar">Past Questions</a> -->
+    <a href="../bits/mathAdditionGame/index.html" class="ms-auto link-light" hreflang="ar">Math Bits</a>
   </div>
 </header>
 <aside class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2">

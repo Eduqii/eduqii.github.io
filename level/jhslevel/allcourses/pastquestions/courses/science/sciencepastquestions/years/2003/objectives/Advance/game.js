@@ -172,11 +172,7 @@ choice4: 'Manure',
 answer: 3,
 },
 {
-Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle.
-Use it to answer Questions21 and 22
-a1
-
-question: 'Which of the labeled layers contains organic matter?',
+question: 'Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle.\nWhich of the labeled layers contains organic matter?',
 choice1: 'M ',
 choice2: 'N ',
 choice3: 'O ',
@@ -184,7 +180,7 @@ choice4: 'P',
 answer: 1,
 },
 {
-question: 'The layer which does not have the ability to retain much water is',
+question: 'Fig. 1 shows the arrangement of parts of the soil when some soil sample was shaken with water in a glass cylinder and allowed to settle.\nThe layer which does not have the ability to retain much water is',
 choice1: 'N ',
 choice2: 'O ',
 choice3: 'P ',
@@ -249,10 +245,10 @@ choice4: 'fatty acids and amino acids',
 answer: 3,
 },
 {
-question: 'Which of the following factors promote plant germination?\n'
-'I. Adequate temperature'
-'II. Moisture' +
-'III. Good soil',
+question: 'Which of the following factors promote plant germination?\n' +
+'I. Adequate temperature' + 
+' II. Moisture' +
+' III. Good soil',
 choice1: 'I and II only ',
 choice2: 'I and III only ',
 choice3: 'II and III only ',

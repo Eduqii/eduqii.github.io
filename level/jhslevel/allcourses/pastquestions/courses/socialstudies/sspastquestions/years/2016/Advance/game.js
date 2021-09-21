@@ -68,23 +68,12 @@ let questions = [
 
 	{
 		question: 'Most aspects of Ghanaian culture are displayed during',
-		choice1: 'lo',
-		choice2: 'so',
-		choice3: 'go',
-		choice4: 'mo',
-		choice5: 'he',
-		answer: 2,
-	},
-
-	{
-		question: 'What percent of American adults believe that chocolate milk comes from brown cows?',
 		choice1: 'funeral rites',
 		choice2: ' naming ceremonies',
 		choice3: ' puberty rites',
 		choice4: 'traditional festivals',
-		answer: 4,
+		answer: 3,
 	},
-
 	{
 		question: ' Which of the following is used to represent landmarks on maps?',
 		choice1: 'Conventional signs',

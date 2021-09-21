@@ -79,7 +79,7 @@ options: ['375 litres',
 answer: 3
 },
 { 
-question: 'Simplify 36a<sup>3</sup>b<sup>2</sup>x&frasl;<sub>27ab<sup>3</sup>y</sub>',
+question: 'Simplify 36a<sup>3</sup>b<sup>2</sup>x &frasl; <sub>27ab<sup>3</sup>y</sub>',
 
 options: ['<sup>4a<sup>2</sup>x</sup>&frasl;<sub>3by</sub>',
  '<sup>4abx</sup>&frasl;<sub>3y</sub>',
@@ -192,7 +192,7 @@ answer: 1,
 { 
 
 
-question: 'Factorize completely the expression 2xy-6y+7x-21',
+question: 'Factorize completely the expression 2xy - 6y + 7x - 21',
 
 options: ['(x-3)(2y+7)',
  '(x+3)(2y-7)',
@@ -344,8 +344,8 @@ answer: 3
 },
 { 
 question: 'The table below shows the distribution of workers in some trades' + '<br />' + 
-'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
-'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '</table>' + '<br />' +
+'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + '&nbsp;Trade&nbsp;' + '</td>' + '<td>' + '&nbsp;Shoe making&nbsp;' + '</td>' + '<td>' + '&nbsp;Mining&nbsp;' + '</td>' + '<td>' + '&nbsp;Road Transport&nbsp;' + '</td>' + '<td>' + '&nbsp;Agriculture&nbsp;' + '</td>' + '<td>' + '&nbsp;Manufacturing goods&nbsp;' + '</td>' + '</tr>' +
+'<tr>' + '<td>' + '&nbsp;&nbsp;Number of workers&nbsp;&nbsp;' + '</td>' + '<td>' + '&nbsp;300,000&nbsp;' + '</td>' + '<td>' + '&nbsp;25,000&nbsp;' + '</td>' + '<td>' + '&nbsp;160,000&nbsp;' + '</td>' + '<td>' + '&nbsp;225,000&nbsp;' + '</td>' + '<td>' + '&nbsp;165,000&nbsp;' + '</td>' + '</tr>' + '</table>' + '<br />' +
 'Which trade employed the most number of workers?',
 
 options: ['Agriculture',
@@ -356,8 +356,8 @@ answer: 2
 },
 { 
 question: 'The table below shows the distribution of workers in some trades' + '<br />' + 
-'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + 'Trade' + '</td>' + '<td>' + 'Shoe making' + '</td>' + '<td>' + 'Mining' + '</td>' + '<td>' + 'Road Transport' + '</td>' + '<td>' + 'Agriculture' + '</td>' + '<td>' + 'Manufacturing goods' + '</td>' + '</tr>' +
-'<tr>' + '<td>' + 'Number of workers' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '</table>' + '<br />' +
+'<table border="1" style="width: 100px; height: 100px; border-collapse: collapse;">' + '<tr>' + '<td>' + '&nbsp;Trade&nbsp;' + '</td>' + '<td>' + '&nbsp;Shoe making&nbsp;' + '</td>' + '<td>' + '&nbsp;Mining&nbsp;' + '</td>' + '<td>' + '&nbsp;Road Transport&nbsp;' + '</td>' + '<td>' + '&nbsp;Agriculture&nbsp;' + '</td>' + '<td>' + '&nbsp;Manufacturing goods&nbsp;' + '</td>' + '</tr>' +
+'<tr>' + '<td>' + '&nbsp;Number of workers&nbsp;' + '</td>' + '<td>' + '300,000' + '</td>' + '<td>' + '25,000' + '</td>' + '<td>' + '160,000' + '</td>' + '<td>' + '225,000' + '</td>' + '<td>' + '165,000' + '</td>' + '</tr>' + '</table>' + '<br />' +
 'How many people are employed under all the trades?',
 
 options: ['325,000',

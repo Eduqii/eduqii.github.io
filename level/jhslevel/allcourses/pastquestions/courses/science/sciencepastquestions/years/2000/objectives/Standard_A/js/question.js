@@ -265,7 +265,7 @@ options: ['AIDS ',
 answer: 0
 },
 {
-question: 'Which of the following conditions will cause the same quantity of sugar to dissolve faster in a given volume of question: ',
+question: 'Which of the following conditions will cause the same quantity of sugar to dissolve faster in a given volume of solution. ',
 options: ['Stirring the solution ',
  'Grinding the sugar',
  'Heating the solution',
@@ -283,7 +283,7 @@ options: ['carbon dioxide',
 answer: 0
 },
 {
-question: 'Which of the following heavenly bodies is at the centre of theplanetarysystem?',
+question: 'Which of the following heavenly bodies is at the centre of the planetary system?',
 options: ['Earth',
  'Mercury',
  'Pluto',

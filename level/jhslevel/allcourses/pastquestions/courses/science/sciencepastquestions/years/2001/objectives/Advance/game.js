@@ -93,13 +93,8 @@ choice5: 'Whooping cough',
 answer: 4,
 },
 {
-Use the figure below to answer Questions 10 and 11
 
-a1
-
-A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown
-
-question: 'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown\n Which of the parts labeled represents the pivot?',
+question: 'Use the figure below to answer this question\n A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown\n Which of the parts labeled represents the pivot?',
 choice1: 'P ',
 choice2: 'Q ',
 choice3: 'R ',
@@ -108,7 +103,7 @@ choice5: 'Y',
 answer: 2,
 },
 {
-question: 'A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown \n The effort is represented by',
+question: 'Use the figure below to answer this question\n A rigid bar is balanced horizontally at a point by placing a rock on the bar as shown \n The effort is represented by',
 choice1: 'P ',
 choice2: 'Q ',
 choice3: 'R ',
@@ -149,7 +144,7 @@ answer: 4,
 {
 question: ' Which of the following appliances transform(s) electrical energy to heat energy?\n' +
 'I. Swish oven' + 
-'II. Hair dryer'
+'II. Hair dryer' +
 'III. Refrigerator motor',
 choice1: 'I only',
 choice2: 'I and II only ',
@@ -187,9 +182,9 @@ answer: 3,
 },
 {
 question: 'Which of the following processes about all living things is/are true?' + 
-' I. Reproduction ' + '<br />' + 
-'II. Respiration ' + '<br />' + 
-'III. Locomotion' + '<br />' + 
+' I. Reproduction \n' + 
+'II. Respiration \n' + 
+'III. Locomotion\n' +  
 'IV. Excretion',
 choice1: 'I only',
 choice2: 'I and II only',
@@ -204,7 +199,7 @@ answer: 5,
 	choice2: 'expire',
 	choice3: 'store food',
 	choice4: 'reproduce',
-	choice5: 'propagate vegetatively'],
+	choice5: 'propagate vegetatively',
 	answer: 1,
 },
 {
@@ -293,9 +288,9 @@ choice5: 'Tick',
 answer: 2,
 },
 {
-question: 'Which of the following statements about machines is/are correct?\n'
-'I. Machines help us to do work more easily' +
-'II. A force applied at one point of the machine over comes a load at another point of the machine' +
+question: 'Which of the following statements about machines is/are correct?\n' +
+'I. Machines help us to do work more easily \n' +
+'II. A force applied at one point of the machine over comes a load at another point of the machine\n' +
 'III. All machines have engines',
 choice1: 'I only ',
 choice2: 'II only ',

@@ -95,7 +95,7 @@ answer: 5,
 {
 question: 'Which of the following types of soil is good for plant growth?',
 choice1: 'Clay',
-choice2: 'Coursesand',
+choice2: 'Course sand',
 choice3: 'Fine sand',
 choice4: 'Loam',
 choice5: 'Silt',
@@ -354,7 +354,7 @@ choice5: 'Typhoid',
 answer: 4,
 },
 {
-question: 'Gaseous exchangebetween airand blood in the lungs takes placein the',
+question: 'Gaseous exchange between air and blood in the lungs takes place in the',
 choice1: 'alveoli',
 choice2: 'bronchi',
 choice3: 'bronchioles',
@@ -416,20 +416,7 @@ choices.forEach(choice => {
 		acceptingAnswers = false
 	    const selectedChoice = e.target
 	    const selectedAnswer = selectedChoice.dataset['number']
-	     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
-	     // if (selectedAnswer === currentQuestion.answer){
-	     //	 classToApply = parentElement.classList.add('correct')
-	    //}else {
-	    //	classToApply = parentElement.classList.add('correct')
-	    //}
-	    if(classToApply === 'incorrect'){
-	    	const choice = choices.parentElement.length;
-	    	for (let i = 0; i < choice;  i++) {
-	    		if (selectedAnswer != currentQuestion.answer) {
-	    			choices.parentElement.classList.add('correct');
-	    		}
-	   		}
-	    }
+	     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 	    if (classToApply === 'correct') {
 	    	incrementScore(SCORE_POINTS)
 	    }
@@ -440,7 +427,7 @@ choices.forEach(choice => {
 	    	selectedChoice.parentElement.classList.remove(classToApply)
 	    	getNewQuestion()
 
-	    }, 3000)
+	    }, 1000)
 	    })
 	})
 

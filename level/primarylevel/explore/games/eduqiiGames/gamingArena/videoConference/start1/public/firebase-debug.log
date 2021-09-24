@@ -1,0 +1,130 @@
+[debug] [2021-09-24T13:13:04.786Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:13:04.808Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-09-24T13:13:04.811Z] CLI Version:   9.18.0
+[debug] [2021-09-24T13:13:04.811Z] Platform:      win32
+[debug] [2021-09-24T13:13:04.812Z] Node Version:  v16.5.0
+[debug] [2021-09-24T13:13:04.972Z] Time:          Fri Sep 24 2021 13:13:04 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-09-24T13:13:04.973Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T13:13:05.912Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T13:13:05.917Z] > authorizing via signed-in user (infospot502@gmail.com)
+[debug] [2021-09-24T13:13:05.918Z] [iam] checking project videoconference for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-24T13:13:05.988Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-24T13:13:05.991Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T13:13:08.185Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 24 Sep 2021 13:13:22 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:13:08.367Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/videoconference:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-24T13:13:11.705Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Sep 2021 13:13:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1201","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:13:11.709Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project videoconference:
+
+  cloudfunctions.functions.create
+  cloudfunctions.functions.delete
+  cloudfunctions.functions.get
+  cloudfunctions.functions.list
+  cloudfunctions.functions.update
+  cloudfunctions.operations.get
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-09-24T13:13:11.713Z] >>> HTTP REQUEST POST https://iam.googleapis.com/v1/projects/videoconference/serviceAccounts/videoconference@appspot.gserviceaccount.com:testIamPermissions  
+ {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2021-09-24T13:13:14.041Z] <<< HTTP RESPONSE 404 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 24 Sep 2021 13:13:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:13:14.042Z] <<< HTTP RESPONSE BODY {"error":{"code":404,"message":"Not found; Gaia id not found for email videoconference@appspot.gserviceaccount.com","status":"NOT_FOUND"}}
+[debug] [2021-09-24T13:13:14.100Z] [functions] service account IAM check errored, deploy may fail: HTTP Error: 404, Not found; Gaia id not found for email videoconference@appspot.gserviceaccount.com {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"Not found; Gaia id not found for email videoconference@appspot.gserviceaccount.com","status":"NOT_FOUND"}},"response":{"statusCode":404,"body":{"error":{"code":404,"message":"Not found; Gaia id not found for email videoconference@appspot.gserviceaccount.com","status":"NOT_FOUND"}},"headers":{"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 24 Sep 2021 13:13:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"},"request":{"uri":{"protocol":"https:","slashes":true,"auth":null,"host":"iam.googleapis.com","port":443,"hostname":"iam.googleapis.com","hash":null,"search":null,"query":null,"pathname":"/v1/projects/videoconference/serviceAccounts/videoconference@appspot.gserviceaccount.com:testIamPermissions","path":"/v1/projects/videoconference/serviceAccounts/videoconference@appspot.gserviceaccount.com:testIamPermissions","href":"https://iam.googleapis.com/v1/projects/videoconference/serviceAccounts/videoconference@appspot.gserviceaccount.com:testIamPermissions"},"method":"POST"}}},"exit":1,"message":"HTTP Error: 404, Not found; Gaia id not found for email videoconference@appspot.gserviceaccount.com","status":404}
+[debug] [2021-09-24T13:13:14.108Z] > refreshing access token with scopes: []
+[debug] [2021-09-24T13:13:14.110Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T13:13:14.874Z] <<< HTTP RESPONSE 200 {"date":"Fri, 24 Sep 2021 13:13:29 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:13:14.980Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/videoconference [none]
+[debug] [2021-09-24T13:13:16.248Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/videoconference 403
+[debug] [2021-09-24T13:13:16.249Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/videoconference {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-09-24T13:13:16.251Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-09-24T13:13:18.348Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:65:9)
+    at async C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project videoconference. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-09-24T13:32:23.464Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:32:23.661Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-09-24T13:32:23.663Z] CLI Version:   9.18.0
+[debug] [2021-09-24T13:32:23.663Z] Platform:      win32
+[debug] [2021-09-24T13:32:23.663Z] Node Version:  v16.5.0
+[debug] [2021-09-24T13:32:24.596Z] Time:          Fri Sep 24 2021 13:32:23 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-09-24T13:32:24.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T13:32:25.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T13:32:25.872Z] > authorizing via signed-in user (infospot502@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2021-09-24T13:32:26.684Z] [hub] writing locator at C:\Users\user\AppData\Local\Temp\hub-videoconference.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2021-09-24T13:32:29.192Z] Error: Cannot find module 'C:\xampp\htdocs\eduqii.github.io\level\primarylevel\explore\games\eduqiiGames\gamingArena\videoConference\start1\public\functions\package.json'
+Require stack:
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:927:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:772:27)
+    at Module.require (node:internal/modules/cjs/loader:999:19)
+    at require (node:internal/modules/cjs/helpers:93:18)
+    at FunctionsEmulator.askInstallNodeVersion (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:447:21)
+    at FunctionsEmulator.start (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:158:32)
+    at Function.start (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\registry.js:16:24)
+    at startEmulator (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:90:39)
+    at Object.startAll (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:273:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Command.actionFn (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\emulators-start.js:26:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2021-09-24T13:41:12.294Z] ----------------------------------------------------------------------
+[debug] [2021-09-24T13:41:12.302Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-09-24T13:41:12.304Z] CLI Version:   9.18.0
+[debug] [2021-09-24T13:41:12.304Z] Platform:      win32
+[debug] [2021-09-24T13:41:12.304Z] Node Version:  v16.5.0
+[debug] [2021-09-24T13:41:12.306Z] Time:          Fri Sep 24 2021 13:41:12 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-09-24T13:41:12.307Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-24T13:41:12.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-24T13:41:12.577Z] > authorizing via signed-in user (infospot502@gmail.com)
+[debug] [2021-09-24T13:41:12.578Z] [iam] checking project videoconference for permissions ["firebase.projects.get"]
+[debug] [2021-09-24T13:41:12.587Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-24T13:41:12.589Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T13:41:13.516Z] <<< HTTP RESPONSE 200 {"date":"Fri, 24 Sep 2021 13:41:27 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:41:13.652Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/videoconference:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-09-24T13:41:15.491Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 24 Sep 2021 13:41:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1133","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:41:15.493Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project videoconference:
+
+  firebase.projects.get
+[debug] [2021-09-24T13:41:15.497Z] > refreshing access token with scopes: []
+[debug] [2021-09-24T13:41:15.498Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-24T13:41:16.192Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Fri, 24 Sep 2021 13:41:30 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-24T13:41:16.415Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/videoconference [none]
+[debug] [2021-09-24T13:41:17.504Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/videoconference 403
+[debug] [2021-09-24T13:41:17.505Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/videoconference {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-09-24T13:41:17.507Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-09-24T13:41:18.553Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async needProjectNumber (C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\projectUtils.js:46:22)
+    at async C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project videoconference. Please make sure the project exists and your account has permission to access it.

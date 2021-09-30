@@ -11,3 +11,8 @@ mathbits = e => {
  wordpuzzle = e => {
        return window.open('wordpuzzle/','_blank')
  }
+
+  //Eduqii boy
+ eduqiiboy = e => {
+       return window.open('eduqii_boy/','_blank')
+ }

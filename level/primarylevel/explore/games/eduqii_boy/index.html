@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduqii-boy</title>
+    <link rel="shortcut icon" href="../../../../jhslevel/allcourses/pastquestions/images/favicon.ico">
+    <style>
+      #gameCanvas {
+        box-shadow: 10px 10px 20px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: lightgrey;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(17, 51, 161) 0%,
+          rgb(136, 34, 195) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Eduqii-boy</h1>
+      <canvas id="gameCanvas"></canvas><br/ ><br />
+      <span onclick="location.reload()" style="cursor: pointer; color: #fff;">Restart Game &#128260;</span>
+    </div>
+    <script src="src/Game.js" type="module"></script>
+  </body>
+</html>

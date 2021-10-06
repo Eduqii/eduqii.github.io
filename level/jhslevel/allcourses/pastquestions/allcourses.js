@@ -3,25 +3,25 @@
 
 // Mathematics
  openWindowMaths = e => {
-        return window.open('courses/maths/mathscalculator/index.html','_blank')
+        return window.location.assign('courses/maths/mathscalculator/index.html')
       }
  openWindowMathspastquestions = e => {
-        return window.open('courses/maths/mathspastquestions/years/index.html', '_blank')
+        return window.location.assign('courses/maths/mathspastquestions/years/index.html')
       }
 
 
    //Science
 openWindowSciencepastquestions = e => {
-        return window.open('courses/science/sciencepastquestions/years/index.html','_blank')
+        return window.location.assign('courses/science/sciencepastquestions/years/index.html')
       }
 openWindowScientificCalc = e => {
-        return window.location.assign('courses/science/scientificcalculator/index.html','_blank')
+        return window.location.assign('courses/science/scientificcalculator/index.html')
       }
 
 
 //Computing
 openWindowCompastquestions = e => {
-        return window.open('courses/computing/compastquestions/years/index.html','_blank')
+        return window.location.assign('courses/computing/compastquestions/years/index.html')
       }
 // openWindowIctpastquestions = e => {
    //     return window.location.assign('courses/maths/mathspastquestions/years/index.html')
@@ -30,7 +30,7 @@ openWindowCompastquestions = e => {
 
  // English Language
  openWindowEnglishpastquestions = e => {
-        return window.open('courses/english/englishpastquestions/years/index.html','_blank')
+        return window.location.assign('courses/english/englishpastquestions/years/index.html')
       }     
 
       // Creative Art and Design
@@ -38,17 +38,17 @@ openWindowCompastquestions = e => {
    alert("No written exam for this subject yet");
       }     
  openWindowEnglishpastquestions = e => {
-        return window.open('courses/english/englishpastquestions/years/index.html','_blank')
+        return window.location.assign('courses/english/englishpastquestions/years/index.html')
       } 
 
 //French
 openWindowFrenchpastquestions = e => {
-        return window.open('courses/french/frenchpastquestions/years/index.html','_blank')
+        return window.location.assign('courses/french/frenchpastquestions/years/index.html')
       }
 
       //Religious & Moral Education
 openWindowRmepastquestions = e => {
-        return window.open('courses/rme/rmepastquestions/years/index.html','_blank')  
+        return window.location.assign('courses/rme/rmepastquestions/years/index.html')  
       }
 
 //Physical and Health Education
@@ -68,7 +68,7 @@ openWindowOppastquestions = e => {
 
       //Social Studies
 openWindowsocialpastquestions = e => {
-        return window.open('courses/socialstudies/sspastquestions/years/index.html','_blank') 
+        return window.location.assign('courses/socialstudies/sspastquestions/years/index.html') 
       }
 
 // openWindowIctpastquestions = e => {

@@ -10,6 +10,9 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
+	<div class="loader">
+      <img src="load-gif.gif" alt="">
+    </div>
 <div class="container">
 	<div id="highscores" class="flex-center flex-column">
 		<h1 id="finalscore">Leaderboard</h1>
@@ -19,5 +22,6 @@
 </div>
 
 <script type="text/javascript" src="highscores.js"></script>
+<script src="pre.js" charset="utf-8"></script>
 </body>
 </html>

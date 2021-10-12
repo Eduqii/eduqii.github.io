@@ -14,7 +14,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n.' + ' One of the bulls………from the herd.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n.' + ' One of the bulls\u2026from the herd.',
   	choice1:'have been strayed',
 	choice2: 'has been strayed',
 	choice3: 'have strayed',
@@ -22,7 +22,7 @@ let questions = [
   	answer: 4,
   },
   {	
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I saw the dog………….out of the house.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I saw the dog\u2026.out of the house.',
 	choice1: 'run',
 	choice2:  'is running',
 	choice3:  'ran',
@@ -30,7 +30,7 @@ let questions = [
 	answer: 1,	
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Habib goes to school……train.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Habib goes to school\u2026\u2026train.',
   	choice1:'by',
 	choice2: 'on',
 	choice3: 'with',
@@ -38,7 +38,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n This phone is not mine; it is …..',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n This phone is not mine; it is \u2026..',
   	choice1: 'mine uncle’s',
 	choice2:  'my uncle’s',
 	choice3:  'my uncles',
@@ -46,7 +46,7 @@ let questions = [
   	answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Their sister wore a ….. dress to the party.',  	
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Their sister wore a \u2026.. dress to the party.',  	
   	choice1: 'silk blue beautiful',
 	choice2:  'beautiful blue silk',
 	choice3:  'blue beautiful silk',
@@ -54,7 +54,7 @@ let questions = [
   	answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I wish I ….. my friend next week.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I wish I \u2026.. my friend next week.',		
   	choice1:'can visit',
 	choice2:  'am visiting',
 	choice3:  'shall visit',
@@ -62,7 +62,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aba took ….. her mother in many ways.',	 
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aba took \u2026.. her mother in many ways.',	 
   	choice1: 'after',
 	choice2:   'up',
 	choice3:   'on',
@@ -70,7 +70,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n That girls is allergic ….. dust.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n That girls is allergic \u2026.. dust.',		
   	choice1: 'with',
 	choice2:   'to',
 	choice3:   'against',
@@ -78,7 +78,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My brother, with his children, ….. travelling to Salaga next week.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My brother, with his children, \u2026.. travelling to Salaga next week.',		
   	choice1:'is',
 	choice2:  'are',
 	choice3:  'was',
@@ -86,7 +86,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It is high time we …… for the meeting.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It is high time we \u2026\u2026 for the meeting.',		
   	choice1:'left',
 	choice2:  'leave',
 	choice3:  'have to leave',
@@ -94,7 +94,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The accused person refused to appear before the ….. panel.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The accused person refused to appear before the \u2026.. panel.',		
   	choice1:'five-man’s',
 	choice2:  'five-man',
 	choice3:  'five-men',
@@ -102,7 +102,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The stories her children told her made her ……',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The stories her children told her made her \u2026\u2026',
 		choice1:'to laugh',
 	choice2:  'laughing',
 	choice3:	  'laughed',
@@ -110,7 +110,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n They have not bought …… of the two prescribed books.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n They have not bought \u2026\u2026 of the two prescribed books.',		
   	choice1:'neither',
 	choice2:  'either',
 	choice3:  'none',
@@ -118,7 +118,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The boy found the assignment …… to do.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The boy found the assignment \u2026\u2026 to do.',
 		choice1:'much too difficult',
 	choice2:  'difficult too much',
 	choice3:	  'too much difficult',
@@ -126,7 +126,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The oxen lay on the bare floor, …..?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The oxen lay on the bare floor, \u2026..?',		
   	choice1:'didn’t they',
 	choice2:  'don’t they',
 	choice3:  'didn’t it',

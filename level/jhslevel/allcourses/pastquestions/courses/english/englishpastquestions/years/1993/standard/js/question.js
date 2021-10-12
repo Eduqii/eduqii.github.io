@@ -5,9 +5,9 @@ const quiz = [
 {
   question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
-'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'According to the passage, Garba taught Bako to ……..',
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'According to the passage, Garba taught Bako to \u2026..',
 options: ['use a matchet',
  'fell trees',
  'read and write',
@@ -18,8 +18,8 @@ answer: 2
 {
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
 'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'Bako got additional income by',
 options: ['cutting down trees',
  'going to the hospital',
@@ -31,9 +31,9 @@ answer: 3
 {
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
-'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'The people trusted Bako because he ………… ',
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'The people trusted Bako because he \u2026 ',
 options: ['kept what he knew about them secretly ',
  'wrote and read their letters',
  'gossiped and laughed with them',
@@ -44,8 +44,8 @@ answer: 0
 {
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
 'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'How did the accident affect Bako?',
 options: ['He lost his senses and job',
  'He could not read and write again',
@@ -57,9 +57,9 @@ answer: 2
 {
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
-'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'Bako liked Mondays because …………',
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
+'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'Bako liked Mondays because \u2026',
 options: ['Monday started the week',
  'He met all his friends again',
  'He received his pay',
@@ -70,8 +70,8 @@ answer: 4
 {
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br/>' + '<br />' +
 '<i>' + 'Bako was both intelligent and hardworking so he soon learnt all that Garba taught him of the art of reading and writing. Now he was able to earn a little extra income as a letter-writer and reader to his fellow illiterate labourers. All the people trusted him because he never revealed any information he got from the letters to anyone.' +
-'Bako‟s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
-'The accident changed Bako‟s life. His handsome face became permanently scarred. He lost his strength' +
+'Bako\u2019s happiest moments came on Saturdays when he received his pay and on Mondays when the labourers returned to work bringing with them all the gossip and laughter of their villages. Unfortunately, a misfortune befell Bako. One day, as he stood gazing proudly at a big tree, which he had just felled, another tree being cut down by a fellow labourer struck him on the head. The branches tore his face and he fell unconscious. His friends carried him to Adom Hospital.' +
+'The accident changed Bako\u2019s life. His handsome face became permanently scarred. He lost his strength' +
 'and job. At first, he hoped that in time he would regain his strength but Bako grew weaker and weaker.' + '</i>' + '<br />' + '<br />' + 'He fell unconscious means he',
 options: ['fell asleep',
  'became mad',
@@ -85,7 +85,7 @@ answer: 3
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
 '<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
 'once experienced, many problems may occur.' + '<br />' +
-'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'Almost all my friends and I are leading members of our school\u2019s Supporters Club. In the beginning of our' +
 'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
 'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
 'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
@@ -103,13 +103,13 @@ answer: 1
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
 '<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
 'once experienced, many problems may occur.' + '<br />' +
-'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'Almost all my friends and I are leading members of our school\u2019s Supporters Club. In the beginning of our' +
 'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
 'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
 'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
 'Many of my friends could not understand this. While some of them stopped coming to the games others were not talking to me at all.' +
 'I finally decided to have a talk with everyone. I frankly admitted that I did not like the job but since I had it, I was determined to do my best. I also told them to leave sports matters on the field because my friends were more important to me than the job. From that little talk, I had everything resolved.' + '</i>' + '<br />' + '<br />' +
-'Which of the following words best describes the behaviour of the writer‟s friends?',
+'Which of the following words best describes the behaviour of the writer\u2019s friends?',
 options: ['Uncooperative',
  'Jealous ',
  'Insulting ',
@@ -121,7 +121,7 @@ answer: 0
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
 '<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
 'once experienced, many problems may occur.' + '<br />' +
-'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'Almost all my friends and I are leading members of our school\u2019s Supporters Club. In the beginning of our' +
 'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
 'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
 'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
@@ -139,7 +139,7 @@ answer: 0
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + 'PASSAGE II' + '<br />' +
 '<i>' + 'We can have close friends for a very long time. But when friendship and duty come into conflict, as I' +
 'once experienced, many problems may occur.' + '<br />' +
-'Almost all my friends and I are leading members of our school‟s Supporters Club. In the beginning of our' +
+'Almost all my friends and I are leading members of our school\u2019s Supporters Club. In the beginning of our' +
 'final year it was time to elect new officers for the club. Everyone stood the chance of being elected.' +
 'When I was elected as President, I knew it would be a tough job because I would be in charge of my closest friends. The real test would come when the sports season started.' +
 'Just as I had imagined, there were many disputes. No one listened to what I said. Everyone just wanted to have fun instead of cheering our athletes. I knew I had to motivate them and use discipline and that was exactly what I did.' +
@@ -201,7 +201,7 @@ answer: 4
 },
 {
 
-question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + ' I don‟t like Ben. He is always ' + '<u>' + 'pulling my legs' + '</u>' + ' This means Ben is always ………',
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + ' I don\u2019t like Ben. He is always ' + '<u>' + 'pulling my legs' + '</u>' + ' This means Ben is always \u2026',
 options: ['pulling me down',
  'gossiping about me',
  'abusing me',
@@ -210,16 +210,16 @@ options: ['pulling me down',
 answer: 4
 },
 {
-question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'The judge ' + '<u>' + 'turned a deaf ear' + '</u>' + '  to what the murderer said' + 'This means the judge …………',
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'The judge ' + '<u>' + 'turned a deaf ear' + '</u>' + '  to what the murderer said' + 'This means the judge \u2026',
 options: ['was partially deaf',
  'ignored what the murderer said',
  'favoured the murderer when he heard his story',
- 'pretended that he was listening to the murderer‟s story',
+ 'pretended that he was listening to the murderer\u2019s story',
  'was asleep when the murderer gave his evidence'],
 answer: 1
 },
 {
-question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'If you don‟t want to regret, ' + '<u>' + 'cut your coat according to your cloth' + '</u>' + ' This means ………',
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'If you don\u2019t want to regret, ' + '<u>' + 'cut your coat according to your cloth' + '</u>' + ' This means \u2026',
 options: ['live within your means',
  'use the coat cut from your cloth',
  'sew your own coat',
@@ -228,8 +228,8 @@ options: ['live within your means',
 answer: 0
 },
 {
-question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + '<u>' + 'Were it not for the policemen the workers would have gone on strike' + '</u>' + ' From this we know the policemen………',
-options: ['didn‟t go on strike',
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + '<u>' + 'Were it not for the policemen the workers would have gone on strike' + '</u>' + ' From this we know the policemen\u2026',
+options: ['didn\u2019t go on strike',
  'saw the workers on strike',
  'forced the workers to go on strike',
  'and the workers were on strike',
@@ -237,7 +237,7 @@ options: ['didn‟t go on strike',
 answer: 4 
 },
 {
-question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'Razak has ' + '<u>' + 'been in a bad way' + '</u>' + '  for several days. This means Razak has been …………',
+question: '<b>' +'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' +'<br />' + 'Razak has ' + '<u>' + 'been in a bad way' + '</u>' + '  for several days. This means Razak has been \u2026',
 options: ['badly treated',
  'unable to eat for many days',
  'misbehaving',
@@ -293,7 +293,7 @@ answer: 4
 },
 {
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Our ancestors …………to us a lot of knowledge about our culture.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Our ancestors \u2026to us a lot of knowledge about our culture.',
 options: ['handed in',
  'passed out',
  'passed through',
@@ -302,7 +302,7 @@ options: ['handed in',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The government has set ……a committee on education.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The government has set \u2026a committee on education.',
 options: ['apart',
  'up ',
  'in ',
@@ -311,7 +311,7 @@ options: ['apart',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' None of the suspects………..his guilt.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' None of the suspects\u2026..his guilt.',
 options: ['admit',
  'admits',
  'are admitting',
@@ -320,7 +320,7 @@ options: ['admit',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Amidu promised to be patient until his toy ………..repaired.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Amidu promised to be patient until his toy \u2026..repaired.',
 options: ['has been ',
  'will be ',
  'was',
@@ -329,7 +329,7 @@ options: ['has been ',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The Headmaster, with his assistant ……….inspecting the new school library.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The Headmaster, with his assistant \u2026.inspecting the new school library.',
 options: ['will have been',
  'are',
  'have been',
@@ -346,7 +346,7 @@ answer: 3
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' His writing is so bad that I can‟t make it …….',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' His writing is so bad that I can\u2019t make it \u2026.',
 options: ['on',
  'out',
  'down',
@@ -355,7 +355,7 @@ options: ['on',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You will be ill if you …………too much.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You will be ill if you \u2026too much.',
 options: ['are eating',
  'eat',
  'had eaten',
@@ -364,7 +364,7 @@ options: ['are eating',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If it ………necessary, I shall see you again at six o‟clock.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If it \u2026necessary, I shall see you again at six o\u2019clock.',
 options: ['is',
  'had been ',
  'is being ',
@@ -373,7 +373,7 @@ options: ['is',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If we had not closed down the market, the traders ……..there.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' If we had not closed down the market, the traders \u2026..there.',
 options: ['shall still be',
  'will still be',
  'are still going',
@@ -382,34 +382,34 @@ options: ['shall still be',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Mr Adu has never been pleased with his children‟s performance, ……..?',
-options: ['hasn‟t he ',
- 'didn‟t he ',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Mr Adu has never been pleased with his children\u2019s performance, \u2026..?',
+options: ['hasn\u2019t he ',
+ 'didn\u2019t he ',
  'has he',
  'did he',
  'nothing'],
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You prefer playing soccer to volley ball ……….?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You prefer playing soccer to volley ball \u2026.?',
 options: ['do you',
  'will you',
- 'won‟t you',
- 'don‟t you?',
+ 'won\u2019t you',
+ 'don\u2019t you?',
  'nothing'],
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The cashier was r͟u͟d͟e͟ to his boss, ………?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' The cashier was r͟u͟d͟e͟ to his boss, \u2026?',
 options: ['was he',
- 'wasn‟t he',
+ 'wasn\u2019t he',
  'did he',
- 'didn‟t he',
+ 'didn\u2019t he',
  'nothing'],
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' These days students are not very interested ……….improving their English.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' These days students are not very interested \u2026.improving their English.',
 options: ['on',
  'about',
  'of',
@@ -418,7 +418,7 @@ options: ['on',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Kofi ate …………food than anyone else.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' Kofi ate \u2026food than anyone else.',
 options: ['more ',
  'most ',
  'much',

@@ -29,7 +29,7 @@ But they stopped abruptly when they looked up and saw dark clouds racing across 
 
 The rains will soon come. The sky will be bright And the guns will boom
 
-As they sang and danced, they were soon joined by their parents in their happiness. It was six months since it had last rained and all that time the farmers prayed for rain that would not come. The result was famine in the country for the land became so dry that new crops could not be sown and cassava could not be uprooted. The streams and the wells had also dried up and the people could find very little water for themselves and their livestock. Was it then strange that adults danced and sang like children in the hope that their troubles would soon be over? They were sure that the fetish priest‟s sacrifices would not be in vain.
+As they sang and danced, they were soon joined by their parents in their happiness. It was six months since it had last rained and all that time the farmers prayed for rain that would not come. The result was famine in the country for the land became so dry that new crops could not be sown and cassava could not be uprooted. The streams and the wells had also dried up and the people could find very little water for themselves and their livestock. Was it then strange that adults danced and sang like children in the hope that their troubles would soon be over? They were sure that the fetish priest\u2019s sacrifices would not be in vain.
 
 But they woke up the next morning to find that the land was still dry; there was not a drop of rainwater anywhere.
 
@@ -39,16 +39,16 @@ Que 7 - 11
 
 PASSAGE II
 
-Teacher Amu never lost the opportunity to give pep-talks to his students. „Variety is the spice of life,‟ he often
+Teacher Amu never lost the opportunity to give pep-talks to his students. Variety is the spice of life,\u2019 he often
 began. Then he would tell them how life has opposites, like good and bad. He would talk about the variety of
 
-birds, the different kinds of fish and species of trees. His students could always tell when teacher Amu‟s sermons were about to end. He would raise his voice and loop up as he made his point: “God made them all and He said, „It is good‟.”
+birds, the different kinds of fish and species of trees. His students could always tell when teacher Amu\u2019s sermons were about to end. He would raise his voice and loop up as he made his point: \u201CGod made them all and He said, It is good\u2019.”
 
-These words had a lasting effect on his students. When the class was over, they would go on reeling with laughter as they recited these words. Soon, it was not surprising when they began to call Teacher Amu, „God made them all‟ whenever his back was turned.
+These words had a lasting effect on his students. When the class was over, they would go on reeling with laughter as they recited these words. Soon, it was not surprising when they began to call Teacher Amu, God made them all\u2019 whenever his back was turned.
 
-But one of them, Kofi Abre, did not consider Teacher Amu‟s pep-talks funny at all. He was not amused that his classmates joked with his teacher‟s words. Teacher Amu had said that the world was made up of different things, different people and different habits. So why did they bother when he, Abre, acted differently?
+But one of them, Kofi Abre, did not consider Teacher Amu\u2019s pep-talks funny at all. He was not amused that his classmates joked with his teacher\u2019s words. Teacher Amu had said that the world was made up of different things, different people and different habits. So why did they bother when he, Abre, acted differently?
 
-The other day, he shouted down a school mate who called him lazy. He almost bloodied a friend‟s nose too when this friend scolded him for not doing his homework. Teacher Amu warned that he would punish Abre. It was an act of indiscipline. Kofi Abre shook his head. It was his friend who offended him yet Teacher Amu would punish him for being violent and different.
+The other day, he shouted down a school mate who called him lazy. He almost bloodied a friend\u2019s nose too when this friend scolded him for not doing his homework. Teacher Amu warned that he would punish Abre. It was an act of indiscipline. Kofi Abre shook his head. It was his friend who offended him yet Teacher Amu would punish him for being violent and different.
 
 */
 
@@ -56,7 +56,7 @@ question: 'Read Passage I carefully and answer this question\nThe children chang
 choice1: 'the guns would be fired. ',
 choice2: 'it was going to rain.',
 choice3: 'their parents had seen the fetish priest. ',
-choice4: 'they did not like their teacher‟s song.',
+choice4: 'they did not like their teacher\u2019s song.',
 answer: 2,
 },
 {
@@ -101,7 +101,7 @@ answer: 2,
 },
 {
 
-question: 'Read Passage II carefully and answer this question\nThe expression, „Variety is the spice of life‟ means life',
+question: 'Read Passage II carefully and answer this question\nThe expression, Variety is the spice of life\u2019 means life',
 choice1: 'has its ups and downs',
 choice2: 'is like a tasty food',
 choice3: 'should be taken seriously',
@@ -109,7 +109,7 @@ choice4: 'is full of different and interesting things',
 answer: 4,
 },
 {
-question: 'Read Passage II carefully and answer this question\nThe students called Teacher Amu „God made them all‟ because',
+question: 'Read Passage II carefully and answer this question\nThe students called Teacher Amu God made them all\u2019 because',
 choice1: 'it was his favourite saying',
 choice2: 'he always looked up',
 choice3: 'his pep-talks were funny',
@@ -120,7 +120,7 @@ answer: 1,
 question: 'Read Passage II carefully and answer this question\nKofi Abre did not like the jokes because he',
 choice1: 'hated his classmates',
 choice2: 'was afraid of his teacher ',
-choice3: 'loved his teacher‟s words ',
+choice3: 'loved his teacher\u2019s words ',
 choice4: 'was lazy',
 answer: 2,
 },
@@ -170,7 +170,7 @@ choice4: 'beat',
 answer: 2,
 },
 {
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word or phrase in each sentence\nJohn was i̲m̲p̲r̲e̲s̲s̲e̲d̲ ̲w̲i̲t̲h̲ Joana‟s gift.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word or phrase in each sentence\nJohn was i̲m̲p̲r̲e̲s̲s̲e̲d̲ ̲w̲i̲t̲h̲ Joana\u2019s gift.',
 choice1: 'moved',
 choice2: 'deceived ',
 choice3: 'calmed ',
@@ -190,7 +190,7 @@ answer: 1,
 
 
 
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nThe Chairman was disturbed because only fifteen members t̲u̲r̲n̲e̲d̲ ̲u̲p̲ for the meeting. This means that fifteen members ………….the meeting',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nThe Chairman was disturbed because only fifteen members t̲u̲r̲n̲e̲d̲ ̲u̲p̲ for the meeting. This means that fifteen members \u2026.the meeting',
 choice1: 'attended',
 choice2: 'avoided',
 choice3: 'postponed',
@@ -222,7 +222,7 @@ choice4: 'was sorry about the increase.',
 answer: 1,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nCharles Taylor‟s shot missed its target by a̲ ̲h̲a̲i̲r̲ ̲‟̲s̲ ̲b̲r̲e̲a̲d̲t̲h̲ ̲. This means that',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\nCharles Taylor\u2019s shot missed its target by a̲ ̲h̲a̲i̲r̲ ̲\u2019̲s̲ ̲b̲r̲e̲a̲d̲t̲h̲ ̲. This means that',
 choice1: 'he shot wide',
 choice2: 'the goal was disallowed',
 choice3: 'he nearly scored a goal',
@@ -258,7 +258,7 @@ choice4: 'intentional',
 answer: 4,
 },
 {
-question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\n Iddrisu swore that he would rather be a s͟p͟e͟n͟d͟t͟h͟r͟i͟f͟t͟ than a ………',
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\n Iddrisu swore that he would rather be a s͟p͟e͟n͟d͟t͟h͟r͟i͟f͟t͟ than a \u2026',
 choice1: 'miser',
 choice2: 'pauper',
 choice3: 'weakling',
@@ -276,7 +276,7 @@ answer: 2,
 {
 //SECTION E
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe youth are advised to abstain ………..sex.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe youth are advised to abstain \u2026..sex.',
 choice1: 'in',
 choice2: 'on',
 choice3: 'from',
@@ -284,15 +284,15 @@ choice4: 'through',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nDaddy writes beautifully, ………..he?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nDaddy writes beautifully, \u2026..he?',
 choice1: 'would',
-choice2: 'wouldn‟t ',
-choice3: 'doesn‟t ',
-choice4: 'didn‟t',
+choice2: 'wouldn\u2019t ',
+choice3: 'doesn\u2019t ',
+choice4: 'didn\u2019t',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nBulky goods are transported …………..sea.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nBulky goods are transported \u2026..sea.',
 choice1: 'through',
 choice2: 'to ',
 choice3: 'on ',
@@ -300,7 +300,7 @@ choice4: 'by',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nLife skills ………my favourite subject when I was in school.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nLife skills \u2026my favourite subject when I was in school.',
 choice1: 'has been',
 choice2: 'were',
 choice3: 'was',
@@ -309,15 +309,15 @@ answer: 3,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n„Will you mind if I borrowed your book?‟',
-choice1: '„Yes, I do‟',
-choice2: '„Yes, I mind‟ ',
-choice3: '„No, I don‟t‟ ',
-choice4: '„No, I won‟t‟',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nWill you mind if I borrowed your book?\u2019',
+choice1: 'Yes, I do\u2019',
+choice2: 'Yes, I mind\u2019 ',
+choice3: 'No, I don\u2019t\u2019 ',
+choice4: 'No, I won\u2019t\u2019',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n„Has Sister Edith ……………her glass of water this evening?‟',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nHas Sister Edith \u2026\u2026her glass of water this evening?\u2019',
 choice1: 'drunk ',
 choice2: 'drink ',
 choice3: 'drinks ',
@@ -325,7 +325,7 @@ choice4: 'drank',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nIf my uncle had come I …………have had some money',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nIf my uncle had come I \u2026have had some money',
 choice1: 'may ',
 choice2: 'will ',
 choice3: 'shall',
@@ -333,7 +333,7 @@ choice4: 'would',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nNewspapers are …………magazines.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nNewspapers are \u2026magazines.',
 choice1: 'cheap as',
 choice2: 'cheaper than ',
 choice3: 'cheapest of ',
@@ -341,15 +341,15 @@ choice4: 'cheap than',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nI have discovered a new ……….rhyme.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nI have discovered a new \u2026.rhyme.',
 choice1: 'children ',
-choice2: 'childrens‟ ',
-choice3: 'children‟s ',
+choice2: 'childrens\u2019 ',
+choice3: 'children\u2019s ',
 choice4: 'childrens',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nI told mum I ………..take my breakfast later.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nI told mum I \u2026..take my breakfast later.',
 choice1: 'will',
 choice2: 'can',
 choice3: 'would',
@@ -357,7 +357,7 @@ choice4: 'shall',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe final match was played ………… three and five o‟clock in the afternoon.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe final match was played \u2026 three and five o\u2019clock in the afternoon.',
 choice1: 'by',
 choice2: 'toward',
 choice3: 'from',
@@ -365,7 +365,7 @@ choice4: 'between',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe girl told her mother that she ………….from church.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe girl told her mother that she \u2026.from church.',
 choice1: 'comes',
 choice2: 'had come',
 choice3: 'has come',
@@ -373,7 +373,7 @@ choice4: 'has been coming',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n………….. I joined the class late I could pass the examination.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\u2026.. I joined the class late I could pass the examination.',
 choice1: 'Since',
 choice2: 'As',
 choice3: 'Despite',
@@ -381,7 +381,7 @@ choice4: 'Although',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe book was ………difficult to read.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe book was \u2026difficult to read.',
 choice1: 'much',
 choice2: 'too ',
 choice3: 'little ',

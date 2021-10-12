@@ -10,9 +10,9 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 
 'PASSAGE I' + '<br />' + 
-'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟'  +
-'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'Why is Ayele not talking today?',
-options: ['She does not like Esinam‟s new bag',
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. \u201CSo is that how you are? You\u2019re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele\u2019s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend\u2019s mood, she breaks into a song about her parents\u2019 many acts of love. Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!\u2019'  +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. \u201CI\u2019ve grown used to the old dresses, bags and shoes Mum buys. She says she can\u2019t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: I\u2019m in JSS 3, like you, and we are both doing well. It\u2019s great to look to the future with hope.\u2019 Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'Why is Ayele not talking today?',
+options: ['She does not like Esinam\u2019s new bag',
  'She wants to get to school early',
  'She is moody',
  'Esinam is making her angry'],
@@ -24,8 +24,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 
 'PASSAGE I' + '<br />' + 
-'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
-'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'For Esinam, It’s great to be young means',
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. \u201CSo is that how you are? You\u2019re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele\u2019s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend\u2019s mood, she breaks into a song about her parents\u2019 many acts of love. Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!\u2019' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. \u201CI\u2019ve grown used to the old dresses, bags and shoes Mum buys. She says she can\u2019t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: I\u2019m in JSS 3, like you, and we are both doing well. It\u2019s great to look to the future with hope.\u2019 Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'For Esinam, It’s great to be young means',
 options: ['having everything one wants',
  'being able to go to school',
  'having a mum and dad',
@@ -38,8 +38,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 
 'PASSAGE I' + '<br />' + 
-'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
-'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'We learnt from the passage that Ayele‟s parents are ……',
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. \u201CSo is that how you are? You\u2019re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele\u2019s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend\u2019s mood, she breaks into a song about her parents\u2019 many acts of love. Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!\u2019' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. \u201CI\u2019ve grown used to the old dresses, bags and shoes Mum buys. She says she can\u2019t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: I\u2019m in JSS 3, like you, and we are both doing well. It\u2019s great to look to the future with hope.\u2019 Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'We learnt from the passage that Ayele\u2019s parents are \u2026',
 options: ['sort of poor',
  'rich but miserly',
  'hardworking',
@@ -52,8 +52,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 
 'PASSAGE I' + '<br />' + 
-'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
-'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'In the passage, Ayele comes across as one who is …..',
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. \u201CSo is that how you are? You\u2019re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele\u2019s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend\u2019s mood, she breaks into a song about her parents\u2019 many acts of love. Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!\u2019' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. \u201CI\u2019ve grown used to the old dresses, bags and shoes Mum buys. She says she can\u2019t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: I\u2019m in JSS 3, like you, and we are both doing well. It\u2019s great to look to the future with hope.\u2019 Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'In the passage, Ayele comes across as one who is \u2026..',
 options: ['proud',
  'hard to please ',
  'hardworking ',
@@ -66,8 +66,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read this Passage I carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 
 'PASSAGE I' + '<br />' + 
-'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. “So is that how you are? You‟re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele‟s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend‟s mood, she breaks into a song about her parents‟ many acts of love. „Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!‟' +
-'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. “I‟ve grown used to the old dresses, bags and shoes Mum buys. She says she can‟t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: „I‟m in JSS 3, like you, and we are both doing well. It‟s great to look to the future with hope.‟ Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'The word tremble means',
+'<i>' + 'They are approaching the school building, holding hands as they walk to school. Ayele and Esinam are friends who attend the same school and are in the same class. Today, Ayele is not talking, though Esinam expects her to say something about her new bag. \u201CSo is that how you are? You\u2019re not passing any comment about my schoolbag? Dad gave it to me when he returned from America yesterday.” Ayele\u2019s reply is a mere grunt, but Esinam is in no mood to be unhappy. Ignoring her friend\u2019s mood, she breaks into a song about her parents\u2019 many acts of love. Mum and Dad buy me dresses, shoes and anything I wish for, if I ask. It’s great to be young!\u2019' +
+'Ayele is strapping on her back an old school bag once used by her elder sister. The brown colour has faded because she washes it too many times. When she breaks her silence she speaks solemnly and without regret. \u201CI\u2019ve grown used to the old dresses, bags and shoes Mum buys. She says she can\u2019t do more. I trust and love her.” There is a tremble in her voice, as though she is about to cry. But her eyes gradually brighten up as she speaks on: I\u2019m in JSS 3, like you, and we are both doing well. It\u2019s great to look to the future with hope.\u2019 Esinam nods her agreement as the school bell rings and breaks their walk into a gallop.' + '</i>' + '<br />' + '<br />' + 'The word tremble means',
 options: ['disturbance',
  'quiver',
  'drop',
@@ -79,10 +79,10 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 
 '<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
 'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
-'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won\u2019t you? These things are funny and queer.' +
 'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
 
-'According to the passage, people laugh when they ………',
+'According to the passage, people laugh when they \u2026',
 options: ['wear new clothes',
  'see something funny',
  'are at a party',
@@ -94,10 +94,10 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 
 '<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
 'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
-'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won\u2019t you? These things are funny and queer.' +
 'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
 
-' From the passage we learn that laughter makes people look ….',
+' From the passage we learn that laughter makes people look \u2026.',
 options: ['strong', 
  'healthy', 
  'queer', 
@@ -109,10 +109,10 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 
 '<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
 'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
-'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won\u2019t you? These things are funny and queer.' +
 'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
 
-'People who laugh a lot …..', 
+'People who laugh a lot \u2026..', 
 options: ['look strange',
  'blame others',
  'hurt their bodies',
@@ -124,10 +124,10 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 
 '<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
 'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
-'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won\u2019t you? These things are funny and queer.' +
 'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
 
-'Societies can use laughter to …………',
+'Societies can use laughter to \u2026',
 options: ['create fun',
  'annoy people',
  'correct behaviour',
@@ -139,7 +139,7 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 
 '<i>' + 'There are two questions that people often ask about laughter. These are: what makes people laugh, and what laughter does to them.' +
 'When you try to think of what makes people laugh or what they consider funny you start thinking about how one person behaves towards another in different situations. For example, why do people laugh when they see others behaving awkwardly, or see some kind of weakness in other person?' + 
-'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won‟t you? These things are funny and queer.' +
+'The explanation is often quite simple. We laugh when we see people behaving or acting in an odd manner. For example, if on your way to work or to school you see a big fat man in a leafy green suit, wearing a tiny straw hat, or at a party, you encounter a very short man dancing with a big tall woman, you will naturally laugh, won\u2019t you? These things are funny and queer.' +
 'Apart from the strange things that make people laugh, laughter is good for our body and health. It is good for our lungs and allows us to release extra energy. It also has a great social value. If you enjoy laughter you invite good company. Indeed, in most societies, laughter is used as a way of keeping people who do not do the right things in check. Thus laughter is a way of ensuring discipline.' + '</i>' + '<br />' + '<br />' + 
 
 'The word awkwardly in the passage means',
@@ -175,7 +175,7 @@ options: ['singing',
 answer: 3
 },
 {
-question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'Kuuki‟s dream is to become a ' + '<u>' + 'celebrated' + '</u>' + 'musician.',
+question: '<b>'+ 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' +  'Kuuki\u2019s dream is to become a ' + '<u>' + 'celebrated' + '</u>' + 'musician.',
 options: ['gospel',
  'rich',
  'famous',
@@ -193,7 +193,7 @@ answer: 1
 {
 
 question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
-'Andy returned to school after ' + '<u>' + 'playing truant' + '</u>' + ' for three days. This means that Andy was………',
+'Andy returned to school after ' + '<u>' + 'playing truant' + '</u>' + ' for three days. This means that Andy was\u2026',
 options: ['expelled',
  'kidnapped',
  'deliberately absent',
@@ -202,7 +202,7 @@ answer: 2
 },
 {
 question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
-'Ama was the only one who was ' + '<u>' + 'close-lipped' + '</u>' + ' about the theft. This means that Ama……….',
+'Ama was the only one who was ' + '<u>' + 'close-lipped' + '</u>' + ' about the theft. This means that Ama\u2026.',
 options: ['did not cry ',
  'was serious ',
  'did not talk ',
@@ -211,7 +211,7 @@ answer: 2
 },
 {
 question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
-'Issah was asked to ' + '<u>' + 'toe the line' + '</u>' + ' or quit the team. This means that Issah was asked to………..',
+'Issah was asked to ' + '<u>' + 'toe the line' + '</u>' + ' or quit the team. This means that Issah was asked to\u2026..',
 options: ['apologize',
  'resign ',
  'change ',
@@ -220,7 +220,7 @@ answer: 3
 },
 {
 question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
-'The students were advised to ' + '<u>' + 'give up smoking' + '</u>' + ' This means that the students were asked to ……..smoking',
+'The students were advised to ' + '<u>' + 'give up smoking' + '</u>' + ' This means that the students were asked to \u2026..smoking',
 options: ['suspend',
  'stop',
  'prevent',
@@ -229,7 +229,7 @@ answer: 1
 },
 {
 question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  
-'Mrs. Vesa has a ' + '<u>' + 'heart of gold' + '</u>' + 'This means that Mrs. Vesa is very ……….',
+'Mrs. Vesa has a ' + '<u>' + 'heart of gold' + '</u>' + 'This means that Mrs. Vesa is very \u2026.',
 options: ['bright ',
  'clever ',
  'kind ',
@@ -266,7 +266,7 @@ answer: 3
 },
 {
 question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 
-'The JSS students are reading the ' + '<u>' + 'abridged' + '</u>'  + ' version of Shakespeare‟s Macbeth',
+'The JSS students are reading the ' + '<u>' + 'abridged' + '</u>'  + ' version of Shakespeare\u2019s Macbeth',
 options: ['old',
  'original',
  'cheap',
@@ -285,7 +285,7 @@ answer: 2
 {
 
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Ashia is used to ……….her parents every weekend.',
+'Ashia is used to \u2026.her parents every weekend.',
 options: ['visit',
  'have visited',
  'visited',
@@ -294,7 +294,7 @@ answer: 3
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'……………..students were present.',
+'\u2026\u2026..students were present.',
 options: ['The whole ',
  'The several ',
  'Much of the ',
@@ -303,7 +303,7 @@ answer: 3
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Jenny has ……………..on her head.',
+'Jenny has \u2026\u2026..on her head.',
 options: ['plenty hair ',
  'a lot of hair ',
  'many hairs ',
@@ -312,7 +312,7 @@ answer: 1
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Korkoi is a ……………….of twelve.',
+'Korkoi is a \u2026\u2026.of twelve.',
 options: ['tall, shapely, girl ',
  'shapely, tall, girl ',
  'girl, shapely, tall ',
@@ -321,7 +321,7 @@ answer: 0
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'The man of God preached that we should love…………',
+'The man of God preached that we should love\u2026',
 options: ['another',
  'each other ',
  'one another ',
@@ -330,7 +330,7 @@ answer: 2
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Mansah is ………..beautiful than any of her three sisters',
+'Mansah is \u2026..beautiful than any of her three sisters',
 options: ['very ',
  'most ',
  'more ',
@@ -339,16 +339,16 @@ answer: 2
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Appiah was appointed prefect of his class,……………',
-options: ['wasn‟t it?',
- 'didn‟t he?',
- 'isn‟t it?',
- 'wasn‟t he?'],
+'Appiah was appointed prefect of his class,\u2026\u2026',
+options: ['wasn\u2019t it?',
+ 'didn\u2019t he?',
+ 'isn\u2019t it?',
+ 'wasn\u2019t he?'],
 answer: 3
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Anytime Ataa went to school she………into trouble',
+'Anytime Ataa went to school she\u2026into trouble',
 options: ['got',
  'gets',
  'is getting',
@@ -357,16 +357,16 @@ answer: 0
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'My dream school is for …………only',
+'My dream school is for \u2026only',
 options: ['boy ',
- 'boy‟s ',
+ 'boy\u2019s ',
  'boys ',
- 'boys‟'],
+ 'boys\u2019'],
 answer: 2
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Sam, have you ever …………in this river?',
+'Sam, have you ever \u2026in this river?',
 options: ['swam ',
  'swum ',
  'swim ',
@@ -375,7 +375,7 @@ answer: 1
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Susie and Tim are friends; they like………..',
+'Susie and Tim are friends; they like\u2026..',
 options: ['each other ',
  'themselves ',
  'the other',
@@ -384,7 +384,7 @@ answer: 0
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'Aunt Ekua …………..be able to solve the problem.',
+'Aunt Ekua \u2026..be able to solve the problem.',
 options: ['can ',
  'has ',
  'will',
@@ -393,7 +393,7 @@ answer: 2
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'For one week I went to school …………foot.',
+'For one week I went to school \u2026foot.',
 options: ['by ',
  'on ',
  'at ',
@@ -402,7 +402,7 @@ answer: 1
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'The committee has been meeting over the case …………2pm',
+'The committee has been meeting over the case \u20262pm',
 options: ['over',
  'by',
  'since',
@@ -411,7 +411,7 @@ answer: 2
 },
 {
 question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' +  
-'I hope you are not ……………tired to run an errand for me.',
+'I hope you are not \u2026\u2026tired to run an errand for me.',
 options: ['very',
  'so ',
  'as ',

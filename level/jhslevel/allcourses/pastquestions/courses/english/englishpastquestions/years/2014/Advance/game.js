@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The students were hostile ……….the lazy teacher.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The students were hostile \u2026.the lazy teacher.',
   	choice1:'on',
 	choice2: 'to',
 	choice3: 'from',
@@ -20,7 +20,7 @@ let questions = [
   	answer: 2,
   },
   {	
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The ………….met at the mess.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The \u2026.met at the mess.',
 	choice1: 'commander-in-chief',
 	choice2:  'commander-in-chiefs',
 	choice3:  'commanders-in-chief',
@@ -28,7 +28,7 @@ let questions = [
 	answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The workers are demonstrating ……………..management.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The workers are demonstrating \u2026\u2026..management.',
   	choice1:'at',
 	choice2: 'on',
 	choice3: 'upon',
@@ -36,7 +36,7 @@ let questions = [
   	answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n  …………….failed the examination, Doris was dismissed from the school.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n  \u2026\u2026.failed the examination, Doris was dismissed from the school.',
   	choice1: 'Having',
 	choice2:  'In having',
 	choice3:  'On having',
@@ -44,7 +44,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The building he bought ……………..millions of cedis.',  	
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The building he bought \u2026\u2026..millions of cedis.',  	
   	choice1: 'cost',
 	choice2:  'costs',
 	choice3:  'costed',
@@ -52,7 +52,7 @@ let questions = [
   	answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The dresses are …………..',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The dresses are \u2026..',		
   	choice1:'you',
 	choice2:  'your’s',
 	choice3:  'our’s',
@@ -60,7 +60,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n We shall invite him when he ……………..from America.',	 
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n We shall invite him when he \u2026\u2026..from America.',	 
   	choice1: 'will return',
 	choice2:   'had returned',
 	choice3:   'returns',
@@ -68,7 +68,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The students were congratulated ……………..their brilliant performance.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The students were congratulated \u2026\u2026..their brilliant performance.',		
   	choice1: 'by',
 	choice2:   'on',
 	choice3:   'with',
@@ -76,7 +76,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n By this time next year, I ……………..school.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n By this time next year, I \u2026\u2026..school.',		
   	choice1:'will leave',
 	choice2:  'would leave',
 	choice3:  'might leave',
@@ -84,7 +84,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Isn’t that girl ……………..old to play with toys?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Isn’t that girl \u2026\u2026..old to play with toys?',		
   	choice1:'as',
 	choice2:  'so',
 	choice3:  'too',
@@ -92,7 +92,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n You usually come to school early, ………….?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n You usually come to school early, \u2026.?',		
   	choice1:'can you',
 	choice2:  'will you',
 	choice3:  'aren’t you',
@@ -100,7 +100,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I am …………….faithfully.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I am \u2026\u2026.faithfully.',
 		choice1:'your',
 	choice2:  'yours’',
 	choice3:	  'yours',
@@ -108,7 +108,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n No sooner had we arrived ……….he came back from work.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n No sooner had we arrived \u2026.he came back from work.',		
   	choice1:'than',
 	choice2:  'then',
 	choice3:  'when',
@@ -116,7 +116,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kofi and Ama love …………..',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kofi and Ama love \u2026..',		
   	choice1:'another',
 	choice2:  'theirselves',
 	choice3:  'each other',
@@ -124,7 +124,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It’s no good ………….to him.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It’s no good \u2026.to him.',		
   	choice1:'to be talking',
 	choice2:  'talked',
 	choice3:  'talking',
@@ -132,7 +132,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Since our last meeting, I ……………ill.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Since our last meeting, I \u2026\u2026ill.',		
   	choice1:'am',
 	choice2:  'was',
 	choice3:  'had been',
@@ -140,7 +140,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I was ………….tired that I couldn’t go any further.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I was \u2026.tired that I couldn’t go any further.',		
   	choice1:'so',
 	choice2:  'too',
 	choice3:  'much',
@@ -276,7 +276,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n The dominant idea in a literary work constitutes its …………..',		
+  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n The dominant idea in a literary work constitutes its \u2026..',		
   	choice1:'plot',
 	choice2:  'theme',
 	choice3:  'diction',
@@ -284,7 +284,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n The expression “The world is a stage.” is an example of ……….',		
+  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n The expression \u201CThe world is a stage.” is an example of \u2026.',		
   	choice1:'metonymy',
 	choice2:  'simile',
 	choice3:  'personification',
@@ -292,7 +292,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n A genre is ……………..',		
+  	question: 'From the list of words lettered A to D, choose the one that correctly answers the questions or completes the sentence.\n\n A genre is \u2026\u2026..',		
   	choice1:'any kind of poetry',
 	choice2:  'another name for prose',
 	choice3:  'a subdivision of drama',
@@ -300,7 +300,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract I)' + '\n\n The device used in “Sleep comes gently and strong” is ……………',
+  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract I)' + '\n\n The device used in \u201CSleep comes gently and strong” is \u2026\u2026',
 		choice1:'irony',
 	choice2:  'hyperbole',
 	choice3:	  'euphemism',
@@ -308,7 +308,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract I)' + '\n\n The rhyme scheme of the stanza is ………….',		
+  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract I)' + '\n\n The rhyme scheme of the stanza is \u2026.',		
   	choice1:'abba',
 	choice2:  'bbaa',
 	choice3:  'aabb',
@@ -316,7 +316,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract II)' + '\n\nThe main sound device used in the stanza is …………..',
+  	question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract II)' + '\n\nThe main sound device used in the stanza is \u2026..',
 	choice1:'pun',
 	choice2: 'rhyme',
 	choice3:'alliteration',
@@ -324,7 +324,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Read the following extract carefully and answer this question \n' + '(refer to Extract II)' + '\n\n The device helps to express …………….',
+  	question: 'Read the following extract carefully and answer this question \n' + '(refer to Extract II)' + '\n\n The device helps to express \u2026\u2026.',
 		choice1:'the silence of the sea',
 	choice2:  'the whiteness of the foam',
 	choice3:	  'the fairness of the weather',

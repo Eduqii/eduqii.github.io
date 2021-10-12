@@ -221,7 +221,7 @@ options: ['smiling at',
 answer: 2
 },
 {
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.' + '</b>' + '<br />' + '<br />' + 'Kojo was dragged to the farm like ' + '<u>' + 'a lamb to the slaughter.' + '</u>' + '<br />' + ' This means that Kojo was dragged …….',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.' + '</b>' + '<br />' + '<br />' + 'Kojo was dragged to the farm like ' + '<u>' + 'a lamb to the slaughter.' + '</u>' + '<br />' + ' This means that Kojo was dragged \u2026\u2026.',
 
 options: ['with difficulty',
  'without resistance',
@@ -231,7 +231,7 @@ answer: 1
 },
 {
 
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.' + '</b>' + '<br />' + '<br />' + 'The bully was ordered ' + '<u>' + 'to leave his younger brother alone.' + '</u>' + ' This means that the bully was told …….',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.' + '</b>' + '<br />' + '<br />' + 'The bully was ordered ' + '<u>' + 'to leave his younger brother alone.' + '</u>' + ' This means that the bully was told \u2026\u2026.',
 
 options: ['not to accompany him anywhere',
  'to accompany him everywhere',
@@ -280,7 +280,7 @@ answer: 2
 },
  {
 
-question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The surest way to avoid ' + '<u>' + 'defeat' + '</u>' + ' is to strive for …….',
+question: '<b>' + 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence' + '</b>' + '<br />' + '<br />' + 'The surest way to avoid ' + '<u>' + 'defeat' + '</u>' + ' is to strive for \u2026\u2026.',
 
 options: ['position',
  'victory',
@@ -309,7 +309,7 @@ answer: 3
 },
  {
 
-question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like…..' + 
+question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like\u2026..' + 
 'The moon that walks beautifully across the sky,' + 
 + 'An eagle feather worn by a husband' + 
 ' The extract is an example of _________ ',
@@ -321,9 +321,9 @@ options: ['prose',
 answer: 1
 }, 
 {
-question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like…..' + 
+question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like\u2026..' + 
 'The moon that walks beautifully across the sky,' + 
-+ 'An eagle feather worn by a husband' + 'The extract is about _____ …',
++ 'An eagle feather worn by a husband' + 'The extract is about _____ \u2026',
 
 options: ['a mirror',
  'an eagle feather',
@@ -332,7 +332,7 @@ options: ['a mirror',
 answer: 3
 },
 {
-question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like…..' + 
+question: 'Read the following extract carefully and answer this question' + '<br />' + '\'Young lady, you are like\u2026..' + 
 'The moon that walks beautifully across the sky,' + '<br />' 
 + 'An eagle feather worn by a husband' + '<br />' + '<br />' + '\"The moon that walks beautifully across the sky\" is an example of',
 

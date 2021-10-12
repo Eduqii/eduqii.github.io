@@ -10,7 +10,7 @@ const quiz = [
 'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
 'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
 'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
-'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage, members of the chorus can sing without any difficulty because they …….',
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage, members of the chorus can sing without any difficulty because they \u2026.',
 options: ['have to sing',
 'easily learn to sing',
  'have good songs',
@@ -25,7 +25,7 @@ question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
 'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
 'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
-'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'The male songbirds sing to ……….',
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'The male songbirds sing to \u2026.',
 options: ['encourage others ',
 'attract the females ',
  'entertain others',
@@ -70,7 +70,7 @@ question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 'Songbirds do not just make noise. The male voices in the choir for instance, have two messages.' +
 'First, it is a warning to other males not to come near. Secondly, it is an invitation from the bachelors to the female birds. The most vigorous and interesting songs can be heard during breeding season to impress the lady birds.' + 
 'Songbirds are very remarkable. They can sing three or four notes at once. To the human ear, these sound like one continuous note, but birds can tell the difference because of their keen sense of hearing. At times, what we hear may not be the true song of our winged friends but simply a call to keep flocks together. It may also be warning others of an approaching danger.' + 
-'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage which of the following is true? Birds ………',
+'Just how birds learn and invent their songs is an interesting subject. Some have their songs fixed in their brains by the time of birth. Other birds, however, try to invent their own unique songs. They will never copy what they hear others sing.' + '</i>' + '<br />' + '<br />' + 'According to the passage which of the following is true? Birds \u2026',
 options: ['are impressive',
 'are awesome',
  'make too much noise',
@@ -80,11 +80,11 @@ answer: 1
 {
 
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
-'Most of the village people were excited about the coming of the locusts because they ………',
+'Most of the village people were excited about the coming of the locusts because they \u2026',
 options: ['were moving slowly ',
 'had come in a swarm ',
  'were not common',
@@ -93,11 +93,11 @@ answer: 2
 },
 {
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
-'Why was it easier to catch the locusts in the night? Because the locusts ………',
+'Why was it easier to catch the locusts in the night? Because the locusts \u2026',
 options: ['could not fly',
 'were settling down ',
  'did not like darkness ',
@@ -106,7 +106,7 @@ answer: 0
 },
 {
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
@@ -119,7 +119,7 @@ answer: 0
 },
 {
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
@@ -132,7 +132,7 @@ answer: 3
 },
 {
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
@@ -145,7 +145,7 @@ answer: 3
 },
 {
 question: 'PASSAGE II' + '<br />' + '<br />' + 
-'<i>' + '„Locusts are descending‟ was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
+'<i>' + 'Locusts are descending\u2019 was joyfully chanted everywhere. Men, women and children left their work or their play and ran into the open to see the unfamiliar sight. The locusts had not come for many years, and only the old people had seen them before.' +
 'At first, a fairly small swarm came. And then, there appeared a slow-moving mass like a sheet of black cloud drifting towards the villages. Soon it covered half the sky. It was an amazing sight full of power and beauty.' +
 'Everyone was now about praying that the locust should stay in the village for the night. Although most people had never seen locusts before, they knew by instinct that they were good to eat. At last they descended. They settled on roofs and covered the bare ground. Tree branches broke under them and the whole village turned to brown earth colour with locusts.' +
 'Many people who went out with baskets trying to catch them were advised to wait until nightfall. And they were right. The locusts settled in the bushes for the night and their wings became wet with dew. Then all the village folks turned out, in spite of the cold harmattan, to fill their bags and pots with locusts. The next morning they were roasted and spread in the sun until they became dry. For many days after, this rare food was mixed with oil and eaten with relish.' + '</i>' + '<br />' + '<br />' + 
@@ -198,7 +198,7 @@ options: ['angry',
 answer: 0 
 },
 {
-question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'By the end of the lesson, we were ' + '<u>' + 'completely at sea.' + '</u>' + ' This means that we were …………..',
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'By the end of the lesson, we were ' + '<u>' + 'completely at sea.' + '</u>' + ' This means that we were \u2026..',
 options: ['fast asleep',
 'totally confused ',
  'quite disturbed ',
@@ -206,7 +206,7 @@ options: ['fast asleep',
 answer: 1
 },
 {
-question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'She did her best to ' + '<u>' + 'keep on the right side' + '</u>' + ' of her teacher. This means she did her best not to ………….her teacher.',
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + 'She did her best to ' + '<u>' + 'keep on the right side' + '</u>' + ' of her teacher. This means she did her best not to \u2026.her teacher.',
 options: ['interrupt',
 'mislead',
  'misunderstand',
@@ -214,7 +214,7 @@ options: ['interrupt',
 answer: 3
 },
 {
-question:'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  '<u>' + 'You shouldn‟t have hit Kuuku so hard ' + '</u>' + '; it was rather unkind of you. From this we know that Kuuku was',
+question:'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' +  '<u>' + 'You shouldn\u2019t have hit Kuuku so hard ' + '</u>' + '; it was rather unkind of you. From this we know that Kuuku was',
 options: ['being naughty',
 'hurt ',
  'kind ',
@@ -222,7 +222,7 @@ options: ['being naughty',
 answer: 3
 },
 {
-question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + '<u>' + 'If we hadn‟t gone to t he beach so early, we would have met our visitor .' + '</u>' + ' This means that …………….',
+question: 'SECTION C' + '<br />' + '<br />' + '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + '<u>' + 'If we hadn\u2019t gone to t he beach so early, we would have met our visitor .' + '</u>' + ' This means that \u2026\u2026.',
 options: ['we went to the beach late', 
 'we did not meet our visitor', 
  'our visitor waited for us',
@@ -272,7 +272,7 @@ answer: 3
 },
 {
 
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It‟s a pity I have hardly ………..food to give you.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It\u2019s a pity I have hardly \u2026..food to give you.',
 options: ['a little',
 'too much',
  'some',
@@ -280,7 +280,7 @@ options: ['a little',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I was given ………money than you were given.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I was given \u2026money than you were given.',
 options: ['much more',
 'many',
  'much',
@@ -288,7 +288,7 @@ options: ['much more',
 answer: 0
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The book you gave me was not …………..than the one I had before.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The book you gave me was not \u2026..than the one I had before.',
 options: ['any better',
 'much better',
  'any good',
@@ -296,7 +296,7 @@ options: ['any better',
 answer: 1
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Are you sure ………….shirts on that table were the ones I gave you?',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Are you sure \u2026.shirts on that table were the ones I gave you?',
 options: ['that ',
 'these ',
  'those ',
@@ -304,7 +304,7 @@ options: ['that ',
 answer: 2
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Give me the book ………….I lent you yesterday.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Give me the book \u2026.I lent you yesterday.',
 options: ['whom',
 'what',
  'whose',
@@ -312,7 +312,7 @@ options: ['whom',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of the three girls, Awo is the ……………..',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of the three girls, Awo is the \u2026\u2026..',
 options: ['shorter',
 'more shortest',
  'most short',
@@ -320,7 +320,7 @@ options: ['shorter',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The soldier was promoted because he was the …………..among the lot.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The soldier was promoted because he was the \u2026..among the lot.',
 options: ['most courageous',
 'courageous',
  'more courageous',
@@ -328,7 +328,7 @@ options: ['most courageous',
 answer: 0
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Your nephew could not pass the interview because he was not ………..before the panel members.',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Your nephew could not pass the interview because he was not \u2026..before the panel members.',
 options: ['confident much',
 'confident quite',
  'confident enough',
@@ -336,7 +336,7 @@ options: ['confident much',
 answer: 2
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Mr Amakye has been robbed …………his property',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Mr Amakye has been robbed \u2026his property',
 options: ['from',
 'for ',
  'by ',
@@ -344,7 +344,7 @@ options: ['from',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The patient went ………….a lot of body exercises',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The patient went \u2026.a lot of body exercises',
 options: ['in out',
 'out',
  'through',
@@ -352,7 +352,7 @@ options: ['in out',
 answer: 2
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I have a chat ………..you?',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I have a chat \u2026..you?',
 options: ['to',
 'with ',
  'by ',
@@ -360,7 +360,7 @@ options: ['to',
 answer: 1
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwesi learnt harder so he …………..the examination',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwesi learnt harder so he \u2026..the examination',
 options: ['passed',
 'would have passed',
  'can pass',
@@ -368,7 +368,7 @@ options: ['passed',
 answer: 0
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Let‟s go out and play…………….?',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Let\u2019s go out and play\u2026\u2026.?',
 options: ['will we',
 'do we',
  'would we',
@@ -376,7 +376,7 @@ options: ['will we',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I come to your house on Saturday,……………?',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Can I come to your house on Saturday,\u2026\u2026?',
 options: ['all right ',
 'of course ',
  'certainly ',
@@ -384,8 +384,8 @@ options: ['all right ',
 answer: 3
 },
 {
-question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You aren‟t hungry, are you?',
-options: ['No, you aren‟t',
+question: 'SECTION E' + '<br />' + '<br />' + '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You aren\u2019t hungry, are you?',
+options: ['No, you aren\u2019t',
 'Yes, I am not',
  'No, I am not',
  'No, I am'],

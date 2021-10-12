@@ -4,7 +4,7 @@
 const quiz = [
   {
   
-question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' The jury acquitted the man …………murder.',
+question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' The jury acquitted the man \u2026murder.',
 
 options: ['from',
  ' of',
@@ -13,7 +13,7 @@ options: ['from',
 answer: 1
 }, 
 {
-question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Ama’s essay is superior ……………that of Adzo.',
+question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Ama’s essay is superior \u2026\u2026that of Adzo.',
 
 options: ['from',
  ' over',
@@ -22,7 +22,7 @@ options: ['from',
 answer: 3
 }, 
 {
-question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence' + '</b>' + '<br />' + '<br />' + ' I would study hard for the examination if I ……..you.',
+question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence' + '</b>' + '<br />' + '<br />' + ' I would study hard for the examination if I \u2026\u2026..you.',
 
 options: ['am',
  ' be',
@@ -31,7 +31,7 @@ options: ['am',
 answer: 3
 }, 
 {
-question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I cannot tell you …………',
+question: '<b>' +'	From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I cannot tell you \u2026',
 
 options: ['what about the story is',
  ' what about is the story',
@@ -45,7 +45,7 @@ answer: 3
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'That troublesome friend of ………is here again.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'That troublesome friend of \u2026is here again.',
 
 options: ['he',
  ' him',
@@ -55,7 +55,7 @@ answer: 2
 
 }, 
 {
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'I told you to leave my office, …….I?',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'I told you to leave my office, \u2026\u2026.I?',
 
 options: ['aren’t',
  ' didn’t',
@@ -69,7 +69,7 @@ answer: 1
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Kofi travelled five days ……….',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Kofi travelled five days \u2026.',
 
 options: ['ago',
  ' hence',
@@ -80,7 +80,7 @@ answer: 0
 
 }, 
 {
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Kwame’s uncle, with his three friends, ………coming home tomorrow.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Kwame’s uncle, with his three friends, \u2026coming home tomorrow.',
 
 options: ['are',
  ' is',
@@ -90,7 +90,7 @@ answer: 1
 
 }, 
 {
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'I am afraid I cannot make you ……….',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'I am afraid I cannot make you \u2026.',
 
 options: ['in',
  ' on',
@@ -100,7 +100,7 @@ answer: 2
 
 }, 
 {
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'The plane takes ……….at noon.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'The plane takes \u2026.at noon.',
 
 options: ['from',
  ' of',
@@ -112,7 +112,7 @@ answer: 2
 },
 { 
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Please, can I have ………….salt in my soup?',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + 'Please, can I have \u2026.salt in my soup?',
 
 options: ['little more',
  ' a few more',
@@ -126,7 +126,7 @@ answer: 2
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I wish I …………my friend next week.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I wish I \u2026my friend next week.',
 
 options: ['can visit',
  ' am visiting',
@@ -140,7 +140,7 @@ answer: 3
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' By September 2007, I …………….school for nine years.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' By September 2007, I \u2026\u2026.school for nine years.',
 
 options: ['had attended',
  ' have attended',
@@ -154,7 +154,7 @@ answer: 0
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' ……………….Aso runs short of money, what would she do?',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' \u2026\u2026\u2026.Aso runs short of money, what would she do?',
 
 options: ['If',
  ' In case',
@@ -168,7 +168,7 @@ answer: 0
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Human beings will not live forever, ………………?',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Human beings will not live forever, \u2026\u2026\u2026?',
 
 options: ['will they',
  ' isn’t it',
@@ -182,7 +182,7 @@ answer: 0
 
  
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I saw Esi ……………a new pair of shoes.',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' I saw Esi \u2026\u2026a new pair of shoes.',
 
 options: ['bought',
  ' buy',
@@ -194,7 +194,7 @@ answer: 1
 },
 { 
 
-question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Let us have a cup of tea, ……………?',
+question: '<b>' +'From the alternatives lettered A to D, choose the one which most suitably completes each sentence ' + '</b>' + '<br />' + '<br />' + ' Let us have a cup of tea, \u2026\u2026?',
 
 options: ['do we',
  ' shall we',
@@ -367,7 +367,7 @@ answer: 2
 
 }, 
 {
-question: '<b>' +'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence ' + '</b>' + '<br />' + '<br />' + ' A metaphor achieves the same effect as a/an ……………',
+question: '<b>' +'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence ' + '</b>' + '<br />' + '<br />' + ' A metaphor achieves the same effect as a/an \u2026\u2026',
 
 options: ['alliteration.',
  ' metonymy.',

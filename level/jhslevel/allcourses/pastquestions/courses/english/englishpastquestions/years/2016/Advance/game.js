@@ -13,7 +13,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n He is …………….poor that he cannot pay his bills.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n He is \u2026\u2026.poor that he cannot pay his bills.',
   	choice1:'so',
 	choice2: 'too',
 	choice3: 'very',
@@ -21,7 +21,7 @@ let questions = [
   	answer: 1,
   },
   {	
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n You will be late …………..you hurry.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n You will be late \u2026..you hurry.',
 	choice1: 'if',
 	choice2:  'or',
 	choice3:  'unless',
@@ -29,7 +29,7 @@ let questions = [
 	answer: 3,	 
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aminu has been absent from class ……………..one month.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aminu has been absent from class \u2026\u2026..one month.',
   	choice1:'in',
 	choice2: 'for',
 	choice3: 'from',
@@ -37,7 +37,7 @@ let questions = [
   	answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Many people have been invited, but ……………..will be employed.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Many people have been invited, but \u2026\u2026..will be employed.',
   	choice1: 'few',
 	choice2:  'a few',
 	choice3:  'little',
@@ -45,7 +45,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The teacher told the girl he had received …………of the two exercises.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The teacher told the girl he had received \u2026of the two exercises.',
   	choice1: 'all',
 	choice2:  'any',
 	choice3:  'none',
@@ -53,7 +53,7 @@ let questions = [
   	answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My father has bought a …………..car',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My father has bought a \u2026..car',		
   	choice1:'private brand new',
 	choice2:  'new brand private',
 	choice3:  'private new brand',
@@ -61,7 +61,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Mama is never ………..ready for anything.',	 
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Mama is never \u2026..ready for anything.',	 
   	choice1: 'so',
 	choice2:   'ever',
 	choice3:   'even',
@@ -69,7 +69,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Akua was …………..that she won four prizes.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Akua was \u2026..that she won four prizes.',
 		choice1: 'a girl so brilliant',
 	choice2:   'a so brilliant girl',
 	choice3:	   'so brilliant a girl',
@@ -77,7 +77,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Before he entered the classroom, we ……….the chalkboard.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Before he entered the classroom, we \u2026.the chalkboard.',
 		choice1:'cleaned',
 	choice2:  'have cleaned',
 	choice3:	  'had cleaned',
@@ -85,7 +85,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I have forgotten all …………my friend told me.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n I have forgotten all \u2026my friend told me.',		
   	choice1:'this',
 	choice2:  'that',
 	choice3:  'what',
@@ -93,7 +93,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The supervisor will ask the ………….to come and repair the pipe in the bath room.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The supervisor will ask the \u2026.to come and repair the pipe in the bath room.',
 		choice1:'mason',
 	choice2:  'repairer',
 	choice3:	  'plumber',
@@ -101,7 +101,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The stone fell into the river with a loud ………………',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The stone fell into the river with a loud \u2026\u2026\u2026',
 		choice1:'bang',
 	choice2:  'crash',
 	choice3:	  'noise',
@@ -109,7 +109,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aggie got …………mark for French in the examination.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Aggie got \u2026mark for French in the examination.',
 		choice1:'bad',
 	choice2:  'worse',
 	choice3:	  'the worse',
@@ -117,7 +117,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n We won the school debating contest, …………we?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n We won the school debating contest, \u2026we?',		
   	choice1:'hadn’t',
 	choice2:  'didn’t',
 	choice3:  'couldn’t',
@@ -125,7 +125,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kwame looks very handsome, …………..?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kwame looks very handsome, \u2026..?',		
   	choice1:'isn’t he',
 	choice2:  'isn’t it',
 	choice3:  'doesn’t he',
@@ -133,7 +133,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Nana Yaa was suffering ……………measles.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Nana Yaa was suffering \u2026\u2026measles.',		
   	choice1:'by',
 	choice2:  'with',
 	choice3:  'from',
@@ -141,7 +141,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The suspect was charged …………….pickpocketing.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The suspect was charged \u2026\u2026.pickpocketing.',		
   	choice1:'of',
 	choice2:  'for',
 	choice3:  'on',
@@ -229,7 +229,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n The judge a͟c͟q͟u͟i͟t͟t͟e͟d͟ four of the accused but …………….the rest.',
+  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n The judge a͟c͟q͟u͟i͟t͟t͟e͟d͟ four of the accused but \u2026\u2026.the rest.',
 		choice1:'convicted',
 	choice2:  'discharged',
 	choice3:	  'cautioned',
@@ -237,7 +237,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n It pays to be c͟o͟u͟r͟t͟e͟o͟u͟s͟ rather than being …………..',
+  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n It pays to be c͟o͟u͟r͟t͟e͟o͟u͟s͟ rather than being \u2026..',
 		choice1:'rude',
 	choice2:  'wicked',
 	choice3:	  'disobedient',
@@ -245,7 +245,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n Drivers who do not drive with c͟a͟r͟e͟ are sometimes charged with ………….',
+  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n Drivers who do not drive with c͟a͟r͟e͟ are sometimes charged with \u2026.',
 		choice1:'speeding',
 	choice2: 'drunkenness',
 	choice3:	 'disobedience',
@@ -253,7 +253,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n King David was the h͟e͟i͟r͟ to the throne while the brother was the ……………..',
+  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n King David was the h͟e͟i͟r͟ to the throne while the brother was the \u2026\u2026..',
 		choice1:'usurper',
 	choice2:  'successor',
 	choice3:	  'claimant',
@@ -261,7 +261,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n The secretary i͟n͟t͟e͟n͟t͟i͟o͟n͟a͟l͟l͟y͟ hid the documents but the clerk …………burnt them.',
+  	question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence.\n\n The secretary i͟n͟t͟e͟n͟t͟i͟o͟n͟a͟l͟l͟y͟ hid the documents but the clerk \u2026burnt them.',
 		choice1:'willingly',
 	choice2:  'hastily',
 	choice3:	  'mistakenly',
@@ -269,7 +269,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.\n\n A poem of six lines is called a/an …………..',
+  	question: 'From the list of words lettered A to D, choose the one that correctly answers each question or completes the sentence.\n\n A poem of six lines is called a/an \u2026..',
 		choice1:' octave',
 	choice2:  'opera',
 	choice3:	  'sextet',
@@ -277,7 +277,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' +'\n\n The atmosphere is ……………..',
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' +'\n\n The atmosphere is \u2026\u2026..',
   			choice1:'cheerful',
 	choice2:  'friendly',
 	choice3:		  'frightening',
@@ -285,7 +285,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n The state of the weather is emphasized by the word ………….',		
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n The state of the weather is emphasized by the word \u2026.',		
   	choice1:'angry',
 	choice2:  'cloud',
 	choice3:  'flashed',
@@ -293,7 +293,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n ‘Lightning flashed …light from …..torch.’ is an example of …………',
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n ‘Lightning flashed \u2026light from \u2026..torch.’ is an example of \u2026',
 		choice1:'alliteration',
 	choice2:  'ellipsis',
 	choice3:	  'parallelism',
@@ -301,7 +301,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n What is being referred to by the question, ‘How would she ……..happened?’',
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n What is being referred to by the question, ‘How would she \u2026\u2026..happened?’',
 		choice1:'current calm',
 	choice2:  'imminent rain',
 	choice3:	  'latent sky',
@@ -309,7 +309,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' +'\n\n The extract is …………',		
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' +'\n\n The extract is \u2026',		
   	choice1:'drama',
 	choice2:  'poetry',
 	choice3:  'prose',
@@ -317,7 +317,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n One special feature of prose is the ………….',		
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n One special feature of prose is the \u2026.',		
   	choice1:'paragraph',
 	choice2:  'stanza',
 	choice3:  'stage direction',
@@ -325,7 +325,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n The work of the novelist is in ………….',		
+  	question: 'Read the following extract below and answer this Question\n' + '(refer to Extract)' + '\n\n The work of the novelist is in \u2026.',		
   	choice1:'drama',
 	choice2:  'poetry',
 	choice3:  'prose',

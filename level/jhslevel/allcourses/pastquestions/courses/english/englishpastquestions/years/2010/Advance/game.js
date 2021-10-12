@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  question: 'Our teacher was late for school because he ……..a flat tyre.',
+  question: 'Our teacher was late for school because he \u2026\u2026..a flat tyre.',
 
 
 choice1: 'had',
@@ -22,7 +22,7 @@ choice4: 'has',
 answer: 1,
 },
 {
-question: 'We had dinner at a Chinese restaurant where I ………….fried chicken.',
+question: 'We had dinner at a Chinese restaurant where I \u2026.fried chicken.',
 
 choice1: 'am enjoying',
 choice2: 'will enjoy',
@@ -32,7 +32,7 @@ answer: 3,
 },
 { 
 
-question: 'Ama’s father asked her to choose …………John and William.',
+question: 'Ama’s father asked her to choose \u2026John and William.',
 
 choice1: 'among',
 choice2: 'from',
@@ -42,7 +42,7 @@ answer: 4,
 },
  {
 
-question: 'Willie has malaria and is not ………..enough to go to school.',
+question: 'Willie has malaria and is not \u2026..enough to go to school.',
 
 choice1: 'good',
 choice2: 'well',
@@ -53,7 +53,7 @@ answer: 2,
 {
 
  
-question: 'The school band …………two days a week.',
+question: 'The school band \u2026two days a week.',
 
 choice1: 'practise',
 choice2: 'are practicing',
@@ -61,7 +61,7 @@ choice3: 'practises',
 choice4: 'were practising',
 answer: 3,
 
-question: 'Philomena ………passed the examination if she had tried harder.',
+question: 'Philomena \u2026passed the examination if she had tried harder.',
 
 choice1: 'could have',
 choice2: 'will have',
@@ -69,7 +69,7 @@ choice3: 'may have',
 choice4: 'could',
 answer: 1, 
 
-question: 'The law was passed according to strict legal ………….',
+question: 'The law was passed according to strict legal \u2026.',
 
 choice1: 'cases',
 choice2: 'principles',
@@ -79,7 +79,7 @@ answer: 2,
 },
  {
 
-question: 'The book, as well as several others, ………..interesting reading.',
+question: 'The book, as well as several others, \u2026..interesting reading.',
 
 choice1: 'makes',
 choice2: 'are to make',
@@ -87,7 +87,7 @@ choice3: 'are making',
 choice4: 'make',
 answer: 1,
 
-question: '……………….. Joe scored the first goal, he was injured in the process.',
+question: '\u2026\u2026\u2026.. Joe scored the first goal, he was injured in the process.',
 
 choice1: 'But',
 choice2: 'Nevertheless',
@@ -97,7 +97,7 @@ answer: 3,
 },
  {
 
-question: 'Neither Kojo nor his friend ……… the issue clearly.',
+question: 'Neither Kojo nor his friend \u2026 the issue clearly.',
 
 choice1: 'understands',
 choice2: 'have understood',
@@ -107,7 +107,7 @@ answer: 1,
 },
 {
  
-question: 'The ………..centre is located on the hill.',
+question: 'The \u2026..centre is located on the hill.',
 
 choice1: 'womens’',
 choice2: 'woman',
@@ -116,7 +116,7 @@ choice4: 'women’s',
 answer: 4,
 },
 {
-question: 'One of the cows …………from the herd.',
+question: 'One of the cows \u2026from the herd.',
 
 choice1: 'has strayed',
 choice2: 'have strayed',
@@ -125,7 +125,7 @@ choice4: 'has been strayed',
 answer: 1,
 },
 {
-question: 'At the party, the guests placed an order for a large…………of drinks.',
+question: 'At the party, the guests placed an order for a large\u2026of drinks.',
 
 choice1: 'count',
 choice2: 'total',
@@ -134,7 +134,7 @@ choice4: 'sum',
 answer: 3,
 },
 {
-question: 'The hall was so small that it could …………contain all of us.',
+question: 'The hall was so small that it could \u2026contain all of us.',
 
 choice1: 'rarely',
 choice2: 'comfortably',
@@ -143,7 +143,7 @@ choice4: 'hardly',
 answer: 4,
  },
 {
-question: 'If I were a manager, I …………satisfy my customers.',
+question: 'If I were a manager, I \u2026satisfy my customers.',
 
 choice1: 'will',
 choice2: 'shall',
@@ -201,7 +201,7 @@ answer: 1,
 },
 {
 
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.\n\n  Whenever Kweku goes to Kumasi, he p̲u̲t̲s̲ ̲u̲p̲ ̲w̲i̲t̲h̲ ̲h̲i̲s̲ ̲u̲n̲c̲l̲e̲.̲ This means that Kweku ……….',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.\n\n  Whenever Kweku goes to Kumasi, he p̲u̲t̲s̲ ̲u̲p̲ ̲w̲i̲t̲h̲ ̲h̲i̲s̲ ̲u̲n̲c̲l̲e̲.̲ This means that Kweku \u2026.',
 
 choice1: 'helps',
 choice2: 'stays with',
@@ -211,7 +211,7 @@ answer: 2,
 },
  {
 
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n I g̲l̲a̲n̲c̲e̲d̲ ̲o̲v̲e̲r̲ the papers as I walked home. This means that I quickly ……….the papers.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n I g̲l̲a̲n̲c̲e̲d̲ ̲o̲v̲e̲r̲ the papers as I walked home. This means that I quickly \u2026.the papers.',
 
 choice1: 'wrote',
 choice2: 'analysed',
@@ -221,7 +221,7 @@ answer: 4,
  },
  {
 
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n The woman entered the room to find her daughter with her e͟y͟e͟s͟ ͟g͟l͟u͟e͟d͟ to the television. \nThis means that her daughter was …………the television.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n The woman entered the room to find her daughter with her e͟y͟e͟s͟ ͟g͟l͟u͟e͟d͟ to the television. \nThis means that her daughter was \u2026the television.',
 
 choice1: 'smiling at',
 choice2: 'dismantling',
@@ -230,7 +230,7 @@ choice4: 'cleaning',
 answer: 3,
 },
 {
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n Kojo was dragged to the farm like a̲ ̲l̲a̲m̲b̲ ̲t̲o̲ ̲t̲h̲e̲ ̲s̲l̲a̲u̲g̲h̲t̲e̲r̲.̲\n  This means that Kojo was dragged …….',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n Kojo was dragged to the farm like a̲ ̲l̲a̲m̲b̲ ̲t̲o̲ ̲t̲h̲e̲ ̲s̲l̲a̲u̲g̲h̲t̲e̲r̲.̲\n  This means that Kojo was dragged \u2026\u2026.',
 
 choice1: 'with difficulty',
 choice2: 'without resistance',
@@ -240,7 +240,7 @@ answer: 2,
 },
 {
 
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n The bully was ordered t̲o̲ ̲l̲e̲a̲v̲e̲ ̲h̲i̲s̲ ̲y̲o̲u̲n̲g̲e̲r̲ ̲b̲r̲o̲t̲h̲e̲r̲ ̲a̲l̲o̲n̲e̲.̲ This means that the bully was told …….',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence.\n\n The bully was ordered t̲o̲ ̲l̲e̲a̲v̲e̲ ̲h̲i̲s̲ ̲y̲o̲u̲n̲g̲e̲r̲ ̲b̲r̲o̲t̲h̲e̲r̲ ̲a̲l̲o̲n̲e̲.̲ This means that the bully was told \u2026\u2026.',
 
 choice1: 'not to accompany him anywhere',
 choice2: 'to accompany him everywhere',
@@ -289,7 +289,7 @@ answer: 3,
 },
  {
 
-question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\n\n The surest way to avoid d͟e͟f͟e͟a͟t͟ is to strive for …….',
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\n\n The surest way to avoid d͟e͟f͟e͟a͟t͟ is to strive for \u2026\u2026.',
 
 choice1: 'position',
 choice2: 'victory',
@@ -318,7 +318,7 @@ answer: 4,
 },
  {
 
-question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n The extract is an example of …………….',
+question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n The extract is an example of \u2026\u2026.',
 
 choice1: 'prose',
 choice2: 'poetry',
@@ -327,7 +327,7 @@ choice4: 'dialogue',
 answer: 2,
  
 
-question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n The extract is about ……………',
+question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n The extract is about \u2026\u2026',
 
 choice1: 'a mirror',
 choice2: 'an eagle feather',
@@ -336,7 +336,7 @@ choice4: 'a beautiful young lady',
 answer: 4,
 },
 {
-question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n “The moon that walks beautifully across the sky” is an example of',
+question: 'Read the following extract carefully and answer this question\n' + '(refer to Extract)' + '\n\n \u201CThe moon that walks beautifully across the sky” is an example of',
 
 choice1: 'metaphor',
 choice2: 'hyperbole',
@@ -346,7 +346,7 @@ answer: 4,
 },
  {
 
-question: '“Young lady, you are like …\n' +
+question: '\u201CYoung lady, you are like \u2026\n' +
 'An eagle feather worn by a husband”\n\n' +
 'The above extract is an example of',
 
@@ -368,7 +368,7 @@ answer: 2,
 },
 {
  
-question: '“The potter puts the pots in the pans” is an example of',
+question: '\u201CThe potter puts the pots in the pans” is an example of',
 
 choice1: 'metaphor',
 choice2: 'simile',
@@ -378,7 +378,7 @@ answer: 3,
 },
  {
 
-question: '“Twinkle, twinkle, little star\n' +
+question: '\u201CTwinkle, twinkle, little star\n' +
 'How I wonder what you are!\n' +
 'Up above the world so high\n,' +
 'Like a diamond in the sky.”\n\n The rhyme scheme of the above verse is',
@@ -391,7 +391,7 @@ answer: 4,
 },
  {
 
-question: '“Afua Bonsu is the apple of my eye”.\n This is an example of',
+question: '\u201CAfua Bonsu is the apple of my eye”.\n This is an example of',
 
 choice1: 'metaphor',
 choice2: 'simile',

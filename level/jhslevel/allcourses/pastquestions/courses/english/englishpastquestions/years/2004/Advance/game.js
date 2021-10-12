@@ -19,11 +19,11 @@ SECTION A COMPREHENSION
 Read the following passages carefully and answer the questions which follow
 
 PASSAGE I
-Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise‟s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.
+Once, in the world of animals, there was a great famine and the animals were dying. For about three months, Tortoise and his family had eaten very little. Tortoise\u2019s body rattled in his empty shell as he walked. One day as he thought of a way to get food, his throat began to itch.
 
 He would go to the next village where he had heard there was still some food. He would steal some for himself and his family. He took the bush path and arrived at the village after sunset. The people were preparing their meals and the smell made his mouth water.
 
-How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud „kpom! kpom! noise.
+How would he get this food? Not far away from him was the village playground where there was a big hollow log leaning against a tree. This log was the drum used to summon the villagers for very important announcements. When he reached the tree he decided to climb it so that he could see the village better. Unfortunately, as he was climbing, he fell because he was very weak and hungry. His shell hit the drum, sending out a loud kpom! kpom! noise.
 
 When they heard this noise, the villagers ran to the playground, believing they had been called, thereby leaving the food cooking in their homes.
 
@@ -33,11 +33,11 @@ Que 6 - 10
 
 PASSAGE II
 
-In the centre of the town, the town clock chimed two o‟clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant‟s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.
+In the centre of the town, the town clock chimed two o\u2019clock. In an abandoned house on the outskirts of the town an owl hooted as if to signal to Sergeant Abora and Constable Abaidoo to wake up from slumber. They had patrolled the town for hours and were heavy with sleep. The night was very dark and so cold that in spite of his thick overcoat, the Sergeant\u2019s teeth were chattering. He was about to speak when he heard a faint sound down the road that led to the town. Abaidoo also picked the sound. Both listened attentively and realized that a late traveller was coming up the road. They took cover behind two opposing trees. As he reached where Abaidoo was hiding, the traveller stumbled over what looked like the root of a tree.
 
-Then Constable Abaidoo quickly flashed his torchlight and bawled out, „Stop or I shoot!‟ Abora‟s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.
+Then Constable Abaidoo quickly flashed his torchlight and bawled out, Stop or I shoot!\u2019 Abora\u2019s gun was also held in readiness. The traveller who carried a heavy load on his left shoulder panicked, dropping his cutlass in the process.
 
-„Who are you? Where are you from? What‟s in your bag? Speak out or I shoot! We‟ve got you at last!‟ Abora exclaimed.
+Who are you? Where are you from? What\u2019s in your bag? Speak out or I shoot! We\u2019ve got you at last!\u2019 Abora exclaimed.
 
 Trembling with fear and stammering for words the traveller gave his name as Nsiah. He was returning from
 Fosa with a bag of plantain and cassava.
@@ -57,7 +57,7 @@ question: 'Read Passage I carefully and answer the question which follow\nWhich 
 choice1: 'Tortoise had not eaten for three months',
 choice2: 'The villagers gave food to Tortoise ',
 choice3: 'Tortoise got food from his own farm ',
-choice4: 'Tortoise stole the villagers‟ food.',
+choice4: 'Tortoise stole the villagers\u2019 food.',
 answer: 4,
 },
 {
@@ -86,7 +86,7 @@ answer: 4,
 },
 {
 
-question: 'Read Passage II carefully and answer the question which follow\nAbora‟s teeth chattered because',
+question: 'Read Passage II carefully and answer the question which follow\nAbora\u2019s teeth chattered because',
 choice1: 'he had a toothache ',
 choice2: 'the night was cold ',
 choice3: 'he wore a cloak',
@@ -120,7 +120,7 @@ answer: 4,
 },
 {
 question: 'Read Passage II carefully and answer the question which follow\nSergeant Abora and Corporal Abaidoo hid themselves in order to',
-question: '„… gave him away‟ in the passage means',
+question: '\u2026 gave him away\u2019 in the passage means',
 choice1: 'frightened him',
 choice2: 'warned him ',
 choice3: 'exposed him ',
@@ -132,7 +132,7 @@ answer: 3,
 
 
 
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nMary‟s mother is c͟o͟n͟f͟i͟d͟e͟n͟t͟ that her daughter will win a prize.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\nMary\u2019s mother is c͟o͟n͟f͟i͟d͟e͟n͟t͟ that her daughter will win a prize.',
 choice1: 'anxious',
 choice2: 'proud',
 choice3: 'certain',
@@ -176,7 +176,7 @@ answer: 2,
 
 
 
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n The two brothers are always quarrelling; they never s̲e̲e̲ ̲e̲y̲e̲ ̲t̲o̲ ̲e̲y̲e̲.\n This means they do not ……….each',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n The two brothers are always quarrelling; they never s̲e̲e̲ ̲e̲y̲e̲ ̲t̲o̲ ̲e̲y̲e̲.\n This means they do not \u2026.each',
 choice1: 'agree with',
 choice2: 'admire ',
 choice3: 'respect ',
@@ -196,7 +196,7 @@ question: 'In each of the following sentences a group of words has been underlin
 choice1: 'to live on',
 choice2: 'for charity',
 choice3: 'saved for the future',
-choice4: 'to pay her children‟s fees',
+choice4: 'to pay her children\u2019s fees',
 answer: 3,
 },
 {
@@ -227,7 +227,7 @@ choice4: 'rebuked',
 answer: 4,
 },
 {
-question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nThe teacher‟s s͟t͟e͟r͟n͟ looks helped maintain discipline in the class.',
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\nThe teacher\u2019s s͟t͟e͟r͟n͟ looks helped maintain discipline in the class.',
 choice1: 'proud',
 choice2: 'indifferent',
 choice3: 'friendly',
@@ -262,7 +262,7 @@ answer: 4,
 //SECTION E
 
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe students can go home when they ……………..the work',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nThe students can go home when they \u2026\u2026..the work',
 choice1: 'had finished',
 choice2: 'finished',
 choice3: 'finish',
@@ -270,15 +270,15 @@ choice4: 'will finish',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMost people are not kind to animals, ……………?',
-choice1: 'weren‟t they',
-choice2: 'isn‟t it',
-choice3: 'wasn‟t it',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMost people are not kind to animals, \u2026\u2026?',
+choice1: 'weren\u2019t they',
+choice2: 'isn\u2019t it',
+choice3: 'wasn\u2019t it',
 choice4: 'are they',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAfua ………….her clothes on the line to dry.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAfua \u2026.her clothes on the line to dry.',
 choice1: 'hung ',
 choice2: 'folded ',
 choice3: 'hang',
@@ -286,7 +286,7 @@ choice4: 'stretched',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKwesi went to school after he …………his teeth.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKwesi went to school after he \u2026his teeth.',
 choice1: 'had brushed ',
 choice2: 'has brushed ',
 choice3: 'brushing',
@@ -294,7 +294,7 @@ choice4: 'brushed',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKate is the …………..pupil in her class.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKate is the \u2026..pupil in her class.',
 choice1: 'well-behaved',
 choice2: 'more well-behaved ',
 choice3: 'very well-behaved ',
@@ -302,7 +302,7 @@ choice4: 'most well-behaved',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nA bag of money, with some documents, …………stolen from the car.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nA bag of money, with some documents, \u2026stolen from the car.',
 choice1: 'were ',
 choice2: 'are ',
 choice3: 'was',
@@ -310,7 +310,7 @@ choice4: 'have been',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nIt is necessary sometimes to resort ………..violence.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nIt is necessary sometimes to resort \u2026..violence.',
 choice1: 'through',
 choice2: 'to',
 choice3: 'into',
@@ -318,7 +318,7 @@ choice4: 'with',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nClara understood all ……………her teacher taught.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nClara understood all \u2026\u2026her teacher taught.',
 choice1: 'what ',
 choice2: 'which ',
 choice3: 'that',
@@ -326,7 +326,7 @@ choice4: 'this',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAli agrees that the rice project is …………..good',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAli agrees that the rice project is \u2026..good',
 choice1: 'so',
 choice2: 'much',
 choice3: 'too',
@@ -334,7 +334,7 @@ choice4: 'very',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nCharles does not expect ………….his teacher today.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nCharles does not expect \u2026.his teacher today.',
 choice1: 'seeing',
 choice2: 'having seen ',
 choice3: 'being seen ',
@@ -342,7 +342,7 @@ choice4: 'to see',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKweku thinks that life is difficult ………….you are old.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nKweku thinks that life is difficult \u2026.you are old.',
 choice1: 'if',
 choice2: 'while ',
 choice3: 'when ',
@@ -350,7 +350,7 @@ choice4: 'as',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMany countries ………….the world use English',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nMany countries \u2026.the world use English',
 choice1: 'across',
 choice2: 'inside',
 choice3: 'by',
@@ -358,7 +358,7 @@ choice4: 'on',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nDo you like this dress? I made …………….myself.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nDo you like this dress? I made \u2026\u2026.myself.',
 choice1: 'for',
 choice2: 'that',
 choice3: 'which',
@@ -366,15 +366,15 @@ choice4: 'it',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAshanti Goldfields is the ………………of gold',
-choice1: 'nation‟s producer largest ',
-choice2: 'largest nation‟s producer ',
-choice3: 'producer nation‟s largest ',
-choice4: 'nation‟s largest producer',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nAshanti Goldfields is the \u2026\u2026of gold',
+choice1: 'nation\u2019s producer largest ',
+choice2: 'largest nation\u2019s producer ',
+choice3: 'producer nation\u2019s largest ',
+choice4: 'nation\u2019s largest producer',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nNeither Kwesi nor Yaw …………….. there when I got to the house.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\nNeither Kwesi nor Yaw \u2026\u2026.. there when I got to the house.',
 choice1: 'are',
 choice2: 'is',
 choice3: 'was',

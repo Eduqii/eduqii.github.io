@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The lion ……… under the tree waiting for its prey.',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The lion \u2026 under the tree waiting for its prey.',
   	choice1:'lie',
 	choice2: 'lain',
 	choice3: 'lay',
@@ -20,7 +20,7 @@ let questions = [
   	answer: 3,
   },
   {	
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I wish Ato …….. come to see us tomorrow.',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I wish Ato \u2026\u2026.. come to see us tomorrow.',
 	choice1: 'will',
 	choice2:  'is to',
 	choice3:  'would',
@@ -28,7 +28,7 @@ let questions = [
 	answer: 3,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n It’s high time we ………..the items out.',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n It’s high time we \u2026..the items out.',
   	choice1:'move',
 	choice2: 'are moving',
 	choice3: 'moved',
@@ -36,7 +36,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n This amount is all ………I have on me.',  	
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n This amount is all \u2026I have on me.',  	
   	choice1: 'what',
 	choice2:  'that',
 	choice3:  'which',
@@ -44,7 +44,7 @@ let questions = [
   	answer: 4,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The harder you study, ……..your chance of success.',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The harder you study, \u2026\u2026..your chance of success.',
 		choice1:'the great',
 	choice2:  'greater',
 	choice3:	  'greatest',
@@ -52,7 +52,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Please, I would rather you ……….not disturb me.',  	
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Please, I would rather you \u2026.not disturb me.',  	
   	choice1: 'did',
 	choice2:  'will',
 	choice3:  'may',
@@ -60,7 +60,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n That pair of trousers is worn …………',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n That pair of trousers is worn \u2026',
 		choice1:'in',
 	choice2:  'out',
 	choice3:	  'into',
@@ -68,7 +68,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Atsu is looking forward to ……….his friends at the party.',	 
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Atsu is looking forward to \u2026.his friends at the party.',	 
   	choice1: 'see',
 	choice2:   'be seeing',
 	choice3:   'seeing',
@@ -76,7 +76,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The minister is my ……….brother.',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The minister is my \u2026.brother.',		
   	choice1: 'senior',
 	choice2:   'older',
 	choice3:   'elder',
@@ -84,7 +84,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We have ………sugar, so we cannot have breakfast.',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We have \u2026sugar, so we cannot have breakfast.',		
   	choice1:'a few',
 	choice2:  'little',
 	choice3:  'few',
@@ -92,7 +92,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I wouldn’t say this to …….',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I wouldn’t say this to \u2026\u2026.',		
   	choice1:'no other',
 	choice2:  'any other',
 	choice3:  'nobody',
@@ -100,7 +100,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n This vase is made …………glass.',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n This vase is made \u2026glass.',		
   	choice1:'on',
 	choice2:  'of',
 	choice3:  'with',
@@ -108,7 +108,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Mrs. Akwei is blind …………the faults of her children.',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Mrs. Akwei is blind \u2026the faults of her children.',
 		choice1:'on',
 	choice2:  'over',
 	choice3:	  'to',
@@ -116,7 +116,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Shika was absent yesterday, ………?',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Shika was absent yesterday, \u2026?',		
   	choice1:'isn’t she',
 	choice2:  'has she',
 	choice3:  'didn’t she',
@@ -124,7 +124,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Come and see me tomorrow, ……….. you?',
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Come and see me tomorrow, \u2026.. you?',
 		choice1:'shall',
 	choice2:  'will',
 	choice3:	  'may',
@@ -132,7 +132,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n If Kofi had studied hard, he ………..his examination.',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n If Kofi had studied hard, he \u2026..his examination.',		
   	choice1:'would pass',
 	choice2:  'would be passing',
 	choice3:  'will be passing',
@@ -140,7 +140,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The boy likes his ……….dog.',		
+  	question: 'LEXIS AND STRUCTURE\n From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The boy likes his \u2026.dog.',		
   	choice1:'little pretty brown',
 	choice2:  'pretty brown little',
 	choice3:  'pretty little brown',

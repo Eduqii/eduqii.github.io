@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Two people perished …………….the spot.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Two people perished \u2026\u2026.the spot.',
   	choice1:'upon',
 	choice2: 'in',
 	choice3: 'on',
@@ -20,7 +20,7 @@ let questions = [
   	answer: 3,
   },
   {	
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Oyo fell ill ……………..measles.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Oyo fell ill \u2026\u2026..measles.',
 	choice1: 'at',
 	choice2:  'by',
 	choice3:  'of',
@@ -28,7 +28,7 @@ let questions = [
 	answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The doctor gave ……………………to the patient.',  	
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The doctor gave \u2026\u2026to the patient.',  	
   	choice1: 'some good advice',
 	choice2:  'much good advices',
 	choice3:  'many good advice',
@@ -36,7 +36,7 @@ let questions = [
   	answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n All girls were supposed to wear …………………during the Speech Day.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n All girls were supposed to wear \u2026\u2026during the Speech Day.',
   	choice1:'new, white, long dresses',
 	choice2: 'new, long, white dresses',
 	choice3: 'long, white, new dresses',
@@ -44,7 +44,7 @@ let questions = [
   	answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n ‘I think you know ………………already’, said the host to all the participants.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n ‘I think you know \u2026\u2026\u2026already’, said the host to all the participants.',
 		choice1:'one another',
 	choice2:  'each other',
 	choice3:	  'themselves',
@@ -60,7 +60,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Children usually take ……………their parents in appearance.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Children usually take \u2026\u2026their parents in appearance.',
 		choice1: 'after',
 	choice2:   'from',
 	choice3:	   'to',
@@ -68,7 +68,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We haven’t had …………….rice to eat this week.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We haven’t had \u2026\u2026.rice to eat this week.',
 		choice1:'some',
 	choice2:  'little',
 	choice3:	  'any',
@@ -76,7 +76,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The chief praised the ………………during the students demonstration.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The chief praised the \u2026\u2026\u2026during the students demonstration.',
 		choice1:'policemen’s behaviours',
 	choice2:  'policemen behaviours',
 	choice3:	  'policemen’s behaviour',
@@ -84,7 +84,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n When the lights went off I …………my supper.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n When the lights went off I \u2026my supper.',
 		choice1:'have eaten',
 	choice2:  'have been eating',
 	choice3:	  'am eating',
@@ -92,7 +92,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The doctor said she ……………if she had not kept strictly to her diet.',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The doctor said she \u2026\u2026if she had not kept strictly to her diet.',
 		choice1:'has died',
 	choice2:  'will die',
 	choice3:	  'would die',
@@ -100,7 +100,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We saw the plane ………………for Kumasi',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n We saw the plane \u2026\u2026\u2026for Kumasi',		
   	choice1:' take on',
 	choice2:  'take of',
 	choice3:  'take off',
@@ -108,7 +108,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n There are many big houses in our area, ………….?',
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n There are many big houses in our area, \u2026.?',
 		choice1:'isn’t it',
 	choice2:  'aren’t they',
 	choice3:	  'weren’t there',
@@ -116,7 +116,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n You have cut the grass, ……………..?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n You have cut the grass, \u2026\u2026..?',		
   	choice1:'haven’t you',
 	choice2:  'did you',
 	choice3:  'didn’t you',
@@ -124,7 +124,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The new airport ………………next year.',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n The new airport \u2026\u2026\u2026next year.',		
   	choice1:'will be completed',
 	choice2:  'shall complete',
 	choice3:  'will be completing',
@@ -132,7 +132,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Walking in the rain is not good, ……………….?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Walking in the rain is not good, \u2026\u2026\u2026.?',		
   	choice1:'is not',
 	choice2:  'is it',
 	choice3:  'must not',
@@ -140,7 +140,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Go over your work carefully, …………….. you?',		
+  	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n Go over your work carefully, \u2026\u2026.. you?',		
   	choice1:'do',
 	choice2:  'will',
 	choice3:  'may',
@@ -188,7 +188,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.\n\n Awuni normally f̲e̲e̲l̲s̲ ̲a̲t̲ ̲h̲o̲m̲e̲ in my house. This means that Awuni …………….in my house.',		
+  	question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.\n\n Awuni normally f̲e̲e̲l̲s̲ ̲a̲t̲ ̲h̲o̲m̲e̲ in my house. This means that Awuni \u2026\u2026.in my house.',		
   	choice1:'feels comfortable',
 	choice2:  'lives',
 	choice3:  'moves about',
@@ -268,7 +268,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'From the options lettered A to D, choose the one that correctly answers the questions or completes the sentence\n\n The main idea in a novel or play is the ……………….',
+  	question: 'From the options lettered A to D, choose the one that correctly answers the questions or completes the sentence\n\n The main idea in a novel or play is the \u2026\u2026\u2026.',
   	choice1:'suspense',
 	choice2:  'plot',
 	choice3:  'gist',
@@ -276,7 +276,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'From the options lettered A to D, choose the one that correctly answers the questions or completes the sentence\n\n The three main forms of literature are prose, drama and ………..',
+  	question: 'From the options lettered A to D, choose the one that correctly answers the questions or completes the sentence\n\n The three main forms of literature are prose, drama and \u2026..',
 		choice1:'novel',
 	choice2:  'satire',
 	choice3:	  'poetry',
@@ -284,7 +284,7 @@ let questions = [
 		answer: 3,
   },
   {
-  	question: 'Read the following stanza and answer this question\n' + '(refer to Extract)\n\n' + 'Time in the stanza is being used as …………………..',		
+  	question: 'Read the following stanza and answer this question\n' + '(refer to Extract)\n\n' + 'Time in the stanza is being used as \u2026\u2026..',		
   	choice1:'symbol',
 	choice2:  'simile',
 	choice3:  'synecdoche',
@@ -292,7 +292,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: 'Read the following stanza and answer this question\n' + 'The rhyme scheme of the stanza is …………….',  	
+  	question: 'Read the following stanza and answer this question\n' + 'The rhyme scheme of the stanza is \u2026\u2026.',  	
   	choice1:'abba',
 	choice2:  'bbaa',
 	choice3:  'abab',
@@ -300,7 +300,7 @@ let questions = [
 		answer: 1,
   },
   {
-  	question: 'The place and time of the action of a play or novel is its ……………',		
+  	question: 'The place and time of the action of a play or novel is its \u2026\u2026',		
   	choice1:'background',
 	choice2:  'setting',
 	choice3:  'scene',
@@ -316,7 +316,7 @@ let questions = [
 		answer: 4,
   },
   {
-  	question: ' The main function of imagery in literature is to make readers / listeners …………….',
+  	question: ' The main function of imagery in literature is to make readers / listeners \u2026\u2026.',
   	choice1:'appreciate the great efforts of writers',
 	choice2:  'understand clearly what writers put across',
 	choice3:  'admire how learned writers are',
@@ -324,7 +324,7 @@ let questions = [
 		answer: 2,
   },
   {
-  	question: 'A character in a play that opposes the hero or heroine is the …………..',
+  	question: 'A character in a play that opposes the hero or heroine is the \u2026..',
   	choice1:'antagonist',
 	choice2:  'challenger',
 	choice3:  'opponent',

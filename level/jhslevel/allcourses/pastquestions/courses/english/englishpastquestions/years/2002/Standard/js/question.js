@@ -4,9 +4,9 @@
 const quiz = [
   {
   	question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
-'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
-'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam got up early that morning because he …..',
+'<i>' + 'Antobam\u2019s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father\u2019s houseboy, his trunk and chop box were packed into his father\u2019s car. At exactly eleven o\u2019clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours\u2019 drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, \u201CHommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam\u2019s father saw his son\u2019s name under House Two and wanted to take the luggage there. But one of the boys politely said, \u201CDaddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam\u2019s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam got up early that morning because he \u2026..',
 options: ['was very happy',
  'was anxious to go to his new school',
  'would never forget that day',
@@ -15,9 +15,9 @@ answer: 0
 },
 {
 question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
-'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
-'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + '  Antobam arrived at his new school at half past ……….',
+'<i>' + 'Antobam\u2019s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father\u2019s houseboy, his trunk and chop box were packed into his father\u2019s car. At exactly eleven o\u2019clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours\u2019 drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, \u201CHommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam\u2019s father saw his son\u2019s name under House Two and wanted to take the luggage there. But one of the boys politely said, \u201CDaddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam\u2019s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + '  Antobam arrived at his new school at half past \u2026.',
 options: ['ten',
  'eleven',
  'twelve',
@@ -26,9 +26,9 @@ answer: 2
 },
 {
 question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
-'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
-'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' The senior boys made Antobam carry his boxes because they …………',
+'<i>' + 'Antobam\u2019s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father\u2019s houseboy, his trunk and chop box were packed into his father\u2019s car. At exactly eleven o\u2019clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours\u2019 drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, \u201CHommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam\u2019s father saw his son\u2019s name under House Two and wanted to take the luggage there. But one of the boys politely said, \u201CDaddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam\u2019s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' The senior boys made Antobam carry his boxes because they \u2026',
 options: ['welcomed his father',
  'were following tradition',
  'thought he was strong',
@@ -37,9 +37,9 @@ answer: 1
 },
 {
 question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
-'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
-'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Arduous in the passage means',
+'<i>' + 'Antobam\u2019s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father\u2019s houseboy, his trunk and chop box were packed into his father\u2019s car. At exactly eleven o\u2019clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours\u2019 drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, \u201CHommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam\u2019s father saw his son\u2019s name under House Two and wanted to take the luggage there. But one of the boys politely said, \u201CDaddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam\u2019s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Arduous in the passage means',
 options: ['strange',
  'new',
  'additional',
@@ -48,9 +48,9 @@ answer: 3
 },
 {
 question: '<b>' + 'Read Passage I carefully and answer this question which follow' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + 'Antobam‟s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father‟s houseboy, his trunk and chop box were packed into his father‟s car. At exactly eleven o‟clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
-'After about one and a half hours‟ drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, “Hommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
-'From the list of newcomers displayed on the notice board, Antobam‟s father saw his son‟s name under House Two and wanted to take the luggage there. But one of the boys politely said, “Daddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam‟s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam‟s father left the school ……',
+'<i>' + 'Antobam\u2019s first day in senior secondary school was the day he would never forget. That morning he got up earlier than usual ready for his father to take him to the new school. With the help of his father\u2019s houseboy, his trunk and chop box were packed into his father\u2019s car. At exactly eleven o\u2019clock, the car sped off as Antobam happily waved goodbye to his brothers and sisters.' +
+'After about one and a half hours\u2019 drive, they arrived at the school. Antobam beamed with smiles as the car pulled up in front of the administration block. Some huge boys rushed to the car shouting, \u201CHommo, welcome; hommo, welcome!” Antobam misunderstood this for a warm welcome, but he was soon proved wrong.' +
+'From the list of newcomers displayed on the notice board, Antobam\u2019s father saw his son\u2019s name under House Two and wanted to take the luggage there. But one of the boys politely said, \u201CDaddy, stop. We have a tradition here.” Before he knew what was happening, two of the boys had lifted his trunk and chop box and put them on Antobam\u2019s head. He had never carried any load on his head before, but here he was with the arduous task of carrying two heavy boxes. Tears started flowing as his father looked on in disbelief. He later left the school very disturbed, wondering what was going to happen to his beloved son.' + '</i>' + '<br />' + '<br />' + ' Antobam\u2019s father left the school \u2026',
 options: ['a happy man',
  'crying for his son',
  'a worried man',
@@ -62,10 +62,10 @@ answer: 2
 
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
-'School leavers migrate to the cities and towns to …….',
+'School leavers migrate to the cities and towns to \u2026.',
 options: ['seek enjoyment',
  'look for work',
  'look for amenities',
@@ -75,7 +75,7 @@ answer: 1
 {
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
 'One of the results of the movement of the youth in the rural areas is that the',
@@ -88,10 +88,10 @@ answer: 3
 {
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
-'White-collar jobs as used in the passage means ………',
+'White-collar jobs as used in the passage means \u2026',
 options: ['working in the cities',
  'working in offices',
  'wearing white-collar shirts',
@@ -101,10 +101,10 @@ answer: 1
 {
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
-'The word snatch means ……….',
+'The word snatch means \u2026.',
 options: ['carry ',
  'steal ',
  'push',
@@ -114,10 +114,10 @@ answer: 1
 {
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
-'When the youth come into the cities ………',
+'When the youth come into the cities \u2026',
 options: ['there is over population ',
  'amenities are provided ',
  'jobs are created',
@@ -128,10 +128,10 @@ answer: 0
 
 question: 'Read Passage II carefully and answer this question which follow' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
 '<i>' + 'Every year, thousands of African school leavers from the rural areas rush to the urban areas to seek employment. Apart from leaving the countryside thinly populated, these youths cause overcrowding in the cities. They cannot get any house to live in so they are found sleeping in market places and on verandas.' +
-'Most of our youths regard agriculture as a poor man‟s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people‟s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
+'Most of our youths regard agriculture as a poor man\u2019s business. They prefer white-collar jobs to farming and forget that one can gain fame or wealth through agriculture. Most of these youths are greatly disappointed in the townships. Lack of jobs and money force them to join bad companies, break into houses at night or snatch people\u2019s bags at lorry parks or in the street during the day. They often wear dirty clothes and are seen in the streets trying to find something to eat.' +
 'One way of checking this movement is by setting up factories in the rural areas and establishing large farms where the school leavers can easily find work. Other ways are providing good means of transport and communication. Libraries, medical services and post offices are equally important amenities necessary in rural areas.' +
 'These facilities together with good drinking water and electricity will make these areas attractive enough for the youth to remain and help grow food and cash crops for the country. They can also produce raw materials for our industries.' + '</i>' + '<br />' + '<br />' +
-'When the youth remain in the rural areas they can help produce ………',
+'When the youth remain in the rural areas they can help produce \u2026',
 options: ['electricity',
  'food',
  'libraries',
@@ -192,7 +192,7 @@ options: ['does not work accurately',
 answer: 2
 },
 {
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His clothes are always ' + '<u>' + 'out of date. ' + '</u>' + ' This means that his clothes are …………',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His clothes are always ' + '<u>' + 'out of date. ' + '</u>' + ' This means that his clothes are \u2026',
 options: ['torn',
  'too tight',
  'faded',
@@ -217,7 +217,7 @@ answer: 2
 },
 {
 
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'The manager‟s strange behaviour made the workers ' + '<u>' + 'smell a rat.' + '</u>' + ' This means that the workers became..…',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'The manager\u2019s strange behaviour made the workers ' + '<u>' + 'smell a rat.' + '</u>' + ' This means that the workers became..\u2026',
 options: ['rude',
  'discouraged',
  'disappointed',
@@ -269,7 +269,7 @@ answer: 3
 {
 //SECTION E
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The doctor advised the patient to stay away ……..alcohol.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The doctor advised the patient to stay away \u2026..alcohol.',
 options: ['for',
  'on',
  'from',
@@ -277,15 +277,15 @@ options: ['for',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have not paid your fees, ……..?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have not paid your fees, \u2026..?',
 options: ['will you',
- 'won‟t you ',
- 'hadn‟t you ',
+ 'won\u2019t you ',
+ 'hadn\u2019t you ',
  'have you'],
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'His pair of trousers ……..torn.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'His pair of trousers \u2026..torn.',
 options: ['is ',
  'are ',
  'have ',
@@ -293,7 +293,7 @@ options: ['is ',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I prefer honey ………sugar.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I prefer honey \u2026sugar.',
 options: ['to ',
  'are ',
  'from ',
@@ -301,7 +301,7 @@ options: ['to ',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If it rains I …………..my crops.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If it rains I \u2026..my crops.',
 options: ['have planted',
  'had planted',
  'will have planted',
@@ -309,7 +309,7 @@ options: ['have planted',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I can …………time for my homework.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I can \u2026time for my homework.',
 options: ['find enough easily ',
  'find easily enough ',
  'easily enough find ',
@@ -317,7 +317,7 @@ options: ['find enough easily ',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Have you heard the national anthem ………..in your language?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Have you heard the national anthem \u2026..in your language?',
 options: ['sing ',
  'sung ',
  'sang ',
@@ -325,7 +325,7 @@ options: ['sing ',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This bag is ……….heavy for a child to carry.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'This bag is \u2026.heavy for a child to carry.',
 options: ['so',
  'very',
  'too',
@@ -333,7 +333,7 @@ options: ['so',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '………..you dislike the girl, you shouldn‟t beat her.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '\u2026..you dislike the girl, you shouldn\u2019t beat her.',
 options: ['Even if ',
  'Since ',
  'As',
@@ -341,7 +341,7 @@ options: ['Even if ',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Ghana is over forty years, therefore she …………of age.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Ghana is over forty years, therefore she \u2026of age.',
 options: ['came',
  'come',
  'has come',
@@ -349,15 +349,15 @@ options: ['came',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'To be a teenager is indeed great ………..?',
-options: ['isn‟t it',
- 'aren‟t you',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'To be a teenager is indeed great \u2026..?',
+options: ['isn\u2019t it',
+ 'aren\u2019t you',
  'it is',
  'does it'],
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Alf and Pat look so identical that it is difficult to pick the ………of the two.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Alf and Pat look so identical that it is difficult to pick the \u2026of the two.',
 options: ['oldest',
  'old ',
  'elder ',
@@ -365,7 +365,7 @@ options: ['oldest',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Uncle Ebo brought a carpenter who easily climbed ………..the roof to repair the leakage.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Uncle Ebo brought a carpenter who easily climbed \u2026..the roof to repair the leakage.',
 options: ['into',
  'on',
  'at',
@@ -373,7 +373,7 @@ options: ['into',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Bola is the …………beautiful of the three girls.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Bola is the \u2026beautiful of the three girls.',
 options: ['more ',
  'most ',
  'much ',

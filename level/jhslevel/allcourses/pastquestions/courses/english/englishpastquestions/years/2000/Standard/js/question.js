@@ -6,7 +6,7 @@ const quiz = [
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
 '<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
 'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
-'Mr. Kobi was sorry about the headmaster‟s early retirement because',
+'Mr. Kobi was sorry about the headmaster\u2019s early retirement because',
 options: ['it was necessary to do so',
  'he would deny the pupils of his help',
  'he had done a lot',
@@ -50,7 +50,7 @@ answer: 0
 question: '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE I' + '<br />' + '<br />' +
 '<i>' + 'Mr. Kobi, the next speaker, said that although he had left the school many years ago, he still remembered with thanks all that the headmaster had done to make sure that his pupils were well prepared for life. He was sorry that the headmaster had decided to retire at so early an age. This would deprive the pupils of his assistance long before it was necessary to do so. However, he wished the headmaster the best of luck in his retirement and offered him a silver tray as a sign of the high esteem in which his old pupils held him.' + 
 'After the tray had been handed over, the retiring headmaster came forward to make his speech of thanks. He began by giving a brief summary of the time he had spent as headmaster of the school. He added that it had always been his aim to do his best for the pupils under his charge. He expressed his gratitude to the masters who had been on his staff for their hard work and sacrifice. Finally, he said how glad he was that he was being succeeded as headmaster by Mr. Smith, who had been teaching in the school for many years. He believed that Mr. Smith was generally admired and respected by all who knew him. He asked all his old pupils to take an interest in the school after he had gone, and promised that he would certainly do so himself.' + '</i>' + '<br />' + '<br />' + 
-'The retiring headmaster said he would continue …………….. the school.',
+'The retiring headmaster said he would continue \u2026\u2026.. the school.',
 options: ['praising',
  'to teach in',
  'visiting',
@@ -59,8 +59,8 @@ answer: 3
 },
 {
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
-'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
-'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day\u2019s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day\u2019s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children\u2019s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
 'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'People like to watch television because it',
 options: ['is very beautiful',
  'solves serious problems',
@@ -70,8 +70,8 @@ answer: 3
 },
 {
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
-'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
-'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day\u2019s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day\u2019s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children\u2019s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
 'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'The writer feels that children should',
 options: ['watch television with their parents',
  'do nothing while watching television',
@@ -81,8 +81,8 @@ answer: 2
 },
 {
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
-'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
-'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day\u2019s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day\u2019s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children\u2019s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
 'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'Poses in the passage means',
 options: ['solves',
  'increases',
@@ -92,8 +92,8 @@ answer: 2
 },
 {
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
-'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
-'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day\u2019s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day\u2019s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children\u2019s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
 'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'According to the passage, which of the following is not true about television?',
 options: ['It is a source of entertainment.',
  'It helps us to see unknown places and people ',
@@ -103,8 +103,8 @@ answer: 3
 },
 {
 question: '<b>' + 'Read Passage II carefully and answer this question' + '</b>' + '<br />' + '<br />' + 'PASSAGE II' + '<br />' + '<br />' +
-'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day‟s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
-'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day‟s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children‟s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
+'<i>' + 'It is easy to see why television is so attractive to both children and adults. It is available in the home and we can watch it in comfort whenever we please. Besides, it provides entertainment after a day\u2019s work. Television also enables us to see places and people and their ways of life. Even people with little or no formal education can watch and enjoy the programmes.' +
+'Unfortunately, television takes up much of our time. To watch it we must sit in front of it, watch as long as a programme lasts, and do little else. This exclusive aspect of television, the fact that it prevents us from doing other things, poses more serious problems than is commonly realized. While television may provide an acceptable form of relaxation for adults after a day\u2019s work, it robs children of the time they must use to learn other things. In addition, not everything that television offers is good. Even when children\u2019s programmes are provided, we are not sure that these are the only ones they will watch. In fact, these days children watch more programmes meant for adults than for them.' + 
 'One likely outcome of this is that children may learn about the adult world too soon, and at a time when they can easily be influenced.' + '</i>' + '<br />' + '<br />' + 'From the passage, we realise that the writer',
 options: ['dislikes adult programmes',
  'is not happy about the present situation',
@@ -116,7 +116,7 @@ answer: 1
 //SECTION B
 
 
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The Headmaster asked the school prefect to ' + '<u>' + 'summon' + '</u>' + ' a meeting of the Student‟s Council.',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The Headmaster asked the school prefect to ' + '<u>' + 'summon' + '</u>' + ' a meeting of the Student\u2019s Council.',
 options: ['chair',
  'call',
  'cancel',
@@ -132,7 +132,7 @@ options: ['strange',
 answer: 2
 },
 {
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'After the hard day‟s work he returned home completely ' + '<u>' + 'exhausted.' + '</u>',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'After the hard day\u2019s work he returned home completely ' + '<u>' + 'exhausted.' + '</u>',
 options: ['disturbed',
  'worn out',
  'unhappy',
@@ -140,7 +140,7 @@ options: ['disturbed',
 answer: 1
 },
 {
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The auditor‟s job was to ' + '<u>' + 'go over' + '</u>' + ' the accounts carefully.',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + 'The auditor\u2019s job was to ' + '<u>' + 'go over' + '</u>' + ' the accounts carefully.',
 options: ['present ',
  'calculate ',
  'settle',
@@ -158,10 +158,10 @@ answer: 0
 {
 //SECTION C
 
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Musa told his friend to ' + '<u>' + 'mind his own business.' + '</u>' + ' This means that Musa‟s friend should',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 'Musa told his friend to ' + '<u>' + 'mind his own business.' + '</u>' + ' This means that Musa\u2019s friend should',
 options: ['worry about his own work',
  'do his own buying and selling',
- 'not interfere in other people‟s affairs',
+ 'not interfere in other people\u2019s affairs',
  'not help other people'],
 answer: 2
 },
@@ -242,7 +242,7 @@ answer: 2
 {
 //SECTION E
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When the lights went off, I ……………..my supper.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When the lights went off, I \u2026\u2026..my supper.',
 options: ['have eaten',
  'am eating',
  'have been eating',
@@ -250,7 +250,7 @@ options: ['have eaten',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The factory had to ……………………many workers because of the fall in production.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The factory had to \u2026\u2026many workers because of the fall in production.',
 options: ['lay down',
  'put off',
  'put away',
@@ -258,7 +258,7 @@ options: ['lay down',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We ………………to play a return match last Friday.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We \u2026\u2026to play a return match last Friday.',
 options: ['have ',
  'were ',
  'ought ',
@@ -266,7 +266,7 @@ options: ['have ',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It was not obvious ……………….he was pointing to.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'It was not obvious \u2026\u2026.he was pointing to.',
 options: ['the one to which',
  'which one ',
  'one which ',
@@ -274,7 +274,7 @@ options: ['the one to which',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I have forgotten all ………………..you told me.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I have forgotten all \u2026\u2026..you told me.',
 options: ['that',
  'which ',
  'what ',
@@ -282,7 +282,7 @@ options: ['that',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Selfish people always consider ………………first.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Selfish people always consider \u2026\u2026first.',
 options: ['oneself',
  'yourselves ',
  'themselves ',
@@ -290,7 +290,7 @@ options: ['oneself',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '………………….the watch is old, it is still working.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '\u2026\u2026.the watch is old, it is still working.',
 options: ['Although',
  'Despite',
  'Since',
@@ -298,7 +298,7 @@ options: ['Although',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Teye asked me how ………………….French I knew.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Teye asked me how \u2026\u2026.French I knew.',
 options: ['many ',
  'few ',
  'little ',
@@ -306,7 +306,7 @@ options: ['many ',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwaku‟s evidence …………………. to be checked.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kwaku\u2019s evidence \u2026\u2026. to be checked.',
 options: ['needing',
  'needs',
  'is needing',
@@ -314,7 +314,7 @@ options: ['needing',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The headmistress said they could not postpone ………….. the school any longer.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The headmistress said they could not postpone \u2026.. the school any longer.',
 options: ['re-opening',
  're-open',
  'to have re-opened',
@@ -322,7 +322,7 @@ options: ['re-opening',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You know very well that it was no fault of …………….',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You know very well that it was no fault of \u2026\u2026.',
 options: ['my',
  'I',
  'me',
@@ -330,7 +330,7 @@ options: ['my',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You are not hurt, ……………..?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' You are not hurt, \u2026\u2026..?',
 options: ['were you ',
  'did you ',
  'are you ',
@@ -338,7 +338,7 @@ options: ['were you ',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I don‟t mind ……………..home early.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I don\u2019t mind \u2026\u2026..home early.',
 options: ['you go ',
  'your go ',
  'you to go',
@@ -346,7 +346,7 @@ options: ['you go ',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' All ……………..is good health.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' All \u2026\u2026..is good health.',
 options: ['what I need',
  'to need',
  'that I need',
@@ -354,7 +354,7 @@ options: ['what I need',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If anyone greets you, it is polite to return ………….greeting.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If anyone greets you, it is polite to return \u2026.greeting.',
 options: ['your',
  'its',
  'their',

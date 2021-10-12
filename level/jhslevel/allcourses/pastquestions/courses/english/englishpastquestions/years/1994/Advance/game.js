@@ -22,11 +22,11 @@ PASSAGE I
 
 A long time ago, the world was in total darkness. There was neither water nor fire. Men lived in this condition for a long time because King Eagle, who was the custodian of the sun, moon, stars, water and fire, had bullied them into accepting that situation.
 
-Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle‟s hidden treasure that consisted of light, water and fire and flew away with it.
+Meanwhile, Eagle had a charming daughter who had fallen in love with Crow – a handsome spotless white bird. As their friendship grew stronger, Crow got to know what Eagle was keeping away from men. On one of his visits, therefore, he secretly stole Eagle\u2019s hidden treasure that consisted of light, water and fire and flew away with it.
 
 As soon as he got outside, he hanged the sun in the sky. Instantly, the whole world was brilliantly lit up. When the sun set, he fixed the moon and spread the stars around it. Then the darkness of the night began to lift. He was so thrilled by his achievement that he glided and swerved in a beautiful display in the sky. While he was doing this, the water fell to the ground and formed rivers, lakes and streams.
 
-He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow‟s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.
+He still held fast unto the fire in his beak. Suddenly some strong and violent winds blew smoke from the fire over Crow\u2019s beautiful feathers. The smoke made the feathers jet-black leaving a band of white feathers around his neck.
 
 
 Que 6 - 12
@@ -37,13 +37,13 @@ As we were eagerly preparing for our special supper of roasted chicken, pepper s
 According to him he was passing to the next village but there were no vehicles. Therefore he was
 stranded. My parents with their customary generosity allowed him to stay the rest of the day with us. Soon after, supper was ready. We the younger children had to eat in the kitchen, whilst my parents and the others ate in the dining room.
 
-From where we were eating we could hear and see the adults. “Now, Mr Anang,” said my father, “you being the last to arrive will share the chicken,” “Very well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, “You are the head of the family, so you get the head.” To my mother, he said, “You are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,
+From where we were eating we could hear and see the adults. \u201CNow, Mr Anang,” said my father, \u201Cyou being the last to arrive will share the chicken,” \u201CVery well said,” agreed Mr Anang. He began by cutting the head of the chicken, which he gave to Papa saying, \u201CYou are the head of the family, so you get the head.” To my mother, he said, \u201CYou are the next to the head; therefore, get the neck.” My elder brother, Yoofi, and sister,
 Aba had wings because they were of age and would need wings to fly away from the family nest. The other two
 
-guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, “I, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.
+guests got the feet in order that they could walk to their destinations. Finally, he declared in a loud voice, \u201CI, a poor wandering man, who must treat my kwashiorkor once and for all, will take the rest!” There was a long silence after this around the dining table.
 
 */		
-question: 'Read Passage I carefully and answer this question\n Why did men not complain about their condition? Because they …………',
+question: 'Read Passage I carefully and answer this question\n Why did men not complain about their condition? Because they \u2026',
 choice1: 'thought fire was too hot',
 choice2: 'were afraid of Eagle',
 choice3: 'were satisfied with what they had',
@@ -61,7 +61,7 @@ choice5: 'sun, moon, fire, water',
 answer: 1,
 },
 {
-question: 'Read Passage I carefully and answer this question\n Which of the following actions was a deliberate one by Crow? The …………',
+question: 'Read Passage I carefully and answer this question\n Which of the following actions was a deliberate one by Crow? The \u2026',
 choice1: 'dropping of water to the ground',
 choice2: 'appearance of violent winds',
 choice3: 'burning of his beak',
@@ -79,7 +79,7 @@ choice5: 'popular',
 answer: 2,
 },
 {
-question: 'Read Passage I carefully and answer this question\n Eagle‟s action can best be described as',
+question: 'Read Passage I carefully and answer this question\n Eagle\u2019s action can best be described as',
 choice1: 'clever',
 choice2: 'dangerous',
 choice3: 'famous ',
@@ -89,7 +89,7 @@ answer: 5,
 },
 {
 
-question: 'Read Passage II carefully and answer this question\nThe writer‟s family were preparing for ………………',
+question: 'Read Passage II carefully and answer this question\nThe writer\u2019s family were preparing for \u2026\u2026',
 choice1: 'a birthday party',
 choice2: 'an extraordinary supper',
 choice3: 'a celebration',
@@ -98,7 +98,7 @@ choice5: 'a family',
 answer: 2,
 },
 {
-question: 'Read Passage II carefully and answer this question\nThe handsome stranger stopped at the writer‟s house because…………',
+question: 'Read Passage II carefully and answer this question\nThe handsome stranger stopped at the writer\u2019s house because\u2026',
 choice1: 'he did not know the way to his village',
 choice2: 'he was hungry',
 choice3: 'it was very late in the night',
@@ -107,7 +107,7 @@ choice5: 'he wanted to meet her family',
 answer: 4,
 },
 {
-question: 'Read Passage II carefully and answer this question\nTheir customary generosity in the passage tell us that the parents were usually ………..',
+question: 'Read Passage II carefully and answer this question\nTheir customary generosity in the passage tell us that the parents were usually \u2026..',
 choice1: 'proud',
 choice2: 'strict',
 choice3: 'attentive',
@@ -135,7 +135,7 @@ answer: 3,
 },
 {
 
-question: 'Read Passage II carefully and answer this question\nMr Anang‟s behaviour can best be described as ……………',
+question: 'Read Passage II carefully and answer this question\nMr Anang\u2019s behaviour can best be described as \u2026\u2026',
 choice1: 'mean and clever',
 choice2: 'talkative but generous',
 choice3: 'honest and generous',
@@ -144,7 +144,7 @@ choice5: 'interesting but fooling',
 answer: 1,
 },
 {
-question: 'Read Passage II carefully and answer this question\nHow did the writer‟s family respond to the way the roasted chicken was shared? They ………',
+question: 'Read Passage II carefully and answer this question\nHow did the writer\u2019s family respond to the way the roasted chicken was shared? They \u2026',
 choice1: 'were annoyed',
 choice2: 'wept over it ',
 choice3: 'were shocked ',
@@ -202,7 +202,7 @@ answer: 1,
 {
 //SECTION C
 
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The students were advised t̲o̲ ̲s̲t̲o̲p̲ ̲b̲u̲i̲l̲d̲i̲n̲g̲ ̲c̲a̲s̲t̲l̲e̲s̲ ̲i̲n̲ ̲t̲h̲e̲ ̲a̲i̲r̲.̲ This means that the students should……..',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The students were advised t̲o̲ ̲s̲t̲o̲p̲ ̲b̲u̲i̲l̲d̲i̲n̲g̲ ̲c̲a̲s̲t̲l̲e̲s̲ ̲i̲n̲ ̲t̲h̲e̲ ̲a̲i̲r̲.̲ This means that the students should\u2026..',
 choice1: 'not build any more castles',
 choice2: 'be serious and realistic',
 choice3: 'not worry about castles',
@@ -211,7 +211,7 @@ choice5: 'not think about building now',
 answer: 2,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Even though I don‟t talk to her, I̲ ̲g̲i̲v̲e̲ ̲t̲h̲e̲ ̲d̲e̲v̲i̲l̲ ̲h̲i̲s̲ ̲d̲u̲e̲.̲ This means I will ………. her',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Even though I don\u2019t talk to her, I̲ ̲g̲i̲v̲e̲ ̲t̲h̲e̲ ̲d̲e̲v̲i̲l̲ ̲h̲i̲s̲ ̲d̲u̲e̲.̲ This means I will \u2026. her',
 choice1: 'agree with', 
 choice2: 'confess to ',
 choice3: 'reward',
@@ -220,16 +220,16 @@ choice5: 'forgive',
 answer: 3,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Kwasi is h̲e̲a̲d̲ ̲o̲v̲e̲r̲ ̲h̲e̲e̲l̲s̲ ̲ in love with Ama. This means…………',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Kwasi is h̲e̲a̲d̲ ̲o̲v̲e̲r̲ ̲h̲e̲e̲l̲s̲ ̲ in love with Ama. This means\u2026',
 choice1: 'Kwasi looks at his heels when he sees Ama',
-choice2: 'Kwasi‟s love for Ama is abnormal',
-choice3: 'Kwasi can‟t control himself when he sees Ama',
+choice2: 'Kwasi\u2019s love for Ama is abnormal',
+choice3: 'Kwasi can\u2019t control himself when he sees Ama',
 choice4: 'Kwasi is deeply in love with Ama.',
 choice5: 'Kwasi has hurt his head and heel by following Ama',
 answer: 4,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The chief told his linguist not to b̲e̲a̲t̲ ̲a̲b̲o̲u̲t̲ ̲t̲h̲e̲ ̲b̲u̲s̲h̲.̲ This means the linguist must ………',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The chief told his linguist not to b̲e̲a̲t̲ ̲a̲b̲o̲u̲t̲ ̲t̲h̲e̲ ̲b̲u̲s̲h̲.̲ This means the linguist must \u2026',
 choice1: 'not stammer',
 choice2: 'go straight to the point',
 choice3: 'not enter the bush ',
@@ -238,7 +238,7 @@ choice5: 'clear the bush',
 answer: 2,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'When mother returned, Kwame l̲e̲t̲ ̲t̲h̲e̲ ̲c̲a̲t̲ ̲o̲u̲t̲ ̲o̲f̲ ̲t̲h̲e̲ ̲b̲a̲g̲.̲ This means that Kwame ………..',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'When mother returned, Kwame l̲e̲t̲ ̲t̲h̲e̲ ̲c̲a̲t̲ ̲o̲u̲t̲ ̲o̲f̲ ̲t̲h̲e̲ ̲b̲a̲g̲.̲ This means that Kwame \u2026..',
 choice1: 'told mother to go out',
 choice2: 'took the cat from the bag',
 choice3: 'told mother what had happened',
@@ -296,7 +296,7 @@ answer: 2,
 {
 //SECTION E
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'It all depends …………..your being hardworking',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'It all depends \u2026..your being hardworking',
 choice1: 'by',
 choice2: 'with',
 choice3: 'in',
@@ -305,7 +305,7 @@ choice5: 'nothing',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'We should always be proud ………….our motherland.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'We should always be proud \u2026.our motherland.',
 choice1: 'in ',
 choice2: 'of ',
 choice3: 'for ',
@@ -314,7 +314,7 @@ choice5: 'nothing',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + '…………..hearing the news, he jumped high for joy.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + '\u2026..hearing the news, he jumped high for joy.',
 choice1: 'Over',
 choice2: 'On',
 choice3: 'With',
@@ -324,7 +324,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'A thief was caught …………the house yesterday',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'A thief was caught \u2026the house yesterday',
 choice1: 'through',
 choice2: 'up',
 choice3: 'outside',
@@ -333,7 +333,7 @@ choice5: 'nothing',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I object ………..your joining our school team.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I object \u2026..your joining our school team.',
 choice1: 'to ',
 choice2: 'by ',
 choice3: 'at ',
@@ -342,7 +342,7 @@ choice5: 'nothing',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The lady did not see ………….in the house.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The lady did not see \u2026.in the house.',
 choice1: 'somebody',
 choice2: 'no one',
 choice3: 'anybody',
@@ -351,7 +351,7 @@ choice5: 'nothing',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This is the book ……..I picked from the floor.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This is the book \u2026..I picked from the floor.',
 choice1: 'whom ',
 choice2: 'whose ',
 choice3: 'what ',
@@ -360,8 +360,8 @@ choice5: 'nothing',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The man ……….house was burnt down is in hospital.',
-choice1: 'who‟s ',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The man \u2026.house was burnt down is in hospital.',
+choice1: 'who\u2019s ',
 choice2: 'whom ',
 choice3: 'whose ',
 choice4: 'which',
@@ -369,7 +369,7 @@ choice5: 'nothing',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + '…………boys are very happy with the toys',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + '\u2026boys are very happy with the toys',
 choice1: 'They ',
 choice2: 'These ',
 choice3: 'That ',
@@ -378,16 +378,16 @@ choice5: 'nothing',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Have a bottle of coke, will you? No, ………',
-choice1: 'I don‟t',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Have a bottle of coke, will you? No, \u2026',
+choice1: 'I don\u2019t',
 choice2: 'please',
 choice3: 'thank you',
-choice4: 'I won‟t',
+choice4: 'I won\u2019t',
 choice5: 'nothing',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Let‟s go out and play ………….?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Let\u2019s go out and play \u2026.?',
 choice1: 'shall we',
 choice2: 'do we',
 choice3: 'will we',
@@ -396,19 +396,19 @@ choice5: 'nothing',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Kofi will not meet his father at home if he ………….. not here by 5:00 p.m.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Kofi will not meet his father at home if he \u2026.. not here by 5:00 p.m.',
 choice1: 'was ',
 choice2: 'were ',
-choice3: 'isn‟t ',
+choice3: 'isn\u2019t ',
 choice4: 'is',
 choice5: 'nothing',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The baby needs a bath, doesn‟t it? …………..',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The baby needs a bath, doesn\u2019t it? \u2026..',
 choice1: 'no, it needs',
 choice2: 'no, it does',
-choice3: 'yes, it doesn‟t',
+choice3: 'yes, it doesn\u2019t',
 choice4: 'yes, it does',
 choice5: 'nothing',
 answer: 4,

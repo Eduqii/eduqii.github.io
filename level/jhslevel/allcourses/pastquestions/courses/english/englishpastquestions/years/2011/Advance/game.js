@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
 	{
   
-question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n The jury acquitted the man …………murder.',
+question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n The jury acquitted the man \u2026murder.',
 
 choice1:'from',
 choice2: ' of',
@@ -22,7 +22,7 @@ choice4: 'with',
 answer: 2,
 }, 
 {
-question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Ama’s essay is superior ……………that of Adzo.',
+question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Ama’s essay is superior \u2026\u2026that of Adzo.',
 
 choice1:'from',
 choice2: ' over',
@@ -31,7 +31,7 @@ choice4: 'to',
 answer: 4,
 }, 
 {
-question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I would study hard for the examination if I ……..you.',
+question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence\n\n I would study hard for the examination if I \u2026\u2026..you.',
 
 choice1:'am',
 choice2: ' be',
@@ -40,7 +40,7 @@ choice4: 'were',
 answer: 4,
 }, 
 {
-question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I cannot tell you …………',
+question: '	From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I cannot tell you \u2026',
 
 choice1:'what about the story is',
 choice2: ' what about is the story',
@@ -54,7 +54,7 @@ answer: 4,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nThat troublesome friend of ………is here again.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nThat troublesome friend of \u2026is here again.',
 
 choice1:'he',
 choice2: ' him',
@@ -64,7 +64,7 @@ answer: 3,
 
 }, 
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nI told you to leave my office, …….I?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nI told you to leave my office, \u2026\u2026.I?',
 
 choice1:'aren’t',
 choice2: ' didn’t',
@@ -78,7 +78,7 @@ answer: 2,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nKofi travelled five days ……….',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nKofi travelled five days \u2026.',
 
 choice1:'ago',
 choice2: ' hence',
@@ -89,7 +89,7 @@ answer: 1,
 
 }, 
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nKwame’s uncle, with his three friends, ………coming home tomorrow.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nKwame’s uncle, with his three friends, \u2026coming home tomorrow.',
 
 choice1:'are',
 choice2: ' is',
@@ -99,7 +99,7 @@ answer: 2,
 
 }, 
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nI am afraid I cannot make you ……….',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nI am afraid I cannot make you \u2026.',
 
 choice1:'in',
 choice2: ' on',
@@ -109,7 +109,7 @@ answer: 3,
 
 }, 
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nThe plane takes ……….at noon.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nThe plane takes \u2026.at noon.',
 
 choice1:'from',
 choice2: ' of',
@@ -121,7 +121,7 @@ answer: 3,
 },
 { 
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nPlease, can I have ………….salt in my soup?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\nPlease, can I have \u2026.salt in my soup?',
 
 choice1:'little more',
 choice2: ' a few more',
@@ -135,7 +135,7 @@ answer: 3,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I wish I …………my friend next week.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I wish I \u2026my friend next week.',
 
 choice1:'can visit',
 choice2: ' am visiting',
@@ -149,7 +149,7 @@ answer: 4,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n By September 2007, I …………….school for nine years.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n By September 2007, I \u2026\u2026.school for nine years.',
 
 choice1:'had attended',
 choice2: ' have attended',
@@ -163,7 +163,7 @@ answer: 1,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n ……………….Aso runs short of money, what would she do?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n \u2026\u2026\u2026.Aso runs short of money, what would she do?',
 
 choice1:'If',
 choice2: ' In case',
@@ -177,7 +177,7 @@ answer: 1,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Human beings will not live forever, ………………?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Human beings will not live forever, \u2026\u2026\u2026?',
 
 choice1:'will they',
 choice2: ' isn’t it',
@@ -191,7 +191,7 @@ answer: 1,
 
  
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I saw Esi ……………a new pair of shoes.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n I saw Esi \u2026\u2026a new pair of shoes.',
 
 choice1:'bought',
 choice2: ' buy',
@@ -203,7 +203,7 @@ answer: 2,
 },
 { 
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Let us have a cup of tea, ……………?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence \n\n Let us have a cup of tea, \u2026\u2026?',
 
 choice1:'do we',
 choice2: ' shall we',
@@ -376,7 +376,7 @@ answer: 3,
 
 }, 
 {
-question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence \n\n A metaphor achieves the same effect as a/an ……………',
+question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence \n\n A metaphor achieves the same effect as a/an \u2026\u2026',
 
 choice1:'alliteration.',
 choice2: ' metonymy.',

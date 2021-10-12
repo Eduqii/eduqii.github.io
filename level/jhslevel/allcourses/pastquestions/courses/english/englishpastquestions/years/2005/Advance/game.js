@@ -15,7 +15,7 @@ let questions = [
 
 		
 question: 'Read Passage I carefully and answer this question\n\n Why is Ayele not talking today?',
-choice1: 'She does not like Esinam‟s new bag',
+choice1: 'She does not like Esinam\u2019s new bag',
 choice2: 'She wants to get to school early',
 choice3: 'She is moody',
 choice4: 'Esinam is making her angry',
@@ -30,7 +30,7 @@ choice4: 'being cheerful',
 answer: 1,
 },
 {
-question: 'Read Passage I carefully and answer this question\n\n We learnt from the passage that Ayele‟s parents are ……',
+question: 'Read Passage I carefully and answer this question\n\n We learnt from the passage that Ayele\u2019s parents are \u2026',
 choice1: 'sort of poor',
 choice2: 'rich but miserly',
 choice3: 'hardworking',
@@ -38,7 +38,7 @@ choice4: 'honest and cheerful',
 answer: 1,
 },
 {
-question: 'Read Passage I carefully and answer this question\n\n In the passage, Ayele comes across as one who is …..',
+question: 'Read Passage I carefully and answer this question\n\n In the passage, Ayele comes across as one who is \u2026..',
 choice1: 'proud',
 choice2: 'hard to please ',
 choice3: 'hardworking ',
@@ -54,7 +54,7 @@ choice4: 'loudness',
 answer: 2,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\nAccording to the passage, people laugh when they ………',
+question: 'Read Passage II carefully and answer this question\n\nAccording to the passage, people laugh when they \u2026',
 choice1: 'wear new clothes',
 choice2: 'see something funny',
 choice3: 'are at a party',
@@ -62,7 +62,7 @@ choice4: 'are going to school',
 answer: 2,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\n From the passage we learn that laughter makes people look ….',
+question: 'Read Passage II carefully and answer this question\n\n From the passage we learn that laughter makes people look \u2026.',
 choice1: 'strong', 
 choice2: 'healthy', 
 choice3: 'queer', 
@@ -70,7 +70,7 @@ choice4: 'ugly ',
 answer: 2,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\nPeople who laugh a lot …..', 
+question: 'Read Passage II carefully and answer this question\n\nPeople who laugh a lot \u2026..', 
 choice1: 'look strange',
 choice2: 'blame others',
 choice3: 'hurt their bodies',
@@ -78,7 +78,7 @@ choice4: 'make friends easily',
 answer: 4,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\nSocieties can use laughter to …………',
+question: 'Read Passage II carefully and answer this question\n\nSocieties can use laughter to \u2026',
 choice1: 'create fun',
 choice2: 'annoy people',
 choice3: 'correct behaviour',
@@ -119,7 +119,7 @@ choice4: 'rejoicing',
 answer: 4,
 },
 {
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\n\n' + 'Kuuki‟s dream is to become a c͟e͟l͟e͟b͟r͟a͟t͟e͟d͟ musician.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\n\n' + 'Kuuki\u2019s dream is to become a c͟e͟l͟e͟b͟r͟a͟t͟e͟d͟ musician.',
 choice1: 'gospel',
 choice2: 'rich',
 choice3: 'famous',
@@ -137,7 +137,7 @@ answer: 2,
 {
 
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n\n' + 
-'Andy returned to school after p̲l̲a̲y̲i̲n̲g̲ ̲t̲r̲u̲a̲n̲t̲ for three days. This means that Andy was………',
+'Andy returned to school after p̲l̲a̲y̲i̲n̲g̲ ̲t̲r̲u̲a̲n̲t̲ for three days. This means that Andy was\u2026',
 choice1: 'expelled',
 choice2: 'kidnapped',
 choice3: 'deliberately absent',
@@ -146,7 +146,7 @@ answer: 3,
 },
 {
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n\n' + 
-'Ama was the only one who was c̲l̲o̲s̲e̲-̲l̲i̲p̲p̲e̲d̲ about the theft. This means that Ama……….',
+'Ama was the only one who was c̲l̲o̲s̲e̲-̲l̲i̲p̲p̲e̲d̲ about the theft. This means that Ama\u2026.',
 choice1: 'did not cry ',
 choice2: 'was serious ',
 choice3: 'did not talk ',
@@ -155,7 +155,7 @@ answer: 3,
 },
 {
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n\n' + 
-'Issah was asked to t̲o̲e̲ ̲t̲h̲e̲ ̲l̲i̲n̲e̲ or quit the team. This means that Issah was asked to………..',
+'Issah was asked to t̲o̲e̲ ̲t̲h̲e̲ ̲l̲i̲n̲e̲ or quit the team. This means that Issah was asked to\u2026..',
 choice1: 'apologize',
 choice2: 'resign ',
 choice3: 'change ',
@@ -164,7 +164,7 @@ answer: 4,
 },
 {
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n\n' + 
-'The students were advised to g̲i̲v̲e̲ ̲u̲p̲ ̲s̲m̲o̲k̲i̲n̲g̲.̲ This means that the students were asked to ……..smoking',
+'The students were advised to g̲i̲v̲e̲ ̲u̲p̲ ̲s̲m̲o̲k̲i̲n̲g̲.̲ This means that the students were asked to \u2026..smoking',
 choice1: 'suspend',
 choice2: 'stop',
 choice3: 'prevent',
@@ -173,7 +173,7 @@ answer: 2,
 },
 {
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n\n' + 
-'Mrs. Vesa has a h̲e̲a̲r̲t̲ ̲o̲f̲ ̲g̲o̲l̲d̲.̲ This means that Mrs. Vesa is very ……….',
+'Mrs. Vesa has a h̲e̲a̲r̲t̲ ̲o̲f̲ ̲g̲o̲l̲d̲.̲ This means that Mrs. Vesa is very \u2026.',
 choice1: 'bright ',
 choice2: 'clever ',
 choice3: 'kind ',
@@ -210,7 +210,7 @@ answer: 4,
 },
 {
 question: 'From the list of words lettered A to D, choose the one that is most nearly opposite in meaning to the word underlined in each sentence\n\n' +
-'The JSS students are reading the a͟b͟r͟i͟d͟g͟e͟d͟ version of Shakespeare‟s Macbeth',
+'The JSS students are reading the a͟b͟r͟i͟d͟g͟e͟d͟ version of Shakespeare\u2019s Macbeth',
 choice1: 'old',
 choice2: 'original',
 choice3: 'cheap',
@@ -229,7 +229,7 @@ answer: 3,
 {
 
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Ashia is used to ……….her parents every weekend.',
+'Ashia is used to \u2026.her parents every weekend.',
 choice1: 'visit',
 choice2: 'have visited',
 choice3: 'visited',
@@ -238,7 +238,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'……………..students were present.',
+'\u2026\u2026..students were present.',
 choice1: 'The whole ',
 choice2: 'The several ',
 choice3: 'Much of the ',
@@ -247,7 +247,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Jenny has ……………..on her head.',
+'Jenny has \u2026\u2026..on her head.',
 choice1: 'plenty hair ',
 choice2: 'a lot of hair ',
 choice3: 'many hairs ',
@@ -256,7 +256,7 @@ answer: 2,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Korkoi is a ……………….of twelve.',
+'Korkoi is a \u2026\u2026.of twelve.',
 choice1: 'tall, shapely, girl ',
 choice2: 'shapely, tall, girl ',
 choice3: 'girl, shapely, tall ',
@@ -265,7 +265,7 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'The man of God preached that we should love…………',
+'The man of God preached that we should love\u2026',
 choice1: 'another',
 choice2: 'each other ',
 choice3: 'one another ',
@@ -274,7 +274,7 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Mansah is ………..beautiful than any of her three sisters',
+'Mansah is \u2026..beautiful than any of her three sisters',
 choice1: 'very ',
 choice2: 'most ',
 choice3: 'more ',
@@ -283,16 +283,16 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Appiah was appointed prefect of his class,……………',
-choice1: 'wasn‟t it?',
-choice2: 'didn‟t he?',
-choice3: 'isn‟t it?',
-choice4: 'wasn‟t he?',
+'Appiah was appointed prefect of his class,\u2026\u2026',
+choice1: 'wasn\u2019t it?',
+choice2: 'didn\u2019t he?',
+choice3: 'isn\u2019t it?',
+choice4: 'wasn\u2019t he?',
 answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Anytime Ataa went to school she………into trouble',
+'Anytime Ataa went to school she\u2026into trouble',
 choice1: 'got',
 choice2: 'gets',
 choice3: 'is getting',
@@ -301,16 +301,16 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'My dream school is for …………only',
+'My dream school is for \u2026only',
 choice1: 'boy ',
-choice2: 'boy‟s ',
+choice2: 'boy\u2019s ',
 choice3: 'boys ',
-choice4: 'boys‟',
+choice4: 'boys\u2019',
 answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Sam, have you ever …………in this river?',
+'Sam, have you ever \u2026in this river?',
 choice1: 'swam ',
 choice2: 'swum ',
 choice3: 'swim ',
@@ -319,7 +319,7 @@ answer: 2,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Susie and Tim are friends; they like………..',
+'Susie and Tim are friends; they like\u2026..',
 choice1: 'each other ',
 choice2: 'themselves ',
 choice3: 'the other',
@@ -328,7 +328,7 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Aunt Ekua …………..be able to solve the problem.',
+'Aunt Ekua \u2026..be able to solve the problem.',
 choice1: 'can ',
 choice2: 'has ',
 choice3: 'will',
@@ -337,7 +337,7 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'For one week I went to school …………foot.',
+'For one week I went to school \u2026foot.',
 choice1: 'by ',
 choice2: 'on ',
 choice3: 'at ',
@@ -346,7 +346,7 @@ answer: 2,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'The committee has been meeting over the case …………2pm',
+'The committee has been meeting over the case \u20262pm',
 choice1: 'over',
 choice2: 'by',
 choice3: 'since',
@@ -355,7 +355,7 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'I hope you are not ……………tired to run an errand for me.',
+'I hope you are not \u2026\u2026tired to run an errand for me.',
 choice1: 'very',
 choice2: 'so ',
 choice3: 'as ',

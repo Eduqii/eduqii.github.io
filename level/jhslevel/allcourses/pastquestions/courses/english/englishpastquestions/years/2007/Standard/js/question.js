@@ -6,9 +6,9 @@ const quiz = [
 question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'<i>' + '\u201CHelp! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. \u201CSomething must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
 'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
-'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta\u2019s wife and children to his house and quickly returned to fight the flames.' + 
 'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
 'Barimah asked Fosua to stay indoors because ',
 options: ['people were running helter-skelter. ',
@@ -21,26 +21,26 @@ answer: 2
 question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'<i>' + '\u201CHelp! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. \u201CSomething must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
 'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
-'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta\u2019s wife and children to his house and quickly returned to fight the flames.' + 
 'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
 'What did Barimah find immediately he went out?',
 options: ['Araba fighting the flames',
  'People packing things',
  'People shouting',
- 'Agya Atta‟s house burning'],
+ 'Agya Atta\u2019s house burning'],
 answer: 3
 },
 {
 question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'<i>' + '\u201CHelp! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. \u201CSomething must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
 'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
-'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta\u2019s wife and children to his house and quickly returned to fight the flames.' + 
 'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
-'<i>' + '… put out' + '</i>' + ' in the passage means',
+'<i>' + '\u2026 put out' + '</i>' + ' in the passage means',
 options: ['control',
  'extinguish',
  'reduce',
@@ -51,9 +51,9 @@ answer: 1
 question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'<i>' + '\u201CHelp! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. \u201CSomething must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
 'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
-'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta\u2019s wife and children to his house and quickly returned to fight the flames.' + 
 'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
 'From the passage we can infer that the Barimahs and the Agya Attas are',
 options: ['classmates',
@@ -66,9 +66,9 @@ answer: 1
 question: 'SECTION A COMPREHENSION' + '<br />' + '<br />' +
 '<b>' + 'Read Passage I carefully and answer this question' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />' +
-'<i>' + '“Help! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. “Something must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
+'<i>' + '\u201CHelp! Help! Fire!” This and other noises like the banging of doors and crunching footsteps woke Barimah up. \u201CSomething must be done,” he exclaimed to his wife Fosua who was already awake. He dressed up quickly, opened the door and went out advising his wife not to leave the house.' + 
 'It was pitch dark outside; the only light came from the flaming house of Agya Atta. By the time Barimah got there, the house was truly in flames and people had gathered around busily and frantically pouring water and sand on the flames. They were doing everything they could to put out the fire.' + 
-'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta‟s wife and children to his house and quickly returned to fight the flames.' + 
+'Meanwhile, they had managed to rescue a few things from the fire. These Barimah caused to be packed and taken to his house to prevent them from being looted. He then took Agya Atta\u2019s wife and children to his house and quickly returned to fight the flames.' + 
 'Araba had won the hearts of many people by her good deeds and kindness. It was therefore sad to see her lose her property, as well as the house she and Agya Atta had toiled to build.' + '</i>' + '<br />' + '<br />' +
 'People sympathized with Araba because she',
 options: ['had been left by her husband.',  'toiled with her husband.',
@@ -84,7 +84,7 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
 'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
 'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
-'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'from other people\u2019s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
 'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'What has society done about smoking? It has',
 options: ['sent smokers to court.',
  'given medical treatment to smokers.',
@@ -99,7 +99,7 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
 'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
 'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
-'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'from other people\u2019s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
 'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'According to the passage, which of the following is caused by smoking?',
 options: ['Malaria',
  'Measles',
@@ -114,7 +114,7 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
 'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
 'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
-'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'from other people\u2019s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
 'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'Which of the following is true about pregnant women who smoke? They',
 options: ['are likely to give birth to dead babies',
  'are not able to breastfeed ',
@@ -129,12 +129,12 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
 'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
 'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
-'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'from other people\u2019s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
 'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'Passive smokers are those who',
 options: ['befriend smokers',
  'are addicted to smoking',
  'do not smoke at all',
- 'inhale smoke from smokers‟ cigarettes'],
+ 'inhale smoke from smokers\u2019 cigarettes'],
 answer: 3
 },
 {
@@ -144,7 +144,7 @@ question: 'PASSAGE II' + '<br />' + '<br />' +
 'Research shows that the smoker is far more likely to suffer, if not die of major diseases like lung cancer and heart failure, than a non-smoker.' + 
 'It is generally known that smoking during pregnancy is undesirable. Women who smoke produce underweight babies. They are also likely to miscarry, have still-born babies or lose them after birth. If such children survive and attend school, they do not perform well.' + 
 'What is most annoying about smoking is the risk to passive smokers. Non-smokers breathing in smoke' +
-'from other people‟s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
+'from other people\u2019s cigarettes, pipes and cigars stand the risk of contracting the diseases that harm smokers.' + 
 'If smokers knew how non-smokers feel about them, they would give up the habit. The smoker is regarded by many as a social misfit – one who does not consider the welfare of others but his own interest in smoking, no matter where he.' + '</i>' + '<br />' + '<br />' + 'According to the passage, smokers are',
 options: ['fearless ',
  'selfish ',
@@ -228,8 +228,8 @@ answer: 2
 {
 question: 'SECTION C' + '<br />' + '<br />' + 
 '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + 
-'Moro ' + '<u>' + 'felt' + '</u>' + ' very much ' + '<u>' + 'at home' + '</u>' + ' at his friends‟s house. This means that Moro',
-options: ['knew his friend‟s house',
+'Moro ' + '<u>' + 'felt' + '</u>' + ' very much ' + '<u>' + 'at home' + '</u>' + ' at his friend\u2019s house. This means that Moro',
+options: ['knew his friend\u2019s house',
  'was comfortable and relaxed',
  'was disappointed',
  'lived with his friend.'],
@@ -304,7 +304,7 @@ answer: 0
 {
 
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of all the Brown children, Ato is ……….',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Of all the Brown children, Ato is \u2026.',
 options: ['the short',
  'the shorter ',
  'the shortest ',
@@ -313,7 +313,7 @@ answer: 2
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Amma was so frightened ………….she fainted.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Amma was so frightened \u2026.she fainted.',
 options: ['so',
  'as',
  'then',
@@ -322,7 +322,7 @@ answer: 3
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aberewa has ………friends who often visit her.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aberewa has \u2026friends who often visit her.',
 options: ['few ',
  'much ',
  'a little ',
@@ -331,7 +331,7 @@ answer: 0
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kofi is the boy to …………..I gave the pen.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Kofi is the boy to \u2026..I gave the pen.',
 options: ['whose ',
  'which ',
  'whom ',
@@ -340,16 +340,16 @@ answer: 2
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You are tired, ………….?',
-options: ['aren‟t you ',
- 'don‟t you ',
- 'isn‟t it',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You are tired, \u2026.?',
+options: ['aren\u2019t you ',
+ 'don\u2019t you ',
+ 'isn\u2019t it',
  'not so'],
 answer: 0
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He said that he …………come.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He said that he \u2026come.',
 options: ['will',
  'would',
  'has',
@@ -358,7 +358,7 @@ answer: 1
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When Daddy arrived, Mummy ………..finished cooking.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'When Daddy arrived, Mummy \u2026..finished cooking.',
 options: ['has ',
  'had ',
  'have',
@@ -367,7 +367,7 @@ answer: 1
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was …………tired that he couldn‟t finish the race.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was \u2026tired that he couldn\u2019t finish the race.',
 options: ['much',
  'too',
  'so',
@@ -376,7 +376,7 @@ answer: 2
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The farmer was ………by a poisonous snake.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The farmer was \u2026by a poisonous snake.',
 options: ['bitten ',
  'beaten ',
  'bit',
@@ -385,7 +385,7 @@ answer: 0
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have put too ………sugar in the porridge.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'You have put too \u2026sugar in the porridge.',
 options: ['many ',
  'much ',
  'few ',
@@ -394,7 +394,7 @@ answer: 1
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Yaw is a ………………..',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Yaw is a \u2026\u2026\u2026..',
 options: ['handsome, tall man ',
  'handsome man tall ',
  'tall, handsome man ',
@@ -403,7 +403,7 @@ answer: 2
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I am …………to walking to school everyday.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I am \u2026to walking to school everyday.',
 options: ['using ',
  'uses ',
  'use',
@@ -412,7 +412,7 @@ answer: 3
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The mechanic succeeded ……………the generator.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The mechanic succeeded \u2026\u2026the generator.',
 options: ['at repairing ',
  'in repairing ',
  'to repair',
@@ -421,7 +421,7 @@ answer: 0
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If I ………………with my grandmother, I would have enjoyed village life.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'If I \u2026\u2026\u2026with my grandmother, I would have enjoyed village life.',
 options: ['had lived',
  'have lived',
  'have been living',
@@ -430,7 +430,7 @@ answer: 0
 },
 {
 question: 'SECTION E' + '<br />' + '<br />' +
-'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Atia has given ………….smoking.',
+'<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Atia has given \u2026.smoking.',
 options: ['off ',
  'out ',
  'up ',

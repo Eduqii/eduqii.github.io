@@ -37,7 +37,7 @@ choice4: 'was really not ill',
 answer: 4,
 },
 {
-question: 'Read Passage I carefully and answer this question\n\n From the passage it can be said that MaaTee was a ……….. mother',
+question: 'Read Passage I carefully and answer this question\n\n From the passage it can be said that MaaTee was a \u2026.. mother',
 choice1: 'bad',
 choice2: 'caring', 
 choice3: 'strong' ,
@@ -53,7 +53,7 @@ choice4: 'was afraid of the injection',
 answer: 4,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\n Which of the following is true?\n Grandpa is ………………….man.',
+question: 'Read Passage II carefully and answer this question\n\n Which of the following is true?\n Grandpa is \u2026\u2026.man.',
 choice1: 'a poor ',
 choice2: 'a sick ',
 choice3: 'an old',
@@ -61,7 +61,7 @@ choice4: 'a lonely',
 answer: 3,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\n People ……………..Grandpa',
+question: 'Read Passage II carefully and answer this question\n\n People \u2026\u2026..Grandpa',
 choice1: 'fear',
 choice2: 'admire ',
 choice3: 'dislike ',
@@ -77,7 +77,7 @@ choice4: 'without',
 answer: 4,
 },
 {
-question: 'Read Passage II carefully and answer this question\n\n According to the passage the mirror …………what a person is.',
+question: 'Read Passage II carefully and answer this question\n\n According to the passage the mirror \u2026what a person is.',
 choice1: 'reproduces',
 choice2: 'changes ',
 choice3: 'enlarges ',
@@ -136,7 +136,7 @@ answer: 2,
 {
 
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n\n' +
-'Your father‟s car is expensive; my father bought his f̲o̲r̲ ̲a̲ ̲s̲o̲n̲g̲.̲\n This means my father‟s car was',
+'Your father\u2019s car is expensive; my father bought his f̲o̲r̲ ̲a̲ ̲s̲o̲n̲g̲.̲\n This means my father\u2019s car was',
 choice1: 'a used car',
 choice2: 'cheap',
 choice3: 'beautiful',
@@ -154,7 +154,7 @@ answer: 2,
 },
 {
 question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n\n' +
-'Adzo‟s bad manners make her the b̲l̲a̲c̲k̲ ̲s̲h̲e̲e̲p̲ of the family.\n This means Adzo is a',
+'Adzo\u2019s bad manners make her the b̲l̲a̲c̲k̲ ̲s̲h̲e̲e̲p̲ of the family.\n This means Adzo is a',
 choice1: 'bully',
 choice2: 'destroyer ',
 choice3: 'disgrace ',
@@ -170,7 +170,7 @@ choice4: 'was angry with me.',
 answer: 3,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n\n' +'The Education Ministry takes the l̲i̲o̲n̲‟̲s̲ ̲s̲h̲a̲r̲e̲ of the budget.\n This means that the Education Ministry',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.\n\n' +'The Education Ministry takes the l̲i̲o̲n̲\u2019̲s̲ ̲s̲h̲a̲r̲e̲ of the budget.\n This means that the Education Ministry',
 choice1: 'uses all the money',
 choice2: 'is given the largest amount of the money ',
 choice3: 'is given the smallest amount of the money ',
@@ -226,7 +226,7 @@ answer: 1,
 {
 
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Mary and Comfort are …………….arriving this weekend.',
+'Mary and Comfort are \u2026\u2026.arriving this weekend.',
 choice1: 'both',
 choice2: 'all',
 choice3: 'either',
@@ -235,7 +235,7 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Abukari prefers dancing ……………swimming.',
+'Abukari prefers dancing \u2026\u2026swimming.',
 choice1: 'by ',
 choice2: 'for ',
 choice3: 'than ',
@@ -244,7 +244,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'All …………….you are saying is true.',
+'All \u2026\u2026.you are saying is true.',
 choice1: 'what',
 choice2: 'that',
 choice3: 'which',
@@ -253,7 +253,7 @@ answer: 2,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'My boss says you are ……………..for his liking.',
+'My boss says you are \u2026\u2026..for his liking.',
 choice1: 'slow',
 choice2: 'much slow',
 choice3: 'slower',
@@ -262,7 +262,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Panyin is ………….taller than Kakra.',
+'Panyin is \u2026.taller than Kakra.',
 choice1: 'more ',
 choice2: 'much ',
 choice3: 'so',
@@ -272,7 +272,7 @@ answer: 2,
 {
 
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Baby Tee has been missing ………….Saturday.',
+'Baby Tee has been missing \u2026.Saturday.',
 choice1: 'since ',
 choice2: 'from ',
 choice3: 'until ',
@@ -281,7 +281,7 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Akua could you …………..me your English book?',
+'Akua could you \u2026..me your English book?',
 choice1: 'lend',
 choice2: 'borrow ',
 choice3: 'afford ',
@@ -290,7 +290,7 @@ answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Kofi insisted ……………..painting the house for us.',
+'Kofi insisted \u2026\u2026..painting the house for us.',
 choice1: 'in ',
 choice2: 'at ',
 choice3: 'on',
@@ -299,16 +299,16 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'This book is mine and that is ………….',
+'This book is mine and that is \u2026.',
 choice1: 'your ',
-choice2: 'yours‟ ',
-choice3: 'your‟s ',
+choice2: 'yours\u2019 ',
+choice3: 'your\u2019s ',
 choice4: 'yours',
 answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'If Asi had gone to Beseasi, she …………her mother.',
+'If Asi had gone to Beseasi, she \u2026her mother.',
 choice1: 'would meet',
 choice2: 'would have met',
 choice3: 'will meet',
@@ -317,16 +317,16 @@ answer: 2,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'You had too much to eat, ……………',
-choice1: 'didn‟t you? ',
-choice2: 'don‟t you?',
-choice3: 'haven‟t you?',
-choice4: 'isn‟t it?',
+'You had too much to eat, \u2026\u2026',
+choice1: 'didn\u2019t you? ',
+choice2: 'don\u2019t you?',
+choice3: 'haven\u2019t you?',
+choice4: 'isn\u2019t it?',
 answer: 1,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'He came in while I …………….my dinner.',
+'He came in while I \u2026\u2026.my dinner.',
 choice1: 'am having',
 choice2: 'had',
 choice3: 'have',
@@ -335,7 +335,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'The prisoner would neither talk …………….eat.',
+'The prisoner would neither talk \u2026\u2026.eat.',
 choice1: 'yet ',
 choice2: 'but ',
 choice3: 'or ',
@@ -344,7 +344,7 @@ answer: 4,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'Afote gave his friend …………………… of his bread.',
+'Afote gave his friend \u2026\u2026 of his bread.',
 choice1: 'little ',
 choice2: 'few ',
 choice3: 'some ',
@@ -353,7 +353,7 @@ answer: 3,
 },
 {
 question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n' + 
-'John and Anita have always loved …………..',
+'John and Anita have always loved \u2026..',
 choice1: 'each other ',
 choice2: 'one another ',
 choice3: 'themselves ',

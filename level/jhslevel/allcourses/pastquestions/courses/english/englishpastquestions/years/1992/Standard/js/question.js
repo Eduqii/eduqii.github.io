@@ -7,8 +7,8 @@ const quiz = [
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 ' Njoman was on the path because he wanted to.....',
 options: ['cross the stream',
  'bath in the stream',
@@ -22,8 +22,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 'How did Ragini behave when she was invited by Njoman?',
 options: ['She pretended she was in great pain and misery. ',
  'She talked to the women furiously',
@@ -37,11 +37,11 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 'Which of the following is not true according to the passage?',
 options: ['The women teased Njoman',
- 'Putu held Ragini‟s hand',
+ 'Putu held Ragini\u2019s hand',
  'All the women definitely knew his reason for coming',
  'Njoman waited for sometime before Ragini arrived',
  'Njoman had a secret plan to follow'],
@@ -52,8 +52,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 'The expression pretending not to know means',
 options: ['not knowing what to do',
  'behaving well after knowing',
@@ -67,8 +67,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 'The expression feigned distress means',
 options: ['fainted upon seeing the women',
  'pretended to be upset and having pain',
@@ -82,8 +82,8 @@ question: 'SECTION A COMPREHENSION' + '<br />' +
 '<b>' + 'Read the following passages carefully and answer the questions which follow' + '</b>' + '<br />' + '<br />' +
 'PASSAGE I' + '<br />' + '<br />'  +
 '<i>' + 'Njoman and Putu then went to a quiet spot on the path where it crossed a small stream. A few women were bathing in the stream; some were washing clothes. They joked with Njoman, for they knew why he was there. Soon they saw Ragini approaching with a basket of fruits and vegetables on her head.' +
-'„Hello, Njoman,‟ she said, pretending not to know why he waited there with his best friend. „Hello Ragini. What did you buy in the market?‟ „Mostly fruits for rudjaks‟ (spicy salad). „Wait, Ragini‟, Njoman said as he stood up. „Putu will carry them for you. It is time for us to go off together and marry‟. Putu took the basket; Njoman took Ragini by the hand and said, „We shall go to my cousin‟s house in the next village‟.' +
-'As they were walking off, Ragini turned to the women and feigned distress. „Njoman is taking me away. What can I do?‟ In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
+'Hello, Njoman,\u2019 she said, pretending not to know why he waited there with his best friend. Hello Ragini. What did you buy in the market?\u2019 Mostly fruits for rudjaks\u2019 (spicy salad). Wait, Ragini\u2019, Njoman said as he stood up. Putu will carry them for you. It is time for us to go off together and marry\u2019. Putu took the basket; Njoman took Ragini by the hand and said, We shall go to my cousin\u2019s house in the next village\u2019.' +
+'As they were walking off, Ragini turned to the women and feigned distress. Njoman is taking me away. What can I do?\u2019 In this way, according to Balinese tradition, Ragini submitted to her abductor.' + '</i>' + '<br />' + '<br />' +  
 'The word abductor means',
 options: ['a thief',
  'an armed robber',
@@ -100,7 +100,7 @@ question: '<b>' + 'Read Passage II carefully and answer the question which follo
 'Children fed chiefly on roots will, therefore, stop growing. They often get very ill and die while children who are given milk and eggs grow well and live longer.' +
 'However, cow milk is expensive in West Africa and in many places there is a wrong tradition about eggs. Some old people say that if eggs are given to children they become liars. This is not true. Eggs do not make children either tell truth or lie. They are simply good food which will help the child to grow well. Also, the tradition that boys become thieves when they eat meat is not true. Both are bad traditions which have been repeated in some villages from one generation to another.' +
 'So, the intelligent mother who wishes to bring up healthy children must discard them.' + '</i>' + '<br />' + '<br />' +
-'According to the passage, proteins ………………',
+'According to the passage, proteins \u2026\u2026',
 options: ['make us well satisfied',
  'help us grow well',
  'fill our bodies',
@@ -167,7 +167,7 @@ answer: 2
 {
 
 
-question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Adiza‟s mother prepares very ' + '<u>' + 'palatable' + '</u>' + ' dishes',
+question: '<b>' + 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence' + '</b>' + '<br />' + '<br />' + ' Adiza\u2019s mother prepares very ' + '<u>' + 'palatable' + '</u>' + ' dishes',
 options: ['expensive',
  'rich',
  'tasty',
@@ -230,7 +230,7 @@ options: ['changed his style of stealing',
 answer: 2
 },
 {
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + ' When the army stormed the village, all the inhabitants ' + '<u>' + 'took to their heels.' + '</u>' + ' This means ……..',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + ' When the army stormed the village, all the inhabitants ' + '<u>' + 'took to their heels.' + '</u>' + ' This means \u2026..',
 options: ['the army came to the village in the storm',
  'the inhabitants were frightened and stood still',
  'the inhabitants had their shoes removed',
@@ -248,7 +248,7 @@ options: ['not really decided to resign ',
 answer: 0
 },
 {
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + ' The teacher advised Kofi not to ' + '<u>' + 'beat about the bush' + '</u>' + ' This means Kofi was asked to ………….',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words' + '</b>' + '<br />' + '<br />' + ' The teacher advised Kofi not to ' + '<u>' + 'beat about the bush' + '</u>' + ' This means Kofi was asked to \u2026.',
 options: ['clear the bush',
  'beat others in the bush ',
  'go straight to the point ',
@@ -304,47 +304,47 @@ answer: 4
 },
 {
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Help him to pay his fees, …………?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Help him to pay his fees, \u2026?',
 options: ['will you ',
  'must you ',
- 'can‟t you ',
- 'won‟t you'],
+ 'can\u2019t you ',
+ 'won\u2019t you'],
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Kwasi, you are coming to see me tomorrow, ………….?',
-options: ['isn‟t it',
- 'aren‟t you',
- 'won‟t you',
- 'don‟t you'],
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Kwasi, you are coming to see me tomorrow, \u2026.?',
+options: ['isn\u2019t it',
+ 'aren\u2019t you',
+ 'won\u2019t you',
+ 'don\u2019t you'],
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  If Mary had known she wouldn‟t have come, ……….?',
-options: ['wasn‟t it ',
- 'hadn‟t she ',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  If Mary had known she wouldn\u2019t have come, \u2026.?',
+options: ['wasn\u2019t it ',
+ 'hadn\u2019t she ',
  'did she',
  'would she'],
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  She dances so beautifully, …………..?',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  She dances so beautifully, \u2026..?',
 options: ['not so',
- 'can‟t she',
- 'doesn‟t she',
- 'isn‟t it'],
+ 'can\u2019t she',
+ 'doesn\u2019t she',
+ 'isn\u2019t it'],
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  JSS students work hard, ………?',
-options: ['don‟t they',
- 'shouldn‟t they',
- 'can‟t they',
- 'haven‟t they'],
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  JSS students work hard, \u2026?',
+options: ['don\u2019t they',
+ 'shouldn\u2019t they',
+ 'can\u2019t they',
+ 'haven\u2019t they'],
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The chief with his linguists ………..coming to the durbar ground.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The chief with his linguists \u2026..coming to the durbar ground.',
 options: ['is ',
  'are ',
  'were',
@@ -352,7 +352,7 @@ options: ['is ',
 answer: 0
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Most people find it hard to live up ………..their ideals',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Most people find it hard to live up \u2026..their ideals',
 options: ['by ',
  'to ',
  'for',
@@ -360,7 +360,7 @@ options: ['by ',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The football match was put ……..until next week.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The football match was put \u2026..until next week.',
 options: ['in ',
  'out ',
  'off',
@@ -368,7 +368,7 @@ options: ['in ',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  These days, students are not keen ……..improving their English.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  These days, students are not keen \u2026..improving their English.',
 options: ['with',
  'of',
  'about',
@@ -376,7 +376,7 @@ options: ['with',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  When the plane arrived Kofi ………nowhere to be found.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  When the plane arrived Kofi \u2026nowhere to be found.',
 options: ['will be',
  'had been',
  'was',
@@ -384,15 +384,15 @@ options: ['will be',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The boys swore that the books were ………..',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The boys swore that the books were \u2026..',
 options: ['his',
  'theirs ',
- 'their‟s ',
- 'theirs‟'],
+ 'their\u2019s ',
+ 'theirs\u2019'],
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Unless your father reports at the police station we …………all be whipped',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  Unless your father reports at the police station we \u2026all be whipped',
 options: ['will',
  'shall',
  'should',
@@ -400,7 +400,7 @@ options: ['will',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The bell will go ………the next ten minutes',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The bell will go \u2026the next ten minutes',
 options: ['between',
  'under',
  'from within',
@@ -408,7 +408,7 @@ options: ['between',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The heavy rains have ……….early this year.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '  The heavy rains have \u2026.early this year.',
 options: ['set in ',
  'set out ',
  'set up ',

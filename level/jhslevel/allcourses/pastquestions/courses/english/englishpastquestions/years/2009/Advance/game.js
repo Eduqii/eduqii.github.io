@@ -238,7 +238,7 @@ choice4: 'proud',
 answer: 1,
 },
 {
-	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My father wanted to find out how Abu was getting ………… at school.',
+	question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n My father wanted to find out how Abu was getting \u2026 at school.',
 
 choice1: 'on',
 choice2: 'down',
@@ -248,7 +248,7 @@ answer: 1,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n If the boat had been maintained properly it…………..capsized.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n If the boat had been maintained properly it\u2026..capsized.',
 choice1: 'had not',
 choice2: 'will not have',
 choice3: 'would not have',
@@ -257,7 +257,7 @@ answer: 3,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The white horse is …………..than the black one.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The white horse is \u2026..than the black one.',
 
 choice1: 'faster',
 choice2: 'very fast',
@@ -267,7 +267,7 @@ answer: 1,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n They thought he would become a businessman………?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n They thought he would become a businessman\u2026?',
 
 choice1: 'wouldn’t they',
 choice2: 'didn’t they',
@@ -277,7 +277,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n There were only two of us who ………… any idea of the answer.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n There were only two of us who \u2026 any idea of the answer.',
 
 choice1: 'have',
 choice2: 'had',
@@ -287,7 +287,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n He had boarded a taxi, ……….?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n He had boarded a taxi, \u2026.?',
 
 choice1: 'wouldn’t he',
 choice2: 'hadn’t he',
@@ -297,7 +297,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Mrs. Mensah ………. in Saltpond since 1970.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Mrs. Mensah \u2026. in Saltpond since 1970.',
 
 choice1: 'was living',
 choice2: 'has been living',
@@ -307,7 +307,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The booking clerk made him ………….. a deposit.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The booking clerk made him \u2026.. a deposit.',
 
 choice1: 'to pay',
 choice2: 'paid',
@@ -317,7 +317,7 @@ answer: 4,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Although all the dresses were beautiful, she liked …………..of them.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Although all the dresses were beautiful, she liked \u2026..of them.',
 
 choice1: 'any',
 choice2: 'none',
@@ -327,7 +327,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kwesi and Ama are in love with ……….',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Kwesi and Ama are in love with \u2026.',
 
 choice1: 'themselves',
 choice2: 'one another',
@@ -337,7 +337,7 @@ answer: 3,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It is …………. to attempt in one day.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n It is \u2026. to attempt in one day.',
 
 choice1: 'too long and difficult a journey',
 choice2: 'the journey too long and difficult',
@@ -347,7 +347,7 @@ answer: 1,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The rain shouldn’t deter you ……. going out.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n The rain shouldn’t deter you \u2026\u2026. going out.',
 
 choice1: 'for',
 choice2: 'on',
@@ -357,7 +357,7 @@ answer: 4,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Ben is leaving ……….. Takoradi this morning.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Ben is leaving \u2026.. Takoradi this morning.',
 
 choice1: 'for',
 choice2: 'to',
@@ -367,7 +367,7 @@ answer: 1,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Yesterday I met the man ………..',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n Yesterday I met the man \u2026..',
 
 choice1: 'the car of whom I bought',
 choice2: 'whose car I bought',
@@ -377,7 +377,7 @@ answer: 2,
 },
 {
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n No sooner had the Minister opened the bank …………. the bank was filled to capacity.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n\n No sooner had the Minister opened the bank \u2026. the bank was filled to capacity.',
 
 choice1: 'when',
 choice2: 'for',

@@ -19,11 +19,11 @@ Que 1 - 6
 	Read the following passages carefully and answer the questions which follow
 
 	PASSAGE I
-	When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah‟s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.
+	When the car suddenly screeched to a halt sending tons of dust into the air, the children of the village ran helter-skelter. Then they rushed to Mr Opiah\u2019s compound where the car had stopped. They were delighted to see a car again after a very long time and marvelled at its beauty.
 
-	Akwasi Seth, Mr Opiah‟s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.
+	Akwasi Seth, Mr Opiah\u2019s eldest son, the darling boy of the village had finally arrived. The day before, the gong-gong had been beaten to announce the arrival of the first son of the village who had gone to learn the ways of the white man. Everybody was prepared to give him a rousing welcome.
 
-	Fervent preparations started there and then. However, the children‟s only anxiety was to see what the man
+	Fervent preparations started there and then. However, the children\u2019s only anxiety was to see what the man
 	had brought and listen to what he had to say.
 
 	Meanwhile, Mr Opiah and his family, immaculately dressed and full of joy and anxiety, were seated in the house. There was great expectation written all over their faces. They had been told that their son would arrive at
@@ -31,7 +31,7 @@ Que 1 - 6
 	sighs of relief. They were extremely happy when Akwasi Seth entered the compound. The women began to sing his praises.
 
 	Akwasi had not forgotten his culture. He went round shaking hands with everybody. When it was his
-	father‟s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.
+	father\u2019s turn the old man hugged him beaming with smiles. His mother also hugged him and shed tears of joy.
 
 
 Que 7 - 11
@@ -39,31 +39,31 @@ PASSAGE II
 
 At the far end of the village beyond the houses, in its ground, stood the village school, ruled over by the head teacher, Mr Kodwo Twum. Surrounded by shady trees and with large games field to one side, it was one of the best schools in the area.
 
-Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as “Master” by the big men in the city who had passed through his hands.
+Mr Twum himself was a teacher of the old school, of the days when education had to be fought for, for the boys walked many kilometres for a chance to read and write. He was very strict, but was held in such esteem by both parents and teachers that no one resented his discipline. He took a personal interest in all his pupils and was affectionately known as \u201CMaster” by the big men in the city who had passed through his hands.
 
 The ground round the school was always well kept and tidy, for cutting and weeding the grass was one of the punishments given to inattentive or insolent children. A small farm belonging to the school stretched down the hillside behind it and the children were taught the elements of farming as part of their lesson.
 
-Master Twum‟s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.
+Master Twum\u2019s house was across the road from the school and next to that belonging to John Agyemang the catechist, so that the two men were often seen gossiping together in the evenings or going into the small village church to discuss parish affairs.
 
 */
 		
-question: 'Read Passage I carefully and answer this question\nThe children ran helter-skelter because ………….',
+question: 'Read Passage I carefully and answer this question\nThe children ran helter-skelter because \u2026.',
 choice1: 'they were expecting a car',
 choice2: 'of the sudden screeching of the car',
-choice3: 'they hadn‟t seen a car before',
+choice3: 'they hadn\u2019t seen a car before',
 choice4: 'the car was marvellous',
 answer: 1,
 },
 {
-question: 'Read Passage I carefully and answer this question\nThe villagers got to know that Akwasi Seth was arriving on that day because ………',
-choice1: 'the car stopped in front of Mr Opiah‟s house',
+question: 'Read Passage I carefully and answer this question\nThe villagers got to know that Akwasi Seth was arriving on that day because \u2026',
+choice1: 'the car stopped in front of Mr Opiah\u2019s house',
 choice2: 'the gong-gong beater had announced it',
 choice3: 'Mr Opiah had told them about it',
-choice4: 'The children ran to Mr Opiah‟s house',
+choice4: 'The children ran to Mr Opiah\u2019s house',
 answer: 2,
 },
 {
-question: 'Read Passage I carefully and answer this question\nMr Opiah‟s family members were anxious because they ……..',
+question: 'Read Passage I carefully and answer this question\nMr Opiah\u2019s family members were anxious because they \u2026..',
 choice1: 'were afraid he might not come',
 choice2: 'were planning what to do for him',
 choice3: 'thought Akwasi Seth would not recognize them',
@@ -87,7 +87,7 @@ choice4: 'entered',
 answer: 3,
 },
 {
-question: 'Read Passage I carefully and answer this question\nAkwasi‟s mother shed tears of joy because …………',
+question: 'Read Passage I carefully and answer this question\nAkwasi\u2019s mother shed tears of joy because \u2026',
 choice1: 'Akwasi looked strange',
 choice2: 'she was ill',
 choice3: 'she was very happy',
@@ -96,7 +96,7 @@ answer: 3,
 },
 {
 
-question: 'Read Passage II carefully and answer this question\n The school was to be found ………..',
+question: 'Read Passage II carefully and answer this question\n The school was to be found \u2026..',
 choice1: 'on the outskirts of the village',
 choice2: 'in the centre of the village',
 choice3: 'near Mr Kodwo Twum',
@@ -104,7 +104,7 @@ choice4: 'with the houses.',
 answer: 1,
 },
 {
-question: 'Read Passage II carefully and answer this question\nAccording to the passage the school was surrounded by ……..',
+question: 'Read Passage II carefully and answer this question\nAccording to the passage the school was surrounded by \u2026..',
 choice1: 'shady trees',
 choice2: 'the games field ',
 choice3: 'the best schools ',
@@ -128,7 +128,7 @@ choice4: 'lazy',
 answer: 3,
 },
 {
-question: 'Read Passage II carefully and answer this question\nMr Twum and the catechist were able to gossip most of the time because they were ……….',
+question: 'Read Passage II carefully and answer this question\nMr Twum and the catechist were able to gossip most of the time because they were \u2026.',
 choice1: 'adults',
 choice2: 'free',
 choice3: 'very good neighbours',
@@ -162,7 +162,7 @@ choice4: 'guide',
 answer: 1,
 },
 {
-question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\n' + 'The chief‟s palace was d͟e͟m͟o͟l͟i͟s͟h͟e͟d͟ by the rainstorm.',
+question: 'Choose from the alternatives lettered A to D the one which is nearest in meaning to the underlined word in each sentence\n' + 'The chief\u2019s palace was d͟e͟m͟o͟l͟i͟s͟h͟e͟d͟ by the rainstorm.',
 choice1: 'opened',
 choice2: 'built',
 choice3: 'destroyed',
@@ -180,7 +180,7 @@ answer: 4,
 {
 //SECTION C
 
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Ekua visits her grandmother o̲n̲c̲e̲ ̲i̲n̲ ̲a̲ ̲b̲l̲u̲e̲ ̲m̲o̲o̲n̲.̲ This means Ekua visits her grandmother ……',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Ekua visits her grandmother o̲n̲c̲e̲ ̲i̲n̲ ̲a̲ ̲b̲l̲u̲e̲ ̲m̲o̲o̲n̲.̲ This means Ekua visits her grandmother \u2026',
 choice1: 'every month ',
 choice2: 'once a week ',
 choice3: 'occasionally ',
@@ -188,7 +188,7 @@ choice4: 'often',
 answer: 3,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Joana is a clever girl and will come out of her examination with f̲l̲y̲i̲n̲g̲ ̲c̲o̲l̲o̲u̲r̲s̲.̲ This means ………',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'Joana is a clever girl and will come out of her examination with f̲l̲y̲i̲n̲g̲ ̲c̲o̲l̲o̲u̲r̲s̲.̲ This means \u2026',
 choice1: 'she will pass in her favourite subjects',
 choice2: 'she will excel in some subjects',
 choice3: 'her results will be very good',
@@ -196,7 +196,7 @@ choice4: 'she will work hard',
 answer: 3,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The Manager h̲i̲t̲ ̲t̲h̲e̲ ̲n̲a̲i̲l̲ ̲o̲n̲ ̲t̲h̲e̲ ̲h̲e̲a̲d̲ in his speech to his workers. This means the manager ……..',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The Manager h̲i̲t̲ ̲t̲h̲e̲ ̲n̲a̲i̲l̲ ̲o̲n̲ ̲t̲h̲e̲ ̲h̲e̲a̲d̲ in his speech to his workers. This means the manager \u2026..',
 choice1: 'spoke the truth',
 choice2: 'was not straight forward',
 choice3: 'spoke harshly',
@@ -212,7 +212,7 @@ choice4: 'She will walk there with others',
 answer: 3,
 },
 {
-question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The Pastor advised Yaw and Mensah to b̲u̲r̲y̲ ̲t̲h̲e̲ ̲h̲a̲t̲c̲h̲e̲t̲.̲ This means Yaw and Mensah are to ……..',
+question: 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words\n' + 'The Pastor advised Yaw and Mensah to b̲u̲r̲y̲ ̲t̲h̲e̲ ̲h̲a̲t̲c̲h̲e̲t̲.̲ This means Yaw and Mensah are to \u2026..',
 choice1: 'keep their cutlass in a safe place',
 choice2: 'work together on their farm',
 choice3: 'forget about their quarrel',
@@ -264,7 +264,7 @@ answer: 4,
 {
 //SECTION E
 
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I object …………your joining our school team.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I object \u2026your joining our school team.',
 choice1: 'on ',
 choice2: 'by ',
 choice3: 'at ',
@@ -272,7 +272,7 @@ choice4: 'to',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This secret should remain ………you and me.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This secret should remain \u2026you and me.',
 choice1: 'for ',
 choice2: 'with ',
 choice3: 'in',
@@ -280,7 +280,7 @@ choice4: 'between',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The kind woman gave ………a box of sweets.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The kind woman gave \u2026a box of sweets.',
 choice1: 'all and each one ',
 choice2: 'all and everyone ',
 choice3: 'each and all',
@@ -288,7 +288,7 @@ choice4: 'each and everyone',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Tokyo is the ………….expensive city in the world.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Tokyo is the \u2026.expensive city in the world.',
 choice1: 'most',
 choice2: 'much',
 choice3: 'more',
@@ -296,15 +296,15 @@ choice4: 'very',
 answer: 1,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'You have to help your parents …………….?',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'You have to help your parents \u2026\u2026.?',
 choice1: 'have you',
 choice2: 'you do',
-choice3: 'isn‟t it',
-choice4: 'don‟t you',
+choice3: 'isn\u2019t it',
+choice4: 'don\u2019t you',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The car my uncle bought was the …………..',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The car my uncle bought was the \u2026..',
 choice1: 'model latest of the Benz ',
 choice2: 'Benz latest of the model ',
 choice3: 'latest model of the Benz ',
@@ -312,7 +312,7 @@ choice4: 'latest Benz of the model',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I will wash my clothes when I ………….home.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'I will wash my clothes when I \u2026.home.',
 choice1: 'went',
 choice2: 'have gone ',
 choice3: 'could go ',
@@ -320,7 +320,7 @@ choice4: 'go',
 answer: 4,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'She is very jovial ………….she is an orphan.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'She is very jovial \u2026.she is an orphan.',
 choice1: 'since',
 choice2: 'as',
 choice3: 'though',
@@ -328,7 +328,7 @@ choice4: 'even',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'If you ………more attentive you wouldn‟t have been in such a bad situation.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'If you \u2026more attentive you wouldn\u2019t have been in such a bad situation.',
 choice1: 'are',
 choice2: 'were',
 choice3: 'had been',
@@ -336,7 +336,7 @@ choice4: 'could',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Kwabena often …………his grandfather after school.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Kwabena often \u2026his grandfather after school.',
 choice1: 'had visited',
 choice2: 'visited',
 choice3: 'has visited',
@@ -344,7 +344,7 @@ choice4: 'visit',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The farmer had saved …………money for his son‟s education.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The farmer had saved \u2026money for his son\u2019s education.',
 choice1: 'few',
 choice2: 'enough',
 choice3: 'most',
@@ -352,23 +352,23 @@ choice4: 'plenty',
 answer: 2,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This is my book; that one is…….',
-choice1: 'your‟s ',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'This is my book; that one is\u2026.',
+choice1: 'your\u2019s ',
 choice2: 'your ',
 choice3: 'yours ',
-choice4: 'yours‟',
+choice4: 'yours\u2019',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Birds fly, don‟t they?',
-choice1: 'Yes, they don‟t',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'Birds fly, don\u2019t they?',
+choice1: 'Yes, they don\u2019t',
 choice2: 'No, they do',
 choice3: 'Yes, they do',
-choice4: 'Yes, they can‟t',
+choice4: 'Yes, they can\u2019t',
 answer: 3,
 },
 {
-question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The rains had ……….stopped when we set off.',
+question: 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.\n' + 'The rains had \u2026.stopped when we set off.',
 choice1: 'yet',
 choice2: 'either ',
 choice3: 'already ',

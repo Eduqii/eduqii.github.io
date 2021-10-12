@@ -63,7 +63,7 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
 'The writer thought he was safe in Accra because ',
 options: ['he saw people rushing home from work ',
  'he had just arrived from his village',
@@ -76,7 +76,7 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
 'Spotted in the passage means',
 options: ['looked at',
  'recognized',
@@ -89,7 +89,7 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
 'The writer turned to his left because he wanted to',
 options: ['see the person behind him. ',
  'keep his wrist watch safe. ',
@@ -102,8 +102,8 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
-'According to the passage, the fellow grabbed Cudjoe‟s arm because',
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'According to the passage, the fellow grabbed Cudjoe\u2019s arm because',
 options: ['he wanted to embrace him',
  'they were mates',
  'he wanted to steal the watch',
@@ -115,7 +115,7 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
 'Rogue in the passage refers to',
 options: ['a worker',
  'the schoolmate',
@@ -128,7 +128,7 @@ question: 'Read Passage II carefully and answer this question' + '</b>' + '<br /
 '<i>' + 'As I stood by a street in Accra that late afternoon watching people rushing home from work, I felt very safe. My sense of security came from the fact that Ghanaians are generally a kind and hospitable people, particularly to strangers. Although I had just arrived from my village, I was a Ghanaian and in my own capital. I should not fear anything.' + 
 'Just then, I felt a firm grip on my arm from behind. I did not feel threatened; rather I was relieved. I thought an old schoolmate must have spotted me, James Cudjoe, and decided to play our old game on me. How welcome! The good old days are here again.' +
 'I turned to look the fellow in the face but the more I turned to my left the faster he moved to my right as he tightened his grip on my wrist watch. Suddenly he let go of my arm and bolted. I saw him vanish into the thick crowd. Certainly, this was not how to welcome a friend. People of the city are surely very strange!' +
-'Totally confused, I made my way towards the lorry park to leave for my brother‟s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
+'Totally confused, I made my way towards the lorry park to leave for my brother\u2019s house. In the gathering darkness, I tried to find out what time it was. To my utter surprise, I discovered that my wrist watch was gone. The rascal had made away with it. It was hardly new or even expensive yet the rogue found it worth stealing.' + '</i>' + '<br />' + '<br />' +
 'Which of the following is not true according to the passage?',
 options: ['People in Accra are strange',
  'People in Accra are classmates. ',
@@ -187,7 +187,7 @@ options: ['in dull weather ',
 answer: 2
 },
 {
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His father‟s death, which was ' + '<u>' + 'a bolt from the blue' + '</u>' + ', greatly affected his education.',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' His father\u2019s death, which was ' + '<u>' + 'a bolt from the blue' + '</u>' + ', greatly affected his education.',
 options: ['a disastrous event ',
  'a complete surprise ',
  'a mournful affair',
@@ -195,7 +195,7 @@ options: ['a disastrous event ',
 answer: 1
 },
 {
-question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' Kofi Mensah found it difficult to ' + '<u>' + 'do away with his bad habits.' + '</u>' + ' This means that Kofi Mensah could not ………….his habits.',
+question: '<b>' + 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined words.' + '</b>' + '<br />' + '<br />' + ' Kofi Mensah found it difficult to ' + '<u>' + 'do away with his bad habits.' + '</u>' + ' This means that Kofi Mensah could not \u2026.his habits.',
 options: ['continue',
  'hide',
  'stop',
@@ -262,7 +262,7 @@ answer: 3
 },
 {
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I suggest that they ………….the piano instead.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I suggest that they \u2026.the piano instead.',
 options: ['are playing',
  'play',
  'playing',
@@ -270,7 +270,7 @@ options: ['are playing',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' ……………..frankly, I hate the idea.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + ' \u2026\u2026..frankly, I hate the idea.',
 options: ['Speak ',
  'Spoken ',
  'To speak',
@@ -278,7 +278,7 @@ options: ['Speak ',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I think we …………….Kwesi‟s offer.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'I think we \u2026\u2026.Kwesi\u2019s offer.',
 options: ['better taking',
  'had better take ',
  'had better taken ',
@@ -286,7 +286,7 @@ options: ['better taking',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '…………… the arable land was under cultivation.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + '\u2026\u2026 the arable land was under cultivation.',
 options: ['Most',
  'Many of',
  'More',
@@ -294,7 +294,7 @@ options: ['Most',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'In attempting to control us, the headmaster gave ………….a great deal of trouble.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'In attempting to control us, the headmaster gave \u2026.a great deal of trouble.',
 options: ['themselves',
  'himself',
  'ourselves',
@@ -302,15 +302,15 @@ options: ['themselves',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Do you believe in witches? ……………………',
-options: ['Yes, I don‟t ',
- 'No, I won‟t ',
- 'Yes, I won‟t',
- 'No, I don‟t'],
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Do you believe in witches? \u2026\u2026',
+options: ['Yes, I don\u2019t ',
+ 'No, I won\u2019t ',
+ 'Yes, I won\u2019t',
+ 'No, I don\u2019t'],
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aba insisted that Adjoa ………….to the party.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Aba insisted that Adjoa \u2026.to the party.',
 options: ['to have come',
  'has come ',
  'to come',
@@ -319,17 +319,17 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Esi: „I felt rather tired yesterday.‟' + '</b>' + '<br />' + '<br />' + 
-'Efua: „Yes, …………….‟',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'Esi: I felt rather tired yesterday.\u2019' + '</b>' + '<br />' + '<br />' + 
+'Efua: Yes, \u2026\u2026.\u2019',
 options: ['I did too',
  'so I did',
  'so did I',
- 'I didn‟t'],
+ 'I didn\u2019t'],
 answer: 2
 },
 {
 
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The students complained that there was ……………sugar in their tea.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The students complained that there was \u2026\u2026sugar in their tea.',
 options: ['plenty',
  'few ',
  'little ',
@@ -337,7 +337,7 @@ options: ['plenty',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'One of the duties of the police is to …………….traffic.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'One of the duties of the police is to \u2026\u2026.traffic.',
 options: ['lead',
  'regulate',
  'direct',
@@ -345,7 +345,7 @@ options: ['lead',
 answer: 2
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He decided to …………….the entrance examination again.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He decided to \u2026\u2026.the entrance examination again.',
 options: ['have sat',
  'sit',
  'be sitting',
@@ -353,15 +353,15 @@ options: ['have sat',
 answer: 1
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We won the school debate, …………….?',
-options: ['hadn‟t we',
- 'isn‟t it',
- 'couldn‟t we',
- 'didn‟t we'],
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'We won the school debate, \u2026\u2026.?',
+options: ['hadn\u2019t we',
+ 'isn\u2019t it',
+ 'couldn\u2019t we',
+ 'didn\u2019t we'],
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The plumber turned the pipe so hard that it ………………',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The plumber turned the pipe so hard that it \u2026\u2026',
 options: ['will break',
  'breaks',
  'had broken',
@@ -369,7 +369,7 @@ options: ['will break',
 answer: 3
 },
 {
-question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was introduced …………………..the directors by his co-worker.',
+question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'He was introduced \u2026\u2026..the directors by his co-worker.',
 options: ['by',
  'to',
  'through',

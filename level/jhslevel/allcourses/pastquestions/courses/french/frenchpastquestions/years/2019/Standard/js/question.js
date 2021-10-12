@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Ce matin, la…….fille a tellement faim.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Ce matin, la\u2026.fille a tellement faim.',
 
 options: ['petit',
  'petite',
@@ -14,7 +14,7 @@ answer: 2
 },
 {
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Le garçon est toujours …… retard',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Le garçon est toujours \u2026 retard',
 
 options: ['de',
  'ci',
@@ -24,7 +24,7 @@ answer: 3
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' La semaine prochaine, …..élevés iront en vacances.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' La semaine prochaine, \u2026..élevés iront en vacances.',
 
 options: ['de l’',
  'les',
@@ -34,7 +34,7 @@ answer: 1
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' …….. soeur regarde la télévision tout le temps.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' \u2026.. soeur regarde la télévision tout le temps.',
 
 options: ['Mon',
  'Ton',
@@ -44,7 +44,7 @@ answer: 2
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Je ……..au théâtre le week-end',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Je \u2026..au théâtre le week-end',
 
 options: ['va',
  'vas',
@@ -54,7 +54,7 @@ answer: 2
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Diana va …..marche pour acheter des légumes.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Diana va \u2026..marche pour acheter des légumes.',
 
 options: ['ci la',
  'de la',
@@ -64,7 +64,7 @@ answer: 3
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous ….. les vacances au Benin',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous \u2026.. les vacances au Benin',
 
 options: ['passons',
  'passent',
@@ -74,7 +74,7 @@ answer: 0
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Est-ce que tu vas …… ton père au champ ?',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Est-ce que tu vas \u2026 ton père au champ ?',
 
 options: ['aide',
  'aider',
@@ -84,7 +84,7 @@ answer: 1
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous venons …… Koforidua',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous venons \u2026 Koforidua',
 
 options: ['de',
  'du',
@@ -94,7 +94,7 @@ answer: 0
 
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Son grand-père aime porter des chaussures……',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Son grand-père aime porter des chaussures\u2026',
 
 options: ['blane',
  'blancs',
@@ -103,7 +103,7 @@ options: ['blane',
 answer: 3
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Est-ce que ton père est …… ? Oui, il soigne les malades.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Est-ce que ton père est \u2026 ? Oui, il soigne les malades.',
 options: ['médecin',
  'maçon',
  'boucher',            
@@ -111,7 +111,7 @@ options: ['médecin',
 answer: 0
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Le Ghana est en Afrique……',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Le Ghana est en Afrique\u2026',
 options: ['Du nord',
  'Du sud',
  'de l’ouest',
@@ -119,7 +119,7 @@ options: ['Du nord',
 answer: 2
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' ………. des pluies vient de commencer.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' \u2026\u2026. des pluies vient de commencer.',
 options: ['Le temps',
  'La saison',
  'La durée',
@@ -127,7 +127,7 @@ options: ['Le temps',
 answer: 1
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Aba n’entend pas bien ; elle a mal aux…….',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Aba n’entend pas bien ; elle a mal aux\u2026.',
 options: ['Pieds',
  'Oreilles',
  'Yeux',
@@ -135,7 +135,7 @@ options: ['Pieds',
 answer: 1
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Akosua est la fille de ma tante ; elle est doc ma……….',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Akosua est la fille de ma tante ; elle est doc ma\u2026\u2026.',
 options: ['Nièce',
  'Voisine',
  'Rivale',
@@ -143,7 +143,7 @@ options: ['Nièce',
 answer: 3
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous allons à la plage pour……….',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Nous allons à la plage pour\u2026\u2026.',
 options: ['Pleurer',
  'Dormir',
  'Nager',
@@ -151,7 +151,7 @@ options: ['Pleurer',
 answer: 2
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Kofi va se coucher parce qui’il a……',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Kofi va se coucher parce qui’il a\u2026',
 options: ['Sommeil',
  'Chaud',
  'Soif',
@@ -159,7 +159,7 @@ options: ['Sommeil',
 answer: 0
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Idrisu est boucher ; il vend …………',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Idrisu est boucher ; il vend \u2026\u2026',
 options: ['du gâtezau',
  'Du pain',
  'De la viande',
@@ -167,7 +167,7 @@ options: ['du gâtezau',
 answer: 2
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Les cultivateurs cultivent de grands ……….',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Les cultivateurs cultivent de grands \u2026\u2026.',
 options: ['Poisons',
  'Lacs',
  'Champs',
@@ -175,7 +175,7 @@ options: ['Poisons',
 answer: 2
 },
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Je me couche toujours a huit……………',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.'+ '</b>' + '<br />' + '<br />' + ' Je me couche toujours a huit\u2026\u2026\u2026',
 options: ['Jours',
  'Minutes',
  'Semaines',
@@ -203,7 +203,7 @@ answer: 2
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Pourquoi est-ce qu’ils décident de quitter l’ancien village ? Parce que……',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Pourquoi est-ce qu’ils décident de quitter l’ancien village ? Parce que\u2026',
 
 options: ['le village est trop vieux',
  'les cases sont trop petites',
@@ -223,7 +223,7 @@ answer: 0
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Comment est-ce que les femmes aident leurs maris ? Elles ……',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Comment est-ce que les femmes aident leurs maris ? Elles \u2026',
 
 options: ['coupent les herbes',
  'balaient les cases',
@@ -233,7 +233,7 @@ answer: 3
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Comment est la terre après le travail des femmes ? Elle est………',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Comment est la terre après le travail des femmes ? Elle est\u2026\u2026',
 
 options: ['fertile',
  'pleine d’herbes',
@@ -243,7 +243,7 @@ answer: 2
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Les hommes coupent des branches pour……… les cases',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Les hommes coupent des branches pour\u2026\u2026 les cases',
 
 options: ['nettoyer',
  'construire',
@@ -253,7 +253,7 @@ answer: 1
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' La construction du nouveau village dure……….',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' La construction du nouveau village dure\u2026\u2026.',
 
 options: ['trente jours',
  'vingt et un jours',
@@ -263,7 +263,7 @@ answer: 3
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Dans ce nouveau village, toutes les cases sont….',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Dans ce nouveau village, toutes les cases sont\u2026.',
 
 options: ['belles',
  'pareilles',
@@ -273,7 +273,7 @@ answer: 1
 
 },
 {
-question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Sovieto est le nom…….',
+question: '<b>' + 'Click on the passage icon below to read the passage carefully and answer the questions that follow by shading on your answer sheet the letter which corresponds with the correct answer.' + '</b>' + '<br />' + '<br />' + ' Sovieto est le nom\u2026.',
 
 options: ['des habitants',
  'de la terre',

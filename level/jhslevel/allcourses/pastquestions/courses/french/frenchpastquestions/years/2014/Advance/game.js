@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
 
 {
-question: 'Tout les élèves ………pendant la récréation.',
+question: 'Tout les élèves \u2026\u2026pendant la récréation.',
 
 choice1: 'dort',
 choice2: 'dorment',
@@ -22,7 +22,7 @@ choice4: 'dors',
 answer: 2,
 },
 {
-question: 'Kofi, va chercher …………………..chaise !',
+question: 'Kofi, va chercher \u2026\u2026\u2026\u2026..chaise !',
 
 choice1: 'un',
 choice2: 'le',
@@ -31,7 +31,7 @@ choice4: 'une',
 answer: 4,
 },
 {
-question: 'Les filles mangent ……………………..pain.',
+question: 'Les filles mangent \u2026\u2026\u2026\u2026..pain.',
 
 choice1: 'de',
 choice2: 'la',
@@ -40,7 +40,7 @@ choice4: 'une',
 answer: 3,
 },
 {
-question: 'Ama écoute attentivement ………………leçon.',
+question: 'Ama écoute attentivement \u2026\u2026\u2026leçon.',
 
 choice1: 'la',
 choice2: 'au',
@@ -49,7 +49,7 @@ choice4: 'de la',
 answer: 1, 
 },
 {
-question: '– Cet homme vend des chemises et des robes l est ……………',
+question: '– Cet homme vend des chemises et des robes l est \u2026\u2026\u2026',
 
 choice1: 'maçon',
 choice2: 'pêcheur',
@@ -68,7 +68,7 @@ answer: 3,
 },
 { 
 
-question: 'J’ai tellement faim. Je veux …………..',
+question: 'J’ai tellement faim. Je veux \u2026\u2026..',
 
 choice1: 'parler',
 choice2: 'manger',
@@ -77,7 +77,7 @@ choice4: 'dormir',
 answer: 2,
 },
 {
-question: '………….allons au champ après les cours.',
+question: '\u2026\u2026.allons au champ après les cours.',
 
 choice1: 'Vous',
 choice2: 'Elles',
@@ -86,7 +86,7 @@ choice4: 'Nous',
 answer: 4,
 },
 {
-question: 'Les professeurs corrigent les ……………..des élèves.',
+question: 'Les professeurs corrigent les \u2026\u2026\u2026..des élèves.',
 
 choice1: 'classes',
 choice2: 'devoirs',
@@ -95,7 +95,7 @@ choice4: 'tableaux',
 answer: 2,
 },
 {
-question: 'Maintenant, nous allons ……………classe.',
+question: 'Maintenant, nous allons \u2026\u2026\u2026classe.',
 
 choice1: 'à',
 choice2: 'en',
@@ -105,7 +105,7 @@ answer: 2,
 },
 {
 
-question: 'Le manguier et le cocotier sont des …………….',
+question: 'Le manguier et le cocotier sont des \u2026\u2026\u2026.',
 choice1: 'repas',
 choice2: 'fruits',
 choice3: 'arbres',
@@ -113,7 +113,7 @@ choice4: 'boissons',
 answer: 3,
 },
 { 
-question: 'Kofi est malade ; il va acheter des ……………..',
+question: 'Kofi est malade ; il va acheter des \u2026\u2026\u2026..',
 choice1: 'medicaments',
 choice2: 'gateaux',
 choice3: 'biscuits',
@@ -121,7 +121,7 @@ choice4: 'bonbons',
 answer: 1, 
 },
 { 
-question: 'Mon père est …………. ; il a un grand champ de maïs.',
+question: 'Mon père est \u2026\u2026. ; il a un grand champ de maïs.',
 choice1: 'pecheur',
 choice2: 'coiffeur',
 choice3: 'vendeur',
@@ -129,7 +129,7 @@ choice4: 'cultivateur',
 answer: 4,
 },
 { 
-question: 'Le ………………vit dans l’eau.',
+question: 'Le \u2026\u2026\u2026vit dans l’eau.',
 choice1: 'chat',
 choice2: 'chien',
 choice3: 'mouton',
@@ -137,7 +137,7 @@ choice4: 'poisson',
 answer: 4,
 },
 { 
-question: 'Aujourd’hui c’est samedi ; demain sera ……………',
+question: 'Aujourd’hui c’est samedi ; demain sera \u2026\u2026\u2026',
 choice1: 'lundi',
 choice2: 'mardi',
 choice3: 'vendredi',
@@ -145,7 +145,7 @@ choice4: 'dimanche',
 answer: 4,
 },
 { 
-question: 'Viens me …………..bonjour demain matin.',
+question: 'Viens me \u2026\u2026..bonjour demain matin.',
 choice1: 'voir',
 choice2: 'dire',
 choice3: 'parler',
@@ -153,7 +153,7 @@ choice4: 'saluer',
 answer: 2,
 },
 { 
-question: 'Le bébé pleure …………..qu’il est malade.',
+question: 'Le bébé pleure \u2026\u2026..qu’il est malade.',
 choice1: 'si',
 choice2: 'donc',
 choice3: 'parce',
@@ -169,7 +169,7 @@ choice4: 'nuit',
 answer: 1,
 },
 { 
-question: 'Le français est plus facile ………………..les mathématiques',
+question: 'Le français est plus facile \u2026\u2026\u2026..les mathématiques',
 choice1: 'qui',
 choice2: 'que',
 choice3: 'quand',
@@ -177,7 +177,7 @@ choice4: 'comment',
 answer: 2,
 },
 { 
-question: 'Ama a ………………………. ; elle veut de l’eau',
+question: 'Ama a \u2026\u2026\u2026\u2026\u2026. ; elle veut de l’eau',
 choice1: 'faim',
 choice2: 'froid',
 choice3: 'soif',
@@ -185,7 +185,7 @@ choice4: 'sommeil',
 answer: 3,
 },
 { 
-	question: 'Un Soir au Cinéma\n\n La famille va au cinéma ……………..',
+	question: 'Un Soir au Cinéma\n\n La famille va au cinéma \u2026\u2026\u2026..',
 
 choice1: 'tous les jours',
 choice2: 'tous les soirs',
@@ -195,7 +195,7 @@ answer: 4,
 },
 { 
 
-question: 'Un Soir au Cinéma\n\n Le jour en question, la famille va au cinéma sans …………….',
+question: 'Un Soir au Cinéma\n\n Le jour en question, la famille va au cinéma sans \u2026\u2026\u2026.',
 
 choice1: 'Adzo',
 choice2: 'Kwami',
@@ -205,7 +205,7 @@ answer: 1,
 },
 { 
 
-question: 'Un Soir au Cinéma\n\n Le jour en question, la famille va au cinéma sans …………….',
+question: 'Un Soir au Cinéma\n\n Le jour en question, la famille va au cinéma sans \u2026\u2026\u2026.',
 
 choice1: 'Adzo',
 choice2: 'Kwami',
@@ -225,7 +225,7 @@ answer: 1,
 },
 { 
 
-question: '– Quand est-ce que les membres de la famille arrivent au cinéma ? Un Soir au Cinéma\n\n arrivent ………….',
+question: '– Quand est-ce que les membres de la famille arrivent au cinéma ? Un Soir au Cinéma\n\n arrivent \u2026\u2026.',
 
 choice1: 'tard',
 choice2: 'le matin',
@@ -235,7 +235,7 @@ answer: 4,
 },
 { 
 
-question: 'Un Soir au Cinéma\n\n La famille achète des billets pour ……………',
+question: 'Un Soir au Cinéma\n\n La famille achète des billets pour \u2026\u2026\u2026',
 
 choice1: 'porter de jolis habits',
 choice2: 'rester à la maison',
@@ -255,7 +255,7 @@ answer: 4,
 },
 { 
 
-question: 'Un Soir au Cinéma\n\n La femme devant le narrateur à beaucoup de …………',
+question: 'Un Soir au Cinéma\n\n La femme devant le narrateur à beaucoup de \u2026\u2026',
 
 choice1: 'robes',
 choice2: 'cheveux',
@@ -273,7 +273,7 @@ choice4: 'Beaucoup de gens sont devant lui.',
 answer: 2,
 },
 {
-question: 'Un Soir au Cinéma\n\n – Qu’est-ce que Papa dit à la femme ? lui dit ……………..son chapeau',
+question: 'Un Soir au Cinéma\n\n – Qu’est-ce que Papa dit à la femme ? lui dit \u2026\u2026\u2026..son chapeau',
 
 choice1: 'de porter',
 choice2: 'd’acheter',

@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Ce matin, la…….fille a tellement faim.',
+question: 'Ce matin, la\u2026.fille a tellement faim.',
 
 choice1: 'petit',
 choice2: 'petite',
@@ -23,7 +23,7 @@ answer: 2
 },
 {
 
-question: 'Le garçon est toujours …… retard',
+question: 'Le garçon est toujours \u2026 retard',
 
 choice1: 'de',
 choice2: 'ci',
@@ -33,7 +33,7 @@ answer: 4,
 
 },
 {
-question: 'La semaine prochaine, …..élevés iront en vacances.',
+question: 'La semaine prochaine, \u2026..élevés iront en vacances.',
 
 choice1: 'de l’',
 choice2: 'les',
@@ -43,7 +43,7 @@ answer: 2,
 
 },
 {
-question: '…….. soeur regarde la télévision tout le temps.',
+question: '\u2026.. soeur regarde la télévision tout le temps.',
 
 choice1: 'Mon',
 choice2: 'Ton',
@@ -53,7 +53,7 @@ answer: 3,
 
 },
 {
-question: 'Je ……..au théâtre le week-end',
+question: 'Je \u2026..au théâtre le week-end',
 
 choice1: 'va',
 choice2: 'vas',
@@ -63,7 +63,7 @@ answer: 3,
 
 },
 {
-question: 'Diana va …..marche pour acheter des légumes.',
+question: 'Diana va \u2026..marche pour acheter des légumes.',
 
 choice1: 'ci la',
 choice2: 'de la',
@@ -73,7 +73,7 @@ answer: 4,
 
 },
 {
-question: 'Nous ….. les vacances au Benin',
+question: 'Nous \u2026.. les vacances au Benin',
 
 choice1: 'passons',
 choice2: 'passent',
@@ -83,7 +83,7 @@ answer: 1,
 
 },
 {
-question: 'Est-ce que tu vas …… ton père au champ ?',
+question: 'Est-ce que tu vas \u2026 ton père au champ ?',
 
 choice1: 'aide',
 choice2: 'aider',
@@ -93,7 +93,7 @@ answer: 2,
 
 },
 {
-question: 'Nous venons …… Koforidua',
+question: 'Nous venons \u2026 Koforidua',
 
 choice1: 'de',
 choice2: 'du',
@@ -103,7 +103,7 @@ answer: 1,
 
 },
 {
-question: 'Son grand-père aime porter des chaussures……',
+question: 'Son grand-père aime porter des chaussures\u2026',
 
 choice1: 'blane',
 choice2: 'blancs',
@@ -112,7 +112,7 @@ choice4: 'blanches',
 answer: 4,
 },
 {
-question: 'Est-ce que ton père est …… ? Oui, il soigne les malades.',
+question: 'Est-ce que ton père est \u2026 ? Oui, il soigne les malades.',
 choice1: 'médecin',
 choice2: 'maçon',
 choice3: 'boucher',            
@@ -120,7 +120,7 @@ choice4: 'professeur',
 answer: 1,
 },
 {
-question: 'Le Ghana est en Afrique……',
+question: 'Le Ghana est en Afrique\u2026',
 choice1: 'Du nord,',
 choice2: 'Du sud',
 choice3: 'de l’ouest',
@@ -128,7 +128,7 @@ choice4: 'de l’est',
 answer: 3,
 },
 {
-question: '………. des pluies vient de commencer.',
+question: '\u2026. des pluies vient de commencer.',
 choice1: 'Le temps',
 choice2: 'La saison',
 choice3: 'La durée',
@@ -136,7 +136,7 @@ choice4: 'L’année',
 answer: 2,
 },
 {
-question: 'Aba n’entend pas bien ; elle a mal aux…….',
+question: 'Aba n’entend pas bien ; elle a mal aux\u2026.',
 choice1: 'Pieds',
 choice2: 'Oreilles',
 choice3: 'Yeux',
@@ -144,7 +144,7 @@ choice4: 'Bras',
 answer: 2,
 },
 {
-question: 'Akosua est la fille de ma tante ; elle est doc ma……….',
+question: 'Akosua est la fille de ma tante ; elle est doc ma\u2026\u2026.',
 choice1: 'Nièce',
 choice2: 'Voisine',
 choice3: 'Rivale',
@@ -152,7 +152,7 @@ choice4: 'Cousine',
 answer: 4,
 },
 {
-question: 'Nous allons à la plage pour……….',
+question: 'Nous allons à la plage pour\u2026\u2026.',
 choice1: 'Pleurer',
 choice2: 'Dormir',
 choice3: 'Nager',
@@ -160,7 +160,7 @@ choice4: 'Cuisine',
 answer: 3,
 },
 {
-question: 'Kofi va se coucher parce qui’il a……',
+question: 'Kofi va se coucher parce qui’il a\u2026',
 choice1: 'Sommeil',
 choice2: 'Chaud',
 choice3: 'Soif',
@@ -168,7 +168,7 @@ choice4: 'Peur',
 answer: 1,
 },
 {
-question: 'Idrisu est boucher ; il vend …………',
+question: 'Idrisu est boucher ; il vend \u2026\u2026',
 choice1: 'du gâtezau',
 choice2: 'Du pain',
 choice3: 'De la viande',
@@ -176,7 +176,7 @@ choice4: 'Des poissons',
 answer: 3,
 },
 {
-question: 'Les cultivateurs cultivent de grands ……….',
+question: 'Les cultivateurs cultivent de grands \u2026\u2026.',
 choice1: 'Poisons',
 choice2: 'Lacs',
 choice3: 'Champs',
@@ -184,7 +184,7 @@ choice4: 'Puits',
 answer: 3,
 },
 {
-question: 'Je me couche toujours a huit……………',
+question: 'Je me couche toujours a huit\u2026\u2026\u2026',
 choice1: 'Jours',
 choice2: 'Minutes',
 choice3: 'Semaines',
@@ -212,7 +212,7 @@ answer: 3,
 
 },
 {
-question: 'Passage I \n\n Pourquoi est-ce qu’ils décident de quitter l’ancien village ? Parce que……',
+question: 'Passage I \n\n Pourquoi est-ce qu’ils décident de quitter l’ancien village ? Parce que\u2026',
 
 choice1: 'le village est trop vieux',
 choice2: 'les cases sont trop petites',
@@ -232,7 +232,7 @@ answer: 1,
 
 },
 {
-question: 'Passage I \n\n Comment est-ce que les femmes aident leurs maris ? Elles ……',
+question: 'Passage I \n\n Comment est-ce que les femmes aident leurs maris ? Elles \u2026',
 
 choice1: 'coupent les herbes',
 choice2: 'balaient les cases',
@@ -242,7 +242,7 @@ answer: 4,
 
 },
 {
-question: 'Passage I \n\n Comment est la terre après le travail des femmes ? Elle est………',
+question: 'Passage I \n\n Comment est la terre après le travail des femmes ? Elle est\u2026\u2026',
 
 choice1: 'fertile',
 choice2: 'pleine d’herbes',
@@ -252,7 +252,7 @@ answer: 3,
 
 },
 {
-question: 'Passage I \n\n Les hommes coupent des branches pour……… les cases',
+question: 'Passage I \n\n Les hommes coupent des branches pour\u2026\u2026 les cases',
 
 choice1: 'nettoyer',
 choice2: 'construire',
@@ -262,7 +262,7 @@ answer: 2,
 
 },
 {
-question: 'Passage I \n\n La construction du nouveau village dure……….',
+question: 'Passage I \n\n La construction du nouveau village dure\u2026\u2026.',
 
 choice1: 'trente jours',
 choice2: 'vingt et un jours',
@@ -272,7 +272,7 @@ answer: 4,
 
 },
 {
-question: 'Passage I \n\n Dans ce nouveau village, toutes les cases sont….',
+question: 'Passage I \n\n Dans ce nouveau village, toutes les cases sont\u2026.',
 
 choice1: 'belles',
 choice2: 'pareilles',
@@ -282,7 +282,7 @@ answer: 2,
 
 },
 {
-question: 'Passage I \n\n Sovieto est le nom…….',
+question: 'Passage I \n\n Sovieto est le nom\u2026.',
 
 choice1: 'des habitants',
 choice2: 'de la terre',

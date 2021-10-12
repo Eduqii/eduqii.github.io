@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Les élèves cherchent ……….informations sur le Togo',
+question: 'Les élèves cherchent \u2026\u2026.informations sur le Togo',
 
 choice1: 'd’',
 choice2: 'du',
@@ -21,7 +21,7 @@ choice4: 'de la',
 answer: 3,
 },
 {
-question: 'Ecris-moi ……………lettre',
+question: 'Ecris-moi \u2026\u2026\u2026lettre',
 
 choice1: 'une',
 choice2: 'un',
@@ -30,7 +30,7 @@ choice4: 'de la',
 answer: 1,
 },
 {
-question: '…………étudiant est paresseux.',
+question: '\u2026\u2026étudiant est paresseux.',
 
 choice1: 'Ce',
 choice2: 'Cet',
@@ -39,7 +39,7 @@ choice4: 'Cette',
 answer: 2,
 },
 {
-question: 'Voici trois stylos. Prenez-…………… !',
+question: 'Voici trois stylos. Prenez-\u2026\u2026\u2026 !',
 
 choice1: 'les',
 choice2: 'la',
@@ -49,7 +49,7 @@ answer: 1,
 },
 { 
 
-question: '………….belles couleurs !',
+question: '\u2026\u2026.belles couleurs !',
 
 choice1: 'Quel',
 choice2: 'Quelle',
@@ -58,7 +58,7 @@ choice4: 'Quelles',
 answer: 4,
 },
 {
-question: 'Christine va ……..hôpital pour voir le médecin.',
+question: 'Christine va \u2026..hôpital pour voir le médecin.',
 
 choice1: 'à',
 choice2: 'au',
@@ -68,7 +68,7 @@ answer: 3,
 },
 { 
 
-question: 'Les enfants aiment jouer ………… volleyball',
+question: 'Les enfants aiment jouer \u2026\u2026 volleyball',
 
 choice1: 'au',
 choice2: 'de',
@@ -77,7 +77,7 @@ choice4: 'aux',
 answer: 1,
 },
 {
-question: 'Antoine, mets ………….gomme dans ton sac !',
+question: 'Antoine, mets \u2026\u2026.gomme dans ton sac !',
 
 choice1: 'ta',
 choice2: 'ton',
@@ -86,7 +86,7 @@ choice4: 'toi',
 answer: 1,
 },
 {
-question: 'Cet homme est très ……………..',
+question: 'Cet homme est très \u2026\u2026\u2026..',
 
 choice1: 'gentil',
 choice2: 'gentils',
@@ -95,7 +95,7 @@ choice4: 'gentilles',
 answer: 1,
 },
 {
-question: 'Les étudiants invitent leurs amis à …………..avec eux.',
+question: 'Les étudiants invitent leurs amis à \u2026\u2026..avec eux.',
 
 choice1: 'sort',
 choice2: 'sortir',
@@ -104,7 +104,7 @@ choice4: 'sortent',
 answer: 2,
 },
 {
-	question: 'Les villageois ont …………………..de nouvelles cases',
+	question: 'Les villageois ont \u2026\u2026\u2026\u2026..de nouvelles cases',
 choice1: 'mis',
 choice2: 'corrigé',
 choice3: 'construit',
@@ -112,7 +112,7 @@ choice4: 'fabriqué',
 answer: 3,
 },
 {
-question: 'On voit des …………….dans la forêt.',
+question: 'On voit des \u2026\u2026\u2026.dans la forêt.',
 choice1: 'mers',
 choice2: 'arbres',
 choice3: 'avions',
@@ -120,7 +120,7 @@ choice4: 'poisons',
 answer: 2,
 },
 {
-question: 'Je veux …………..de l’eau.',
+question: 'Je veux \u2026\u2026..de l’eau.',
 choice1: 'boire',
 choice2: 'piler',
 choice3: 'manger',
@@ -128,7 +128,7 @@ choice4: 'brûler',
 answer: 1,
 },
 {
-question: 'Cette chemise est trop sale ; je dois la …………',
+question: 'Cette chemise est trop sale ; je dois la \u2026\u2026',
 choice1: 'laver',
 choice2: 'porter',
 choice3: 'repasser',
@@ -136,7 +136,7 @@ choice4: 'vendre',
 answer: 1,
 },
 {
-question: 'L’agriculteur à besoin de ……………pour cultiver la terre.',
+question: 'L’agriculteur à besoin de \u2026\u2026\u2026pour cultiver la terre.',
 choice1: 'clé',
 choice2: 'houe',
 choice3: 'craie',
@@ -144,7 +144,7 @@ choice4: 'cuillère',
 answer: 2,
 },
 {
-question: 'Ouvre la bouche ! Ah ! Tes ……………..sont très blanches !',
+question: 'Ouvre la bouche ! Ah ! Tes \u2026\u2026\u2026..sont très blanches !',
 choice1: 'dents',
 choice2: 'doigts',
 choice3: 'cheveux',
@@ -152,7 +152,7 @@ choice4: 'orielles',
 answer: 1,
 },
 {
-question: 'Marc mange trop. Il est ………………',
+question: 'Marc mange trop. Il est \u2026\u2026\u2026',
 choice1: 'bavard',
 choice2: 'méchant',
 choice3: 'ivrogne',
@@ -160,7 +160,7 @@ choice4: 'gourmand',
 answer: 4,
 },
 {
-question: 'Ma sœur ……….le repas du soir',
+question: 'Ma sœur \u2026\u2026.le repas du soir',
 choice1: 'met',
 choice2: 'conduit',
 choice3: 'boit',
@@ -176,7 +176,7 @@ choice4: 'cousin',
 answer: 3,
 },
 {
-question: 'Un ………….fait des tables et des chaises.',
+question: 'Un \u2026\u2026.fait des tables et des chaises.',
 choice1: 'fermier',
 choice2: 'chauffeur',
 choice3: 'menuisier',
@@ -184,7 +184,7 @@ choice4: 'professeur',
 answer: 3
 },
 {
-	question: 'En Classe\n\n A quelle heure est-ce que le cours de français commence ? \n – Le cours de français commence à …………heures.',
+	question: 'En Classe\n\n A quelle heure est-ce que le cours de français commence ? \n – Le cours de français commence à \u2026\u2026heures.',
 
 choice1: '8',
 choice2: '9',
@@ -194,7 +194,7 @@ answer: 3,
 },
 { 
 
-question: 'En Classe\n\n Le nom du professeur est …………..',
+question: 'En Classe\n\n Le nom du professeur est \u2026\u2026..',
 
 choice1: 'Achana',
 choice2: 'Sarfo',
@@ -204,7 +204,7 @@ answer: 3,
 },
 { 
 
-question: 'En Classe\n\n Le professeur entre dans la classe …………',
+question: 'En Classe\n\n Le professeur entre dans la classe \u2026\u2026',
 
 choice1: 'avant l’heure',
 choice2: 'en avance',
@@ -214,7 +214,7 @@ answer: 4,
 },
 { 
 
-question: 'En Classe\n\n ‘…………vos livres’ dit le professeur quand elle entre en classe.',
+question: 'En Classe\n\n ‘\u2026\u2026vos livres’ dit le professeur quand elle entre en classe.',
 
 choice1: 'Cachez',
 choice2: 'Ouvrez',
@@ -233,7 +233,7 @@ choice4: 'Des histoires',
 answer: 3,
 },
 { 
-question: 'En Classe\n\n Tous les élèves écoutent attentivement ………..Sarfo et Achana.',
+question: 'En Classe\n\n Tous les élèves écoutent attentivement \u2026\u2026..Sarfo et Achana.',
 choice1: 'exceptés',
 choice2: 'y compris',
 choice3: 'comme',
@@ -242,7 +242,7 @@ answer: 1,
 },
 { 
 
-question: 'En Classe\n\n L’histoire est ………….',
+question: 'En Classe\n\n L’histoire est \u2026\u2026.',
 
 choice1: 'drôle',
 choice2: 'triste',
@@ -252,7 +252,7 @@ answer: 4,
 },
 { 
 
-question: 'En Classe\n\n Sarfo et Achana ne font pas attention. Ils ………..',
+question: 'En Classe\n\n Sarfo et Achana ne font pas attention. Ils \u2026\u2026..',
 
 choice1: 'jouent',
 choice2: 'parlent',
@@ -262,7 +262,7 @@ answer: 2,
 },
 { 
 
-question: 'En Classe\n\n Pourquoi Sarfo et Achana sont tristes ?\n Parce qu’ils ont ……..',
+question: 'En Classe\n\n Pourquoi Sarfo et Achana sont tristes ?\n Parce qu’ils ont \u2026..',
 choice1: 'échoué',
 choice2: 'réussit',
 choice3: 'écouté',
@@ -271,7 +271,7 @@ answer: 1,
 },
 { 
 
-question: 'En Classe\n\n A la fin, Sarfo et Achana ………',
+question: 'En Classe\n\n A la fin, Sarfo et Achana \u2026\u2026',
 
 choice1: 'jouent',
 choice2: 'pleurent',

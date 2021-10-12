@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
 {
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  A l’école, nous écrivons au tableau avec …………….craie.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  A l’école, nous écrivons au tableau avec \u2026\u2026\u2026.craie.',
 
 options: ['la',
  'le',
@@ -13,7 +13,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Il y a beaucoup de viande ……………la soupe.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Il y a beaucoup de viande \u2026\u2026\u2026la soupe.',
 
 options: ['sur',
  'par',
@@ -23,7 +23,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Ama n’aime …………..préparer le repas pour ses frères.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Ama n’aime \u2026\u2026..préparer le repas pour ses frères.',
 
 options: ['rien',
  'non',
@@ -33,7 +33,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Ma mère m’a acheté ……………livre de français.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Ma mère m’a acheté \u2026\u2026\u2026livre de français.',
 
 options: ['du',
  'un',
@@ -44,7 +44,7 @@ answer: 1
 
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Les filles de ……………..village sont très gentilles.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Les filles de \u2026\u2026\u2026..village sont très gentilles.',
 
 options: ['mon',
  'nos',
@@ -54,7 +54,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  …………………monsieur aime frapper les petits.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  \u2026\u2026\u2026\u2026monsieur aime frapper les petits.',
 
 options: ['Cette',
  'Ces',
@@ -65,7 +65,7 @@ answer: 3
 
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Mansa lui dit de ……………….la porte à clé.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Mansa lui dit de \u2026\u2026\u2026.la porte à clé.',
 
 options: ['ferme',
  'fermer',
@@ -75,7 +75,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  ………………fleur qui est sur la table est belle.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  \u2026\u2026\u2026fleur qui est sur la table est belle.',
 
 options: ['L’',
  'Le',
@@ -85,7 +85,7 @@ answer: 2
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Je me brosse …………….dents chaque matin avant de manger.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Je me brosse \u2026\u2026\u2026.dents chaque matin avant de manger.',
 
 options: ['le',
  'les',
@@ -95,7 +95,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Les élèves entrent dans la salle de classe ……………..la cloche sonne.',
+question: '<b>' + 'For each question, choose from the options lettered A to D the one that is most suitable to complete the sentence given.' + '</b>' + '<br />' + ' ' + '</b>' + '<br />' + '  Les élèves entrent dans la salle de classe \u2026\u2026\u2026..la cloche sonne.',
 
 options: ['que',
  'qui',
@@ -104,7 +104,7 @@ options: ['que',
 answer: 2
 },
 {
-question: 'Il faut me ……………..la vérité tout le temps.',
+question: 'Il faut me \u2026\u2026\u2026..la vérité tout le temps.',
 options: ['dier',
  'faire',
  'parler',
@@ -113,7 +113,7 @@ answer: 0
 },
 { 
 
-question: 'Les touristes vont à la piscine de l’hôtel pour ……………….',
+question: 'Les touristes vont à la piscine de l’hôtel pour \u2026\u2026\u2026.',
 options: ['Danser',
  'nager',
  'pleurer',
@@ -123,7 +123,7 @@ answer: 1
 { 
 
 
-question: 'Le ………………..est couvert de nuages ; il va pleuvoir.',
+question: 'Le \u2026\u2026\u2026..est couvert de nuages ; il va pleuvoir.',
 options: ['Ciel',
  'lac',
  'toit        ',
@@ -132,7 +132,7 @@ answer: 0
 },
 { 
 
-question: 'Ma mère est ………………..au centre ville ; elle vend des chaussures et des robes.',
+question: 'Ma mère est \u2026\u2026\u2026..au centre ville ; elle vend des chaussures et des robes.',
 options: ['Directrice',
  'commerçante',
  'couturière',
@@ -141,7 +141,7 @@ answer: 1
 },
 { 
 
-question: '…………………..est-ce que vous n’allez pas à l’école ?',
+question: '\u2026\u2026\u2026\u2026..est-ce que vous n’allez pas à l’école ?',
 options: ['combien',
  'qui',
  'Quel',
@@ -151,7 +151,7 @@ answer: 3
 { 
  
 
-question: 'J’ai soif alors, je veux ……………………',
+question: 'J’ai soif alors, je veux \u2026\u2026\u2026\u2026',
 options: ['Dormer maintenant',
  'Boire de l’eau',
  'parler avec toi',
@@ -160,7 +160,7 @@ answer: 1
 },
 { 
  
-question: 'Le bébé est content …………………il voit sa mère.',
+question: 'Le bébé est content \u2026\u2026\u2026\u2026il voit sa mère.',
 options: ['quoi',
  'quand',
  'bien      ',
@@ -171,7 +171,7 @@ answer: 1
 
  
 
-question: 'Les malades vont a …………………pour voir le docteur.',
+question: 'Les malades vont a \u2026\u2026\u2026\u2026pour voir le docteur.',
 options: ['l’église',
  'L’ecole',
  'l’usine',
@@ -181,7 +181,7 @@ answer: 3
 { 
  
 
-question: 'L’orange est le ……………………que j’aime bien.',
+question: 'L’orange est le \u2026\u2026\u2026\u2026que j’aime bien.',
 options: ['baton',
  'livre',
  'journal',
@@ -191,7 +191,7 @@ answer: 3
 { 
  
 
-question: 'Il y a beaucoup de maisons ………………dans ce village.',
+question: 'Il y a beaucoup de maisons \u2026\u2026\u2026dans ce village.',
 options: ['blancs',
  'verts',
  'noirs',
@@ -199,7 +199,7 @@ options: ['blancs',
 answer: 3
 },
 { 
-question: '– Ou est-ce que Kafui vit ?' + '<br />' + '  – Il vit …………………',
+question: '– Ou est-ce que Kafui vit ?' + '<br />' + '  – Il vit \u2026\u2026\u2026\u2026',
 
 options: ['avec ses amis',
  'avec sa famille',
@@ -210,7 +210,7 @@ answer: 1
 },
 { 
 
-question: 'Il y a ………………personnes dans la famille de Kafui.',
+question: 'Il y a \u2026\u2026\u2026personnes dans la famille de Kafui.',
 
 options: ['quatre',
  'cinq',
@@ -221,7 +221,7 @@ answer: 1
 },
 { 
  
-question: '‘Esi l’aînée’ veut dire qu’Esi est ………………',
+question: '‘Esi l’aînée’ veut dire qu’Esi est \u2026\u2026\u2026',
 
 options: ['le premier enfant de la famille',
  'un enfant unique',
@@ -232,7 +232,7 @@ answer: 0
 },
 { 
 
-question: '…………………….est le cadet de la famille de Kafui.',
+question: '\u2026\u2026\u2026\u2026.est le cadet de la famille de Kafui.',
 
 options: ['Esi',
  'Kafui',
@@ -243,7 +243,7 @@ answer: 3
 },
 { 
 
-question: '– Quelle est la profession de la mère de Kafui ?' + '<br />' + ' Elle est …………………',
+question: '– Quelle est la profession de la mère de Kafui ?' + '<br />' + ' Elle est \u2026\u2026\u2026\u2026',
 
 options: ['professeur',
  'médecin',
@@ -254,7 +254,7 @@ answer: 2
 },
 { 
 
-question: 'La famille fait …………….pour commencer la journée.',
+question: 'La famille fait \u2026\u2026\u2026.pour commencer la journée.',
 
 options: ['le nettoyage',
  'la cuisine',
@@ -265,7 +265,7 @@ answer: 3
 },
 { 
  
-question: 'A sept heures du matin, ……………………',
+question: 'A sept heures du matin, \u2026\u2026\u2026\u2026',
 
 options: ['le père va au travail',
  'la mère va au marché',
@@ -287,7 +287,7 @@ answer: 0
 },
 {  
 
-question: '– Pourquoi Kafui aime-t-il les week-ends ?Parce que ………………',
+question: '– Pourquoi Kafui aime-t-il les week-ends ?Parce que \u2026\u2026\u2026',
 
 options: ['la famille mange bien',
  'tout se passe bien',
@@ -298,7 +298,7 @@ answer: 3
 },
 { 
 
-question: 'Selon le texte, la famille de Kafui est ……………………',
+question: 'Selon le texte, la famille de Kafui est \u2026\u2026\u2026\u2026',
 
 options: ['musulmane',
  'chrétienne',

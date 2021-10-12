@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Notre professeur vient de ………le cours de français.',
+question: 'Notre professeur vient de \u2026\u2026le cours de français.',
 
 options: ['finit',
  'finis',
@@ -14,7 +14,7 @@ answer: 2
 },
 {
 
-question: '– …..vas-tu, Kwame? ' + '<br />' + '<br />' + '  – Je vais en ville',
+question: '– \u2026..vas-tu, Kwame? ' + '<br />' + '<br />' + '  – Je vais en ville',
 
 options: ['Pourquoi',
  'Combien',
@@ -25,7 +25,7 @@ answer: 3
 },
 {
 
-question: 'Hier, j’……..quitté la maison le matin.',
+question: 'Hier, j’\u2026..quitté la maison le matin.',
 
 options: ['a',
  'ai',
@@ -35,7 +35,7 @@ answer: 1
 
 },
 {
-question: 'Fati n’a pas ……….chaussures.',
+question: 'Fati n’a pas \u2026\u2026.chaussures.',
 
 options: ['de la',
  'des',
@@ -45,7 +45,7 @@ answer: 3
 
 },
 {
-question: 'Demain, les élèves ……….en vacances.',
+question: 'Demain, les élèves \u2026\u2026.en vacances.',
 
 options: ['iront',
  'iras',
@@ -55,7 +55,7 @@ answer: 0
 
 },
 {
-question: 'Pierre veut partir …………soir.',
+question: 'Pierre veut partir \u2026\u2026soir.',
 
 options: ['cette',
  'cet',
@@ -65,7 +65,7 @@ answer: 3
 
 },
 {
-question: 'C’est ……….père qui conduit la voiture.',
+question: 'C’est \u2026\u2026.père qui conduit la voiture.',
 
 options: ['ma',
  'se',
@@ -75,7 +75,7 @@ answer: 2
 
 },
 {
-question: 'Les enfants jouent au tennis pendant …………récréation.',
+question: 'Les enfants jouent au tennis pendant \u2026\u2026récréation.',
 
 options: ['les',
  'le',
@@ -85,7 +85,7 @@ answer: 2
 
 },
 {
-question: 'Les livres sont ……….une boîte.',
+question: 'Les livres sont \u2026\u2026.une boîte.',
 
 options: ['chez',
  'dans',
@@ -94,7 +94,7 @@ options: ['chez',
 answer: 1
 },
 {
-question: 'Est-ce que vous avez ……….un bon voyage ?',
+question: 'Est-ce que vous avez \u2026\u2026.un bon voyage ?',
 
 options: ['faites',
  'faire',
@@ -103,7 +103,7 @@ options: ['faites',
 answer: 3
 },
 {
-question: 'Notre professeur vient du Benin. Il est, donc…………..',
+question: 'Notre professeur vient du Benin. Il est, donc\u2026\u2026..',
 options: ['ghanéen ',
  'ivoirien',
  'béninois',
@@ -111,7 +111,7 @@ options: ['ghanéen ',
 answer: 2
 },
 {
-question: 'Voici le mécanicien qui répare ma……………',
+question: 'Voici le mécanicien qui répare ma\u2026\u2026\u2026',
 options: ['voiture',
  'montre',
  'chaussure',
@@ -119,7 +119,7 @@ options: ['voiture',
 answer: 0
 },
 {
-question: 'Ce …………fait des pantalons pour les enfants.',
+question: 'Ce \u2026\u2026fait des pantalons pour les enfants.',
 options: ['menuisier',
  'pêcheur',
  'vendeur ',
@@ -127,7 +127,7 @@ options: ['menuisier',
 answer: 3
 },
 {
-question: 'Ama va à la boucherie pour acheter……………',
+question: 'Ama va à la boucherie pour acheter\u2026\u2026\u2026',
 options: ['de la viande',
  'du pain',
  'des fruits',
@@ -135,7 +135,7 @@ options: ['de la viande',
 answer: 0
 },
 {
-question: 'Le dernier ……….de l’année est décembre.',
+question: 'Le dernier \u2026\u2026.de l’année est décembre.',
 options: ['jour',
  'mois',
  'semaine',
@@ -143,7 +143,7 @@ options: ['jour',
 answer: 1
 },
 {
-question: 'Chaque matin, nous prenons le ………..',
+question: 'Chaque matin, nous prenons le \u2026\u2026..',
 options: ['dessert',
  'déjeuner ',
  'diner',
@@ -151,7 +151,7 @@ options: ['dessert',
 answer: 3
 },
 {
-question: 'Papa porte des ………..parce qu’il a mal aux yeux.',
+question: 'Papa porte des \u2026\u2026..parce qu’il a mal aux yeux.',
 options: ['chapeaux',
  'bijoux',
  'lunettes',
@@ -159,7 +159,7 @@ options: ['chapeaux',
 answer: 2
 },
 {
-question: 'Isabelle ouvre les fenêtres parce qu’il ………',
+question: 'Isabelle ouvre les fenêtres parce qu’il \u2026\u2026',
 options: ['va pleuvoir',
  'fait du vent',
  'fait chaud',
@@ -167,7 +167,7 @@ options: ['va pleuvoir',
 answer: 2
 },
 {
-question: 'La jeune infirmière travaille a ………….',
+question: 'La jeune infirmière travaille a \u2026\u2026.',
 options: ['l’hopital',
  'la librarie',
  'l’eglise',
@@ -175,7 +175,7 @@ options: ['l’hopital',
 answer: 0
 },
 {
-question: 'Il boit beaucoup d’eau parce qu’il a …………',
+question: 'Il boit beaucoup d’eau parce qu’il a \u2026\u2026',
 options: ['peur',
  'sommeil',
  'soif',
@@ -183,7 +183,7 @@ options: ['peur',
 answer: 2
 },
 {
-question: 'Ou se trouve le garage de Karibu ?' + '<br />' + '<br />' + '  Il se trouve …………',
+question: 'Ou se trouve le garage de Karibu ?' + '<br />' + '<br />' + '  Il se trouve \u2026\u2026',
 
 options: ['dans la banque',
  'près de la banque',
@@ -192,7 +192,7 @@ options: ['dans la banque',
 answer: 1
 },
 {
-question: 'Il y a …………dans le quartier.',
+question: 'Il y a \u2026\u2026dans le quartier.',
 
 options: ['une banque',
  'deux banques',
@@ -201,7 +201,7 @@ options: ['une banque',
 answer: 0
 },
 {
-question: 'Le garage de Karibu est ………..',
+question: 'Le garage de Karibu est \u2026\u2026..',
 
 options: ['sombre',
  'propre',
@@ -219,7 +219,7 @@ options: ['Parce qu’il porte des vêtements sombres',
 answer: 2
 },
 {
-question: 'A quelle l’heure est-ce que Karibu arrive au travail ?' + '<br />' + '<br />' + '  Il y arrive à ……….', 
+question: 'A quelle l’heure est-ce que Karibu arrive au travail ?' + '<br />' + '<br />' + '  Il y arrive à \u2026\u2026.', 
 
 options: ['8 h.00',
  '8 h.15',
@@ -228,7 +228,7 @@ options: ['8 h.00',
 answer: 2
 },
 {
-question: 'Les clients appellent Karibu de loin, quelquefois, pour …………',
+question: 'Les clients appellent Karibu de loin, quelquefois, pour \u2026\u2026',
 
 options: ['réparer des voitures',
  'appeler ses apprentis',
@@ -255,7 +255,7 @@ options: ['Les mécaniciens',
 answer: 3
 },
 {
-question: 'Les apprentis aident Karibu à ………….',
+question: 'Les apprentis aident Karibu à \u2026\u2026.',
 
 options: ['trouver les clients',
  'réparer les voitures',
@@ -264,7 +264,7 @@ options: ['trouver les clients',
 answer: 1
 },
 {
-question: 'A la fin de la journée, le mécanicien rentre chez lui ………….',
+question: 'A la fin de la journée, le mécanicien rentre chez lui \u2026\u2026.',
 
 options: ['ennuyé',
  'propre',

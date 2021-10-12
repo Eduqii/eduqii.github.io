@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Les élèves vont en vacances …………….. 30 janvier.',
+question: 'Les élèves vont en vacances \u2026\u2026\u2026.. 30 janvier.',
 choice1: 'la',
 choice2: 'au',
 choice3: 'en',
@@ -20,7 +20,7 @@ choice4: 'le',
 answer: 
 },
 {
-question: 'Nous jouons ……………..football chaque samedi matin.',
+question: 'Nous jouons \u2026\u2026\u2026..football chaque samedi matin.',
 choice1: 'du',
 choice2: 'aux',
 choice3: 'au',
@@ -28,7 +28,7 @@ choice4: 'le',
 answer: 
 },
 {
-question: 'Le soir, je ……………… à 9 heures.',
+question: 'Le soir, je \u2026\u2026\u2026 à 9 heures.',
 choice1: 'dort',
 choice2: 'dormons',
 choice3: 'dorment',
@@ -36,7 +36,7 @@ choice4: 'dors',
 answer: 
 },
 {
-question: 'Ali est un ……………….. élève',
+question: 'Ali est un \u2026\u2026\u2026.. élève',
 choice1: 'bon',
 choice2: 'bons',
 choice3: 'bonne',
@@ -44,7 +44,7 @@ choice4: 'bonnes',
 answer: 
 },
 {
-question: 'L’homme est …………..il à beaucoup d’argent.',
+question: 'L’homme est \u2026\u2026..il à beaucoup d’argent.',
 choice1: 'pauvre',
 choice2: 'joli',
 choice3: 'riche',
@@ -52,7 +52,7 @@ choice4: 'grand',
 answer: 
 },
 {
-question: 'Le voleur ………….. de la prison.',
+question: 'Le voleur \u2026\u2026.. de la prison.',
 choice1: 'sortez',
 choice2: 'sors',
 choice3: 'sortent',
@@ -60,7 +60,7 @@ choice4: 'sort',
 answer: 
 },
 {
-question: 'Le garçon ……………les portes et les fenêtres de l’école.',
+question: 'Le garçon \u2026\u2026\u2026les portes et les fenêtres de l’école.',
 choice1: 'ouvres',
 choice2: 'ouvre',
 choice3: 'ouvrir',
@@ -68,7 +68,7 @@ choice4: 'ouvert',
 answer: 
 },
 {
-question: 'Ama achète un kilo ……………..tomates au marché.',
+question: 'Ama achète un kilo \u2026\u2026\u2026..tomates au marché.',
 choice1: 'des',
 choice2: 'de la',
 choice3: 'de',
@@ -76,7 +76,7 @@ choice4: 'du',
 answer: 
 },
 {
-question: 'Pour aller à l’école, nous ……………..l’autobus.',
+question: 'Pour aller à l’école, nous \u2026\u2026\u2026..l’autobus.',
 choice1: 'prenons',
 choice2: 'prenez',
 choice3: 'prendre',
@@ -84,7 +84,7 @@ choice4: 'prennent',
 answer: 
 },
 {
-question: 'Ils ……………… lavent tous les matins',
+question: 'Ils \u2026\u2026\u2026 lavent tous les matins',
 choice1: 'lui',
 choice2: 'sont',
 choice3: 'leur',
@@ -92,7 +92,7 @@ choice4: 'se',
 answer: 
 },
 {
-question: 'L’enfant ……………. intelligent.',
+question: 'L’enfant \u2026\u2026\u2026. intelligent.',
 choice1: 'est',
 choice2: 'suis',
 choice3: 'être',
@@ -100,7 +100,7 @@ choice4: 'es',
 answer: 
 },
 {
-question: 'Quelle ………… robe !',
+question: 'Quelle \u2026\u2026 robe !',
 choice1: 'joli',
 choice2: 'jolie',
 choice3: 'jolis',
@@ -108,7 +108,7 @@ choice4: 'jolies',
 answer: 
 },
 {
-question: 'Ama achète un ……………. mouchoir',
+question: 'Ama achète un \u2026\u2026\u2026. mouchoir',
 choice1: 'nouvel',
 choice2: 'nouveau',
 choice3: 'nouvelle',
@@ -116,7 +116,7 @@ choice4: 'nouvelles',
 answer: 
 },
 {
-question: 'Elle dort parce qu’elle est …………..',
+question: 'Elle dort parce qu’elle est \u2026\u2026..',
 choice1: 'fatigué',
 choice2: 'fatiguée',
 choice3: 'fatiguant',
@@ -124,7 +124,7 @@ choice4: 'fatigue',
 answer: 
 },
 {
-question: 'Il va ………………. la plage',
+question: 'Il va \u2026\u2026\u2026. la plage',
 choice1: 'a',
 choice2: 'à',
 choice3: 'au',
@@ -132,7 +132,7 @@ choice4: 'en',
 answer: 
 },
 {
-question: 'Il travaille ……………… le jardin.',
+question: 'Il travaille \u2026\u2026\u2026 le jardin.',
 choice1: 'par',
 choice2: 'dans',
 choice3: 'en',
@@ -140,7 +140,7 @@ choice4: 'au',
 answer: 
 },
 {
-question: 'Il y a beaucoup ………………. personnes dans la chambre.',
+question: 'Il y a beaucoup \u2026\u2026\u2026. personnes dans la chambre.',
 choice1: 'du',
 choice2: 'des',
 choice3: 'd’',
@@ -148,7 +148,7 @@ choice4: 'de',
 answer: 
 },
 {
-question: 'Les élèves ………………. leur devoir.',
+question: 'Les élèves \u2026\u2026\u2026. leur devoir.',
 choice1: 'fait',
 choice2: 'fais',
 choice3: 'font',
@@ -156,7 +156,7 @@ choice4: 'faisons',
 answer: 
 },
 {
-question: 'Mon Père à une ……………….. maison.',
+question: 'Mon Père à une \u2026\u2026\u2026.. maison.',
 choice1: 'grande',
 choice2: 'petit',
 choice3: 'grand',
@@ -164,7 +164,7 @@ choice4: 'grosse',
 answer: 
 },
 {
-question: '………………… professeur est content.',
+question: '\u2026\u2026\u2026\u2026 professeur est content.',
 choice1: 'Ma',
 choice2: 'Mon',
 choice3: 'Mes.',
@@ -172,7 +172,7 @@ choice4: 'Sa',
 answer: 
 },
 {
-question: 'Nous allons …………….. ville.',
+question: 'Nous allons \u2026\u2026\u2026.. ville.',
 choice1: 'en',
 choice2: 'au',
 choice3: 'dans',
@@ -180,7 +180,7 @@ choice4: 'a',
 answer: 
 },
 {
-question: 'J’ai …………stylo dans mon sac.',
+question: 'J’ai \u2026\u2026stylo dans mon sac.',
 choice1: 'la',
 choice2: 'une',
 choice3: 'un',
@@ -188,7 +188,7 @@ choice4: 'de',
 answer: 
 },
 {
-question: 'Cet élève ne travaille pas bien en classe. Il est……………',
+question: 'Cet élève ne travaille pas bien en classe. Il est\u2026\u2026\u2026',
 choice1: 'gentil',
 choice2: 'intelligent',
 choice3: 'serieux',
@@ -196,7 +196,7 @@ choice4: 'paresseux',
 answer: 
 },
 {
-question: 'Kofi n’est pas grand. Il est……….',
+question: 'Kofi n’est pas grand. Il est\u2026\u2026.',
 choice1: 'jolie', 
 choice2: 'petit',
 choice3: 'mauvais',
@@ -204,7 +204,7 @@ choice4: 'belle',
 answer: 
 },
 {
-question: 'Le bébé boit ……………. lait.',
+question: 'Le bébé boit \u2026\u2026\u2026. lait.',
 choice1: 'de',
 choice2: 'des',
 choice3: 'de la',
@@ -212,7 +212,7 @@ choice4: 'du',
 answer: 
 },
 {
-question: 'Tu ……………….. vingt ans.',
+question: 'Tu \u2026\u2026\u2026.. vingt ans.',
 choice1: 'es',
 choice2: 'ai',
 choice3: 'as',
@@ -220,7 +220,7 @@ choice4: 'a',
 answer: 
 },
 {
-question: 'Le chat est un animal ………………',
+question: 'Le chat est un animal \u2026\u2026\u2026',
 choice1: 'domestique',
 choice2: 'sauvage',
 choice3: 'sale',
@@ -228,7 +228,7 @@ choice4: 'féroce',
 answer: 
 },
 {
-question: 'Les ……………… sont dans la mer.',
+question: 'Les \u2026\u2026\u2026 sont dans la mer.',
 choice1: 'souris',
 choice2: 'moutons',
 choice3: 'poissons',
@@ -236,7 +236,7 @@ choice4: 'poules',
 answer: 
 },
 {
-question: 'L’histoire est très ……………………….',
+question: 'L’histoire est très \u2026\u2026\u2026\u2026\u2026.',
 choice1: 'amusant',
 choice2: 'amusee',
 choice3: 'amusent',
@@ -244,7 +244,7 @@ choice4: 'amusante',
 answer: 
 },
 {
-question: 'Le frère de mon père est mon ……………',
+question: 'Le frère de mon père est mon \u2026\u2026\u2026',
 choice1: 'cousin',
 choice2: 'frère',
 choice3: 'oncle',
@@ -252,7 +252,7 @@ choice4: 'neveu',
 answer: 
 },
 {
-	question: 'UN SOIR AU CINEMA\n\n La famille va au cinéma…………….',
+	question: 'UN SOIR AU CINEMA\n\n La famille va au cinéma\u2026\u2026\u2026.',
 choice1: 'le dimanche',
 choice2: 'le samedi soir',
 choice3: 'tous les soirs',
@@ -260,7 +260,7 @@ choice4: 'tous les jours',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Aujourd’hui les enfants vont au cinéma avec……………',
+question: 'UN SOIR AU CINEMA\n\n Aujourd’hui les enfants vont au cinéma avec\u2026\u2026\u2026',
 choice1: 'leur mère',
 choice2: 'leur ami',
 choice3: 'leur père',
@@ -268,7 +268,7 @@ choice4: 'leur sœur',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Maman reste à la maison parce qu’elle est ………………',
+question: 'UN SOIR AU CINEMA\n\n Maman reste à la maison parce qu’elle est \u2026\u2026\u2026',
 choice1: 'gentille',
 choice2: 'paresseuse',
 choice3: 'contente',
@@ -276,7 +276,7 @@ choice4: 'fatiguée',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Que porte la sœur ? Elle porte …………………',
+question: 'UN SOIR AU CINEMA\n\n Que porte la sœur ? Elle porte \u2026\u2026\u2026\u2026',
 choice1: 'un joli pantalon',
 choice2: 'une jolie robe',
 choice3: 'une belle chemise',
@@ -284,7 +284,7 @@ choice4: 'une belle jupe',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Ils vont au ………….avec Papa.',
+question: 'UN SOIR AU CINEMA\n\n Ils vont au \u2026\u2026.avec Papa.',
 choice1: 'marché',
 choice2: 'champ',
 choice3: 'cinéma',
@@ -292,7 +292,7 @@ choice4: 'bureau',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Le film commence à …………….',
+question: 'UN SOIR AU CINEMA\n\n Le film commence à \u2026\u2026\u2026.',
 choice1: '6 heures',
 choice2: '7 heures',
 choice3: '9 heures',
@@ -300,7 +300,7 @@ choice4: '8 heures',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n La femme à beaucoup de ……………….',
+question: 'UN SOIR AU CINEMA\n\n La femme à beaucoup de \u2026\u2026\u2026.',
 choice1: 'foulards',
 choice2: 'chapeaux',
 choice3: 'robes',
@@ -308,7 +308,7 @@ choice4: 'cheveux',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Les cheveux de la famille ressemblent à ……………..',
+question: 'UN SOIR AU CINEMA\n\n Les cheveux de la famille ressemblent à \u2026\u2026\u2026..',
 choice1: 'des fleurs',
 choice2: 'un panier',
 choice3: 'des feuilles',
@@ -316,7 +316,7 @@ choice4: 'un chapeau',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Qu’est-ce que Papa dit à la femme ? Il lui dit …………..',
+question: 'UN SOIR AU CINEMA\n\n Qu’est-ce que Papa dit à la femme ? Il lui dit \u2026\u2026..',
 choice1: 'd’enlever son chapeau',
 choice2: 'de porter son chapeau',
 choice3: 'de chercher son chapeau',
@@ -324,7 +324,7 @@ choice4: 'd’apporter son chapeau',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Que fait tout le monde ? Tout le monde ………………',
+question: 'UN SOIR AU CINEMA\n\n Que fait tout le monde ? Tout le monde \u2026\u2026\u2026',
 choice1: 'parle',
 choice2: 'chante',
 choice3: 'crie',

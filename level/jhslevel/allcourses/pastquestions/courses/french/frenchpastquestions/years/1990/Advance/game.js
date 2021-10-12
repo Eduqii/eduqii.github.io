@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question:'Elles mangent ……….. pain',
+question:'Elles mangent \u2026\u2026.. pain',
 choice1: 'de la',
 choice2: 'la',
 choice3: 'du',
@@ -20,7 +20,7 @@ choice4: 'une',
 answer: 
 },
 {
-question:'Nous écrivons ………… tableau.',
+question:'Nous écrivons \u2026\u2026 tableau.',
 choice1: 'à la',
 choice2: 'aux',
 choice3: 'à l’',
@@ -28,7 +28,7 @@ choice4: 'au',
 answer: 
 },
 {
-question:'Kofi va chercher …………….chaise.',
+question:'Kofi va chercher \u2026\u2026\u2026.chaise.',
 choice1: 'du',
 choice2: 'une',
 choice3: 'de la',
@@ -36,7 +36,7 @@ choice4: 'des',
 answer: 
 },
 {
-question:'Maman achète …………. tomates.',
+question:'Maman achète \u2026\u2026. tomates.',
 choice1: 'une',
 choice2: 'de',
 choice3: 'de la',
@@ -44,7 +44,7 @@ choice4: 'des',
 answer: 
 },
 {
-question:'…………………….. enfant dort sur la table',
+question:'\u2026\u2026\u2026\u2026.. enfant dort sur la table',
 choice1: 'Les',
 choice2: 'La',
 choice3: 'L’',
@@ -52,7 +52,7 @@ choice4: 'De la',
 answer: 
 },
 {
-question:'Le chat mange …………… Lézards.',
+question:'Le chat mange \u2026\u2026\u2026 Lézards.',
 choice1: 'une',
 choice2: 'les',
 choice3: 'la',
@@ -60,7 +60,7 @@ choice4: 'un',
 answer: 
 },
 {
-question:'Ama écoute ………….. leçon.',
+question:'Ama écoute \u2026\u2026.. leçon.',
 choice1: 'le',
 choice2: 'à la',
 choice3: 'la',
@@ -68,7 +68,7 @@ choice4: 'les',
 answer: 
 },
 {
-question:'Donne-moi ………….eau.',
+question:'Donne-moi \u2026\u2026.eau.',
 choice1: 'une',
 choice2: 'un',
 choice3: 'la',
@@ -76,7 +76,7 @@ choice4: 'l’',
 answer: 
 },
 {
-question:'…………….. homme arrives.',
+question:'\u2026\u2026\u2026.. homme arrives.',
 choice1: 'La',
 choice2: 'Les',
 choice3: 'Un',
@@ -84,7 +84,7 @@ choice4: 'Une',
 answer: 
 },
 {
-question:'Nous avons …………… belle maison.',
+question:'Nous avons \u2026\u2026\u2026 belle maison.',
 choice1: 'une',
 choice2: 'un',
 choice3: 'le',
@@ -92,7 +92,7 @@ choice4: 'les',
 answer: 
 },
 {
-question:'Viens me ………..bonjour.',
+question:'Viens me \u2026\u2026..bonjour.',
 choice1: 'saluer',
 choice2: 'parler',
 choice3: 'dire',
@@ -108,7 +108,7 @@ choice4: 'vendredi',
 answer: 
 },
 {
-question:'L’homme vend des chemises et des robes. C’est un…………..',
+question:'L’homme vend des chemises et des robes. C’est un\u2026\u2026..',
 choice1: 'vendeur',
 choice2: 'voleur',
 choice3: 'professeur',
@@ -116,7 +116,7 @@ choice4: 'pêcheur',
 answer: 
 },
 {
-question:'Quel âge as-tu ? ……………….',
+question:'Quel âge as-tu ? \u2026\u2026\u2026.',
 choice1: 'J’ai froid',
 choice2: 'Je vais bien',
 choice3: 'Je mange bien',
@@ -124,7 +124,7 @@ choice4: 'J’ai dix ans.',
 answer: 
 },
 {
-question:'Elle est malade. Elle prend……………',
+question:'Elle est malade. Elle prend\u2026\u2026\u2026',
 choice1: 'de la bière',
 choice2: 'de l’aspirine',
 choice3: 'de vin',
@@ -132,7 +132,7 @@ choice4: 'de l’eau',
 answer: 
 },
 {
-question:'J’ai faim. Je veux……………..',
+question:'J’ai faim. Je veux\u2026\u2026\u2026..',
 choice1: 'dormir',
 choice2: 'parler',
 choice3: 'manger',
@@ -140,7 +140,7 @@ choice4: 'courir',
 answer: 
 },
 {
-question:'Le cocotier est ………….',
+question:'Le cocotier est \u2026\u2026.',
 choice1: 'un arbre',
 choice2: 'un animal',
 choice3: 'un insecte',
@@ -156,7 +156,7 @@ choice4: 'bancs',
 answer: 
 },
 {
-question:'Le ………….. se trouve dans l’eau.',
+question:'Le \u2026\u2026.. se trouve dans l’eau.',
 choice1: 'mouton',
 choice2: 'poisson',
 choice3: 'chat',
@@ -164,7 +164,7 @@ choice4: 'chien',
 answer: 
 },
 {
-question:'L’oranges est …………',
+question:'L’oranges est \u2026\u2026',
 choice1: 'un bâton',
 choice2: 'une poupée',
 choice3: 'un journal',
@@ -172,7 +172,7 @@ choice4: 'un fruit',
 answer: 
 },
 {
-question:'Les élèves entrent ……….classe.',
+question:'Les élèves entrent \u2026\u2026.classe.',
 choice1: 'au',
 choice2: 'à',
 choice3: 'en',
@@ -180,7 +180,7 @@ choice4: 'pour',
 answer: 
 },
 {
-question:'Le livre est …………… la table.',
+question:'Le livre est \u2026\u2026\u2026 la table.',
 choice1: 'dans',
 choice2: 'sur',
 choice3: 'à',
@@ -188,7 +188,7 @@ choice4: 'sans',
 answer: 
 },
 {
-question:'Le voleur passe ……… la fenêtre.',
+question:'Le voleur passe \u2026\u2026 la fenêtre.',
 choice1: 'sous',
 choice2: 'sans',
 choice3: 'dans',
@@ -196,7 +196,7 @@ choice4: 'par',
 answer: 
 },
 {
-question:'Cette dame porte des lunettes ……….bien voir.',
+question:'Cette dame porte des lunettes \u2026\u2026.bien voir.',
 choice1: 'de',
 choice2: 'pour',
 choice3: 'en',
@@ -204,7 +204,7 @@ choice4: 'par',
 answer: 
 },
 {
-question:'L’enfant marché ………….. sa mère.',
+question:'L’enfant marché \u2026\u2026.. sa mère.',
 choice1: 'devant',
 choice2: 'pour',
 choice3: 'sous',
@@ -212,7 +212,7 @@ choice4: 'sur',
 answer: 
 },
 {
-question:'Ils vont…………… Lomé en autocar',
+question:'Ils vont\u2026\u2026\u2026 Lomé en autocar',
 choice1: 'sur',
 choice2: 'au',
 choice3: 'à',
@@ -220,7 +220,7 @@ choice4: 'du',
 answer: 
 },
 {
-question:'Qui est …………… la porte ?',
+question:'Qui est \u2026\u2026\u2026 la porte ?',
 choice1: 'sur',
 choice2: 'derrière',
 choice3: 'sous',
@@ -228,7 +228,7 @@ choice4: 'vers',
 answer: 
 },
 {
-question:'Kofi va ………… France',
+question:'Kofi va \u2026\u2026 France',
 choice1: 'de',
 choice2: 'vers',
 choice3: 'en',
@@ -236,7 +236,7 @@ choice4: 'à',
 answer: 
 },
 {
-question:'Le chat …………..sur le tit',
+question:'Le chat \u2026\u2026..sur le tit',
 choice1: 'dort',
 choice2: 'va',
 choice3: 'regarde',
@@ -244,7 +244,7 @@ choice4: 'écrit',
 answer: 
 },
 {
-question:'Maman donne des bonbons ………. enfants.',
+question:'Maman donne des bonbons \u2026\u2026. enfants.',
 choice1: 'des',
 choice2: 'pour',
 choice3: 'au',
@@ -260,7 +260,7 @@ choice4: 'A minuit',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Où est Ali ? Il est …………….',
+question: 'LA MECHANTE FILLE\n\n Où est Ali ? Il est \u2026\u2026\u2026.',
 choice1: 'dans la maison',
 choice2: 'avec Rama',
 choice3: 'dans le jardin',
@@ -276,7 +276,7 @@ choice4: 'Les serpent-poupees',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Dans le jardin, Rama voit……………….',
+question: 'LA MECHANTE FILLE\n\n Dans le jardin, Rama voit\u2026\u2026\u2026.',
 choice1: 'son frère',
 choice2: 'le livre',
 choice3: 'tout le monde',
@@ -284,7 +284,7 @@ choice4: 'sa sœur',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Rama vient ……………….',
+question: 'LA MECHANTE FILLE\n\n Rama vient \u2026\u2026\u2026.',
 choice1: 'de la maison',
 choice2: 'du jardin',
 choice3: 'de la salle',
@@ -292,7 +292,7 @@ choice4: 'du marché',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Où se cache Rama ? Elle se cache……………..',
+question: 'LA MECHANTE FILLE\n\n Où se cache Rama ? Elle se cache\u2026\u2026\u2026..',
 choice1: 'devant l’arbre',
 choice2: 'derrière l’arbre',
 choice3: 'derrière Ali',
@@ -308,7 +308,7 @@ choice4: 'La famille',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Rama met le serpent-poupee…………….',
+question: 'LA MECHANTE FILLE\n\n Rama met le serpent-poupee\u2026\u2026\u2026.',
 choice1: 'dans la poche',
 choice2: 'aux pieds d’Ali',
 choice3: 'sur la tête d’Ali',
@@ -316,7 +316,7 @@ choice4: 'dans la chemise',
 answer: 
 },
 {
-question: 'LA MECHANTE FILLE\n\n Ali court vers………….',
+question: 'LA MECHANTE FILLE\n\n Ali court vers\u2026\u2026.',
 choice1: 'le jardin',
 choice2: 'le marché',
 choice3: 'la maison',

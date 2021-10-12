@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
 	{
-question: 'Regarde! Il commence …………..pleuvoir.',
+question: 'Regarde! Il commence \u2026\u2026..pleuvoir.',
 
 options: ['à',
  'dans',
@@ -14,7 +14,7 @@ answer: 0
 {
  
 
-question: 'Nos amis vont chercher …………………..chambre',
+question: 'Nos amis vont chercher \u2026\u2026\u2026\u2026..chambre',
 
 options: ['un',
  'le',
@@ -25,7 +25,7 @@ answer: 3
 {
  
 
-question: 'Au collège “All Girls”, les placards sont ……………………',
+question: 'Au collège “All Girls”, les placards sont \u2026\u2026\u2026\u2026',
 
 options: ['arranges',
  'arrangés',
@@ -36,7 +36,7 @@ answer: 1
 {
  
 
-question: 'Madame Sassou a acheté des jouets pour ………………..enfant',
+question: 'Madame Sassou a acheté des jouets pour \u2026\u2026\u2026..enfant',
 
 options: ['s’',
  'sa',
@@ -47,7 +47,7 @@ answer: 3
 {
  
 
-question: '………………………est la date d’aujourd’hui ?',
+question: '\u2026\u2026\u2026\u2026\u2026est la date d’aujourd’hui ?',
 
 options: ['Quel',
  'Quelle',
@@ -58,7 +58,7 @@ answer: 1
 {
  
 
-question: 'Dans notre jardin, il y a de………………..fleurs',
+question: 'Dans notre jardin, il y a de\u2026\u2026\u2026..fleurs',
 
 options: ['beau',
  'beaux',
@@ -70,7 +70,7 @@ answer: 3
 
  
 
-question: '– Qu’est-ce que ………………cherches ?Mon stylo',
+question: '– Qu’est-ce que \u2026\u2026\u2026cherches ?Mon stylo',
 options: ['elle',
  'je',
  'tu',
@@ -80,7 +80,7 @@ answer: 2
 {
  
 
-question: 'L’instituteur va ………………..les élèves paresseux.',
+question: 'L’instituteur va \u2026\u2026\u2026..les élèves paresseux.',
 
 options: ['puni',
  'punir',
@@ -91,7 +91,7 @@ answer: 1
 {
  
 
-question: '……………………de filles travaillent au nouveau restaurant ?',
+question: '\u2026\u2026\u2026\u2026de filles travaillent au nouveau restaurant ?',
 
 options: ['Combien',
  'Comment',
@@ -102,7 +102,7 @@ answer: 0
 {
  
 
-question: 'Vous …………..le discours du directeur ?',
+question: 'Vous \u2026\u2026..le discours du directeur ?',
 
 options: ['écoute',
  'écouter',
@@ -111,7 +111,7 @@ options: ['écoute',
 answer: 3
 },
 {
-	question: 'Sola achète du ………………..chez le Boulanger.',
+	question: 'Sola achète du \u2026\u2026\u2026..chez le Boulanger.',
 options: ['beurre',
  'lait',
  'pain',
@@ -120,7 +120,7 @@ answer: 2
 },
 {
 
-question: 'Asiétou est malade ; ell va voir le …………………..',
+question: 'Asiétou est malade ; ell va voir le \u2026\u2026\u2026\u2026..',
 options: ['directeur            ',
  'mécanicien        ',
  'doctuer',
@@ -129,7 +129,7 @@ answer: 2
 },
 { 
 
-question: 'Mon père met le mouchoir dans …………….',
+question: 'Mon père met le mouchoir dans \u2026\u2026\u2026.',
 options: ['son bras',
  'sa cravate',
  'son stylo',
@@ -138,7 +138,7 @@ answer: 3
 },
 {
 
-question: 'Maman prépare le dîner dans …………….',
+question: 'Maman prépare le dîner dans \u2026\u2026\u2026.',
 options: ['l’atelier',
  'le bureau',
  'la cuisine',
@@ -147,7 +147,7 @@ answer: 2
 },
 {
 
-question: 'Adiki porte les lunettes parce qu’elle a mal aux ……………',
+question: 'Adiki porte les lunettes parce qu’elle a mal aux \u2026\u2026\u2026',
 options: ['genoux',
  'oreilles',
  'pieds',
@@ -156,7 +156,7 @@ answer: 3
 },
 { 
 
-question: 'Chaque matin, le jardinier arrose………………..',
+question: 'Chaque matin, le jardinier arrose\u2026\u2026\u2026..',
 options: ['la cour',
  'les fleurs',
  'la piste',
@@ -165,7 +165,7 @@ answer: 1
 },
 {
 
-question: 'Ce garçon est paresseux, alors il n’aime pas ……………..',
+question: 'Ce garçon est paresseux, alors il n’aime pas \u2026\u2026\u2026..',
 options: ['dormir',
  'manger',
  'sortir    ',
@@ -173,7 +173,7 @@ options: ['dormir',
 answer: 3
 },
 {
-question: 'Les élèves qui arrivent ……………retard sont punis',
+question: 'Les élèves qui arrivent \u2026\u2026\u2026retard sont punis',
 options: ['en ',
  'au',
  'de',
@@ -182,7 +182,7 @@ answer: 0
 },
 { 
 
-question: 'Notre directeur porte toujours ………………verte.',
+question: 'Notre directeur porte toujours \u2026\u2026\u2026verte.',
 options: ['en foulard',
  'une chemise     ',
  'un pantalon',
@@ -190,7 +190,7 @@ options: ['en foulard',
 answer: 1
 },
 {
-question: 'Le professeur de géographie ………….avec la carte du Ghana.',
+question: 'Le professeur de géographie \u2026\u2026.avec la carte du Ghana.',
 options: ['enseigne',
  'conduit',
  'parle',
@@ -198,7 +198,7 @@ options: ['enseigne',
 answer: 0
 },
 {
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim se réveille………………',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim se réveille\u2026\u2026\u2026',
 
 options: ['très tard',
  'de bonne heure',
@@ -218,7 +218,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim prend son petit déjeuner………………',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim prend son petit déjeuner\u2026\u2026\u2026',
 
 options: ['avant d’aller au champ',
  'à son arrivée au champ',
@@ -227,7 +227,7 @@ options: ['avant d’aller au champ',
 answer: 0 
 },
 {
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Au champ, le cultivateur………………….les herbes',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Au champ, le cultivateur\u2026\u2026\u2026\u2026.les herbes',
 
 options: ['enlève',
  'plante',
@@ -236,7 +236,7 @@ options: ['enlève',
 answer: 0
 },
 {
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Selon le texte, Karim cultive la terre avec ………………',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Selon le texte, Karim cultive la terre avec \u2026\u2026\u2026',
 
 options: ['un coupe-coupe',
  'une houe',
@@ -246,7 +246,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' – Pourquoi son corps est couvert de sueur ? ………..\n – Parce qu’il est ………………..',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' – Pourquoi son corps est couvert de sueur ? \u2026\u2026..\n – Parce qu’il est \u2026\u2026\u2026..',
 
 options: ['paresseux',
  'méchant',
@@ -255,7 +255,7 @@ options: ['paresseux',
 answer: 3
 },
 {
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim fait la sieste …………..',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' Karim fait la sieste \u2026\u2026..',
 
 options: ['pendant trente minutes',
  'pendant deux heures',
@@ -283,7 +283,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' A la fin du jour, Karim quitte son champ fatigué et …………….',
+question: '<b>' + 'Karim au champ ' + '</b>' + '<br />' + '<br />' + ' A la fin du jour, Karim quitte son champ fatigué et \u2026\u2026\u2026.',
 
 options: ['satisfait',
  'malade',

@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Les élèves cherchent ……….informations sur le Togo',
+question: 'Les élèves cherchent \u2026\u2026.informations sur le Togo',
 
 options: ['d’',
  'du',
@@ -12,7 +12,7 @@ options: ['d’',
 answer: 2
 },
 {
-question: 'Ecris-moi ……………lettre',
+question: 'Ecris-moi \u2026\u2026\u2026lettre',
 
 options: ['une',
  'un',
@@ -21,7 +21,7 @@ options: ['une',
 answer: 0
 },
 {
-question: '…………étudiant est paresseux.',
+question: '\u2026\u2026étudiant est paresseux.',
 
 options: ['Ce',
  'Cet',
@@ -30,7 +30,7 @@ options: ['Ce',
 answer: 1
 },
 {
-question: 'Voici trois stylos. Prenez-…………… !',
+question: 'Voici trois stylos. Prenez-\u2026\u2026\u2026 !',
 
 options: ['les',
  'la',
@@ -40,7 +40,7 @@ answer: 0
 },
 { 
 
-question: '………….belles couleurs !',
+question: '\u2026\u2026.belles couleurs !',
 
 options: ['Quel',
  'Quelle',
@@ -49,7 +49,7 @@ options: ['Quel',
 answer: 3
 },
 {
-question: 'Christine va ……..hôpital pour voir le médecin.',
+question: 'Christine va \u2026..hôpital pour voir le médecin.',
 
 options: ['à',
  'au',
@@ -59,7 +59,7 @@ answer: 2
 },
 { 
 
-question: 'Les enfants aiment jouer ………… volleyball',
+question: 'Les enfants aiment jouer \u2026\u2026 volleyball',
 
 options: ['au',
  'de',
@@ -68,7 +68,7 @@ options: ['au',
 answer: 0
 },
 {
-question: 'Antoine, mets ………….gomme dans ton sac !',
+question: 'Antoine, mets \u2026\u2026.gomme dans ton sac !',
 
 options: ['ta',
  'ton',
@@ -77,7 +77,7 @@ options: ['ta',
 answer: 0
 },
 {
-question: 'Cet homme est très ……………..',
+question: 'Cet homme est très \u2026\u2026\u2026..',
 
 options: ['gentil',
  'gentils',
@@ -86,7 +86,7 @@ options: ['gentil',
 answer: 0
 },
 {
-question: 'Les étudiants invitent leurs amis à …………..avec eux.',
+question: 'Les étudiants invitent leurs amis à \u2026\u2026..avec eux.',
 
 options: ['sort',
  'sortir',
@@ -95,7 +95,7 @@ options: ['sort',
 answer: 1
 },
 {
-	question: 'Les villageois ont …………………..de nouvelles cases',
+	question: 'Les villageois ont \u2026\u2026\u2026\u2026..de nouvelles cases',
 options: ['mis',
  'corrigé',
  'construit',
@@ -103,7 +103,7 @@ options: ['mis',
 answer: 2
 },
 {
-question: 'On voit des …………….dans la forêt.',
+question: 'On voit des \u2026\u2026\u2026.dans la forêt.',
 options: ['mers',
  'arbres',
  'avions',
@@ -111,7 +111,7 @@ options: ['mers',
 answer: 1
 },
 {
-question: 'Je veux …………..de l’eau.',
+question: 'Je veux \u2026\u2026..de l’eau.',
 options: ['boire',
  'piler',
  'manger',
@@ -119,7 +119,7 @@ options: ['boire',
 answer: 0
 },
 {
-question: 'Cette chemise est trop sale ; je dois la …………',
+question: 'Cette chemise est trop sale ; je dois la \u2026\u2026',
 options: ['laver',
  'porter',
  'repasser',
@@ -127,7 +127,7 @@ options: ['laver',
 answer: 0
 },
 {
-question: 'L’agriculteur à besoin de ……………pour cultiver la terre.',
+question: 'L’agriculteur à besoin de \u2026\u2026\u2026pour cultiver la terre.',
 options: ['clé',
  'houe',
  'craie',
@@ -135,7 +135,7 @@ options: ['clé',
 answer: 1
 },
 {
-question: 'Ouvre la bouche ! Ah ! Tes ……………..sont très blanches !',
+question: 'Ouvre la bouche ! Ah ! Tes \u2026\u2026\u2026..sont très blanches !',
 options: ['dents',
  'doigts',
  'cheveux',
@@ -143,7 +143,7 @@ options: ['dents',
 answer: 0
 },
 {
-question: 'Marc mange trop. Il est ………………',
+question: 'Marc mange trop. Il est \u2026\u2026\u2026',
 options: ['bavard',
  'méchant',
  'ivrogne',
@@ -151,7 +151,7 @@ options: ['bavard',
 answer: 3
 },
 {
-question: 'Ma sœur ……….le repas du soir',
+question: 'Ma sœur \u2026\u2026.le repas du soir',
 options: ['met',
  'conduit',
  'boit',
@@ -167,7 +167,7 @@ options: ['père',
 answer: 2
 },
 {
-question: 'Un ………….fait des tables et des chaises.',
+question: 'Un \u2026\u2026.fait des tables et des chaises.',
 options: ['fermier',
  'chauffeur',
  'menuisier',
@@ -175,7 +175,7 @@ options: ['fermier',
 answer: 3
 },
 {
-	question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' A quelle heure est-ce que le cours de français commence ? ' + '<br />' + ' – Le cours de français commence à …………heures.',
+	question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' A quelle heure est-ce que le cours de français commence ? ' + '<br />' + ' – Le cours de français commence à \u2026\u2026heures.',
 
 options: ['8',
  '9',
@@ -185,7 +185,7 @@ answer: 2
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Le nom du professeur est …………..',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Le nom du professeur est \u2026\u2026..',
 
 options: ['Achana',
  'Sarfo',
@@ -195,7 +195,7 @@ answer: 2
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Le professeur entre dans la classe …………',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Le professeur entre dans la classe \u2026\u2026',
 
 options: ['avant l’heure',
  'en avance',
@@ -205,7 +205,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' ‘…………vos livres’ dit le professeur quand elle entre en classe.',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' ‘\u2026\u2026vos livres’ dit le professeur quand elle entre en classe.',
 
 options: ['Cachez',
  'Ouvrez',
@@ -224,7 +224,7 @@ options: ['De bonnes notes',
 answer: 2
 },
 { 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Tous les élèves écoutent attentivement ………..Sarfo et Achana.',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Tous les élèves écoutent attentivement \u2026\u2026..Sarfo et Achana.',
 options: ['exceptés',
  'y compris',
  'comme',
@@ -233,7 +233,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' L’histoire est ………….',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' L’histoire est \u2026\u2026.',
 
 options: ['drôle',
  'triste',
@@ -243,7 +243,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Sarfo et Achana ne font pas attention. Ils ………..',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Sarfo et Achana ne font pas attention. Ils \u2026\u2026..',
 
 options: ['jouent',
  'parlent',
@@ -253,7 +253,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Pourquoi Sarfo et Achana sont tristes ?' + '<br />' + ' Parce qu’ils ont ……..',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' Pourquoi Sarfo et Achana sont tristes ?' + '<br />' + ' Parce qu’ils ont \u2026..',
 options: ['échoué',
  'réussit',
  'écouté',
@@ -262,7 +262,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' A la fin, Sarfo et Achana ………',
+question: '<b>' + 'En Classe' + '</b>'  + '<br />' + '<br />' + ' A la fin, Sarfo et Achana \u2026\u2026',
 
 options: ['jouent',
  'pleurent',

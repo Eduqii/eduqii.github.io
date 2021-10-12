@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'L’intérieur de ……………….église est belle.',
+question: 'L’intérieur de \u2026\u2026\u2026.église est belle.',
 
 choice1: 'ce',
 choice2: 'cet',
@@ -23,7 +23,7 @@ answer: 4,
 },
 { 
 
-question: '……………………..pays est en Afrique de l’Ouest.',
+question: '\u2026\u2026\u2026\u2026..pays est en Afrique de l’Ouest.',
 
 choice1: 'Nos',
 choice2: 'Notre',
@@ -34,7 +34,7 @@ answer: 2,
 },
 { 
 
-question: 'Est-ce que tu …………….la vérité?',
+question: 'Est-ce que tu \u2026\u2026\u2026.la vérité?',
 
 choice1: 'dites',
 choice2: 'dis',
@@ -45,7 +45,7 @@ answer: 2,
 },
 {  
 
-question: 'Le professeur dit bonjour ……………..élèves quand il arrive en classe.',
+question: 'Le professeur dit bonjour \u2026\u2026\u2026..élèves quand il arrive en classe.',
 
 choice1: 'a',
 choice2: 'aux',
@@ -56,7 +56,7 @@ answer: 2,
 },
 { 
 
-question: '………………coûte ta jolie robe?',
+question: '\u2026\u2026\u2026coûte ta jolie robe?',
 
 choice1: 'Combien',
 choice2: 'Comment',
@@ -66,7 +66,7 @@ answer: 1,
 
 },
 {
-question: 'Joshua vient du Ghana; il est de la nationalité……………..',
+question: 'Joshua vient du Ghana; il est de la nationalité\u2026\u2026\u2026..',
 
 choice1: 'ghana',
 choice2: 'ghanéen',
@@ -77,7 +77,7 @@ answer: 2,
 },
 {  
 
-question: 'A l’âge de deux ans, …………..append à parler.',
+question: 'A l’âge de deux ans, \u2026\u2026..append à parler.',
 
 choice1: 'nous',
 choice2: 'on',
@@ -88,7 +88,7 @@ answer: 2,
 },
 { 
 
-question: 'La plupart ……………enfants aiment s’amuser.',
+question: 'La plupart \u2026\u2026\u2026enfants aiment s’amuser.',
 
 choice1: 'de',
 choice2: 'd’',
@@ -99,7 +99,7 @@ answer: 4,
 },
 { 
 
-question: 'Abena se cache ……………….la porte.',
+question: 'Abena se cache \u2026\u2026\u2026.la porte.',
 
 choice1: 'sur',
 choice2: 'près',
@@ -110,7 +110,7 @@ answer: 3,
 },
 {  
 
-question: 'Mon pantalon est bleu mais ……………de Pauline est noir.',
+question: 'Mon pantalon est bleu mais \u2026\u2026\u2026de Pauline est noir.',
 
 choice1: 'celle',
 choice2: 'celui',
@@ -120,7 +120,7 @@ answer: 2,
 
 },
 { 
-question: 'Aba n’a pas ………………..pour laver ses vêtements',
+question: 'Aba n’a pas \u2026\u2026\u2026..pour laver ses vêtements',
 choice1: 'd’épong',
 choice2: 'de savon',
 choice3: 'de serviette',
@@ -131,7 +131,7 @@ answer: 2,
 { 
  
 
-question: 'Le petit Kwame dit toujours la vérité; il est très …………………..',
+question: 'Le petit Kwame dit toujours la vérité; il est très \u2026\u2026\u2026\u2026..',
 choice1: 'honnête',
 choice2: 'patient',
 choice3: 'poli',
@@ -141,7 +141,7 @@ answer: 1,
 },
 {  
 
-question: 'Le français, les mathématiques et les sciences sont des ………… que nous enons à l’école.',
+question: 'Le français, les mathématiques et les sciences sont des \u2026\u2026 que nous enons à l’école.',
 choice1: 'sujets ',
 choice2: 'objets ',
 choice3: 'jeux ',
@@ -152,7 +152,7 @@ answer: 4,
 { 
  
 
-question: 'Ma petite sœur est ………………en anglais, elle a toujours de mauvais notes.',
+question: 'Ma petite sœur est \u2026\u2026\u2026en anglais, elle a toujours de mauvais notes.',
 choice1: 'faible ',
 choice2: 'fière',
 choice3: 'gentille',
@@ -163,7 +163,7 @@ answer: 1,
 { 
 
 
-question: 'Le bateau voyage sur ………………….',
+question: 'Le bateau voyage sur \u2026\u2026\u2026\u2026.',
 choice1: 'l’air',
 choice2: 'l’eau',
 choice3: 'la route',
@@ -174,7 +174,7 @@ answer: 2,
 { 
  
 
-question: 'Kweku ne peut pas bien …………………; c’est pourquoi il prononce les mots ement.',
+question: 'Kweku ne peut pas bien \u2026\u2026\u2026\u2026; c’est pourquoi il prononce les mots ement.',
 choice1: 'écrire ',
 choice2: 'lire         ',
 choice3: 'marcher',
@@ -185,7 +185,7 @@ answer: 2,
 { 
  
 
-question: 'Cet élève salue les grands et les petits; il est très ………………………',
+question: 'Cet élève salue les grands et les petits; il est très \u2026\u2026\u2026\u2026\u2026',
 choice1: 'courage',
 choice2: 'joyeux',
 choice3: 'heureux              ',
@@ -196,7 +196,7 @@ answer: 4,
 { 
 
 
-question: 'Baba Ali aime …………………la pipe chaque soir.',
+question: 'Baba Ali aime \u2026\u2026\u2026\u2026la pipe chaque soir.',
 choice1: 'boire  ',
 choice2: 'croire   ',
 choice3: 'fumer',
@@ -207,7 +207,7 @@ answer: 3,
 { 
 
 
-question: 'Maman va chez la ………………pour se laver les cheveux.',
+question: 'Maman va chez la \u2026\u2026\u2026pour se laver les cheveux.',
 choice1: 'coiffeu',
 choice2: 'commerçante',
 choice3: 'couturière          ',
@@ -218,7 +218,7 @@ answer: 1,
 { 
  
 
-question: 'Je suis heureux de vous …………………mon ami. Il s’appelle Sébastian.',
+question: 'Je suis heureux de vous \u2026\u2026\u2026\u2026mon ami. Il s’appelle Sébastian.',
 choice1: 'annonce',
 choice2: 'déclarer',
 choice3: 'nommer',
@@ -238,7 +238,7 @@ answer: 2,
  {
  
 
-question: 'La destination des deux amis est …………',
+question: 'La destination des deux amis est \u2026\u2026',
 
 choice1: 'Huni-Valley',
 choice2: 'Kumasi',
@@ -247,7 +247,7 @@ choice4: 'Asafo',
 answer: 1,
  },
 {
-question: 'Les deux amis ont l’intention de voyager par …………….',
+question: 'Les deux amis ont l’intention de voyager par \u2026\u2026\u2026.',
 
 choice1: 'la route',
 choice2: 'l’air',
@@ -256,7 +256,7 @@ choice4: 'l’eau',
 answer: 3,
  },
  {
-question: 'Selon le texte, le train partira dans …………..minutes.',
+question: 'Selon le texte, le train partira dans \u2026\u2026..minutes.',
 
 choice1: 'vingt',
 choice2: 'trente',
@@ -266,7 +266,7 @@ answer: 3,
  },
  {
 
-question: 'Pour assurer leurs places dans le train, ils ont acheté des …………',
+question: 'Pour assurer leurs places dans le train, ils ont acheté des \u2026\u2026',
 
 choice1: 'billets',
 choice2: 'boissons',
@@ -275,7 +275,7 @@ choice4: 'poulets',
 answer: 1,
  },
 {
-question: '– Pourquoi entrent-ils dans le restaurant ? \n our………………………………',
+question: '– Pourquoi entrent-ils dans le restaurant ? \n our\u2026\u2026\u2026\u2026\u2026\u2026',
 
 choice1: 'regarder le train',
 choice2: 'manger quelque chose',
@@ -285,7 +285,7 @@ answer: 2,
  },
  {
 
-question: 'Ils n’entendent pas l’annonce du départ parce qu’ils……………..',
+question: 'Ils n’entendent pas l’annonce du départ parce qu’ils\u2026\u2026\u2026..',
 
 choice1: 'bavardent',
 choice2: 'boivent',
@@ -304,7 +304,7 @@ answer: 4,
  },
  {
 
-question: '– Pourquoi ont-ils finalement décidé de prendre une voiture ?\n Parce que le train ………………',
+question: '– Pourquoi ont-ils finalement décidé de prendre une voiture ?\n Parce que le train \u2026\u2026\u2026',
 
 choice1: 'est en panne',
 choice2: 'est déjà parti',
@@ -314,7 +314,7 @@ answer: 2,
  },
  {
 
-question: 'A la fin du passage, les deux amis sont ……………',
+question: 'A la fin du passage, les deux amis sont \u2026\u2026\u2026',
 
 choice1: 'contents',
 choice2: 'déçus',

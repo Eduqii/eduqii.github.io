@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Tout les élèves ………pendant la récréation.',
+question: 'Tout les élèves \u2026\u2026pendant la récréation.',
 
 options: ['dort',
  'dorment',
@@ -12,7 +12,7 @@ options: ['dort',
 answer: 1
 },
 {
-question: 'Kofi, va chercher …………………..chaise !',
+question: 'Kofi, va chercher \u2026\u2026\u2026\u2026..chaise !',
 
 options: ['un',
  'le',
@@ -21,7 +21,7 @@ options: ['un',
 answer: 3
 },
 {
-question: 'Les filles mangent ……………………..pain.',
+question: 'Les filles mangent \u2026\u2026\u2026\u2026..pain.',
 
 options: ['de',
  'la',
@@ -30,7 +30,7 @@ options: ['de',
 answer: 2
 },
 {
-question: 'Ama écoute attentivement ………………leçon.',
+question: 'Ama écoute attentivement \u2026\u2026\u2026leçon.',
 
 options: ['la',
  'au',
@@ -39,7 +39,7 @@ options: ['la',
 answer: 0 
 },
 {
-question: '– Cet homme vend des chemises et des robes l est ……………',
+question: '– Cet homme vend des chemises et des robes l est \u2026\u2026\u2026',
 
 options: ['maçon',
  'pêcheur',
@@ -58,7 +58,7 @@ answer: 2
 },
 { 
 
-question: 'J’ai tellement faim. Je veux …………..',
+question: 'J’ai tellement faim. Je veux \u2026\u2026..',
 
 options: ['parler',
  'manger',
@@ -67,7 +67,7 @@ options: ['parler',
 answer: 1
 },
 {
-question: '………….allons au champ après les cours.',
+question: '\u2026\u2026.allons au champ après les cours.',
 
 options: ['Vous',
  'Elles',
@@ -76,7 +76,7 @@ options: ['Vous',
 answer: 3
 },
 {
-question: 'Les professeurs corrigent les ……………..des élèves.',
+question: 'Les professeurs corrigent les \u2026\u2026\u2026..des élèves.',
 
 options: ['classes',
  'devoirs',
@@ -85,7 +85,7 @@ options: ['classes',
 answer: 1
 },
 {
-question: 'Maintenant, nous allons ……………classe.',
+question: 'Maintenant, nous allons \u2026\u2026\u2026classe.',
 
 options: ['à',
  'en',
@@ -95,7 +95,7 @@ answer: 1
 },
 {
 
-question: 'Le manguier et le cocotier sont des …………….',
+question: 'Le manguier et le cocotier sont des \u2026\u2026\u2026.',
 options: ['repas',
  'fruits',
  'arbres',
@@ -103,7 +103,7 @@ options: ['repas',
 answer: 2
 },
 { 
-question: 'Kofi est malade ; il va acheter des ……………..',
+question: 'Kofi est malade ; il va acheter des \u2026\u2026\u2026..',
 options: ['medicaments',
  'gateaux',
  'biscuits',
@@ -111,7 +111,7 @@ options: ['medicaments',
 answer: 0 
 },
 { 
-question: 'Mon père est …………. ; il a un grand champ de maïs.',
+question: 'Mon père est \u2026\u2026. ; il a un grand champ de maïs.',
 options: ['pecheur',
  'coiffeur',
  'vendeur',
@@ -119,7 +119,7 @@ options: ['pecheur',
 answer: 3
 },
 { 
-question: 'Le ………………vit dans l’eau.',
+question: 'Le \u2026\u2026\u2026vit dans l’eau.',
 options: ['chat',
  'chien',
  'mouton',
@@ -127,7 +127,7 @@ options: ['chat',
 answer: 3
 },
 { 
-question: 'Aujourd’hui c’est samedi ; demain sera ……………',
+question: 'Aujourd’hui c’est samedi ; demain sera \u2026\u2026\u2026',
 options: ['lundi',
  'mardi',
  'vendredi',
@@ -135,7 +135,7 @@ options: ['lundi',
 answer: 3
 },
 { 
-question: 'Viens me …………..bonjour demain matin.',
+question: 'Viens me \u2026\u2026..bonjour demain matin.',
 options: ['voir',
  'dire',
  'parler',
@@ -143,7 +143,7 @@ options: ['voir',
 answer: 1
 },
 { 
-question: 'Le bébé pleure …………..qu’il est malade.',
+question: 'Le bébé pleure \u2026\u2026..qu’il est malade.',
 options: ['si',
  'donc',
  'parce',
@@ -159,7 +159,7 @@ options: ['matin',
 answer: 0
 },
 { 
-question: 'Le français est plus facile ………………..les mathématiques',
+question: 'Le français est plus facile \u2026\u2026\u2026..les mathématiques',
 options: ['qui',
  'que',
  'quand',
@@ -167,7 +167,7 @@ options: ['qui',
 answer: 1
 },
 { 
-question: 'Ama a ………………………. ; elle veut de l’eau',
+question: 'Ama a \u2026\u2026\u2026\u2026\u2026. ; elle veut de l’eau',
 options: ['faim',
  'froid',
  'soif',
@@ -175,7 +175,7 @@ options: ['faim',
 answer: 2
 },
 { 
-	question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La famille va au cinéma ……………..',
+	question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La famille va au cinéma \u2026\u2026\u2026..',
 
 options: ['tous les jours',
  'tous les soirs',
@@ -185,7 +185,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' Le jour en question, la famille va au cinéma sans …………….',
+question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' Le jour en question, la famille va au cinéma sans \u2026\u2026\u2026.',
 
 options: ['Adzo',
  'Kwami',
@@ -195,7 +195,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' Le jour en question, la famille va au cinéma sans …………….',
+question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' Le jour en question, la famille va au cinéma sans \u2026\u2026\u2026.',
 
 options: ['Adzo',
  'Kwami',
@@ -215,7 +215,7 @@ answer: 0
 },
 { 
 
-question: '– Quand est-ce que les membres de la famille arrivent au cinéma ? Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' arrivent ………….',
+question: '– Quand est-ce que les membres de la famille arrivent au cinéma ? Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' arrivent \u2026\u2026.',
 
 options: ['tard',
  'le matin',
@@ -225,7 +225,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La famille achète des billets pour ……………',
+question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La famille achète des billets pour \u2026\u2026\u2026',
 
 options: ['porter de jolis habits',
  'rester à la maison',
@@ -245,7 +245,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La femme devant le narrateur à beaucoup de …………',
+question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' La femme devant le narrateur à beaucoup de \u2026\u2026',
 
 options: ['robes',
  'cheveux',
@@ -263,7 +263,7 @@ options: ['Le film ne commence pas',
 answer: 1
 },
 {
-question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' – Qu’est-ce que Papa dit à la femme ? lui dit ……………..son chapeau',
+question: '<b>' + 'Un Soir au Cinéma'+ '</b>' + '<br />' + '<br />' + ' – Qu’est-ce que Papa dit à la femme ? lui dit \u2026\u2026\u2026..son chapeau',
 
 options: ['de porter',
  'd’acheter',

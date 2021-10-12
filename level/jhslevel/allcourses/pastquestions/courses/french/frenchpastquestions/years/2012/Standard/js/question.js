@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Adamou veut manger parce qu’il …………..faim',
+question: 'Adamou veut manger parce qu’il \u2026\u2026..faim',
 
 options: ['a',
  'as',
@@ -12,7 +12,7 @@ options: ['a',
 answer: 0
 },
 {
-question: 'Ohene n’à pas fait son …………… C’est pourquoi il est puni',
+question: 'Ohene n’à pas fait son \u2026\u2026\u2026 C’est pourquoi il est puni',
 
 options: ['jeu',
  'repas',
@@ -21,7 +21,7 @@ options: ['jeu',
 answer: 3
 },
 {
-question: 'Amalia ne nage ………………dans la mer',
+question: 'Amalia ne nage \u2026\u2026\u2026dans la mer',
 
 options: ['aussi',
  'déjà',
@@ -30,7 +30,7 @@ options: ['aussi',
 answer: 2
 },
 {
-question: '……………..cartes sont derrière la classe ?',
+question: '\u2026\u2026\u2026..cartes sont derrière la classe ?',
 
 options: ['Quel',
  'Quelle',
@@ -40,7 +40,7 @@ answer: 2
 },
 { 
 
-question: 'Mon père à abandonné la cigarette ; il ne fume ………………',
+question: 'Mon père à abandonné la cigarette ; il ne fume \u2026\u2026\u2026',
 
 options: ['guère',
  'jamais',
@@ -49,7 +49,7 @@ options: ['guère',
 answer: 3
 },
 {
-question: 'Notre professeur d’anglais parle …….rapidement que nous ne comprenons rien',
+question: 'Notre professeur d’anglais parle \u2026.rapidement que nous ne comprenons rien',
 
 options: ['mais',
  'sans',
@@ -58,7 +58,7 @@ options: ['mais',
 answer: 2
 },
 {
-question: 'Que ……………les enfants ?\n – Ils dorment',
+question: 'Que \u2026\u2026\u2026les enfants ?\n – Ils dorment',
 
 options: ['faire',
  'fais',
@@ -67,7 +67,7 @@ options: ['faire',
 answer: 3
 },
 {
-question: 'Mes sœurs qui habitent le village sont ……………….',
+question: 'Mes sœurs qui habitent le village sont \u2026\u2026\u2026.',
 
 options: ['beau',
  'beaux',
@@ -76,7 +76,7 @@ options: ['beau',
 answer: 3
 },
 {
-question: 'Les filles ont …………les seaux',
+question: 'Les filles ont \u2026\u2026les seaux',
 
 options: ['rempli',
  'remplie',
@@ -85,7 +85,7 @@ options: ['rempli',
 answer: 0
 },
 {
-question: 'Ton père est toujours à la maison. Il ne travaille pas? ……., il travaille.',
+question: 'Ton père est toujours à la maison. Il ne travaille pas? \u2026., il travaille.',
 
 options: ['Alors',
  'Si',
@@ -94,7 +94,7 @@ options: ['Alors',
 answer: 1
 },
 {
-	question: 'Les enfants vont se coucher parce qu’ils ont ……………',
+	question: 'Les enfants vont se coucher parce qu’ils ont \u2026\u2026\u2026',
 options: ['sommiel',
  'Soif',
  'peur',
@@ -102,7 +102,7 @@ options: ['sommiel',
 answer: 0
 },
 {
-question: 'Anita à envoyé une carte ………….. Noël à son ami.',
+question: 'Anita à envoyé une carte \u2026\u2026.. Noël à son ami.',
 options: ['à',
  'au',
  'de',
@@ -110,7 +110,7 @@ options: ['à',
 answer: 2
 },
 {
-question: 'Le quatrième mois de l’année est ……………….',
+question: 'Le quatrième mois de l’année est \u2026\u2026\u2026.',
 options: ['avril',
  'juillet',
  'juin',
@@ -118,7 +118,7 @@ options: ['avril',
 answer: 0
 },
 {
-question: 'Ama lave son pagne parce qu’il est ………………',
+question: 'Ama lave son pagne parce qu’il est \u2026\u2026\u2026',
 options: ['brûlé',
  'déchiré',
  'longue',
@@ -126,7 +126,7 @@ options: ['brûlé',
 answer: 3
 },
 {
-question: 'Les étudiants empruntent des livres à ………………….',
+question: 'Les étudiants empruntent des livres à \u2026\u2026\u2026\u2026.',
 options: ['la bibliothèque',
  'la librairie',              
  'l’église', 
@@ -134,7 +134,7 @@ options: ['la bibliothèque',
 answer: 0
 },
 {
-question: 'Le petit ne marche pas bien sans ses ………………',
+question: 'Le petit ne marche pas bien sans ses \u2026\u2026\u2026',
 options: ['ceintures',
  'chapeaux',
  'chaussures',
@@ -142,7 +142,7 @@ options: ['ceintures',
 answer: 2
 },
 {
-question: 'C’est cette couturière qui nous fait nos ………………….',
+question: 'C’est cette couturière qui nous fait nos \u2026\u2026\u2026\u2026.',
 options: ['bracelets',
  'bagues',
  'coilliers',
@@ -150,7 +150,7 @@ options: ['bracelets',
 answer: 3
 },
 {
-question: 'Paul vient souvent ………………..nous',
+question: 'Paul vient souvent \u2026\u2026\u2026..nous',
 options: ['au',
  'Chez',
  'de',
@@ -158,7 +158,7 @@ options: ['au',
 answer: 1
 },
 {
-question: 'Jojo porte des lunettes pour bien …………………',
+question: 'Jojo porte des lunettes pour bien \u2026\u2026\u2026\u2026',
 options: ['entendre',
  'marcher',
  'parler',
@@ -166,7 +166,7 @@ options: ['entendre',
 answer: 3
 },
 {
-question: 'Dédé n’à rien à manger parce qu’elle est …………',
+question: 'Dédé n’à rien à manger parce qu’elle est \u2026\u2026',
 options: ['fâchée', 
  'fatigue',
  'petite',
@@ -203,7 +203,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Monsieur et Madame Adah aiment la vie …………….du village.',
+question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Monsieur et Madame Adah aiment la vie \u2026\u2026\u2026.du village.',
 
 options: ['agréable',
  'calme',
@@ -213,7 +213,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Dans la capitale on s’amuse ……………..',
+question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Dans la capitale on s’amuse \u2026\u2026\u2026..',
 
 options: ['souvent',
  'rarement',
@@ -241,7 +241,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Amalia ne mange plus parce qu’elle ……………..',
+question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Amalia ne mange plus parce qu’elle \u2026\u2026\u2026..',
 
 options: ['n’a plus faim',
  'n’est pas contente',
@@ -250,7 +250,7 @@ options: ['n’a plus faim',
 answer: 1 
 },
 {
-question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Amalia se blesse le pied en ……………',
+question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' Amalia se blesse le pied en \u2026\u2026\u2026',
 
 options: ['dansant',
  'courant',
@@ -259,7 +259,7 @@ options: ['dansant',
 answer: 2
 },
 {
-question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' – Que fait Amalia le cinquième jour ? \n– Elle ……………',
+question: '<b>' + 'Le Départ Pour la Capitale' + '</b>' + '<br />' + '<br />' + ' – Que fait Amalia le cinquième jour ? \n– Elle \u2026\u2026\u2026',
 
 options: ['se repose chez elle',
  'reste à la maison',

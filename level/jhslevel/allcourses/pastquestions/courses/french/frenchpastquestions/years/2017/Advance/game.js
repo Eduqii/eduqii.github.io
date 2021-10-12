@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
 
 {
-question: 'A l’école, nous écrivons au tableau avec …………….craie.',
+question: 'A l’école, nous écrivons au tableau avec \u2026\u2026\u2026.craie.',
 
 choice1: 'la',
 choice2: 'le',
@@ -23,7 +23,7 @@ answer: 1,
 },
 { 
 
-question: 'Il y a beaucoup de viande ……………la soupe.',
+question: 'Il y a beaucoup de viande \u2026\u2026\u2026la soupe.',
 
 choice1: 'sur',
 choice2: 'par',
@@ -33,7 +33,7 @@ answer: 4,
 },
 { 
 
-question: 'Ama n’aime …………..préparer le repas pour ses frères.',
+question: 'Ama n’aime \u2026\u2026..préparer le repas pour ses frères.',
 
 choice1: 'rien',
 choice2: 'non',
@@ -43,7 +43,7 @@ answer: 4,
 },
 { 
 
-question: 'Ma mère m’a acheté ……………livre de français.',
+question: 'Ma mère m’a acheté \u2026\u2026\u2026livre de français.',
 
 choice1: 'du',
 choice2: 'un',
@@ -54,7 +54,7 @@ answer: 2,
 
 { 
 
-question: 'Les filles de ……………..village sont très gentilles.',
+question: 'Les filles de \u2026\u2026\u2026..village sont très gentilles.',
 
 choice1: 'mon',
 choice2: 'nos',
@@ -64,7 +64,7 @@ answer: 1,
 },
 { 
 
-question: '…………………monsieur aime frapper les petits.',
+question: '\u2026\u2026\u2026\u2026monsieur aime frapper les petits.',
 
 choice1: 'Cette',
 choice2: 'Ces',
@@ -75,7 +75,7 @@ answer: 4,
 
 { 
 
-question: 'Mansa lui dit de ……………….la porte à clé.',
+question: 'Mansa lui dit de \u2026\u2026\u2026.la porte à clé.',
 
 choice1: 'ferme',
 choice2: 'fermer',
@@ -85,7 +85,7 @@ answer: 2,
 },
 { 
 
-question: '………………fleur qui est sur la table est belle.',
+question: '\u2026\u2026\u2026fleur qui est sur la table est belle.',
 
 choice1: 'L’',
 choice2: 'Le',
@@ -95,7 +95,7 @@ answer: 3,
 },
 { 
 
-question: 'Je me brosse …………….dents chaque matin avant de manger.',
+question: 'Je me brosse \u2026\u2026\u2026.dents chaque matin avant de manger.',
 
 choice1: 'le',
 choice2: 'les',
@@ -105,7 +105,7 @@ answer: 2,
 },
 { 
 
-question: 'Les élèves entrent dans la salle de classe ……………..la cloche sonne.',
+question: 'Les élèves entrent dans la salle de classe \u2026\u2026\u2026..la cloche sonne.',
 
 choice1: 'que',
 choice2: 'qui',
@@ -114,7 +114,7 @@ choice4: 'comment',
 answer: 3,
 },
 {
-question: 'Il faut me ……………..la vérité tout le temps.',
+question: 'Il faut me \u2026\u2026\u2026..la vérité tout le temps.',
 choice1: 'dier',
 choice2: 'faire',
 choice3: 'parler',
@@ -123,7 +123,7 @@ answer: 1,
 },
 { 
 
-question: 'Les touristes vont à la piscine de l’hôtel pour ……………….',
+question: 'Les touristes vont à la piscine de l’hôtel pour \u2026\u2026\u2026.',
 choice1: 'Danser',
 choice2: 'nager',
 choice3: 'pleurer',
@@ -133,7 +133,7 @@ answer: 2,
 { 
 
 
-question: 'Le ………………..est couvert de nuages ; il va pleuvoir.',
+question: 'Le \u2026\u2026\u2026..est couvert de nuages ; il va pleuvoir.',
 choice1: 'Ciel',
 choice2: 'lac',
 choice3: 'toit        ',
@@ -142,7 +142,7 @@ answer: 1,
 },
 { 
 
-question: 'Ma mère est ………………..au centre ville ; elle vend des chaussures et des robes.',
+question: 'Ma mère est \u2026\u2026\u2026..au centre ville ; elle vend des chaussures et des robes.',
 choice1: 'Directrice',
 choice2: 'commerçante',
 choice3: 'couturière',
@@ -151,7 +151,7 @@ answer: 2,
 },
 { 
 
-question: '…………………..est-ce que vous n’allez pas à l’école ?',
+question: '\u2026\u2026\u2026\u2026..est-ce que vous n’allez pas à l’école ?',
 choice1: 'combien',
 choice2: 'qui',
 choice3: 'Quel',
@@ -161,7 +161,7 @@ answer: 4,
 { 
  
 
-question: 'J’ai soif alors, je veux ……………………',
+question: 'J’ai soif alors, je veux \u2026\u2026\u2026\u2026',
 choice1: 'Dormer maintenant',
 choice2: 'Boire de l’eau',
 choice3: 'parler avec toi',
@@ -170,7 +170,7 @@ answer: 2,
 },
 { 
  
-question: 'Le bébé est content …………………il voit sa mère.',
+question: 'Le bébé est content \u2026\u2026\u2026\u2026il voit sa mère.',
 choice1: 'quoi',
 choice2: 'quand',
 choice3: 'bien      ',
@@ -181,7 +181,7 @@ answer: 2,
 
  
 
-question: 'Les malades vont a …………………pour voir le docteur.',
+question: 'Les malades vont a \u2026\u2026\u2026\u2026pour voir le docteur.',
 choice1: 'l’église',
 choice2: 'L’ecole',
 choice3: 'l’usine',
@@ -191,7 +191,7 @@ answer: 4,
 { 
  
 
-question: 'L’orange est le ……………………que j’aime bien.',
+question: 'L’orange est le \u2026\u2026\u2026\u2026que j’aime bien.',
 choice1: 'baton',
 choice2: 'livre',
 choice3: 'journal',
@@ -201,7 +201,7 @@ answer: 4,
 { 
  
 
-question: 'Il y a beaucoup de maisons ………………dans ce village.',
+question: 'Il y a beaucoup de maisons \u2026\u2026\u2026dans ce village.',
 choice1: 'blancs',
 choice2: 'verts',
 choice3: 'noirs',
@@ -209,7 +209,7 @@ choice4: 'rondes',
 answer: 4,
 },
 { 
-	question: 'La famille de Kafui\n\n – Ou est-ce que Kafui vit ? – Il vit …………………',
+	question: 'La famille de Kafui\n\n – Ou est-ce que Kafui vit ? – Il vit \u2026\u2026\u2026\u2026',
 
 choice1: 'avec ses amis',
 choice2: 'avec sa famille',
@@ -220,7 +220,7 @@ answer: 2,
 },
 { 
 
-question: 'La famille de Kafui\n\n Il y a ………………personnes dans la famille de Kafui.',
+question: 'La famille de Kafui\n\n Il y a \u2026\u2026\u2026personnes dans la famille de Kafui.',
 
 choice1: 'quatre',
 choice2: 'cinq',
@@ -231,7 +231,7 @@ answer: 2,
 },
 { 
  
-question: 'La famille de Kafui\n\n ‘Esi l’aînée’ veut dire qu’Esi est ………………',
+question: 'La famille de Kafui\n\n ‘Esi l’aînée’ veut dire qu’Esi est \u2026\u2026\u2026',
 
 choice1: 'le premier enfant de la famille',
 choice2: 'un enfant unique',
@@ -242,7 +242,7 @@ answer: 1,
 },
 { 
 
-question: 'La famille de Kafui\n\n …………………….est le cadet de la famille de Kafui.',
+question: 'La famille de Kafui\n\n \u2026\u2026\u2026\u2026.est le cadet de la famille de Kafui.',
 
 choice1: 'Esi',
 choice2: 'Kafui',
@@ -253,7 +253,7 @@ answer: 4,
 },
 { 
 
-question: 'La famille de Kafui\n\n – Quelle est la profession de la mère de Kafui ?\nElle est …………………',
+question: 'La famille de Kafui\n\n – Quelle est la profession de la mère de Kafui ?\nElle est \u2026\u2026\u2026\u2026',
 
 choice1: 'professeur',
 choice2: 'médecin',
@@ -264,7 +264,7 @@ answer: 3,
 },
 { 
 
-question: 'La famille de Kafui\n\n La famille fait …………….pour commencer la journée.',
+question: 'La famille de Kafui\n\n La famille fait \u2026\u2026\u2026.pour commencer la journée.',
 
 choice1: 'le nettoyage',
 choice2: 'la cuisine',
@@ -275,7 +275,7 @@ answer: 4,
 },
 { 
  
-question: 'La famille de Kafui\n\n A sept heures du matin, ……………………',
+question: 'La famille de Kafui\n\n A sept heures du matin, \u2026\u2026\u2026\u2026',
 
 choice1: 'le père va au travail',
 choice2: 'la mère va au marché',
@@ -297,7 +297,7 @@ answer: 1,
 },
 {  
 
-question: 'La famille de Kafui\n\n – Pourquoi Kafui aime-t-il les week-ends ?Parce que ………………',
+question: 'La famille de Kafui\n\n – Pourquoi Kafui aime-t-il les week-ends ?Parce que \u2026\u2026\u2026',
 
 choice1: 'la famille mange bien',
 choice2: 'tout se passe bien',
@@ -308,7 +308,7 @@ answer: 4,
 },
 { 
 
-question: 'La famille de Kafui\n\n Selon le texte, la famille de Kafui est ……………………',
+question: 'La famille de Kafui\n\n Selon le texte, la famille de Kafui est \u2026\u2026\u2026\u2026',
 
 choice1: 'musulmane',
 choice2: 'chrétienne',

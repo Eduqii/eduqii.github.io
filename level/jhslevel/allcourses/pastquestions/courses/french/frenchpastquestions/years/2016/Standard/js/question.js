@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
  {
-question: 'L’intérieur de ……………….église est belle.',
+question: 'L’intérieur de \u2026\u2026\u2026.église est belle.',
 
 options: ['ce',
  'cet',
@@ -14,7 +14,7 @@ answer: 3
 },
 { 
 
-question: '……………………..pays est en Afrique de l’Ouest.',
+question: '\u2026\u2026\u2026\u2026..pays est en Afrique de l’Ouest.',
 
 options: ['Nos',
  'Notre',
@@ -25,7 +25,7 @@ answer: 1
 },
 { 
 
-question: 'Est-ce que tu …………….la vérité?',
+question: 'Est-ce que tu \u2026\u2026\u2026.la vérité?',
 
 options: ['dites',
  'dis',
@@ -36,7 +36,7 @@ answer: 1
 },
 {  
 
-question: 'Le professeur dit bonjour ……………..élèves quand il arrive en classe.',
+question: 'Le professeur dit bonjour \u2026\u2026\u2026..élèves quand il arrive en classe.',
 
 options: ['a',
  'aux',
@@ -47,7 +47,7 @@ answer: 1
 },
 { 
 
-question: '………………coûte ta jolie robe?',
+question: '\u2026\u2026\u2026coûte ta jolie robe?',
 
 options: ['Combien',
  'Comment',
@@ -57,7 +57,7 @@ answer: 0
 
 },
 {
-question: 'Joshua vient du Ghana; il est de la nationalité……………..',
+question: 'Joshua vient du Ghana; il est de la nationalité\u2026\u2026\u2026..',
 
 options: ['ghana',
  'ghanéen',
@@ -68,7 +68,7 @@ answer: 1
 },
 {  
 
-question: 'A l’âge de deux ans, …………..append à parler.',
+question: 'A l’âge de deux ans, \u2026\u2026..append à parler.',
 
 options: ['nous',
  'on',
@@ -79,7 +79,7 @@ answer: 1
 },
 { 
 
-question: 'La plupart ……………enfants aiment s’amuser.',
+question: 'La plupart \u2026\u2026\u2026enfants aiment s’amuser.',
 
 options: ['de',
  'd’',
@@ -90,7 +90,7 @@ answer: 3
 },
 { 
 
-question: 'Abena se cache ……………….la porte.',
+question: 'Abena se cache \u2026\u2026\u2026.la porte.',
 
 options: ['sur',
  'près',
@@ -101,7 +101,7 @@ answer: 2
 },
 {  
 
-question: 'Mon pantalon est bleu mais ……………de Pauline est noir.',
+question: 'Mon pantalon est bleu mais \u2026\u2026\u2026de Pauline est noir.',
 
 options: ['celle',
  'celui',
@@ -111,7 +111,7 @@ answer: 1
 
 },
 { 
-question: 'Aba n’a pas ………………..pour laver ses vêtements',
+question: 'Aba n’a pas \u2026\u2026\u2026..pour laver ses vêtements',
 options: ['d’épong',
  'de savon',
  'de serviette',
@@ -122,7 +122,7 @@ answer: 1
 { 
  
 
-question: 'Le petit Kwame dit toujours la vérité; il est très …………………..',
+question: 'Le petit Kwame dit toujours la vérité; il est très \u2026\u2026\u2026\u2026..',
 options: ['honnête',
  'patient',
  'poli',
@@ -132,7 +132,7 @@ answer: 0
 },
 {  
 
-question: 'Le français, les mathématiques et les sciences sont des ………… que nous enons à l’école.',
+question: 'Le français, les mathématiques et les sciences sont des \u2026\u2026 que nous enons à l’école.',
 options: ['sujets ',
  'objets ',
  'jeux ',
@@ -143,7 +143,7 @@ answer: 3
 { 
  
 
-question: 'Ma petite sœur est ………………en anglais, elle a toujours de mauvais notes.',
+question: 'Ma petite sœur est \u2026\u2026\u2026en anglais, elle a toujours de mauvais notes.',
 options: ['faible ',
  'fière',
  'gentille',
@@ -154,7 +154,7 @@ answer: 0
 { 
 
 
-question: 'Le bateau voyage sur ………………….',
+question: 'Le bateau voyage sur \u2026\u2026\u2026\u2026.',
 options: ['l’air',
  'l’eau',
  'la route',
@@ -165,7 +165,7 @@ answer: 1
 { 
  
 
-question: 'Kweku ne peut pas bien …………………; c’est pourquoi il prononce les mots ement.',
+question: 'Kweku ne peut pas bien \u2026\u2026\u2026\u2026; c’est pourquoi il prononce les mots ement.',
 options: ['écrire ',
  'lire         ',
  'marcher',
@@ -176,7 +176,7 @@ answer: 1
 { 
  
 
-question: 'Cet élève salue les grands et les petits; il est très ………………………',
+question: 'Cet élève salue les grands et les petits; il est très \u2026\u2026\u2026\u2026\u2026',
 options: ['courage',
  'joyeux',
  'heureux              ',
@@ -187,7 +187,7 @@ answer: 3
 { 
 
 
-question: 'Baba Ali aime …………………la pipe chaque soir.',
+question: 'Baba Ali aime \u2026\u2026\u2026\u2026la pipe chaque soir.',
 options: ['boire  ',
  'croire   ',
  'fumer',
@@ -198,7 +198,7 @@ answer: 2
 { 
 
 
-question: 'Maman va chez la ………………pour se laver les cheveux.',
+question: 'Maman va chez la \u2026\u2026\u2026pour se laver les cheveux.',
 options: ['coiffeu',
  'commerçante',
  'couturière          ',
@@ -209,7 +209,7 @@ answer: 0
 { 
  
 
-question: 'Je suis heureux de vous …………………mon ami. Il s’appelle Sébastian.',
+question: 'Je suis heureux de vous \u2026\u2026\u2026\u2026mon ami. Il s’appelle Sébastian.',
 options: ['annonce',
  'déclarer',
  'nommer',
@@ -229,7 +229,7 @@ answer: 1
  {
  
 
-question: 'La destination des deux amis est …………',
+question: 'La destination des deux amis est \u2026\u2026',
 
 options: ['Huni-Valley',
  'Kumasi',
@@ -238,7 +238,7 @@ options: ['Huni-Valley',
 answer: 0
  },
 {
-question: 'Les deux amis ont l’intention de voyager par …………….',
+question: 'Les deux amis ont l’intention de voyager par \u2026\u2026\u2026.',
 
 options: ['la route',
  'l’air',
@@ -247,7 +247,7 @@ options: ['la route',
 answer: 2
  },
  {
-question: 'Selon le texte, le train partira dans …………..minutes.',
+question: 'Selon le texte, le train partira dans \u2026\u2026..minutes.',
 
 options: ['vingt',
  'trente',
@@ -257,7 +257,7 @@ answer: 2
  },
  {
 
-question: 'Pour assurer leurs places dans le train, ils ont acheté des …………',
+question: 'Pour assurer leurs places dans le train, ils ont acheté des \u2026\u2026',
 
 options: ['billets',
  'boissons',
@@ -266,7 +266,7 @@ options: ['billets',
 answer: 0
  },
 {
-question: '– Pourquoi entrent-ils dans le restaurant ? ' + '<br />' + '  our………………………………',
+question: '– Pourquoi entrent-ils dans le restaurant ? ' + '<br />' + '  our\u2026\u2026\u2026\u2026\u2026\u2026',
 
 options: ['regarder le train',
  'manger quelque chose',
@@ -276,7 +276,7 @@ answer: 1
  },
  {
 
-question: 'Ils n’entendent pas l’annonce du départ parce qu’ils……………..',
+question: 'Ils n’entendent pas l’annonce du départ parce qu’ils\u2026\u2026\u2026..',
 
 options: ['bavardent',
  'boivent',
@@ -295,7 +295,7 @@ answer: 3
  },
  {
 
-question: '– Pourquoi ont-ils finalement décidé de prendre une voiture ?' + '<br />' + '  Parce que le train ………………',
+question: '– Pourquoi ont-ils finalement décidé de prendre une voiture ?' + '<br />' + '  Parce que le train \u2026\u2026\u2026',
 
 options: ['est en panne',
  'est déjà parti',
@@ -305,7 +305,7 @@ answer: 1
  },
  {
 
-question: 'A la fin du passage, les deux amis sont ……………',
+question: 'A la fin du passage, les deux amis sont \u2026\u2026\u2026',
 
 options: ['contents',
  'déçus',

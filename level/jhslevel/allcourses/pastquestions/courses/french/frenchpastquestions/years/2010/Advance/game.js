@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Kofi me donne beaucoup ……………oranges tous les jours.',
+question: 'Kofi me donne beaucoup \u2026\u2026\u2026oranges tous les jours.',
 
 choice1: 'd’',
 choice2: 'du',
@@ -21,7 +21,7 @@ choice4: 'de l’',
 answer: 1,
 },
 {
-question: 'Jojo n’aime pas ……………bonbon.',
+question: 'Jojo n’aime pas \u2026\u2026\u2026bonbon.',
 
 choice1: 'du',
 choice2: 'de',
@@ -30,7 +30,7 @@ choice4: 'de la',
 answer: 2,
 },
 {
-question: 'Papa reviendra de Tamale ……………….15 juin.',
+question: 'Papa reviendra de Tamale \u2026\u2026\u2026.15 juin.',
 
 choice1: 'à',
 choice2: 'en',
@@ -39,7 +39,7 @@ choice4: 'le',
 answer: 4,
 },
 {
-question: 'Apaloo divise la canne à sucre ……………deux parties.',
+question: 'Apaloo divise la canne à sucre \u2026\u2026\u2026deux parties.',
 
 choice1: 'dans',
 choice2: 'par',
@@ -48,7 +48,7 @@ choice4: 'à',
 answer: 3,
 },
 {
-question: 'Voici ma culotte, où est ……………….. ?',
+question: 'Voici ma culotte, où est \u2026\u2026\u2026.. ?',
 
 choice1: 'la tienne',
 choice2: 'le tien',
@@ -57,7 +57,7 @@ choice4: 'les tiennes',
 answer: 1,
 },
 {
-question: 'Je ne trouve pas mon chapeau ; où est-………….. ?',
+question: 'Je ne trouve pas mon chapeau ; où est-\u2026\u2026.. ?',
 
 choice1: 'elle',
 choice2: 'le',
@@ -66,7 +66,7 @@ choice4: 'la',
 answer: 3,
 },
 {
-question: 'Beaucoup d’étudiants …………..que l’examen est facile',
+question: 'Beaucoup d’étudiants \u2026\u2026..que l’examen est facile',
 
 choice1: 'pense',
 choice2: 'penses',
@@ -75,7 +75,7 @@ choice4: 'pensent',
 answer: 4,
 },
 {
-question: 'Abiba n’a ……………….bonbon dans son sac',
+question: 'Abiba n’a \u2026\u2026\u2026.bonbon dans son sac',
 
 choice1: 'rien',
 choice2: 'plus',
@@ -84,7 +84,7 @@ choice4: 'aucun',
 answer: 4,
 },
 {
-question: 'Naaki a un frère mais moi j’en ……………trois.',
+question: 'Naaki a un frère mais moi j’en \u2026\u2026\u2026trois.',
 
 choice1: 'ont',
 choice2: 'as',
@@ -93,7 +93,7 @@ choice4: 'a',
 answer: 3,
 },
 {
-question: 'Il y a des animaux sauvages dans la foret ……………. se trouve près du village.',
+question: 'Il y a des animaux sauvages dans la foret \u2026\u2026\u2026. se trouve près du village.',
 
 choice1: 'qui',
 choice2: 'que',
@@ -182,7 +182,7 @@ choice4: 'maladies',
 answer: 1,
 },
 {
-	question: 'La Vie à Ladou\n\n Comme Accra, Ladou est située au bord de la ……………..',
+	question: 'La Vie à Ladou\n\n Comme Accra, Ladou est située au bord de la \u2026\u2026\u2026..',
 
 choice1: 'lagune',
 choice2: 'rivière',
@@ -193,7 +193,7 @@ answer: 4,
 {
  
 
-question: 'La Vie à Ladou\n\n Ladou compte ………….habitants.',
+question: 'La Vie à Ladou\n\n Ladou compte \u2026\u2026.habitants.',
 
 choice1: '2000',
 choice2: '5000',
@@ -204,7 +204,7 @@ answer: 4,
 {
  
 
-question: 'La Vie à Ladou\n\n Certains habitants de Ladou sont …………….',
+question: 'La Vie à Ladou\n\n Certains habitants de Ladou sont \u2026\u2026\u2026.',
 
 choice1: 'pêcheurs et cultivateurs',
 choice2: 'avocats et chasseurs',
@@ -215,7 +215,7 @@ answer: 3,
 {
  
 
-question: 'La Vie à Ladou\n\n Les habitants vont au travail…………..',
+question: 'La Vie à Ladou\n\n Les habitants vont au travail\u2026\u2026..',
 
 choice1: 'très tôt le matin',
 choice2: 'à l’heure',
@@ -237,7 +237,7 @@ answer: 4,
 {
  
 
-question: 'La Vie à Ladou\n\n Pourquoi est-ce que les habitants de Ladou sont pressés ? \n Ils vont ……………..',
+question: 'La Vie à Ladou\n\n Pourquoi est-ce que les habitants de Ladou sont pressés ? \n Ils vont \u2026\u2026\u2026..',
 
 choice1: 'au cinéma',
 choice2: 'au travail',
@@ -281,7 +281,7 @@ answer: 3,
 {
  
 
-question: 'La Vie à Ladou\n\n Selon le passage, les habitants……..',
+question: 'La Vie à Ladou\n\n Selon le passage, les habitants\u2026..',
 
 choice1: 'aiment vivre à Ladou',
 choice2: 'détestent la vie à Ladou',
@@ -290,7 +290,7 @@ choice4: 'ne vont pas en voiture',
 answer: 1,
 },
 {
-	question: ' Chaque matin, pour aller à l’école, l’élève met ses livres dans son ……….',
+	question: ' Chaque matin, pour aller à l’école, l’élève met ses livres dans son \u2026\u2026.',
 choice1: 'Banc',
 choice2: 'panier',
 choice3: 'à portefeuille',
@@ -298,7 +298,7 @@ choice4: 'cartable',
 answer: 4,
 },
 {
-question: ' Aujourd’hui, c’est lundi ; demain ce sera………….',
+question: ' Aujourd’hui, c’est lundi ; demain ce sera\u2026\u2026.',
 choice1: 'dimanche',
 choice2: 'mardi',
 choice3: 'jeudi',
@@ -306,7 +306,7 @@ choice4: 'samedi',
 answer: 2,
 },
 {
-question: ' Je vais boire de l’eau parce que j’ai……………….',
+question: ' Je vais boire de l’eau parce que j’ai\u2026\u2026\u2026.',
 choice1: 'froid',
 choice2: 'soif',
 choice3: 'peur',
@@ -314,7 +314,7 @@ choice4: 'sommieil',
 answer: 2,
 },
 {
-question: ' Nous allons au …………………pour voir un match de football entre le Ghana et le Togo',
+question: ' Nous allons au \u2026\u2026\u2026\u2026pour voir un match de football entre le Ghana et le Togo',
 choice1: 'camp',
 choice2: 'champ',
 choice3: 'port',
@@ -322,7 +322,7 @@ choice4: 'stade',
 answer: 4,
 },
 {
-question: ' Les professeurs se reposent …………….la récréation.',
+question: ' Les professeurs se reposent \u2026\u2026\u2026.la récréation.',
 choice1: 'quand',
 choice2: 'pendant',
 choice3: 'alors',
@@ -330,7 +330,7 @@ choice4: 'selon',
 answer: 2,
 },
 {
-question: ' Maman achète de la viande chez……………….',
+question: ' Maman achète de la viande chez\u2026\u2026\u2026.',
 choice1: 'Le boucher',
 choice2: 'L’epicier',
 choice3: 'Le boulanger',
@@ -338,7 +338,7 @@ choice4: 'le fleuriste',
 answer: 1,
 },
 {
-question: ' Nous avons cultivé beaucoup de ……………dans notre jardin',
+question: ' Nous avons cultivé beaucoup de \u2026\u2026\u2026dans notre jardin',
 choice1: 'livres',
 choice2: 'cahiers',
 choice3: 'chaussures',
@@ -346,7 +346,7 @@ choice4: 'mais',
 answer: 4,
 },
 {
-question: ' Le petit garçon met ses chaussures …………..le banc.',
+question: ' Le petit garçon met ses chaussures \u2026\u2026..le banc.',
 choice1: 'depuis',
 choice2: 'sans',
 choice3: 'sur',
@@ -354,7 +354,7 @@ choice4: 'près',
 answer: 3,
 },
 {
-question: ' La femme danse parce qu’elle est ………………',
+question: ' La femme danse parce qu’elle est \u2026\u2026\u2026',
 choice1: 'heureuse',
 choice2: 'pressée',
 choice3: 'occupée',
@@ -362,7 +362,7 @@ choice4: 'faible',
 answer: 1,
 },
 {
-question: ' Kojo marche lentement parce qu’il a mal au ……………………',
+question: ' Kojo marche lentement parce qu’il a mal au \u2026\u2026\u2026\u2026',
 choice1: 'bras',
 choice2: 'nez',
 choice3: 'menton',

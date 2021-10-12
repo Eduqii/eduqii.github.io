@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Adamou veut manger parce qu’il …………..faim',
+question: 'Adamou veut manger parce qu’il \u2026\u2026..faim',
 
 choice1: 'a',
 choice2: 'as',
@@ -21,7 +21,7 @@ choice4: 'est',
 answer: 1,
 },
 {
-question: 'Ohene n’à pas fait son …………… C’est pourquoi il est puni',
+question: 'Ohene n’à pas fait son \u2026\u2026\u2026 C’est pourquoi il est puni',
 
 choice1: 'jeu',
 choice2: 'repas',
@@ -30,7 +30,7 @@ choice4: 'devoir',
 answer: 4,
 },
 {
-question: 'Amalia ne nage ………………dans la mer',
+question: 'Amalia ne nage \u2026\u2026\u2026dans la mer',
 
 choice1: 'aussi',
 choice2: 'déjà',
@@ -39,7 +39,7 @@ choice4: 'si',
 answer: 3,
 },
 {
-question: '……………..cartes sont derrière la classe ?',
+question: '\u2026\u2026\u2026..cartes sont derrière la classe ?',
 
 choice1: 'Quel',
 choice2: 'Quelle',
@@ -49,7 +49,7 @@ answer: 3,
 },
 { 
 
-question: 'Mon père à abandonné la cigarette ; il ne fume ………………',
+question: 'Mon père à abandonné la cigarette ; il ne fume \u2026\u2026\u2026',
 
 choice1: 'guère',
 choice2: 'jamais',
@@ -58,7 +58,7 @@ choice4: 'plus',
 answer: 4,
 },
 {
-question: 'Notre professeur d’anglais parle …….rapidement que nous ne comprenons rien',
+question: 'Notre professeur d’anglais parle \u2026.rapidement que nous ne comprenons rien',
 
 choice1: 'mais',
 choice2: 'sans',
@@ -67,7 +67,7 @@ choice4: 'voici',
 answer: 3,
 },
 {
-question: 'Que ……………les enfants ?\n – Ils dorment',
+question: 'Que \u2026\u2026\u2026les enfants ?\n – Ils dorment',
 
 choice1: 'faire',
 choice2: 'fais',
@@ -76,7 +76,7 @@ choice4: 'font',
 answer: 4,
 },
 {
-question: 'Mes sœurs qui habitent le village sont ……………….',
+question: 'Mes sœurs qui habitent le village sont \u2026\u2026\u2026.',
 
 choice1: 'beau',
 choice2: 'beaux',
@@ -85,7 +85,7 @@ choice4: 'belles',
 answer: 4,
 },
 {
-question: 'Les filles ont …………les seaux',
+question: 'Les filles ont \u2026\u2026les seaux',
 
 choice1: 'rempli',
 choice2: 'remplie',
@@ -94,7 +94,7 @@ choice4: 'remplis',
 answer: 1,
 },
 {
-question: 'Ton père est toujours à la maison. Il ne travaille pas? ……., il travaille.',
+question: 'Ton père est toujours à la maison. Il ne travaille pas? \u2026., il travaille.',
 
 choice1: 'Alors',
 choice2: 'Si',
@@ -102,7 +102,7 @@ choice3: 'Non',
 choice4: 'Oui',
 answer: 2,},
 {
-	question: 'Les enfants vont se coucher parce qu’ils ont ……………',
+	question: 'Les enfants vont se coucher parce qu’ils ont \u2026\u2026\u2026',
 choice1: 'sommiel',
 choice2: 'Soif',
 choice3: 'peur',
@@ -110,7 +110,7 @@ choice4: 'faim',
 answer: 1,
 },
 {
-question: 'Anita à envoyé une carte ………….. Noël à son ami.',
+question: 'Anita à envoyé une carte \u2026\u2026.. Noël à son ami.',
 choice1: 'à',
 choice2: 'au',
 choice3: 'de',
@@ -118,7 +118,7 @@ choice4: 'Sur',
 answer: 3,
 },
 {
-question: 'Le quatrième mois de l’année est ……………….',
+question: 'Le quatrième mois de l’année est \u2026\u2026\u2026.',
 choice1: 'avril',
 choice2: 'juillet',
 choice3: 'juin',
@@ -126,7 +126,7 @@ choice4: 'Mai',
 answer: 1,
 },
 {
-question: 'Ama lave son pagne parce qu’il est ………………',
+question: 'Ama lave son pagne parce qu’il est \u2026\u2026\u2026',
 choice1: 'brûlé',
 choice2: 'déchiré',
 choice3: 'longue',
@@ -134,7 +134,7 @@ choice4: 'sale',
 answer: 4,
 },
 {
-question: 'Les étudiants empruntent des livres à ………………….',
+question: 'Les étudiants empruntent des livres à \u2026\u2026\u2026\u2026.',
 choice1: 'la bibliothèque',
 choice2: 'la librairie',              
 choice3: 'l’église', 
@@ -142,7 +142,7 @@ choice4: 'l’hôtel',
 answer: 1,
 },
 {
-question: 'Le petit ne marche pas bien sans ses ………………',
+question: 'Le petit ne marche pas bien sans ses \u2026\u2026\u2026',
 choice1: 'ceintures',
 choice2: 'chapeaux',
 choice3: 'chaussures',
@@ -150,7 +150,7 @@ choice4: 'Chemises',
 answer: 3,
 },
 {
-question: 'C’est cette couturière qui nous fait nos ………………….',
+question: 'C’est cette couturière qui nous fait nos \u2026\u2026\u2026\u2026.',
 choice1: 'bracelets',
 choice2: 'bagues',
 choice3: 'coilliers',
@@ -158,7 +158,7 @@ choice4: 'Jupes',
 answer: 4,
 },
 {
-question: 'Paul vient souvent ………………..nous',
+question: 'Paul vient souvent \u2026\u2026\u2026..nous',
 choice1: 'au',
 choice2: 'Chez',
 choice3: 'de',
@@ -166,7 +166,7 @@ choice4: 'Dans',
 answer: 2,
 },
 {
-question: 'Jojo porte des lunettes pour bien …………………',
+question: 'Jojo porte des lunettes pour bien \u2026\u2026\u2026\u2026',
 choice1: 'entendre',
 choice2: 'marcher',
 choice3: 'parler',
@@ -174,7 +174,7 @@ choice4: 'Voir',
 answer: 4,
 },
 {
-question: 'Dédé n’à rien à manger parce qu’elle est …………',
+question: 'Dédé n’à rien à manger parce qu’elle est \u2026\u2026',
 choice1: 'fâchée', 
 choice2: 'fatigue',
 choice3: 'petite',
@@ -211,7 +211,7 @@ answer: 1,
 },
 { 
 
-question: 'Le Départ Pour la Capitale\n\n Monsieur et Madame Adah aiment la vie …………….du village.',
+question: 'Le Départ Pour la Capitale\n\n Monsieur et Madame Adah aiment la vie \u2026\u2026\u2026.du village.',
 
 choice1: 'agréable',
 choice2: 'calme',
@@ -221,7 +221,7 @@ answer: 2,
 },
 { 
 
-question: 'Le Départ Pour la Capitale\n\n Dans la capitale on s’amuse ……………..',
+question: 'Le Départ Pour la Capitale\n\n Dans la capitale on s’amuse \u2026\u2026\u2026..',
 
 choice1: 'souvent',
 choice2: 'rarement',
@@ -249,7 +249,7 @@ answer: 2,
 },
 { 
 
-question: 'Le Départ Pour la Capitale\n\n Amalia ne mange plus parce qu’elle ……………..',
+question: 'Le Départ Pour la Capitale\n\n Amalia ne mange plus parce qu’elle \u2026\u2026\u2026..',
 
 choice1: 'n’a plus faim',
 choice2: 'n’est pas contente',
@@ -258,7 +258,7 @@ choice4: 's’amuse',
 answer: 2, 
 },
 {
-question: 'Le Départ Pour la Capitale\n\n Amalia se blesse le pied en ……………',
+question: 'Le Départ Pour la Capitale\n\n Amalia se blesse le pied en \u2026\u2026\u2026',
 
 choice1: 'dansant',
 choice2: 'courant',
@@ -267,7 +267,7 @@ choice4: 'marchant',
 answer: 3,
 },
 {
-question: 'Le Départ Pour la Capitale\n\n – Que fait Amalia le cinquième jour ? \n– Elle ……………',
+question: 'Le Départ Pour la Capitale\n\n – Que fait Amalia le cinquième jour ? \n– Elle \u2026\u2026\u2026',
 
 choice1: 'se repose chez elle',
 choice2: 'reste à la maison',

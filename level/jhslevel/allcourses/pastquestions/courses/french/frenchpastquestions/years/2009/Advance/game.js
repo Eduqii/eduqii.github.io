@@ -92,7 +92,7 @@ choice4: 'nous',
 answer: 4,
 },
 {
-	question: 'Akosua lave …………………..foulard de sa mère.',
+	question: 'Akosua lave \u2026\u2026\u2026\u2026..foulard de sa mère.',
 
 choice1: 'les',
 choice2: 'la',
@@ -101,7 +101,7 @@ choice4: 'le',
 answer: 4,
 },
 {
-question: 'Tous les élèves ………………s’amuser au jardin le week-end prochain.',
+question: 'Tous les élèves \u2026\u2026\u2026s’amuser au jardin le week-end prochain.',
 
 choice1: 'iront',
 choice2: 'allaient',
@@ -110,7 +110,7 @@ choice4: 'allez',
 answer: 1,
 },
 {
-question: '…………………élève parle trop',
+question: '\u2026\u2026\u2026\u2026élève parle trop',
 
 choice1: 'Ce',
 choice2: 'Cet',
@@ -120,7 +120,7 @@ answer: 2,
 },
 { 
 
-question: 'Les professeurs ……………….de partir',
+question: 'Les professeurs \u2026\u2026\u2026.de partir',
 
 choice1: 'vient',
 choice2: 'viendront',
@@ -129,7 +129,7 @@ choice4: 'viennent',
 answer: 4,
 },
 {
-question: 'Cynthia, Rashidatu et Kofi sont très…………….',
+question: 'Cynthia, Rashidatu et Kofi sont très\u2026\u2026\u2026.',
 
 choice1: 'intelligentes',
 choice2: 'intelligents',
@@ -138,7 +138,7 @@ choice4: 'intelligente',
 answer: 2,
 },
 {
-question: 'Tu………………très vite.',
+question: 'Tu\u2026\u2026\u2026très vite.',
 
 choice1: 'grandit',
 choice2: 'grandi',
@@ -147,7 +147,7 @@ choice4: 'grandir',
 answer: 1,
 },
 {
-question: 'Il y a trop de ………………sur ce terrain de football.',
+question: 'Il y a trop de \u2026\u2026\u2026sur ce terrain de football.',
 
 choice1: 'cailloux',
 choice2: 'caillou',
@@ -156,7 +156,7 @@ choice4: 'cartable',
 answer: 1,
 },
 {
-question: 'Kofi ……………..mal au ventre parce qu’il a mangé une mangue verte.',
+question: 'Kofi \u2026\u2026\u2026..mal au ventre parce qu’il a mangé une mangue verte.',
 
 choice1: 'as',
 choice2: 'a',
@@ -165,7 +165,7 @@ choice4: 'avoir',
 answer: 2,
 },
 {
-question: 'Quand ……………….jeune, j’aimais jouer au football.',
+question: 'Quand \u2026\u2026\u2026.jeune, j’aimais jouer au football.',
 
 choice1: 'je suis',
 choice2: 'j’avais',
@@ -175,7 +175,7 @@ answer: 3,
 },
 { 
 
-question: 'Mon père ………………….les accusés, il est avocat.',
+question: 'Mon père \u2026\u2026\u2026\u2026.les accusés, il est avocat.',
 
 choice1: 'frappe',
 choice2: 'défend',
@@ -184,7 +184,7 @@ choice4: 'enseigne',
 answer: 2,
 },
 {
-	question: 'L’ensemble des os du ……………..s’appelle le squelette.',
+	question: 'L’ensemble des os du \u2026\u2026\u2026..s’appelle le squelette.',
 choice1: 'Cœur',
 choice2: 'Corps',
 choice3: 'sang',
@@ -192,7 +192,7 @@ choice4: 'Muscle',
 answer: 2, 
 },
 {
-question: 'Le sang a une couleur ………………….',
+question: 'Le sang a une couleur \u2026\u2026\u2026\u2026.',
 choice1: 'chaleur',
 choice2: 'soleil',
 choice3: 'pluies',
@@ -200,7 +200,7 @@ choice4: 'Matin',
 answer: 3,
 },
 {
-question: 'Pendant la saison sèche, il n’y a pas de …………………………',
+question: 'Pendant la saison sèche, il n’y a pas de \u2026\u2026\u2026\u2026\u2026',
 choice1: 'verte',
 choice2: 'rouge',
 choice3: 'jaune',
@@ -208,7 +208,7 @@ choice4: 'Blanche',
 answer: 2,
 },
 {
-question: 'Madame Owusu est ……………….. ; elle soigne les malades.',
+question: 'Madame Owusu est \u2026\u2026\u2026.. ; elle soigne les malades.',
 choice1: 'cultivatrice',
 choice2: 'professeur',
 choice3: 'infirmière',
@@ -216,7 +216,7 @@ choice4: 'Vendeuse',
 answer: 3,
 },
 {
-question: 'Celui qui attrape les poissons avec un filet est un ……………',
+question: 'Celui qui attrape les poissons avec un filet est un \u2026\u2026\u2026',
 choice1: 'Pêcheur',
 choice2: 'fleuriste',
 choice3: 'fermier',
@@ -224,7 +224,7 @@ choice4: 'Plombier',
 answer: 1,
 },
 {
-question: 'Moussah est un bon ……………… ; il tue toujours des gibiers',
+question: 'Moussah est un bon \u2026\u2026\u2026 ; il tue toujours des gibiers',
 choice1: 'chanteur',
 choice2: 'chasseur',
 choice3: 'chauffeur',
@@ -232,7 +232,7 @@ choice4: 'Cultivateur',
 answer: 2,
 },
 {
-question: 'Le couteau sert à …………………..les aliments.',
+question: 'Le couteau sert à \u2026\u2026\u2026\u2026..les aliments.',
 choice1: 'couper',
 choice2: 'acheter',
 choice3: 'cuire',
@@ -240,7 +240,7 @@ choice4: 'Vendre',
 answer: 1,
 },
 {
-question: 'Son père conduit un taxi ; il est …………………..',
+question: 'Son père conduit un taxi ; il est \u2026\u2026\u2026\u2026..',
 choice1: 'chauffeur',
 choice2: 'coiffeur',
 choice3: 'mecanicien',
@@ -248,7 +248,7 @@ choice4: 'médecin',
 answer: 1,
 },
 {
-question: 'Les documents et les objets ………………sont gardés dans un musée.',
+question: 'Les documents et les objets \u2026\u2026\u2026sont gardés dans un musée.',
 choice1: 'ancien',
 choice2: 'ancienne',
 choice3: 'anciens',
@@ -256,7 +256,7 @@ choice4: 'Ancienne',
 answer: 3,
 },
 {
-question: 'Il y a beaucoup …………………cahiers, livres et stylos dans son cartable.',
+question: 'Il y a beaucoup \u2026\u2026\u2026\u2026cahiers, livres et stylos dans son cartable.',
 choice1: 'des',
 choice2: 'de',
 choice3: 'De l’',
@@ -264,7 +264,7 @@ choice4: 'De la',
 answer: 2,
 },
 {
-	question: 'Samedi Au Champ\n\n Titi est …………..frère de Baba.',
+	question: 'Samedi Au Champ\n\n Titi est \u2026\u2026..frère de Baba.',
 
 choice1: 'le grand',
 choice2: 'le petit',
@@ -274,7 +274,7 @@ answer: 1,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Les samedis, Titi et Baba vont …………………',
+question: 'Samedi Au Champ\n\n Les samedis, Titi et Baba vont \u2026\u2026\u2026\u2026',
 
 choice1: 'au college',
 choice2: 'au village',
@@ -284,7 +284,7 @@ answer: 3,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Le village natal, c’est le village où ……………',
+question: 'Samedi Au Champ\n\n Le village natal, c’est le village où \u2026\u2026\u2026',
 
 choice1: 'on est né',
 choice2: 'on est élève',
@@ -294,7 +294,7 @@ answer: 1,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Monsieur Samba n’aime pas travailler avec sa femme parce qu’elle ………',
+question: 'Samedi Au Champ\n\n Monsieur Samba n’aime pas travailler avec sa femme parce qu’elle \u2026\u2026',
 
 choice1: 'est paressuese',
 choice2: 'travaille vite',
@@ -303,7 +303,7 @@ choice4: 'est toujours fatiguee',
 answer: 3,
 },
 {
-question: 'Samedi Au Champ\n\n Selon Monsieur Samba, les femmes travaillent……………………',
+question: 'Samedi Au Champ\n\n Selon Monsieur Samba, les femmes travaillent\u2026\u2026\u2026\u2026',
 
 choice1: 'joyeusement',
 choice2: 'lentement',
@@ -313,7 +313,7 @@ answer: 2,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Monsieur Samba aime travailler avec qui ? \n – Il aime travailler avec ………………',
+question: 'Samedi Au Champ\n\n Monsieur Samba aime travailler avec qui ? \n – Il aime travailler avec \u2026\u2026\u2026',
 
 choice1: 'sa femme',
 choice2: 'ses enfants',
@@ -323,7 +323,7 @@ answer: 2,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Au champ, ils travaillent ………………',
+question: 'Samedi Au Champ\n\n Au champ, ils travaillent \u2026\u2026\u2026',
 
 choice1: 'de l’après –midi au soir',
 choice2: 'de l’aube à midi',
@@ -333,7 +333,7 @@ answer: 3,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Monsieur Samba pense que les hommes doivent être…………',
+question: 'Samedi Au Champ\n\n Monsieur Samba pense que les hommes doivent être\u2026\u2026',
 
 choice1: 'faible',
 choice2: 'forts',
@@ -343,7 +343,7 @@ answer: 2,
 },
 { 
 
-question: 'Samedi Au Champ\n\n Que font-ils pendant les repos ? \n – Ils ……………',
+question: 'Samedi Au Champ\n\n Que font-ils pendant les repos ? \n – Ils \u2026\u2026\u2026',
 
 choice1: 'dorment paisiblement',
 choice2: 'causent beaucoup',
@@ -352,7 +352,7 @@ choice4: 'rentrent chez eux',
 answer: 3,
 },
 {
-question: 'Samedi Au Champ\n\n Comment sont-ils le soir quand ils rentrent à la maison ? \n – Ils sont très ……………',
+question: 'Samedi Au Champ\n\n Comment sont-ils le soir quand ils rentrent à la maison ? \n – Ils sont très \u2026\u2026\u2026',
 
 choice1: 'faible',
 choice2: 'tristes',

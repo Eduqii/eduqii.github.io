@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Kofi me donne beaucoup ……………oranges tous les jours.',
+question: 'Kofi me donne beaucoup \u2026\u2026\u2026oranges tous les jours.',
 
 options: ['d’',
  'du',
@@ -12,7 +12,7 @@ options: ['d’',
 answer: 0
 },
 {
-question: 'Jojo n’aime pas ……………bonbon.',
+question: 'Jojo n’aime pas \u2026\u2026\u2026bonbon.',
 
 options: ['du',
  'de',
@@ -21,7 +21,7 @@ options: ['du',
 answer: 1
 },
 {
-question: 'Papa reviendra de Tamale ……………….15 juin.',
+question: 'Papa reviendra de Tamale \u2026\u2026\u2026.15 juin.',
 
 options: ['à',
  'en',
@@ -30,7 +30,7 @@ options: ['à',
 answer: 3
 },
 {
-question: 'Apaloo divise la canne à sucre ……………deux parties.',
+question: 'Apaloo divise la canne à sucre \u2026\u2026\u2026deux parties.',
 
 options: ['dans',
  'par',
@@ -39,7 +39,7 @@ options: ['dans',
 answer: 2
 },
 {
-question: 'Voici ma culotte, où est ……………….. ?',
+question: 'Voici ma culotte, où est \u2026\u2026\u2026.. ?',
 
 options: ['la tienne',
  'le tien',
@@ -48,7 +48,7 @@ options: ['la tienne',
 answer: 0
 },
 {
-question: 'Je ne trouve pas mon chapeau ; où est-………….. ?',
+question: 'Je ne trouve pas mon chapeau ; où est-\u2026\u2026.. ?',
 
 options: ['elle',
  'le',
@@ -57,7 +57,7 @@ options: ['elle',
 answer: 2
 },
 {
-question: 'Beaucoup d’étudiants …………..que l’examen est facile',
+question: 'Beaucoup d’étudiants \u2026\u2026..que l’examen est facile',
 
 options: ['pense',
  'penses',
@@ -66,7 +66,7 @@ options: ['pense',
 answer: 3
 },
 {
-question: 'Abiba n’a ……………….bonbon dans son sac',
+question: 'Abiba n’a \u2026\u2026\u2026.bonbon dans son sac',
 
 options: ['rien',
  'plus',
@@ -75,7 +75,7 @@ options: ['rien',
 answer: 3
 },
 {
-question: 'Naaki a un frère mais moi j’en ……………trois.',
+question: 'Naaki a un frère mais moi j’en \u2026\u2026\u2026trois.',
 
 options: ['ont',
  'as',
@@ -84,7 +84,7 @@ options: ['ont',
 answer: 2
 },
 {
-question: 'Il y a des animaux sauvages dans la foret ……………. se trouve près du village.',
+question: 'Il y a des animaux sauvages dans la foret \u2026\u2026\u2026. se trouve près du village.',
 
 options: ['qui',
  'que',
@@ -173,7 +173,7 @@ options: ['médicaments',
 answer: 0
 },
 {
-	question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Comme Accra, Ladou est située au bord de la ……………..',
+	question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Comme Accra, Ladou est située au bord de la \u2026\u2026\u2026..',
 
 options: ['lagune',
  'rivière',
@@ -184,7 +184,7 @@ answer: 3
 {
  
 
-question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Ladou compte ………….habitants.',
+question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Ladou compte \u2026\u2026.habitants.',
 
 options: ['2000',
  '5000',
@@ -193,7 +193,7 @@ options: ['2000',
 answer: 3
 },
 {
-question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Certains habitants de Ladou sont …………….',
+question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Certains habitants de Ladou sont \u2026\u2026\u2026.',
 
 options: ['pêcheurs et cultivateurs',
  'avocats et chasseurs',
@@ -204,7 +204,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Les habitants vont au travail…………..',
+question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Les habitants vont au travail\u2026\u2026..',
 
 options: ['très tôt le matin',
  'à l’heure',
@@ -226,7 +226,7 @@ answer: 3
 {
  
 
-question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Pourquoi est-ce que les habitants de Ladou sont pressés ? \n Ils vont ……………..',
+question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Pourquoi est-ce que les habitants de Ladou sont pressés ? \n Ils vont \u2026\u2026\u2026..',
 
 options: ['au cinéma',
  'au travail',
@@ -270,7 +270,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Selon le passage, les habitants……..',
+question: '<b>' + 'La Vie à Ladou' + '</b>' + '<br />' + '<br />' + ' Selon le passage, les habitants\u2026..',
 
 options: ['aiment vivre à Ladou',
  'détestent la vie à Ladou',
@@ -279,7 +279,7 @@ options: ['aiment vivre à Ladou',
 answer: 0
 },
 {
-	question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Chaque matin, pour aller à l’école, l’élève met ses livres dans son ……….',
+	question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Chaque matin, pour aller à l’école, l’élève met ses livres dans son \u2026\u2026.',
 options: ['Banc',
  'panier',
  'à portefeuille',
@@ -287,7 +287,7 @@ options: ['Banc',
 answer: 3
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Aujourd’hui, c’est lundi ; demain ce sera………….',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Aujourd’hui, c’est lundi ; demain ce sera\u2026\u2026.',
 options: ['dimanche',
  'mardi',
  'jeudi',
@@ -295,7 +295,7 @@ options: ['dimanche',
 answer: 1
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Je vais boire de l’eau parce que j’ai……………….',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Je vais boire de l’eau parce que j’ai\u2026\u2026\u2026.',
 options: ['froid',
  'soif',
  'peur',
@@ -303,7 +303,7 @@ options: ['froid',
 answer: 1
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Nous allons au …………………pour voir un match de football entre le Ghana et le Togo',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Nous allons au \u2026\u2026\u2026\u2026pour voir un match de football entre le Ghana et le Togo',
 options: ['camp',
  'champ',
  'port',
@@ -311,7 +311,7 @@ options: ['camp',
 answer: 3
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Les professeurs se reposent …………….la récréation.',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Les professeurs se reposent \u2026\u2026\u2026.la récréation.',
 options: ['quand',
  'pendant',
  'alors',
@@ -319,7 +319,7 @@ options: ['quand',
 answer: 1
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Maman achète de la viande chez……………….',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Maman achète de la viande chez\u2026\u2026\u2026.',
 options: ['Le boucher',
  'L’epicier',
  'Le boulanger',
@@ -327,7 +327,7 @@ options: ['Le boucher',
 answer: 0
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Nous avons cultivé beaucoup de ……………dans notre jardin',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Nous avons cultivé beaucoup de \u2026\u2026\u2026dans notre jardin',
 options: ['livres',
  'cahiers',
  'chaussures',
@@ -335,7 +335,7 @@ options: ['livres',
 answer: 3
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le petit garçon met ses chaussures …………..le banc.',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le petit garçon met ses chaussures \u2026\u2026..le banc.',
 options: ['depuis',
  'sans',
  'sur',
@@ -343,7 +343,7 @@ options: ['depuis',
 answer: 2
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' La femme danse parce qu’elle est ………………',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' La femme danse parce qu’elle est \u2026\u2026\u2026',
 options: ['heureuse',
  'pressée',
  'occupée',
@@ -351,7 +351,7 @@ options: ['heureuse',
 answer: 0
 },
 {
-question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Kojo marche lentement parce qu’il a mal au ……………………',
+question: '<b>'+ 'Below are ten sentences with blank spaces followed by four options, Choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Kojo marche lentement parce qu’il a mal au \u2026\u2026\u2026\u2026',
 options: ['bras',
  'nez',
  'menton',

@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 	{
-question: 'Regarde! Il commence …………..pleuvoir.',
+question: 'Regarde! Il commence \u2026\u2026..pleuvoir.',
 
 choice1: 'à',
 choice2: 'dans',
@@ -23,7 +23,7 @@ answer: 1,
 {
  
 
-question: 'Nos amis vont chercher …………………..chambre',
+question: 'Nos amis vont chercher \u2026\u2026\u2026\u2026..chambre',
 
 choice1: 'un',
 choice2: 'le',
@@ -34,7 +34,7 @@ answer: 4,
 {
  
 
-question: 'Au collège “All Girls”, les placards sont ……………………',
+question: 'Au collège “All Girls”, les placards sont \u2026\u2026\u2026\u2026',
 
 choice1: 'arranges',
 choice2: 'arrangés',
@@ -45,7 +45,7 @@ answer: 2,
 {
  
 
-question: 'Madame Sassou a acheté des jouets pour ………………..enfant',
+question: 'Madame Sassou a acheté des jouets pour \u2026\u2026\u2026..enfant',
 
 choice1: 's’',
 choice2: 'sa',
@@ -56,7 +56,7 @@ answer: 4,
 {
  
 
-question: '………………………est la date d’aujourd’hui ?',
+question: '\u2026\u2026\u2026\u2026\u2026est la date d’aujourd’hui ?',
 
 choice1: 'Quel',
 choice2: 'Quelle',
@@ -67,7 +67,7 @@ answer: 2,
 {
  
 
-question: 'Dans notre jardin, il y a de………………..fleurs',
+question: 'Dans notre jardin, il y a de\u2026\u2026\u2026..fleurs',
 
 choice1: 'beau',
 choice2: 'beaux',
@@ -79,7 +79,7 @@ answer: 4,
 
  
 
-question: '– Qu’est-ce que ………………cherches ?Mon stylo',
+question: '– Qu’est-ce que \u2026\u2026\u2026cherches ?Mon stylo',
 choice1: 'elle',
 choice2: 'je',
 choice3: 'tu',
@@ -89,7 +89,7 @@ answer: 3,
 {
  
 
-question: 'L’instituteur va ………………..les élèves paresseux.',
+question: 'L’instituteur va \u2026\u2026\u2026..les élèves paresseux.',
 
 choice1: 'puni',
 choice2: 'punir',
@@ -100,7 +100,7 @@ answer: 2,
 {
  
 
-question: '……………………de filles travaillent au nouveau restaurant ?',
+question: '\u2026\u2026\u2026\u2026de filles travaillent au nouveau restaurant ?',
 
 choice1: 'Combien',
 choice2: 'Comment',
@@ -111,7 +111,7 @@ answer: 1,
 {
  
 
-question: 'Vous …………..le discours du directeur ?',
+question: 'Vous \u2026\u2026..le discours du directeur ?',
 
 choice1: 'écoute',
 choice2: 'écouter',
@@ -120,7 +120,7 @@ choice4: 'écoutez',
 answer: 4,
 },
 {
-	question: 'Sola achète du ………………..chez le Boulanger.',
+	question: 'Sola achète du \u2026\u2026\u2026..chez le Boulanger.',
 choice1: 'beurre',
 choice2: 'lait',
 choice3: 'pain',
@@ -129,7 +129,7 @@ answer: 3,
 },
 {
 
-question: 'Asiétou est malade ; ell va voir le …………………..',
+question: 'Asiétou est malade ; ell va voir le \u2026\u2026\u2026\u2026..',
 choice1: 'directeur            ',
 choice2: 'mécanicien        ',
 choice3: 'doctuer',
@@ -138,7 +138,7 @@ answer: 3,
 },
 { 
 
-question: 'Mon père met le mouchoir dans …………….',
+question: 'Mon père met le mouchoir dans \u2026\u2026\u2026.',
 choice1: 'son bras',
 choice2: 'sa cravate',
 choice3: 'son stylo',
@@ -147,7 +147,7 @@ answer: 4,
 },
 {
 
-question: 'Maman prépare le dîner dans …………….',
+question: 'Maman prépare le dîner dans \u2026\u2026\u2026.',
 choice1: 'l’atelier',
 choice2: 'le bureau',
 choice3: 'la cuisine',
@@ -156,7 +156,7 @@ answer: 3,
 },
 {
 
-question: 'Adiki porte les lunettes parce qu’elle a mal aux ……………',
+question: 'Adiki porte les lunettes parce qu’elle a mal aux \u2026\u2026\u2026',
 choice1: 'genoux',
 choice2: 'oreilles',
 choice3: 'pieds',
@@ -165,7 +165,7 @@ answer: 4,
 },
 { 
 
-question: 'Chaque matin, le jardinier arrose………………..',
+question: 'Chaque matin, le jardinier arrose\u2026\u2026\u2026..',
 choice1: 'la cour',
 choice2: 'les fleurs',
 choice3: 'la piste',
@@ -174,7 +174,7 @@ answer: 2,
 },
 {
 
-question: 'Ce garçon est paresseux, alors il n’aime pas ……………..',
+question: 'Ce garçon est paresseux, alors il n’aime pas \u2026\u2026\u2026..',
 choice1: 'dormir',
 choice2: 'manger',
 choice3: 'sortir    ',
@@ -182,7 +182,7 @@ choice4: 'travailler',
 answer: 4,
 },
 {
-question: 'Les élèves qui arrivent ……………retard sont punis',
+question: 'Les élèves qui arrivent \u2026\u2026\u2026retard sont punis',
 choice1: 'en ',
 choice2: 'au',
 choice3: 'de',
@@ -191,7 +191,7 @@ answer: 1,
 },
 { 
 
-question: 'Notre directeur porte toujours ………………verte.',
+question: 'Notre directeur porte toujours \u2026\u2026\u2026verte.',
 choice1: 'en foulard',
 choice2: 'une chemise     ',
 choice3: 'un pantalon',
@@ -199,7 +199,7 @@ choice4: 'une jupe',
 answer: 2,
 },
 {
-question: 'Le professeur de géographie ………….avec la carte du Ghana.',
+question: 'Le professeur de géographie \u2026\u2026.avec la carte du Ghana.',
 choice1: 'enseigne',
 choice2: 'conduit',
 choice3: 'parle',
@@ -207,7 +207,7 @@ choice4: 'ecrit',
 answer: 1,
 },
 {
-question: 'Karim au champ \n\n Karim se réveille………………',
+question: 'Karim au champ \n\n Karim se réveille\u2026\u2026\u2026',
 
 choice1: 'très tard',
 choice2: 'de bonne heure',
@@ -227,7 +227,7 @@ answer: 3,
 {
  
 
-question: 'Karim au champ \n\n Karim prend son petit déjeuner………………',
+question: 'Karim au champ \n\n Karim prend son petit déjeuner\u2026\u2026\u2026',
 
 choice1: 'avant d’aller au champ',
 choice2: 'à son arrivée au champ',
@@ -236,7 +236,7 @@ choice4: 's’il veut aller se coucher',
 answer: 1, 
 },
 {
-question: 'Karim au champ \n\n Au champ, le cultivateur………………….les herbes',
+question: 'Karim au champ \n\n Au champ, le cultivateur\u2026\u2026\u2026\u2026.les herbes',
 
 choice1: 'enlève',
 choice2: 'plante',
@@ -245,7 +245,7 @@ choice4: 'mange',
 answer: 1,
 },
 {
-question: 'Karim au champ \n\n Selon le texte, Karim cultive la terre avec ………………',
+question: 'Karim au champ \n\n Selon le texte, Karim cultive la terre avec \u2026\u2026\u2026',
 
 choice1: 'un coupe-coupe',
 choice2: 'une houe',
@@ -255,7 +255,7 @@ answer: 2,
 },
 { 
 
-question: 'Karim au champ \n\n – Pourquoi son corps est couvert de sueur ? ………..\n – Parce qu’il est ………………..',
+question: 'Karim au champ \n\n – Pourquoi son corps est couvert de sueur ? \u2026\u2026..\n – Parce qu’il est \u2026\u2026\u2026..',
 
 choice1: 'paresseux',
 choice2: 'méchant',
@@ -264,7 +264,7 @@ choice4: 'travailleur',
 answer: 4,
 },
 {
-question: 'Karim au champ \n\n Karim fait la sieste …………..',
+question: 'Karim au champ \n\n Karim fait la sieste \u2026\u2026..',
 
 choice1: 'pendant trente minutes',
 choice2: 'pendant deux heures',
@@ -292,7 +292,7 @@ answer: 2,
 },
 { 
 
-question: 'Karim au champ \n\n A la fin du jour, Karim quitte son champ fatigué et …………….',
+question: 'Karim au champ \n\n A la fin du jour, Karim quitte son champ fatigué et \u2026\u2026\u2026.',
 
 choice1: 'satisfait',
 choice2: 'malade',

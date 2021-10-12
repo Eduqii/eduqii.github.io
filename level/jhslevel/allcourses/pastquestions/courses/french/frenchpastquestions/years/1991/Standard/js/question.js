@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question: 'Les élèves vont en vacances …………….. 30 janvier.',
+question: 'Les élèves vont en vacances \u2026\u2026\u2026.. 30 janvier.',
 options: ['la',
  'au',
  'en',
@@ -11,7 +11,7 @@ options: ['la',
 answer: 
 },
 {
-question: 'Nous jouons ……………..football chaque samedi matin.',
+question: 'Nous jouons \u2026\u2026\u2026..football chaque samedi matin.',
 options: ['du',
  'aux',
  'au',
@@ -19,7 +19,7 @@ options: ['du',
 answer: 
 },
 {
-question: 'Le soir, je ……………… à 9 heures.',
+question: 'Le soir, je \u2026\u2026\u2026 à 9 heures.',
 options: ['dort',
  'dormons',
  'dorment',
@@ -27,7 +27,7 @@ options: ['dort',
 answer: 
 },
 {
-question: 'Ali est un ……………….. élève',
+question: 'Ali est un \u2026\u2026\u2026.. élève',
 options: ['bon',
  'bons',
  'bonne',
@@ -35,7 +35,7 @@ options: ['bon',
 answer: 
 },
 {
-question: 'L’homme est …………..il à beaucoup d’argent.',
+question: 'L’homme est \u2026\u2026..il à beaucoup d’argent.',
 options: ['pauvre',
  'joli',
  'riche',
@@ -43,7 +43,7 @@ options: ['pauvre',
 answer: 
 },
 {
-question: 'Le voleur ………….. de la prison.',
+question: 'Le voleur \u2026\u2026.. de la prison.',
 options: ['sortez',
  'sors',
  'sortent',
@@ -51,7 +51,7 @@ options: ['sortez',
 answer: 
 },
 {
-question: 'Le garçon ……………les portes et les fenêtres de l’école.',
+question: 'Le garçon \u2026\u2026\u2026les portes et les fenêtres de l’école.',
 options: ['ouvres',
  'ouvre',
  'ouvrir',
@@ -59,7 +59,7 @@ options: ['ouvres',
 answer: 
 },
 {
-question: 'Ama achète un kilo ……………..tomates au marché.',
+question: 'Ama achète un kilo \u2026\u2026\u2026..tomates au marché.',
 options: ['des',
  'de la',
  'de',
@@ -67,7 +67,7 @@ options: ['des',
 answer: 
 },
 {
-question: 'Pour aller à l’école, nous ……………..l’autobus.',
+question: 'Pour aller à l’école, nous \u2026\u2026\u2026..l’autobus.',
 options: ['prenons',
  'prenez',
  'prendre',
@@ -75,7 +75,7 @@ options: ['prenons',
 answer: 
 },
 {
-question: 'Ils ……………… lavent tous les matins',
+question: 'Ils \u2026\u2026\u2026 lavent tous les matins',
 options: ['lui',
  'sont',
  'leur',
@@ -83,7 +83,7 @@ options: ['lui',
 answer: 
 },
 {
-question: 'L’enfant ……………. intelligent.',
+question: 'L’enfant \u2026\u2026\u2026. intelligent.',
 options: ['est',
  'suis',
  'être',
@@ -91,7 +91,7 @@ options: ['est',
 answer: 
 },
 {
-question: 'Quelle ………… robe !',
+question: 'Quelle \u2026\u2026 robe !',
 options: ['joli',
  'jolie',
  'jolis',
@@ -99,7 +99,7 @@ options: ['joli',
 answer: 
 },
 {
-question: 'Ama achète un ……………. mouchoir',
+question: 'Ama achète un \u2026\u2026\u2026. mouchoir',
 options: ['nouvel',
  'nouveau',
  'nouvelle',
@@ -107,7 +107,7 @@ options: ['nouvel',
 answer: 
 },
 {
-question: 'Elle dort parce qu’elle est …………..',
+question: 'Elle dort parce qu’elle est \u2026\u2026..',
 options: ['fatigué',
  'fatiguée',
  'fatiguant',
@@ -115,7 +115,7 @@ options: ['fatigué',
 answer: 
 },
 {
-question: 'Il va ………………. la plage',
+question: 'Il va \u2026\u2026\u2026. la plage',
 options: ['a',
  'à',
  'au',
@@ -123,7 +123,7 @@ options: ['a',
 answer: 
 },
 {
-question: 'Il travaille ……………… le jardin.',
+question: 'Il travaille \u2026\u2026\u2026 le jardin.',
 options: ['par',
  'dans',
  'en',
@@ -131,7 +131,7 @@ options: ['par',
 answer: 
 },
 {
-question: 'Il y a beaucoup ………………. personnes dans la chambre.',
+question: 'Il y a beaucoup \u2026\u2026\u2026. personnes dans la chambre.',
 options: ['du',
  'des',
  'd’',
@@ -139,7 +139,7 @@ options: ['du',
 answer: 
 },
 {
-question: 'Les élèves ………………. leur devoir.',
+question: 'Les élèves \u2026\u2026\u2026. leur devoir.',
 options: ['fait',
  'fais',
  'font',
@@ -147,7 +147,7 @@ options: ['fait',
 answer: 
 },
 {
-question: 'Mon Père à une ……………….. maison.',
+question: 'Mon Père à une \u2026\u2026\u2026.. maison.',
 options: ['grande',
  'petit',
  'grand',
@@ -155,7 +155,7 @@ options: ['grande',
 answer: 
 },
 {
-question: '………………… professeur est content.',
+question: '\u2026\u2026\u2026\u2026 professeur est content.',
 options: ['Ma',
  'Mon',
  'Mes.',
@@ -163,7 +163,7 @@ options: ['Ma',
 answer: 
 },
 {
-question: 'Nous allons …………….. ville.',
+question: 'Nous allons \u2026\u2026\u2026.. ville.',
 options: ['en',
  'au',
  'dans',
@@ -171,7 +171,7 @@ options: ['en',
 answer: 
 },
 {
-question: 'J’ai …………stylo dans mon sac.',
+question: 'J’ai \u2026\u2026stylo dans mon sac.',
 options: ['la',
  'une',
  'un',
@@ -179,7 +179,7 @@ options: ['la',
 answer: 
 },
 {
-question: 'Cet élève ne travaille pas bien en classe. Il est……………',
+question: 'Cet élève ne travaille pas bien en classe. Il est\u2026\u2026\u2026',
 options: ['gentil',
  'intelligent',
  'serieux',
@@ -187,7 +187,7 @@ options: ['gentil',
 answer: 
 },
 {
-question: 'Kofi n’est pas grand. Il est……….',
+question: 'Kofi n’est pas grand. Il est\u2026\u2026.',
 options: ['jolie', 
  'petit',
  'mauvais',
@@ -195,7 +195,7 @@ options: ['jolie',
 answer: 
 },
 {
-question: 'Le bébé boit ……………. lait.',
+question: 'Le bébé boit \u2026\u2026\u2026. lait.',
 options: ['de',
  'des',
  'de la',
@@ -203,7 +203,7 @@ options: ['de',
 answer: 
 },
 {
-question: 'Tu ……………….. vingt ans.',
+question: 'Tu \u2026\u2026\u2026.. vingt ans.',
 options: ['es',
  'ai',
  'as',
@@ -211,7 +211,7 @@ options: ['es',
 answer: 
 },
 {
-question: 'Le chat est un animal ………………',
+question: 'Le chat est un animal \u2026\u2026\u2026',
 options: ['domestique',
  'sauvage',
  'sale',
@@ -219,7 +219,7 @@ options: ['domestique',
 answer: 
 },
 {
-question: 'Les ……………… sont dans la mer.',
+question: 'Les \u2026\u2026\u2026 sont dans la mer.',
 options: ['souris',
  'moutons',
  'poissons',
@@ -227,7 +227,7 @@ options: ['souris',
 answer: 
 },
 {
-question: 'L’histoire est très ……………………….',
+question: 'L’histoire est très \u2026\u2026\u2026\u2026\u2026.',
 options: ['amusant',
  'amusee',
  'amusent',
@@ -235,7 +235,7 @@ options: ['amusant',
 answer: 
 },
 {
-question: 'Le frère de mon père est mon ……………',
+question: 'Le frère de mon père est mon \u2026\u2026\u2026',
 options: ['cousin',
  'frère',
  'oncle',
@@ -243,7 +243,7 @@ options: ['cousin',
 answer: 
 },
 {
-	question: 'UN SOIR AU CINEMA\n\n La famille va au cinéma…………….',
+	question: 'UN SOIR AU CINEMA\n\n La famille va au cinéma\u2026\u2026\u2026.',
 options: ['le dimanche',
  'le samedi soir',
  'tous les soirs',
@@ -251,7 +251,7 @@ options: ['le dimanche',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Aujourd’hui les enfants vont au cinéma avec……………',
+question: 'UN SOIR AU CINEMA\n\n Aujourd’hui les enfants vont au cinéma avec\u2026\u2026\u2026',
 options: ['leur mère',
  'leur ami',
  'leur père',
@@ -259,7 +259,7 @@ options: ['leur mère',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Maman reste à la maison parce qu’elle est ………………',
+question: 'UN SOIR AU CINEMA\n\n Maman reste à la maison parce qu’elle est \u2026\u2026\u2026',
 options: ['gentille',
  'paresseuse',
  'contente',
@@ -267,7 +267,7 @@ options: ['gentille',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Que porte la sœur ? Elle porte …………………',
+question: 'UN SOIR AU CINEMA\n\n Que porte la sœur ? Elle porte \u2026\u2026\u2026\u2026',
 options: ['un joli pantalon',
  'une jolie robe',
  'une belle chemise',
@@ -275,7 +275,7 @@ options: ['un joli pantalon',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Ils vont au ………….avec Papa.',
+question: 'UN SOIR AU CINEMA\n\n Ils vont au \u2026\u2026.avec Papa.',
 options: ['marché',
  'champ',
  'cinéma',
@@ -283,7 +283,7 @@ options: ['marché',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Le film commence à …………….',
+question: 'UN SOIR AU CINEMA\n\n Le film commence à \u2026\u2026\u2026.',
 options: ['6 heures',
  '7 heures',
  '9 heures',
@@ -291,7 +291,7 @@ options: ['6 heures',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n La femme à beaucoup de ……………….',
+question: 'UN SOIR AU CINEMA\n\n La femme à beaucoup de \u2026\u2026\u2026.',
 options: ['foulards',
  'chapeaux',
  'robes',
@@ -299,7 +299,7 @@ options: ['foulards',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Les cheveux de la famille ressemblent à ……………..',
+question: 'UN SOIR AU CINEMA\n\n Les cheveux de la famille ressemblent à \u2026\u2026\u2026..',
 options: ['des fleurs',
  'un panier',
  'des feuilles',
@@ -307,7 +307,7 @@ options: ['des fleurs',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Qu’est-ce que Papa dit à la femme ? Il lui dit …………..',
+question: 'UN SOIR AU CINEMA\n\n Qu’est-ce que Papa dit à la femme ? Il lui dit \u2026\u2026..',
 options: ['d’enlever son chapeau',
  'de porter son chapeau',
  'de chercher son chapeau',
@@ -315,7 +315,7 @@ options: ['d’enlever son chapeau',
 answer: 
 },
 {
-question: 'UN SOIR AU CINEMA\n\n Que fait tout le monde ? Tout le monde ………………',
+question: 'UN SOIR AU CINEMA\n\n Que fait tout le monde ? Tout le monde \u2026\u2026\u2026',
 options: ['parle',
  'chante',
  'crie',

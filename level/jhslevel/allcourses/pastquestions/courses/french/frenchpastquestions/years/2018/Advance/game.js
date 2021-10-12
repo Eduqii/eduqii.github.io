@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
 	
 {
-question: 'Notre professeur vient de ………le cours de français.',
+question: 'Notre professeur vient de \u2026\u2026le cours de français.',
 
 choice1: 'finit',
 choice2: 'finis',
@@ -24,7 +24,7 @@ answer: 3,
 },
 {
 
-question: '– …..vas-tu, Kwame? \n\n – Je vais en ville',
+question: '– \u2026..vas-tu, Kwame? \n\n – Je vais en ville',
 
 choice1: 'Pourquoi',
 choice2: 'Combien',
@@ -35,7 +35,7 @@ answer: 4,
 },
 {
 
-question: 'Hier, j’……..quitté la maison le matin.',
+question: 'Hier, j’\u2026..quitté la maison le matin.',
 
 choice1: 'a',
 choice2: 'ai',
@@ -45,7 +45,7 @@ answer: 2,
 
 },
 {
-question: 'Fati n’a pas ……….chaussures.',
+question: 'Fati n’a pas \u2026\u2026.chaussures.',
 
 choice1: 'de la',
 choice2: 'des',
@@ -55,7 +55,7 @@ answer: 4,
 
 },
 {
-question: 'Demain, les élèves ……….en vacances.',
+question: 'Demain, les élèves \u2026\u2026.en vacances.',
 
 choice1: 'iront',
 choice2: 'iras',
@@ -65,7 +65,7 @@ answer: 1,
 
 },
 {
-question: 'Pierre veut partir …………soir.',
+question: 'Pierre veut partir \u2026\u2026soir.',
 
 choice1: 'cette',
 choice2: 'cet',
@@ -75,7 +75,7 @@ answer: 4,
 
 },
 {
-question: 'C’est ……….père qui conduit la voiture.',
+question: 'C’est \u2026\u2026.père qui conduit la voiture.',
 
 choice1: 'ma',
 choice2: 'se',
@@ -85,7 +85,7 @@ answer: 3,
 
 },
 {
-question: 'Les enfants jouent au tennis pendant …………récréation.',
+question: 'Les enfants jouent au tennis pendant \u2026\u2026récréation.',
 
 choice1: 'les',
 choice2: 'le',
@@ -95,7 +95,7 @@ answer: 3,
 
 },
 {
-question: 'Les livres sont ……….une boîte.',
+question: 'Les livres sont \u2026\u2026.une boîte.',
 
 choice1: 'chez',
 choice2: 'dans',
@@ -104,7 +104,7 @@ choice4: 'd’',
 answer: 2,
 },
 {
-question: 'Est-ce que vous avez ……….un bon voyage ?',
+question: 'Est-ce que vous avez \u2026\u2026.un bon voyage ?',
 
 choice1: 'faites',
 choice2: 'faire',
@@ -113,7 +113,7 @@ choice4: 'fait',
 answer: 4,
 },
 {
-question: 'Notre professeur vient du Benin. Il est, donc…………..',
+question: 'Notre professeur vient du Benin. Il est, donc\u2026\u2026..',
 choice1: 'ghanéen ',
 choice2: 'ivoirien',
 choice3: 'béninois',
@@ -121,7 +121,7 @@ choice4: 'française',
 answer: 3,
 },
 {
-question: 'Voici le mécanicien qui répare ma……………',
+question: 'Voici le mécanicien qui répare ma\u2026\u2026\u2026',
 choice1: 'voiture',
 choice2: 'montre',
 choice3: 'chaussure',
@@ -129,7 +129,7 @@ choice4: 'table',
 answer: 1,
 },
 {
-question: 'Ce …………fait des pantalons pour les enfants.',
+question: 'Ce \u2026\u2026fait des pantalons pour les enfants.',
 choice1: 'menuisier',
 choice2: 'pêcheur',
 choice3: 'vendeur ',
@@ -137,7 +137,7 @@ choice4: 'tailleur',
 answer: 4,
 },
 {
-question: 'Ama va à la boucherie pour acheter……………',
+question: 'Ama va à la boucherie pour acheter\u2026\u2026\u2026',
 choice1: 'de la viande',
 choice2: 'du pain',
 choice3: 'des fruits',
@@ -145,7 +145,7 @@ choice4: 'des boissons',
 answer: 1,
 },
 {
-question: 'Le dernier ……….de l’année est décembre.',
+question: 'Le dernier \u2026\u2026.de l’année est décembre.',
 choice1: 'jour',
 choice2: 'mois',
 choice3: 'semaine',
@@ -153,7 +153,7 @@ choice4: 'trimester',
 answer: 2,
 },
 {
-question: 'Chaque matin, nous prenons le ………..',
+question: 'Chaque matin, nous prenons le \u2026\u2026..',
 choice1: 'dessert',
 choice2: 'déjeuner ',
 choice3: 'diner',
@@ -161,7 +161,7 @@ choice4: 'petit déjeuner',
 answer: 4,
 },
 {
-question: 'Papa porte des ………..parce qu’il a mal aux yeux.',
+question: 'Papa porte des \u2026\u2026..parce qu’il a mal aux yeux.',
 choice1: 'chapeaux',
 choice2: 'bijoux',
 choice3: 'lunettes',
@@ -169,7 +169,7 @@ choice4: 'chaussures',
 answer: 3,
 },
 {
-question: 'Isabelle ouvre les fenêtres parce qu’il ………',
+question: 'Isabelle ouvre les fenêtres parce qu’il \u2026\u2026',
 choice1: 'va pleuvoir',
 choice2: 'fait du vent',
 choice3: 'fait chaud',
@@ -177,7 +177,7 @@ choice4: 'fait mauvais',
 answer: 3,
 },
 {
-question: 'La jeune infirmière travaille a ………….',
+question: 'La jeune infirmière travaille a \u2026\u2026.',
 choice1: 'l’hopital',
 choice2: 'la librarie',
 choice3: 'l’eglise',
@@ -185,7 +185,7 @@ choice4: 'la cantine',
 answer: 1,
 },
 {
-question: 'Il boit beaucoup d’eau parce qu’il a …………',
+question: 'Il boit beaucoup d’eau parce qu’il a \u2026\u2026',
 choice1: 'peur',
 choice2: 'sommeil',
 choice3: 'soif',
@@ -193,7 +193,7 @@ choice4: 'froid',
 answer: 3,
 },
 {
-question: 'Un mécanicien célèbre\n\n Ou se trouve le garage de Karibu ?\n Il se trouve …………',
+question: 'Un mécanicien célèbre\n\n Ou se trouve le garage de Karibu ?\n Il se trouve \u2026\u2026',
 
 choice1: 'dans la banque',
 choice2: 'près de la banque',
@@ -202,7 +202,7 @@ choice4: 'près du quartier',
 answer: 2,
 },
 {
-question: 'Un mécanicien célèbre\n\n Il y a …………dans le quartier.',
+question: 'Un mécanicien célèbre\n\n Il y a \u2026\u2026dans le quartier.',
 
 choice1: 'une banque',
 choice2: 'deux banques',
@@ -211,7 +211,7 @@ choice4: 'six banques',
 answer: 1,
 },
 {
-question: 'Un mécanicien célèbre\n\n Le garage de Karibu est ………..',
+question: 'Un mécanicien célèbre\n\n Le garage de Karibu est \u2026\u2026..',
 
 choice1: 'sombre',
 choice2: 'propre',
@@ -229,7 +229,7 @@ choice4: 'Parce qu’il a plusieurs apprentis.',
 answer: 3,
 },
 {
-question: 'Un mécanicien célèbre\n\n A quelle l’heure est-ce que Karibu arrive au travail ?\n Il y arrive à ……….', 
+question: 'Un mécanicien célèbre\n\n A quelle l’heure est-ce que Karibu arrive au travail ?\n Il y arrive à \u2026\u2026.', 
 
 choice1: '8 h.00',
 choice2: '8 h.15',
@@ -238,7 +238,7 @@ choice4: '8 h.45',
 answer: 3,
 },
 {
-question: 'Un mécanicien célèbre\n\n Les clients appellent Karibu de loin, quelquefois, pour …………',
+question: 'Un mécanicien célèbre\n\n Les clients appellent Karibu de loin, quelquefois, pour \u2026\u2026',
 
 choice1: 'réparer des voitures',
 choice2: 'appeler ses apprentis',
@@ -265,7 +265,7 @@ choice4: 'Ses clients',
 answer: 4,
 },
 {
-question: 'Un mécanicien célèbre\n\n Les apprentis aident Karibu à ………….',
+question: 'Un mécanicien célèbre\n\n Les apprentis aident Karibu à \u2026\u2026.',
 
 choice1: 'trouver les clients',
 choice2: 'réparer les voitures',
@@ -274,7 +274,7 @@ choice4: 'acheter des nattes',
 answer: 2,
 },
 {
-question: 'Un mécanicien célèbre\n\n A la fin de la journée, le mécanicien rentre chez lui ………….',
+question: 'Un mécanicien célèbre\n\n A la fin de la journée, le mécanicien rentre chez lui \u2026\u2026.',
 
 choice1: 'ennuyé',
 choice2: 'propre',

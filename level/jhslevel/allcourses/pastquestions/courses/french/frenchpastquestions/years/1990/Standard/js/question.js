@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
   {
-question:'Elles mangent ……….. pain',
+question:'Elles mangent \u2026\u2026.. pain',
 options: ['de la',
  'la',
  'du',
@@ -11,7 +11,7 @@ options: ['de la',
 answer: 
 },
 {
-question:'Nous écrivons ………… tableau.',
+question:'Nous écrivons \u2026\u2026 tableau.',
 options: ['à la',
  'aux',
  'à l’',
@@ -19,7 +19,7 @@ options: ['à la',
 answer: 
 },
 {
-question:'Kofi va chercher …………….chaise.',
+question:'Kofi va chercher \u2026\u2026\u2026.chaise.',
 options: ['du',
  'une',
  'de la',
@@ -27,7 +27,7 @@ options: ['du',
 answer: 
 },
 {
-question:'Maman achète …………. tomates.',
+question:'Maman achète \u2026\u2026. tomates.',
 options: ['une',
  'de',
  'de la',
@@ -35,7 +35,7 @@ options: ['une',
 answer: 
 },
 {
-question:'…………………….. enfant dort sur la table',
+question:'\u2026\u2026\u2026\u2026.. enfant dort sur la table',
 options: ['Les',
  'La',
  'L’',
@@ -43,7 +43,7 @@ options: ['Les',
 answer: 
 },
 {
-question:'Le chat mange …………… Lézards.',
+question:'Le chat mange \u2026\u2026\u2026 Lézards.',
 options: ['une',
  'les',
  'la',
@@ -51,7 +51,7 @@ options: ['une',
 answer: 
 },
 {
-question:'Ama écoute ………….. leçon.',
+question:'Ama écoute \u2026\u2026.. leçon.',
 options: ['le',
  'à la',
  'la',
@@ -59,7 +59,7 @@ options: ['le',
 answer: 
 },
 {
-question:'Donne-moi ………….eau.',
+question:'Donne-moi \u2026\u2026.eau.',
 options: ['une',
  'un',
  'la',
@@ -67,7 +67,7 @@ options: ['une',
 answer: 
 },
 {
-question:'…………….. homme arrives.',
+question:'\u2026\u2026\u2026.. homme arrives.',
 options: ['La',
  'Les',
  'Un',
@@ -75,7 +75,7 @@ options: ['La',
 answer: 
 },
 {
-question:'Nous avons …………… belle maison.',
+question:'Nous avons \u2026\u2026\u2026 belle maison.',
 options: ['une',
  'un',
  'le',
@@ -83,7 +83,7 @@ options: ['une',
 answer: 
 },
 {
-question:'Viens me ………..bonjour.',
+question:'Viens me \u2026\u2026..bonjour.',
 options: ['saluer',
  'parler',
  'dire',
@@ -99,7 +99,7 @@ options: ['dimanche',
 answer: 
 },
 {
-question:'L’homme vend des chemises et des robes. C’est un…………..',
+question:'L’homme vend des chemises et des robes. C’est un\u2026\u2026..',
 options: ['vendeur',
  'voleur',
  'professeur',
@@ -107,7 +107,7 @@ options: ['vendeur',
 answer: 
 },
 {
-question:'Quel âge as-tu ? ……………….',
+question:'Quel âge as-tu ? \u2026\u2026\u2026.',
 options: ['J’ai froid',
  'Je vais bien',
  'Je mange bien',
@@ -115,7 +115,7 @@ options: ['J’ai froid',
 answer: 
 },
 {
-question:'Elle est malade. Elle prend……………',
+question:'Elle est malade. Elle prend\u2026\u2026\u2026',
 options: ['de la bière',
  'de l’aspirine',
  'de vin',
@@ -123,7 +123,7 @@ options: ['de la bière',
 answer: 
 },
 {
-question:'J’ai faim. Je veux……………..',
+question:'J’ai faim. Je veux\u2026\u2026\u2026..',
 options: ['dormir',
  'parler',
  'manger',
@@ -131,7 +131,7 @@ options: ['dormir',
 answer: 
 },
 {
-question:'Le cocotier est ………….',
+question:'Le cocotier est \u2026\u2026.',
 options: ['un arbre',
  'un animal',
  'un insecte',
@@ -147,7 +147,7 @@ options: ['classes',
 answer: 
 },
 {
-question:'Le ………….. se trouve dans l’eau.',
+question:'Le \u2026\u2026.. se trouve dans l’eau.',
 options: ['mouton',
  'poisson',
  'chat',
@@ -155,7 +155,7 @@ options: ['mouton',
 answer: 
 },
 {
-question:'L’oranges est …………',
+question:'L’oranges est \u2026\u2026',
 options: ['un bâton',
  'une poupée',
  'un journal',
@@ -163,7 +163,7 @@ options: ['un bâton',
 answer: 
 },
 {
-question:'Les élèves entrent ……….classe.',
+question:'Les élèves entrent \u2026\u2026.classe.',
 options: ['au',
  'à',
  'en',
@@ -171,7 +171,7 @@ options: ['au',
 answer: 
 },
 {
-question:'Le livre est …………… la table.',
+question:'Le livre est \u2026\u2026\u2026 la table.',
 options: ['dans',
  'sur',
  'à',
@@ -179,7 +179,7 @@ options: ['dans',
 answer: 
 },
 {
-question:'Le voleur passe ……… la fenêtre.',
+question:'Le voleur passe \u2026\u2026 la fenêtre.',
 options: ['sous',
  'sans',
  'dans',
@@ -187,7 +187,7 @@ options: ['sous',
 answer: 
 },
 {
-question:'Cette dame porte des lunettes ……….bien voir.',
+question:'Cette dame porte des lunettes \u2026\u2026.bien voir.',
 options: ['de',
  'pour',
  'en',
@@ -195,7 +195,7 @@ options: ['de',
 answer: 
 },
 {
-question:'L’enfant marché ………….. sa mère.',
+question:'L’enfant marché \u2026\u2026.. sa mère.',
 options: ['devant',
  'pour',
  'sous',
@@ -203,7 +203,7 @@ options: ['devant',
 answer: 
 },
 {
-question:'Ils vont…………… Lomé en autocar',
+question:'Ils vont\u2026\u2026\u2026 Lomé en autocar',
 options: ['sur',
  'au',
  'à',
@@ -211,7 +211,7 @@ options: ['sur',
 answer: 
 },
 {
-question:'Qui est …………… la porte ?',
+question:'Qui est \u2026\u2026\u2026 la porte ?',
 options: ['sur',
  'derrière',
  'sous',
@@ -219,7 +219,7 @@ options: ['sur',
 answer: 
 },
 {
-question:'Kofi va ………… France',
+question:'Kofi va \u2026\u2026 France',
 options: ['de',
  'vers',
  'en',
@@ -227,7 +227,7 @@ options: ['de',
 answer: 
 },
 {
-question:'Le chat …………..sur le tit',
+question:'Le chat \u2026\u2026..sur le tit',
 options: ['dort',
  'va',
  'regarde',
@@ -235,7 +235,7 @@ options: ['dort',
 answer: 
 },
 {
-question:'Maman donne des bonbons ………. enfants.',
+question:'Maman donne des bonbons \u2026\u2026. enfants.',
 options: ['des',
  'pour',
  'au',
@@ -251,7 +251,7 @@ options: ['Le matin',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Où est Ali ? Il est …………….',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Où est Ali ? Il est \u2026\u2026\u2026.',
 options: ['dans la maison',
  'avec Rama',
  'dans le jardin',
@@ -267,7 +267,7 @@ options: ['Les oiseaux',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Dans le jardin, Rama voit……………….',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Dans le jardin, Rama voit\u2026\u2026\u2026.',
 options: ['son frère',
  'le livre',
  'tout le monde',
@@ -275,7 +275,7 @@ options: ['son frère',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Rama vient ……………….',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Rama vient \u2026\u2026\u2026.',
 options: ['de la maison',
  'du jardin',
  'de la salle',
@@ -283,7 +283,7 @@ options: ['de la maison',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Où se cache Rama ? Elle se cache……………..',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Où se cache Rama ? Elle se cache\u2026\u2026\u2026..',
 options: ['devant l’arbre',
  'derrière l’arbre',
  'derrière Ali',
@@ -299,7 +299,7 @@ options: ['Ali',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Rama met le serpent-poupee…………….',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Rama met le serpent-poupee\u2026\u2026\u2026.',
 options: ['dans la poche',
  'aux pieds d’Ali',
  'sur la tête d’Ali',
@@ -307,7 +307,7 @@ options: ['dans la poche',
 answer: 
 },
 {
-question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Ali court vers………….',
+question: '<b>' + 'LA MECHANTE FILLE' + '</b>' + '<br />' + '<br />' + ' Ali court vers\u2026\u2026.',
 options: ['le jardin',
  'le marché',
  'la maison',

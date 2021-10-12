@@ -83,7 +83,7 @@ options: ['lui',
 answer: 3
 },
 {
-	question: 'Akosua lave …………………..foulard de sa mère.',
+	question: 'Akosua lave \u2026\u2026\u2026\u2026..foulard de sa mère.',
 
 options: ['les',
  'la',
@@ -92,7 +92,7 @@ options: ['les',
 answer: 3
 },
 {
-question: 'Tous les élèves ………………s’amuser au jardin le week-end prochain.',
+question: 'Tous les élèves \u2026\u2026\u2026s’amuser au jardin le week-end prochain.',
 
 options: ['iront',
  'allaient',
@@ -101,7 +101,7 @@ options: ['iront',
 answer: 0
 },
 {
-question: '…………………élève parle trop',
+question: '\u2026\u2026\u2026\u2026élève parle trop',
 
 options: ['Ce',
  'Cet',
@@ -111,7 +111,7 @@ answer: 1
 },
 { 
 
-question: 'Les professeurs ……………….de partir',
+question: 'Les professeurs \u2026\u2026\u2026.de partir',
 
 options: ['vient',
  'viendront',
@@ -120,7 +120,7 @@ options: ['vient',
 answer: 3
 },
 {
-question: 'Cynthia, Rashidatu et Kofi sont très…………….',
+question: 'Cynthia, Rashidatu et Kofi sont très\u2026\u2026\u2026.',
 
 options: ['intelligentes',
  'intelligents',
@@ -129,7 +129,7 @@ options: ['intelligentes',
 answer: 1
 },
 {
-question: 'Tu………………très vite.',
+question: 'Tu\u2026\u2026\u2026très vite.',
 
 options: ['grandit',
  'grandi',
@@ -138,7 +138,7 @@ options: ['grandit',
 answer: 0
 },
 {
-question: 'Il y a trop de ………………sur ce terrain de football.',
+question: 'Il y a trop de \u2026\u2026\u2026sur ce terrain de football.',
 
 options: ['cailloux',
  'caillou',
@@ -147,7 +147,7 @@ options: ['cailloux',
 answer: 0
 },
 {
-question: 'Kofi ……………..mal au ventre parce qu’il a mangé une mangue verte.',
+question: 'Kofi \u2026\u2026\u2026..mal au ventre parce qu’il a mangé une mangue verte.',
 
 options: ['as',
  'a',
@@ -156,7 +156,7 @@ options: ['as',
 answer: 1
 },
 {
-question: 'Quand ……………….jeune, j’aimais jouer au football.',
+question: 'Quand \u2026\u2026\u2026.jeune, j’aimais jouer au football.',
 
 options: ['je suis',
  'j’avais',
@@ -166,7 +166,7 @@ answer: 2
 },
 { 
 
-question: 'Mon père ………………….les accusés, il est avocat.',
+question: 'Mon père \u2026\u2026\u2026\u2026.les accusés, il est avocat.',
 
 options: ['frappe',
  'défend',
@@ -175,7 +175,7 @@ options: ['frappe',
 answer: 1
 },
 {
-	question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' L’ensemble des os du ……………..s’appelle le squelette.',
+	question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' L’ensemble des os du \u2026\u2026\u2026..s’appelle le squelette.',
 options: ['Cœur',
  'Corps',
  'sang',
@@ -183,7 +183,7 @@ options: ['Cœur',
 answer: 1 
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le sang a une couleur ………………….',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le sang a une couleur \u2026\u2026\u2026\u2026.',
 options: ['chaleur',
  'soleil',
  'pluies',
@@ -191,7 +191,7 @@ options: ['chaleur',
 answer: 2
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Pendant la saison sèche, il n’y a pas de …………………………',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Pendant la saison sèche, il n’y a pas de \u2026\u2026\u2026\u2026\u2026',
 options: ['verte',
  'rouge',
  'jaune',
@@ -199,7 +199,7 @@ options: ['verte',
 answer: 1
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Madame Owusu est ……………….. ; elle soigne les malades.',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Madame Owusu est \u2026\u2026\u2026.. ; elle soigne les malades.',
 options: ['cultivatrice',
  'professeur',
  'infirmière',
@@ -207,7 +207,7 @@ options: ['cultivatrice',
 answer: 2
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Celui qui attrape les poissons avec un filet est un ……………',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Celui qui attrape les poissons avec un filet est un \u2026\u2026\u2026',
 options: ['Pêcheur',
  'fleuriste',
  'fermier',
@@ -215,7 +215,7 @@ options: ['Pêcheur',
 answer: 0
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Moussah est un bon ……………… ; il tue toujours des gibiers',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Moussah est un bon \u2026\u2026\u2026 ; il tue toujours des gibiers',
 options: ['chanteur',
  'chasseur',
  'chauffeur',
@@ -223,7 +223,7 @@ options: ['chanteur',
 answer: 1
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le couteau sert à …………………..les aliments.',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Le couteau sert à \u2026\u2026\u2026\u2026..les aliments.',
 options: ['couper',
  'acheter',
  'cuire',
@@ -231,7 +231,7 @@ options: ['couper',
 answer: 0
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Son père conduit un taxi ; il est …………………..',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Son père conduit un taxi ; il est \u2026\u2026\u2026\u2026..',
 options: ['chauffeur',
  'coiffeur',
  'mecanicien',
@@ -239,7 +239,7 @@ options: ['chauffeur',
 answer: 0
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Les documents et les objets ………………sont gardés dans un musée.',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Les documents et les objets \u2026\u2026\u2026sont gardés dans un musée.',
 options: ['ancien',
  'ancienne',
  'anciens',
@@ -247,7 +247,7 @@ options: ['ancien',
 answer: 2
 },
 {
-question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Il y a beaucoup …………………cahiers, livres et stylos dans son cartable.',
+question: '<b>' + 'Below are ten sentences with blank spaces followed by four options, choose from the options the most correct answer that will fit into each blank space' + '</b>' + '<br />' + '<br />' + ' Il y a beaucoup \u2026\u2026\u2026\u2026cahiers, livres et stylos dans son cartable.',
 options: ['des',
  'de',
  'De l’',
@@ -255,7 +255,7 @@ options: ['des',
 answer: 1
 },
 {
-	question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Titi est …………..frère de Baba.',
+	question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Titi est \u2026\u2026..frère de Baba.',
 
 options: ['le grand',
  'le petit',
@@ -265,7 +265,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Les samedis, Titi et Baba vont …………………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Les samedis, Titi et Baba vont \u2026\u2026\u2026\u2026',
 
 options: ['au college',
  'au village',
@@ -275,7 +275,7 @@ answer: 2
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Le village natal, c’est le village où ……………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Le village natal, c’est le village où \u2026\u2026\u2026',
 
 options: ['on est né',
  'on est élève',
@@ -285,7 +285,7 @@ answer: 0
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba n’aime pas travailler avec sa femme parce qu’elle ………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba n’aime pas travailler avec sa femme parce qu’elle \u2026\u2026',
 
 options: ['est paressuese',
  'travaille vite',
@@ -294,7 +294,7 @@ options: ['est paressuese',
 answer: 2
 },
 {
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Selon Monsieur Samba, les femmes travaillent……………………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Selon Monsieur Samba, les femmes travaillent\u2026\u2026\u2026\u2026',
 
 options: ['joyeusement',
  'lentement',
@@ -304,7 +304,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba aime travailler avec qui ? \n – Il aime travailler avec ………………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba aime travailler avec qui ? \n – Il aime travailler avec \u2026\u2026\u2026',
 
 options: ['sa femme',
  'ses enfants',
@@ -314,7 +314,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Au champ, ils travaillent ………………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Au champ, ils travaillent \u2026\u2026\u2026',
 
 options: ['de l’après –midi au soir',
  'de l’aube à midi',
@@ -324,7 +324,7 @@ answer: 2
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba pense que les hommes doivent être…………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Monsieur Samba pense que les hommes doivent être\u2026\u2026',
 
 options: ['faible',
  'forts',
@@ -334,7 +334,7 @@ answer: 1
 },
 { 
 
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Que font-ils pendant les repos ? \n – Ils ……………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Que font-ils pendant les repos ? \n – Ils \u2026\u2026\u2026',
 
 options: ['dorment paisiblement',
  'causent beaucoup',
@@ -343,7 +343,7 @@ options: ['dorment paisiblement',
 answer: 2
 },
 {
-question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Comment sont-ils le soir quand ils rentrent à la maison ? \n – Ils sont très ……………',
+question: '<b>' + 'Samedi Au Champ' + '</b>' + '<br />' + '<br />' + ' Comment sont-ils le soir quand ils rentrent à la maison ? \n – Ils sont très \u2026\u2026\u2026',
 
 options: ['faible',
  'tristes',

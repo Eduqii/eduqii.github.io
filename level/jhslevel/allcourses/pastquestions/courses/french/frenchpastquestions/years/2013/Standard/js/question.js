@@ -3,7 +3,7 @@
 //Array of Objects
 const quiz = [
  {
-question: 'Le panier est …………………………..la table',
+question: 'Le panier est \u2026\u2026\u2026\u2026\u2026..la table',
 
 options: ['autour',
  'en',
@@ -12,7 +12,7 @@ options: ['autour',
 answer: 3
 },
 {
-question: 'Monsieur Kojo ………………………ouvert les boîtes',
+question: 'Monsieur Kojo \u2026\u2026\u2026\u2026\u2026ouvert les boîtes',
 
 options: ['a',
  'as',
@@ -22,7 +22,7 @@ answer: 0
 },
 { 
 
-question: '……………………..légumes sont dans une assiette',
+question: '\u2026\u2026\u2026\u2026..légumes sont dans une assiette',
 
 options: ['L’',
  'La',
@@ -31,7 +31,7 @@ options: ['L’',
 answer: 3
 },
 {
-question: '– ………………………………va ton frère? \n – Il va bien',
+question: '– \u2026\u2026\u2026\u2026\u2026\u2026va ton frère? \n – Il va bien',
 
 options: ['Où',
  'Quand',
@@ -41,7 +41,7 @@ answer: 2
 },
 { 
 
-question: 'Il y a trop ………………………..mouches ici',
+question: 'Il y a trop \u2026\u2026\u2026\u2026\u2026..mouches ici',
 
 options: ['de',
  'de la',
@@ -50,7 +50,7 @@ options: ['de',
 answer: 0
 },
 {
-question: '……………………matière enseigne Monsieur Banford ?',
+question: '\u2026\u2026\u2026\u2026matière enseigne Monsieur Banford ?',
 
 options: ['Quel',
  'Quelle',
@@ -60,7 +60,7 @@ answer: 1
 },
 { 
 
-question: '– …………………………..s’appelle cette rue ? \n Elle s’appelle ‘Black Stars street’',
+question: '– \u2026\u2026\u2026\u2026\u2026..s’appelle cette rue ? \n Elle s’appelle ‘Black Stars street’',
 
 options: ['Combien',
  'Comment',
@@ -70,7 +70,7 @@ answer: 1
 },
 { 
 
-question: 'Victor et Marie ont de …………………yeux',
+question: 'Victor et Marie ont de \u2026\u2026\u2026\u2026yeux',
 
 options: ['beau',
  'beaux',
@@ -80,7 +80,7 @@ answer: 1
 },
 { 
 
-question: 'Tu arrives trop tard ; le train ……………….de partir',
+question: 'Tu arrives trop tard ; le train \u2026\u2026\u2026.de partir',
 
 options: ['venez',
  'viennent',
@@ -89,7 +89,7 @@ options: ['venez',
 answer: 3
 },
 {
-question: '10. Le jour de mon anniversaire, j’ai ………………..un repas spécial.',
+question: '10. Le jour de mon anniversaire, j’ai \u2026\u2026\u2026..un repas spécial.',
 options: ['préparé',
  'prépare',
  'préparée',
@@ -97,7 +97,7 @@ options: ['préparé',
 answer: 0
 },
 {
-	question: 'Le cultivateur coupe les branches avec son…………………….',
+	question: 'Le cultivateur coupe les branches avec son\u2026\u2026\u2026\u2026.',
 options: ['Gâteau',                           
  'marteau',
  'Coupe-coupe',
@@ -105,7 +105,7 @@ options: ['Gâteau',
 answer: 2
 },
 {
-question: 'Rosie est très …………………… ; elle n’aime pas travailler',
+question: 'Rosie est très \u2026\u2026\u2026\u2026 ; elle n’aime pas travailler',
 options: ['curieuse',
  'lente',
  'paresseuese',
@@ -113,7 +113,7 @@ options: ['curieuse',
 answer: 2
 },
 {
-question: 'L’après –midi, Maman Téné se couche sur une ……………dans la cour.',
+question: 'L’après –midi, Maman Téné se couche sur une \u2026\u2026\u2026dans la cour.',
 options: ['Boite',
  'natte',
  'pierre',
@@ -121,7 +121,7 @@ options: ['Boite',
 answer: 1
 },
 {
-question: 'Je vais chez ma ………………..pour me faire une jupe',
+question: 'Je vais chez ma \u2026\u2026\u2026..pour me faire une jupe',
 options: ['Boutiquière',
  'couturière',
  'cuisinière',
@@ -129,7 +129,7 @@ options: ['Boutiquière',
 answer: 1
 },
 {
-question: '…………………tu es fatigué, viens t’asseoir',
+question: '\u2026\u2026\u2026\u2026tu es fatigué, viens t’asseoir',
 options: ['comme',
  'donc',
  'puis',
@@ -137,7 +137,7 @@ options: ['comme',
 answer: 0
 },
 {
-question: 'Papa regarde la ………………….et il dit qu’il est déjà 7 heures.',
+question: 'Papa regarde la \u2026\u2026\u2026\u2026.et il dit qu’il est déjà 7 heures.',
 options: ['chaise',
  'chambre',
  'montre',
@@ -145,7 +145,7 @@ options: ['chaise',
 answer: 2
 },
 {
-question: 'Il fait chaud ici ; ouvrez les ………………….',
+question: 'Il fait chaud ici ; ouvrez les \u2026\u2026\u2026\u2026.',
 options: ['toilettes',
  'fenêtres',
  'sacs',
@@ -153,7 +153,7 @@ options: ['toilettes',
 answer: 1
 },
 {
-question: 'C’est le week-end ; nous allons à la plage pour ………………..',
+question: 'C’est le week-end ; nous allons à la plage pour \u2026\u2026\u2026..',
 options: ['cultiver',
  'nager',
  'travailler',
@@ -161,7 +161,7 @@ options: ['cultiver',
 answer: 1
 },
 {
-question: 'Katou …………………. lentement parce qu’il a mal au genou',
+question: 'Katou \u2026\u2026\u2026\u2026. lentement parce qu’il a mal au genou',
 options: ['chante',
  'mange',
  'Marche',
@@ -169,7 +169,7 @@ options: ['chante',
 answer: 2
 },
 {
-question: 'Chez nous au village, toutes les feuilles sont ………… pendant la saison des pluies –',
+question: 'Chez nous au village, toutes les feuilles sont \u2026\u2026 pendant la saison des pluies –',
 options: ['Brunes',
  'Jeunes',
  'oranges',
@@ -177,7 +177,7 @@ options: ['Brunes',
 answer: 3
 },
 {
-	question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le père d’Akua habite à ……………………..',
+	question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le père d’Akua habite à \u2026\u2026\u2026\u2026..',
 
 options: ['la capitale',
  'Prampram',
@@ -188,7 +188,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le père d’Akua habite à ……………………..',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le père d’Akua habite à \u2026\u2026\u2026\u2026..',
 options: ['la capitale',
  'Prampram',
  'Oguaa',
@@ -220,7 +220,7 @@ answer: 0
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Akua voyage ……………………',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Akua voyage \u2026\u2026\u2026\u2026',
 
 options: ['en train',
  'en voiture',
@@ -231,7 +231,7 @@ answer: 1
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' A la gare, on voit……………..Voitures',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' A la gare, on voit\u2026\u2026\u2026..Voitures',
 
 options: ['quelques',
  'deux',
@@ -253,7 +253,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le voyage commence …………………',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le voyage commence \u2026\u2026\u2026\u2026',
 
 options: ['après trois heures',
  'après quatre heures',
@@ -264,7 +264,7 @@ answer: 2
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' ‘Il est plein de joie.’ Cela veut dire que Papa est ………….',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' ‘Il est plein de joie.’ Cela veut dire que Papa est \u2026\u2026.',
 
 options: ['confus',
  'content',
@@ -275,7 +275,7 @@ answer: 1
 {
  
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Papa remercie Akua parce qu’il ……………….',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Papa remercie Akua parce qu’il \u2026\u2026\u2026.',
 
 options: ['achète des choses',
  'rend visite aux amis',
@@ -285,7 +285,7 @@ answer: 3
 },
 { 
 
-question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le dernier lieu de leur visite est …………………',
+question: '<b>' + 'Une visite à Papa' + '</b>' + '<br />' + '<br />' + ' Le dernier lieu de leur visite est \u2026\u2026\u2026\u2026',
 
 options: ['la gare',
  'la maison',

@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
 {
-question: 'Le panier est …………………………..la table',
+question: 'Le panier est \u2026\u2026\u2026\u2026\u2026..la table',
 
 choice1: 'autour',
 choice2: 'en',
@@ -21,7 +21,7 @@ choice4: 'sur',
 answer: 4,
 },
 {
-question: 'Monsieur Kojo ………………………ouvert les boîtes',
+question: 'Monsieur Kojo \u2026\u2026\u2026\u2026\u2026ouvert les boîtes',
 
 choice1: 'a',
 choice2: 'as',
@@ -31,7 +31,7 @@ answer: 1,
 },
 { 
 
-question: '……………………..légumes sont dans une assiette',
+question: '\u2026\u2026\u2026\u2026..légumes sont dans une assiette',
 
 choice1: 'L’',
 choice2: 'La',
@@ -40,7 +40,7 @@ choice4: 'Les',
 answer: 4,
 },
 {
-question: '– ………………………………va ton frère? \n – Il va bien',
+question: '– \u2026\u2026\u2026\u2026\u2026\u2026va ton frère? \n – Il va bien',
 
 choice1: 'Où',
 choice2: 'Quand',
@@ -50,7 +50,7 @@ answer: 3,
 },
 { 
 
-question: 'Il y a trop ………………………..mouches ici',
+question: 'Il y a trop \u2026\u2026\u2026\u2026\u2026..mouches ici',
 
 choice1: 'de',
 choice2: 'de la',
@@ -59,7 +59,7 @@ choice4: 'du',
 answer: 1,
 },
 {
-question: '……………………matière enseigne Monsieur Banford ?',
+question: '\u2026\u2026\u2026\u2026matière enseigne Monsieur Banford ?',
 
 choice1: 'Quel',
 choice2: 'Quelle',
@@ -69,7 +69,7 @@ answer: 2,
 },
 { 
 
-question: '– …………………………..s’appelle cette rue ? \n Elle s’appelle ‘Black Stars street’',
+question: '– \u2026\u2026\u2026\u2026\u2026..s’appelle cette rue ? \n Elle s’appelle ‘Black Stars street’',
 
 choice1: 'Combien',
 choice2: 'Comment',
@@ -79,7 +79,7 @@ answer: 2,
 },
 { 
 
-question: 'Victor et Marie ont de …………………yeux',
+question: 'Victor et Marie ont de \u2026\u2026\u2026\u2026yeux',
 
 choice1: 'beau',
 choice2: 'beaux',
@@ -89,7 +89,7 @@ answer: 2,
 },
 { 
 
-question: 'Tu arrives trop tard ; le train ……………….de partir',
+question: 'Tu arrives trop tard ; le train \u2026\u2026\u2026.de partir',
 
 choice1: 'venez',
 choice2: 'viennent',
@@ -98,7 +98,7 @@ choice4: 'vient',
 answer: 4,
 },
 {
-question: '10. Le jour de mon anniversaire, j’ai ………………..un repas spécial.',
+question: '10. Le jour de mon anniversaire, j’ai \u2026\u2026\u2026..un repas spécial.',
 choice1: 'préparé',
 choice2: 'prépare',
 choice3: 'préparée',
@@ -106,7 +106,7 @@ choice4: 'préparez',
 answer: 1,
 },
 {
-	question: 'Le cultivateur coupe les branches avec son…………………….',
+	question: 'Le cultivateur coupe les branches avec son\u2026\u2026\u2026\u2026.',
 choice1: 'Gâteau',                           
 choice2: 'marteau',
 choice3: 'Coupe-coupe',
@@ -114,7 +114,7 @@ choice4: 'Couteau',
 answer: 3,
 },
 {
-question: 'Rosie est très …………………… ; elle n’aime pas travailler',
+question: 'Rosie est très \u2026\u2026\u2026\u2026 ; elle n’aime pas travailler',
 choice1: 'curieuse',
 choice2: 'lente',
 choice3: 'paresseuese',
@@ -122,7 +122,7 @@ choice4: 'Timide',
 answer: 3,
 },
 {
-question: 'L’après –midi, Maman Téné se couche sur une ……………dans la cour.',
+question: 'L’après –midi, Maman Téné se couche sur une \u2026\u2026\u2026dans la cour.',
 choice1: 'Boite',
 choice2: 'natte',
 choice3: 'pierre',
@@ -130,7 +130,7 @@ choice4: 'valise',
 answer: 2,
 },
 {
-question: 'Je vais chez ma ………………..pour me faire une jupe',
+question: 'Je vais chez ma \u2026\u2026\u2026..pour me faire une jupe',
 choice1: 'Boutiquière',
 choice2: 'couturière',
 choice3: 'cuisinière',
@@ -138,7 +138,7 @@ choice4: 'fermière',
 answer: 2,
 },
 {
-question: '…………………tu es fatigué, viens t’asseoir',
+question: '\u2026\u2026\u2026\u2026tu es fatigué, viens t’asseoir',
 choice1: 'comme',
 choice2: 'donc',
 choice3: 'puis',
@@ -146,7 +146,7 @@ choice4: 'tel',
 answer: 1,
 },
 {
-question: 'Papa regarde la ………………….et il dit qu’il est déjà 7 heures.',
+question: 'Papa regarde la \u2026\u2026\u2026\u2026.et il dit qu’il est déjà 7 heures.',
 choice1: 'chaise',
 choice2: 'chambre',
 choice3: 'montre',
@@ -154,7 +154,7 @@ choice4: 'Table',
 answer: 3,
 },
 {
-question: 'Il fait chaud ici ; ouvrez les ………………….',
+question: 'Il fait chaud ici ; ouvrez les \u2026\u2026\u2026\u2026.',
 choice1: 'toilettes',
 choice2: 'fenêtres',
 choice3: 'sacs',
@@ -162,7 +162,7 @@ choice4: 'Serviettes',
 answer: 2,
 },
 {
-question: 'C’est le week-end ; nous allons à la plage pour ………………..',
+question: 'C’est le week-end ; nous allons à la plage pour \u2026\u2026\u2026..',
 choice1: 'cultiver',
 choice2: 'nager',
 choice3: 'travailler',
@@ -170,7 +170,7 @@ choice4: 'Voyager',
 answer: 2,
 },
 {
-question: 'Katou …………………. lentement parce qu’il a mal au genou',
+question: 'Katou \u2026\u2026\u2026\u2026. lentement parce qu’il a mal au genou',
 choice1: 'chante',
 choice2: 'mange',
 choice3: 'Marche',
@@ -178,7 +178,7 @@ choice4: 'parle',
 answer: 3,
 },
 {
-question: 'Chez nous au village, toutes les feuilles sont ………… pendant la saison des pluies –',
+question: 'Chez nous au village, toutes les feuilles sont \u2026\u2026 pendant la saison des pluies –',
 choice1: 'Brunes',
 choice2: 'Jeunes',
 choice3: 'oranges',
@@ -186,7 +186,7 @@ choice4: 'Vertes',
 answer: 4,
 },
 {
-	question: 'Une visite à Papa\n\n Le père d’Akua habite à ……………………..',
+	question: 'Une visite à Papa\n\n Le père d’Akua habite à \u2026\u2026\u2026\u2026..',
 
 choice1: 'la capitale',
 choice2: 'Prampram',
@@ -197,7 +197,7 @@ answer: 3,
 {
  
 
-question: 'Une visite à Papa\n\n Le père d’Akua habite à ……………………..',
+question: 'Une visite à Papa\n\n Le père d’Akua habite à \u2026\u2026\u2026\u2026..',
 choice1: 'la capitale',
 choice2: 'Prampram',
 choice3: 'Oguaa',
@@ -229,7 +229,7 @@ answer: 1,
 {
  
 
-question: 'Une visite à Papa\n\n Akua voyage ……………………',
+question: 'Une visite à Papa\n\n Akua voyage \u2026\u2026\u2026\u2026',
 
 choice1: 'en train',
 choice2: 'en voiture',
@@ -240,7 +240,7 @@ answer: 2,
 {
  
 
-question: 'Une visite à Papa\n\n A la gare, on voit……………..Voitures',
+question: 'Une visite à Papa\n\n A la gare, on voit\u2026\u2026\u2026..Voitures',
 
 choice1: 'quelques',
 choice2: 'deux',
@@ -262,7 +262,7 @@ answer: 3,
 {
  
 
-question: 'Une visite à Papa\n\n Le voyage commence …………………',
+question: 'Une visite à Papa\n\n Le voyage commence \u2026\u2026\u2026\u2026',
 
 choice1: 'après trois heures',
 choice2: 'après quatre heures',
@@ -273,7 +273,7 @@ answer: 3,
 {
  
 
-question: 'Une visite à Papa\n\n ‘Il est plein de joie.’ Cela veut dire que Papa est ………….',
+question: 'Une visite à Papa\n\n ‘Il est plein de joie.’ Cela veut dire que Papa est \u2026\u2026.',
 
 choice1: 'confus',
 choice2: 'content',
@@ -284,7 +284,7 @@ answer: 2,
 {
  
 
-question: 'Une visite à Papa\n\n Papa remercie Akua parce qu’il ……………….',
+question: 'Une visite à Papa\n\n Papa remercie Akua parce qu’il \u2026\u2026\u2026.',
 
 choice1: 'achète des choses',
 choice2: 'rend visite aux amis',
@@ -294,7 +294,7 @@ answer: 4,
 },
 { 
 
-question: 'Une visite à Papa\n\n Le dernier lieu de leur visite est …………………',
+question: 'Une visite à Papa\n\n Le dernier lieu de leur visite est \u2026\u2026\u2026\u2026',
 
 choice1: 'la gare',
 choice2: 'la maison',

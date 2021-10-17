@@ -23,7 +23,7 @@ window.onload = ()=>{
                 }
                 setTimeout(()=>{ //hide the toast notification automatically after 5 seconds
                     wrapper.classList.add("hide");
-                }, 5000);
+                }, 4000);
                 return window.location.assign("signin/index.html");
             }else{
                 offline(); //calling offline function if ajax status is not equal to 200 or not less that 300

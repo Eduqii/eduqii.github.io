@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The first and the best premium education platform in Ghana. ">
+    <meta name="author" content="Bismark Kwaw, Lawrence Nii Lartey, Dwamena Bernard Osei and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <meta name="keywords" content="Education, Ghana Education, Eduqii">
+	 <meta http-equiv="refresh" content="86400">
+    <title>Premium Education Service · Eduqii</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets18/dist/css/bootstrap.css" rel="stylesheet">
+<link href="cheatsheet.css" rel="stylesheet">
+<link rel="shortcut icon" href="../level/jhslevel/allcourses/pastquestions/images/favicon.ico">
+<style>
+  /* Center the loader */
+  #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    /* text-align: center; */
+  }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  </head>
+  <body class="d-flex flex-column h-100" onload="myFunction()">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv">
+    <header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Edu<span style="color: red;">qii</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Discuss</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">What's New!</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Welcome to the Eduqii Community</h1>
+   <!-- <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>
+    <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>-->
+    <p class="lead">The first and the best education service platform in Ghana. This platform was created with <span style="color: rgba(0,0,255,1); font-style:bold;">You</span> in mind. Practice makes perfect so let's Begin. <br>
+       <em>Education is the fundamental keys to success.</em>
+      <!--A country's economy becomes more productive as the proportion of educated workers increases since educated workers can more efficiently carry out tasks that require literacy and critical thinking.--> <strong>Browse the courses</strong></p>
+      <div class="dropdown">
+            <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButtonLG" data-bs-toggle="dropdown" aria-expanded="false">
+              Browse Level &raquo; <i class="fas fa-book"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLG">
+              <li><h6 class="dropdown-header">Level</h6></li>
+              <li><a class="dropdown-item" href="level/primarylevel/index.html" target="_blank">Primary</a></li>
+              <li><a class="dropdown-item" href="level/jhslevel/allcourses/pastquestions/index.html" target="_blank" id="junior_high">Junior High School</a></li>
+			  <li><a class="dropdown-item" href="#">High School</a></li>
+            </ul>
+          </div>
+    <br>
+     <table border="0%">
+       <tr>
+        <td>
+  <span style="color: blue;">Info:</span>
+        </td>
+        <td width="100%">
+  <marquee> Robotics club, Soluiotech had a session at the niit campus just recently. &nbsp; &nbsp; &nbsp; || Most people who contract Covid-19 have antibodies for at least six months, a new study shows. | | &nbsp; &nbsp; &nbsp; &nbsp;FOREIGN: U.N Security Council demands Myanmar coup leaders free Suu Kyi as U.S weighs sanctions. &nbsp; &nbsp; &nbsp; | | Vaccine experts are working on a new shot to combat South African variant, as it emerges as a key threat to ending the pandemic. &nbsp; &nbsp; &nbsp; Jeff Bezos will step down as CEO of Amazon and transition to the role of executive chairman. And Jassy will succeed him in the third quarter of 2021 &nbsp; &nbsp; &nbsp; || 109 roads under construction in Ghana Central region. </marquee>
+</td>
+<!--<td>&nbsp;</td>-->
+  </tr>
+  </table>
+</div>
+</main>
+</div>
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">&copy;copyright 2020-2021 Eduqii. Developed with &#128151; by the eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate">Donate</button></span>
+  </div>
+</footer>
+
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+      <script src="../assets18/dist/js/bootstrap.bundle.js"></script>
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="cheatsheet.js"></script>
+  </body>
+</html>

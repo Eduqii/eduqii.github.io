@@ -7,19 +7,60 @@ loginButton.addEventListener("click", (e) => {
     const email = loginForm.email.value;
     const password = loginForm.password.value;
 
-    if (email === "Joseph@gmail.com" && password === "01!mrcommey100") {
-        alert("You have successfully logged in.");
-        return window.location.assign("../home/index.php");
-    } else {
+    if (email === "adjierteh@yahoo.com" && password === "1!35") {
+        // alert("You have successfully logged in.");
+        return window.location.assign("home/index.html");
+    } 
+    else if(email === "benjamin.amoah1970@gmail.com" && password === "478@"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "azumah@yahoo.co.uk" && password === "567#"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "melodyakuamoah@yahoo.com" && password === "236#"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "kamahsdaa@yahoo.co.uk" && password === "456("){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "toodles@me.com" && password === "tiidles2"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "earthgoggles@gmail.com" && password === "1478@"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "richardcudjoe91@gmail.com" && password === "1378@"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "felixfelixantwi@gmail.com" && password === "a478@"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "eshunbismark84@gmail.com" && password === "4h78@"){
+        return window.location.assign("home/index.html");
+    }
+    else if(email === "eshunbismark84@gmail.com" && password === "4h78@"){
+        return window.location.assign("home/index.html");
+    }
+
+    else {
         loginErrorMsg.style.opacity = 1;
     }
-    // switch (true) {
-    //     case (email ==="Joseph@gmail.com" && password === "01!mrcommey100"):
-    //     alert("You have successfully logged in.");
-    //     // return window.location.assign("../home/index.php");
-    //       break;
-    //     default:
-    //         loginErrorMsg.style.opacity = 1;
-    //   }
 
 })
+// var setsession = window.sessionStorage.setItem("user", "loggedin");
+   
+//  const loginForm = document.getElementById("login-form");
+// const loginButton = document.getElementById("login-form-submit");
+// const loginErrorMsg = document.getElementById("login-error-msg");
+// loginButton.addEventListener("click", (e) => {
+// if(
+// window.location.href!=="home/index.html"
+// )
+// {
+// /* some code to load */
+// loginErrorMsg.style.opacity = 1;
+// }else{
+//  alert("You have successfully logged in.");
+// }
+// })
+

@@ -82,9 +82,14 @@
         }
       }
     </style>
+    <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/fawecss/all.min.css">
   </head>
   <body class="d-flex flex-column h-100" onload="myFunction()">
     <div id="loader"></div>
@@ -92,7 +97,7 @@
     <header>
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Edu<span style="color: red;">qii</span></a>
+    <a class="navbar-brand" href="#" style="cursor: none;"><i class="fas fa-home"></i></frameset> Edu<span style="color: red;">qii</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -109,7 +114,7 @@
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search eduqii..." aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
@@ -119,7 +124,7 @@
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">Welcome to the Eduqii Community</h1>
+    <h1 class="mt-5">Welcome to the Eduqii Community <i class="fas fa-tree"></i></h1>
    <!-- <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>
     <p>Back to <a href="../examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>-->
     <p class="lead">The first and the best education service platform in Ghana. This platform was created with <span style="color: rgba(0,0,255,1); font-style:bold;">You</span> in mind. Practice makes perfect so let's Begin. <br>
@@ -131,8 +136,8 @@
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLG">
               <li><h6 class="dropdown-header">Level</h6></li>
-              <li><a class="dropdown-item" href="level/primarylevel/index.html" target="_blank">Primary</a></li>
-              <li><a class="dropdown-item" href="level/jhslevel/allcourses/pastquestions/index.html" target="_blank" id="junior_high">Junior High School</a></li>
+              <li><a class="dropdown-item" href="../level/primarylevel/index.html">Primary</a></li>
+              <li><a class="dropdown-item" href="../level/jhslevel/allcourses/pastquestions/index.html" id="junior_high">Junior High School</a></li>
 			  <li><a class="dropdown-item" href="#">High School</a></li>
             </ul>
           </div>
@@ -153,7 +158,7 @@
 </div>
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">&copy;copyright 2020-2021 Eduqii. Developed with &#128151; by the eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate">Donate</button></span>
+    <span class="text-muted">&copy;copyright 2020-2021 Eduqii. Developed with &#128151; by the eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate">Donate</button>&nbsp; · &nbsp;<a href="../logout.htm?logout" style="text-decoration: none;">Logout</a></span>
   </div>
 </footer>
 

@@ -1,0 +1,23 @@
+html, body{ 
+  height: 100% 
+} 
+select{ 
+  padding: 3px; 
+  margin: 10px 0; 
+} 
+#vpr { 
+  display:inline-block; 
+  padding: 30px 10px; 
+} 
+.buttons{ 
+  display: inline-block; 
+  padding: 0.6em 1.5em; 
+  margin: 0 0.3em 0.3em 0; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 400; 
+  font-size: 14px; 
+  color: black; 
+  text-align: center; 
+}

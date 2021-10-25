@@ -60,71 +60,88 @@ quizTwoThousandSeven = e => {
       }
 
 quizTwoThousandSix = e => {
-        return window.location.assign('2006/index.html');
+        // return window.location.assign('2006/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandFive = e => {
-        return window.location.assign('2005/index.html');
+        // return window.location.assign('2005/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandFour = e => {
-        return window.location.assign('2004/index.html');
+        // return window.location.assign('2004/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandThree = e => {
-        return window.location.assign('2003/index.html');
+        // return window.location.assign('2003/index.html');
+        alert("soon..");
       }
       
 quizTwoThousandTwo = e => {
-        return window.location.assign('2002/index.html');
+        // return window.location.assign('2002/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandOne = e => {
-        return window.location.assign('2001/index.html');
+        // return window.location.assign('2001/index.html');
+        alert("soon..");
       }
 
 quizTwoThousand = e => {
-        return window.location.assign('2000/index.html');
+        // return window.location.assign('2000/index.html');
+        alert("soon..");
       }
 
 quizNinetyNine = e => {
-        return window.location.assign('1999/index.html');
+        // return window.location.assign('1999/index.html');
+        alert("soon..");
       }
 
 quizNinetyEight = e => {
-        return window.location.assign('1998/index.html');
+        // return window.location.assign('1998/index.html');
+        alert("soon..");
       }
 
 quizNinetySeven = e => {
-        return window.location.assign('1997/index.html');
+        // return window.location.assign('1997/index.html');
+        alert("soon..");
       }
 
 quizNinetySix = e => {
-        return window.location.assign('1996/index.html');
+        // return window.location.assign('1996/index.html');
+        alert("soon..");
       }
       
 quizNinetyFive = e => {
-        return window.location.assign('1995/index.html');
+        // return window.location.assign('1995/index.html');
+        alert("soon..");
       }
 
 quizNinetyFour = e => {
-        return window.location.assign('1994/index.html');
+        // return window.location.assign('1994/index.html');
+        alert("soon..");
       }
 
 quizNinetyThree = e => {
-        return window.location.assign('1993/index.html');
+        // return window.location.assign('1993/index.html');
+        alert("soon..");
       }
 
 quizNinetyTwo = e => {
-        return window.location.assign('1992/index.html');
+        // return window.location.assign('1992/index.html');
+        alert("soon..");
       }
 
 quizNinetyOne = e => {
-        return window.location.assign('1991/index.html');
+        // return window.location.assign('1991/index.html');
+        alert("soon..");
       }
 
 quizNinetyNinety = e => {
-        return window.location.assign('1990/index.html');
+        // return window.location.assign('1990/index.html');
+        alert("soon..");
       }
 
 //subjective b

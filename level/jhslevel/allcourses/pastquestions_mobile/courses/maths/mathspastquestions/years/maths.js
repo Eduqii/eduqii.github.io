@@ -50,11 +50,13 @@ quizTwoThousandNine = e => {
       }
      
 quizTwoThousandEight = e => {
-        return window.location.assign('2008/index.html');
+        // return window.location.assign('2008/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandSeven = e => {
-        return window.location.assign('2007/index.html');
+        // return window.location.assign('2007/index.html');
+        alert("soon..");
       }
 
 quizTwoThousandSix = e => {

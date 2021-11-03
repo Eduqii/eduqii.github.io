@@ -41,7 +41,8 @@ loginButton.addEventListener("click", (e) => {
     else if(email === "eshunbismark84@gmail.com" && password === "4h78@"){
         return window.location.assign("../home/index.html");
     }
-    else if(email === "SirSammy@username" && password === "100%1"){
+    else if(email === "SirSammy@username" || email== "sirsammy@username" && password === "100%1"){
+        document.write("Logging in as Sir Sammy. Please wait...")
         return window.location.assign("../home/index.html");
     }
     else if(email ==="guestuser@me.com" && password ==="g100"){

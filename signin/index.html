@@ -25,17 +25,32 @@
         user-select: none;
       }
 
-      .toBeReplaced {
-    visibility: hidden;
-    position: relative;
-}
-.toBeReplaced:after {
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "Bonne chance";
-}
+      h4 {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+  
+        span::before {
+            content: "Good luck";
+            animation: animate infinite 3s;
+            padding-left: 10px;
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content: "Good Luck";
+            }
+  
+            50% {
+                content: "Bonne";
+            }
+  
+            75% {
+                content: "Chance.";
+            }
+        }
 
 
       @media (min-width: 768px) {
@@ -83,6 +98,6 @@
    password: g100</p>
 </main>
 
-<p class="toBeReplaced"><span>Good luck</span></p>
+<h4> <span> Good luck.</span></h4>
   </body>
 </html>

@@ -36,7 +36,7 @@
     <link href="signin.css" rel="stylesheet">
     <script defer src="signin.js"></script>
   </head>
-  <body class="text-center">
+  <body class="text-center" onload="startWish()">
     
 <main class="form-signin">
   <form id="login-form" autocomplete="off">
@@ -71,6 +71,21 @@
 </main>
 
 
-    
+    <script>
+var myVar1;
+var myVar2;
+
+function startWish() {
+  myVar1 = setInterval(english, 3000);
+}
+
+function english() {
+  document.write("Good Luck in the bece");
+  myVar2 = setInterval(french, 3000);
+}
+function french() {
+  document.write("Bonne chance");
+}
+</script>
   </body>
 </html>

@@ -25,6 +25,19 @@
         user-select: none;
       }
 
+      .toBeReplaced {
+    visibility: hidden;
+    position: relative;
+}
+.toBeReplaced:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Bonne chance";
+}
+
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -36,7 +49,7 @@
     <link href="signin.css" rel="stylesheet">
     <script defer src="signin.js"></script>
   </head>
-  <body class="text-center" onload="startWish()">
+  <body class="text-center">
     
 <main class="form-signin">
   <form id="login-form" autocomplete="off">
@@ -70,22 +83,6 @@
    password: g100</p>
 </main>
 
-
-    <script>
-var myVar1;
-var myVar2;
-
-function startWish() {
-  myVar1 = setInterval(english, 3000);
-}
-
-function english() {
-  document.write("Good Luck in the bece");
-  myVar2 = setInterval(french, 3000);
-}
-function french() {
-  document.write("Bonne chance");
-}
-</script>
+<p class="toBeReplaced"><span>Good luck</span></p>
   </body>
 </html>

@@ -1,27 +1,104 @@
-<!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Premium Education Service · Eduqii</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
-  <link rel="shortcut icon" href="level/jhslevel/allcourses/pastquestions/images/favicon.ico">
-</head>
-<body>
-  <div class="wrapper">
-    <div class="toast">
-      <div class="content">
-        <div class="icon"><i class="uil uil-wifi"></i></div>
-        <div class="details">
-          <span>You're online now</span>
-          <p>Hurray! Internet is connected.</p>
-        </div>
-      </div>
-      <div class="close-icon"><i class="uil uil-times"></i></div>
-    </div>
-  </div>
-  <script src="script.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Signin · Eduqii v1.0.1</title>
 
-</body>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+    <link rel="shortcut icon" href="../level/jhslevel/allcourses/pastquestions/images/favicon.ico">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      h4 {
+            display: flex;
+            justify-content: center;
+            color: green;
+        }
+  
+        .span::before {
+            content: "Good luck";
+            animation: animate infinite 60s;
+            padding-left: 10px;
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content: "Good Luck";
+            }
+  
+            50% {
+                content: "Bonne";
+            }
+  
+            75% {
+                content: "Bonne chance pour ton examen";
+            }
+        }
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+    <script defer src="signin.js"></script>
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form id="login-form" autocomplete="off">
+    <img class="mb-4" src="edusigin.png" alt="" width="90" height="70">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    <div class="form-floating">
+      <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" id="login-form-submit" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; eduqii 2019–2021</p>
+  </form>
+  <center><p><span style="color: green;" >New</span> Offline version available. <a href="../eduqiiAdmin/dashboard/product/index.html">Downloads page</a></p>
+  </center>
+  <p>Login Credentials:<br/>
+   email: guestuser@me.com<br/>
+   password: g100</p>
+   <h4> <span class="span"> </span></h4>
+</main>
+
+
+  </body>
 </html>

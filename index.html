@@ -54,7 +54,7 @@
 
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" value="remember-me"> Remember me
+        <input type="checkbox" value="remember-me" onclick="myFunction()"> Show Password
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" id="login-form-submit" type="submit">Sign in</button>
@@ -64,4 +64,14 @@
 
 
   </body>
+  <script>
+function myFunction() {
+  var x = document.getElementById("floatingPassword");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
 </html>

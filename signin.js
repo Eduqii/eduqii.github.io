@@ -45,7 +45,7 @@ loginButton.addEventListener("click", (e) => {
         document.write("Logging in as Sir Sammy. Please wait...")
         return window.location.assign("../home/index.html");
     }
-    else if(email ==="guestuser@me.com" && password ==="g100"){
+    else if(email ==="guestuser@me" && password ==="g100"){
         document.write("logging in as guest. Please wait...");
         return window.location.assign("../home/index.html");
     }

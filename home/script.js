@@ -1,12 +1,7 @@
-const loginErrorMsg = document.getElementById("login-error-msg");
+const donateNow = document.getElementById("donate-Now");
 
-loginButton.addEventListener("click", (e) => {
+donateNow.addEventListener("click", (e) => {
     e.preventDefault();
-    const email = loginForm.email.value;
-    const password = loginForm.password.value;
 
-    if (email === "adjierteh@yahoo.com" && password === "1!35") {
-        // alert("You have successfully logged in.");
-        return window.location.assign("../home/index.html");
-    }
+    return window.location.assign("https://dashboard.flutterwave.com/donate/ul0fl3zqnpre");
   }

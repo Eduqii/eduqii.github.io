@@ -27,6 +27,7 @@ loginButton.addEventListener("click", (e) => {
         return window.location.assign("../home/index.html");
     }
     else if(email === "earthgoggles@gmail.com" && password === "1478@"){
+        document.write("Logging in as Sir Prince. Please wait...")
         return window.location.assign("../home/index.html");
     }
     else if(email === "richardcudjoe91@gmail.com" && password === "1378@"){

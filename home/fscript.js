@@ -1,4 +1,4 @@
 function donateNow(){
-    var page = window.open("https://dashboard.flutterwave.com/donate/ul0fl3zqnpre");
+    var page = window.open("https://flutterwave.com/donate/bjplsepb2trh");
     return page;
   }

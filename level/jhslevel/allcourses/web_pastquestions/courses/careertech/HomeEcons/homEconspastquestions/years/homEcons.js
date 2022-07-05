@@ -1,5 +1,5 @@
-openWindowTwentyTwentyOne = e => {
-        return window.location.assign('2021/index.php')
+quizTOne = e => {
+        return window.location.assign('2021/index.html')
       }
 openWindowTwentyEleven = e => {
         return window.location.assign('2020/index.php')

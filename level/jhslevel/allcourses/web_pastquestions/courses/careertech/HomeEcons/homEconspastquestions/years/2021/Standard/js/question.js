@@ -3,355 +3,228 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
+  	question:'Seam include all these except.....',
+  	options:['Run and fell seam', 'French seam', 'Open seam', 'Loop switch'],
+  	answer:3
   },
   {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
+  	question: 'The fat soluble vitamins are....',
+	options:[ 'A,D,E and K vitamins','A and D vitamins', 'Vitamins A and K', 'Vitamins C, B and D'],
+	answer:1,
   },
   {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
+  	question:'The soil can be enriched before planting with....',
+  	options:['Flower', ' Seed',
+		 ' Manure',
+		 ' Plantain'],
   	answer:2
   },
   {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
-  	answer:3
+  	question:'The first thing to do when you want to clean a refrigerator is to.....',
+  	options:[ 'Switch on',
+		 'Remove ice trays',
+		 'Defrost',
+		 'Remove its contents'],
+  	answer:2
   },
   {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
+  	question:'In the kitchen arrangement, the sink should be near the window for....',
+  	options:[ 'Ventilation and walk',
+		 'Light and ventilation',
+		'Light and walk',
+		 'Size of cook'],
+  	answer:1
+  },
+  {
+  	question: 'The best method used in preserving food nutrients, while cooking is by....',
+		options: ['Frying',
+		 'Baking',
+		 'Steaming',
+		'Roasting'],
+		answer: 2
+  },
+  {
+  	question: '...... is a natural fibers that costs a lot.',
+	 options: [ 'Wool',
+		 ' Silk',
+		 'Rayon',
+		 'Cotton'],
+		answer: 0
+  },
+  {
+  	question: 'A well groomed person has .....',
+		options: [ 'Well groomed hair',
+		 'A neat and clean body',
+		 'A neat and clean appearance',
+		 'Well groomed hair and nails'],
+		answer: 2
+  },
+  {
+  	question: 'One of the following parts of the body is used for smelling',
+		options: ['Hands',
+		 'Mouth',
+		 'Tongue',
+		 'Nose'],
+		answer: 3
+  },
+  {
+  	question: 'One of these is not a description of an aerobic exercise.',
+		options: ['Sit-ups',
+		 'Cycling',
+		 'Running',
+		 'Jogging'],
+		answer: 0
+  },
+  {
+  	question: 'Exercise is a ........',
+		options: ['Mental movement',
+		 'Body movements',
+		 'Physical movement',
+		 'Walking movement'],
+		answer: 2
+  },
+  {
+  	question: 'Stretching exercises are done to ......',
+		options: ['Develop muscles',
+		 'Be healthy',
+		 'Strengthen the heart',
+		 'Firm the muscles'],
+		answer: 3
+  },
+  {
+  	question: 'Crossway strips are also called ......',
+		options: ['Binding strips',
+		 'Warp',
+		 'Bias',
+		'Weft'],
+		answer: 2
+  },
+  {
+  	question: 'The first step in the application of makeup is to.....',
+		options: ['Tone the face',
+		 'Moisturise the face',
+		 ' Cleanse the face',
+		 'Powder the face'],
+		answer: 2
+  },
+  {
+  	question: 'The following are used in making up the face except.......',
+		options: ['Skin tonic',
+		 'Face powder',
+		 'Foundation cream',
+		 'Cleansing lotion'],
+		answer: 3
+  },
+  {
+  	question: 'The provision of the basic family needs is the role of....',
+		options: ['Mother',
+		 'Father, mother and children',
+		 'Children',
+		 'Father'],
+		answer: 3
+  },
+  {
+  	question: 'Which of the following is a transmitted disease?',
+		options: ['Hypertension',
+		 'Gonorrhea',
+		 'Headache',
+		 'Hearing impairment'],
 		answer: 1
   },
   {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
+  	question: 'Which of the following fibres is of natural source',
+		options: ['Acrylics',
+		 'Polyester',
+		 'Nylon',
+		 'Silk'],
 		answer: 3
   },
   {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
+  	question: 'Which of the following is not a floor covering?',
+		options: ['Terrazzo',
+		 'Mat',
+		 'Linoleum',
+		 'Rug'],
+		answer: 0
   },
   {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
+  	question: '..... is for healthy teeth?',
+		options: ['Flouride',
+		 'Nutrient',
+		 'Chloride',
+		 'Protein'],
+		answer: 0
+  },
+  {
+  	question: 'Food stuffs that could be stored for a long period are called......',
+		options: ['Perishable',
+		 'Non-protected',
+		 'Protective',
+		 'Non-perishable'],
 		answer: 3
   },
   {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
+  	question: 'Your siblings son is your........',
+		options: ['Niece',
+		 'Cousin',
+		 'Nephew',
+		 'Brother'],
+		answer: 2
+  },
+  {
+  	question: 'Needle used for embroidery are known as......',
+		options: ['Crewel',
+		 'Betweens',
+		 'Sewing needles',
+		 'Darning needles'],
+		answer: 0
+  },
+  {
+  	question: 'The best methd of coooking an invalid dishes is......',
+		options: ['Boiling',
+		 'Baking',
+		 'Stewing',
+		 'Steaming'],
+		answer: 3
+  },
+  {
+  	question: 'A broken marriage is also referred to as ......',
+		options: ['Engagement',
+		 'Divorce',
+		 'Crisis',
+		 'Reunion'],
 		answer: 1
   },
   {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
-		answer: 0
-  },
-  {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
+  	question: 'Family needs are divided into ......',
+		options: ['Three',
+		 'Five',
+		 'Four',
+		 'Two'],
 		answer: 3
   },
   {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
+  	question: 'Which one can be tagged as a primary need?',
+		options: ['Housing',
+		 'Car',
+		 'Money',
+		 'Telephone'],
+		answer: 0
+  },
+  {
+  	question: 'The secondary needs of a family include the following include the following except .......',
+		options: ['Education',
+		 'Car',
+		 'Food',
+		 'Electricity'],
 		answer: 2
   },
   {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
+  	question: 'The breaking down of food into smaller particles is called .......',
+		options: ['Metabolism',
+		 'Digestion',
+		 'Anabolism',
+		 'Catabolism'],
 		answer: 1
-  },
-  {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
-		answer: 3
-  },
-  {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
-		answer: 2
-  },
-  {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
-		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  }
 ]

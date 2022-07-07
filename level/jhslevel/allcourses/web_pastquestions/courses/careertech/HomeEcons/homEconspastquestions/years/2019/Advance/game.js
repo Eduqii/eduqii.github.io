@@ -1,3 +1,4 @@
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -12,23 +13,23 @@ let availableQuestions = []
 
 let questions = [
 	{
-		question: 'The most common means by which data are input into the computer is through the',
-		choice1: 'mouse',
-		choice2: 'keyboard',
-		choice3: 'microphone',
-		choice4: 'joystick',
-		answer: 2,
+		question: 'The plan of a cylinder is a',
+		choice1: 'circle',
+		choice2: 'rectangle',
+		choice3: 'square',
+		choice4: 'triangle',
+		answer: 1,
 	},
 	{
-		question: 'Computer devices such as mouse, trackpad and joystick are referred to as',
-		choice1: 'Output devices',
-		choice2: 'Pointing devices',
-		choice3: 'Standard devices',
-		choice4: 'Internal devices',
-		answer: 2,
+		question: 'The first stage of the design process is',
+		choice1: 'brief',
+		choice2: 'evaluation',
+		choice3: 'situation',
+		choice4: 'specification',
+		answer: 3,
 	},
 	{
-		question: 'The flat panel screen is also known as?',
+		question: 'Figure I show the pictorial view of a block. Use it to answer questions 3 and 4.',
 		choice1: 'LCD',
 		choice2: 'VCD',
 		choice3: 'CRT',

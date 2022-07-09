@@ -3,16 +3,6 @@ const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
 const loginlevelerrormsg = document.getElementById("login-levelerror-msg");
 
-function juniorHigh(){
-        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (isMobile) {
-  window.location.assign("https://eduqii.github.io/level/jhslevel/allcourses/pastquestions_mobile/index.html");
-}
-else{
-  window.location.assign("https://eduqii.github.io/level/jhslevel/allcourses/web_pastquestions/index.html");
-}
-       }
-
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const level = loginForm.level.value;
@@ -93,9 +83,17 @@ loginButton.addEventListener("click", (e) => {
         }
     
 
-    
-
 })
+
+function juniorHigh(){
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if (isMobile) {
+  window.location.assign("https://eduqii.github.io/level/jhslevel/allcourses/pastquestions_mobile/index.html");
+}
+else{
+  window.location.assign("https://eduqii.github.io/level/jhslevel/allcourses/web_pastquestions/index.html");
+}
+       }
 // var setsession = window.sessionStorage.setItem("user", "loggedin");
    
 //  const loginForm = document.getElementById("login-form");

@@ -50,6 +50,8 @@ body {
 #error-msg-second-line {
   display: block;
 }
+
+
 .form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;

@@ -82,7 +82,10 @@
       }
     </style>
     <script type="text/javascript">
-        function preventBack() { window.history.forward(); }
+        function preventBack() 
+        { 
+            window.history.forward(); 
+        }
         setTimeout("preventBack()", 0);
         window.onunload = function () { null };
     </script>
@@ -166,10 +169,19 @@ else{
 </div>
 <footer class="footer mt-auto py-3">
   <div class="container">
-    <span class="text-muted">&copy;copyright 2022 Eduqii. Developed with &#128151; by eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate" onclick="donateNow()">Donate</button>&nbsp; · &nbsp;<a style="text-decoration: none;" href="https://eduqii.github.io/logout.htm?logout">Logout</a></span>
+    <span class="text-muted">&copy;copyright 2022 Eduqii. Developed with &#128151; by eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate" onclick="donateNow()">Donate</button>&nbsp; · &nbsp;<a style="text-decoration: none;" onclick="logout()">Logout</a></span>
   </div>
 </footer>
-
+<script type="text/javascript">
+  function logout(){
+    window.setTimeout(function() {
+            document.write("You are currently logged out");
+            document.write("redirecting to login page, please wait...");
+    window.location.href = 'https://eduqii.github.io/signin/index.html';
+}, 3000);
+  }
+         
+    </script>
 <script>
   var myVar;
   

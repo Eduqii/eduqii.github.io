@@ -81,14 +81,7 @@
         }
       }
     </style>
-    <script type="text/javascript">
-        function preventBack() 
-        { 
-            window.history.forward(); 
-        }
-        setTimeout("preventBack()", 0);
-        window.onunload = function () { null };
-    </script>
+    <script type="text/javascript" async src="fscript.js"></script>
     <script type="text/javascript">
        function juniorHigh(){
         var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -140,31 +133,20 @@ else{
     <h1 class="mt-5">Welcome to the Eduqii Community <i class="fas fa-tree"></i></h1>
     <p class="lead">The first and the best education service platform in Ghana. This platform was created with <span style="color: rgba(0,0,255,1); font-style:bold;">You</span> in mind. Practice makes perfect so let's Begin. <br>
        <em>Education is the fundamental keys to success.</em>
-      <!--A country's economy becomes more productive as the proportion of educated workers increases since educated workers can more efficiently carry out tasks that require literacy and critical thinking.--> <strong>Browse the courses</strong></p>
-      <div class="dropdown">
-            <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButtonLG" data-bs-toggle="dropdown" aria-expanded="false">
-              Browse Level &raquo; <i class="fas fa-book"></i>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLG">
-              <li><h6 class="dropdown-header">Level</h6></li>
-              <li><a class="dropdown-item" href="../level/primarylevel/index.html">Primary</a></li>
-              <li class="dropdown-item" onclick="juniorHigh()">Junior High School</li>
-			  <li><a class="dropdown-item" href="#">High School</a></li>
-            </ul>
-          </div>
+      A country's economy becomes more productive as the proportion of educated workers increases since educated workers can more efficiently carry out tasks that require literacy and critical thinking. 
     <br>
-      <table border="0%">
+      <table border="1">
        <tr>
           <td>
             <span style="color: blue;">Info:</span>
           </td>
-          <td width="100%">
+          <td>
             <marquee> Robotics club, Soluiotech had a session at the niit campus just recently. || Most people who contract Covid-19 have antibodies for at least six months, a new study shows. | | FOREIGN: U.N Security Council demands Myanmar coup leaders free Suu Kyi as U.S weighs sanctions. | | Vaccine experts are working on a new shot to combat South African variant, as it emerges as a key threat to ending the pandemic. Jeff Bezos will step down as CEO of Amazon and transition to the role of executive chairman. And Jassy will succeed him in the third quarter of 2021 || 109 roads under construction in Ghana Central region. 
             </marquee>
           </td>
         </tr>
       </table>
-</div>
+  </div>
 </main>
 </div>
 <footer class="footer mt-auto py-3">
@@ -172,16 +154,6 @@ else{
     <span class="text-muted">&copy;copyright 2022 Eduqii. Developed with &#128151; by eduqii group. Powered by Benit Solutions LLC. All rights reserved. &nbsp; &nbsp; · &nbsp;<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Donate" onclick="donateNow()">Donate</button>&nbsp; · &nbsp;<a style="text-decoration: none;" onclick="logout()">Logout</a></span>
   </div>
 </footer>
-<script type="text/javascript">
-  function logout(){
-    window.setTimeout(function() {
-            document.write("You are currently logged out");
-            document.write("redirecting to login page, please wait...");
-    window.location.href = 'https://eduqii.github.io/signin/index.html';
-}, 3000);
-  }
-         
-    </script>
 <script>
   var myVar;
   
@@ -194,7 +166,6 @@ else{
     document.getElementById("myDiv").style.display = "block";
   }
   </script>
-<script type="text/javascript" src="fscript.js"></script>
 <script>
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();

@@ -32,6 +32,14 @@
     <!-- Custom styles for this template -->
     <link href="https://eduqii.github.io/signin.css" rel="stylesheet">
     <script defer src="https://eduqii.github.io/signin.js"></script>
+    <script type="text/javascript">
+        function preventBack() 
+        { 
+            window.history.forward(); 
+        }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+    </script>
   </head>
   <body class="text-center">
     

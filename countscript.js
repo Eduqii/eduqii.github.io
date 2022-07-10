@@ -1,5 +1,5 @@
 // get the element
-const visitorB = document.getElementById('junior_high')
+const visitorB = document.getElementById('juniorHigh')
 
 // always checking if the element is clicked, if so, do alert('hello')
 visitorB.addEventListener("click", () => {

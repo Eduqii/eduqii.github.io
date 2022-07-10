@@ -6,10 +6,10 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, Dwamena Bernard Osei, Bismarck Eshun, Lawrence Lartey and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.82.0">
-    <title>Signin · Eduqii</title>
+    <title>Signin · Eduqii v1.0.1</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
-    <link rel="shortcut icon" href="https://eduqii.github.io/images/favicon.ico">
+    <link rel="shortcut icon" href="https://eduqii.github.io/level/jhslevel/allcourses/web_pastquestions/images/favicon.ico">
     <!-- Bootstrap core CSS -->
 <link href="https://eduqii.github.io/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async></script>
@@ -42,6 +42,13 @@
 
     <div id="login-error-msg-holder">
       <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    <div class="form-floating">
+      <select name="level" required>
+        <option class="form-control" value="jhs">Junior High School</option>
+        <option class="form-control" value="primary">Primary</option>
+        <option class="form-control" value="null" selected>Choose your Level</option>
+      </select>
     </div>
     <div class="form-floating">
       <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com" value="guestuser@me">

@@ -37,7 +37,6 @@
         setTimeout("preventBack()", 0);
         window.onunload = function () { null };
     </script>
-    <script type="text/javascript" src="countscript.js"></script>
   </head>
   <body>
 <header>
@@ -61,7 +60,7 @@
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
-      <a href="../../../../home/index.html" class="navbar-brand d-flex align-items-center"> 
+      <a href="https://eduqii.github.io/home/index.html" class="navbar-brand d-flex align-items-center"> 
         <strong><i class="fas fa-home"></i> Edu<span style="color: red;">qii</span></strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +78,7 @@
         <h1 class="fw-light">All Courses</h1>
         <p class="lead text-muted"><!--Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.--></p>
         <p>
-          <a href="mailto:info@eduqii.org" class="btn btn-primary my-2">Email us</a>
+          <a href="mailto:infospot503@gmail.com" class="btn btn-primary my-2">Email us</a>
           <a href="https://api.whatsapp.com/send?phone=+233204870063&text=Hello%20Eduqii,%20I%20am" target="_blank" class="btn btn-secondary my-2">Send Feedback</a>
         </p>
       </div>
@@ -283,7 +282,6 @@
         <div class="col">
           <div class="card shadow-sm">
             <img src="images/socialstudies.png">
-           <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
 
             <div class="card-body">
               <h5 class="card-title">Social Studies</h5>
@@ -301,7 +299,6 @@
         <div class="col">
           <div class="card shadow-sm">
             <img src="images/career.jpg">
-           <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>-->
 
             <div class="card-body">
               <h5 class="card-title">CAREER TECHNOLOGY</h5>
@@ -322,7 +319,7 @@
             </div>
           </div>
         </div><br />
-        <p id="page_visits">PAGE VISITS: <span style="letter-spacing: 4px;">000127</span></p>
+        <p>PAGE VISITS: <span style="letter-spacing: 4px;"><label id="page_visits"></label></span></p>
       </div>
     </div>
   </div>
@@ -385,19 +382,33 @@ var today = new Date();
   </div>
 </footer>
 <script>
+   function noDisplay(){
+
+    var count = localStorage.getItem("count")==null?1:localStorage.getItem("count");
+    count=Number(count)+1;
+    localStorage.setItem("count", count);
+    document.getElementById('page_visits').innerHTML = count;
+  }
+
+  window.onload = function(){
+    noDisplay()
+  };
+</script>
+<script>
 let quote;
 switch (new Date().getDay()){
   case 0:
     quote = "“The secret of getting ahead is getting started.” – Mark Twain.";
     break;
   case 1:
-    quote = "“You cannot solve a problem with the same mindset that created it.” - Albert Einstein";
+  quote = "You can only have money in your pocket if you work and earn. Nobody is going to come to your house and say put this in your pocket. You have to come out and take the opportunity that presents themselves. Learn a skill, go into the world of work and you will be able to put money in your pocket - Former President John Dramani Mahama (Republic of Ghana)";
+    // quote = "“You cannot solve a problem with the same mindset that created it.” - Albert Einstein";
     break;
   case 2:
     quote = "“Never give up!”";
     break;
   case 3:
-    quote = "“Work hard to build a resilient nation.” - His Excellency Nana Addo Danquah Akuffo Addo.";
+    quote = "“Work hard to build a resilient nation.” - His Excellency Nana Addo Danquah Akuffo Addo. (President of the republic of Ghana)";
     break;
   case 4:
     quote = "“Either You Run the Day, Or the Day Runs You”";

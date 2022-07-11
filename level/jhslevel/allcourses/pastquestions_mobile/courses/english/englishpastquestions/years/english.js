@@ -132,7 +132,8 @@ quizNinetyNinety = e => {
 //section b
 
 sectTwentyTwnty = e => {
-        return window.open('2020/sect/index.html','_blank');
+        // return window.open('2020/sect/index.html','_blank');
+        alert("soon...");
       }
 
 sectTwentyNineteen = e => {

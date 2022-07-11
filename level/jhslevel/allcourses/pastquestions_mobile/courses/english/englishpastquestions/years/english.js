@@ -1,6 +1,9 @@
 
 
 //objectives 
+quizTwentyTwntyOne = e => {
+        return window.location.assign('2021/index.html');
+      }
 quizTwentyTwnty = e => {
         return window.location.assign('2020/index.html');
       }

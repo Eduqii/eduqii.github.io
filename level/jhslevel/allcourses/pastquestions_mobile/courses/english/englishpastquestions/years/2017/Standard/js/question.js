@@ -195,7 +195,7 @@ const quiz = [
 		answer: 0
   },
   {
-  	question: '<b>'+ 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.' + '</b>' + '<br />' + '<br />' + 'Foli and Adzovi ' + '<u>' + 'hit if off' + '</u>' + ' quite well. This means they',
+  	question: '<b>'+ 'In each of the following sentences a group of words has been underlined. Choose from the alternatives lettered A to D the one that best explains the underlined group of words.' + '</b>' + '<br />' + '<br />' + 'Foli and Adzovi ' + '<u>' + 'hit it off' + '</u>' + ' quite well. This means they',
 		options: ['fight often.',
 				  'get on very well.',
 				  'play as a team.',

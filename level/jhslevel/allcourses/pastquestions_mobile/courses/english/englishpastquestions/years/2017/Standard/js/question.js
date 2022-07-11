@@ -83,7 +83,7 @@ const quiz = [
 		answer: 0
   },
   {
-  	question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The woman refused to sell me _______ .kerosene.',
+  	question: '<b>' + 'From the alternatives lettered A to D, choose the one which most suitably completes each sentence.' + '</b>' + '<br />' + '<br />' + 'The woman refused to sell me _______ kerosene.',
 		options: [' any',
 				  'little',
 				  'plenty',

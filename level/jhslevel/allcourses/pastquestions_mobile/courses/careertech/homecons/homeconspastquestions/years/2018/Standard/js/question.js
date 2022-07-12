@@ -3,8 +3,8 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
+  	question:'Short dashes are used for',
+  	options:['cutting planes', 'blue', 'brown', 'green', 'yellow'],
   	answer:1
   },
   {	

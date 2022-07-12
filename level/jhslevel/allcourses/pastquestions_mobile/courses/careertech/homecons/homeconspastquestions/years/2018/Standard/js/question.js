@@ -8,36 +8,35 @@ const quiz = [
   	answer:1
   },
   {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
+  	question: 'Which of the following wires carries electric current to an electric iron?',
+	options:[ 'Earth','Live', 'Negative', 'Neutral'],
+	answer:1
   },
   {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
+  	question:'Which of the following is not a stage in the design process?',
+  	options:['Making', ' Situation',
+		 'Specification',
+		 'Questionnaire'],
   	answer:3
+  },
+  {
+  	question:'Missing nails in household furniture occur in',
+  	options:[ 'concrete benches',
+		 'metal tables',
+		 'plastic cabinets',
+		 'wooden chairs'],
+  	answer:3
+  },
+  {
+  	question:'<b>' + 'Figure 1 shows a sketch of wooden block. Use it to answer this question' + '</b>' + 'The view indicated by arrow X is',
+  	options:[ 'A',
+		 'B',
+		'C',
+		 'D'],
+  	answer:3,
+  	img: 'https://eduqii.github.io/sharedassets/assets/2018homeconsQ5.png',
+  	img: 'https://eduqii.github.io/sharedassets/assets/2018homeconsoptionsQ5.png'
+
   },
   {
   	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',

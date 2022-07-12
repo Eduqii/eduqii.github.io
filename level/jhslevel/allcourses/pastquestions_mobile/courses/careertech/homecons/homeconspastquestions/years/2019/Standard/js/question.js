@@ -19,8 +19,8 @@ const quiz = [
 		 'C',
 		 'D'],
   	answer:2,
-  	img: '2019_PretechQ3.png',
-  	img: 'pretechoptions2019Q3.jpg'
+  	img: 'https://eduqii.github.io/sharedassets/assets/2019_PretechQ3.png',
+  	img: 'https://eduqii.github.io/sharedassets/assets/pretechoptions2019Q3.jpg'
   },
   {
   	question:'Which of the following represents the right end elevation?',
@@ -29,7 +29,7 @@ const quiz = [
 		 'C',
 		 'D'],
   	answer:0,
-  	img: '2019PretechQ4options.jpg'
+  	img: 'https://eduqii.github.io/sharedassets/assets/2019PretechQ4options.jpg'
   },
   {
   	question:'In the design process, the selected idea is developed in order to',

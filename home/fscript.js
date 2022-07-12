@@ -1,6 +1,6 @@
 
 function donateNow(){
-    var page = window.open("https://flutterwave.com/donate/bjplsepb2trh");
+    var page = window.open("https://flutterwave.com/donate/qxwskuun35sr");
     return page;
   }
 //logout

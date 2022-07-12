@@ -5,7 +5,7 @@ quizTwentyNine = e => {
         alert("Very soon ranger");
         // return window.location.assign('2020/index.php')
       }
-openWindowTwentyTwelve = e => {
+quizTwentyNineteen = e => {
         return window.location.assign('2019/index.php')
       }
 openWindowTwentyThirteen = e => {

@@ -4,7 +4,7 @@
 const quiz = [
   {
   	question:'Short dashes are used for',
-  	options:['cutting planes', 'blue', 'brown', 'green', 'yellow'],
+  	options:['cutting planes', 'hidden outlines', 'dimensioning', 'visible outlines'],
   	answer:1
   },
   {	

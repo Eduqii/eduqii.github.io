@@ -3,355 +3,240 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
+  	question:'A common method of cooking ripe plantain for sale is',
+  	options:['boiling', 'roasting', 'grilling', 'baking'],
+  	answer:2
   },
   {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
+  	question: 'To shorten the cooking time for meat,',
+	options:[ 'slice along the grain.','cut into small pieces.', 'slice into thin pieces.', 'cut across the grain.'],
+	answer:3
   },
   {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
+  	question:'In taking body measurement, a firm tape measure is needed to',
+  	options:['save time.', ' avoid wasting fabric.',
+		 'obtain accuracy.',
+		 'make sewing easy.'],
   	answer:2
   },
   {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
+  	question:'Which of the following principles of design is similar to proportion?',
+  	options:[ 'Balance',
+		 'Perspective',
+		 'Rhythm',
+		 'Scale'],
   	answer:3
   },
   {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
+  	question:'A preliminary design is meant to',
+  	options:[ 'improve creativity.',
+		 'increase production.',
+		'make sketches.',
+		 'produce ideas.'],
+  	answer:3
+  },
+  {
+  	question: '<i>' + 'Use the sketch in Figure 1 to answer this Question' + '</i>' + 'Which of the following represents the front view in the direction of arrow Z?',
+		options: ['A',
+		 'B',
+		 'C',
+		'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2017econsques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2017ques6options6.png'
+  },
+  {
+  	question: '<i>' + 'Use the sketch in Figure 1 to answer this Question' + '</i>' + 'Which of the following represents the left end elevation?',
+	 options: [ 'A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2017econsques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2017ques7options6.png'
+  },
+  {
+  	question: 'A single unit of a design is known as',
+		options: [ ' motif',
+		 'pattern',
+		 'plan',
+		 'print'],
+		answer: 0
+  },
+  {
+  	question: 'Angles are measured by using a',
+		options: ['compass',
+		 'protractor',
+		 'rule',
+		 'set square'],
 		answer: 1
   },
   {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
+  	question: 'In designing, the analysis question, what is the purpose of the unit? falls under',
+		options: ['construction',
+		 'ergonomics',
+		 'function',
+		 'material'],
 		answer: 2
   },
   {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
+  	question: 'To repair an electrical fault, a safety precaution to observe is to',
+		options: ['disconnect live wires',
+		 'remove fuse',
+		 'remove cover of socket',
+		 'switch off main supply'],
 		answer: 3
   },
   {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
+  	question: 'Which of the following is not a cause of weakness in furniture?',
+		options: ['Loose joint',
+		 'Insufficient polish',
+		 'Overloading',
+		 'Removal of nail'],
 		answer: 1
   },
   {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
+  	question: 'The tee-square is used for drawing',
+		options: ['arcs',
+		 'circles',
+		 'horizontal lines',
+		'vertical lines'],
 		answer: 2
   },
   {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
+  	question: 'Identify the type of lettering used for emphasis.',
+		options: ['Freestyle',
+		 'Gothic',
+		 'Italics',
+		 'Romans'],
+		answer: 2
+  },
+  {
+  	question: 'Strips cut on the true cross of fabric are usually used for curved edges because they',
+		options: ['stretch easily',
+		 'do not fray',
+		 'are easily prepared',
+		 'are colourful'],
 		answer: 0
   },
   {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
-  },
-  {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
-		answer: 3
-  },
-  {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
+  	question: 'The best fastening for the full back opening of a fourteen year old school girl’s uniform is',
+		options: ['press studs',
+		 'zipper',
+		 'velcro',
+		 ' tapes'],
 		answer: 1
   },
   {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
-  },
-  {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
-		answer: 0
-  },
-  {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
+  	question: 'When making a shirt sleeve, the two rows of gathering stitches are worked on the',
+		options: ['seam allowance of the sleeves.',
+		 'hem of the sleeves',
+		 'side seam of the sleeves',
+		 'cap of the sleeves'],
 		answer: 3
   },
   {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
+  	question: 'The most suitable pocket found on men’s classic shirt is',
+		options: ['bound',
+		 'in-seam',
+		 'patch',
+		 'welt'],
 		answer: 2
   },
   {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
+  	question: 'In attaching a turnover to a shirt, the first process to work on is the',
+		options: ['joining and stitching of the side seam',
+		 'preparation and fixing of a pocket',
+		 'joining and stitching of the shoulder',
+		 'preparation and setting in of sleeve.'],
 		answer: 2
   },
   {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
+  	question: 'The French seam is the most appropriate seam for',
+		options: ['children’s wear',
+		 'heavy weight fabrics',
+		 'light weight fabrics',
+		 'undergarment'],
 		answer: 2
   },
   {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
+  	question: 'A repair work done by weaving thread into weakened portion of article is termed',
+		options: ['renovating',
+		 'darning',
+		 'remodeling',
+		 'patching'],
 		answer: 1
   },
   {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
+  	question: 'An advantage of freehand cutting is that',
+		options: ['it is good for mass production',
+		 'it is good for beginners',
+		 'it conserves time and energy',
+		 'there is no need for pattern drafting'],
 		answer: 3
   },
   {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
+  	question: 'The most important factor to consider when buying canned food is the',
+		options: ['weight',
+		 'label on product',
+		 'colour',
+		 'expiry date'],
+		answer: 3
   },
   {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
+  	question: 'In order to retain the nutrients in leafy vegetables,',
+		options: ['cut one hour before cooking',
+		 'cut when ready to cook',
+		 'cut when the water is boiling',
+		 'cut few minutes before cooking'],
+		answer: 1
+  },
+  {
+  	question: 'In table setting, a cover refers to the space',
+		options: ['beside the person’s seat',
+		 'left of the person’s seat',
+		 'in front of the person’s seat.',
+		 'right of the person’s seat'],
+		answer: 2
+  },
+  {
+  	question: 'The basic ingredients for preparation of batter are',
+		options: ['flour, egg and milk',
+		 'flour, egg and oil',
+		 'flour, egg and yeast',
+		 'flour, egg and baking powder'],
 		answer: 0
   },
   {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  	question: 'Food is preserved mainly to',
+		options: ['maintain its shape',
+		 'make it last longer',
+		 'make it palatable',
+		 'protect micro organism'],
+		answer: 1
+  },
+  {
+  	question: 'A suitable flour used to prepare bread is',
+		options: ['soft flour.',
+		 'self raising flour',
+		 'composite flour',
+		 'strong flour'],
+		answer: 3
+  },
+  {
+  	question: 'Which of the following dishes is garnished with lemon and parsley?',
+		options: ['Grilled mackerel',
+		 'Grilled chicken',
+		 'Roast lamb',
+		 'Beef loaf'],
+		answer: 1
+  },
+  {
+  	question: 'Which of the following is a white fish?',
+		options:['Mackerel',
+		 'Cod',
+		 'Herring',
+		 'Tilapia'],
+		answer: 3
+  }
 ]

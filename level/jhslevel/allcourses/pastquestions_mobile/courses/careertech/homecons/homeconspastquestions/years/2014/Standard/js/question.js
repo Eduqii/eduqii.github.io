@@ -3,13 +3,13 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
+  	question:'To hold a lining onto a fabric temporarily, one can use',
+  	options:['basting', 'even tacking', 'tailor’s tacks', 'thread marking'],
   	answer:1
   },
   {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
+  	question: 'Which of the following stitches can be used to neaten raw edges of a set-in-sleeve?',
+	options:[ 'Feather','Fishbone', 'Herringbone', 'Loop'],
 	answer:0,
 	img: ''
   },

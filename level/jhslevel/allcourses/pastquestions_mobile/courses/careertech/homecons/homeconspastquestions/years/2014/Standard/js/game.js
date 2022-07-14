@@ -1,5 +1,4 @@
 
-
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
@@ -48,7 +47,7 @@ function getNewQuestion(){
 	for(let i=0; i<optionLen; i++){
 		availableOptions.push(i)
 	}
-	optionContainer.innerHTML = '';
+	optionContainer.innerHTML = ''
 	let animationDelay = 0.15;
 	//create options in html/php
 	for(let i=0; i<optionLen; i++){
@@ -193,4 +192,13 @@ function goToHome() {
 
 window.onload = function () {
 	homeBox.querySelector(".total-question").innerHTML = quiz.length;
+}
+
+// #### ENDING POINT ####
+
+   exitQuiz = e =>{
+
+   	// this function exits the page
+	return window.location.assign('../index.html');
+	
 }

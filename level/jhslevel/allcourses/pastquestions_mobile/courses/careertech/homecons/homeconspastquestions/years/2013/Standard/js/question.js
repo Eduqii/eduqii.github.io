@@ -3,145 +3,137 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
-  },
-  {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
-  },
-  {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
-  },
-  {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
+  	question:'Which of the stitches can be used to hold down a hem decoratively?',
+  	options:['Basting', 'Hemming', 'Herringbone', 'Overcasting'],
   	answer:2
   },
+  {	
+  	question: 'The advantage of buying food in bulk is that it',
+	options:[ 'becomes abundant','becomes cheaper', 'is easier to choose', 'is easier to store'],
+	answer:1
+  },
   {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
+  	question:'A balanced meal must contain',
+  	options:['food from each food group', 'little fat and oil only',
+		 'protective foods only',
+		 'protein foods only'],
+  	answer:0
+  },
+  {
+  	question:'Drawing and painting are grouped under',
+  	options:[ 'landscape',
+		 'still life',
+		 'three-dimensional work',
+		 'two-dimensional work'],
   	answer:3
   },
   {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
+  	question:'Identify the drawing tool from the following items',
+  	options:[ 'Crayon',
+		 'Paper',
+		'Palette',
+		 'Ruler'],
+  	answer:0
   },
   {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
+  	question: '<i>' + 'The figure below is a wooden block. Use it to answer Question' + '</i>' + 'Which of the following represents the front view in the direction of arrow Q?',
+		options: ['A',
+		 'B',
+		 'C',
+		'D'],
+		answer: 2,
+		img: 'https://eduqii.github.io/sharedassets/assets/2013econsques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2016econsques6options.png'
+  },
+  {
+  	question: '<i>' + 'The figure below is a wooden block. Use it to answer Question' + '</i>' + 'The plan is represented by',
+	 options: [ 'A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2013econsques6.png',
+  },
+  {
+  	question: 'A sole proprietor',
+		options: [ 'shares profit with friends',
+		 'shares profit with a partner',
+		 'takes decisions alone',
+		 'takes decision with his staff'],
 		answer: 2
   },
   {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
+  	question: 'The statement describing the problem in designing is referred to as',
+		options: ['design brief',
+		 'design process',
+		 'situation',
+		 'investigation'],
 		answer: 2
   },
   {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
+  	question: 'Which of the following is not a type of joint for fixing parts of furniture',
+		options: ['movable joints',
+		 'unmovable joints',
+		 'Temporary joints',
+		 'permanent joints'],
+		answer: 2
   },
   {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
+  	question: 'In oblique drawing one side of the object is inclined at an angle of',
+		options: ['30°',
+		 '45°',
+		 '60°',
+		 '90°'],
 		answer: 1
   },
   {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
+  	question: 'In a circuit diagram, current flows from',
+		options: ['neutral to negative',
+		 'neutral to positive',
+		 'positive to negative',
+		 'negative to positive'],
+		answer: 2
+  },
+  {
+  	question: 'Select a neutral colour from the options below',
+		options: ['blue',
+		 'orange',
+		 'red',
+		'white'],
+		answer: 3
+  },
+  {
+  	question: 'The first step in designing is',
+		options: ['choosing the right materials',
+		 'colouring the sketches',
+		 'identifying the problem',
+		 'making sketch models'],
+		answer: 2
+  },
+  {
+  	question: 'A dressmaker may also be skillful in' + '<br>'
+  	'I. embroidery making' + '<br>'
+  	'II. furnishing homes beautifully' + '<br>'
+  	'III. making beautiful paintings' + '<br>' +
+  	'IV. selecting materials for upholstery',
+		options: ['I, II and III only',
+		 'I, II and IV only',
+		 'I, III and IV',
+		 'II, III and IV only'],
+		answer: 1
+  },
+  {
+  	question: 'The basic items in a dressmaker’s shop include',
+		options: ['embroidery machine and tracing wheel',
+		 'long mirror and buttonhole maker',
+		 'neatening machine and long meter rule',
+		 'sewing machine and measuring tape'],
+		answer: 3
+  },
+  {
+  	question: 'The presser foot on the sewing machine',
+		options: ['controls the thread from the bobbin',
+		 'holds fabric in position',
 		 'Tin',
 		 ' Manganese',
 		 'Bauxite'],

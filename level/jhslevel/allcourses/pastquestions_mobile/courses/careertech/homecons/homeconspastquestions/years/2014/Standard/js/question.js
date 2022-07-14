@@ -10,348 +10,235 @@ const quiz = [
   {	
   	question: 'Which of the following stitches can be used to neaten raw edges of a set-in-sleeve?',
 	options:[ 'Feather','Fishbone', 'Herringbone', 'Loop'],
-	answer:0,
-	img: ''
+	answer:2
   },
   {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
+  	question:'The goiter on Evelyn’s neck is caused by lack of',
+  	options:['calcium', ' iodine',
+		 'protein',
+		 'vitamin'],
+  	answer:1
   },
   {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
+  	question:'Man-made elements represented in art include',
+  	options:[ 'branches',
+		 'rivers',
+		 'stones',
+		 'walls'],
   	answer:3
   },
   {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
+  	question:'The visitors’ book signed at exhibitions helps the exhibitor to know the',
+  	options:[ 'dignitaries who attended',
+		 'number of works in high demand',
+		'observations made about the work',
+		 'people who came'],
+  	answer:2
+  },
+  {
+  	question: '<i>' + 'Use the sketch below to answer question' + '</i>' + 'Which of the following represents the front view in the direction of arrow Z?',
+		options: ['A',
+		 'B',
+		 'C',
+		'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2014econsques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2014econsques6options6.png'
+  },
+  {
+  	question: '<i>' + 'Use the sketch below to answer question' + '</i>' + 'Which of the following represents the left end elevation in the direction of arrow X?',
+	 options: [ 'A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 2,
+		img: 'https://eduqii.github.io/sharedassets/assets/2014econsques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2014econsques7options.png',
+  },
+  {
+  	question: 'A place where art works are sold is',
+		options: [ 'an archive',
+		 'a gallery',
+		 'a museum',
+		 'a studio'],
 		answer: 1
   },
   {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
-  },
-  {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
-  },
-  {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
-		answer: 3
-  },
-  {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
-  },
-  {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
+  	question: 'In design, the conditions that the final solution must satisfy is termed',
+		options: ['investigation',
+		 'specification',
+		 'development',
+		 'analysis'],
 		answer: 1
   },
   {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
+  	question: 'Which of the following instruments is most suitable for drawing horizontal lines?',
+		options: ['Tee-square',
+		 'Protractor',
+		 'Compass',
+		 'Set-square'],
 		answer: 0
+
   },
   {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
+  	question: '<i>' + 'Figure 1 shows a design process. Use it to answer this question' + '</i>' + 'Figure 1 shows the method of',
+		options: ['specifying solutions',
+		 'stating specification',
+		 'evaluating artifact',
+		 'identifying needs'],
+		answer: 3,
+		img: 'https://eduqii.github.io/sharedassets/assets/beceHomeEcons20141112.png'
+
   },
   {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
+  	question: '<i>' + 'Figure 1 shows a design process. Use it to answer this question' + '</i>' + 'Which of the following design process stages follows the method shown in figure 1?',
+		options: ['Writing specifications',
+		 'Writing situation',
+		 'Analyzing a situation',
+		 'Sketching possible solutions'],
 		answer: 3
   },
   {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
-  },
-  {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
+  	question: 'Shading with lines is described as',
+		options: ['cross hatching',
+		 'hatching',
+		 'stippling',
+		'tonal value'],
 		answer: 1
   },
   {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
+  	question: 'Which of the following colours produces a feeling of warmth?',
+		options: ['Blue',
+		 'Green',
+		 'Violet',
+		 'White'],
+		answer: 2
   },
   {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
+  	question: 'Which of the following factors can cause a sewing business to collapse?',
+		options: ['Advertising',
+		 'Insurance',
+		 'Low sales',
+		 'Skilled labour'],
+		answer: 2
+  },
+  {
+  	question: 'Which of the following tools is used for drawing lines when drafting patterns?',
+		options: ['A pair of dividers',
+		 'A protractor',
+		 'Metre rule',
+		 'Tape measure'],
+		answer: 2
+  },
+  {
+  	question: 'It is better to use cotton fabrics for making specimen because it is',
+		options: ['beautiful',
+		 'dirt resistant',
+		 'durable',
+		 'easy to handle'],
+		answer: 2
+  },
+  {
+  	question: 'All vegetable fibres leave ………………… when burnt.',
+		options: ['ashes',
+		 'charcoal',
+		 'hard ball',
+		 'soft ball'],
 		answer: 0
   },
   {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
+  	question: 'The most suitable fabric for making a bed sheet is',
+		options: ['cotton',
+		 'nylon',
+		 'rayon',
+		 'silk'],
+		answer: 0
+  },
+  {
+  	question: 'One can make an embroidered table runner if he or she learns',
+		options: ['designing',
+		 'drawing',
+		 'sewing',
+		 'weaving'],
 		answer: 3
   },
   {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
+  	question: 'Which of the following measurement is needed when making a boy’s pair of shorts?',
+		options: ['Back length',
+		 'Chest',
+		 'Crotch',
+		 'Width'],
 		answer: 2
   },
   {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
-		answer: 3
-  },
-  {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
-		answer: 2
-  },
-  {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
-		answer: 2
-  },
-  {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
+  	question: 'The commonest collar on babies’ garment is',
+		options: ['Chinese',
+		 'Peterpan',
+		 'Shawl',
+		 'Shirt'],
 		answer: 1
   },
   {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
+  	question: 'Which of the following are portions of control equipment?' + '<br />' + 'I. Measuring cups' + '<br>' + 
+  	'II. Weighing scales' + '<br>' +
+  	'III. Polythene bags' + '<br>' +
+  	'IV. Empty tins' ,
+		options: ['I, II and III only',
+		 'I, II and IV only',
+		 'I, III and IV only',
+		 'II, III and IV only'],
+		answer: 1
+  },
+  {
+  	question: 'Moist heat causes ………………… to the human skin.',
+		options: ['bruises',
+		 'burns',
+		 'cuts',
+		 'scalds'],
 		answer: 3
   },
   {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
+  	question: 'Food preservation is the treatment given to foods to enable them stay fresh for',
+		options: ['a long time',
+		 'some days',
+		 'three days',
+		 'three weeks'],
 		answer: 0
   },
   {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
+  	question: 'The method of cooking in which heat travels directly to the food is',
+		options: ['baking',
+		 'boiling',
+		 'grilling',
+		 'stewing'],
 		answer: 2
-  } 
+  },
+  {
+  	question: 'The method of cooking which is fast but expensive to use is',
+		options: ['boiling',
+		 'frying',
+		 'grilling',
+		 'roasting'],
+		answer: 1
+  },
+  {
+  	question: 'Which of the following are reasons for cooking food? To' + 
+  	'<br>' + 'I. help food digest faster' + '<br>' +
+  	'II. make the food edible' + '<br>' +
+  	'III. make the food soft' + '<br>' +
+  	'IV. make the food last longer',
+		options: ['A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 0
+  },
+  {
+  	question: 'The most important factor to consider when planning meals is the',
+		options: ['appearance of the food',
+		 'family budget',
+		 'food available',
+		 'service of the food'],
+		answer: 1
+  }
 ]

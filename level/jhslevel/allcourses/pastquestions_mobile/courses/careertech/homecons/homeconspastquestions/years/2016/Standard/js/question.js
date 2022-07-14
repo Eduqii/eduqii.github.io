@@ -3,203 +3,188 @@
 //Array of Objects
 const quiz = [
   {
-  	question:'The colour used for showing rivers and lakes on topographical maps is',
-  	options:['red', 'blue', 'brown', 'green', 'yellow'],
-  	answer:1
+  	question:'The basic stitch which starts all crocheted articles is',
+  	options:['chain', 'cross', 'loop', 'stem'],
+  	answer:0
   },
   {	
-  	question: 'The vertical interval is',
-	options:[ '100 m','200 m', '300 m', '400 m', ' 500 m'],
-	answer:0,
-	img: ''
+  	question: 'A glass is best used to serve',
+	options:[ 'cream','drinks', 'ice-cream', 'yoghurt'],
+	answer:1,
   },
   {
-  	question:'The landform shown is a',
-  	options:['cliff', ' valley',
-		 ' ridge',
-		 ' plateau',
-		 'spur'],
-  	answer:4
+  	question:'Which of the following is inexpensive to use in the rural area?',
+  	options:['Coal pot', ' Electric cooker',
+		 'Gas cooker',
+		 'Kerosene stove'],
+  	answer:0
   },
   {
-  	question:'How many days does the earth take to complete its journey around the sun?',
-  	options:[ '360 ¼',
-		 ' 365',
-		 '365 ¼',
-		 '366',
-		 '366 ¼'],
-  	answer:2
-  },
-  {
-  	question:'The revolution of the earth around the sun is the main cause of',
-  	options:[ 'the rise and fall in the sea level',
-		 'day and night',
-		' changes in wind direction',
-		 'the four seasons',
-		 'changes in the direction of the ocean current'],
+  	question:'The visitors book signed at exhibitions help the exhibitor to know',
+  	options:[ 'the number of people who came',
+		 'how many works were sold',
+		 'the number of people who showed interest',
+		 'what people observed about the work'],
   	answer:3
   },
   {
-  	question: 'When it is 2:00 pm at a place on longitude 0°, the time at a place on longitude 45°W will be',
-		options: ['10:00 am',
-		 '11:00 am',
-		 '12:00 noon',
-		'4:00 pm',
-		 '5:00 pm'],
-		answer: 1
+  	question:'In drawing, objects nearer the viewer are in the',
+  	options:[ 'background',
+		 'foreground',
+		 'horizon',
+		 'middle ground'],
+  	answer:1
   },
   {
-  	question: 'When the sun is overhead on the Tropic of Capricorn, areas in the Southern Hemisphere experience',
-	 options: [ 'equinoxes',
-		 ' spring',
-		 'summer',
-		 'autumn',
-		 ' winter'],
-		answer: 2
+  	question: '<i>' + 'Use the sketch in Figure 1 to answer this Question' + '</i>' + 'Which of the following represents the front elevation in the direction of arrow Z?',
+		options: ['A',
+		 'B',
+		 'C',
+		'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2016ques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2016ques6options.png'
   },
   {
-  	question: 'Which of the following is not a coastal landform?',
-		options: [ ' Cliff',
-		 'Estuary',
-		 'Sandbar',
-		 'Lagoon',
-		 'Inselberg'],
-		answer: 0
+  	question: '<i>' + 'Use the sketch in Figure 1 to answer this Question' + '</i>' + 'Which of the following represents the left end elevation in the direction of P?',
+	 options: [ 'A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 1,
+		img: 'https://eduqii.github.io/sharedassets/assets/2016ques6.png',
+		img: 'https://eduqii.github.io/sharedassets/assets/2016ques7.png'
   },
   {
-  	question: 'A common feature found along the lower course of a river is a',
-		options: ['meander',
-		 'gorge',
-		 ' tributary',
-		 'waterfall',
-		 'mountain '],
-		answer: 0
-  },
-  {
-  	question: ' In which month was the highest rainfall recorded?',
-		options: ['April',
-		 'May',
-		 ' June',
-		 'July',
-		 'August'],
-		answer: 2
-  },
-  {
-  	question: ' The total amount of rainfall recorded for the year was',
-		options: [' 576 mm',
-		 ' 607 mm',
-		 '667 mm',
-		 '706 mm',
-		 '767 mm'],
-		answer: 0
-  },
-  {
-  	question: 'The annual range of temperature was',
-		options: [' 10 °C',
-		 '20 °C',
-		 ' 21 °C',
-		 '25 °C',
-		 ' 30 °C'],
-		answer: 0
-  },
-  {
-  	question: 'Which of the following statements best describes the position of Ghana?',
-		options: [' Ghana is to the east of the Republic of Togo',
-		 'Burkina Faso is the southern neighbour of Ghana',
-		 ' Ghana is to the immediate west of Niger',
-		'Ghana is to the immediate east of La Cote d‟Ivoire',
-		 'Ghana is boarded to the north by the Gulf of Guinea'],
+  	question: 'Rhythm, balance and emphasis are',
+		options: [ 'design processes',
+		 'elements of art',
+		 'idea developments',
+		 'principles of design'],
 		answer: 3
   },
   {
-  	question: ' The main vegetation types found in the Northern parts of Ghana is',
-		options: ['evergreen forest',
-		 ' mangrove swamp',
-		 'hot desert',
-		 'semi-deciduous forest',
-		 'savanna grassland'],
-		answer: 4
+  	question: 'The lines drawn above are',
+		options: ['diagonal',
+		 'parallel',
+		 ' vertical',
+		 'zigzag'],
+		answer: 1,
+		img: 'https://eduqii.github.io/sharedassets/assets/2016ques9.png'
   },
   {
-  	question: 'The hot dry winds that blow over most parts of Ghana during the harmattan are the',
-		options: ['south-west monsoon',
-		 'south easterly winds',
-		 ' north-westerly winds',
-		 'north-east trade winds',
-		 ' easterly winds'],
-		answer: 3
-  },
-  {
-  	question: 'The most important export commodity for Ghana is',
-		options: [' timber',
-		 ' cocoa',
-		 'coffee',
-		 '  pineapple',
-		' kola'],
-		answer: 1
-  },
-  {
-  	question: 'Which of the following minerals is not mined in Ghana?',
-		options: ['Gold',
-		 'Diamond',
-		 'Tin',
-		 ' Manganese',
-		 'Bauxite'],
-		answer: 2
-  },
-  {
-  	question: 'The main cause of the formation of the Volta Lake was the?',
-		options: ['construction of a dam across the Volta River',
-		 'generation of hydro-electric power from the Volta River',
-		 'oactivities of the fishermen along the Volta River',
-		 'construction of a bridge across the Volta River',
-		 'development of river transportation on the Volta River'],
+  	question: 'The final stage of the design process is the',
+		options: ['evaluation',
+		 'possible solutions',
+		 'specification',
+		 'working drawings'],
 		answer: 0
   },
   {
-  	question: ' Which of the following may help solve the problem of forest destruction in Ghana?',
-		options: [' Bush burning',
-		 ' Lumbering',
-		 'Mining',
-		 'Farming',
-		 'Afforestation'],
-		answer: 4
+  	question: 'Which of the following is not a method of recording a data for solving a design problem?',
+		options: ['Observation',
+		 'Photographs',
+		 'Sketches',
+		 'Write-up'],
+		answer: 0
   },
   {
-  	question: 'The most popular mode of transport in Ghana is by',
-		options: ['sea',
-		 'rail',
-		 'air',
-		 'road',
-		 ' river'],
+  	question: 'Which of the following joints will be suitable for a chair to be dismantled and reassembled?',
+		options: ['Nail lap joint',
+		 'Glued butt joint',
+		 'Glued screw joint',
+		 'Bolt and nut'],
 		answer: 3
   },
   {
-  	question: 'All the big textile factories in Ghana are located at',
-		options: ['Tamale',
-		 'Winneba',
-		 'Tema',
-		 'Kumasi',
-		 'Nsawam'],
-		answer: 2
+  	question: 'Figure 2 shows the surface development of a',
+		options: ['cylinder',
+		 'hexagonal prism',
+		 'hexagonal pyramid',
+		'square prism'],
+		answer: 1,
+		img: 'https://eduqii.github.io/sharedassets/assets/2018homeconsQ6options.png'
   },
   {
-  	question: ' Which of the following do people belonging to the same ethnic group in Ghana have in common?',
-		options: ['Clothes',
-		 'Language',
-		 'Name',
-		 'Occupation',
-		 ' Religion'],
+  	question: 'Select a shading style from the following options',
+		options: ['Glazing',
+		 'Hatching',
+		 'Sgraffito',
+		 'Sketching'],
 		answer: 1
   },
   {
-  	question: ' Which of the following is not associated with celebration of festivals in Ghana?',
-		options: [' Planning Developmental Projects',
-		 ' Cleansing Ancestral Stools',
-		 ' Feasting and Merry-making',
-		 'Paying homage of chiefg',
-		 'Establishing a new settlement'],
-		answer: 4
+  	question: 'A formal outlet for raising money to start a sewing business is',
+		options: ['a family member',
+		 'a rural bank',
+		 'money lenders',
+		 'the susuman'],
+		answer: 1
+  },
+  {
+  	question: 'The sewing machine should be inserted with the flat side facing the ……… of the machine.',
+		options: ['back',
+		 'front',
+		 'inside',
+		 'outside'],
+		answer: 0
+  },
+  {
+  	question: 'Which of the following items will be the basic tools needed for learning how to sew?',
+		options: ['Buttonhole scissors, pins and thread',
+		 'Metre rule, needles and shears',
+		 'Needles, tape measure and pins',
+		 'Pencil, pins and thread'],
+		answer: 2
+  },
+  {
+  	question: 'Which of the following fibres is obtained by retting?',
+		options: ['Cotton',
+		 'Jute',
+		 'Linen',
+		 'Sisal'],
+		answer: 2
+  },
+  {
+  	question: 'When making a French seam, start by placing ……………together.',
+		options: ['one wrong side against one right side',
+		 'two right sides',
+		 'two right sides folded edges',
+		 'two wrong sides'],
+		answer: 3
+  },
+  {
+  	question: 'The first line of stitching when making a French seam is done on the',
+		options: ['cutting line',
+		 'right side',
+		 'seam line',
+		 'wrong side'],
+		answer: 1
+  },
+  {
+  	question: 'The first line of stitching when making a French seam is done on the',
+		options: ['cutting line',
+		 'right side',
+		 'seam line',
+		 'wrong side'],
+		answer: 1
+  },
+  {
+  	question: 'Which of these pattern markings indicates seamline?',
+		options: ['A',
+		 'B',
+		 'C',
+		 'D'],
+		answer: 0,
+		img: 'https://eduqii.github.io/sharedassets/assets/2016homeconsques21options.png'
+  },
+  {
+  	question: 'Strips cut on the true cross of a fabric are usually suitable for curved edges because they',
+		options: ['are attractive',
+		 'are straight',
+		 'have the ability to stretch',
+		 'have very narrow widths'],
+		answer: 2
   },
   {
   	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',

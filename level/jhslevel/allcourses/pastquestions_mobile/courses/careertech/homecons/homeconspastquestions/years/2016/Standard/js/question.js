@@ -187,156 +187,67 @@ const quiz = [
 		answer: 2
   },
   {
-  	question: ' In the history of Ghana, Yaa Asantewaa is noted for the',
-		options: ['War of 1901',
-		 'Akatamanso war',
-		 'War of 1874',
-		 'Adaamanso war',
-		 'Feyiase war'],
+  	question: 'Which of the following tools should be used to remove fibre and nut from palm fruit liquid?',
+		options: ['Colander',
+		 'Metal sieve',
+		 'Perforated spoon',
+		 'Strainer'],
 		answer: 0
   },
   {
-  	question: 'The Mamprusi in Ghana are believed to have come from',
-		options: ['the Upper East Region',
-		 ' Western Region',
-		 ' southern Ghana',
-		 ' eastern part of Lake Chad',
-		 'western part of Lake Chad'],
+  	question: 'Kitchen hygiene includes',
+		options: ['using clean water for cooking',
+		 'washing hands before handling food',
+		 'washing utensils immediately after use',
+		 'wearing clean clothes'],
+		answer: 2
+  },
+  {
+  	question: 'Lack of calcium results in',
+		options: ['anaemia',
+		 'goiter',
+		 'marasmus',
+		 'rickets'],
 		answer: 3
   },
   {
-  	question: ' The Accelerated Development Plan of education was introduced in Ghana in 1951 for the following reasons except?',
-		options: [' reduction of primary school education to six years',
-		 ' setting up many teacher training colleges',
-		 ' reduction in the number of job opportunities for school leavers',
-		 ' helping of some workers study privately to enter universities',
-		 ' increasing of the number of university students'],
+  	question: 'The most expensive nutrient in the Ghanaian diet is',
+		options: ['carbohydrate',
+		 'fat',
+		 'protein',
+		 'vitamin'],
 		answer: 2
   },
   {
-  	question: 'The second Republic of Ghana covered the period',
-		options: [' 1957 to 1960',
-		 ' 1960 to 1966',
-		 '1966 to 1969',
-		 '1969 to 1972',
-		 '1972 to 1979'],
+  	question: 'For a hardboiled egg, cook between',
+		options: ['2 to 5 minutes',
+		 '5 to 6 minutes',
+		 '7 to 8 minutes',
+		 '8 to 10 minutes'],
 		answer: 3
   },
   {
-  	question: ' The struggle for the independence of Ghana from 1951 to 1957 was led by?',
-		options: [' Dr J.B. Danquah',
-		 ' Mr Ako Adjei',
-		 'Dr K.A. Busia',
-		 ' Mr K.A. Gbedemah',
-		 'Dr Kwame Nkrumah'],
-		answer: 4
-  },
-  {
-  	question: 'Who was the chairman of the Center for Civic Education in Ghana?',
-		options: [' Dr K.A. Busia',
-		 ' Mr Kojo Botsio',
-		 'Dr John Bilson',
-		 ' Mr A Casely-Hayford',
-		 ' Mr K.A. Gbedemah'],
-		answer: 0
-  },
-  {
-  	question: 'The 1979 Constitution of Ghana was the',
-		options:['  first after independence',
-		 ' second after independence',
-		 ' third after independence',
-		 ' fourth after independencee',
-		 ' fifth after independence'],
+  	question: 'Food retains most of the nutrients and flavor when it is',
+		options: ['boiled',
+		 'fried',
+		 'steamed',
+		 'stewed'],
 		answer: 2
   },
   {
-  	question: 'Trade between two countries is called?',
-		options: [' barter trade ',
-		 'surplus trade',
-		 ' domestic trade',
-		 'multilateral trade',
-		 'bilateral tradee'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following Educational Policies emphasized the education of the girl-child in Ghana??',
-		options: ['Education Act of 1961',
-		 ' Education Act of 1951',
-		 ' FCUBE of 1996',
-		 ' Education Reforms of 1987',
-		 ' New Reform of 1974'],
-		answer: 0
-  },
-  {
-  	question: ' Most of the lakes in East Africa were formed as a result of the?',
-		options: [' rift valley system',
-		 'fold mountain system',
-		 'action of volcanoes',
-		 ' action of wind',
-		 ' action of sea waves'],
-		answer: 0
-  },
-  {
-  	question: 'There is a large population of white settlers in the highland areas of East Africa mainly because',
-		options: [' of the beautiful natural scenery',
-		 'it is safe to travel along the steep slopes',
-		 'of the sunshine and warmth',
-		 ' of the availability of water',
-		 ' of the cool, healthy and pleasant environmente'],
-		answer: 4
-  },
-  {
-  	question: 'Which of the following African countries is a leading producer of cotton?',
-		options: [' Kenya',
-		 ' Malawi',
-		 'Egypt',
-		 'Zambia',
-		 ' Uganda'],
+  	question: 'When steaming',
+		options:['do not allow water to boil',
+		 'put the food in the boiling water.',
+		 'the boiling water must not touch the food.',
+		 'remove the food when water begins to boil'],
 		answer: 2
   },
   {
-  	question: ' Cotton is the raw material used in making',
-		options: [' paper',
-		 ' clothes',
-		 'shoes',
-		 ' cigarettes',
-		 ' furniture'],
+  	question: 'The elements of design which are readily noticed when a table is set for meals are',
+		options: ['lines and dots',
+		 'shape and colour',
+		 'texture and lines',
+		 'texture and shape'],
 		answer: 1
-  },
-  {
-  	question: ' All the following are metallic minerals except',
-		options: [' bauxite',
-		 ' copper',
-		 ' gold',
-		 'diamond',
-		 'manganese'],
-		answer: 3
-  },
-  {
-  	question: 'In which of the following countries is the system of apartheid commonly practiced',
-		options: ['Egypt',
-		 ' Mauritania',
-		 ' Kenya',
-		 ' Nigeria',
-		 'South Africa'],
-		answer: 4
-  },
-  {
-  	question: ' Which of the following organizations was set up mainly to help solve the problem of hunger and disease in the world?',
-		options: ['The FAO',
-		 'The ECA',
-		 'The UNDP',
-		 'The OAU',
-		 ' The UNHCR'],
-		answer: 0
-  },
-  {
-  	question: 'The UNO has all the following aims except',
-		options: ['maintenance of international peace and security',
-		 ' development of friendly relations among nations',
-		' removal of unpopular heads of states of member countries',
-		 ' solving international problems',
-		 'promotion of respect for human rights'],
-		answer: 2
-  } 
+  }
 ]

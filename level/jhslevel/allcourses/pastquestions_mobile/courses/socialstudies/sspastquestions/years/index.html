@@ -27,7 +27,8 @@
   border-right: 16px solid green;
   border-bottom: 16px solid red;
   width: 120px;
-  height: 120px;
+  max-width: 100%
+  height: auto;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -35,6 +36,10 @@
     display: none;
     /* text-align: center; */
   }
+ img{ 
+        max-width: 100%;
+        height: auto;
+      }
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
